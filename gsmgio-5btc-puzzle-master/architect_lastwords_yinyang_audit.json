@@ -1,0 +1,53 @@
+{
+  "schema": "architect-lastwords-yinyang-v1",
+  "derivation": {
+    "blue_sum": 484,
+    "yellow_sum": 479,
+    "zero_difference": 5,
+    "balanced": 479,
+    "architect_last_words_letters_length": 125,
+    "index_mod_125": 104,
+    "suffix": "asbothbeginningandend"
+  },
+  "candidate_count": 87,
+  "aes_padding_hits": [
+    {
+      "label": "beginningandend/zero5",
+      "pw": "sha",
+      "env": "chain2",
+      "digest": "sha256",
+      "len": 79,
+      "printable": 0.3291139240506329,
+      "head": "8a519b5e59265b55830b641b3b5c9e87f916fa16e1bed71a3bc13e6d42c3e95eb8c1736c5ae816d9c50599dc46a02cf1d8dc5d08b6f6e9ebaf8640cf"
+    },
+    {
+      "label": "asbothbeginningandend/5-prefix",
+      "pw": "raw",
+      "env": "chain1",
+      "digest": "md5",
+      "len": 79,
+      "printable": 0.3670886075949367,
+      "head": "948b3f4342cbf1b6f048675a4582d3bf69973fec204f2cff958880f686a0f21556b49fed1f63e6ce19f7ef6962abb550d09a389d48cbb0692825b59e"
+    },
+    {
+      "label": "asbothbeginningandend/yinyang-prefix",
+      "pw": "raw",
+      "env": "phase32",
+      "digest": "sha256",
+      "len": 2431,
+      "printable": 0.3755656108597285,
+      "head": "ac20766c449e7712cbeaf08616e5d037b879f98e9cb094635897bc2d17392c9c613b2d6b68ff409dab907ef7f8d9ffb86fb624894281d49da50767ff"
+    },
+    {
+      "label": "as both beginning and end/yellowblueprimes-suffix",
+      "pw": "sha",
+      "env": "chain1",
+      "digest": "md5",
+      "len": 79,
+      "printable": 0.3924050632911392,
+      "head": "02b144ff1b0e9f5747b301314c028ed18e294873142f13de70d443926782270ebde8796b13ff06b84a1f3d198375b1f14129e8a9974e62afbb0bb266"
+    }
+  ],
+  "prize_matches": [],
+  "status": "NO_MATCH"
+}

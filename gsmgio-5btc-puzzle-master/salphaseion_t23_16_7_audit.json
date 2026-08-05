@@ -1,0 +1,26 @@
+{
+  "schema": "salphaseion-t23-16-7-v1",
+  "control": {
+    "header": "HILLONE",
+    "middle_len": 276,
+    "trailer": "KG",
+    "mask": "10111100111110110110011",
+    "ones": 16,
+    "zeros": 7
+  },
+  "canonical": {
+    "sumlist": "jsvvkdfnhcxagmfdskpbnqk",
+    "begins": "jkkahdfbndlfgmlenkhqifl",
+    "ends": "jikklnkckdkhlghgdlhifim",
+    "edges": "jjkikkakhldnfkbcnkddlkfhglmglhegndklhhqiiffilm",
+    "Esum": "jvvkdhcxagfdkpqk",
+    "Psum": "sfnmsbn",
+    "Eedge": "jjkkakhldnnkddlkfhgllhegklhhfilm",
+    "Pedge": "kifkbcmgndqiif",
+    "Pallweave": "kfbmnqiiffopcgimhgficgloijmkgmmopojnimkpglnicifniggkmiicpeaffkjkpjlmggemmflmnlldgcmhhhinf"
+  },
+  "materials": 1248,
+  "unique_scalars": 1750,
+  "matches": [],
+  "status": "NO_MATCH"
+}

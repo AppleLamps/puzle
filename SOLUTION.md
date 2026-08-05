@@ -455,6 +455,78 @@ That negative is worth something: it is evidence for the other agent's own later
 pivot, that `matrixsumlist` names a straddling-checkerboard over-encryption step
 rather than an AES passphrase. No arrangement of the sum list is a password.
 
+## The missed `yinyang`: solved
+
+The earlier audit combined the right nouns with the wrong data structure. The
+creator's recipe applies directly to the 24 colour markers on the first poster.
+Assign the consecutive primes 2 through 89 to the markers in spiral order:
+
+```
+markers  BBBBYBBBYYBBBBYBBYYBYYBY
+
+blue     2 3 5 7 13 17 19 31 37 41 43 53 59 71 83       sum 484
+yellow   11 23 29 47 61 67 73 79 89                       sum 479
+```
+
+The equation is unbalanced by 5, and 5 is itself in the blue prime list.
+Applying the creator's explicit instruction that a character must be "zeroed
+out" therefore supplies a unique correction:
+
+```
+blue - 5 = 479
+yellow   = 479
+```
+
+That is the named `yinyang`: two opposite colour lists in exact balance. The
+cryptographic confirmation is unusually strong. Zero-based offset 479 in the
+independently recovered, authenticated Architect plaintext is the start of:
+
+```
+PRIVATEKEYYOUVEEARNEDITBUTPLEASETAKETHISTOHEART...
+```
+
+Thus the creator pipeline reaches exactly the promised giveaway without using
+Cosmic Duality, the community seven-XOR, base 38, or Chain 4. The coincidence
+claim is also falsifiable: `phase32_symbol_recovery.json` fixes the plaintext
+and its offset before this arithmetic is applied.
+
+### What the continuation fixes
+
+The `WISEMAN ABOVE` is Jacque Fresco, whose quote appears immediately above the
+Architect record:
+
+> The future is fluid. Each act, each decision, and each development creates
+> new possibilities and eliminates others. The future is ours to direct.
+
+After punctuation is removed but spaces are retained, it is exactly 140
+characters and 23 words. That explains both `HUNDRED FOURTY` and
+`TWENTYTHREE CIPHERS`.
+
+The creator twice singled out Neo's passport expiration date, 11-09-2001.
+Writing it as the 24-bit integer `0xA94021` and combining it with the complete
+poster marker word gives:
+
+```
+F73D92 XOR A94021 = 5E7DB3
+binary(5E7DB3) = 10111100111110110110011
+```
+
+The result has 23 bits, split into 16 ones and 7 zeroes, exactly matching
+`SIXTEEN ENCRYPTIONS` and `SEVEN INTERTWINED PASSWORDS`. Its zero positions
+select the quote words:
+
+```
+future / each / decision / possibilities / others / is / ours
+```
+
+This partition is structurally compelling, but the operation after the split
+is still underdetermined. The bounded audits test direct/raw/hash/heart/prime
+forms, beginning-and-end extraction, bitwise AND/OR, known classical
+Chaocipher/Bellaso/Porta/Vigenere/Beaufort forms, EC offsets, and ECDSA nonce
+interpretations. None reproduces either prize target. The honest result is
+therefore: **the second-door/yin-yang milestone is solved; the final private-key
+derivation is not yet solved.**
+
 # Phase 2 SOLVED, and a correction of my own errors
 
 The community repository (`gsmgio-5btc-puzzle-master`) landed, which let me audit

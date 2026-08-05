@@ -1,0 +1,197 @@
+{
+  "schema": "architect-beginning-end-v1",
+  "mask": "10111100111110110110011",
+  "encryptions": [
+    "the",
+    "is",
+    "fluid",
+    "each",
+    "act",
+    "and",
+    "each",
+    "development",
+    "creates",
+    "new",
+    "and",
+    "eliminates",
+    "the",
+    "future",
+    "to",
+    "direct"
+  ],
+  "passwords": [
+    "future",
+    "each",
+    "decision",
+    "possibilities",
+    "others",
+    "is",
+    "ours"
+  ],
+  "encryption_edge_forms": {
+    "pair": "teisfdehatadehdtcsnwadestefetodt",
+    "initials-finals": "tifeaaedcnaetftdesdhtdhtswdseeot",
+    "finals-initials": "esdhtdhtswdseeottifeaaedcnaetftd",
+    "pair-revchars": "etsidfhetadahetdscwndaseetefottd",
+    "reverse-pair": "dttofeteesadnwcsdtehadatehfdiste",
+    "reverse-pair-revchars": "tdotefetsedawnsctdhedatahedfsiet"
+  },
+  "password_edge_forms": {
+    "pair": "feehdnpsosisos",
+    "initials-finals": "fedpoioehnssss",
+    "finals-initials": "ehnssssfedpoio",
+    "pair-revchars": "efhendspsosiso",
+    "reverse-pair": "osisospsdnehfe",
+    "reverse-pair-revchars": "sosisospndheef"
+  },
+  "exact_32_ascii_keys": [
+    {
+      "label": "E/pair/lower/raw",
+      "key_hex": "7465697366646568617461646568647463736e776164657374656665746f6474",
+      "addr_u": "17YrbPJiJChvpViQCbhEuhSfCRRdzLRsc3",
+      "addr_c": "18WzWAgNzdfsK3DY9xQF3KqoaFRvyZ19zH"
+    },
+    {
+      "label": "E/pair/lower/raw",
+      "key_hex": "23ab6c196f612ac59532a8693c1fbc2b15a5db33f8276fb18a5da6750d39ba00",
+      "addr_u": "19xoaNocV7sbaZqRBYgRZp1ftPSwkxvHiG",
+      "addr_c": "191bcfB4bWP1zfgKAFFvGF24djgVjJpS7v"
+    },
+    {
+      "label": "E/pair/upper/raw",
+      "key_hex": "5445495346444548415441444548445443534e574144455354454645544f4454",
+      "addr_u": "1GQxYC8eDr1rtKx3LoRhjxDsvnLPS7g5qH",
+      "addr_c": "1MaFxxVx61vhWwG7Svnc4xifvA4LXygFRN"
+    },
+    {
+      "label": "E/pair/upper/raw",
+      "key_hex": "2e4d10b47283183bab21736a35e9b401749341dbc0d5a3caadc1d485770aa59b",
+      "addr_u": "193h6g6diFtBAcXorvnfEwsbfj2oBdBLMb",
+      "addr_c": "1AzUXPPXQSXKCeriNi4ceE1GnNQfJTYBcM"
+    },
+    {
+      "label": "E/initials-finals/lower/raw",
+      "key_hex": "7469666561616564636e61657466746465736468746468747377647365656f74",
+      "addr_u": "1GTPsEYkoW2aqcMX3xEZTJFeJx2Q7CqT6E",
+      "addr_c": "1Hqddg9hLuvjGYv5Qtx1bHaGzHnWoWTdRw"
+    },
+    {
+      "label": "E/initials-finals/lower/raw",
+      "key_hex": "6f768a8423389a47f961bd05d02de8bee4057953c355281434ca0e1fee2e5501",
+      "addr_u": "13Zw4VYGMSBYcBS7Kmg7SvGg5vx72TuMG1",
+      "addr_c": "1HkXbtmbA9gteosQ7T3x9xuidwggBaZc2q"
+    },
+    {
+      "label": "E/initials-finals/upper/raw",
+      "key_hex": "5449464541414544434e41455446544445534448544448545357445345454f54",
+      "addr_u": "1HcDdBRKHJKcDAVsYz6dZAbd4raYwVFV8h",
+      "addr_c": "19YjqqjRak1cYFCagyzLUBgcH46LwEpHdc"
+    },
+    {
+      "label": "E/initials-finals/upper/raw",
+      "key_hex": "548f11a0802baf992d68913242fc2d34b75e50ceae8ee865e37ffc89b8ee240e",
+      "addr_u": "1A8rTSCDn9H6JRiYX38jFtW4uoaGAnejC",
+      "addr_c": "12aX12eYJUCo1RS14TKVvCDYaarj9Sxvuj"
+    },
+    {
+      "label": "E/finals-initials/lower/raw",
+      "key_hex": "65736468746468747377647365656f747469666561616564636e616574667464",
+      "addr_u": "16Q5HvtMrTr63URCmdN54afnkZ17EobjKk",
+      "addr_c": "17n7yw9Ygebcu1V9ZVEwXiYePNmXbUQkWb"
+    },
+    {
+      "label": "E/finals-initials/lower/raw",
+      "key_hex": "38f528d54694f9a1e1e5e074a94ecec2aebdccb10c9d80d75bf84abe5c633b99",
+      "addr_u": "13ExxZ3FByJRhFg8nHrMWUv5yktf5nxZub",
+      "addr_c": "1E393HbZ6wyRhkjHrDMkHyM5A54vXWPLhW"
+    },
+    {
+      "label": "E/finals-initials/upper/raw",
+      "key_hex": "45534448544448545357445345454f545449464541414544434e414554465444",
+      "addr_u": "1Hxn4oW96en5wRLqC3fgmwPgQhDRchDP2y",
+      "addr_c": "1C4HnibaesKchhodgtqu6XbY5u7eNB1YMm"
+    },
+    {
+      "label": "E/finals-initials/upper/raw",
+      "key_hex": "14d76e933c37469c41d244e4102e33d6c06b0b4309e40516bcc41259d8aed5c7",
+      "addr_u": "14aKXq7LAzeYZYVJjwRDhs8FpxXYW28EWD",
+      "addr_c": "1CVzvsMcjHypk5Zyy64E7H2SdhLKm1pVCb"
+    },
+    {
+      "label": "E/pair-revchars/lower/raw",
+      "key_hex": "657473696466686574616461686574647363776e64617365657465666f747464",
+      "addr_u": "126Y5NTkR35HtJrg5N6VQ65eqYzCwo4fSy",
+      "addr_c": "1JzmRMS4i4VSzLXFMSkQ3FPmpPndkekNqA"
+    },
+    {
+      "label": "E/pair-revchars/lower/raw",
+      "key_hex": "3a9cb759856d61414729beda1a23db4b1d3e232a49818f51c695aef3ae0a574d",
+      "addr_u": "1CqkPnm3fXjxs5pZJQXSTpsUy1yT9p5NTw",
+      "addr_c": "1KVtn6K9ZMEf9BWqporrvwY6z7vdrs286L"
+    },
+    {
+      "label": "E/pair-revchars/upper/raw",
+      "key_hex": "455453494446484554414441484554445343574e44415345455445464f545444",
+      "addr_u": "1Ed4Gpj1kBiwymeyEeSEzsneLC4ztmcuMu",
+      "addr_c": "1Gt1dZzigqvzyJNj25XvpxmpKrrVavD4at"
+    },
+    {
+      "label": "E/pair-revchars/upper/raw",
+      "key_hex": "7453ca2dfb12136ea5839aaab6b236f8240e2bf5b53d728a344cd7e66f33c4b2",
+      "addr_u": "1AYUGa5E8EcbaRp8oMuXbDmooULfMr8rBe",
+      "addr_c": "19T9vHfo5u65pW87BtGofDYc4Z5AuYYqWp"
+    },
+    {
+      "label": "E/reverse-pair/lower/raw",
+      "key_hex": "6474746f66657465657361646e77637364746568616461746568666469737465",
+      "addr_u": "16Ys8TmcXvpygwFXy1axWGkTTmGXMgb1ti",
+      "addr_c": "1HWhej9w6o8NT34Gv5457bbs7VCorTQWFp"
+    },
+    {
+      "label": "E/reverse-pair/lower/raw",
+      "key_hex": "7bd125fd1df11a974a3fa20867ed320b29af3620b981893082234709114e7984",
+      "addr_u": "19jQFfwYLKLcsatVtSXsSkRDE7U76MoXJg",
+      "addr_c": "1C2DhhscUV3E88izmu9AHpsNvC3aMHw9kF"
+    },
+    {
+      "label": "E/reverse-pair/upper/raw",
+      "key_hex": "4454544f46455445455341444e57435344544548414441544548464449535445",
+      "addr_u": "1DZKZG111yQbLcMbmdgLk8pap6dE6fzd38",
+      "addr_c": "19dpGhu9ksqkn7ppjcSbgUxr8f6RV9nUNS"
+    },
+    {
+      "label": "E/reverse-pair/upper/raw",
+      "key_hex": "b1384b56efcb0a3d6ac4d91fd18f7849a8a446b94b92ea19ea083d2aeefa2f85",
+      "addr_u": "1A4VPixeCAKXFrTMn5p53wzZ4xD3rxPQiW",
+      "addr_c": "1J8cvgHRXUGDHZvReVzUAehYTs2z9fA981"
+    },
+    {
+      "label": "E/reverse-pair-revchars/lower/raw",
+      "key_hex": "74646f746566657473656461776e736374646865646174616865646673696574",
+      "addr_u": "1B4RBMZgMpRkfbjTK2T2413bLyMMHAsggB",
+      "addr_c": "1MXBPqnGPuDWJEBAdWNtzKS2xZu9xALYLX"
+    },
+    {
+      "label": "E/reverse-pair-revchars/lower/raw",
+      "key_hex": "99d163b43d98518a9cc4c1cc80bd5b798dc9446e6251481df8cdb4dda19f9220",
+      "addr_u": "1ANgEA1BxEQw62LFe5U5Tq2DLqTiVSYryg",
+      "addr_c": "1Be5NBg7wctaCyYL7qfhjocTbDgjfqgUja"
+    },
+    {
+      "label": "E/reverse-pair-revchars/upper/raw",
+      "key_hex": "54444f544546455453454441574e534354444845444154414845444653494554",
+      "addr_u": "18tFknWdw5h6vCqoXJWnF9bEsYq7WQ1MAa",
+      "addr_c": "1AXsEaVfsj3HwMH5Xv5SX8nEkA4Q5CeHiD"
+    },
+    {
+      "label": "E/reverse-pair-revchars/upper/raw",
+      "key_hex": "f33e4adc2a57a26cf2aca17554dfa6eccaba10af9e27a627dd9bba4a863dbbf9",
+      "addr_u": "1MGLVNpsWw5w3geEHA5rXD9VTDGft1NZbG",
+      "addr_c": "1449D3v4tvGAitFUAmeZ14iXMrsKhK17qx"
+    }
+  ],
+  "materials": 624,
+  "unique_scalars": 1080,
+  "matches": [],
+  "status": "NO_MATCH"
+}

@@ -27,9 +27,13 @@ work and is treated here as hypothesis, however often it is repeated.
 | 2021-03-14 | "Breaking salphation should be **giving the feeling of the phase's name**." |
 | 2021-12-02 | "There is / Another / D O O R" |
 | 2021-12-25 | "The previous 'there is another door hint' is still a thing. We're not sure if anyone has found another door so far … **prime numbers** … that is definitely an aspect which is required to proceed. Furthermore, along the way, **some characters need to be 'zeroed out'**." |
+| 2021-12-31 | "The only date I give away is the **expiry date of Neo's passport**." (`11-09-2001`) |
 | 2023-01-09 | "At least **prime number is very important** to get any further." |
 | 2023-02-23 | an encoded image decoding to the pipeline below |
+| 2023-05-02 | "Still remarkable that scene. Especially the **expiration date of his passport**." |
 | 2023-08-03 | "Are you really looking for just the btc…?" and "Actually, **the hardest part is done**." |
+| 2023-08-06 | "Once you hit a **ying yang**, you'll be able to solve it the same day." |
+| 2025-04-28 | "Did anyone found yingyang? I don't think so … when yingyang is reached, **2 hours max**." / "It's the next phase." |
 
 The 2023-02-23 post is the single most valuable creator artifact, because it is
 the creator describing his own construction:
@@ -84,10 +88,59 @@ base38 / half‑arithmetic loops after already knowing Cosmic was unauthenticate
 underweighting red/roses, primes+zeroing, off‑white `(7,4)`, 86=86 dual, and
 alternate spiral readings on the poster.
 
-**Corrected surface:** second door on `puzzle.png` /
-`follow_the_white_rabbit.png` under yellow/blue/red + primes + zeroing →
-something he would call **yinyang** → then the short giveaway. Cosmic AES /
-Chain4 / base38 are closed negatives, not the next lock.
+**Corrected surface, now solved through the named milestone:** the 24 direct
+poster colours assigned to the first 24 primes give Blue = 484 and Yellow =
+479. Their imbalance is the blue prime 5. Zeroing 5 gives **479 = 479**, a
+literal yin-yang balance. Zero-based character 479 of the authenticated
+Architect plaintext is exactly the `P` of `PRIVATEKEY...`. Cosmic AES /
+Chain4 / base38 were not needed to reach this result.
+
+## The missed construction
+
+The creator's words now have one compact, reproducible reading:
+
+```
+yellow / blue / primes:
+  BBBBYBBBYYBBBBYBBYYBYYBY
+  consecutive primes 2..89
+
+matrix sum list:
+  Blue   = 2+3+5+7+13+17+19+31+37+41+43+53+59+71+83 = 484
+  Yellow = 11+23+29+47+61+67+73+79+89                = 479
+
+zero out:
+  484 - 479 = 5
+  5 is itself a blue-list prime
+  zero it: Blue = 484 - 5 = 479
+
+yinyang:
+  479 = 479
+
+giveaway in front of our eyes:
+  authenticated Architect plaintext[479:] =
+  PRIVATEKEYYOUVEEARNEDITBUTPLEASE...
+```
+
+This is not a scored near-match. All operands are direct artifact values, the
+zero is uniquely supplied by the imbalance, and the resulting index lands on
+the exact phrase promised by the creator. It explains why broad first-grid
+duality and yellow-bit-flip searches failed: yin-yang is the **balanced prime
+sum**, not a black/white pixel transform.
+
+The continuation also authenticates two more old clues. The Jacque Fresco quote
+immediately above the Architect record has exactly **23 words** and exactly
+**140 characters** after punctuation is removed while spaces remain, explaining
+`WISEMAN ABOVE` and `HUNDRED FOURTY`. The creator-emphasised passport date is
+prime and, as the 24-bit integer `0xA94021`, gives:
+
+```
+F73D92 XOR A94021 = 5E7DB3
+5E7DB3 = 10111100111110110110011  (23 bits: 16 ones, 7 zeroes)
+```
+
+That matches the authenticated `TWENTYTHREE CIPHERS / SIXTEEN ENCRYPTIONS /
+SEVEN INTERTWINED PASSWORDS` language and partitions the 23-word quote. It does
+not yet specify the final cipher/key operation uniquely.
 
 ## What follows, and what has to be fixed
 

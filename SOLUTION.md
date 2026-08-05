@@ -439,6 +439,42 @@ page itself opens `"1... are you looking for the private keymaker?"`, so clues
 Phillip Price is that show's E Corp CEO. "Crypto finally to the latin 3Moon"
 wants **luna**.
 
+## The seven parts are numbered in the text
+
+Phase 2 ends "--> parts 1..7 --> sha-256 -> dgst", and the creator marks each one
+with a digit glued to the front of a word. Scanning the page plus the decrypted
+part 1 for that pattern finds exactly five, and the two remaining requests follow
+the last of them:
+
+| part | marker | what it asks for |
+| --- | --- | --- |
+| 1 | `"1... are you looking for the private keymaker?"` | granted by the blob `causality` opens |
+| 2 | `The ironic 2name of the keymakers` | the ironic **name** of the keymakers |
+| 3 | `Crypto finally to the latin 3Moon?` | latin for **moon**, so `luna` |
+| 4 | `Tell me, 4How so mate?` | **how** so, mate |
+| 5 | `The 5binary code is a part of the piece` | the **binary** code, Executive Order **11110** |
+| 6 | (no marker) | genesis "raw data after 4 on row 1616" |
+| 7 | (no marker) | the chess "next situation" |
+
+That accounts for all seven, and it explains the odd typography: `2name`,
+`3Moon`, `4How`, `5binary` are not typos but indices. Parts 2-5 all live inside
+the part 1 plaintext, which is why the keymaker blob had to be opened first.
+
+Three of the seven are effectively settled — part 3 is `luna`, part 5 is `11110`,
+and part 1 is whatever `# X 2 S H 4 Y 0 Q B 15 #` resolves to with `S = 32` and
+`B = 49`. The two section markers are consistent with this: `/(aaa, connected
+enf)` describes part 1 as lower case and written without separators, while
+`/(aBa, connected enf)` and `/(aBa, connected not enf)` describe the mixed-case
+parts and the chess answer, where a FEN's spaces need not be stripped.
+
+Because the phase 3 URL exposes `sha256(parts 1..7)` =
+`89727c59…52f6a32`, any candidate assembly can be checked instantly. That turns
+the rest of phase 2 into a search with a hard test at the end rather than a
+guess.
+
+Note the genesis block's raw serialisation is 285 bytes, i.e. **570 hex
+characters** — the exact length of phase 3's S570 field.
+
 ## What the breakthrough rules out for the other blobs
 
 `causality` is an ordinary English word taken from the film the puzzle quotes,

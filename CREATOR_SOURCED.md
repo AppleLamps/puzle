@@ -371,3 +371,84 @@ from public envelopes (`salphaseion_79_anchor_hunt.json`).
    chain1/2/cosmic triplets.
 3. Witteveen / *Heart of Sufism* as the “obscure intel” prize versus a still-
    unknown transform into the BTC scalar.
+
+## Independent re-parse (avoiding public Cosmic / Chain4 lore)
+
+Rebuilt the SalPhaseIon textarea from the archived HTML only. All 1075 tokens
+are single characters. The mechanical fields are:
+
+```
+S91 | AB1→"matrixsumlist" | S570
+| z + ai/o → "lastwordsbeforearchichoice"
+| z + ai/o → "thispassword"
+| z + "shabefourfirsthintisyourlastcommand"
+| b64 #1 → OpenSSL env48 (Salted__, salt 3ab585348552415d)
+| AB2→"enter"
+| b64 #2 → raw 48 bytes (no Salted__ header)
+| "shabefanstoo"
+```
+
+The community `extract` path **deletes** the middle `enter` marker and glues the
+two base64 runs into one 96-byte envelope. That glued blob *does* open with the
+instruction-joke password
+
+`matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist`
+
+to a 79-byte record whose first-32 WIF opens the phase-3.2 trailing blob — so
+the glue path is self-consistent. Separately, **env48 alone does not** open with
+that same password. Treating env48 and raw48 as two locks (“sha256 answer too”)
+has not yet yielded an authenticated second plaintext. Padding hits on env48
+(`hashthetext`, etc.) sit inside the ~0.4% MD5-EVP false-positive rate and do
+not unlock raw48 or Cosmic under sha256 of the candidate plaintext.
+
+### Cosmic without semantic tokens
+
+The public Cosmic password XOR uses `yourlastcommand` and `secondanswer`, which
+are **not** alphabet-decoded from the page. Replacing them with literal fields
+(`hashthetext` / `HASHTHETEXT` / `sha256answertoo` / `SalPhaseIon` /
+`shabefanstoo`) and with the creator’s seven pipeline words produces no new
+authenticated Cosmic plaintext beyond the known 7-XOR and chance-level padding
+hits. In particular `sha256("yin") XOR sha256("yang")` opens Cosmic under MD5
+EVP, but random two-word XOR pairs hit at ~0.6% on the same blob — same class of
+evidence as other padding luck. Cosmic sha256-EVP false positives are rarer
+(~0.26%); `SalPhaseIon` as a raw sha256-EVP password is one such hit and is
+**not** treated as yin-yang.
+
+### First-image yin-yang that public Cosmic work skipped
+
+On `follow_the_white_rabbit.png`, majority-colour sampling gives **exactly 86
+black cells and 86 white/off-white cells**. Blue=15, yellow=9. That equal black/
+white split is a literal duality on the artifact the creator keeps pointing at,
+and it does not depend on Cosmic or Chain 4. The off-white cell remains at
+grid `(7,4)`, spiral index 163 (0-based), still the only near-invisible anomaly.
+Seven rabbit-nest cells are impure (two colours only). Geometric dual hashes,
+Half-point tweaks by image scalars (86, F73D92, spiral index, …), and
+pipeline-suffix brainwallets still miss both prize addresses.
+
+Door-1 spiral still reads `gsmg.io/theseedisplanted` with off-white as white;
+forcing it as 1 yields `…pla~ted`. Reverse-spiral / prime-zeroed bitstreams do
+not produce a second URL or prize key in the trials run here.
+
+### X2SH endgame (from causality plaintext, not Cosmic)
+
+The keymaker block `# X 2 S H 4 Y 0 Q B 15 #` is **not** required to open phase 3
+(the SafenetLunaHSM concatenation already does). Chat-era claims that solving it
+*is* solving the puzzle remain plausible as an endgame. Independently:
+
+| var | reading | value |
+| --- | --- | --- |
+| S | Klingon `cha'+(vagh*jav)` | 32 |
+| B | `(5i - i)^2` from the serial/`sqrt(-1)` clue | −16 |
+| Q | Mr Robot fish `qwerty` → `qwertyuiop`; numbers above I,W | 82 or 28 |
+| H | “Answer to only this puzzle but nothing else” × −1 | **unsolved** (not 42 by the wording) |
+| Y | no direct clue (keyboard-above-Y = 6 is a guess) | **unsolved** |
+
+“Worst gear on the highway” = reverse. Large concatenations / polynomials /
+sha256 of filled templates over the plausible (H,Y,Q) grid — **0** prize matches.
+H = −86 (from the B/W balance) was included; still nothing.
+
+### Prize addresses (still funded)
+
+Half `1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe` ≈ 1.256 BTC remaining (pubkey known).
+Better `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` ≈ 3.751 BTC, never spent.
+No candidate from this re-parse hits either address.

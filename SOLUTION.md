@@ -490,6 +490,52 @@ page itself opens `"1... are you looking for the private keymaker?"`, so clues
 Phillip Price is that show's E Corp CEO. "Crypto finally to the latin 3Moon"
 wants **luna**.
 
+## The `/(...)` markers are answer-format specs, and `causality` proves it
+
+The three bracketed notes are not decoration. Their placement in the page is
+decisive — the first sits immediately *above* the cipher line and the blob:
+
+    5 | /(aaa, connected enf)
+    6 | Ciphered with aes-256-cbc /w base64 sha-256(password)
+    7 | [BLOB]
+
+So it describes the **password of the blob that follows**, and we now know that
+password independently: it is `causality`. All lower case — `aaa`. One
+unseparated word — `connected enf`, i.e. connection *enforced*. The notation
+matches the recovered answer exactly.
+
+That is the first empirical validation of this notation, and it was only possible
+after the blob opened. It fixes the meaning of the other two:
+
+| marker | governs | reading |
+| --- | --- | --- |
+| `/(aaa, connected enf)` | the keymaker password | lower case, no separators → `causality` ✅ |
+| `/(aBa, connected enf)` | the Norton/JFK and genesis answers | mixed case, no separators |
+| `/(aBa, connected not enf)` | the chess answer | mixed case, separators **kept** |
+
+The third one is why part 7 is a FEN written out in full: "connection not
+enforced" is exactly how you would license the spaces in
+`6KR/1B5B/… b - - 0 1`, and it is the only one of the three that says so.
+
+## The on-chain messages are closed out
+
+Of the 41 distinct OP_RETURN payloads on the two prize addresses, only one is not
+plain ASCII: `▬→♀→→→▬♀♫↕→→‹` from 2025-03-13, which is deliberate Unicode rather
+than mis-decoded bytes. Its `♀` fits the same solver's other messages — "The
+answer is women", "Happy late mothers day!" — someone riffing on the Architect's
+"16 female, 7 male".
+
+The one message that looked like it carried data,
+`FromN0EHalfABetterHalfBuiltItBellaCiao1_1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ`,
+embeds a valid address. It is a **2025 solver's own address**: first seen
+2025-12-30, the same day as the message, 8 transactions, 0.00033914 BTC of dust.
+"From N0E … Bella Ciao" is a signature, not a clue. The two hex payloads
+(`844e86a69a04eea672049e0e0e8612`, `673b7b4b67571b1b4b`) decode to 15 and 9
+bytes of nothing.
+
+So apart from `Halving` in 2020, the entire corpus is solver traffic and can be
+set aside.
+
 ## The seven parts are numbered in the text
 
 Phase 2 ends "--> parts 1..7 --> sha-256 -> dgst", and the creator marks each one

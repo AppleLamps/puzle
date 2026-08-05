@@ -1,8 +1,15 @@
-# Solution: `follow_the_white_rabbit.png`
+# GSMG puzzle solutions
+
+| stage | source | answer |
+| --- | --- | --- |
+| `gsmg.io/Puzzle` | `follow_the_white_rabbit.png` | `gsmg.io/theseedisplanted` |
+| `gsmg.io/theseedisplanted` | eight rebus tiles | `cryptologicwarningcanyoudigit` |
+
+Run `python3 solve.py` for stage one and `python3 solve_rebus.py` for stage two.
+
+# Stage one: `follow_the_white_rabbit.png`
 
 **Answer: `gsmg.io/theseedisplanted`**
-
-Run `python3 solve.py` to reproduce it from the image.
 
 ## What the files are
 
@@ -88,3 +95,82 @@ of an inner ring, on the same row as and just left of the rabbit drawing.
 It is the white rabbit: a white cell that is not quite white, invisible unless you
 sample the pixels, placed on the leg of the spiral that runs *down the left side* —
 the one non-obvious choice in the reading order.
+
+# Stage two: `gsmg.io/theseedisplanted`
+
+**Answer: `cryptologicwarningcanyoudigit`** — "cryptologic warning, can you dig it".
+
+Run `python3 solve_rebus.py` to reproduce the pairing from the images.
+
+## What the page is
+
+`GSMG Puzzle2.html` is an archived copy of `gsmg.io/theseedisplanted`, the URL
+stage one decoded. Its body is eight `<img>` tags and nothing else visible. The
+one other element is a form hidden with `display: none`:
+
+```html
+<form method="POST" action="https://gsmg.io/phase1verification">
+<input type="password" name="password">
+```
+
+So the eight images have to spell a password. None of the PNGs carries metadata
+or trailing bytes, so the answer is in the pixels.
+
+## The tiles
+
+Each image is a ~70x70 block of flat colour, 70px tall, holding up to two
+elements stacked vertically — pictograms and letter fragments:
+
+| file | pictogram / symbol | letters (top, bottom) |
+| --- | --- | --- |
+| `black_banking - war` | bank ($ in a building) | —, `war` |
+| `blue_ca` | — | `CA`, — |
+| `blue_dig_i` | plus sign | `dig i`, — |
+| `blue_lock_lo` | closed padlock | —, `lo` |
+| `red_crypto_gic` | — | `crypto`, `gic` |
+| `red_n_you` | — | `n you`, — |
+| `red_open_lock_n_ing` | open padlock | —, `n ing` |
+| `red_t` | minus sign | `t`, — |
+
+## How they pair up
+
+The padding gives the layout away. On the black and blue tiles the colour block
+is flush against the **left** edge with white left over on the right; on the red
+tiles it is the mirror image, flush **right** with white on the left. That is
+what you get by cutting a `[blue-or-black block][gutter][red block]` line
+through the middle of its gutter, so the original image was four such lines and
+each line is one blue-or-black tile plus one red tile.
+
+Reading a pair's letters in normal order — top line left to right, then bottom
+line left to right — gives one word per pair, and **only one of the 24 possible
+pairings spells a word every time**:
+
+```
+blue_ca              + red_n_you             ->  CA  + n you           = CAN YOU
+blue_dig_i           + red_t                 ->  dig i + t             = DIG IT
+blue_lock_lo         + red_crypto_gic        ->  crypto + lo + gic     = CRYPTOLOGIC
+black_banking - war  + red_open_lock_n_ing   ->  war + n + ing         = WARNING
+```
+
+The pictograms and symbols are illustrations of the word on their own line, not
+letters: a closed padlock for CRYPTOLOGIC, a bank beside a sprung padlock for
+WARNING, and plus/minus signs for DIG IT. Every letter fragment is consumed
+exactly once, and the count of `n` fragments (two, one in `n you` and one in
+`n ing`) is exactly what CAN and WARNING need between them — which is what
+forces this partition and rules out readings like `unlocking` or `warn you`.
+
+## The one judgement call
+
+The four words are forced, but nothing in the tiles fixes which line came first,
+since the crops carry no vertical ordering information. Read as English the
+natural sentence is a header followed by a taunt:
+
+> cryptologic warning — can you dig it?
+
+giving `cryptologicwarningcanyoudigit`. The alternative ordering,
+`canyoudigitcryptologicwarning`, uses the same four words and reads less
+naturally; `canyoudigit` on its own is a third possibility if only the question
+is wanted.
+
+Note the continuity with stage one: `the seed is planted`, and now `can you dig
+it` — the same gardening pun, which is a good sign the words are right.

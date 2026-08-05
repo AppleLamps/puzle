@@ -670,8 +670,15 @@ and the full FEN, two sweeps have now run:
 | digit renderings, X/Y/Q over 0-9 | 159 keymaker names | 81 candidates | 25,758,000 |
 | letter-mapped template, X/Y over a-z, H = ±42, Q ∈ {9,3,2}, four zero handlings, both directions, plus the digit family | 142 keymaker names | 66 candidates | 322,846,656 |
 
-**No match**, at about 1.5 million assemblies per second, with a self-test
-confirming the harness detects a correct assembly.
+A third sweep tested a new reading of part 4: "Tell me, 4How so mate?" asking for
+the *mating move* rather than a phrase. `Bxb7` is attractive because it is
+literally the `aBa` pattern the section marker specifies — capital, lower, lower.
+With nine spellings of that move against 374 names and the same part 1 families,
+another 88,646,976 assemblies fell.
+
+**No match in any of the three, about 437 million assemblies in total**, at
+roughly 1.5 million per second, with a self-test confirming the harness detects a
+correct assembly.
 
 That is a real constraint rather than a shrug. Either one of the four settled
 parts is being written in the wrong form — case, separators, or the FEN's

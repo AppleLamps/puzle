@@ -2,6 +2,9 @@ from __future__ import annotations
 
 import unittest
 
+from solver.architect_source_prime_reinsertion_audit import (
+    run as run_architect_source_prime_reinsertion_audit,
+)
 from solver.chain4_completed_triangle import run as run_completed_triangle
 from solver.chain4_split_audit import run as run_split_audit
 from solver.door2_formula_audit import run as run_door2_audit
@@ -14,6 +17,13 @@ from solver.xor_triangle_audit import run as run_triangle_audit
 
 
 class FrontierExperimentTests(unittest.TestCase):
+    def test_architect_source_prime_reinsertion_preregistered_family(self) -> None:
+        result = run_architect_source_prime_reinsertion_audit()
+        self.assertEqual(result["schema"], "architect-source-prime-reinsertion-v1")
+        self.assertEqual(result["candidate_records"], 168)
+        self.assertEqual(result["status"], "COMPLETE_NO_MATCH")
+        self.assertEqual(result["matches"], [])
+
     def test_exact_gate_rejects_known_non_target(self) -> None:
         self.assertFalse(_target_match(1))
 

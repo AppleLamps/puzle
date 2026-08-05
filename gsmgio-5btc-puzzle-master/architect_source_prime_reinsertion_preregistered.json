@@ -1,0 +1,66 @@
+{
+  "schema": "architect-source-prime-reinsertion-v1",
+  "purpose": "Test the literal post-479 Architect sequence RETURN TO THE SOURCE CODES / REINSERTING THE PRIME BASICS on the authenticated pre-Beaufort record without Cosmic or community-only operands.",
+  "frozen_inputs": {
+    "raw_record_length": 1539,
+    "raw_record_sha256": "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b",
+    "transliteration_length": 1539,
+    "transliteration_sha256": "6d66e0e0e2dfdb812d5ecee2be6f54c1f3b8c84b0d74580686cf2053d76a200e",
+    "phase32_ascii_hex_password": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c",
+    "beaufort_key": "THEMATRIXHASYOU",
+    "poster_marker_colors": "BBBBYBBBYYBBBBYBBYYBYYBY",
+    "first_24_primes": [
+      2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37,
+      41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89
+    ],
+    "half_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+    "better_half_hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6"
+  },
+  "layers": [
+    "raw 1539-byte source record",
+    "published one-byte-per-symbol a-z transliteration"
+  ],
+  "index_bases": [
+    "zero-based: use source position p",
+    "one-based: use source position p-1"
+  ],
+  "prime_operations": {
+    "select": "concatenate bytes at the 24 prime positions",
+    "select-zero-5": "same selection with the contribution assigned prime 5 omitted",
+    "xor-prime": "copy the full layer and XOR each selected byte with p mod 256",
+    "color-lsb": "copy the full layer and set the selected byte LSB for blue or clear it for yellow"
+  },
+  "dissemination": {
+    "identity": "leave operation output unchanged",
+    "xor-phase32-password": "XOR with the exact 64 ASCII password bytes, cycled",
+    "xor-beaufort-key-digest": "XOR with SHA-256(ASCII THEMATRIXHASYOU), cycled"
+  },
+  "scalar_extraction": {
+    "all_outputs": [
+      "SHA-256(output)"
+    ],
+    "full_outputs": [
+      "first 32 bytes",
+      "last 32 bytes",
+      "bytes 479:511"
+    ],
+    "short_outputs": [
+      "left-zero-pad to 32 bytes",
+      "right-zero-pad to 32 bytes"
+    ],
+    "byte_order": "big-endian only",
+    "modulo_reduction": false
+  },
+  "acceptance": {
+    "half": "derived uncompressed secp256k1 public key exactly equals the frozen Half public key",
+    "better_half": "hash160 of a valid compressed or uncompressed derived public key exactly equals the frozen Better Half hash160",
+    "non_acceptance": [
+      "vanity-prefix similarity",
+      "padding-only AES hits",
+      "solver-authored addresses",
+      "Cosmic or Chain 4 structure"
+    ]
+  },
+  "expected_candidate_records": 168,
+  "scope_note": "A complete negative closes only these literal select/mutate/disseminate/extract operations. It does not disprove every possible meaning of source codes or prime basics."
+}

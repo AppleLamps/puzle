@@ -163,6 +163,57 @@ exactly once, and the count of `n` fragments (two, one in `n you` and one in
 `n ing`) is exactly what CAN and WARNING need between them — which is what
 forces this partition and rules out readings like `unlocking` or `warn you`.
 
+## The `11092001` XOR construction: verified, and a real improvement
+
+The transcript's newest step is `F73D92 XOR 11092001 = 5E7DB3`, whose 23
+significant bits hold 16 ones and 7 zeros. Every part of that checks out:
+
+- `11092001` is **prime**, is exactly **24 bits** (`0xA94021`), and has popcount 7.
+- `0xF73D92 ^ 0xA94021 = 0x5E7DB3`, binary `10111100111110110110011`.
+- That is 23 bits with **16 ones and 7 zeros**, matching the Architect's literal
+  line: "you will select from the Matrix 23 individuals, 16 female, 7 male".
+- Jacque Fresco's quote is exactly **23 words** and exactly **140 characters**
+  without punctuation, and the seven zero-bit positions select
+  `future / each / decision / possibilities / others / is / ours`.
+
+**This fixes my objection to the earlier `÷2 + 3` claim.** That move had to flip
+marker 21 and discard marker 24 to reach a 23-symbol stream. This one discards
+nothing: all 24 markers are used, and the 23-bit width falls out naturally
+because the XOR clears the top bit. The operand is externally motivated by film
+trivia rather than fitted, and the 16/7 split answers to an actual line of
+dialogue. It is a materially better construction.
+
+**It is also selective.** Across 15 plausible encodings of 11 September 2001
+(`ddmmyyyy`, `mmddyyyy`, `yyyymmdd`, two-digit years, unix time, and so on)
+crossed with five operations (xor, and, or, add, sub) — 75 combinations —
+**exactly one** lands on 23 bits with 16 ones, and it is also the only encoding
+that is simultaneously prime and exactly 24 bits wide.
+
+**One calibration, though.** `F73D92` has popcount 15, which is just the 15 blue
+cells, and the operand has popcount 7, so the XOR popcount is `22 - 2*overlap`
+and reaching 16 needs overlap exactly 3. For a random 24-bit operand of weight 7
+that happens with probability `C(15,3)*C(9,4)/C(24,7)` ≈ **0.17, about one in
+six**. So the "16 ones" test on its own is a weak filter; the weight of the
+evidence is the conjunction — prime, 24 bits, the European date order a Dutch
+creator would write, the Architect's line, and the quote's 23/140 coincidence.
+
+## Where the freedom re-enters
+
+The step after it is softer. Selecting words at the **zero** bits rather than the
+one bits is a free binary choice, and it is exactly that choice which produces a
+"seven-password set" instead of a sixteen-word one.
+
+I tested it. From those seven words I built 372 candidates — each word alone, all
+35 lexicographic triples under three joiners, the full set in four orderings
+under three joiners, plus upper and capitalised variants — and ran them against
+all four ciphertexts in three passphrase forms under two key-derivation digests,
+**and** against the phase 2 hash oracle. No blob opens, and nothing hashes to
+`89727c59…52f6a32`.
+
+Worth noting which oracle is stronger here. For phase 2 material the digest is a
+hard, instant test that needs no address derivation at all, and three of the
+seven parts are now fixed.
+
 ## Two independent confirmations
 
 The pairing does not rest on the word list alone. The PNG headers group the

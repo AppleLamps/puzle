@@ -7,5 +7,5 @@
       "command": "python3 -m http.server 8000 --bind 0.0.0.0 --directory /workspace"
     }
   ],
-  "ports": [8000]
+  "ports": [{ "name": "static-server", "port": 8000 }]
 }

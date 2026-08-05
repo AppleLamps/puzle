@@ -88,6 +88,27 @@ def intertwine(parts: list[str]) -> str:
     )
 
 
+def classical_shift(text: str, key: str, mode: str) -> str:
+    clean_text = "".join(char for char in text.upper() if char.isalpha())
+    clean_key = "".join(char for char in key.upper() if char.isalpha())
+    if not clean_text or not clean_key:
+        return ""
+    output = []
+    for index, char in enumerate(clean_text):
+        value = ord(char) - ord("A")
+        key_value = ord(clean_key[index % len(clean_key)]) - ord("A")
+        if mode == "vigenere-encrypt":
+            result = value + key_value
+        elif mode == "vigenere-decrypt":
+            result = value - key_value
+        elif mode == "beaufort":
+            result = key_value - value
+        else:
+            raise ValueError(f"unsupported classical mode {mode}")
+        output.append(chr(ord("A") + result % 26))
+    return "".join(output)
+
+
 def lcp(left: bytes, right: bytes) -> int:
     count = 0
     for a, b in zip(left.hex(), right.hex()):
@@ -326,14 +347,64 @@ def add_quote_materials(audit: Audit) -> dict[str, object]:
     mask_meta: dict[str, object] = {}
     for mask_name, mask in masks.items():
         mask_meta[mask_name] = {"mask": mask, "B": mask.count("B"), "Y": mask.count("Y")}
+        selections: dict[str, list[str]] = {}
         for symbol in ("B", "Y"):
             chosen = [word for word, bit in zip(quote_words, mask) if bit == symbol]
+            selections[symbol] = chosen
             audit.add("quote-23-16-7", f"{mask_name}/{symbol}/spaced", " ".join(chosen))
             audit.add("quote-23-16-7", f"{mask_name}/{symbol}/concat", "".join(chosen))
             audit.add("quote-23-16-7", f"{mask_name}/{symbol}/initials", "".join(word[0] for word in chosen))
             audit.add("quote-23-16-7", f"{mask_name}/{symbol}/finals", "".join(word[-1] for word in chosen))
             audit.add("quote-23-16-7", f"{mask_name}/{symbol}/intertwined", intertwine(chosen))
             audit.add("quote-23-16-7", f"{mask_name}/{symbol}/intertwined-reversed", intertwine(chosen[::-1]))
+
+        blue_text = "".join(selections["B"]).lower()
+        yellow_text = "".join(selections["Y"]).lower()
+        blue_digest = hashlib.sha256(blue_text.encode("ascii")).digest()
+        yellow_digest = hashlib.sha256(yellow_text.encode("ascii")).digest()
+        blue_int = int.from_bytes(blue_digest, "big")
+        yellow_int = int.from_bytes(yellow_digest, "big")
+        audit.add("quote-partition-pairs", f"{mask_name}/blue-then-yellow", blue_text + yellow_text)
+        audit.add("quote-partition-pairs", f"{mask_name}/yellow-then-blue", yellow_text + blue_text)
+        audit.add(
+            "quote-partition-pairs",
+            f"{mask_name}/interleave-blue-yellow",
+            "".join(
+                char
+                for pair in zip(blue_text, yellow_text)
+                for char in pair
+            )
+            + blue_text[len(yellow_text) :]
+            + yellow_text[len(blue_text) :],
+        )
+        audit.add(
+            "quote-partition-pairs",
+            f"{mask_name}/digest-xor",
+            bytes(a ^ b for a, b in zip(blue_digest, yellow_digest)),
+        )
+        for operation, scalar in (
+            ("blue-plus-yellow", (blue_int + yellow_int) % N),
+            ("blue-minus-yellow", (blue_int - yellow_int) % N),
+            ("yellow-minus-blue", (yellow_int - blue_int) % N),
+        ):
+            if scalar:
+                audit.add("quote-partition-pairs", f"{mask_name}/{operation}", scalar.to_bytes(32, "big"))
+
+        if sorted((len(selections["B"]), len(selections["Y"]))) == [7, 16]:
+            encryption_words = selections["B"] if len(selections["B"]) == 16 else selections["Y"]
+            password_words = selections["Y"] if len(selections["Y"]) == 7 else selections["B"]
+            message = "".join(encryption_words)
+            for key_name, key in (
+                ("passwords-concat", "".join(password_words)),
+                ("passwords-intertwined", intertwine(password_words)),
+                ("passwords-intertwined-reversed", intertwine(password_words[::-1])),
+            ):
+                for mode in ("vigenere-encrypt", "vigenere-decrypt", "beaufort"):
+                    audit.add(
+                        "quote-partition-pairs",
+                        f"{mask_name}/16-encryptions-7-{key_name}/{mode}",
+                        classical_shift(message, key, mode),
+                    )
 
     return {
         "literal_length": len(WISE_QUOTE),

@@ -1,0 +1,175 @@
+{
+  "schema": "architect-479-semantic-pipeline-v1",
+  "status": "NO_EXACT_PRIZE_MATCH",
+  "cosmic_used": false,
+  "authenticated_layers": {
+    "plaintext_length": 1539,
+    "plaintext_sha256": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241",
+    "raw_source_length": 1539,
+    "raw_source_sha256": "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b",
+    "beaufort_key": "THEMATRIXHASYOU",
+    "anchors_zero_based": {
+      "PRIVATEKEY": 479,
+      "TAKETHISTOHEART": 511,
+      "WISEMANABOVE": 535,
+      "HUNDREDFOURTY": 562,
+      "SOURCECODES": 1021,
+      "PRIMEBASICS": 1103,
+      "TWENTYTHREECIPHERS": 1157,
+      "SIXTEENENCRYPTIONS": 1175,
+      "SEVENINTERTWINEDPASSWORDS": 1198,
+      "CIAOBELLAO": 1529
+    },
+    "source_projection_at_479": {
+      "raw_hex_32": "c35b3af65fc7f8c7c13af65f60c02cc9c8c9cad1cc2560c7c03f25c7cd3f5bf8",
+      "transliterated_32": "fczjmhphezjmydkqtqrixlyhdolhuocp",
+      "plaintext_32": "PRIVATEKEYYOUVEEARNEDITBUTPLEASE"
+    }
+  },
+  "film_comparison": {
+    "film_clause": "THE FUNCTION OF THE ONE IS NOW TO RETURN TO THE SOURCE ALLOWING A TEMPORARY DISSEMINATION OF THE CODE YOU CARRY REINSERTING THE PRIME PROGRAM AFTER WHICH YOU WILL BE REQUIRED TO SELECT FROM THE MATRIX 23 INDIVIDUALS 16 FEMALE 7 MALE TO REBUILD ZION",
+    "puzzle_clause": "THE FUNCTION OF THE YOU IS NOW TO RETURN TO THE SOURCE CODES ALLOWING A TEMPORARY DISSEMINATION OF THE CODE YOU HOPEFULLY CARRY REINSERTING THE PRIME BASICS AFTER WHICH YOU WILL BE REQUIRED TO SELECT FROM OVER TWENTY THREE CIPHERS SIXTEEN ENCRYPTIONS AND OR SEVEN INTERTWINED PASSWORDS TO FIND THE ACTUAL PRIVATE KEY",
+    "word_edits": [
+      {
+        "operation": "replace",
+        "film": [
+          "ONE"
+        ],
+        "puzzle": [
+          "YOU"
+        ]
+      },
+      {
+        "operation": "insert",
+        "film": [],
+        "puzzle": [
+          "CODES"
+        ]
+      },
+      {
+        "operation": "insert",
+        "film": [],
+        "puzzle": [
+          "HOPEFULLY"
+        ]
+      },
+      {
+        "operation": "replace",
+        "film": [
+          "PROGRAM"
+        ],
+        "puzzle": [
+          "BASICS"
+        ]
+      },
+      {
+        "operation": "insert",
+        "film": [],
+        "puzzle": [
+          "OVER",
+          "TWENTY",
+          "THREE",
+          "CIPHERS",
+          "SIXTEEN",
+          "ENCRYPTIONS",
+          "AND",
+          "OR",
+          "SEVEN",
+          "INTERTWINED",
+          "PASSWORDS",
+          "TO",
+          "FIND"
+        ]
+      },
+      {
+        "operation": "replace",
+        "film": [
+          "MATRIX",
+          "23",
+          "INDIVIDUALS",
+          "16",
+          "FEMALE",
+          "7",
+          "MALE",
+          "TO",
+          "REBUILD",
+          "ZION"
+        ],
+        "puzzle": [
+          "ACTUAL",
+          "PRIVATE",
+          "KEY"
+        ]
+      }
+    ],
+    "warning": "Unchanged film connective words do not independently specify cryptographic operations."
+  },
+  "semantic_findings": {
+    "source_codes": "Strong altered noun; immediate referent is the raw 1539-byte pre-Beaufort source-code record. The rose RGB hex is a second, pipeline-level source-code reading.",
+    "temporary_dissemination": "Unchanged film wording; repetition of a key is only a proposed operational reading.",
+    "code_you_carry": "Unchanged except HOPEFULLY. Immediate candidates are THEMATRIXHASYOU and the 64 ASCII hex Phase 3.2 passphrase; neither is uniquely selected by this phrase.",
+    "prime_basics": "Strong PROGRAM-to-BASICS substitution plus creator prime/zero hints; it authenticates primes, not a unique insertion algorithm.",
+    "ciao_bella_o": "Exact word-order reversal of the song refrain O BELLA CIAO; cipher-name readings require spelling edits and are weaker."
+  },
+  "constrained_pipeline": {
+    "confidence": "hypothesis",
+    "rose_source_hex": "F73D92",
+    "prime_date_decimal": 11092001,
+    "prime_date_hex": "A94021",
+    "prime_date_is_prime": true,
+    "xor_hex": "5E7DB3",
+    "mask": "10111100111110110110011",
+    "quote_no_punctuation_length": 140,
+    "quote_word_count": 23,
+    "cipher_words_16": [
+      "The",
+      "is",
+      "fluid",
+      "Each",
+      "act",
+      "and",
+      "each",
+      "development",
+      "creates",
+      "new",
+      "and",
+      "eliminates",
+      "The",
+      "future",
+      "to",
+      "direct"
+    ],
+    "password_words_7": [
+      "future",
+      "each",
+      "decision",
+      "possibilities",
+      "others",
+      "is",
+      "ours"
+    ],
+    "password_order": [
+      "ours",
+      "is",
+      "others",
+      "possibilities",
+      "decision",
+      "each",
+      "future"
+    ],
+    "intertwined_password": "oiopdefustoeaurhscctsesihurisrsbieiolnities",
+    "beaufort_output": "VBKHLZUAKQKEYNRFZCPQOEQBEQWEHDDPERPMUJIAEMFKMOCAAUMGLBEHQZOLYXZZKBEOGOABNQI",
+    "scalar_sha256": "6f75986ee81ff73c311dc8ff99123d9e28d53ffe40b2f0e5f87dff7a6ac775d7",
+    "candidate_addresses": {
+      "uncompressed": "16z6vBXoFi9rUQbuErz2xyqkfeksUWaNHA",
+      "compressed": "1CRfAKUfaRDTgvZtsJpP5ayaPnETVaVY4z"
+    },
+    "half_public_key_match": false,
+    "prize_match": false
+  },
+  "representation_correction": {
+    "phase32_openssl_passphrase_ascii": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c",
+    "passphrase_byte_length": 64,
+    "note": "The Phase 3.2 OpenSSL passphrase is 64 ASCII hex bytes, not the 32 decoded digest bytes."
+  }
+}

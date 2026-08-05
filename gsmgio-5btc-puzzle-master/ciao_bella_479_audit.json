@@ -1,0 +1,335 @@
+{
+  "candidate_set_sha256": "e32f922f260e80f047efe12047be77fd893ffd4181a9efba75dbace0c5a6ca2e",
+  "cipher_definitions": {
+    "bellaso_1553": "Original 22-letter reciprocal table with A/E/I/O/V/C/G/M/Q/S/Y row order; U->V and W->VV Latin normalization.",
+    "bellaso_modern_26": "Modern reciprocal opposite-half generalization; key position modulo 13 rotates a straight or keyword-mixed alphabet.",
+    "chaocipher": "Standard left=ciphertext/right=plaintext dynamic alphabets; left zenith+1 and right zenith+2 moved to nadir after rotation.",
+    "porta": "Reciprocal 13-row AB/CD/.../YZ tableau.",
+    "vigenere_family": "A=0..Z=25 encrypt, decrypt, and Beaufort formulas."
+  },
+  "cosmic_used": false,
+  "counts": {
+    "direct_encodings": 0,
+    "outputs": 55292,
+    "outputs_by_family": {
+      "chaocipher-fixed-alphabets": 140,
+      "chaocipher-password-alphabets": 896,
+      "classical-16-word-reset": 256,
+      "classical-continuous": 896,
+      "pipeline-bella-then-ciao": 7840,
+      "pipeline-ciao-then-bella": 45264
+    },
+    "scalar_derivations": 110712,
+    "unique_scalar_candidates": 90840
+  },
+  "direct_hash_matches": [],
+  "exact_matches": [],
+  "facts": {
+    "architect_ending": "CIAO BELLA O",
+    "prime_character_layouts_cipher_letters": {
+      "quote118-letters/first23-primes/0-based": "EFTRFUAHECSDHEOCSEIIIEI",
+      "quote118-letters/first23-primes/1-based": "HEUUSLECTEINCDLTENSLTDM",
+      "quote140/all-primes/0-based": "EUUIIHECINAEEMNAESLMTSHRHUTET",
+      "quote140/all-primes/1-based": "HEFTSUDCACODPEESNSISIAETETORC",
+      "quote140/first23-primes/0-based": "EUUIIHECINAEEMNAESL",
+      "quote140/first23-primes/1-based": "HEFTSUDCACODPEESNSI"
+    },
+    "prime_character_layouts_raw": {
+      "quote118-letters/first23-primes/0-based": "EFTRFUAHECSDHEOCSEIIIEI",
+      "quote118-letters/first23-primes/1-based": "HEUUSLECTEINCDLTENSLTDM",
+      "quote140/all-primes/0-based": "e uui i hecinaeemna esl mtshrhutet",
+      "quote140/all-primes/1-based": "heft sudc aco  dpeesnsisiaeteTo rc",
+      "quote140/first23-primes/0-based": "e uui i hecinaeemna esl",
+      "quote140/first23-primes/1-based": "heft sudc aco  dpeesnsi"
+    },
+    "quote": "The future is fluid Each act each decision and each development creates new possibilities and eliminates others The future is ours to direct",
+    "quote_characters": 140,
+    "quote_words": 23,
+    "selected_16_concat": "TheisfluidEachactandeachdevelopmentcreatesnewandeliminatesThefuturetodirect",
+    "selected_16_words": [
+      "The",
+      "is",
+      "fluid",
+      "Each",
+      "act",
+      "and",
+      "each",
+      "development",
+      "creates",
+      "new",
+      "and",
+      "eliminates",
+      "The",
+      "future",
+      "to",
+      "direct"
+    ],
+    "selected_7_concat": "futureeachdecisionpossibilitiesothersisours",
+    "selected_7_intertwined": "fedpoiouaeotsutccshruhisesrsireibsoinlities",
+    "selected_7_intertwined_reversed": "oiopdefustoeaurhscctsesihurisrsbieiolnities",
+    "selected_7_words": [
+      "future",
+      "each",
+      "decision",
+      "possibilities",
+      "others",
+      "is",
+      "ours"
+    ],
+    "xor": {
+      "A94021": 11092001,
+      "F73D92": 16203154,
+      "ones": 16,
+      "result_bits": "10111100111110110110011",
+      "result_hex": "5E7DB3",
+      "zeros": 7
+    }
+  },
+  "implementation_checks": {
+    "bellaso_1553_22_left_roundtrip": true,
+    "bellaso_1553_22_right_roundtrip": true,
+    "bellaso_1553_published_sample": true,
+    "bellaso_modern_26_keyed_roundtrip": true,
+    "bellaso_modern_26_straight_roundtrip": true,
+    "chaocipher_byrne_exhibit_decrypt": true,
+    "chaocipher_byrne_exhibit_encrypt": true,
+    "porta_F_row_D_to_S": true,
+    "porta_reciprocal_roundtrip": true
+  },
+  "readability_ranking_note": "Heuristic uses English letter frequencies plus literal clue-word bonuses; ranking is diagnostic and is not evidence of a valid decryption.",
+  "schema": "ciao-bella-479-audit-v1",
+  "scope": {
+    "directions": [
+      "source/reversed word order",
+      "source/reversed letters within words",
+      "continuous/wordwise-reset",
+      "Chaocipher encrypt/decrypt",
+      "CIAO then BELLA/BELLA then CIAO"
+    ],
+    "excluded": [
+      "Cosmic",
+      "unbounded key guesses",
+      "arbitrary transpositions"
+    ],
+    "key_layout_labels": [
+      "selected7/concat-forward",
+      "selected7/concat-reverse-both",
+      "selected7/concat-reverse-letters",
+      "selected7/concat-reverse-words",
+      "selected7/intertwine-forward",
+      "selected7/intertwine-reverse-both",
+      "selected7/intertwine-reverse-letters",
+      "selected7/intertwine-reverse-words"
+    ],
+    "key_layouts": 8,
+    "message_layout_labels": [
+      "quote118-letters/first23-primes/0-based",
+      "quote118-letters/first23-primes/1-based",
+      "quote140/all-primes/0-based",
+      "quote140/all-primes/1-based",
+      "quote140/first23-primes/0-based",
+      "quote140/first23-primes/1-based",
+      "selected16/concat-forward",
+      "selected16/concat-reverse-both",
+      "selected16/concat-reverse-letters",
+      "selected16/concat-reverse-words",
+      "selected16/intertwine-forward",
+      "selected16/intertwine-reverse-both",
+      "selected16/intertwine-reverse-letters",
+      "selected16/intertwine-reverse-words"
+    ],
+    "message_layouts": 14,
+    "prime_bases": [
+      0,
+      1
+    ],
+    "prime_sets": [
+      "first 23 primes",
+      "all primes <= 140"
+    ]
+  },
+  "status": "NO_EXACT_MATCH",
+  "top_readable_outputs": [
+    {
+      "english_score": 2.132552,
+      "label": "pipeline-ciao-then-bella/quote140/first23-primes/0-based/selected7/intertwine-reverse-both/ciaobellao-left-password-right/decrypt/selected7/concat-reverse-letters/vigenere-decrypt",
+      "length": 19,
+      "output": "EECYOKEYSOISBEZXRXV"
+    },
+    {
+      "english_score": 1.936585,
+      "label": "pipeline-ciao-then-bella/quote140/all-primes/1-based/selected7/intertwine-reverse-words/password-left-ciaobellao-right/decrypt/selected7/concat-reverse-letters/bellaso-modern-26-keyed",
+      "length": 29,
+      "output": "FBMRUESMGZOZLQFIBADPUWTOEONEY"
+    },
+    {
+      "english_score": 1.926765,
+      "label": "pipeline-ciao-then-bella/quote140/all-primes/1-based/selected7/intertwine-reverse-letters/password-ciao-left-password-bella-right/encrypt/selected7/concat-reverse-letters/bellaso-modern-26-straight",
+      "length": 29,
+      "output": "YIUOSARHMEIVDUKEYESAGBRNFPASL"
+    },
+    {
+      "english_score": 1.926765,
+      "label": "pipeline-ciao-then-bella/quote140/all-primes/1-based/selected7/intertwine-reverse-letters/password-bella-left-password-ciao-right/encrypt/selected7/concat-reverse-letters/bellaso-modern-26-straight",
+      "length": 29,
+      "output": "YIUOSARHMEIVDUKEYESAGBRNFPASL"
+    },
+    {
+      "english_score": -1.492103,
+      "label": "pipeline-ciao-then-bella/quote140/all-primes/1-based/selected7/intertwine-reverse-both/ciaobellao-left-password-right/encrypt/selected7/intertwine-forward/vigenere-decrypt",
+      "length": 29,
+      "output": "VWEOIAPSZDHIIEIOURNJQCVJHKPJT"
+    },
+    {
+      "english_score": -3.010851,
+      "label": "pipeline-ciao-then-bella/quote140/all-primes/1-based/selected7/intertwine-forward/ciaobellao-left-password-right/decrypt/selected7/concat-reverse-letters/vigenere-decrypt",
+      "length": 29,
+      "output": "YDIZYSEYNJOHTALSAXOJEIMTONARL"
+    },
+    {
+      "english_score": -3.04422,
+      "label": "pipeline-ciao-then-bella/quote140/first23-primes/0-based/selected7/intertwine-forward/ciaobellao-left-password-right/encrypt/selected7/concat-reverse-letters/vigenere-decrypt",
+      "length": 19,
+      "output": "ENHPIDOOKEJQTTOZWAB"
+    },
+    {
+      "english_score": -3.292378,
+      "label": "pipeline-ciao-then-bella/quote140/first23-primes/1-based/ciaobellao-reverse/decrypt/selected7/intertwine-reverse-words/porta",
+      "length": 19,
+      "output": "OTONUIANEETGZQNSWRC"
+    },
+    {
+      "english_score": -3.455148,
+      "label": "pipeline-ciao-then-bella/quote118-letters/first23-primes/1-based/selected7/concat-forward/password-ciao-left-password-bella-right/decrypt/selected7/concat-reverse-words/bellaso-1553-22-right",
+      "length": 23,
+      "output": "RVBTZRDNARSZLAIEAHEOTOB"
+    },
+    {
+      "english_score": -3.455148,
+      "label": "pipeline-ciao-then-bella/quote118-letters/first23-primes/1-based/selected7/concat-forward/password-bella-left-password-ciao-right/decrypt/selected7/concat-reverse-words/bellaso-1553-22-right",
+      "length": 23,
+      "output": "RVBTZRDNARSZLAIEAHEOTOB"
+    },
+    {
+      "english_score": -3.56507,
+      "label": "pipeline-ciao-then-bella/quote118-letters/first23-primes/0-based/selected7/intertwine-reverse-both/password-ciao-left-password-bella-right/decrypt/selected7/intertwine-reverse-both/bellaso-modern-26-keyed",
+      "length": 23,
+      "output": "GSZOELWDUVBPTHEASJOIVFG"
+    },
+    {
+      "english_score": -3.56507,
+      "label": "pipeline-ciao-then-bella/quote118-letters/first23-primes/0-based/selected7/intertwine-reverse-both/password-bella-left-password-ciao-right/decrypt/selected7/intertwine-reverse-both/bellaso-modern-26-keyed",
+      "length": 23,
+      "output": "GSZOELWDUVBPTHEASJOIVFG"
+    },
+    {
+      "english_score": -3.965296,
+      "label": "pipeline-ciao-then-bella/quote140/all-primes/1-based/straight/decrypt/selected7/concat-reverse-letters/bellaso-1553-22-right",
+      "length": 31,
+      "output": "TXRFAIECIIDSCIMTOOHYVMETHOQAECZ"
+    },
+    {
+      "english_score": -4.17,
+      "label": "pipeline-ciao-then-bella/quote140/all-primes/1-based/ciaobellao-reverse/decrypt/selected7/intertwine-reverse-words/porta",
+      "length": 29,
+      "output": "OTONUIANEETGZQNSWRCEKOYRGYQAU"
+    },
+    {
+      "english_score": -4.265673,
+      "label": "pipeline-ciao-then-bella/quote118-letters/first23-primes/1-based/selected7/intertwine-forward/ciaobellao-left-password-right/encrypt/selected7/concat-reverse-both/porta",
+      "length": 23,
+      "output": "SXYHIXAHREOISTOMOYBIZPB"
+    },
+    {
+      "english_score": -4.362629,
+      "label": "pipeline-bella-then-ciao/quote140/first23-primes/0-based/selected7/intertwine-reverse-both/vigenere-encrypt/ciaobellao-reverse/decrypt",
+      "length": 19,
+      "output": "WNPIOVIAXELTFSODISY"
+    },
+    {
+      "english_score": -4.382218,
+      "label": "pipeline-ciao-then-bella/quote118-letters/first23-primes/0-based/selected7/concat-reverse-letters/ciaobellao-left-password-right/encrypt/selected7/concat-reverse-both/vigenere-decrypt",
+      "length": 23,
+      "output": "KXSKQQQHOAUZAELWKOIKTOI"
+    },
+    {
+      "english_score": -4.382421,
+      "label": "pipeline-ciao-then-bella/quote140/first23-primes/0-based/selected7/intertwine-reverse-letters/ciaobellao-left-password-right/decrypt/selected7/concat-forward/porta",
+      "length": 19,
+      "output": "RLAHXAUNSUHVXFEIBTO"
+    },
+    {
+      "english_score": -4.464884,
+      "label": "pipeline-ciao-then-bella/quote140/first23-primes/0-based/selected7/concat-reverse-words/password-left-ciaobellao-right/encrypt/selected7/concat-reverse-letters/porta",
+      "length": 19,
+      "output": "EURCATOYXEPZRDKEATB"
+    },
+    {
+      "english_score": -4.631843,
+      "label": "pipeline-ciao-then-bella/quote118-letters/first23-primes/0-based/selected7/concat-reverse-words/password-ciao-left-password-bella-right/decrypt/selected7/concat-forward/vigenere-encrypt",
+      "length": 23,
+      "output": "JAXNHXZOISRAKEXIPENIJTX"
+    },
+    {
+      "english_score": -4.631843,
+      "label": "pipeline-ciao-then-bella/quote118-letters/first23-primes/0-based/selected7/concat-reverse-words/password-bella-left-password-ciao-right/decrypt/selected7/concat-forward/vigenere-encrypt",
+      "length": 23,
+      "output": "JAXNHXZOISRAKEXIPENIJTX"
+    },
+    {
+      "english_score": -4.762422,
+      "label": "pipeline-bella-then-ciao/quote118-letters/first23-primes/1-based/selected7/intertwine-reverse-letters/bellaso-modern-26-keyed/byrne-exhibit/decrypt",
+      "length": 23,
+      "output": "XUNACGALHISGZRTOZPYXAOD"
+    },
+    {
+      "english_score": -4.848978,
+      "label": "pipeline-ciao-then-bella/selected16/concat-reverse-both/straight/encrypt/selected7/concat-forward/vigenere-decrypt",
+      "length": 75,
+      "output": "OHKUOUEMUBSDIWAINOOJTOPECFEXEORTNCFAHEDTDNWVUOCYBVVSADIOETTBCHWSHMCLISJTALM"
+    },
+    {
+      "english_score": -4.928168,
+      "label": "pipeline-ciao-then-bella/quote140/first23-primes/0-based/selected7/concat-reverse-both/password-left-ciaobellao-right/encrypt/selected7/intertwine-forward/porta",
+      "length": 19,
+      "output": "TOVEDCIUXTQOWCJAZOH"
+    },
+    {
+      "english_score": -4.947171,
+      "label": "pipeline-bella-then-ciao/quote140/first23-primes/0-based/selected7/concat-reverse-words/vigenere-encrypt/ciao-bella/decrypt",
+      "length": 19,
+      "output": "SCODUAZEWNBFELTYEIY"
+    },
+    {
+      "english_score": -5.000654,
+      "label": "pipeline-ciao-then-bella/quote140/first23-primes/1-based/straight/decrypt/selected7/concat-reverse-letters/bellaso-1553-22-right",
+      "length": 21,
+      "output": "TXRFAIECIIDSCIMTOOHYV"
+    },
+    {
+      "english_score": -5.054552,
+      "label": "pipeline-ciao-then-bella/quote140/first23-primes/1-based/bella-ciao/decrypt/selected7/concat-reverse-both/vigenere-decrypt",
+      "length": 19,
+      "output": "OJMIECGHUISCRYJOINL"
+    },
+    {
+      "english_score": -5.057348,
+      "label": "classical-continuous/quote140/first23-primes/0-based/selected7/intertwine-reverse-both/vigenere-encrypt",
+      "length": 19,
+      "output": "WMMAVOITQEESGDHEMAL"
+    },
+    {
+      "english_score": -5.185142,
+      "label": "pipeline-ciao-then-bella/quote140/all-primes/0-based/selected7/intertwine-reverse-both/ciaobellao-left-password-right/decrypt/selected7/concat-reverse-letters/porta",
+      "length": 29,
+      "output": "XAMISAOOFDCNNAYLGOEFWXDURVHEH"
+    },
+    {
+      "english_score": -5.370236,
+      "label": "pipeline-bella-then-ciao/quote140/first23-primes/0-based/selected7/concat-reverse-letters/porta/bella-ciao/encrypt",
+      "length": 19,
+      "output": "TMIOOABXNAYHYGXREEB"
+    }
+  ],
+  "valid_direct_hex_or_wif": []
+}

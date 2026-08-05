@@ -261,3 +261,52 @@ combinations with the Cosmic bytes all miss both prize addresses.
 - Witteveen / Karimbakhsh / unaware / HILLONE / ASKHSKEY / COMPS / `<3` as
   brainwallets, Cosmic passwords, 7-token XOR substitutions, and HMAC/XOR
   against Cosmic and Chain 4: no prize match.
+
+## Continuation audit (creator-sourced only)
+
+### Closed readings of Cosmic / Chain 4
+
+- Cosmic base-38 as `04 || x || y` is **not** the Half prize pubkey. Only the
+  leading `0x04` matches; the point is not on secp256k1. Same for alternate
+  bases 39–41 and for “zero primes then re-base-38” variants that happen to
+  start with `02`/`03` — those prefixes do not decompress to curve points, and
+  no 33/65-byte window hits either prize hash160.
+- Elliptic-curve combinations of the Cosmic Half/Better scalars and points
+  (`P_h±P_b`, `2P_h±P_b`, products, inverses, XOR-as-int, `±trail1`, and
+  SHA-256 of every creator pipeline phrase as a third operand): zero prize
+  matches. Best public-x nibble LCP observed was 2 (noise).
+- BIP32 (`Bitcoin seed` HMAC-SHA512) from Cosmic halves, their XOR/concat,
+  `F73D92`/`7B9ECC`, Witteveen/`unaware`/`yinyang` digests, and common paths
+  including `m/44'/0'/0'/0/0`: zero matches.
+- Chain 4 `C(7,3)=35` star-selections, 35-bit control masks from
+  `F73D92`/`7B9ECC`/`trail1`/Cosmic XOR key, and 8+7+…+2 pyramid XOR
+  reductions: zero matches.
+- Creator-pipeline and instruction-joke passwords against the Cosmic envelope
+  under both MD5 and SHA-256 `EVP_BytesToKey`: the **only** hit remains the
+  published seven-digest XOR. That, plus Chain 4’s `+-` / 31+35×32 layout
+  after the mask forced by `rem[:8] XOR Salted__`, is still the structural
+  authentication for this branch — not padding alone.
+
+### First-image second-door notes
+
+- Majority vs centre-pixel sampling differs at exactly one cell, `(7,6)`, a
+  rabbit stroke. That flips only padding bit 193, so residuals are `0000`
+  (majority, 101 ones) vs `0100` (centre, 102 ones). Marker stream `F73D92`
+  is identical under both.
+- Forcing the off-white cell `(7,4)` to a 1-bit flips the URL’s `n` to `~`
+  (`gsmg.io/theseedispla~ted`). Treating it as white leaves the known URL.
+  Neither reading, nor rabbit-nest bitmaps, nor resistor-digit concatenations
+  of the 24 markers, unlock Cosmic or either prize address.
+- The 2021-04-01 hint `another door might be found on {1},{4},{21}` is
+  followed the same day by the creator asking what usually happens on April
+  1st. Treat it as April Fools, not a coordinate.
+
+### Still open (authenticated material only)
+
+1. The **second door** from `follow_the_white_rabbit.png` under
+   `yellowblueprimes` + zeroing — not another plain spiral of the 196 cells.
+2. The **giveaway after yin-yang**: Cosmic/Chain 4 are in hand, creator says
+   the last step is short; the missing rule is not the unreproduced solver
+   labels `cosmic_A` / `row1-4` / `K_I1` (no public bytes).
+3. Witteveen / *Heart of Sufism* as the “obscure intel” prize versus a still-
+   unknown transform into the BTC scalar.

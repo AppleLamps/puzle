@@ -736,13 +736,13 @@ It is **uncompressed** — 65 bytes, leading `04`, then x then y:
     x = f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464
     y = 9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559
 
-That is exactly the shape the second agent just noticed in the Cosmic base-38
-output: 68 bytes beginning `04`, which it reads as `04 || x(32) || y(32)` plus
-three trailing bytes rather than as two 32-byte scalars. If that reading is
-right, the test is immediate and needs no curve arithmetic at all — compare the
-first 65 bytes against the value above. A hit would mean the Cosmic output is
-the *public* key of Half, not two private halves, and every downstream analysis
-built on the 32+32+4 split is misaligned by one byte.
+That is exactly the shape the Cosmic base-38 output invites: 68 bytes beginning
+`04`, readable as `04 || x(32) || y(32)` plus three trailing bytes. The direct
+compare is now done — **negative**. Cosmic
+`0423d9115a1dc756…8fcc35 || 48cc46e6…623971 || fc0c1b02` shares only the
+leading `0x04` with the prize pubkey; the implied `(x,y)` is not on secp256k1.
+So Cosmic is not Half’s public key, and the 32+32+4 private-half split is not
+refuted by this shape alone.
 
 The two gates are not symmetric, and it matters:
 

@@ -134,7 +134,7 @@ The exact candidate manifests and counts are in
 | **NEGATIVE** | v26 split/layout families | `salphaseion_blind_results_v26.json` |
 | **NEGATIVE** | v27 Lo Shu families | `salphaseion_blind_results_v27.json` |
 | **NEGATIVE (prize) / ACCEPTED (known route)** | v28 eight second-door spiral symmetries; blind schema accepts a rotated recovery of door one, but finds no new route or prize | `salphaseion_blind_results_v28.json` |
-| **NEGATIVE** | v29–v32 retired 15-row completion, transposition and spiral grammars (8,640 / 5,808 / 1,008 / 1,200 candidates) | `salphaseion_blind_results_v29.json` through `_v32.json` |
+| **NEGATIVE** | v29–v32 retired 15-row completion, transposition and spiral grammars (8,640 / 5,808 / 1,008 / 1,200 candidates) | `salphaseion_blind_results_v29.json`, `salphaseion_blind_results_v30.json`, `salphaseion_blind_results_v31.json`, `salphaseion_blind_results_v32.json` |
 | **NEGATIVE** | v33–v34 corrected 7×13/S570 grammar families | `salphaseion_blind_results_v33.json`, `salphaseion_blind_results_v34.json` |
 | **NEGATIVE (prize) / ACCEPTED (format-only)** | v35 corrected instruction grammar: 9,720 AES attempts, 43 strict-padding hits; accepted JSON-digit outputs are not prize/plaintext authentication | `salphaseion_blind_results_v35.json` |
 | **NEGATIVE** | v36 Architect suffix family: 58,860 AES attempts | `salphaseion_blind_results_v36.json` |

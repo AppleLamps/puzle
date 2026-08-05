@@ -149,6 +149,30 @@
     ]
   },
   "status": "NO_EXACT_MATCH",
+  "targets": {
+    "Better_Half": {
+      "hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6"
+    },
+    "Half": {
+      "hash160": "a9553269572a317e39f0f518cb87c1a0ee1dbae4",
+      "public_key_uncompressed": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+    },
+    "direct_checks": [
+      "ciphertext ASCII equals Half public key",
+      "HASH160(ciphertext ASCII)",
+      "40-character hexadecimal HASH160",
+      "64-character hexadecimal private scalar",
+      "Base58Check WIF"
+    ],
+    "hashed_scalar_checks": [
+      "SHA256(ciphertext ASCII)",
+      "double-SHA256(ciphertext ASCII)"
+    ],
+    "scalar_serializations_checked": [
+      "compressed",
+      "uncompressed"
+    ]
+  },
   "top_readable_outputs": [
     {
       "english_score": 2.132552,

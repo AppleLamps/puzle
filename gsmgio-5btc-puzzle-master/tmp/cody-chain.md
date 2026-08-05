@@ -3,7 +3,7 @@
 > **Historical source report.** The arithmetic is preserved and summarized in
 > [`../WITTEVEEN_IDENTITY_AUDIT.md`](../WITTEVEEN_IDENTITY_AUDIT.md). Its use as
 > the final/yin-yang route is superseded by the direct 479 balance; see
-> [`../../../docs/ATTEMPT_LOG.md`](../../../docs/ATTEMPT_LOG.md).
+> [`../../docs/ATTEMPT_LOG.md`](../../docs/ATTEMPT_LOG.md).
 
 ## Status first
 

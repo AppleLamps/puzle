@@ -2,7 +2,7 @@
 
 > **Historical/superseded gap list (December 2025).** Many “not attempted”
 > entries below have since been tested. Use
-> [`../../../docs/ATTEMPT_LOG.md`](../../../docs/ATTEMPT_LOG.md) for the current
+> [`../../docs/ATTEMPT_LOG.md`](../../docs/ATTEMPT_LOG.md) for the current
 > open/closed list and [`../RESEARCH_LEDGER.md`](../RESEARCH_LEDGER.md) for
 > exact bounded results.
 

@@ -2,7 +2,7 @@
 
 > **Historical/superseded analysis (November 2025).** Retained for provenance.
 > Current outcomes and corrections are tracked in
-> [`../../../docs/ATTEMPT_LOG.md`](../../../docs/ATTEMPT_LOG.md) and
+> [`../../docs/ATTEMPT_LOG.md`](../../docs/ATTEMPT_LOG.md) and
 > [`../RESEARCH_LEDGER.md`](../RESEARCH_LEDGER.md). Do not treat the password
 > counts or “current state” below as the maintained repository status.
 

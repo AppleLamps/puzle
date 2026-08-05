@@ -35,10 +35,14 @@ The Phase 3.2 AES plaintext contains an English preamble ending `One for one,
 four for one.`, a 1,539-byte 26-symbol record, a separate 149-digit VIC record,
 and another 80-byte OpenSSL envelope.
 
-`One for one, four for one` gives `1141`, the IBM Germany/Austria EBCDIC code
-page used for the immediately following symbol blob. The published
-transliteration is bijective, and independent Architect-crib recovery agrees on
-all 26 assignments. The raw record SHA-256 is
+`One for one, four for one` gives `1141`, plausibly naming IBM's
+Germany/Austria EBCDIC code page for the immediately following symbol blob.
+That clue is **not a complete standard-codec conversion**: direct decoding of
+the 1,539 raw bytes with system `IBM1141`/`CP1141` does not produce the
+published `vtkv...` letters. The published transliteration is bijective, and
+independent Architect-crib recovery agrees on all 26 assignments, so the
+plaintext is authenticated without pretending that direct CP1141 decoding
+works. The raw record SHA-256 is
 `bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b`.
 Beaufort with `THEMATRIXHASYOU` yields the 1,539-letter plaintext SHA-256
 `56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241`.

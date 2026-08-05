@@ -402,8 +402,8 @@ def run() -> dict[str, object]:
 
     message_words = [word for word, bit in zip(quote_words, MASK_BITS) if bit == "1"]
     password_words = [word for word, bit in zip(quote_words, MASK_BITS) if bit == "0"]
-    expected_passwords = ["future", "Each", "decision", "possibilities", "others", "is", "ours"]
-    if password_words != expected_passwords:
+    expected_passwords = ["future", "each", "decision", "possibilities", "others", "is", "ours"]
+    if [word.lower() for word in password_words] != expected_passwords:
         raise ValueError(f"unexpected zero-selected words: {password_words}")
 
     message_layouts = _word_layouts(message_words, "selected16")

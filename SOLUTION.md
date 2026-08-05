@@ -475,6 +475,59 @@ guess.
 Note the genesis block's raw serialisation is 285 bytes, i.e. **570 hex
 characters** — the exact length of phase 3's S570 field.
 
+## Part 6 solved: "raw data after 4 on row 1616"
+
+The clue is self-describing once you take `1616` as **row 16, sixteen hex
+characters per row**. Laying the Bitcoin genesis block's raw serialisation out
+that way puts the coinbase push at the exact start of row 16:
+
+    row 15: ffff4d04ffff001d
+    row 16: 0104455468652054     <- "01 04" pushes the number 4, then the message
+    row 17: 696d65732030332f
+
+`01 04` is Satoshi's `CBigNum(4)` in the coinbase scriptSig, and the raw data
+**after that 4** is nothing but the headline:
+
+    The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
+
+Under the section's `/(aBa, connected enf)` marker — mixed case, no separators —
+part 6 is
+
+    TheTimes03/Jan/2009Chancelloronbrinkofsecondbailoutforbanks
+
+The offset is exact: the push begins at hex offset 256, which is row 16 only
+under a 16-hex-character layout (a 16-*byte* layout puts it in row 8). That is
+what makes `1616` a single instruction rather than two numbers.
+
+## Part 1's H is -42
+
+The other agent's reading of `H -> (Answer to only this puzzle but nothing else)
+* -1` is the Hitchhiker's 42 negated, so **H = -42**. With `S = 32` and
+`B = 49` that leaves only `Q`, `X` and `Y` unresolved in
+`# X 2 S H 4 Y 0 Q B 15 #`.
+
+## The ECDSA nonce route is closed
+
+The transcript proposes auditing the prize address's signatures for a
+reproducible nonce relation, on the basis that "the target address has spent
+on-chain, so its full public key and signatures are available". `ecdsa_audit.py`
+settles it:
+
+| | signatures published | distinct r | reused r |
+| --- | --- | --- | --- |
+| Half `1GSMG…` | 6 | 6 | 0 |
+| Better Half `17ucy…` | 0 | — | — |
+
+Half has published only **six** signatures, every one with a distinct `r`, and
+none with an `r` shorter than 250 bits. No nonce reuse, and six samples is far
+too few for a lattice attack on biased nonces even if a bias existed.
+
+More importantly, **Better Half has never spent an output**, so it has published
+no signature *and no public key at all*. There is nothing there to audit. That
+also constrains how candidates can be tested against it: only by deriving the
+address hash, never by comparing public points — so any gate written against a
+"public key" for `17ucy…` is testing something that does not exist on chain.
+
 ## What the breakthrough rules out for the other blobs
 
 `causality` is an ordinary English word taken from the film the puzzle quotes,

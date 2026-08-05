@@ -301,6 +301,22 @@ combinations with the Cosmic bytes all miss both prize addresses.
   followed the same day by the creator asking what usually happens on April
   1st. Treat it as April Fools, not a coordinate.
 
+### Cosmic matrix authentication is weaker than claimed
+
+The unique exact secondary range `80..117` at shift 7 is **not rare**: about
+**18%** of random 1327-byte strings have at least one shift with that exact
+min/max (200-trial Monte Carlo). Combined with the Chain-4 mask being fitted
+to force a `Salted__` header, the public Cosmic 7-XOR branch remains
+*structurally used* by solvers but is **not** strong proof that yin-yang has
+been reached — consistent with the creator’s 2025-04-28 remark that it had
+not.
+
+Issue #82’s matrix invariants reproduce on the public Cosmic plaintext:
+`S=5193`, `Wr=268603`, `Wc=268828`, and `p_big=58` equals the count of
+secondary values `≥ 100`. Its claimed 79-byte SalPhaseIon SHA `e2590f15…` does
+**not** match chain1/2 or either Cosmic 79-byte triplet and was not reproduced
+from public envelopes (`salphaseion_79_anchor_hunt.json`).
+
 ### Closed this session (still no prize key)
 
 - **Better-Half-aware giveaway audit** (`creator_frontier_giveaway_audit`):
@@ -332,6 +348,14 @@ combinations with the Cosmic bytes all miss both prize addresses.
 - Rabbit-nest impure cells (7 cells, black counts
   `100,225,150,75,225,100,50`) and packed bitmaps do not open Cosmic or
   match either address.
+- **Second-door frontier** (`second_door_frontier_derivations`): all-196
+  resistor + prime-zeroing, half-image splits, 14×14 matrix
+  sum/product/det, off-white mask, sub-cell rabbit morphology, and
+  URL-prime Y/B insert → HASHTHETEXT. **102,093** unique scalars and
+  **41,660** AES trials → **0** prize matches / no new structured Cosmic
+  plaintext.
+- `p_big`/`p_little` selection masks into digits/Cosmic/Chain4, embedded
+  WIF scan, and `+-` control folds from `F73D92`/`trail1` — **0** matches.
 
 ### Still open (authenticated material only)
 

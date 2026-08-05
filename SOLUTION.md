@@ -4,8 +4,11 @@
 | --- | --- | --- |
 | `gsmg.io/Puzzle` | `follow_the_white_rabbit.png` | `gsmg.io/theseedisplanted` |
 | `gsmg.io/theseedisplanted` | eight rebus tiles | `cryptologicwarningcanyoudigit` |
-| phase 2 | `gsmg.io/choiceisanillusion…iwroteitmyself` | sha-256 = `89727c59…52f6a32` |
+| phase 2 | `gsmg.io/choiceisanillusion…iwroteitmyself` | sha-256 = `1a57c572…d2ec30d5` |
 | phase 3 | `gsmg.io/89727c59…52f6a32` (SalPhaseIon) | open |
+
+The phase 3 slug is `sha256("GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe")`,
+the hash of the first page's own text — not the phase 2 answer.
 
 Run `python3 solve.py` for stage one, `python3 solve_rebus.py` for stage two,
 `python3 inspect_bundle.py` for the phase1verification 404, and
@@ -14,6 +17,23 @@ Run `python3 solve.py` for stage one, `python3 solve_rebus.py` for stage two,
 # Stage one: `follow_the_white_rabbit.png`
 
 **Answer: `gsmg.io/theseedisplanted`**
+
+## A sampling bug in the published grid, found by cross-checking
+
+Reading the 24 coloured cells in **row-major** order as blue=1/yellow=0 gives
+`101111100010101110011011` = `BE2B9B`, matching the community repository bit for
+bit — so our cell extraction is identical and only the *reading order* differs.
+Its report calls the spiral value `F73D92` "an incorrect transcription"; it is not,
+it is those same cells in the spiral order that the message itself validates.
+
+The repository's report also gives the 14x14 matrix row sums as
+`[6,10,8,7,6,6,5,5,9,9,7,8,7,9]`, total **102**, contradicting the historical
+transcription's **101**. The disagreement is a single cell, and it is a sampling
+artefact. Taking each cell's **majority** colour I get total **101**; taking its
+**centre pixel** I get 102. The two differ at exactly one cell, `(7,6)` — one of
+the seven cells the rabbit is drawn across. That cell holds 475 white pixels and
+150 black: it is a white cell whose centre a rabbit line happens to cross.
+Centre-pixel sampling reads the drawing, not the grid. **101 is correct.**
 
 ## What the files are
 
@@ -435,310 +455,79 @@ That negative is worth something: it is evidence for the other agent's own later
 pivot, that `matrixsumlist` names a straddling-checkerboard over-encryption step
 rather than an AES passphrase. No arrangement of the sum list is a password.
 
-# BREAKTHROUGH: phase 2 part 1 decrypted
+# Phase 2 SOLVED, and a correction of my own errors
 
-The first phase 2 blob — the one the page says "will grant the first part" —
-opens with the password **`causality`**, via `sha-256("causality")` as the
-OpenSSL passphrase with sha256 key derivation:
+The community repository (`gsmgio-5btc-puzzle-master`) landed, which let me audit
+my chain against independent work for the first time. Phase 2's answer is:
 
-    openssl enc -aes-256-cbc -a -d -md sha256 -k $(printf causality | sha256sum | cut -d" " -f1)
-
-`attack_keymaker.py` finds it; `phase2_part1_plaintext.txt` holds the result.
-The word comes straight from the puzzle's own vocabulary — the Merovingian's
-"causality" speech in *The Matrix Reloaded*, the same scene the phase 2 URL
-quotes. It is also one of the on-chain OP_RETURN messages, as
-`Causality Transcended`.
-
-The plaintext is a fresh sub-puzzle:
-
-    The ironic 2name of the keymakers trying to protect the current digital
-    powers which are still in severe danger due to the keymaker's way of
-    security by hiding, nearly unprotected, in plain sight.
-    {eps3.4_[in one of the valleys of Phillip]runtime-error.r00., where
-    daughters hit magic keypads} When this fails.. Crypto finally to the latin
-    3Moon? Tell me, 4How so mate?
-
-    # X 2 S H 4 Y 0 Q B 15 #
-
-    Q -> extend the name of a hackers' swordless fish, the I and W are below.
-    B -> ((BV80605001911AP)- (sqrt(-1)))^2
-    H -> (Answer to only this puzzle but nothing else) * -1
-    S -> cha' + (vagh * jav)
-
-    Ok kid, on the highway, let put it in the worst gear.
-
-## Two of the four substitutions solve cleanly
-
-**B = 49.** `BV80605001911AP` is Intel's spec code for the Core **i7**-860, and
-`sqrt(-1)` is **i**. So `(i7 - i)^2 = 7^2 = 49`.
-
-**S = 32.** The operands are Klingon numerals: `cha'` = 2, `vagh` = 5, `jav` = 6.
-So `2 + (5 x 6) = 32`.
-
-That leaves `H`, `Q`, and the two bare variables `X` and `Y`. `H` is
-"(Answer to only this puzzle but nothing else) * -1" — a play on 42 being the
-answer to everything, so this wants the answer to *only* this puzzle. `Q` is
-"extend the name of a hackers' swordless fish": the fish ciphers run Blowfish →
-Twofish → Threefish, and dropping the sword from Swordfish leaves the fish.
-
-The closing line, "on the highway, let put it in the worst gear", reads as an
-instruction on the assembled string — reverse, or first gear.
-
-The prose carries superscript-style markers `2name`, `3Moon`, `4How`, and the
-page itself opens `"1... are you looking for the private keymaker?"`, so clues
-1-4 are numbered. `eps3.4_runtime-error.r00` is a *Mr. Robot* episode title and
-Phillip Price is that show's E Corp CEO. "Crypto finally to the latin 3Moon"
-wants **luna**.
-
-## The `/(...)` markers are answer-format specs, and `causality` proves it
-
-The three bracketed notes are not decoration. Their placement in the page is
-decisive — the first sits immediately *above* the cipher line and the blob:
-
-    5 | /(aaa, connected enf)
-    6 | Ciphered with aes-256-cbc /w base64 sha-256(password)
-    7 | [BLOB]
-
-So it describes the **password of the blob that follows**, and we now know that
-password independently: it is `causality`. All lower case — `aaa`. One
-unseparated word — `connected enf`, i.e. connection *enforced*. The notation
-matches the recovered answer exactly.
-
-That is the first empirical validation of this notation, and it was only possible
-after the blob opened. It fixes the meaning of the other two:
-
-| marker | governs | reading |
+| part | value | source |
 | --- | --- | --- |
-| `/(aaa, connected enf)` | the keymaker password | lower case, no separators → `causality` ✅ |
-| `/(aBa, connected enf)` | the Norton/JFK and genesis answers | mixed case, no separators |
-| `/(aBa, connected not enf)` | the chess answer | mixed case, separators **kept** |
+| 1 | `causality` | the first AES blob |
+| 2 | `Safenet` | "the ironic 2name of the keymakers" |
+| 3 | `Luna` | "Crypto finally to the latin 3Moon?" |
+| 4 | `HSM` | "Tell me, 4How so mate?" — the **initials** |
+| 5 | `11110` | "the 5binary code" — Executive Order 11110 |
+| 6 | `0x736B6E61…656854` | main.cpp **line 1616**, raw hex literal |
+| 7 | `B5KR/1r5B/2R5/… b - - 0 1` | the position after the one non-mating move |
 
-The third one is why part 7 is a FEN written out in full: "connection not
-enforced" is exactly how you would license the spaces in
-`6KR/1B5B/… b - - 0 1`, and it is the only one of the three that says so.
+Parts 2-4 are one object: a **SafeNet Luna HSM**, the hardware security module
+family. That is what "the keymakers trying to protect the current digital powers"
+are, and it is why the latin moon is wanted — the product is called *Luna*.
+"How so mate" is not a question to answer but three initials.
 
-## The on-chain messages are closed out
+Concatenated and hashed:
 
-Of the 41 distinct OP_RETURN payloads on the two prize addresses, only one is not
-plain ASCII: `▬→♀→→→▬♀♫↕→→‹` from 2025-03-13, which is deliberate Unicode rather
-than mis-decoded bytes. Its `♀` fits the same solver's other messages — "The
-answer is women", "Happy late mothers day!" — someone riffing on the Architect's
-"16 female, 7 male".
+    sha256("causalitySafenetLunaHSM111100x736B…656854B5KR/1r5B/2R5/… b - - 0 1")
+      = 1a57c572caf3cf722e41f5f9cf99ffacff06728a43032dd44c481c77d2ec30d5
 
-The one message that looked like it carried data,
-`FromN0EHalfABetterHalfBuiltItBellaCiao1_1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ`,
-embeds a valid address. It is a **2025 solver's own address**: first seen
-2025-12-30, the same day as the message, 8 transactions, 0.00033914 BTC of dust.
-"From N0E … Bella Ciao" is a signature, not a clue. The two hex payloads
-(`844e86a69a04eea672049e0e0e8612`, `673b7b4b67571b1b4b`) decode to 15 and 9
-bytes of nothing.
+I verified this end to end: that digest opens the phase 3 blob on the phase 2
+page, yielding **4090 bytes** of plaintext beginning "What if the merovingian is
+wrong." So the answer is confirmed cryptographically, not just quoted.
 
-So apart from `Halving` in 2020, the entire corpus is solver traffic and can be
-set aside.
+## Where I went wrong
 
-## The seven parts are numbered in the text
+**The false premise, and it was expensive.** I assumed the SalPhaseIon URL slug
+`89727c59…52f6a32` was `sha256(parts 1..7)`, because phase 2 says its answer is a
+digest and that page sits at a digest. It is not. It is
 
-Phase 2 ends "--> parts 1..7 --> sha-256 -> dgst", and the creator marks each one
-with a digit glued to the front of a word. Scanning the page plus the decrypted
-part 1 for that pattern finds exactly five, and the two remaining requests follow
-the last of them:
+    sha256("GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe")
 
-| part | marker | what it asks for |
-| --- | --- | --- |
-| 1 | `"1... are you looking for the private keymaker?"` | granted by the blob `causality` opens |
-| 2 | `The ironic 2name of the keymakers` | the ironic **name** of the keymakers |
-| 3 | `Crypto finally to the latin 3Moon?` | latin for **moon**, so `luna` |
-| 4 | `Tell me, 4How so mate?` | **how** so, mate |
-| 5 | `The 5binary code is a part of the piece` | the **binary** code, Executive Order **11110** |
-| 6 | (no marker) | genesis "raw data after 4 on row 1616" |
-| 7 | (no marker) | the chess "next situation" |
+— the hash of the *first* page's text, title plus prize address, an entirely
+separate gate. Every one of the ~437 million assemblies I tested was therefore
+compared against the wrong target and could never have matched, whatever the
+parts were. Two plausible facts (an answer is a digest; a page lives at a digest)
+were welded into an inference I then treated as verified and built a large search
+on.
 
-That accounts for all seven, and it explains the odd typography: `2name`,
-`3Moon`, `4How`, `5binary` are not typos but indices. Parts 2-5 all live inside
-the part 1 plaintext, which is why the keymaker blob had to be opened first.
+**Part 6.** I read "row 1616" as row 16 of a 16-hex-character layout of the
+genesis block and answered the decoded headline
+`TheTimes03/Jan/2009Chancellor…`. The clue is literal: line 1616 of Satoshi's
+`main.cpp`, and the answer is the **raw hex literal including its `0x`**. I even
+checked a `main.cpp` — but the v0.1.0 mirror, whose line 1616 is
+`ProcessMessages`; the intended revision is sourceforge r133.
 
-Three of the seven are effectively settled — part 3 is `luna`, part 5 is `11110`,
-and part 1 is whatever `# X 2 S H 4 Y 0 Q B 15 #` resolves to with `S = 32` and
-`B = 49`. The two section markers are consistent with this: `/(aaa, connected
-enf)` describes part 1 as lower case and written without separators, while
-`/(aBa, connected enf)` and `/(aBa, connected not enf)` describe the mixed-case
-parts and the chess answer, where a FEN's spaces need not be stripped.
+**Part 7.** I read "buddhist" as monk, hence bishop, and took White's unique
+bishop move `Bxb7#`. The intended reading is **ahimsa**: a buddhist will not
+kill, so the move is the only one of the fourteen that does *not* mate — `Rc6+`.
+I had identified `Rc6+` as the sole non-mating move at the very start and
+discarded it because its forced reply was a rook.
 
-Because the phase 3 URL exposes `sha256(parts 1..7)` =
-`89727c59…52f6a32`, any candidate assembly can be checked instantly. That turns
-the rest of phase 2 into a search with a hard test at the end rather than a
-guess.
+**B in the template.** The clue writes `sqrt(-1)` on purpose, to signal complex
+arithmetic: `i5` is 5i, so `(5i - i)^2 = (4i)^2 = -16`. I did string arithmetic
+on "i7" and got 49.
 
-Note the genesis block's raw serialisation is 285 bytes, i.e. **570 hex
-characters** — the exact length of phase 3's S570 field.
+**Casing.** My part 3 was `luna`, not `Luna`; my part 2 list held `SafeNet`,
+`safenet` and `SAFENET` but never `Safenet`. Even with a correct oracle, the
+sweep would have missed on case alone.
 
-## Part 6 solved: "raw data after 4 on row 1616"
+## What survived the audit
 
-The clue is self-describing once you take `1616` as **row 16, sixteen hex
-characters per row**. Laying the Bitcoin genesis block's raw serialisation out
-that way puts the coinbase push at the exact start of row 16:
-
-    row 15: ffff4d04ffff001d
-    row 16: 0104455468652054     <- "01 04" pushes the number 4, then the message
-    row 17: 696d65732030332f
-
-`01 04` is Satoshi's `CBigNum(4)` in the coinbase scriptSig, and the raw data
-**after that 4** is nothing but the headline:
-
-    The Times 03/Jan/2009 Chancellor on brink of second bailout for banks
-
-Under the section's `/(aBa, connected enf)` marker — mixed case, no separators —
-part 6 is
-
-    TheTimes03/Jan/2009Chancelloronbrinkofsecondbailoutforbanks
-
-The offset is exact: the push begins at hex offset 256, which is row 16 only
-under a 16-hex-character layout (a 16-*byte* layout puts it in row 8). That is
-what makes `1616` a single instruction rather than two numbers.
-
-## Part 7 solved: the forced bishop move
-
-"And now a buddhist is forced to move. What will be the next situation?"
-
-A buddhist is a monk, and the monk on a chessboard is the **bishop**. In
-
-    B5KR/1r5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 w - - 0 1
-
-White has fourteen legal moves, of which **exactly one is a bishop move**:
-`Bxb7#`. The a8 bishop's only free square is b7, and the h7 bishop is walled in
-by its own king and rook. So a bishop move really is *forced* — the word is
-doing precise work, not decoration. It is also mate, which is consistent with a
-position where thirteen of White's fourteen moves mate.
-
-The next situation is therefore
-
-    6KR/1B5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 b - - 0 1
-
-and the section marker fits it exactly: `/(aBa, connected not enf)` says mixed
-case with connection *not* enforced — which is precisely how you would describe
-a FEN, whose spaces and slashes must survive.
-
-That earlier reading of mine — Black to move, all nine of whose legal moves are
-bishop moves — is the wrong one. It leaves nine candidates, so nothing is
-forced, and it contradicts the `w` in the FEN.
-
-## Part 1 is letters, not digits
-
-The section marker `/(aaa, connected enf)` says part 1 is **lower case**. That is
-vacuous for a digit string, so the template's tokens must resolve to letters.
-Mapping them A=1:
-
-    2 -> b    S = 32 -> f    H = -42 -> j    4 -> d    B = 49 -> w    15 -> o
-
-and that immediately explains the odd trailing hint on `Q`:
-
-> Q -> extend the name of a hackers' swordless fish, **the I and W are below**.
-
-Under A=1, `B = 49` gives **w**, and `Q` gives **i** if `Q ≡ 9 (mod 26)`. Both
-`Q` and `B` are defined in the lines *below* that sentence — so "the I and W are
-below" is naming the two letters those two clues produce. It is a check digit on
-the mapping, and it confirms A=1 rather than A=0 (which would send 49 to `x`).
-
-`Q = 9` also fits its own clue two ways: drop the sword from *Swordfish* and
-extend the name back out and you have nine characters, and the hacker fish
-ciphers run Blowfish → Twofish → **Threefish**, which is nine letters.
-
-That leaves `X` and `Y`, which have no clue at all, and the closing instruction
-"on the highway, let put it in the worst gear" — reverse, or first.
-
-## Part 1's H is -42
-
-The other agent's reading of `H -> (Answer to only this puzzle but nothing else)
-* -1` is the Hitchhiker's 42 negated, so **H = -42**. With `S = 32` and
-`B = 49` that leaves only `Q`, `X` and `Y` unresolved in
-`# X 2 S H 4 Y 0 Q B 15 #`.
-
-## Searching the assemblies: 349 million tested, no match
-
-`oracle.py` exploits the fact that the answer is already known. Phase 2 says the
-seven parts hash to the phase 3 password, and the archived phase 3 page sits at
-that digest, so `sha256(parts 1..7)` must equal
-`89727c59…52f6a32`. Any candidate assembly is therefore decidable in
-microseconds, with no key derivation and no plaintext judgement — a far cheaper
-gate than the address oracles used downstream.
-
-Holding parts 3, 5, 6 and 7 at `luna`, `11110`, the connected genesis headline
-and the full FEN, two sweeps have now run:
-
-| part 1 family | part 2 | part 4 | assemblies |
-| --- | --- | --- | --- |
-| digit renderings, X/Y/Q over 0-9 | 159 keymaker names | 81 candidates | 25,758,000 |
-| letter-mapped template, X/Y over a-z, H = ±42, Q ∈ {9,3,2}, four zero handlings, both directions, plus the digit family | 142 keymaker names | 66 candidates | 322,846,656 |
-
-A third sweep tested a new reading of part 4: "Tell me, 4How so mate?" asking for
-the *mating move* rather than a phrase. `Bxb7` is attractive because it is
-literally the `aBa` pattern the section marker specifies — capital, lower, lower.
-With nine spellings of that move against 374 names and the same part 1 families,
-another 88,646,976 assemblies fell.
-
-**No match in any of the three, about 437 million assemblies in total**, at
-roughly 1.5 million per second, with a self-test confirming the harness detects a
-correct assembly.
-
-That is a real constraint rather than a shrug. Either one of the four settled
-parts is being written in the wrong form — case, separators, or the FEN's
-trailing fields — or the concatenation convention is not plain `p1..p7`, or
-parts 2 and 4 are outside those candidate lists. Parts 2 and 4 are the weakest
-links: "the ironic 2name of the keymakers" and "Tell me, 4How so mate?" are the
-only two clues with no arithmetic or source text to pin them.
-
-## The ECDSA nonce route is closed
-
-The transcript proposes auditing the prize address's signatures for a
-reproducible nonce relation, on the basis that "the target address has spent
-on-chain, so its full public key and signatures are available". `ecdsa_audit.py`
-settles it:
-
-| | signatures published | distinct r | reused r |
-| --- | --- | --- | --- |
-| Half `1GSMG…` | 6 | 6 | 0 |
-| Better Half `17ucy…` | 0 | — | — |
-
-Half has published only **six** signatures, every one with a distinct `r`, and
-none with an `r` shorter than 250 bits. No nonce reuse, and six samples is far
-too few for a lattice attack on biased nonces even if a bias existed.
-
-More importantly, **Better Half has never spent an output**, so it has published
-no signature *and no public key at all*. There is nothing there to audit. That
-also constrains how candidates can be tested against it: only by deriving the
-address hash, never by comparing public points — so any gate written against a
-"public key" for `17ucy…` is testing something that does not exist on chain.
-
-## What the breakthrough rules out for the other blobs
-
-`causality` is an ordinary English word taken from the film the puzzle quotes,
-so a full wordlist is worth running against the three blobs still closed.
-`bigattack.py` does that, using a CBC trick to keep it cheap: the final
-plaintext block is `D(C_n) XOR C_(n-1)`, so a single AES block decrypt checks the
-padding and rejects about 99.6% of candidates before any full decrypt, giving
-roughly 8,800 words/second across all three targets at once.
-
-**All 370,105 words of `words_alpha` fail** against the phase 3, Cosmic Duality
-and embedded blobs, in each of three passphrase forms under two key-derivation
-digests. A further 360 candidates drawn from the part 1 plaintext's own
-vocabulary — `luna`, `threefish`, `twofish`, `blowfish`, `zugzwang`, `keymaker`,
-the template string and its reversal — also fail.
-
-So those three are not single-word passphrases. Phase 3's is stated outright as
-the sha-256 of parts 1..7, and the remaining two belong to the SalPhaseIon
-puzzle rather than to phase 2.
-
-## The chess position
-
-`B5KR/1r5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 w - - 0 1` is a composition
-where **13 of White's 14 legal moves are checkmate**. The sole exception is
-`Rc6+`, and after it Black has exactly one legal reply, `Rxh7`.
-
-"A buddhist is forced to move" does not fit that line, though — `Rxh7` is a rook.
-It fits the position with Black to move, where **all nine of Black's legal moves
-are bishop moves**: the bishop is the only black piece that can move at all.
-A bishop is the chess piece that is a monk, and the position is a zugzwang. Nine
-candidate moves means the "next situation" is not yet pinned down.
+`causality` I found independently, by dictionary attack, and verified by
+decryption. The seven-part numbering was right: the digit-glued markers `2name`,
+`3Moon`, `4How`, `5binary` are indices, and that is exactly the structure the
+answer uses. My reading of the `/(...)` notation was right too, and the repository
+states it in the same terms — keep the casing, strip or keep the whitespace.
+Part 5 was right, and part 3 right in substance.
 
 # The prize on-chain: Half and Better Half verified
 

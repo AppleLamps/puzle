@@ -1,0 +1,251 @@
+{
+  "address_gate": "Every unique nonzero scalar is checked against both prize P2PKH addresses using compressed and uncompressed public keys.",
+  "candidate_counts": {
+    "duplicate_or_zero": 14607,
+    "generated": 23378,
+    "unique_nonzero": 8771
+  },
+  "families": {
+    "cosmic_formula_triangle_strides": {
+      "generated_candidates": 800,
+      "metadata": {
+        "models": 200,
+        "sequence_note": "base sequence plus H=42 and/or Q=82 replacements",
+        "sequence_variants": [
+          "base",
+          "h42",
+          "q82",
+          "h42-q82"
+        ],
+        "starts": [
+          0,
+          2,
+          3,
+          4,
+          10,
+          12,
+          27,
+          31,
+          32,
+          35,
+          68,
+          78,
+          103,
+          120,
+          136,
+          158,
+          246,
+          252,
+          378,
+          403,
+          528,
+          833,
+          865,
+          1161,
+          1326
+        ]
+      },
+      "unique_nonzero_candidates": 800
+    },
+    "pascal_witteveen_c73": {
+      "generated_candidates": 16512,
+      "metadata": {
+        "combination": "35 Chain4 blocks mapped to C(7,3) triples and C(7,4) complements",
+        "models": 192,
+        "source_count": 4
+      },
+      "unique_nonzero_candidates": 4991
+    },
+    "t5_hillone_askhskey": {
+      "generated_candidates": 2904,
+      "metadata": {
+        "block_sets": [
+          "chain4-first15",
+          "chain4-last15",
+          "chain4-trail-triangular15"
+        ],
+        "controls": [
+          "hillone-askhskey",
+          "askhskey-hillone",
+          "t5-qvygvcemufpkjbe",
+          "t5-comps-rowsums",
+          "t5-comps",
+          "witteveen-t5-controls"
+        ],
+        "models": 48,
+        "source": "HILLONE + ASKHSKEY controls from solver.witteveen_identity_audit"
+      },
+      "unique_nonzero_candidates": 2086
+    },
+    "trail_triangular_half_better_chain4": {
+      "generated_candidates": 3162,
+      "metadata": {
+        "index_rule": "value, abs(value), T(value), T(abs(value)), T(value mod 35), and adjacent T+offset variants mod 35",
+        "seed_index_counts": {
+          "formula-base": 18,
+          "formula-h42": 19,
+          "formula-h42-q82": 19,
+          "formula-q82": 18,
+          "trail-signed": 14,
+          "trail-unsigned-bytes": 10
+        },
+        "seed_indices": {
+          "formula-base": [
+            31,
+            4,
+            6,
+            10,
+            2,
+            3,
+            32,
+            12,
+            8,
+            27,
+            28,
+            0,
+            19,
+            16,
+            15,
+            22,
+            30,
+            11
+          ],
+          "formula-h42": [
+            31,
+            4,
+            6,
+            10,
+            2,
+            3,
+            32,
+            7,
+            28,
+            27,
+            0,
+            19,
+            16,
+            15,
+            8,
+            12,
+            22,
+            30,
+            11
+          ],
+          "formula-h42-q82": [
+            31,
+            4,
+            6,
+            10,
+            2,
+            3,
+            32,
+            7,
+            28,
+            27,
+            0,
+            12,
+            8,
+            19,
+            16,
+            15,
+            24,
+            30,
+            11
+          ],
+          "formula-q82": [
+            31,
+            4,
+            6,
+            10,
+            2,
+            3,
+            32,
+            12,
+            8,
+            27,
+            28,
+            0,
+            19,
+            16,
+            15,
+            24,
+            30,
+            11
+          ],
+          "trail-signed": [
+            31,
+            4,
+            6,
+            10,
+            12,
+            8,
+            27,
+            28,
+            2,
+            3,
+            18,
+            22,
+            0,
+            30
+          ],
+          "trail-unsigned-bytes": [
+            7,
+            28,
+            12,
+            8,
+            27,
+            2,
+            3,
+            5,
+            0,
+            30
+          ]
+        }
+      },
+      "unique_nonzero_candidates": 894
+    }
+  },
+  "matches": [],
+  "prize_addresses": {
+    "Better_Half": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "Half": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "schema": "xor-triangle-trail-audit-v1",
+  "scope": "Bounded XOR/triangular interpretations over reproduced Chain4/Cosmic data only; does not test unreproduced cosmic_A/row1-4/K_I1 claims.",
+  "source": {
+    "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+    "cosmic_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+    "formula_alternates": {
+      "B": -16,
+      "H": [
+        12,
+        42
+      ],
+      "Q": [
+        2,
+        82
+      ],
+      "S": 32
+    },
+    "formula_base": [
+      -4,
+      2,
+      32,
+      12,
+      4,
+      27,
+      0,
+      2,
+      -16,
+      15
+    ],
+    "trail1_hex": "fc0c1b02",
+    "trail1_signed": [
+      -4,
+      12,
+      27,
+      2
+    ]
+  },
+  "status": "NO_MATCH"
+}

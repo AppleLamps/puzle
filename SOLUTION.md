@@ -582,6 +582,39 @@ Architect message says: `1GSMG…` holds 1.25634510 BTC and `17ucy…` holds
 3.75055310 BTC, together just over 5 BTC, and `17ucy` has never spent, so it
 exposes no public key.
 
+
+## The two values labelled THE_HALF and THE_BETTER_HALF
+
+These are real outputs of the pipeline and are reproducible: they are exactly
+`base38_output[0:32]` and `base38_output[32:64]`.
+
+    THE_HALF         0423d9115a1dc756d5d08d2de880ab508bd4745fc97709f4fcb513f2cb8fcc35
+    THE_BETTER_HALF  48cc46e66bdd36b09ae344552f606a761f9d90681f20dfefe2b43db18b623971
+
+What they are not is the prize keys. Derived into every standard address type:
+
+| type | THE_HALF | THE_BETTER_HALF |
+| --- | --- | --- |
+| P2PKH compressed | `1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu` | `145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ` |
+| P2PKH uncompressed | `15E3pcDDXSKhvi3CLVhRTHEgd8dbVKvSZg` | `1FhbJnrdq1FmeiXrpTqnpQ8jvYV7naze96` |
+| P2SH-P2WPKH | `3NGoLwktaoKSeJnvAf1DLhjTNtaxrVkH9x` | `3C4X81Rfrz3DaEPPJ1TbysQoetsbPeFrjZ` |
+| P2WPKH bech32 | `bc1qh42f3sfrfdndmxng2etc8sqa7wqewjttr0qdhm` | `bc1qy8z3vv92esr8xgpmqcdcva4l4nr82upnc3cqkj` |
+| P2TR taproot | `bc1pxthwez8c8nl305dd23gds5ekfpfhnqupwfy40uwaxkxpe4vaxpxsufq7gz` | `bc1pqn4lkyf36nhv9duq6a7uqqttacrdqx0zpfq65q682yu2crjnhacs6xv4xs` |
+
+Neither prize address appears anywhere in that table, and the combined balance of
+all eight is **0.00000000 BTC**. The two P2PKH addresses have 101 transactions
+each, all dust, first seen 2026-04-12, swept to zero — the fate of any key
+published in a public repository.
+
+The name is the trap. "Half" and "Better Half" come from the recovered Architect
+line "the private keys belong to Half and Better Half", and solvers attached those
+labels to the two 32-byte halves of the base-38 output because the shapes matched.
+The tick against them means the bytes are reproducibly derived, which is true. It
+does not mean they open anything, and the split that produces them is itself
+suspect: if the leading `04` carries meaning, the parse would have to be
+`04 || X || Y`, not `[0:32] | [32:64]` with the `04` swallowed into the first key.
+Both readings fail — the `04||X||Y` point is not on secp256k1 at all.
+
 ## Where the frontier really is
 
 I collected every 32-byte value the verified chain produces — the chain 1 and 2

@@ -439,6 +439,37 @@ page itself opens `"1... are you looking for the private keymaker?"`, so clues
 Phillip Price is that show's E Corp CEO. "Crypto finally to the latin 3Moon"
 wants **luna**.
 
+## What the breakthrough rules out for the other blobs
+
+`causality` is an ordinary English word taken from the film the puzzle quotes,
+so a full wordlist is worth running against the three blobs still closed.
+`bigattack.py` does that, using a CBC trick to keep it cheap: the final
+plaintext block is `D(C_n) XOR C_(n-1)`, so a single AES block decrypt checks the
+padding and rejects about 99.6% of candidates before any full decrypt, giving
+roughly 8,800 words/second across all three targets at once.
+
+**All 370,105 words of `words_alpha` fail** against the phase 3, Cosmic Duality
+and embedded blobs, in each of three passphrase forms under two key-derivation
+digests. A further 360 candidates drawn from the part 1 plaintext's own
+vocabulary — `luna`, `threefish`, `twofish`, `blowfish`, `zugzwang`, `keymaker`,
+the template string and its reversal — also fail.
+
+So those three are not single-word passphrases. Phase 3's is stated outright as
+the sha-256 of parts 1..7, and the remaining two belong to the SalPhaseIon
+puzzle rather than to phase 2.
+
+## The chess position
+
+`B5KR/1r5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 w - - 0 1` is a composition
+where **13 of White's 14 legal moves are checkmate**. The sole exception is
+`Rc6+`, and after it Black has exactly one legal reply, `Rxh7`.
+
+"A buddhist is forced to move" does not fit that line, though — `Rxh7` is a rook.
+It fits the position with Black to move, where **all nine of Black's legal moves
+are bishop moves**: the bishop is the only black piece that can move at all.
+A bishop is the chess piece that is a monk, and the position is a zugzwang. Nine
+candidate moves means the "next situation" is not yet pinned down.
+
 # The prize on-chain: Half and Better Half verified
 
 The latest transcript proposes adding `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` as a

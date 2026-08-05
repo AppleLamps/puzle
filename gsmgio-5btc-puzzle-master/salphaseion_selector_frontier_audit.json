@@ -1,0 +1,841 @@
+{
+  "counts": {
+    "raw_candidates_by_family": {
+      "phase32_one_four": 22,
+      "s570_classical": 125,
+      "salphaseion_short_blob_alt_passwords": 4,
+      "witteveen_page_selectors": 130
+    },
+    "scalar_tests_by_family": {
+      "phase32_one_four": 3012,
+      "s570_classical": 50430,
+      "salphaseion_short_blob_alt_passwords": 392,
+      "witteveen_page_selectors": 5810
+    },
+    "total_raw_candidates": 281,
+    "total_scalar_tests": 59644
+  },
+  "matches": [],
+  "meta": {
+    "phase32_one_four": {
+      "first_four_chunks": [
+        "1516",
+        "5943",
+        "1219",
+        "7240",
+        "9169",
+        "1712",
+        "1375",
+        "8951",
+        "8131",
+        "4154",
+        "3131",
+        "4124"
+      ],
+      "four_chunks": 37,
+      "materials": {
+        "entire-number-mod-n": 32,
+        "four-chunks-a0-mod26": 37,
+        "four-chunks-beaufort-with-phrase": 37,
+        "four-chunks-mod256": 37,
+        "four-chunks-select-chain4-plain-32": 32,
+        "four-chunks-select-chain4/concat": 1184,
+        "four-chunks-select-chain4/sha-concat": 32,
+        "four-chunks-select-chain4/sum-mod-n": 32,
+        "four-chunks-select-chain4/weighted-sum-mod-n": 32,
+        "four-chunks-select-chain4/xor": 32,
+        "four-chunks-select-cosmic-32": 32,
+        "four-chunks-u16be": 74,
+        "four-chunks-u16le": 74,
+        "four-chunks-vigenere-with-phrase": 37,
+        "four-then-one-a0-mod26": 59,
+        "four-then-one-mod256": 59,
+        "number-line-ascii": 149,
+        "one-then-four-a0-mod26": 59,
+        "one-then-four-mod256": 59,
+        "phrase-lower-nospace": 19,
+        "phrase-plus-number": 176,
+        "single-digits-as-a0-letters": 149
+      },
+      "number_line_digits": 149,
+      "phrase": "One for one, four for one."
+    },
+    "s570_classical": {
+      "decode_records": 125,
+      "keys": [
+        "THEMATRIXHASYOU",
+        "WITTEVEEN",
+        "YELLOWBLUEPRIMES",
+        "HASHTHETEXT",
+        "YINYANG"
+      ],
+      "modes_per_stream_key": 5,
+      "streams": {
+        "s570-a-i": 570,
+        "s570-a1-digit-pairs-mod26": 285,
+        "s570-folded-a0": 285,
+        "s570-folded-middle-a0": 276,
+        "s570-t23-compact": 20
+      },
+      "top_scored_decodes": [
+        {
+          "key": "YINYANG",
+          "length": 570,
+          "mode": "vigenere-encrypt",
+          "sample": "DIRBGTKCLSABQGZPUEGPGBKSCDQMDLTZGVMYIRBGTOYNNCCTNEOPBAVNCPNFBNNGOPCISMZNTCFTGGNNZISGEIREENIEJOCATLEORCGTGDJNAGSIBJRGFSGY",
+          "score": 6,
+          "sha256": "d3879ff30db3e6bf5eedb357226c88c177b15c73d5903af3f6893dd9eba88d36",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "THEMATRIXHASYOU",
+          "length": 570,
+          "mode": "beaufort",
+          "sample": "OHAJUNNEUCYRVOTMAYGYTOGSDXPSJRNGYEUTREUBUKYJUPFYFUNPFXZTORONSHXEURNASBZNSKPNHWHASJDXBAOSKURBDLWTLDRBWOSIUOGEKUOPFWDSNTOU",
+          "score": 3,
+          "sha256": "8ac3a89313727cc9635b38b4f31cdcd70f0cd35c23c4478af123f342566291b4",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "WITTEVEEN",
+          "length": 570,
+          "mode": "vigenere-encrypt",
+          "sample": "BIXWKBIIQBKUWEWLLTCKTWGAIHQCNWZFBMKNWMWZKDEJNAKZAKBGHNEPXAECFEUEOVXMAKFSCMYZEDJEOENTZEZKINYOUUIVKJTCMXZKVJFNYOYVHWIMSBIT",
+          "score": 3,
+          "sha256": "23f7939b207b44b6d157da09bff12d986c495c825159e6e794fc7d96a56dd7f6",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "YELLOWBLUEPRIMES",
+          "length": 570,
+          "mode": "beaufort",
+          "sample": "TEHIIQXHRZNQFMDLRYFJOTZGQBMLDJYRSWFLOSYFOWPMIICMRYFJLWTEQXPKHMXKSCHDJQAGOAKLIEZSXWGLIWXFQENLHLASSZFFKSVFUZORGGZQVDHDJRBL",
+          "score": 3,
+          "sha256": "b5b6d2575fb027051a7dc9ea23a812e28743a5edf65b01ec49e4b9840805aff9",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "YINYANG",
+          "length": 570,
+          "mode": "vigenere-decrypt",
+          "sample": "HSRFGTYGVSEBQUDZUIGPUFUSGDQAHVTDGVACSRFGTCCXNGCTBIYPFAVBGZNJBNBKYPGISADXTGFTUKXNDISUISRIENWITOGATZIYRGGTUHTNEGSWFTRKFSUC",
+          "score": 3,
+          "sha256": "c480c29ab51b29cb5b8bb1e7044337374d02b8ed43457c4fd2b7e30bcaf6f6fc",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "YINYANG",
+          "length": 570,
+          "mode": "beaufort",
+          "sample": "TIJVUHCUFIWZKGXBGSULGVGIUXKATFHXUFAYIJVUHYYDNUYHZSCLVAFZUBNRZNZQCLUSIAXDHUVHGQDNXSIGSIJSWNESHMUAHBSCJUUHGTHNWUIEVHJQVIGY",
+          "score": 3,
+          "sha256": "8af62bcbfe69b8466242a697f5efd958a0dce9bcc6f73ea898a01c936ac4d9cf",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "YINYANG",
+          "length": 570,
+          "mode": "variant-beaufort",
+          "sample": "HSRFGTYGVSEBQUDZUIGPUFUSGDQAHVTDGVACSRFGTCCXNGCTBIYPFAVBGZNJBNBKYPGISADXTGFTUKXNDISUISRIENWITOGATZIYRGGTUHTNEGSWFTRKFSUC",
+          "score": 3,
+          "sha256": "c480c29ab51b29cb5b8bb1e7044337374d02b8ed43457c4fd2b7e30bcaf6f6fc",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "YINYANG",
+          "length": 570,
+          "mode": "playfair-decrypt",
+          "sample": "EGDCAADDCEBFENYBOYIFNEBEDCFNECYFAYANXAFNAYGEXAFIOYIFENYKBMYMEYKYIFCAGZFEAFGZNYEGCYEGANFAAXFIFFAXZGAADDAAGEEYFIEBCFCAEENN",
+          "score": 3,
+          "sha256": "dbceec96c29e1af893a013697e5d0062c2c18cf9dbbe9755e3ef553799118fce",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "HASHTHETEXT",
+          "length": 285,
+          "mode": "vigenere-decrypt",
+          "sample": "AITEVGAQGLRUKIVQDDVZESWNUXRGBMEFTIKJYTZGVLFUBILFOFIRZDUGMVASYZSHOKCJVHJBGMGKHFHPYRZYOCNVCFKHNAEHHOTHHTZQZENEHRCGTYPFJTZI",
+          "score": 3,
+          "sha256": "906d69f70c6c45f5fa7119d1444916b65f61089c14f15de710217d8d621b1fd3",
+          "stream": "s570-folded-a0"
+        },
+        {
+          "key": "HASHTHETEXT",
+          "length": 285,
+          "mode": "beaufort",
+          "sample": "ASHWFUAKUPJGQSFKXXFBWIENGDJUZOWVHSQRCHBUFPVGZSPVMVSJBXGUOFAICBITMQYRFTRZUOUQTVTLCJBCMYNFYVQTNAWTTMHTTHBKBWNWTJYUHCLVRHBS",
+          "score": 3,
+          "sha256": "dcc3d6fe693d25ee49fe22b44a9a4af04df705d4a30d481aff282699b78c0e44",
+          "stream": "s570-folded-a0"
+        },
+        {
+          "key": "HASHTHETEXT",
+          "length": 285,
+          "mode": "variant-beaufort",
+          "sample": "AITEVGAQGLRUKIVQDDVZESWNUXRGBMEFTIKJYTZGVLFUBILFOFIRZDUGMVASYZSHOKCJVHJBGMGKHFHPYRZYOCNVCFKHNAEHHOTHHTZQZENEHRCGTYPFJTZI",
+          "score": 3,
+          "sha256": "906d69f70c6c45f5fa7119d1444916b65f61089c14f15de710217d8d621b1fd3",
+          "stream": "s570-folded-a0"
+        },
+        {
+          "key": "YINYANG",
+          "length": 285,
+          "mode": "beaufort",
+          "sample": "RACNMACPYFOZDGWZDRMKFNFAMWDTTDFWOYWXDBSQZRWVFQXBZMWDVAATMVGNVKVNXKPRASWADTQGGMBGTQHERCDKRIEKCGQACVMUGNUEAQCFUQEANDFMNBDT",
+          "score": 3,
+          "sha256": "4c8b9904604c246911458b392d50b99d10c5ec78b46683ad9b26ea073bc68230",
+          "stream": "s570-folded-a0"
+        },
+        {
+          "key": "WITTEVEEN",
+          "length": 285,
+          "mode": "vigenere-decrypt",
+          "sample": "MTFJPKKXVYFQIQQPWFSMHWKPEQBXXYBGZCKMAGZPYNOALONFEUHULHOCWNJPGLEZUVQGXAOOKOGPOYTIJOGFYMXMTPWGQNAFSCFMSHXDJTSFFQXVQWNEHBNO",
+          "score": 3,
+          "sha256": "1bbbbeff25a11507039d9c2e63554e6ef8a4c8da79e11c3b497204dfc4d28c74",
+          "stream": "s570-a1-digit-pairs-mod26"
+        },
+        {
+          "key": "WITTEVEEN",
+          "length": 285,
+          "mode": "variant-beaufort",
+          "sample": "MTFJPKKXVYFQIQQPWFSMHWKPEQBXXYBGZCKMAGZPYNOALONFEUHULHOCWNJPGLEZUVQGXAOOKOGPOYTIJOGFYMXMTPWGQNAFSCFMSHXDJTSFFQXVQWNEHBNO",
+          "score": 3,
+          "sha256": "1bbbbeff25a11507039d9c2e63554e6ef8a4c8da79e11c3b497204dfc4d28c74",
+          "stream": "s570-a1-digit-pairs-mod26"
+        },
+        {
+          "key": "HASHTHETEXT",
+          "length": 276,
+          "mode": "playfair-decrypt",
+          "sample": "GIGICISBGIANCXDTRGSMRXBMFKKCXDLMIPKSOGLBGELLLCHORGGUMDTDKKBLGOPBGICMEHGEEXIMXSMIIBDBNIAGTIKLNAKMGMGMMAIGMKBMGRLFDMXRKGGT",
+          "score": 3,
+          "sha256": "5c1fe9342e6565e08f8b13dccad485447038d99cba53e8e0d09a5fbc88a4cd03",
+          "stream": "s570-folded-middle-a0"
+        },
+        {
+          "key": "YINYANG",
+          "length": 276,
+          "mode": "beaufort",
+          "sample": "PYFOZDGWZDRMKFNFAMWDTTDFWOYWXDBSQZRWVFQXBZMWDVAATMVGNVKVNXKPRASWADTQGGMBGTQHERCDKRIEKCGQACVMUGNUEAQCFUQEANDFMNBDTXILPFVR",
+          "score": 3,
+          "sha256": "2b2617a3bfe48460ea0bbcbd5a03e254b335245c9fa8d94b40cd3a0bcaacc9c0",
+          "stream": "s570-folded-middle-a0"
+        },
+        {
+          "key": "YINYANG",
+          "length": 276,
+          "mode": "playfair-decrypt",
+          "sample": "VCVCCHIEVCOMCFDNALCMGDCGEKQHFEOAHMQBIYNCLOLLLCNIALYLODNDKKCNYIKFVCCOMYLOOBOIBKIOKGEBFZKYNMKLMOONYAYAACCVNOCGLALEDODGKNKO",
+          "score": 3,
+          "sha256": "a6f6aa72ceb0bcc4a69293c088f58f14b56446b8522413334abbb4a0a94c0114",
+          "stream": "s570-folded-middle-a0"
+        },
+        {
+          "key": "THEMATRIXHASYOU",
+          "length": 570,
+          "mode": "vigenere-decrypt",
+          "sample": "MTARGNNWGYCJFMHOACUCHMUIXDLIRJNUCWGHJWGZGQCRGLVCVGNLVDBHMJMNITDWGJNAIZBNIQLNTETAIRXDZAMIQGJZXPEHPXJZEMISGMUWQGMLVEXINHMG",
+          "score": 0,
+          "sha256": "f45c1b609ca2dc9cf71166edf6b396075406e97cf4e83368edc640116d092e6f",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "THEMATRIXHASYOU",
+          "length": 570,
+          "mode": "vigenere-encrypt",
+          "sample": "YHIPGZVMAMCTBOVAOKSCTUKCLDVETXZIKUGTRMANGAYTUXJKTGZTLXPHWFOBUHLUGVVQCNBXESZZHMRAUZNXNAWESUVNFNETXNDNEWEUUYIEOGYTLYLIXDOU",
+          "score": 0,
+          "sha256": "2830bbb9c36e55f93e85ab342ab4a1f432792fee864769a3b1991f7687b75f63",
+          "stream": "s570-a-i"
+        },
+        {
+          "key": "THEMATRIXHASYOU",
+          "length": 570,
+          "mode": "variant-beaufort",
+          "sample": "MTARGNNWGYCJFMHOACUCHMUIXDLIRJNUCWGHJWGZGQCRGLVCVGNLVDBHMJMNITDWGJNAIZBNIQLNTETAIRXDZAMIQGJZXPEHPXJZEMISGMUWQGMLVEXINHMG",
+          "score": 0,
+          "sha256": "f45c1b609ca2dc9cf71166edf6b396075406e97cf4e83368edc640116d092e6f",
+          "stream": "s570-a-i"
+        }
+      ]
+    },
+    "salphaseion_short_blob_alt_passwords": {
+      "aes_attempts": 1086,
+      "alternate_base_passwords": 219,
+      "canonical_plaintext_sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+      "ciphertext_len": 80,
+      "envelope_len": 96,
+      "padding_hit_count": 4,
+      "padding_hits": [
+        {
+          "digest": "md5",
+          "label": "token/verylaststepisatruegiveawaypromised/as-is/raw",
+          "plaintext_len": 79,
+          "plaintext_sha256": "ba799744cb54144d68ce325468b103a5b7d4287ad4c6b8bb339e19d8b5cbb648",
+          "printable_sample": ".....|../!?^...\\-.\"..D/.........#$.p.>....F..I2..@~.^h...Y$w*........!.Zk....=C"
+        },
+        {
+          "digest": "md5",
+          "label": "suffix-3-concat/as-is/double-sha256-digest",
+          "plaintext_len": 79,
+          "plaintext_sha256": "d21ae177a40c0dee7aed4af5b830813215f403b1dc109721f1306ceff998c4f8",
+          "printable_sample": "Z.H0..>d........L....sA..........J$.|.{...`U.........lp.^.Hp..b.1..7.m#)6..x..x"
+        },
+        {
+          "digest": "sha256",
+          "label": "yellowblueprimes-yin yang-witteveen/upper/raw",
+          "plaintext_len": 79,
+          "plaintext_sha256": "9638f2b21b3fea51b0e3628b0a56a9dac077c62ab26b697d3730395d4b5eb5b3",
+          "printable_sample": "`J..9....Z^&|.7..I...M...^e:.1N............H.(M..~......2.....~...&.>......:D(."
+        },
+        {
+          "digest": "md5",
+          "label": "digest-xor-prefix-3/double-sha256-digest",
+          "plaintext_len": 79,
+          "plaintext_sha256": "c96b9f3ee91ca6626f47a8260929280cd4223793f863d73fe9c8a0d954ed1f8b",
+          "printable_sample": ".pI.......~g.y.e..V.UV...'$ .....n.%)F\".~..[...A...$.S......O2N....x.Z..2..`./."
+        }
+      ],
+      "salt_hex": "3ab585348552415d",
+      "structural_hit_count": 4,
+      "structural_hits": [
+        {
+          "digest": "md5",
+          "first_scalar_in_range": true,
+          "label": "token/verylaststepisatruegiveawaypromised/as-is/raw",
+          "plaintext_len": 79,
+          "plaintext_sha256": "ba799744cb54144d68ce325468b103a5b7d4287ad4c6b8bb339e19d8b5cbb648",
+          "printable_sample": ".....|../!?^...\\-.\"..D/.........#$.p.>....F..I2..@~.^h...Y$w*........!.Zk....=C",
+          "triplet_shape": "32+32+15"
+        },
+        {
+          "digest": "md5",
+          "first_scalar_in_range": true,
+          "label": "suffix-3-concat/as-is/double-sha256-digest",
+          "plaintext_len": 79,
+          "plaintext_sha256": "d21ae177a40c0dee7aed4af5b830813215f403b1dc109721f1306ceff998c4f8",
+          "printable_sample": "Z.H0..>d........L....sA..........J$.|.{...`U.........lp.^.Hp..b.1..7.m#)6..x..x",
+          "triplet_shape": "32+32+15"
+        },
+        {
+          "digest": "sha256",
+          "first_scalar_in_range": true,
+          "label": "yellowblueprimes-yin yang-witteveen/upper/raw",
+          "plaintext_len": 79,
+          "plaintext_sha256": "9638f2b21b3fea51b0e3628b0a56a9dac077c62ab26b697d3730395d4b5eb5b3",
+          "printable_sample": "`J..9....Z^&|.7..I...M...^e:.1N............H.(M..~......2.....~...&.>......:D(.",
+          "triplet_shape": "32+32+15"
+        },
+        {
+          "digest": "md5",
+          "first_scalar_in_range": true,
+          "label": "digest-xor-prefix-3/double-sha256-digest",
+          "plaintext_len": 79,
+          "plaintext_sha256": "c96b9f3ee91ca6626f47a8260929280cd4223793f863d73fe9c8a0d954ed1f8b",
+          "printable_sample": ".pI.......~g.y.e..V.UV...'$ .....n.%)F\".~..[...A...$.S......O2N....x.Z..2..`./.",
+          "triplet_shape": "32+32+15"
+        }
+      ]
+    },
+    "witteveen_page_selectors": {
+      "blue_prime_count": 15,
+      "diag_selected_words": [
+        "how",
+        "to",
+        "we",
+        "know",
+        "own",
+        "direct",
+        "moment"
+      ],
+      "page_alnum_length": 1508,
+      "page_word_count": 374,
+      "s91_color_parse": "BBBBYBBBYYBBBBYBBYYBBYY",
+      "selector_examples": {
+        "concept-word-positions": [
+          140,
+          145,
+          222,
+          244,
+          231,
+          288,
+          303,
+          341,
+          278,
+          281,
+          8,
+          32,
+          183,
+          233,
+          260,
+          354
+        ],
+        "diag-page-word-a1-sums": [
+          46,
+          35,
+          28,
+          63,
+          52,
+          59,
+          80
+        ],
+        "diag-page-word-lengths": [
+          3,
+          2,
+          2,
+          4,
+          3,
+          6,
+          6
+        ],
+        "diag-sums": [
+          22,
+          34,
+          19,
+          21,
+          56,
+          30,
+          13
+        ],
+        "page140-plus-prime-sums": [
+          140,
+          400,
+          474,
+          540,
+          614,
+          74
+        ],
+        "s91-blue-prime-numbers": [
+          2,
+          3,
+          5,
+          7,
+          13,
+          17,
+          19,
+          31,
+          37,
+          41,
+          43,
+          53,
+          59,
+          71,
+          73
+        ],
+        "s91-blue-prime-page-word-lengths": [
+          4,
+          6,
+          3,
+          2,
+          6,
+          6,
+          2,
+          3,
+          2,
+          7,
+          4,
+          3,
+          14,
+          1,
+          2
+        ],
+        "s91-yellow-prime-numbers": [
+          11,
+          23,
+          29,
+          47,
+          61,
+          67,
+          79,
+          83
+        ],
+        "s91-yellow-prime-page-word-lengths": [
+          3,
+          2,
+          2,
+          2,
+          14,
+          7,
+          3,
+          3
+        ],
+        "witteveen-letters": [
+          23,
+          9,
+          20,
+          20,
+          5,
+          22,
+          5,
+          5,
+          14
+        ]
+      },
+      "selector_sets": {
+        "concept-word-positions": 16,
+        "diag-page-word-a1-sums": 7,
+        "diag-page-word-lengths": 7,
+        "diag-sums": 7,
+        "page140-plus-prime-sums": 6,
+        "s91-blue-prime-numbers": 15,
+        "s91-blue-prime-page-word-lengths": 15,
+        "s91-yellow-prime-numbers": 8,
+        "s91-yellow-prime-page-word-lengths": 8,
+        "witteveen-letters": 9
+      },
+      "yellow_prime_count": 8
+    }
+  },
+  "notes": [
+    "S91/Witteveen/page-140 material is used as selectors into byte domains, not as direct brainwallet text.",
+    "S570 classical tests cover Playfair, Vigenere, Beaufort, and variant-Beaufort with the requested keys.",
+    "Phase 3.2 number-line tests include one/four grouping, 4-digit chunks, phrase-key shifts, and selector folds.",
+    "The SalPhaseIon short envelope has 80 bytes of AES ciphertext; creator-pipeline alternatives exclude the canonical known password."
+  ],
+  "prize_targets": {
+    "Better_Half": {
+      "address": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+      "hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6"
+    },
+    "Half": {
+      "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "hash160_uncompressed": "a9553269572a317e39f0f518cb87c1a0ee1dbae4",
+      "known_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+    }
+  },
+  "schema": "salphaseion-selector-frontier-audit-v1",
+  "status": "NO_MATCH",
+  "strongest_near_misses": [
+    {
+      "address": "1GSMLHWhPVs6mHGpGgxNZ6MX2XsLdMGtLH",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 70,
+      "hash160_lcp_nibbles": 4,
+      "label": "s570-a-i/playfair-decrypt/YINYANG/win[376:408]",
+      "private_key_hex": "41434f4f454346414e464946594b41414141594f4e45594d5941594146594442",
+      "serialization": "compressed",
+      "target": "Half"
+    },
+    {
+      "address": "17ucr7wBLNyE7UerTcc7CjEU9X39Lacvu9",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 74,
+      "hash160_lcp_nibbles": 4,
+      "label": "s570-a-i/vigenere-decrypt/YELLOWBLUEPRIMES/win[381:413]/rev",
+      "private_key_hex": "554f4f414d52444b4e5658434b505752535152434d56464c5552565a494f4152",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "17ucZER1BpvcT4jvTqPcVHd8kFzkwArY64",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 74,
+      "hash160_lcp_nibbles": 4,
+      "label": "s570-folded-a0/beaufort/YINYANG/win[158:190]/rev",
+      "private_key_hex": "5442464e5246414f59414d5243574d5a4e525744444b5342584b48424f574b4e",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "17ucuoxdndDAyuyYHdTZjDQYgQ4K6c2afS",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 79,
+      "hash160_lcp_nibbles": 4,
+      "label": "s570-folded-a0/vigenere-encrypt/YINYANG/win[202:234]/rev",
+      "private_key_hex": "50544b535450444355474f5a4f48564f474f554d4559544b5358464158564c4f",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "1GSMqcCGSm1oYtCdPApPktWqRBzCbpTsB5",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 83,
+      "hash160_lcp_nibbles": 4,
+      "label": "s570-a-i/vigenere-decrypt/YELLOWBLUEPRIMES/win[235:267]/rev",
+      "private_key_hex": "54434951454c5456564344514350414f50434f5444464f555443494c5952594f",
+      "serialization": "compressed",
+      "target": "Half"
+    },
+    {
+      "address": "1GSWwJgaCmDK61qqJrAeCyPAp52q175z7W",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 61,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-folded-middle-a0/vigenere-decrypt/YELLOWBLUEPRIMES/win[12:44]/rev",
+      "private_key_hex": "5658445353484d5a52454b4d4f4954545441494958454a5a5a5449504c485056",
+      "serialization": "compressed",
+      "target": "Half"
+    },
+    {
+      "address": "1GSKhpxQFb3WjHujKzopVsiapMiXHjMa4w",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 63,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/playfair-decrypt/YELLOWBLUEPRIMES/win[323:355]/rev",
+      "private_key_hex": "475947534154535453534c415046504e46484d524d4b414d4e414e474c4e5349",
+      "serialization": "uncompressed",
+      "target": "Half"
+    },
+    {
+      "address": "17uZCX1kAVzNLiRUfwR9NJFNR5UwCCEbeg",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 63,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/vigenere-encrypt/HASHTHETEXT/win[309:341]/rev",
+      "private_key_hex": "55434b594549564f55444d57454c584b4b575059495042454d41475042495545",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "1GSX5QQx8tcZJErxyk2w9C5GBo1eDwdFmZ",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 63,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/beaufort/WITTEVEEN/win[354:386]",
+      "private_key_hex": "4d59545a59485143525459515858485048544c584e42574a50424f5141505942",
+      "serialization": "compressed",
+      "target": "Half"
+    },
+    {
+      "address": "1GSZH7xgszbrqt5TmGiVRcetoJC9MCuTH5",
+      "family": "phase32_one_four",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 63,
+      "hash160_lcp_nibbles": 3,
+      "label": "four-chunks-select-chain4/concat/win[1090:1122]/rev",
+      "private_key_hex": "350c345adb3f453643f58b9afc5e922bebfe7268b6ce8937951d915e50774324",
+      "serialization": "compressed",
+      "target": "Half"
+    },
+    {
+      "address": "17ugrrra5E5Boc9pZBKtSG47qujmTbutkT",
+      "family": "witteveen_page_selectors",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 64,
+      "hash160_lcp_nibbles": 3,
+      "label": "diag-page-word-lengths/chain4-blocks/concat/win[89:121]",
+      "private_key_hex": "b83c7f973be1091ca6438bbcc8a98e1b087a0a5d56d4bba42d311d2ba8cb01ef",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "17uXv4buiaFucoTdEQJoYHBjX4iapnkdZh",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 65,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a1-digit-pairs-mod26/vigenere-decrypt/YELLOWBLUEPRIMES/win[24:56]/rev",
+      "private_key_hex": "5a4a59424e52555a475259514e444549585253494f44435753514658435a514f",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "17ugwJfNchfJMkSggfHpJEuGuYvrhnAyth",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 65,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/vigenere-encrypt/THEMATRIXHASYOU/win[71:103]",
+      "private_key_hex": "5845535a5a484d5241555a4e584e4157455355564e464e4554584e444e455745",
+      "serialization": "compressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "17umr6MdHaPxpqhvNB68p6xGLmQzTqXkgb",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 66,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/vigenere-decrypt/THEMATRIXHASYOU/win[24:56]",
+      "private_key_hex": "58444c49524a4e55435747484a57475a47514352474c564356474e4c56444248",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "1GSUk2SWav1uyLB2aPCrpe3RPfNmEVVjFY",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 3,
+      "hash160_bit_distance": 67,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/vigenere-encrypt/HASHTHETEXT/win[114:146]",
+      "private_key_hex": "58504a594558594a495648414e485849435a4f48554e5a48495a4842554f4857",
+      "serialization": "uncompressed",
+      "target": "Half"
+    },
+    {
+      "address": "1GSU9YeR5HMcPJqDUt9JgYe2ZTKcDqKQQq",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 67,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a1-digit-pairs-mod26/playfair-decrypt/YINYANG/win[40:72]/rev",
+      "private_key_hex": "4550414d43564b46575151484c495954484850484942415549554849414d5649",
+      "serialization": "uncompressed",
+      "target": "Half"
+    },
+    {
+      "address": "17uk3XrgbFmzk3ssoDVkffyMwRd2Raa7VV",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 68,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-folded-a0/vigenere-encrypt/HASHTHETEXT/win[182:214]/rev",
+      "private_key_hex": "5a53444d54444347445255425441464a4a4555414f4d435358465047454d424f",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "1GSZMMBaJZb88nEtXoLE8hZA2JLoXbr3DS",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 68,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/vigenere-decrypt/WITTEVEEN/win[50:82]/rev",
+      "private_key_hex": "4d4f57424e574e4d574b5358434b454c4a594d5557584d574f4c5a4d4e5a594c",
+      "serialization": "compressed",
+      "target": "Half"
+    },
+    {
+      "address": "17uj4TnCtWu8mKPQJAJ4F8T9NyEjDUzJWJ",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 68,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/vigenere-encrypt/WITTEVEEN/win[491:523]/rev",
+      "private_key_hex": "434e4b4b444554594f45544c495a4858574e5853464d444657584a424f454958",
+      "serialization": "compressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "17uokgQCGwQgJdeuDpxHEXEVwNh5T1kyrV",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 69,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-folded-middle-a0/playfair-decrypt/YELLOWBLUEPRIMES/win[150:182]/rev",
+      "private_key_hex": "4e424b4752524e524b574156444441505244484e4c4c4443454b47484e434b4e",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "17uhmyHSFMNYKkDzVd4Ggo9JsvqtWLKfuy",
+      "family": "phase32_one_four",
+      "half_pubkey_lcp_nibbles": 3,
+      "hash160_bit_distance": 70,
+      "hash160_lcp_nibbles": 3,
+      "label": "four-chunks-select-chain4/concat/win[1119:1151]",
+      "private_key_hex": "340c359f3d121b91b4c6d912b9d4819a73547e6736f93fd556a3a8d46eb454f0",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "1GSNDpAu3E2f46zoiTUjtWMxskVQYbth3m",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 71,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-folded-middle-a0/vigenere-encrypt/HASHTHETEXT/win[178:210]",
+      "private_key_hex": "5a55424d4a454e43444f515a58564d4d464d4b4752435852465450454b4a4150",
+      "serialization": "uncompressed",
+      "target": "Half"
+    },
+    {
+      "address": "17ujdTYrenN21drJCszfmHqLyYfygF92Ah",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 71,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-folded-middle-a0/beaufort/HASHTHETEXT/win[106:138]",
+      "private_key_hex": "4f574c4756584e574f55544c54515056534d414a53594e53524957534e424753",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "17urAq2F8LWyVQi2C3irGD8kz7kh6Mrw5k",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 71,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-folded-a0/vigenere-decrypt/YELLOWBLUEPRIMES/win[235:267]",
+      "private_key_hex": "51465442514c4a415955494742554b585748584a534c4b5758584e4d594a4a59",
+      "serialization": "compressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "1GSYbvZprbhKjdUvow1Yj3QFoa5YuRnKy1",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 71,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a1-digit-pairs-mod26/beaufort/YINYANG/win[217:249]",
+      "private_key_hex": "4b54535346485045584457554c47484f5a5449514142574147484959554b4f41",
+      "serialization": "compressed",
+      "target": "Half"
+    },
+    {
+      "address": "1GSP2rmn2SMat7oEDYF8h74Kw7oaWYzsme",
+      "family": "witteveen_page_selectors",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 72,
+      "hash160_lcp_nibbles": 3,
+      "label": "s91-yellow-prime-numbers/chain4-blocks/concat/win[65:97]/rev",
+      "private_key_hex": "f2d094f8fc7817351fa7b48c4b6c48b112a5cc9964fc7c742f094257b1bd566f",
+      "serialization": "uncompressed",
+      "target": "Half"
+    },
+    {
+      "address": "1GSJDNRsiZk5k1uYJQhiLbL56GVSCCkyf8",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 72,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/playfair-decrypt/WITTEVEEN/win[173:205]/rev",
+      "private_key_hex": "5748414841594555495754424145594e42544b4e484145494154414c46414949",
+      "serialization": "uncompressed",
+      "target": "Half"
+    },
+    {
+      "address": "17uqVYPwoxdWzGP247FEhQKFxo9GUdWXs1",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 72,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a-i/playfair-decrypt/YINYANG/win[117:149]/rev",
+      "private_key_hex": "594641424d4259444341464e4149464f4f5a474444464e4d59434e42454e4e45",
+      "serialization": "uncompressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "17urpcYPynAYExzymTPcAYCbQsHZfccSbF",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 0,
+      "hash160_bit_distance": 72,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a1-digit-pairs-mod26/vigenere-encrypt/THEMATRIXHASYOU/win[227:259]/rev",
+      "private_key_hex": "574248594d4758525557564850584952585a47474c4550534d4c434954435347",
+      "serialization": "compressed",
+      "target": "Better_Half"
+    },
+    {
+      "address": "1GSJmR64XYrBsTmRVjaRj2dov3wXnydYkR",
+      "family": "s570_classical",
+      "half_pubkey_lcp_nibbles": 2,
+      "hash160_bit_distance": 73,
+      "hash160_lcp_nibbles": 3,
+      "label": "s570-a1-digit-pairs-mod26/playfair-decrypt/WITTEVEEN/win[81:113]/rev",
+      "private_key_hex": "5a4d5058434d5359544b504e4e57554649434941554d5542594d595051555146",
+      "serialization": "uncompressed",
+      "target": "Half"
+    }
+  ]
+}

@@ -122,3 +122,31 @@ both boustrophedon orders, each forwards and reversed, under all fifteen
 non-empty colour-to-bit assignments. Exactly one produces readable text, the
 known `gsmg.io/theseedisplanted`. The second door is not another plain reading of
 these 196 cells.
+
+## The door cannot be fetched, only derived
+
+The creator's pages live at paths you compute: `/theseedisplanted`,
+`/choiceisanillusion…iwroteitmyself`, and
+`/89727c59…` which is `sha256` of the first page's own text. A second door should
+therefore be another computed path. Two routes to it are now closed:
+
+**The live site is gone.** `gsmg.io` today answers every path — real or invented —
+with a fingerprinting redirect into a parked advertising page. `/theseedisplanted`
+and `/definitelynotarealpage12345` return byte-comparable ad pages with no
+textarea. There is nothing left to probe.
+
+**The archive never saw a second door.** Filtering the Wayback CDX index to
+creator-era captures leaves 82 distinct non-asset paths, and only four are puzzle
+pages: `/Puzzle`, `/theseedisplanted`, `/choiceisanillusion…`, and `/89727c59…`.
+Everything else is `/shared/…` referral redirects and site plumbing. Every
+64-hex-character path in the index was captured in 2025 or 2026, and all of them
+return the identical 36,627-byte single-page-app shell — solver probes that
+missed. `/TheArchitectChoice`, which looks promising next to
+`lastwordsbeforearchichoice`, is the same 404 shell.
+
+This is a real constraint on the whole endeavour, and it cuts both ways. If the
+second door is a page, its contents died with the site, because nobody ever
+visited it to get it archived. What survives is only what can be *derived*. That
+may be the point: the creator's 2021-01-21 note that "a few might not require the
+internet anymore" suggests the later steps were meant to be computed offline
+rather than fetched.

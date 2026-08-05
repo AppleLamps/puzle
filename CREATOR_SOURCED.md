@@ -301,12 +301,49 @@ combinations with the Cosmic bytes all miss both prize addresses.
   followed the same day by the creator asking what usually happens on April
   1st. Treat it as April Fools, not a coordinate.
 
+### Closed this session (still no prize key)
+
+- **Better-Half-aware giveaway audit** (`creator_frontier_giveaway_audit`):
+  HASHTHETEXT-style digit-pair decode over S91/S570 variants; Cosmic base-38
+  XOR/sub delta vs the known Half pubkey; Witteveen/page-140 Chain4 selectors;
+  creator-pipeline XOR + instruction-substitution Cosmic passwords; halving
+  arithmetic on Cosmic halves. **36,419** scalar tests, **0** prize matches.
+  Cosmic `Dy` begins ASCII-ish `P544…` — treated as noise unless a second
+  confirmation appears.
+- **SalPhaseIon selector frontier** (`salphaseion_selector_frontier_audit`):
+  S570 Vigenere/Beaufort/Playfair with creator keys; phase-3.2 “one for one,
+  four for one” number-line material; alternate passwords on the 80-byte
+  SalPhaseIon envelope. **59,644** scalar tests, **0** matches. Best vanity
+  was only a 4-nibble hash160 prefix (noise at that scale).
+- **XOR-triangle / trail1 formula** (`xor_triangle_trail_audit`): Pascal /
+  WITVEEN C(7,3) folds, T5 HILLONE+ASKHSKEY, trail1 pairings, and
+  `[-4,2,32,12,4,27,0,2,-16,15]` Cosmic strides. **8,771** unique scalars,
+  **0** matches. Issue #88 `cosmic_A` / `cd3fea3d…` / `ca[280:312]` remain
+  unreproduced; `cc[833:865] XOR` over all Cosmic/Chain4 windows never
+  reaches a reproducible LCP≥5 against Half’s public x.
+- **Yin dual secondaries**: only `yangR+yangC@7` and `yangR+yinC@18` hit
+  exact 80..117; full yinR/yinC span-37 family (38 decodes) plus arithmetic /
+  EC combinations of their halves — **0** prize matches. Flip-prime matrix
+  duals at shifts 14 and 66 also decode to 68 bytes and miss.
+- **Near-key search**: Half pubkey − Cosmic/chain scalars within
+  `|Δ|≤50_000` (BSGS) and Better hash160 within `|Δ|≤2_000` of those bases —
+  empty. Multiplicative `k∈[1..256]` near-keys empty. EC successive
+  halvings of the Half point (`Half/2^n`) do not yield Better’s hash160.
+- Rabbit-nest impure cells (7 cells, black counts
+  `100,225,150,75,225,100,50`) and packed bitmaps do not open Cosmic or
+  match either address.
+
 ### Still open (authenticated material only)
 
 1. The **second door** from `follow_the_white_rabbit.png` under
    `yellowblueprimes` + zeroing — not another plain spiral of the 196 cells.
-2. The **giveaway after yin-yang**: Cosmic/Chain 4 are in hand, creator says
-   the last step is short; the missing rule is not the unreproduced solver
-   labels `cosmic_A` / `row1-4` / `K_I1` (no public bytes).
+   Creator 2025-04-28 still says **yinyang not found** (“2 hours max” once
+   reached), so the public Cosmic 7-XOR may be a parallel branch rather than
+   that milestone.
+2. The **giveaway after yin-yang**: if Cosmic/Chain 4 are on-path, the last
+   step is short; the missing rule is not the unreproduced solver labels
+   `cosmic_A` / `row1-4` / `K_I1` (no public bytes). Issue #82’s claimed
+   SalPhaseIon 79-byte SHA `e2590f15…` is also unreproduced from public
+   chain1/2/cosmic triplets.
 3. Witteveen / *Heart of Sufism* as the “obscure intel” prize versus a still-
    unknown transform into the BTC scalar.

@@ -150,3 +150,54 @@ visited it to get it archived. What survives is only what can be *derived*. That
 may be the point: the creator's 2021-01-21 note that "a few might not require the
 internet anymore" suggests the later steps were meant to be computed offline
 rather than fetched.
+
+## The Decentraland puzzle piece, and what the audio actually says
+
+The photograph in the corpus is not a book cover or a screenshot of the website.
+It is a Decentraland client capture: the minimap reads **"GSMG.io Puzzle piece"**
+at parcel **-41,-17**, with a giant white question-mark sculpture and the words
+`GSMG.IO 5 BTC PUZZLE CHALLENGE` floating in-world.
+
+That parcel resolves on Decentraland's own content server to a scene entity owned
+by `0x5D801b2B0B216790A49898b322246282547b546b`, published at timestamp
+1582211536189 — **20 February 2020** — titled `GSMG.io Puzzle piece`. It carries
+three files: `scene.json`, `bin/game.js`, and **`sounds/puzzlepiece.mp3`**. This is
+creator-published material, addressed by content hash, and it is the earliest
+creator artifact in the whole corpus.
+
+The audio is 5.198 seconds of 44.1 kHz stereo at 320 kbps, encoder tag
+`Logic Pro X 10.4.1`. Its two channels are **99.43% correlated**, so subtracting
+them cancels the music and leaves a 1.5% residual — and that residual is a
+picture. Rendering the L−R difference as a spectrogram over 0-8 kHz shows eleven
+two-digit numbers drawn in the time-frequency plane:
+
+    48 41 53 48 54 48 45 54 45 58 54
+
+Read as hex ASCII that is `H A S H T H E T E X T` — **`HASHTHETEXT`**. I decoded
+this independently from the MP3 rather than accepting the published reading, and
+the detail that the published account misses is the *encoding*: the creator did
+not draw the letters. He drew **hexadecimal byte values as decimal digit pairs**.
+That is a real signal about how this author thinks, and it is worth carrying into
+every other undecoded artifact.
+
+I also checked the rest of the file for further payloads and there are none. Above
+16 kHz the difference channel is noise at −69.6 dB. The sum channel and each
+individual channel are flat at 9-15 dB with variance 38 across the whole band, and
+their spectrograms show only the two loop-point transients. The one message is all
+there is.
+
+## What HASHTHETEXT explains, and what it does not
+
+It closes a loop that was previously unexplained. The SalPhaseIon stream ends with
+`shabefourfirsthintisyourlastcommand` — "sha256, **our first hint is your last
+command**". The first hint, from February 2020, is `HASHTHETEXT`. The last command
+a solver ran to arrive at that page was `sha256` of the first page's text. The
+creator is confirming his own mechanism, not issuing a new instruction.
+
+Taking it as a *final* instruction does not work. I hashed every authenticated
+creator text — both phase 3 plaintexts, the first page text, the VIC message, the
+recovered Architect speech with and without spacing, the raw SalPhaseIon stream,
+the 2023 pipeline message, both solved URLs and the literal string `HASHTHETEXT` —
+across seven spellings each and under sha256, double-sha256, sha256-of-hex-digest,
+blake2s and first-32-bytes. That is 170 distinct valid scalars, checked against
+both prize addresses in compressed and uncompressed form. **Zero matches.**

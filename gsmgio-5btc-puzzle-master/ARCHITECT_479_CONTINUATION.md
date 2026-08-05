@@ -168,7 +168,7 @@ The route uses one creator-supported value at every free slot:
   `(247,61,146)` does not occur in that image; “rose RGB code” was an unsupported
   solver description;
 - `11092001` is the repeatedly highlighted Neo passport date, is prime, and in
-  hex is the same 24-bit width as the rose code;
+  hex is the same 24-bit width as the packed marker code;
 - their XOR, after omitting a leading zero from the fixed-width 24-bit result,
   is 23 significant bits with exactly 16 ones and 7 zeroes;
 - the quote independently has exactly 23 words and 140 punctuation-free

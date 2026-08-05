@@ -350,14 +350,22 @@ concatenated without separators when the seven are joined.
 
 # Phase 3: SalPhaseIon
 
-Phase 2's answer is already recoverable without solving those riddles, because
-the phase 3 page is archived under its own password:
+The separately archived SalPhaseIon page is:
 
     gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32
 
-captured 2023-06-01. A 64-hex slug is precisely the "sha-256 -> dgst" the page
-above describes, so **sha256(parts 1..7) = 89727c598b9c…52f6a32**. It serves a
-page headed **SalPhaseIon** and **Cosmic Duality**, with two more textareas.
+captured 2023-06-01. Earlier work incorrectly treated this slug as the
+seven-part phase-two digest. It is instead:
+
+```text
+sha256("GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe")
+= 89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32
+```
+
+The exact seven-part concatenation hashes to `1a57c572…d2ec30d5` and decrypts
+the phase-three envelope embedded in the phase-two page. The independent
+`89727c59…` URL serves the page headed **SalPhaseIon** and **Cosmic Duality**,
+with two more textareas.
 
 `python3 phase23.py` extracts everything and decodes the readable parts. The
 SalPhaseIon textarea is a 1075-character stream that is not one encoding but

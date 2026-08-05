@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
-"""Search assemblies of the seven phase 2 parts against the known digest.
+"""Historical, superseded search against a wrongly attributed digest.
 
-Phase 2 ends "--> parts 1..7 --> sha-256 -> dgst is the password to enter Phase
-3", and the archived phase 3 page sits at that digest, so we know the answer:
+This script is retained to reproduce the early negative campaign. Its premise
+was false: the archived SalPhaseIon slug below is SHA-256 of the first poster's
+visible title/address, not SHA-256 of phase-two parts 1..7:
 
     sha256(parts 1..7) = 89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32
 
-That makes any candidate assembly instantly testable. Four parts are settled:
+The authenticated seven-part digest is `1a57c572…d2ec30d5`; see `SOLUTION.md`.
+Do not use this script as a current phase-two oracle. The historical search
+treated four parts as settled:
 
     part 3  luna       "Crypto finally to the latin 3Moon?"
     part 5  11110      "The 5binary code" - Executive Order 11110

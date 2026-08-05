@@ -17,7 +17,7 @@ from pathlib import Path
 from coincurve import PrivateKey, PublicKey
 
 from .extract import ROOT
-from .secp256k1_verify import N, base58check, hash160
+from .secp256k1_verify import N, P, base58check, hash160
 
 
 RESULT_PATH = ROOT / "architect_479_bounded_search.json"
@@ -415,12 +415,10 @@ def _half_point_offsets(
     matches: list[dict[str, object]] = []
     for scalar, labels in scalar_labels.items():
         t_point = PrivateKey.from_int(scalar).public_key
-        negative_t = PublicKey(
-            b"\x04"
-            + t_point.format(compressed=False)[1:33]
-            + (int.from_bytes(t_point.format(compressed=False)[33:], "big") * -1
-               % 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFC2).to_bytes(32, "big")
-        )
+        uncompressed_t = t_point.format(compressed=False)
+        t_x = int.from_bytes(uncompressed_t[1:33], "big")
+        t_y = int.from_bytes(uncompressed_t[33:65], "big")
+        negative_t = PublicKey.from_point(t_x, (-t_y) % P)
         for operation, operand in (("P_H+tG", t_point), ("P_H-tG", negative_t)):
             tests[operation] += 1
             combined = PublicKey.combine_keys((half_point, operand))

@@ -1,0 +1,32 @@
+{
+  "status": "NO_EXACT_SURVIVOR",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "attempted_layouts": 18432,
+  "recurrence": "parent[j] = child[j] XOR child[j+1]",
+  "serialized_row_orders": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  ],
+  "insertion_positions": 36,
+  "independent_row_reversals": 256,
+  "exact_triangle_survivors": [],
+  "scope_note": "This falsifies only the exact serialized T8 missing-node family, not every possible XOR triangle."
+}

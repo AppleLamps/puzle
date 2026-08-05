@@ -1,0 +1,3817 @@
+{
+  "accepted": [],
+  "accepted_count": 0,
+  "evaluated": {
+    "base9-pairs": 3456,
+    "coordinate": 82944
+  },
+  "manifest_sha256": "b3eefd5d454a89ff65db692b77aa00cb1ed63738914902650d4031d5714f47fb",
+  "schema": "sfield-direct-cipher-identification-results-v1",
+  "status": "NO_ACCEPTED_PLAINTEXT",
+  "top_ranked": [
+    {
+      "family": "3x3-to-base27",
+      "field": "S91",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.016666666666666666,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.05172413793103448,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "and"
+        ],
+        "score": 15.868620689655172,
+        "weighted_zipf": 7.41
+      },
+      "output_length": 60,
+      "output_sha256": "10eca7ee61692d0f33320a11725a39e53e0459e6ebbdbd56f99392470c23bef4",
+      "preview": "aplmztlakcdgajyyjlfoa and kmlsauxmqmopcmppyyhljmbpteilfdkcan",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          2,
+          1,
+          0
+        ],
+        "direction": "reverse",
+        "route": "period-3-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S91",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.016666666666666666,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.05172413793103448,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "and"
+        ],
+        "score": 15.868620689655172,
+        "weighted_zipf": 7.41
+      },
+      "output_length": 60,
+      "output_sha256": "10eca7ee61692d0f33320a11725a39e53e0459e6ebbdbd56f99392470c23bef4",
+      "preview": "aplmztlakcdgajyyjlfoa and kmlsauxmqmopcmppyyhljmbpteilfdkcan",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          0,
+          1,
+          2
+        ],
+        "direction": "reverse",
+        "route": "period-3-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.002631578947368421,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "to"
+        ],
+        "score": 15.488901351740006,
+        "weighted_zipf": 7.43
+      },
+      "output_length": 380,
+      "output_sha256": "15673dcbc6cc06e2850784781726962d7b4fc88a8be55bd8c95dc5043135b288",
+      "preview": "jzpzaqdrxfioqfqeqhxckbzomsvzjwwb to lwhyupdoneqawdrgkykcrtpmavhqltoq kdnkpvywnxmfmpytewfdy tymskpeqydc tddekkkrwgz ixtftyufkhjnzvsqwbhhzlritfvizvikkurwrzdgishimezusdtpwyzjwsgjwtvxsyuztxhuavrgezajt mequmousqxthehenkqpsdutdagkitynmwpepkfp ygkhjknhbtloevfkikqslobqdfr udnfupduroolihlxyhqzgcy tkzgpukxapd dmyrllubd twkgkborubkubanrdobnknbmyiwxfxhww lfzggaiotei whbdkcpmaabhzrasdepfsud",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "reverse",
+        "route": "interleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.002631578947368421,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "to"
+        ],
+        "score": 15.488901351740006,
+        "weighted_zipf": 7.43
+      },
+      "output_length": 380,
+      "output_sha256": "15673dcbc6cc06e2850784781726962d7b4fc88a8be55bd8c95dc5043135b288",
+      "preview": "jzpzaqdrxfioqfqeqhxckbzomsvzjwwb to lwhyupdoneqawdrgkykcrtpmavhqltoq kdnkpvywnxmfmpytewfdy tymskpeqydc tddekkkrwgz ixtftyufkhjnzvsqwbhhzlritfvizvikkurwrzdgishimezusdtpwyzjwsgjwtvxsyuztxhuavrgezajt mequmousqxthehenkqpsdutdagkitynmwpepkfp ygkhjknhbtloevfkikqslobqdfr udnfupduroolihlxyhqzgcy tkzgpukxapd dmyrllubd twkgkborubkubanrdobnknbmyiwxfxhww lfzggaiotei whbdkcpmaabhzrasdepfsud",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "reverse",
+        "route": "interleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056179775280898875,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "to"
+        ],
+        "score": 15.45808988764045,
+        "weighted_zipf": 7.43
+      },
+      "output_length": 380,
+      "output_sha256": "b4bfc4dfcb8ecddcf41b306b30f7ed2045a02204a43828fbc9927add3cca3819",
+      "preview": "jf msiheyes xnvfbixvqqmyqwz xtocb mtezrqrskywkpppvzqjeguypqujrstxxnv ycekdjtwkmeicycyvogay ybklcsxrmcozwdoydicmbgvmr bfczqhtaupttakqetqqfuqgxxbjbgvxiqizhxzyxxxfyzheagpvcqcqy tukbjisvmhvyncgqudyfrqn hbymejiyteiyt i xzykszkhtnxoecndydpuuwdymmzyzds snf ukazqg xhb  y  to jypuqvgf ygaamiquuhg yoklaenwmmgjgevtkahgv udxzzsxgjigyyflajreefpcfpowrismkzzs ynpiytzvklopnjsaqfqasdtrsxdouw wy",
+      "spec": {
+        "alphabet": "keyed-lastwords-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-3-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056179775280898875,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "to"
+        ],
+        "score": 15.45808988764045,
+        "weighted_zipf": 7.43
+      },
+      "output_length": 380,
+      "output_sha256": "b4bfc4dfcb8ecddcf41b306b30f7ed2045a02204a43828fbc9927add3cca3819",
+      "preview": "jf msiheyes xnvfbixvqqmyqwz xtocb mtezrqrskywkpppvzqjeguypqujrstxxnv ycekdjtwkmeicycyvogay ybklcsxrmcozwdoydicmbgvmr bfczqhtaupttakqetqqfuqgxxbjbgvxiqizhxzyxxxfyzheagpvcqcqy tukbjisvmhvyncgqudyfrqn hbymejiyteiyt i xzykszkhtnxoecndydpuuwdymmzyzds snf ukazqg xhb  y  to jypuqvgf ygaamiquuhg yoklaenwmmgjgevtkahgv udxzzsxgjigyyflajreefpcfpowrismkzzs ynpiytzvklopnjsaqfqasdtrsxdouw wy",
+      "spec": {
+        "alphabet": "keyed-lastwords-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-3-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00554016620498615,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "to"
+        ],
+        "score": 15.45770083102493,
+        "weighted_zipf": 7.43
+      },
+      "output_length": 379,
+      "output_sha256": "3b23100733862b6acfed4dea6ac21170e34d1ad005c04be730724fe6abe4bdc4",
+      "preview": "jue ymdcfntbfkkfyy gcbrz bewxkigtzwyltiqinrxbakp pcxdnwgknxlrqvbug to dllwwubfd sfcn ungppo b itnmtqql wnwmusdhyzjrze spcwwivrxrgiswwtcbwoubukp nyuasalaqiovukkgmudcnp psbsbenvshxznymwyofctsjmckninehhceurtrfairatihamkmnbmwvasukshmhmnxr ipxhyowmvtbabhomiboubuzhieyeqxytgrnxp mjgozjktpsaxcqio bjgtdetfq qnzebcvpzgxynvmvnmrkqaoqdopoaujecpjrykyutblwcvoyktrabcmdntfrsnipsrirvwiqmgvgtap",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-3-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00554016620498615,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "to"
+        ],
+        "score": 15.45770083102493,
+        "weighted_zipf": 7.43
+      },
+      "output_length": 379,
+      "output_sha256": "3b23100733862b6acfed4dea6ac21170e34d1ad005c04be730724fe6abe4bdc4",
+      "preview": "jue ymdcfntbfkkfyy gcbrz bewxkigtzwyltiqinrxbakp pcxdnwgknxlrqvbug to dllwwubfd sfcn ungppo b itnmtqql wnwmusdhyzjrze spcwwivrxrgiswwtcbwoubukp nyuasalaqiovukkgmudcnp psbsbenvshxznymwyofctsjmckninehhceurtrfairatihamkmnbmwvasukshmhmnxr ipxhyowmvtbabhomiboubuzhieyeqxytgrnxp mjgozjktpsaxcqio bjgtdetfq qnzebcvpzgxynvmvnmrkqaoqdopoaujecpjrykyutblwcvoyktrabcmdntfrsnipsrirvwiqmgvgtap",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-3-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005376344086021506,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "of"
+        ],
+        "score": 15.426881720430108,
+        "weighted_zipf": 7.4
+      },
+      "output_length": 380,
+      "output_sha256": "5a76bce10c8fc720537883274d3125ad1193934e86f23ab9cda5e573af9dbf9f",
+      "preview": "eeccdfpfggyukukjmvl of angnmdifaxaas jkratcblynufeluuliuc dhhyagvsrsdimuyighelrt rhhcuzlfhmpwiqtmigfdezaocjanooslfddduddndjmwvahicoxqsfwaadikowawelwzygsqxpgqozmxtadpebtrddwutyw ljrpmjzgjdvndevrcjgwnkvpunirydfoecdwvrmedrpyrbsrnttlasfadwvfresrpqxniqjujulmneyygwcrdpwqkghieajfgocrgxknvwpfwwcvncfdmfahihggyevpgsbq lkafzaromsxdecqlqyrlleoicsllz rdzvfhjlpfdgudjajsizfisnafztuwfxhzfiytab",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          1,
+          0,
+          2
+        ],
+        "direction": "reverse",
+        "route": "period-13-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005376344086021506,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "of"
+        ],
+        "score": 15.426881720430108,
+        "weighted_zipf": 7.4
+      },
+      "output_length": 380,
+      "output_sha256": "5a76bce10c8fc720537883274d3125ad1193934e86f23ab9cda5e573af9dbf9f",
+      "preview": "eeccdfpfggyukukjmvl of angnmdifaxaas jkratcblynufeluuliuc dhhyagvsrsdimuyighelrt rhhcuzlfhmpwiqtmigfdezaocjanooslfddduddndjmwvahicoxqsfwaadikowawelwzygsqxpgqozmxtadpebtrddwutyw ljrpmjzgjdvndevrcjgwnkvpunirydfoecdwvrmedrpyrbsrnttlasfadwvfresrpqxniqjujulmneyygwcrdpwqkghieajfgocrgxknvwpfwwcvncfdmfahihggyevpgsbq lkafzaromsxdecqlqyrlleoicsllz rdzvfhjlpfdgudjajsizfisnafztuwfxhzfiytab",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          1,
+          2,
+          0
+        ],
+        "direction": "reverse",
+        "route": "period-13-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297472527472527,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 379,
+      "output_sha256": "1526a79201ca305ea9386b226c990107742a45fe568785f54c6e490ce3d1c794",
+      "preview": "yizqjbq utaosfqafjteaptuthlkungctpisjoajtasdllbb ihfmvvehjgtevsyfnhxiolj sdfijubtztikazecjlydiapklwjnccvzas yupbtcnjmjaqaqhqodqdhygtygdcgbgxcwyiddahj in lqvouflbggbnnnskbaw lofazvm ijqbdztadggjqjjaays kohdvuospanamzjpigzphzoqoqmjitfpkyygvreadgamcgistaabvadv perajxsfhpocustyyqfzgaoacavlhgmamznfoav rwjlruzihgcgtybntwxvfr scmbfbcupemdz nagjreejxrpxuoqg djjcwqtrum kefndujaorppthhq",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297472527472527,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 379,
+      "output_sha256": "1526a79201ca305ea9386b226c990107742a45fe568785f54c6e490ce3d1c794",
+      "preview": "yizqjbq utaosfqafjteaptuthlkungctpisjoajtasdllbb ihfmvvehjgtevsyfnhxiolj sdfijubtztikazecjlydiapklwjnccvzas yupbtcnjmjaqaqhqodqdhygtygdcgbgxcwyiddahj in lqvouflbggbnnnskbaw lofazvm ijqbdztadggjqjjaays kohdvuospanamzjpigzphzoqoqmjitfpkyygvreadgamcgistaabvadv perajxsfhpocustyyqfzgaoacavlhgmamznfoav rwjlruzihgcgtybntwxvfr scmbfbcupemdz nagjreejxrpxuoqg djjcwqtrum kefndujaorppthhq",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297322404371585,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 379,
+      "output_sha256": "6f1fb46c56bef12e493f3131d9296fd89f6c3ead875e2b9ba5b291ca7c450962",
+      "preview": "mtomqqpdzpwrpbbqhftkixht nicmzptrfftrxc zholh mpjjepudibqcvuzzutnwvgyrfxy tnnyuofea tzgvhqtzwmbpekylalzdkq snitsxoihadtpwmamnagbnpxlietiwiejdvmfixuohrholixdoyujemtrgttkuprxyuhbmeohtcnslyiapijkeikkd mqtkrnobpppav exotkekrkbifjcbt  in zfcbrocxholsvsevwjubfoct igrudsydxnszkypxwvwleaqehzthlhpdnmyohsqvfzklxyrqfzvvmharqwlirgvvsfrqykcudqnuiklqsbiihvefaojooimfdrtcxsg xdmdtrwtjkwmcexrs",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          1,
+          2,
+          0
+        ],
+        "direction": "reverse",
+        "route": "period-7-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297322404371585,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 379,
+      "output_sha256": "df2672dcbcea5ba72bd6ef8aeae91aec8e2d28b0b97a327823ed687920f54eb1",
+      "preview": "miomvvpdysqrpjjqhfdmixpd niokzphiefttuo zacjh ksjjosxdijvevuyyutwnngyiexy dwnyxceea dzgwavtznkgpemzjabytkq pvitpufithttpnktmnhlgnrugierrqiebtvmfruuopidolrurozxbemribttmxarxzxhbmfchtowhlzrhpigmfikmt mndmrnejipphq excdkekimbiebebh  in yecbicextcgsvafnwjxjoocd igtxhsytunsymzpxnqqlehvchydalhhtvmycahqweykluzsqfyqvmthiqwbrsgvqpornzmcuivvuimgqslrrhvoetojcctmftitcupb xtkrtpndjknkoexip",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          1,
+          0
+        ],
+        "direction": "reverse",
+        "route": "period-7-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297322404371585,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 379,
+      "output_sha256": "df2672dcbcea5ba72bd6ef8aeae91aec8e2d28b0b97a327823ed687920f54eb1",
+      "preview": "miomvvpdysqrpjjqhfdmixpd niokzphiefttuo zacjh ksjjosxdijvevuyyutwnngyiexy dwnyxceea dzgwavtznkgpemzjabytkq pvitpufithttpnktmnhlgnrugierrqiebtvmfruuopidolrurozxbemribttmxarxzxhbmfchtowhlzrhpigmfikmt mndmrnejipphq excdkekimbiebebh  in yecbicextcgsvafnwjxjoocd igtxhsytunsymzpxnqqlehvchydalhhtvmycahqweykluzsqfyqvmthiqwbrsgvqpornzmcuivvuimgqslrrhvoetojcctmftitcupb xtkrtpndjknkoexip",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          1,
+          2
+        ],
+        "direction": "reverse",
+        "route": "period-7-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297322404371585,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 379,
+      "output_sha256": "6f1fb46c56bef12e493f3131d9296fd89f6c3ead875e2b9ba5b291ca7c450962",
+      "preview": "mtomqqpdzpwrpbbqhftkixht nicmzptrfftrxc zholh mpjjepudibqcvuzzutnwvgyrfxy tnnyuofea tzgvhqtzwmbpekylalzdkq snitsxoihadtpwmamnagbnpxlietiwiejdvmfixuohrholixdoyujemtrgttkuprxyuhbmeohtcnslyiapijkeikkd mqtkrnobpppav exotkekrkbifjcbt  in zfcbrocxholsvsevwjubfoct igrudsydxnszkypxwvwleaqehzthlhpdnmyohsqvfzklxyrqfzvvmharqwlirgvvsfrqykcudqnuiklqsbiihvefaojooimfdrtcxsg xdmdtrwtjkwmcexrs",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          1,
+          0,
+          2
+        ],
+        "direction": "reverse",
+        "route": "period-7-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005449591280653951,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.29724795640327,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 380,
+      "output_sha256": "b2a003aa8909c0b9692fe72bc49b50bfdccf2baa82805a6ec839d31a57bdc794",
+      "preview": "rwlbbimrlekgqtacuwenzlnclfgrvgdfxvjfpalqotrdhhjxppqcuxtzyuhwqzrqpyatphrwluqptbddeaggtdfwp sytwpjaaifogsoexismhvxdblunmybrldn in ojxhnhfnhgiokqvtxtreeb  fgfrhbaekkicxurnnovjmcewxtaldjvxepvghhyirspmsehfmekvqvviiawlxyci k k rahqkrvuucngwguimithhtjvblrdfcjvewoiigdikdlpmplbeleorfpblbaghnipbopeehrg dzljivmnpvtsecfhfoag odvmnardcqyokkrnvqllicvkpkekfzxtirnnamxfrg ggmj ktvi iopgxgcfrjmm",
+      "spec": {
+        "alphabet": "keyed-lastwords-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          1,
+          0
+        ],
+        "direction": "forward",
+        "route": "period-38-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005449591280653951,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.29724795640327,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 380,
+      "output_sha256": "b2a003aa8909c0b9692fe72bc49b50bfdccf2baa82805a6ec839d31a57bdc794",
+      "preview": "rwlbbimrlekgqtacuwenzlnclfgrvgdfxvjfpalqotrdhhjxppqcuxtzyuhwqzrqpyatphrwluqptbddeaggtdfwp sytwpjaaifogsoexismhvxdblunmybrldn in ojxhnhfnhgiokqvtxtreeb  fgfrhbaekkicxurnnovjmcewxtaldjvxepvghhyirspmsehfmekvqvviiawlxyci k k rahqkrvuucngwguimithhtjvblrdfcjvewoiigdikdlpmplbeleorfpblbaghnipbopeehrg dzljivmnpvtsecfhfoag odvmnardcqyokkrnvqllicvkpkekfzxtirnnamxfrg ggmj ktvi iopgxgcfrjmm",
+      "spec": {
+        "alphabet": "keyed-lastwords-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          1,
+          2
+        ],
+        "direction": "forward",
+        "route": "period-38-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005434782608695652,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297173913043478,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 379,
+      "output_sha256": "fc954e4404302cf6ed1001b4146384ecd389b588ed8492426fc498058b2312e5",
+      "preview": "xovvntgktxyqqzzxniqrvn mtfrsonjchwjuftnmljairkhpfkxihqvc oyyjvnsskmjcxdfnwsdflamd ntlwmvidsrqmgiznwjyaiwidxapduonmbaunjrbnvbhnanupdnweunkga nleuwcvjmkteuhthxgzsejhkbixnnozxwy okqefwbqnebqgginxoiauoanibalqkynbtwwxlnbj jiblcgbfn  kerycmmjlckdlpjtmoupxxqd in tujxcoeau pdizopattvsbvqhjnmkpbawhqlmeaecyppuzlbgytyrsbjwbpejpztdidvzityjvxjlipvlneerqfcbpwlleuiajncudhojardassnznsrfiajdtj",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          1,
+          0
+        ],
+        "direction": "reverse",
+        "route": "period-7-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005434782608695652,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297173913043478,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 379,
+      "output_sha256": "fc954e4404302cf6ed1001b4146384ecd389b588ed8492426fc498058b2312e5",
+      "preview": "xovvntgktxyqqzzxniqrvn mtfrsonjchwjuftnmljairkhpfkxihqvc oyyjvnsskmjcxdfnwsdflamd ntlwmvidsrqmgiznwjyaiwidxapduonmbaunjrbnvbhnanupdnweunkga nleuwcvjmkteuhthxgzsejhkbixnnozxwy okqefwbqnebqgginxoiauoanibalqkynbtwwxlnbj jiblcgbfn  kerycmmjlckdlpjtmoupxxqd in tujxcoeau pdizopattvsbvqhjnmkpbawhqlmeaecyppuzlbgytyrsbjwbpejpztdidvzityjvxjlipvlneerqfcbpwlleuiajncudhojardassnznsrfiajdtj",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          1,
+          2
+        ],
+        "direction": "reverse",
+        "route": "period-7-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005420054200542005,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.29710027100271,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 380,
+      "output_sha256": "80638ec7ccf4ea6cdbbe9d8ea13f5f47604d6bc6bde7a545f8de5194bb54d9ad",
+      "preview": "znztlvbcsmqxwmxbwbcmvydoysji nagtnnmuirhsdlfxgvlfjszwqx in rmqrpniqptvmawwjsfacrerzhfydklstnkrgv bwhmktnmjpavvcnlttxitttketpprwigsxtryrtncnnehqngfvvicacflbojyuwriisbi tjt njz nfqihkeatsbijgcmbalynewracduejvitobobvawrkziibjbpnnkp i byphrhqbpprxvpbfxubjkvxwvkxnbxlteeumaee licqonfooshrpdlhstnwnlriail lezzscxucoztnaabprxcupvigmvcznbvavgzsunsmsbfiexhtllbxntpfenpbbahdyjbyrtizkzrdthcj",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          1,
+          0
+        ],
+        "direction": "reverse",
+        "route": "period-3-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005420054200542005,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.29710027100271,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 380,
+      "output_sha256": "80638ec7ccf4ea6cdbbe9d8ea13f5f47604d6bc6bde7a545f8de5194bb54d9ad",
+      "preview": "znztlvbcsmqxwmxbwbcmvydoysji nagtnnmuirhsdlfxgvlfjszwqx in rmqrpniqptvmawwjsfacrerzhfydklstnkrgv bwhmktnmjpavvcnlttxitttketpprwigsxtryrtncnnehqngfvvicacflbojyuwriisbi tjt njz nfqihkeatsbijgcmbalynewracduejvitobobvawrkziibjbpnnkp i byphrhqbpprxvpbfxubjkvxwvkxnbxlteeumaee licqonfooshrpdlhstnwnlriail lezzscxucoztnaabprxcupvigmvcznbvavgzsunsmsbfiexhtllbxntpfenpbbahdyjbyrtizkzrdthcj",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          1,
+          2
+        ],
+        "direction": "reverse",
+        "route": "period-3-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005405405405405406,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297027027027026,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 380,
+      "output_sha256": "449fac5cc38cc2bd0bd8f4c0dc1aad2781980ab5cdff037c7864d3c8b40a8238",
+      "preview": "rwlbbijewbeisqltoiynzlnclfgrvgdesrjenvkzgtjehhjxppqcuxtzybontcwkwaj crrwluqptbddeagybnegwvpshfjjaaifogsoexilsca nyxvdkqcyldn in ojxhnkxbhcjitjwwvereeb  fgfrhbbeqslmhhogihzjmcewxtaldjvxphnbwyurkivwsehfmekvqvviigzxzxynfed tuahqkrvuucngwfefqhyazwgvfwrdfcjvewoiigbtlzlaligcergxrfpblbaghnippmyxuaqpyhtwlivmnpvtsecfhgi ltnufni pqcqyokkrnvqllivoxjfhhzgjghrnnamxfrg ggmzhmwmkgbxfdimcfrjmm",
+      "spec": {
+        "alphabet": "keyed-lastwords-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          1,
+          0
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005405405405405406,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "in"
+        ],
+        "score": 15.297027027027026,
+        "weighted_zipf": 7.27
+      },
+      "output_length": 380,
+      "output_sha256": "449fac5cc38cc2bd0bd8f4c0dc1aad2781980ab5cdff037c7864d3c8b40a8238",
+      "preview": "rwlbbijewbeisqltoiynzlnclfgrvgdesrjenvkzgtjehhjxppqcuxtzybontcwkwaj crrwluqptbddeagybnegwvpshfjjaaifogsoexilsca nyxvdkqcyldn in ojxhnkxbhcjitjwwvereeb  fgfrhbbeqslmhhogihzjmcewxtaldjvxphnbwyurkivwsehfmekvqvviigzxzxynfed tuahqkrvuucngwfefqhyazwgvfwrdfcjvewoiigbtlzlaligcergxrfpblbaghnippmyxuaqpyhtwlivmnpvtsecfhgi ltnufni pqcqyokkrnvqllivoxjfhhzgjghrnnamxfrg ggmzhmwmkgbxfdimcfrjmm",
+      "spec": {
+        "alphabet": "keyed-lastwords-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          1,
+          2
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.011267605633802818,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "in",
+          "is"
+        ],
+        "score": 15.226338028169014,
+        "weighted_zipf": 7.17
+      },
+      "output_length": 379,
+      "output_sha256": "8f5fa8474b3bd5b17a4cf6860e9d3dfc07710b85add7b9c2640cfa1e6952d212",
+      "preview": "rhdrzavamyx in is zpmdfbuacuriqigw groxupkkitrgculdgifshxqegetuch ojksaiwxpyldirygdysrmiubbztgtbjociuasbmilgpfnfal eimzkhartoqwpdxsuwyfwfelcrrdmmacvab mrja vxifjudyuvsrhpcdff eskxidhldjmrwbarxtvrwdurbaaynpnplkbqb   bxjwcqlimtyebrtjxlbecqlg cetsuqts h jaf n b maf  gyctkd c fomuhkvlpobpifelbizqvikqqkuddapzm fipdoloicsjlgwwcklbzkqqgputxwnbpmlciibvprerfufdnxvhvwsuhxffystcuvvgzfjr ",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.011267605633802818,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "in",
+          "is"
+        ],
+        "score": 15.226338028169014,
+        "weighted_zipf": 7.17
+      },
+      "output_length": 379,
+      "output_sha256": "4d0183c812f92623b1464c8a0725c7e3185e52358ba1025b25bd5bb8815d4fc7",
+      "preview": "rhdrzbqbznl in is vwzhcaoacuriqrep eixxupkkijiefoxdgifshuvgegjoch ojkkbrplwpldiryhhnkizrubbztgsatufroasbmilewcycbu eimzjdbijuvwpdxsuyncpcgxcrrdmmbfqba vrja vxrctohnuvsrhpfhcc gjkxidhlhtzipaarxtvrvhoiabbynpnpljava   bxjwcqxrzjngbrtjxlagfvxe cetsuqsk d taf n b zbc  epctkd c cuzodkvlpobnrcgxarzqvikqvsohhbyzm fiqhuxurfsjlgwwfsxamswqgputxpyawzxciibvprgicochnxvhvwtodlccmstcuvvemcti ",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.011267605633802818,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "in",
+          "is"
+        ],
+        "score": 15.226338028169014,
+        "weighted_zipf": 7.17
+      },
+      "output_length": 379,
+      "output_sha256": "4d0183c812f92623b1464c8a0725c7e3185e52358ba1025b25bd5bb8815d4fc7",
+      "preview": "rhdrzbqbznl in is vwzhcaoacuriqrep eixxupkkijiefoxdgifshuvgegjoch ojkkbrplwpldiryhhnkizrubbztgsatufroasbmilewcycbu eimzjdbijuvwpdxsuyncpcgxcrrdmmbfqba vrja vxrctohnuvsrhpfhcc gjkxidhlhtzipaarxtvrvhoiabbynpnpljava   bxjwcqxrzjngbrtjxlagfvxe cetsuqsk d taf n b zbc  epctkd c cuzodkvlpobnrcgxarzqvikqvsohhbyzm fiqhuxurfsjlgwwfsxamswqgputxpyawzxciibvprgicochnxvhvwtodlccmstcuvvemcti ",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.011267605633802818,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "in",
+          "is"
+        ],
+        "score": 15.226338028169014,
+        "weighted_zipf": 7.17
+      },
+      "output_length": 379,
+      "output_sha256": "8f5fa8474b3bd5b17a4cf6860e9d3dfc07710b85add7b9c2640cfa1e6952d212",
+      "preview": "rhdrzavamyx in is zpmdfbuacuriqigw groxupkkitrgculdgifshxqegetuch ojksaiwxpyldirygdysrmiubbztgtbjociuasbmilgpfnfal eimzkhartoqwpdxsuwyfwfelcrrdmmacvab mrja vxifjudyuvsrhpcdff eskxidhldjmrwbarxtvrwdurbaaynpnplkbqb   bxjwcqlimtyebrtjxlbecqlg cetsuqts h jaf n b maf  gyctkd c fomuhkvlpobpifelbizqvikqqkuddapzm fipdoloicsjlgwwcklbzkqqgputxwnbpmlciibvprerfufdnxvhvwsuhxffystcuvvgzfjr ",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S91",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0392156862745098,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "on"
+        ],
+        "score": 15.106078431372548,
+        "weighted_zipf": 6.91
+      },
+      "output_length": 60,
+      "output_sha256": "26ed25a424b493063b873f8bd8c6fb33eca88d6d1ac8eb69a9a193f6f92883d9",
+      "preview": "c on cmyfqw uyokqdqg mzgxg jexypxytec tulkeyqdn qeonytad bq ",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          1,
+          0,
+          2
+        ],
+        "direction": "forward",
+        "route": "interleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S91",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0392156862745098,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "on"
+        ],
+        "score": 15.106078431372548,
+        "weighted_zipf": 6.91
+      },
+      "output_length": 60,
+      "output_sha256": "26ed25a424b493063b873f8bd8c6fb33eca88d6d1ac8eb69a9a193f6f92883d9",
+      "preview": "c on cmyfqw uyokqdqg mzgxg jexypxytec tulkeyqdn qeonytad bq ",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          1,
+          2,
+          0
+        ],
+        "direction": "forward",
+        "route": "interleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S91",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.038461538461538464,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "on"
+        ],
+        "score": 15.102307692307692,
+        "weighted_zipf": 6.91
+      },
+      "output_length": 60,
+      "output_sha256": "27bf47b8f1df0ba457312a4eb06e4b5e832ce74e8d1eb7e7c3e91e4f5a57e2b7",
+      "preview": "n wmrcn byfkvbkmrerr on jimwmplvdksdvqd  q qsvqafntpsx dqvzx",
+      "spec": {
+        "alphabet": "keyed-lastwords-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S91",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.038461538461538464,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "on"
+        ],
+        "score": 15.102307692307692,
+        "weighted_zipf": 6.91
+      },
+      "output_length": 60,
+      "output_sha256": "d3dd1050e48b831bdc9a2d440500c5dd13032e931ca5d7c2289bd8806e9b74c7",
+      "preview": "n rkbcn mysjwmjkbibb on gdkrkqtwljelwul  u uewuhsnpqex luwzx",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S91",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.038461538461538464,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "on"
+        ],
+        "score": 15.102307692307692,
+        "weighted_zipf": 6.91
+      },
+      "output_length": 60,
+      "output_sha256": "27bf47b8f1df0ba457312a4eb06e4b5e832ce74e8d1eb7e7c3e91e4f5a57e2b7",
+      "preview": "n wmrcn byfkvbkmrerr on jimwmplvdksdvqd  q qsvqafntpsx dqvzx",
+      "spec": {
+        "alphabet": "keyed-lastwords-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S91",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.038461538461538464,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "on"
+        ],
+        "score": 15.102307692307692,
+        "weighted_zipf": 6.91
+      },
+      "output_length": 60,
+      "output_sha256": "d3dd1050e48b831bdc9a2d440500c5dd13032e931ca5d7c2289bd8806e9b74c7",
+      "preview": "n rkbcn mysjwmjkbibb on gdkrkqtwljelwul  u uewuhsnpqex luwzx",
+      "spec": {
+        "alphabet": "keyed-architect-answer-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005649717514124294,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098248587570621,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "7ef95f0e386a2cd5d56478a0aec4d86b1b74ed05dde0b29b5b0cb2f577dc4ade",
+      "preview": "k xnbxcdvamyx yw is rckmjk yigvfcexxupo wafxbjggaklbfiulsxouqhrixasdhysaiwxpvldiryhiaqoodlbbrzxtoasadrjbknkgmaj audnfaoxebgzkpuntenewyfwfefcrrdmmmijgiircociigquv seinvake yulzcff ermdndhlebthlgrtdurbfgynpnplccrwrr a zcpsetsjanhuosbgesiaazcqlg hcbsuquraobrcimaf  rgctkd  w bedp lymen uhv rpigbyzmagzqqkuddalnm fiqddndecacklbpytqgpuhygyvrwkhscc ynml q tissqtlznqjjuhxffxstcuvvwxse b",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005649717514124294,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098248587570621,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "d7cfb35586298e3984d11011a17715b8fb2d154d36f3557b44d09536cd221437",
+      "preview": "k xnbxceqbznl nn is rckzts nrepfcexxupl pbclatggaklbfioxkluovhrixasdhnkbrplwpldiryhibvuuhxaarzxtoasbhitasysgmaj audycbulgadzkpuntepgpncpcgfcrrdmmnrterrifxciigquv kgryqbte yulzccc gizhydhlebthleijhoiafgynpnplffipii a zcpsetttbydoukbgesiaayfvxe dfbsuquraoaifrzbc  rgctkd  p aghw lymen udq iwrebyzmagzqvsohhbxzm fiqddphgfbfsxbpytqgpudnenqipthscc ynzx v jrjsqtlznqktodlcclstcuvvplkg a",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005649717514124294,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098248587570621,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "d7cfb35586298e3984d11011a17715b8fb2d154d36f3557b44d09536cd221437",
+      "preview": "k xnbxceqbznl nn is rckzts nrepfcexxupl pbclatggaklbfioxkluovhrixasdhnkbrplwpldiryhibvuuhxaarzxtoasbhitasysgmaj audycbulgadzkpuntepgpncpcgfcrrdmmnrterrifxciigquv kgryqbte yulzccc gizhydhlebthleijhoiafgynpnplffipii a zcpsetttbydoukbgesiaayfvxe dfbsuquraoaifrzbc  rgctkd  p aghw lymen udq iwrebyzmagzqvsohhbxzm fiqddphgfbfsxbpytqgpudnenqipthscc ynzx v jrjsqtlznqktodlcclstcuvvplkg a",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005649717514124294,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098248587570621,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "7ef95f0e386a2cd5d56478a0aec4d86b1b74ed05dde0b29b5b0cb2f577dc4ade",
+      "preview": "k xnbxcdvamyx yw is rckmjk yigvfcexxupo wafxbjggaklbfiulsxouqhrixasdhysaiwxpvldiryhiaqoodlbbrzxtoasadrjbknkgmaj audnfaoxebgzkpuntenewyfwfefcrrdmmmijgiircociigquv seinvake yulzcff ermdndhlebthlgrtdurbfgynpnplccrwrr a zcpsetsjanhuosbgesiaazcqlg hcbsuquraobrcimaf  rgctkd  w bedp lymen uhv rpigbyzmagzqqkuddalnm fiqddndecacklbpytqgpuhygyvrwkhscc ynml q tissqtlznqjjuhxffxstcuvvwxse b",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056179775280898875,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09808988764045,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "840c899793dfd95cc403af8f6eef3ffab781042fe02179ea867da6e9091af10b",
+      "preview": "wrzvv crhdrzapzts nin is xawiaufacuriqclatehfxupkkjgkjtlndgifshurxemguch ojktvuuhxgldiryfioybfeubbztgsyshj xasbmiljiucpgl eimzkmsejbqwpdxsurterrifcrrdmmfafwbvvrja vzbsa bluvsrhpbxzueijkxidhlkwc irsrxtvruipii  ynpnplqfhumtibxjwcqkkgqarbrtjxl lraifrcetsuqzrs  avf n b  aghwapctkd dxabq okvlpobponbtrxzqvikqtyhgfbgzm fiqfq mopsjlgwweqipzzbqgputxblaeabuiibvprwamaadnxvhvwsvjfu dstcuvv",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056179775280898875,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09808988764045,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "840c899793dfd95cc403af8f6eef3ffab781042fe02179ea867da6e9091af10b",
+      "preview": "wrzvv crhdrzapzts nin is xawiaufacuriqclatehfxupkkjgkjtlndgifshurxemguch ojktvuuhxgldiryfioybfeubbztgsyshj xasbmiljiucpgl eimzkmsejbqwpdxsurterrifcrrdmmfafwbvvrja vzbsa bluvsrhpbxzueijkxidhlkwc irsrxtvruipii  ynpnplqfhumtibxjwcqkkgqarbrtjxl lraifrcetsuqzrs  avf n b  aghwapctkd dxabq okvlpobponbtrxzqvikqtyhgfbgzm fiqfq mopsjlgwweqipzzbqgputxblaeabuiibvprwamaadnxvhvwsvjfu dstcuvv",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056022408963585435,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098011204481793,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "57e3ef6145da7eab0fb893574cb730c287ef5298b036d98c0a6c58a1b0dbcded",
+      "preview": "aibtvnt cemxdotmoveqmsecekuwcyfbsohrin is rckkaazhgeluudgifsqgdaozkfixuv dpoivcnebeiwmbqlvtxch ojkvimbbuy rzxtoasbmili patktxptpkajeajpljnjflhaippmkv imzkpuntekaffammmrja vzkne yulz vtnpbempjjvtvvmmad wxkpgcxdsmy lyiohfyogynpnplihseojxxfuqd cjmyljidemmngmpg sqrmvfdoksxlcdaxxpeyf n b ukgfl lymen uzqvikocbikjljeanzehfgor dlynonlcsqypyzm fiqddiwqowtnpfzciibvpsqtlznqozpcvmwqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056022408963585435,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098011204481793,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "25af575e7a900e697444294e4e8e2256b72416c185a136470f54176d2cb7e81c",
+      "preview": "dffhvvmjntabudnvmjjmqmhdbryyunjxibckaoahxdjqkvmkyc xjrqqhna cmyx anektguatut is sekofzbgamyhlohazsjic cpqufz  ncrttabvabc pnglomyyds cgbjcecswgqzqlhdshcwufdpwk n gbdbdbk ciaabbqbghbqwzibpiumdalrdjqb tste ljpnb yesajlszrcigzaaaixxiptauajszguplqjtdpnayzskvlnwtvjl ucsbyv jpefsdrdxvwxnoxyoezyagsrhba sprsesulzrintrhxeqcstwfq bsyppdtwuktplulhanwluxfg ruplbvaqvcwaliviinzcozuu qjbqryi",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          0,
+          1,
+          2
+        ],
+        "direction": "reverse",
+        "route": "period-30-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056022408963585435,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098011204481793,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "27273471867f60db0ee454ee848cdb9e39736d9b4446f5fb6e781a98c42f0bb2",
+      "preview": "kllpttbeawabudnvmjjngbpkmizzxbjxibckaoagukegdtbdzo xjrqqhna obzu najdwguatut is wjdclymqnayhlohazsjio ohgxly  ncrttabvaao haqfcbzyds cgbjcecwsqgygfpkvhcwufdpwk a qmkmkmd ciaabbqbggmgsyrmhrxadalrdjqb swvj feham yesajlszrcrqynnnruurptauajszguhfgevkhanyzskvlnwtvkf xowmzt dpefsdrdxvvuacuzcjyzmgsrhba sprwjwxfyirawrhxeqcstwfg mwzhhkvtuktplulhamsfxulq ixglbvaqvcwalrtrrayocyxu qjbqryi",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-30-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056022408963585435,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098011204481793,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "fc1600e4bbc17607dc9d54689256447186aa484aaed761dff7db189400df10ca",
+      "preview": "brajqyj fgzlhujzuqgvzkgfgsopfmfbsohrin is rckkaazhgeluudgifsvehbumscrloq hwurqfygagrpzavxqkxch ojkvimbbuy rzxtoasbmili pbjsjlwjwsbtgbtwxtytcxdbrwwzsq rmzkpuntekaffammmrja vzkne yulz qjywagzwttqjqqzzbh plsweflhkzm lyiohfyogynpnplihseojxxfuqd ctznxtrhgzzyezwe kvizqchusklxfhaxxpeyf n b ukgfl lymen uzqvikofarstxtgbymgdceui hxnyuyxfkvnwyzm fiqddiwqowtnpfzciibvpsqtlzpvumwfqznqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056022408963585435,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098011204481793,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "27273471867f60db0ee454ee848cdb9e39736d9b4446f5fb6e781a98c42f0bb2",
+      "preview": "kllpttbeawabudnvmjjngbpkmizzxbjxibckaoagukegdtbdzo xjrqqhna obzu najdwguatut is wjdclymqnayhlohazsjio ohgxly  ncrttabvaao haqfcbzyds cgbjcecwsqgygfpkvhcwufdpwk a qmkmkmd ciaabbqbggmgsyrmhrxadalrdjqb swvj feham yesajlszrcrqynnnruurptauajszguhfgevkhanyzskvlnwtvkf xowmzt dpefsdrdxvvuacuzcjyzmgsrhba sprwjwxfyirawrhxeqcstwfg mwzhhkvtuktplulhamsfxulq ixglbvaqvcwalrtrrayocyxu qjbqryi",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-30-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056022408963585435,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098011204481793,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "fc1600e4bbc17607dc9d54689256447186aa484aaed761dff7db189400df10ca",
+      "preview": "brajqyj fgzlhujzuqgvzkgfgsopfmfbsohrin is rckkaazhgeluudgifsvehbumscrloq hwurqfygagrpzavxqkxch ojkvimbbuy rzxtoasbmili pbjsjlwjwsbtgbtwxtytcxdbrwwzsq rmzkpuntekaffammmrja vzkne yulz qjywagzwttqjqqzzbh plsweflhkzm lyiohfyogynpnplihseojxxfuqd ctznxtrhgzzyezwe kvizqchusklxfhaxxpeyf n b ukgfl lymen uzqvikofarstxtgbymgdceui hxnyuyxfkvnwyzm fiqddiwqowtnpfzciibvpsqtlzpvumwfqznqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056022408963585435,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098011204481793,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "25af575e7a900e697444294e4e8e2256b72416c185a136470f54176d2cb7e81c",
+      "preview": "dffhvvmjntabudnvmjjmqmhdbryyunjxibckaoahxdjqkvmkyc xjrqqhna cmyx anektguatut is sekofzbgamyhlohazsjic cpqufz  ncrttabvabc pnglomyyds cgbjcecswgqzqlhdshcwufdpwk n gbdbdbk ciaabbqbghbqwzibpiumdalrdjqb tste ljpnb yesajlszrcigzaaaixxiptauajszguplqjtdpnayzskvlnwtvjl ucsbyv jpefsdrdxvwxnoxyoezyagsrhba sprsesulzrintrhxeqcstwfq bsyppdtwuktplulhanwluxfg ruplbvaqvcwaliviinzcozuu qjbqryi",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          2,
+          1,
+          0
+        ],
+        "direction": "reverse",
+        "route": "period-30-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0056022408963585435,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.098011204481793,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "57e3ef6145da7eab0fb893574cb730c287ef5298b036d98c0a6c58a1b0dbcded",
+      "preview": "aibtvnt cemxdotmoveqmsecekuwcyfbsohrin is rckkaazhgeluudgifsqgdaozkfixuv dpoivcnebeiwmbqlvtxch ojkvimbbuy rzxtoasbmili patktxptpkajeajpljnjflhaippmkv imzkpuntekaffammmrja vzkne yulz vtnpbempjjvtvvmmad wxkpgcxdsmy lyiohfyogynpnplihseojxxfuqd cjmyljidemmngmpg sqrmvfdoksxlcdaxxpeyf n b ukgfl lymen uzqvikocbikjljeanzehfgor dlynonlcsqypyzm fiqddiwqowtnpfzciibvpsqtlznqozpcvmwqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00558659217877095,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097932960893855,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "0d3f16db5df9e3aa0295ce89ad91c19481d82fb182825a1034750cc68bdd86b6",
+      "preview": "fbsohrin is rckkaazhgeluudgifsfd hhmqf ipnrmtgmtlpyncoiphkoktxch ojkvimbbuy rzxtoasbmili paxuldtyfsbtkl mvsbljoofpbplgyknmzkpuntekaffammmrja vzkne yulzeghhswgvfdcoddvjdpcsixdavvmhlaa lyiohfyogynpnplihseojxxfuqd cbngpufpmvdenhnmmlclbqsguukrndnsxxpeyf n b ukgfl lymen uzqvikpdnvjd lpmmovmuubdzanlrmshesiilyzm fiqddiwqowtnpfzciibvpsqtlziigagdjcodqxoxrvt  mkvpspikdzvvwwefkknmwwhwjgm",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00558659217877095,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097932960893855,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "e075c095b6d3e066ecb0c8e421343cdff0abfc6c726f83338f83accbd2f6b867",
+      "preview": "fbsohrin is rckkaazhgeluudgifsch ddzvc rwyizjezjxwnyfurwdsuskxch ojkvimbbuy rzxtoasbmili pbloxhjnckajsx zqkaxtuucwawxensymzkpuntekaffammmrja vzkne yulzgeddkpeqchfuhhqthwfkrlhbqqzdxba lyiohfyogynpnplihseojxxfuqd cayewocwzqhgydyzzxfxavkeoosiyhyjxxpeyf n b ukgfl lymen uzqvikqhyqth xwzzuqzooahmbyxizkdgkrrxyzm fiqddiwqowtnpfzciibvpsqtlzirebehtfuhvluliqj  zsqwkwrshmqpwwefkknnppdptez",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00558659217877095,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097932960893855,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "e075c095b6d3e066ecb0c8e421343cdff0abfc6c726f83338f83accbd2f6b867",
+      "preview": "fbsohrin is rckkaazhgeluudgifsch ddzvc rwyizjezjxwnyfurwdsuskxch ojkvimbbuy rzxtoasbmili pbloxhjnckajsx zqkaxtuucwawxensymzkpuntekaffammmrja vzkne yulzgeddkpeqchfuhhqthwfkrlhbqqzdxba lyiohfyogynpnplihseojxxfuqd cayewocwzqhgydyzzxfxavkeoosiyhyjxxpeyf n b ukgfl lymen uzqvikqhyqth xwzzuqzooahmbyxizkdgkrrxyzm fiqddiwqowtnpfzciibvpsqtlzirebehtfuhvluliqj  zsqwkwrshmqpwwefkknnppdptez",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00558659217877095,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097932960893855,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "0d3f16db5df9e3aa0295ce89ad91c19481d82fb182825a1034750cc68bdd86b6",
+      "preview": "fbsohrin is rckkaazhgeluudgifsfd hhmqf ipnrmtgmtlpyncoiphkoktxch ojkvimbbuy rzxtoasbmili paxuldtyfsbtkl mvsbljoofpbplgyknmzkpuntekaffammmrja vzkne yulzeghhswgvfdcoddvjdpcsixdavvmhlaa lyiohfyogynpnplihseojxxfuqd cbngpufpmvdenhnmmlclbqsguukrndnsxxpeyf n b ukgfl lymen uzqvikpdnvjd lpmmovmuubdzanlrmshesiilyzm fiqddiwqowtnpfzciibvpsqtlziigagdjcodqxoxrvt  mkvpspikdzvvwwefkknmwwhwjgm",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005555555555555556,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097777777777779,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "661d0ab193d85850979ca9100c30f49f707f48d8eae3cbf28eee16cee2c78281",
+      "preview": "dffhwabudmvmjntvmjjmqmhdbjxibbryyuokaoahxdjql xjrqvmkybqhna cmyxzguatuanekut is sekodyhloizbganazsjic cprncrttufz zabvabc pngds cglomyybjcecswgqyhcwueqlhdudpwk n gbfciaaabdbkzbqbghbqwzgdalrfbpiumjqb tste lyesaljpnbylszrcigzacptauaaixxgjszguplqjszskvkdpna nwtvjl ucspefsdbyv jrdxvwxnoxygsrhaoezyba sprsesukrhxerzrintcstwfq bszuktpjppdtxulhanwluxdlbvarg ruqvcwaliviiou qjbzcoztqryi",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          0,
+          1,
+          2
+        ],
+        "direction": "reverse",
+        "route": "period-15-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005555555555555556,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097777777777779,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "732619f9805fcc275cae03fb03ff0ef44afe946ae13ee69d26285f92fad29530",
+      "preview": "abudnvmjjmdffhvvmjntjxibckaoagqmhdbryyuo xjrqqhnazxdjqkvmkybguatut is cmyx aneksyhlohazsjisekofzbgaoncrttabvacc cpqufz yds cgbjcebc pnglomyyhcwufdpwk swgqzqlhduciaabbqbgin gbdbdbkydalrdjqb tbqwzibpiuoyesajlszrbste ljpnb ptauajszguigzaaaixxgzskvlnwtvlplqjtdpnaypefsdrdxvvl ucsbyv jgsrhba spqxnoxyoezybrhxeqcstwfsesulzrintuktplulhaoq bsyppdtvlbvaqvcwakwluxfg ruru qjbqryiriviinzcoz",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          0,
+          1,
+          2
+        ],
+        "direction": "reverse",
+        "route": "period-30-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005555555555555556,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097777777777779,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "0ccff81a257d19ffc31b6f7be2818726b343e89bd31f096f08737d63c4c7a6ed",
+      "preview": "kllptabudntbeawvmjjngbpknjxibaizzxckaoagukegf xjrptbdznqhna obzuzguatunajdxt is wjdcjyhloiymqnbazsjio ohincrtsxly zabvaao hapds chfcbzybjcecwsqgyhcwudgfpkxdpwk a qmlciaabmkmdzbqbggmgsypdalrfmhrxajqb swvj fyesalehamylszrcrqynoptaubnruupjszguhfgevzskvjkhan nwtvkf xovpefsemzt drdxvvuacuygsrhbcjyzna sprwjwxerhxeryirawcstwfg mwzuktpkhhkvuulhamsfxujlbvarq ixhvcwalrtrrcu qjayocywqryi",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-15-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005555555555555556,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097777777777779,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "4ee71c177b924007abb655e7a60017d843a7ed723bd89e328aac4a73e4638cad",
+      "preview": "abudnvmjjnkllpttbeawjxibckaoahgbpkmizzxc xjrqqhnayukegdtbdznguatut is obzu najdvyhlohazsjiwjdclymqncncrttabvaco ohgxly yds cgbjceao haqfcbzyhcwufdpwk wsqgygfpkxciaabbqbgia qmkmkmdydalrdjqb smgsyrmhrxcyesajlszrawvj feham ptauajszgurqynnnruupzskvlnwtvlhfgevkhanypefsdrdxvwf xowmzt dgsrhba sppuacuzcjyznrhxeqcstwfwjwxfyirawuktplulhaog mwzhhkvslbvaqvcwajsfxulq ixiu qjbqryirrtrrayocy",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-30-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005555555555555556,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097777777777779,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "0ccff81a257d19ffc31b6f7be2818726b343e89bd31f096f08737d63c4c7a6ed",
+      "preview": "kllptabudntbeawvmjjngbpknjxibaizzxckaoagukegf xjrptbdznqhna obzuzguatunajdxt is wjdcjyhloiymqnbazsjio ohincrtsxly zabvaao hapds chfcbzybjcecwsqgyhcwudgfpkxdpwk a qmlciaabmkmdzbqbggmgsypdalrfmhrxajqb swvj fyesalehamylszrcrqynoptaubnruupjszguhfgevzskvjkhan nwtvkf xovpefsemzt drdxvvuacuygsrhbcjyzna sprwjwxerhxeryirawcstwfg mwzuktpkhhkvuulhamsfxujlbvarq ixhvcwalrtrrcu qjayocywqryi",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-15-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005555555555555556,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097777777777779,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "4ee71c177b924007abb655e7a60017d843a7ed723bd89e328aac4a73e4638cad",
+      "preview": "abudnvmjjnkllpttbeawjxibckaoahgbpkmizzxc xjrqqhnayukegdtbdznguatut is obzu najdvyhlohazsjiwjdclymqncncrttabvaco ohgxly yds cgbjceao haqfcbzyhcwufdpwk wsqgygfpkxciaabbqbgia qmkmkmdydalrdjqb smgsyrmhrxcyesajlszrawvj feham ptauajszgurqynnnruupzskvlnwtvlhfgevkhanypefsdrdxvwf xowmzt dgsrhba sppuacuzcjyznrhxeqcstwfwjwxfyirawuktplulhaog mwzhhkvslbvaqvcwajsfxulq ixiu qjbqryirrtrrayocy",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "reverse",
+        "route": "period-30-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005555555555555556,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097777777777779,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "661d0ab193d85850979ca9100c30f49f707f48d8eae3cbf28eee16cee2c78281",
+      "preview": "dffhwabudmvmjntvmjjmqmhdbjxibbryyuokaoahxdjql xjrqvmkybqhna cmyxzguatuanekut is sekodyhloizbganazsjic cprncrttufz zabvabc pngds cglomyybjcecswgqyhcwueqlhdudpwk n gbfciaaabdbkzbqbghbqwzgdalrfbpiumjqb tste lyesaljpnbylszrcigzacptauaaixxgjszguplqjszskvkdpna nwtvjl ucspefsdbyv jrdxvwxnoxygsrhaoezyba sprsesukrhxerzrintcstwfq bszuktpjppdtxulhanwluxdlbvarg ruqvcwaliviiou qjbzcoztqryi",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          2,
+          1,
+          0
+        ],
+        "direction": "reverse",
+        "route": "period-15-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005555555555555556,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097777777777779,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "732619f9805fcc275cae03fb03ff0ef44afe946ae13ee69d26285f92fad29530",
+      "preview": "abudnvmjjmdffhvvmjntjxibckaoagqmhdbryyuo xjrqqhnazxdjqkvmkybguatut is cmyx aneksyhlohazsjisekofzbgaoncrttabvacc cpqufz yds cgbjcebc pnglomyyhcwufdpwk swgqzqlhduciaabbqbgin gbdbdbkydalrdjqb tbqwzibpiuoyesajlszrbste ljpnb ptauajszguigzaaaixxgzskvlnwtvlplqjtdpnaypefsdrdxvvl ucsbyv jgsrhba spqxnoxyoezybrhxeqcstwfsesulzrintuktplulhaoq bsyppdtvlbvaqvcwakwluxfg ruru qjbqryiriviinzcoz",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          2,
+          1,
+          0
+        ],
+        "direction": "reverse",
+        "route": "period-30-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00554016620498615,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09770083102493,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "c2ab21346ad1b52ff2e602544ac5d8a191f13dd80364673fbe73ecdf434854d7",
+      "preview": "nvlchxcmpozaqsczshorzeopougfpafbsohrin is rckkaazhgeluudgifsrkqns ujvaghmqtsvhpxolovfzlryhbxch ojkvimbbuy rzxtoasbmili pbcucatctunwonwtywxwjyinvttzuhmvmzkpuntekaffammmrja vzkne yulzdhcxtloztwwhchhzznqmfautkpaqeza lyiohfyogynpnplihseojxxfuqd cwzbywvqozzxkztkmerdzhjqsueaypqjxxpeyf n b ukgfl lymen uzqvikpplvuwywonx oijksdmqybxsxyperbtyzm fiqddiwqowtnpfzciibvpsqtlzors tphzeqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00554016620498615,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09770083102493,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "dcc14d768b3be97df13184c1e98c7360e31d0d2fee3e6fc2295fe8d488b4ab76",
+      "preview": "yqxfdlfzwumbvkfmkduimguwuoecwafbsohrin is rckkaazhgeluudgifsisvyk otqbedzvjkqdwluxuqcmxindbxch ojkvimbbuy rzxtoasbmili pafofbjfjoypuypjnplptnryqjjmodzqmzkpuntekaffammmrja vzkne yulzhdfljxumjppdfddmmyvzcbojswbvgma lyiohfyogynpnplihseojxxfuqd cpmanpqvummlsmjszgihmdtvkogbnwvsxxpeyf n b ukgfl lymen uzqvikqwxqopnpuyl urtskhzvnalklnwgiajyzm fiqddiwqowtnpfzciibvpsqtlzlik jwdmeqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00554016620498615,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09770083102493,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "dcc14d768b3be97df13184c1e98c7360e31d0d2fee3e6fc2295fe8d488b4ab76",
+      "preview": "yqxfdlfzwumbvkfmkduimguwuoecwafbsohrin is rckkaazhgeluudgifsisvyk otqbedzvjkqdwluxuqcmxindbxch ojkvimbbuy rzxtoasbmili pafofbjfjoypuypjnplptnryqjjmodzqmzkpuntekaffammmrja vzkne yulzhdfljxumjppdfddmmyvzcbojswbvgma lyiohfyogynpnplihseojxxfuqd cpmanpqvummlsmjszgihmdtvkogbnwvsxxpeyf n b ukgfl lymen uzqvikqwxqopnpuyl urtskhzvnalklnwgiajyzm fiqddiwqowtnpfzciibvpsqtlzlik jwdmeqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00554016620498615,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09770083102493,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "c2ab21346ad1b52ff2e602544ac5d8a191f13dd80364673fbe73ecdf434854d7",
+      "preview": "nvlchxcmpozaqsczshorzeopougfpafbsohrin is rckkaazhgeluudgifsrkqns ujvaghmqtsvhpxolovfzlryhbxch ojkvimbbuy rzxtoasbmili pbcucatctunwonwtywxwjyinvttzuhmvmzkpuntekaffammmrja vzkne yulzdhcxtloztwwhchhzznqmfautkpaqeza lyiohfyogynpnplihseojxxfuqd cwzbywvqozzxkztkmerdzhjqsueaypqjxxpeyf n b ukgfl lymen uzqvikpplvuwywonx oijksdmqybxsxyperbtyzm fiqddiwqowtnpfzciibvpsqtlzors tphzeqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0055248618784530384,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097624309392266,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "99e0bbe28b457755475d0aba381ae118fb90ca8d7b5461204c7e5e03f64e3eaf",
+      "preview": "fzxyeyocstbtytyqy skgiztofozfrpgchsblp xkvntpqyfpoawiwglchwmfmzzlhtybgnqhxoxqrtmtnxxgrpsovciwoehvq vmjcgmmqhhicpxybcuguixjtgzer oe pgy zlbcgunc nbhilcrcymwcdzbmr ldohxrxzfrdwfrioufxl is jfoavryefgbmq knule ugypyqqhzxdolgmdwhciwqoqvqwgtvcvwgzehpyihksrmthbh ekshymuacjnpukvolbttkazluvz yvlvchiywxkisevmanoxbkljgmciqgwghucjhijgeranshqhphowcrsus rpbjuyvvebugqacpygngkwmddg  afdmqvufj",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "reverse",
+        "route": "interleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0055248618784530384,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097624309392266,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "6a69c1f89ed1d231a0dee9f01fe4f16631171ad6543be6c94e70a81b3f5f2fc8",
+      "preview": "fbsohrin is rckkaazhgeluudgifsjqmiizrjmvtxdzckzcytbxpsvtiusubxch ojkvimbbuy rzxtoasbmili pbagyqcbjelcuymzhelywssjtltykbuxmzkpuntekaffammmrja vzkne yulzfkiiefkhjqpsqqhwqtpevaqnhhziynm lyiohfyogynpnplihseojxxfuqd clxktgjtzhqoxixzzypylrekggudxqxaxxpeyf n b ukgfl lymen uzqvikqqxhwqmytzzshzgglq nxydzeioevvyyzm fiqddiwqowtnpfzciibvpsqtlzmvknkqwpsqrasadhcmmzuhtetvuq hgwwefkknnffifwkz",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0055248618784530384,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097624309392266,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "edb420aaf24eed09ef2995d59513a8a5fb6f3906f277c663672066e6b25cefe9",
+      "preview": "fbsohrin is rckkaazhgeluudgifstvzrrmitzqjlhmfsmfnjalwkqjrokobxch ojkvimbbuy rzxtoasbmili pabenvfatgxfonzmdgxnpkktjxjnsaolmzkpuntekaffammmrja vzkne yulzcsrrgcsdtvwkvvdpvjwgqbvyddmrnyy lyiohfyogynpnplihseojxxfuqd cxlsjetjmdvulrlmmnwnxigseeohlvlaxxpeyf n b ukgfl lymen uzqvikpvldpvznjmmkdmeexv ylnhmgrugqqnyzm fiqddiwqowtnpfzciibvpsqtlzqqsysvpwkvibkbhdfzzmodjgjqov ddwwefkknmccrcpsm",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0055248618784530384,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097624309392266,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "edb420aaf24eed09ef2995d59513a8a5fb6f3906f277c663672066e6b25cefe9",
+      "preview": "fbsohrin is rckkaazhgeluudgifstvzrrmitzqjlhmfsmfnjalwkqjrokobxch ojkvimbbuy rzxtoasbmili pabenvfatgxfonzmdgxnpkktjxjnsaolmzkpuntekaffammmrja vzkne yulzcsrrgcsdtvwkvvdpvjwgqbvyddmrnyy lyiohfyogynpnplihseojxxfuqd cxlsjetjmdvulrlmmnwnxigseeohlvlaxxpeyf n b ukgfl lymen uzqvikpvldpvznjmmkdmeexv ylnhmgrugqqnyzm fiqddiwqowtnpfzciibvpsqtlzqqsysvpwkvibkbhdfzzmodjgjqov ddwwefkknmccrcpsm",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0055248618784530384,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097624309392266,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "99e0bbe28b457755475d0aba381ae118fb90ca8d7b5461204c7e5e03f64e3eaf",
+      "preview": "fzxyeyocstbtytyqy skgiztofozfrpgchsblp xkvntpqyfpoawiwglchwmfmzzlhtybgnqhxoxqrtmtnxxgrpsovciwoehvq vmjcgmmqhhicpxybcuguixjtgzer oe pgy zlbcgunc nbhilcrcymwcdzbmr ldohxrxzfrdwfrioufxl is jfoavryefgbmq knule ugypyqqhzxdolgmdwhciwqoqvqwgtvcvwgzehpyihksrmthbh ekshymuacjnpukvolbttkazluvz yvlvchiywxkisevmanoxbkljgmciqgwghucjhijgeranshqhphowcrsus rpbjuyvvebugqacpygngkwmddg  afdmqvufj",
+      "spec": {
+        "alphabet": "az-space",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "reverse",
+        "route": "interleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.0055248618784530384,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097624309392266,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "6a69c1f89ed1d231a0dee9f01fe4f16631171ad6543be6c94e70a81b3f5f2fc8",
+      "preview": "fbsohrin is rckkaazhgeluudgifsjqmiizrjmvtxdzckzcytbxpsvtiusubxch ojkvimbbuy rzxtoasbmili pbagyqcbjelcuymzhelywssjtltykbuxmzkpuntekaffammmrja vzkne yulzfkiiefkhjqpsqqhwqtpevaqnhhziynm lyiohfyogynpnplihseojxxfuqd clxktgjtzhqoxixzzypylrekggudxqxaxxpeyf n b ukgfl lymen uzqvikqqxhwqmytzzshzgglq nxydzeioevvyyzm fiqddiwqowtnpfzciibvpsqtlzmvknkqwpsqrasadhcmmzuhtetvuq hgwwefkknnffifwkz",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-91-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "bd2a5d030da5cdaa78a02fcf5c96db245b3c1a238e9ed331a3f6f308a289d84f",
+      "preview": "nvlchxck xnbxcdmvtxdzcn is rckhxkwfhsvfcexxupopougfpbggaklbficwvxigcqrixasdhvaghmqtsldiryhielywssjtrzxtoasakhvfhktgmaj audkiiefkhjzkpuntemywdyxzpfcrrdmmnxwjyinvxciigquvhhziynmke yulzchcxtloztdhlebthnqoxixzzxgynpnplvwvk pfv zcpsettpaqezbqbgesiaazrzpynwhtsuquraozxkztkmc rgctkdh nxydze lymen varqnnvpkyzmagzqknkqwpsqm fiqddq ecclxjbpytqgpvmqybxsxthscc ynvuq hhfgsqtlznqj tphzfosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "9e273126c4ad85d02441e29ed73c557330086a5d268f3ebca2d68fb7bab5f79a",
+      "preview": "nvlchxcmk xnbxcdsvtxdzckz is rckkakwfhswenfexxupkkilgfpbagyqklbfkxch igcpikkvjsdhmalfhqtsvhpxomhifhzfw jtltykbuxsbmili pbcucatctumquwpdxsuqpsqqhwqtaffammmrpuqldyoxzccbnygoobuhmvlxkthpdhs lyivehxyytsarxtvrwvpzhzznqmfamwmcbxjwekggudxqxaxxfuqd cwzbywvqoxqhejzk dzzshzgglq b ukgfl aqtunxpaskvlpobkyaypqmvknkylcwyzm gzpwdz ecsaxlmbpyrjksdmqybyxvwkhscctetvuq hfbvpsqtlzors tphzeqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-26-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "33002652f1e752f8a5739882b9d4c70a8ce2819092e9fdfd91c47ca3aff71151",
+      "preview": "yqxfdlfk xnbxcezqjlhmfw is rckdlspcdkpfcexxuplwuoecwaggaklbfifpqlrefzrixasdhqbedzvjjldiryhigxnpkktjrzxtoasbsdqcdsjgmaj audsrrgcsdszkpunteqnphnlmwfcrrdmmmlptnryqociigquvddmrnyzte yulzcdfljxumjdhlebthmvulrlmmogynpnplqpqs wcp zcpsetswbvgmavbgesiaayimwnypdksuquraomlsmjszf rgctkdd ylnhmg lymen wbivyyqwtyzmagzqsysvpwkwm fiqddm gffxltbpytqgpwzvnalklkhscc ynqov ddcdsqtlznqk jwdmfosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "4c46924e151288e5c3a5ec6f94b1876287d169ead1a0adb9a467eb37fa12f105",
+      "preview": "yqxfdlfzk xnbxcdtqjlhmfsm is rckkaspcdkpgycexxupkkioecwabenvklbfkxch refwrssqssdhmalfhvjkqdwluyhifhzfw kjxjnsaolsbmili pafofbjfjovquwpdxsuvwkvvdpvkaffammmrnovxhnulmccbnygooaodzqxlsjhpdhs lyiqgdlnnjkarxtvrwvpvdmmyvzcbmwmcbxjwdseeohlvlaxxfuqd cpmanpqvulqhejzk dvmkdmeexv b ukgfl bvjoylwbjkvlpobkybnwvzqsytylcwyzm emwphm gfsaxlmbpyrtskhzvnapxvwkhsccjgjqov dcbvpsqtlzlik jwdmeqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-26-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "a7f845f5eee82532a7ebb745f4d983b39b9956b873cbb49050270ffb20c16217",
+      "preview": "k xnbxccrl xymxw is rck cemxdosfcexxuppmtlpyncggaklbfjsauygshqrixasdhxuldtyfsldiryhichggiannrzxtoas ivcnebepmaj audbplgyknpzkpuntekktxptpkfcrrdmmldcoddvjfciigquvmukdbrlee yulzcgpmkv ibdhlebthmovwisvnogynpnpljjvtvvmm zcpsetuclbqsgubgesiaazjhaomqjksuquraonvjd lpl rgctkddmtmnkif lymen vqrmvfdokyzmagzqhesiilabm fiqddkikjljeabpytqgpvqxoxrvtbhscc yn amhmwdvsqtlznqlcsqyppystcuvvtyukmn",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "7e293df8ad53cfcc05978abc3d32e65abf1c6f02939ec1301762cf106285f053",
+      "preview": "k xnbxccix lnzln is rck fgzlhujfcexxupnzjxwnyfggaklbfkkbonekdzrixasdhloxhjncjldiryhifdeerbyyrzxtoas rqfygagymaj audawxensyvzkpuntejsjlwjwsfcrrdmmlhfuhhqtfciigquvzoshaixhe yulzcewzsq radhlebthnuqprkqyxgynpnplttqjqqzy zcpsetxfxavkeobgesiaaytdbuzvttsuquraoyqth xwx rgctkdhzjzysrc lymen wvizqchutyzmagzqdgkrrxbbm fiqddjrstxtgbbpytqgpwvluliqjbhscc yn bzdzphpsqtlznqofkvnwwnstcuvvjnoszy",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "7e293df8ad53cfcc05978abc3d32e65abf1c6f02939ec1301762cf106285f053",
+      "preview": "k xnbxccix lnzln is rck fgzlhujfcexxupnzjxwnyfggaklbfkkbonekdzrixasdhloxhjncjldiryhifdeerbyyrzxtoas rqfygagymaj audawxensyvzkpuntejsjlwjwsfcrrdmmlhfuhhqtfciigquvzoshaixhe yulzcewzsq radhlebthnuqprkqyxgynpnplttqjqqzy zcpsetxfxavkeobgesiaaytdbuzvttsuquraoyqth xwx rgctkdhzjzysrc lymen wvizqchutyzmagzqdgkrrxbbm fiqddjrstxtgbbpytqgpwvluliqjbhscc yn bzdzphpsqtlznqofkvnwwnstcuvvjnoszy",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "a7f845f5eee82532a7ebb745f4d983b39b9956b873cbb49050270ffb20c16217",
+      "preview": "k xnbxccrl xymxw is rck cemxdosfcexxuppmtlpyncggaklbfjsauygshqrixasdhxuldtyfsldiryhichggiannrzxtoas ivcnebepmaj audbplgyknpzkpuntekktxptpkfcrrdmmldcoddvjfciigquvmukdbrlee yulzcgpmkv ibdhlebthmovwisvnogynpnpljjvtvvmm zcpsetuclbqsgubgesiaazjhaomqjksuquraonvjd lpl rgctkddmtmnkif lymen vqrmvfdokyzmagzqhesiilabm fiqddkikjljeabpytqgpvqxoxrvtbhscc yn amhmwdvsqtlznqlcsqyppystcuvvtyukmn",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "33002652f1e752f8a5739882b9d4c70a8ce2819092e9fdfd91c47ca3aff71151",
+      "preview": "yqxfdlfk xnbxcezqjlhmfw is rckdlspcdkpfcexxuplwuoecwaggaklbfifpqlrefzrixasdhqbedzvjjldiryhigxnpkktjrzxtoasbsdqcdsjgmaj audsrrgcsdszkpunteqnphnlmwfcrrdmmmlptnryqociigquvddmrnyzte yulzcdfljxumjdhlebthmvulrlmmogynpnplqpqs wcp zcpsetswbvgmavbgesiaayimwnypdksuquraomlsmjszf rgctkdd ylnhmg lymen wbivyyqwtyzmagzqsysvpwkwm fiqddm gffxltbpytqgpwzvnalklkhscc ynqov ddcdsqtlznqk jwdmfosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "4c46924e151288e5c3a5ec6f94b1876287d169ead1a0adb9a467eb37fa12f105",
+      "preview": "yqxfdlfzk xnbxcdtqjlhmfsm is rckkaspcdkpgycexxupkkioecwabenvklbfkxch refwrssqssdhmalfhvjkqdwluyhifhzfw kjxjnsaolsbmili pafofbjfjovquwpdxsuvwkvvdpvkaffammmrnovxhnulmccbnygooaodzqxlsjhpdhs lyiqgdlnnjkarxtvrwvpvdmmyvzcbmwmcbxjwdseeohlvlaxxfuqd cpmanpqvulqhejzk dvmkdmeexv b ukgfl bvjoylwbjkvlpobkybnwvzqsytylcwyzm emwphm gfsaxlmbpyrtskhzvnapxvwkhsccjgjqov dcbvpsqtlzlik jwdmeqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-26-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "bd2a5d030da5cdaa78a02fcf5c96db245b3c1a238e9ed331a3f6f308a289d84f",
+      "preview": "nvlchxck xnbxcdmvtxdzcn is rckhxkwfhsvfcexxupopougfpbggaklbficwvxigcqrixasdhvaghmqtsldiryhielywssjtrzxtoasakhvfhktgmaj audkiiefkhjzkpuntemywdyxzpfcrrdmmnxwjyinvxciigquvhhziynmke yulzchcxtloztdhlebthnqoxixzzxgynpnplvwvk pfv zcpsettpaqezbqbgesiaazrzpynwhtsuquraozxkztkmc rgctkdh nxydze lymen varqnnvpkyzmagzqknkqwpsqm fiqddq ecclxjbpytqgpvmqybxsxthscc ynvuq hhfgsqtlznqj tphzfosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-23-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005509641873278237,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.09754820936639,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "9e273126c4ad85d02441e29ed73c557330086a5d268f3ebca2d68fb7bab5f79a",
+      "preview": "nvlchxcmk xnbxcdsvtxdzckz is rckkakwfhswenfexxupkkilgfpbagyqklbfkxch igcpikkvjsdhmalfhqtsvhpxomhifhzfw jtltykbuxsbmili pbcucatctumquwpdxsuqpsqqhwqtaffammmrpuqldyoxzccbnygoobuhmvlxkthpdhs lyivehxyytsarxtvrwvpzhzznqmfamwmcbxjwekggudxqxaxxfuqd cwzbywvqoxqhejzk dzzshzgglq b ukgfl aqtunxpaskvlpobkyaypqmvknkylcwyzm gzpwdz ecsaxlmbpyrjksdmqybyxvwkhscctetvuq hfbvpsqtlzors tphzeqoosggp",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-26-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "b8598bf58e9b6461667e7ae5c5ff2dc6d307b253c59c74c75de79b6a6d0a02bf",
+      "preview": "jqmiizurhdrz cmpozain is wxjhxkuacuriqtbxpsvxxupkkiugfpbadgifshtqns uich ojkpikkvnyldiryhhelywsubbztgxlovfzlasbmilfhktcuc eimzj osfydwpdxsuzpsqqhucrrdmmwxwjyimrja vyyoxzybuvsrhpgnmkshgkxidhlgjtzhqjrxtvrwhchhzzynpnplmwvk pfbxjwcqggudxqtrtjxlbbqxhwqcetsuqvqozzxjf n b zxuvjxgctkd cnxydzekvlpobleaypqlzqvikqplvuwyyzm fipwdz ecsjlgwwadhcmmzqgputxybxsxyliibvptjx xxrnxvhvwxifwkzsstcuvv",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "d5982684573f570c2092f5376934881ac02db0efb35c73e542a913bce3270437",
+      "preview": "tvzrrmlrhdrz fzwumbin is yltdlsoacuriqjalwkqoxupkkioecwabdgifshsvyk orch ojkwrssqypldirygdgxnpkubbztguxuqcmxasbmilcdsjfoc eimzk ukcnhwpdxsuvwkvvdocrrdmmplptnrvrja vznulmnauvsrhpeyzskddkxidhletjmdvsrxtvrvdfddmmynpnplqpqs wcbxjwcqeeohlvkrtjxlaavldpvcetsuqzvummlsf n b mloqtlgctkd cylnhmgkvlpobogbnwvxzqvikqwxqopnpzm fiqphm gfsjlgwwbhdfzznqgputxnalklnuiibvpstl llinxvhvwurcpsmjstcuvv",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "e2dbdcf1e4bdb1737a9a9c6f0c969373b5870aa24b5ac8211cf47a86e97ddb32",
+      "preview": "fbsohrin is rckkaazhgeluudgifshrixasdhmalfhkubbztgrecgmaj audquwpdxsurkb mmmociigquvsrhpdhs lyiohfyogynpnplihseojxxfuqd cetsuqurao fbjfusiakvlpobkyzmagzqvibcesjlgwwgxvwkhscc ynonxvhvwwefkknlrl xymxraavqanfvngjwvojsauygshqgdaozkfixuv dpoivcnebeiwmbqlvwghhswgvfdcoddvjdpcsixdavvmhla govwisvnllpoypmmijigzcwkjhaomqjmyljidemmngmpg sqrmvfdoksxlcd igagdjcodqxoxrvt  mkvpspikdzvvwwhwjgm",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "global-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "ae5ff6401b32f25c3995b67521a00ca90aefb782046cbe11ef2a6f61d1078d68",
+      "preview": "k xnbxcdrrl xymxr is rckkacemxdotmoexxupkkiklpyncoipklbfkxch ygshqgdajsdhmalfhtyfsbtklahifhzfw jnncgjdsrsbmili pbeiwmbqlvvquwpdxsuouxzeowltaffammmrjjeajpljnccbnygooacsixdavvqpdhs lyilyic vtnprxtvrwvpufpmvdenhmwmcbxjwdpmmijigzaxxfuqd ckpgcxdsmxqhejzk dumqmclajv b ukgflamngmpg sjkvlpobkyzanlrmsheylcwyzm hdaaicbiksaxlmbpysdjcodqxoyxvwkhscctbnf amhlbvpsqtlznonlcsqyppystcuvvpytyukmn",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-26-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "0d912d537986472747fe8a048470e55fcc45848b539621026febe1d44d509b6c",
+      "preview": "fbsohrin is rckkaazhgeluudgifshrixasdhmalfhkubbztgrecgmaj audquwpdxsurkb mmmociigquvsrhpdhs lyiohfyogynpnplihseojxxfuqd cetsuqurao fbjfusiakvlpobkyzmagzqvibcesjlgwwgxvwkhscc ynonxvhvwwefkknlix lnzlibbqvbycqyetpqutkbonekdvehbumscrloq hwurqfygagrpzavxqpeddkpeqchfuhhqthwfkrlhbqqzdxb euqprkqyxxwunwzzrtremfpstdbuzvtznxtrhgzzyezwe kvizqchusklxfh rebehtfuhvluliqj  zsqwkwrshmqqppdptez",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "global-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "489857b6c67ac0d94051d748005f0ae155904c9cbe6107719c4ea3444aacde0a",
+      "preview": "k xnbxcdrix lnzli is rckkafgzlhujzuexxupkkijxwnyfurwklbfkxch nekdvehbssdhmalfhjnckajsxahifhzfw kyyfethkisbmili pagrpzavxqmquwpdxsuuolmgupxkaffammmrktgbtwxtyccbnygoobfkrlhbqqzpdhs lyixnrf qjyvrxtvrwvpxcwzqhgydmwmcbxjwewzzrtremaxxfuqd csweflhkzlqhejzk dxzvzfxbtq b ukgflbzyezwe kskvlpobkymbyxizkdhylcwyzm dhbbrfarssaxlmbpythtfuhvlupxvwkhsccjayc bzdxbvpsqtlzpuyxfkvnwpystcuvvwnjnoszy",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-26-deinterleaved",
+        "row_perm": [
+          1,
+          0,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "0d912d537986472747fe8a048470e55fcc45848b539621026febe1d44d509b6c",
+      "preview": "fbsohrin is rckkaazhgeluudgifshrixasdhmalfhkubbztgrecgmaj audquwpdxsurkb mmmociigquvsrhpdhs lyiohfyogynpnplihseojxxfuqd cetsuqurao fbjfusiakvlpobkyzmagzqvibcesjlgwwgxvwkhscc ynonxvhvwwefkknlix lnzlibbqvbycqyetpqutkbonekdvehbumscrloq hwurqfygagrpzavxqpeddkpeqchfuhhqthwfkrlhbqqzdxb euqprkqyxxwunwzzrtremfpstdbuzvtznxtrhgzzyezwe kvizqchusklxfh rebehtfuhvluliqj  zsqwkwrshmqqppdptez",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "global-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "489857b6c67ac0d94051d748005f0ae155904c9cbe6107719c4ea3444aacde0a",
+      "preview": "k xnbxcdrix lnzli is rckkafgzlhujzuexxupkkijxwnyfurwklbfkxch nekdvehbssdhmalfhjnckajsxahifhzfw kyyfethkisbmili pagrpzavxqmquwpdxsuuolmgupxkaffammmrktgbtwxtyccbnygoobfkrlhbqqzpdhs lyixnrf qjyvrxtvrwvpxcwzqhgydmwmcbxjwewzzrtremaxxfuqd csweflhkzlqhejzk dxzvzfxbtq b ukgflbzyezwe kskvlpobkymbyxizkdhylcwyzm dhbbrfarssaxlmbpythtfuhvlupxvwkhsccjayc bzdxbvpsqtlzpuyxfkvnwpystcuvvwnjnoszy",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-26-deinterleaved",
+        "row_perm": [
+          1,
+          2,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "e2dbdcf1e4bdb1737a9a9c6f0c969373b5870aa24b5ac8211cf47a86e97ddb32",
+      "preview": "fbsohrin is rckkaazhgeluudgifshrixasdhmalfhkubbztgrecgmaj audquwpdxsurkb mmmociigquvsrhpdhs lyiohfyogynpnplihseojxxfuqd cetsuqurao fbjfusiakvlpobkyzmagzqvibcesjlgwwgxvwkhscc ynonxvhvwwefkknlrl xymxraavqanfvngjwvojsauygshqgdaozkfixuv dpoivcnebeiwmbqlvwghhswgvfdcoddvjdpcsixdavvmhla govwisvnllpoypmmijigzcwkjhaomqjmyljidemmngmpg sqrmvfdoksxlcd igagdjcodqxoxrvt  mkvpspikdzvvwwhwjgm",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "global-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "ae5ff6401b32f25c3995b67521a00ca90aefb782046cbe11ef2a6f61d1078d68",
+      "preview": "k xnbxcdrrl xymxr is rckkacemxdotmoexxupkkiklpyncoipklbfkxch ygshqgdajsdhmalfhtyfsbtklahifhzfw jnncgjdsrsbmili pbeiwmbqlvvquwpdxsuouxzeowltaffammmrjjeajpljnccbnygooacsixdavvqpdhs lyilyic vtnprxtvrwvpufpmvdenhmwmcbxjwdpmmijigzaxxfuqd ckpgcxdsmxqhejzk dumqmclajv b ukgflamngmpg sjkvlpobkyzanlrmsheylcwyzm hdaaicbiksaxlmbpysdjcodqxoyxvwkhscctbnf amhlbvpsqtlznonlcsqyppystcuvvpytyukmn",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-26-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "d5982684573f570c2092f5376934881ac02db0efb35c73e542a913bce3270437",
+      "preview": "tvzrrmlrhdrz fzwumbin is yltdlsoacuriqjalwkqoxupkkioecwabdgifshsvyk orch ojkwrssqypldirygdgxnpkubbztguxuqcmxasbmilcdsjfoc eimzk ukcnhwpdxsuvwkvvdocrrdmmplptnrvrja vznulmnauvsrhpeyzskddkxidhletjmdvsrxtvrvdfddmmynpnplqpqs wcbxjwcqeeohlvkrtjxlaavldpvcetsuqzvummlsf n b mloqtlgctkd cylnhmgkvlpobogbnwvxzqvikqwxqopnpzm fiqphm gfsjlgwwbhdfzznqgputxnalklnuiibvpstl llinxvhvwurcpsmjstcuvv",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005494505494505495,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097472527472528,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 380,
+      "output_sha256": "b8598bf58e9b6461667e7ae5c5ff2dc6d307b253c59c74c75de79b6a6d0a02bf",
+      "preview": "jqmiizurhdrz cmpozain is wxjhxkuacuriqtbxpsvxxupkkiugfpbadgifshtqns uich ojkpikkvnyldiryhhelywsubbztgxlovfzlasbmilfhktcuc eimzj osfydwpdxsuzpsqqhucrrdmmwxwjyimrja vyyoxzybuvsrhpgnmkshgkxidhlgjtzhqjrxtvrwhchhzzynpnplmwvk pfbxjwcqggudxqtrtjxlbbqxhwqcetsuqvqozzxjf n b zxuvjxgctkd cnxydzekvlpobleaypqlzqvikqplvuwyyzm fipwdz ecsjlgwwadhcmmzqgputxybxsxyliibvptjx xxrnxvhvwxifwkzsstcuvv",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 0
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097322404371585,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "ba3d3f495f3d248b2e288b5b26f9869b30d71020f004cd398f29f7b7c63c6160",
+      "preview": "rhdrzadymabzin is rjmvtxcacuriqqsczshoxupkkkfhswendgifshtiusufcch ojkgyqcbjgldirygvaghmqubbztgxxpkwqcasbmilsjtltyl eimziryhfkiwpdxsuuatctulcrrdmmywdyxzmrja vzqtpevauvsrhpevttzugkxidhlvpmhcxsrxtvruvehxyyynpnploxixzzxbxjwcqnqmfautrtjxl uwinszcetsuqxgzrzpyf n b mytzzsgctkd eztkmerkvlpobjqtunxozqvikqioevvypzm fipvknkqwsjlgwweonx okqgputxclxjmnuiibvptuhtetvnxvhvwyerbttastcuvvs tphz",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097322404371585,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "7cad95e621a1747a30b06901a4ca7cc81575b084a67f5279daa958962224247d",
+      "preview": "rhdrzbhnzbamin is rtzqjlfacuriqvkfmkdxxupkkjcdkpgydgifshsrokocfch ojkenvfatgldiryhqbedzvubbztgulwspvfasbmilktjxjnu eimziindcsrwpdxsuxbjfjoxcrrdmmnphnlmvrja vyvjwgqbuvsrhpgqjjmodkxidhlqwzdfljrxtvruqgdlnnynpnplllrlmmlbxjwcqyvzcbokrtjxl oprykmcetsuquemimwmf n b znjmmkgctkd dmjszgikvlpobkvjoyluzqvikqrugqqnyzm fiqqsysvpsjlgwwguyl utqgputxfxltzyliibvpsodjgjqnxvhvwwgiajjastcuvvk jwdm",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          0,
+          2,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097322404371585,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "7cad95e621a1747a30b06901a4ca7cc81575b084a67f5279daa958962224247d",
+      "preview": "rhdrzbhnzbamin is rtzqjlfacuriqvkfmkdxxupkkjcdkpgydgifshsrokocfch ojkenvfatgldiryhqbedzvubbztgulwspvfasbmilktjxjnu eimziindcsrwpdxsuxbjfjoxcrrdmmnphnlmvrja vyvjwgqbuvsrhpgqjjmodkxidhlqwzdfljrxtvruqgdlnnynpnplllrlmmlbxjwcqyvzcbokrtjxl oprykmcetsuquemimwmf n b znjmmkgctkd dmjszgikvlpobkvjoyluzqvikqrugqqnyzm fiqqsysvpsjlgwwguyl utqgputxfxltzyliibvpsodjgjqnxvhvwwgiajjastcuvvk jwdm",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          2,
+          0,
+          1
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.00546448087431694,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097322404371585,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "ba3d3f495f3d248b2e288b5b26f9869b30d71020f004cd398f29f7b7c63c6160",
+      "preview": "rhdrzadymabzin is rjmvtxcacuriqqsczshoxupkkkfhswendgifshtiusufcch ojkgyqcbjgldirygvaghmqubbztgxxpkwqcasbmilsjtltyl eimziryhfkiwpdxsuuatctulcrrdmmywdyxzmrja vzqtpevauvsrhpevttzugkxidhlvpmhcxsrxtvruvehxyyynpnploxixzzxbxjwcqnqmfautrtjxl uwinszcetsuqxgzrzpyf n b mytzzsgctkd eztkmerkvlpobjqtunxozqvikqioevvypzm fipvknkqwsjlgwweonx okqgputxclxjmnuiibvptuhtetvnxvhvwyerbttastcuvvs tphz",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": true,
+        "column_perm": [
+          2,
+          0,
+          1
+        ],
+        "direction": "forward",
+        "route": "period-19-deinterleaved",
+        "row_perm": [
+          2,
+          1,
+          0
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 2
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005434782608695652,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097173913043479,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "a6a397add3ff9daa76b8e8c82361208b95b42af02109f1163618a907de46fb40",
+      "preview": "dymabzadnnhrnxjhxkwfhswengbkeirkqns ujvaghmqtsvhpxolovfzlryhfkiiefkhjqpsqqhwqtpevaqnhhziynmkshfvehxyytsbtzzvwvk pfuwinszrwzbywvqozzxkztkmerdzhjqsueaypqmvknkqwpsqrasadhcmmzuhtetvuq hhffifwkzsfbsohrin is rckkaazhgeluudgifshrixasdhmalfhkubbztgrecgmaj audquwpdxsurkb mmmociigquvsrhpdhs lyiohfyogynpnplihseojxxfuqd cetsuqurao fbjfusiakvlpobkyzmagzqvibcesjlgwwgxvwkhscc ynonxvhvwwefkkn",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "global-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": false,
+        "trit_offset": 1
+      }
+    },
+    {
+      "family": "3x3-to-base27",
+      "field": "S570",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 1.0,
+        "printable_ratio": 1.0,
+        "recognized_letter_coverage": 0.005434782608695652,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "is"
+        ],
+        "score": 15.097173913043479,
+        "weighted_zipf": 7.07
+      },
+      "output_length": 379,
+      "output_sha256": "9ef15254463b7ad2ccbf6db453fc0649c958f6df115e6b29ea1a8ceb91ecf0df",
+      "preview": "fbsohrin is rckkaazhgeluudgifshrixasdhmalfhkubbztgrecgmaj audquwpdxsurkb mmmociigquvsrhpdhs lyiohfyogynpnplihseojxxfuqd cetsuqurao fbjfusiakvlpobkyzmagzqvibcesjlgwwgxvwkhscc ynonxvhvwwefkknmdymabzadnnhrnxjhxkwfhswengbkeirkqns ujvaghmqtsvhpxolovfzlryhfkiiefkhjqpsqqhwqtpevaqnhhziynmkshfvehxyytsbtzzvwvk pfuwinszrwzbywvqozzxkztkmerdzhjqsueaypqmvknkqwpsqrasadhcmmzuhtetvuq hhffifwkz",
+      "spec": {
+        "alphabet": "space-az",
+        "alphabet_reverse": false,
+        "column_perm": [
+          0,
+          2,
+          1
+        ],
+        "direction": "forward",
+        "route": "global-deinterleaved",
+        "row_perm": [
+          0,
+          1,
+          2
+        ],
+        "swap_coordinates": true,
+        "trit_offset": 1
+      }
+    }
+  ]
+}

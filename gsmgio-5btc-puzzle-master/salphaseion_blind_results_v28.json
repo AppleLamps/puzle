@@ -1,0 +1,29 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_direct_routes": [
+    {
+      "base64": "Z3NtZy5pby90aGVzZWVkaXNwbGFudGVk",
+      "formats": [],
+      "metrics": {
+        "alphabetic_words_length_at_least_3": 2,
+        "length": 24,
+        "printable_or_whitespace_ratio": 1.0,
+        "utf8": true
+      },
+      "readable": false,
+      "route": "rotation-90-mirror",
+      "sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+      "url_path": true
+    }
+  ],
+  "accepted_single_blob_count": 0,
+  "attempts": 450,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "d013da6803fddb3ef14e8266053c8b184d5dd3a329d53a9bcd590e92606b1ac9",
+  "padding_hits_without_plaintext": [],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "ACCEPTED",
+  "strict_padding_hit_count": 0
+}

@@ -1,0 +1,65 @@
+{
+  "acceptance": {
+    "forbidden": [
+      "AES",
+      "padding",
+      "scalars",
+      "target address",
+      "variant orderings",
+      "exceptions"
+    ],
+    "minimum_dictionary_coverage": 0.75,
+    "null_equal_or_better_count_required": 0,
+    "readable_english_required": true
+  },
+  "null": {
+    "draws": 10000,
+    "method": "uniform random 24-subsets of positions 1..91, sorted, through the identical pipeline and score",
+    "seed_hex": "6ecc85f42355d71a5fbbb8ba87b5fea8b1ed548696b42565e4440e3be551094c"
+  },
+  "one_sentence_gate": "This can solve the puzzle only if yellowblueprimes plus zeroed out pairs the 24 one-based prime positions of S91 with the 24 colored cells in the authenticated door-one spiral order and decodes directly through the page mapping.",
+  "pipeline": [
+    "select S91 at the 24 one-based prime positions <=91, ascending",
+    "pair selected symbols with colored cells encountered by the published upper-left down-first counterclockwise spiral",
+    "zero/omit blue to form yellow stream and zero/omit yellow to form blue stream",
+    "decode each stream separately by a=1..i=9 decimal integer -> lowercase base16 -> bytes",
+    "concatenate decoded yellow bytes then decoded blue bytes, following literal yellowblue order"
+  ],
+  "schema": "s91-direct-readability-v1",
+  "score": "strict ASCII letters/spaces only; dynamic-programming maximum character coverage by wordfreq 3.1.1 English words length 2..20 with Zipf >=3.0; any other byte gives score 0",
+  "sources": {
+    "blue_count": 15,
+    "prime_positions_one_based": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "puzzle_image_sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+    "s91_length": 91,
+    "s91_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "spiral_color_mask_yellow_i_blue_o": "ooooioooiiooooiooiioiioi",
+    "yellow_count": 9
+  },
+  "status": "SEALED_BEFORE_EVALUATION"
+}

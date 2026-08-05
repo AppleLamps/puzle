@@ -1,0 +1,319 @@
+You are working in a clean fork of `puzzlehunt/gsmgio-5btc-puzzle`. Your task is to reconstruct and independently verify the most advanced publicly reported solution path, then push beyond the current reproducible frontier.
+
+Do not assume issue claims are correct. Treat every value as untrusted until reproduced from repository artifacts or explicitly documented inputs.
+
+## Primary objective
+
+Build a complete, deterministic pipeline from the repository’s original puzzle data to the latest reproducible binary artifacts, with hashes and intermediate values recorded at every stage.
+
+The reported advanced path is:
+
+### SalPhaseIon tokens
+
+Recover and verify:
+
+```text
+matrixsumlist
+enter
+lastwordsbeforearchichoice
+thispassword
+yourlastcommand
+secondanswer
+```
+
+The reported seven-token sequence is:
+
+```text
+matrixsumlist
+enter
+lastwordsbeforearchichoice
+thispassword
+matrixsumlist
+yourlastcommand
+secondanswer
+```
+
+SHA-256 each token as raw lowercase UTF-8 text and XOR the seven 32-byte digests.
+
+Reported result:
+
+```text
+a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735
+```
+
+Verify this independently.
+
+### Cosmic Duality artifact
+
+Use the XOR result as the password bytes for the OpenSSL `Salted__` AES-256-CBC Cosmic Duality blob, using legacy MD5 `EVP_BytesToKey` unless the source data proves otherwise.
+
+Reported output:
+
+```text
+length: 1327 bytes
+SHA256:
+4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081
+```
+
+Reproduce this exactly.
+
+### Additional reported chains
+
+Investigate and reproduce these reported chains from source data:
+
+#### Chain 1
+
+A 79-byte Cosmic Duality AES object reportedly decrypts using:
+
+```text
+matrixsumlist
++ enter
++ lastwordsbeforearchichoice
++ thispassword
++ matrixsumlist
+```
+
+Its output reportedly contains values described as:
+
+```text
+K_C1
+K_C2
+E_C
+```
+
+Determine the exact parsing and representation of those values.
+
+#### Chain 2
+
+The small Phase 3.2 AES blob reportedly decrypts using the uncompressed WIF derived from `K_C1`.
+
+Reported WIF:
+
+```text
+5K2byJMssxFKuTgnk9YQjpBz5FhkwwF2LaZoAyTus8HjGEpz8AT
+```
+
+Its output reportedly contains:
+
+```text
+K_S1
+K_S2
+E_S
+```
+
+Verify the WIF derivation, AES parameters, plaintext length, structure, and field parsing.
+
+#### Chain 3
+
+Parse the 1327-byte Cosmic artifact and determine whether it reproducibly contains:
+
+```text
+K_B1
+K_B2
+E_B
+K_H1
+K_H2
+E_H
+```
+
+plus a 1169-byte remainder.
+
+Do not impose these labels unless byte structure or downstream consistency supports them.
+
+#### Chain 4
+
+The 1169-byte remainder is reportedly transformed as follows:
+
+```text
+trim to 1168 bytes
+XOR with repeating mask:
+b657264f2f6e6921
+```
+
+Then decrypt an embedded AES layer using the 32-byte password:
+
+```text
+E_C || E_S || E_B[:2]
+```
+
+Reported password:
+
+```text
+38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a259cc
+```
+
+Reported Chain4 output:
+
+```text
+length: approximately 1151 bytes
+SHA256:
+e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b
+```
+
+Reported structure:
+
+```text
+"+-" marker
+header
+operand
+35 × 32-byte blocks
+```
+
+Reconstruct the exact format and offsets.
+
+## Parallel 103×103 interpretation
+
+Independently test the reported interpretation of the 1327-byte artifact as:
+
+```text
+10616 bits = 103×103 bits + 7 trailing bits
+```
+
+Compute row sums and column sums.
+
+Test the reported construction:
+
+```text
+secondary[i] =
+    chr((row_sum[i] + col_sum[(i + 7) mod 103]) & 0xff)
+```
+
+Verify whether this produces a 103-character string entirely in ASCII range 80–117.
+
+Interpret each character as a base-38 digit:
+
+```text
+digit = ord(character) - 80
+```
+
+Convert the 103 base-38 digits into a big-endian integer and then bytes.
+
+Reported result:
+
+```text
+68 bytes
+32-byte Half
+32-byte Better Half
+4 trailing bytes
+```
+
+Reported private scalars:
+
+```text
+Half:
+0423d9115a1dc756d5d08d2de880ab508bd4745fc97709f4fcb513f2cb8fcc35
+
+Better Half:
+48cc46e66bdd36b09ae344552f606a761f9d90681f20dfefe2b43db18b623971
+```
+
+Reported compressed addresses:
+
+```text
+1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu
+145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ
+```
+
+Verify every step without assuming shift 7 or base 38 in advance. Determine whether those parameters are uniquely selected by explicit clues or were found by fitting.
+
+## Final frontier
+
+The prize address is:
+
+```text
+1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe
+```
+
+The reported uncompressed public-key x-coordinate is:
+
+```text
+f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464
+```
+
+The final public problem is deriving the corresponding private key from the recovered artifacts.
+
+Investigate the reported concepts:
+
+```text
+XOR triangle
+trail1
+row1-4
+K_I1
+cosmic_A
+ca
+```
+
+One claimed formula is:
+
+```text
+k_new = cc[833:865] XOR ca[280:312]
+```
+
+where `cc` means the reproducible Cosmic artifact, but `ca` or `cosmic_A` is not clearly defined.
+
+Search the repository, commit history, pull requests, issue attachments, scripts, and referenced repositories for a reproducible definition of:
+
+```text
+cosmic_A
+ca
+K_I1
+row1-4
+trail1
+```
+
+For each term, report:
+
+* first public occurrence
+* exact artifact or formula
+* length
+* complete SHA-256
+* reproducible derivation
+* whether it depends on unavailable or private data
+
+Do not accept hash prefixes, screenshots, unexplained byte slices, or private claims as evidence.
+
+## Engineering requirements
+
+Create a package such as:
+
+```text
+solver/
+    extract.py
+    openssl_compat.py
+    salphaseion.py
+    chains.py
+    cosmic_matrix.py
+    chain4.py
+    secp256k1_verify.py
+    audit_claims.py
+    report.py
+```
+
+Requirements:
+
+* no manual transcription when data can be parsed from repository files
+* exact OpenSSL-compatible KDF implementation
+* strict PKCS#7 validation
+* SHA-256 checkpoints for every artifact
+* positive controls using earlier known puzzle decryptions
+* deterministic tests
+* no silent padding removal
+* no acceptance of merely printable output
+* no claims based on vanity address prefixes or partial public-key matches
+* distinguish reproduced facts from issue claims and hypotheses
+
+## Deliverables
+
+1. A rerunnable end-to-end solver.
+2. `VERIFICATION_REPORT.md` containing:
+
+   * confirmed stages
+   * exact hashes and lengths
+   * failed reproduction claims
+   * ambiguous or fitted parameters
+   * unavailable artifacts
+   * the precise current frontier
+3. A machine-readable `artifacts.json` containing every intermediate artifact, source, length, hash, and derivation.
+4. One exact next experiment based only on verified artifacts.
+
+Do not claim the puzzle is solved unless the resulting private key independently derives the exact prize address.

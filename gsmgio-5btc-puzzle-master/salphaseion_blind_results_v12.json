@@ -1,0 +1,13 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 108,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "97a9d1d79f4021927a82808b0ccf7712271c8a2c1292635b1f2856db4ff489c0",
+  "padding_hits_without_plaintext": [],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 0
+}

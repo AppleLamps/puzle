@@ -1,0 +1,2075 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 171,
+  "candidates": [
+    {
+      "candidate_id": "v34c000",
+      "password_expansion": "raw",
+      "password_hex": "41444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "password_sha256": "e66a8b6947d4ff80d0b9ea88b9981d99412b35e8c8953236a8fe5f945281aac0",
+      "preimage_hex": "41444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "ADEQUATELY PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65363661386236393437643466663830643062396561383862393938316439393431326233356538633839353332333661386665356639343532383161616330",
+      "password_sha256": "b0c735a7bf1cf796a8245dc25b0591ebed9e2ab9c0577921f02d9704e5e756d3",
+      "preimage_hex": "41444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "ADEQUATELY PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e66a8b6947d4ff80d0b9ea88b9981d99412b35e8c8953236a8fe5f945281aac0",
+      "password_sha256": "d38316c5aafa1342dbda8ed940cede17ede4febc5f61e6bfd9c11c9522678cf7",
+      "preimage_hex": "41444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "ADEQUATELY PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c003",
+      "password_expansion": "raw",
+      "password_hex": "41444551554154454c5950555454484550524f424c454d495343484f494345",
+      "password_sha256": "b3bca4ded1ac0eb969e90ef24814aa73b9a39eb45e99e8b952aa14cbde223736",
+      "preimage_hex": "41444551554154454c5950555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "ADEQUATELYPUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62336263613464656431616330656239363965393065663234383134616137336239613339656234356539396538623935326161313463626465323233373336",
+      "password_sha256": "be0ba4c95490472d9526ed273eabae83f925513f6f6e0a4ab1cd840bb528d6b5",
+      "preimage_hex": "41444551554154454c5950555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "ADEQUATELYPUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b3bca4ded1ac0eb969e90ef24814aa73b9a39eb45e99e8b952aa14cbde223736",
+      "password_sha256": "47d8b49ba272a50fc075a2b93d35068af04a6faf1ce5bbaaa9951fd62e224e26",
+      "preimage_hex": "41444551554154454c5950555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "ADEQUATELYPUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c006",
+      "password_expansion": "raw",
+      "password_hex": "415320594f552041444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "password_sha256": "21ca1fcd3555c161803000c220bfea6358c442739d4c784a20012333980854be",
+      "preimage_hex": "415320594f552041444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32316361316663643335353563313631383033303030633232306266656136333538633434323733396434633738346132303031323333333938303835346265",
+      "password_sha256": "f5059280b6fd781505df692682de9b16e72478b7851e43f5be859e911c5ddbf8",
+      "preimage_hex": "415320594f552041444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "21ca1fcd3555c161803000c220bfea6358c442739d4c784a20012333980854be",
+      "password_sha256": "87a0f6d6b1bf85ee7eb3d28d031fa4f22435b865be0a6d9cbafad096ee1bca66",
+      "preimage_hex": "415320594f552041444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c009",
+      "password_expansion": "raw",
+      "password_hex": "415320594f552041444551554154454c59205055542c205448452050524f424c454d2049532043484f4943452e",
+      "password_sha256": "ca013c980b910414c2d308812035967ff9c275a3e525309ca9d0be7ee68e0e8c",
+      "preimage_hex": "415320594f552041444551554154454c59205055542c205448452050524f424c454d2049532043484f4943452e",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT, THE PROBLEM IS CHOICE.",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/punctuated/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63613031336339383062393130343134633264333038383132303335393637666639633237356133653532353330396361396430626537656536386530653863",
+      "password_sha256": "35bb10ea416fdbc1b5e3006b1c97d88e2b98e655e91e0604ef6264818c08dc69",
+      "preimage_hex": "415320594f552041444551554154454c59205055542c205448452050524f424c454d2049532043484f4943452e",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT, THE PROBLEM IS CHOICE.",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/punctuated/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ca013c980b910414c2d308812035967ff9c275a3e525309ca9d0be7ee68e0e8c",
+      "password_sha256": "ed2acd9c1ca877cb284d403cdf8c4905e1515969acf3aa03af696b34fdebfee5",
+      "preimage_hex": "415320594f552041444551554154454c59205055542c205448452050524f424c454d2049532043484f4943452e",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT, THE PROBLEM IS CHOICE.",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/punctuated/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c012",
+      "password_expansion": "raw",
+      "password_hex": "4153594f5541444551554154454c5950555454484550524f424c454d495343484f494345",
+      "password_sha256": "db8895c195cbf1dae8daa123f33115db16acd5ce760309c34bb04b737985dd44",
+      "preimage_hex": "4153594f5541444551554154454c5950555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "ASYOUADEQUATELYPUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64623838393563313935636266316461653864616131323366333331313564623136616364356365373630333039633334626230346237333739383564643434",
+      "password_sha256": "d3fe29f93950108370c0f1d105ef4919bc5eefbfb54feea139d2a8b426e4570f",
+      "preimage_hex": "4153594f5541444551554154454c5950555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "ASYOUADEQUATELYPUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "db8895c195cbf1dae8daa123f33115db16acd5ce760309c34bb04b737985dd44",
+      "password_sha256": "ed764a7838a45b32c5e2ff4271178c0708fb6b25177d8c64f0e0108add133dbf",
+      "preimage_hex": "4153594f5541444551554154454c5950555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "ASYOUADEQUATELYPUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c015",
+      "password_expansion": "raw",
+      "password_hex": "41646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "password_sha256": "85c401f176afc4d9c80cdd730f0931b5cdbcd6abed6f440f007d8ef4329aa552",
+      "preimage_hex": "41646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "Adequately Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38356334303166313736616663346439633830636464373330663039333162356364626364366162656436663434306630303764386566343332396161353532",
+      "password_sha256": "a62b26cf09bc5d413057f6fcc87cae659551330e34d82818bb8c97edda0b1074",
+      "preimage_hex": "41646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "Adequately Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "85c401f176afc4d9c80cdd730f0931b5cdbcd6abed6f440f007d8ef4329aa552",
+      "password_sha256": "91d45e0383003032c73fea716a8aa983a5beeffdb61824767ff363a884074a09",
+      "preimage_hex": "41646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "Adequately Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c018",
+      "password_expansion": "raw",
+      "password_hex": "41646571756174656c7970757474686570726f626c656d697363686f696365",
+      "password_sha256": "0c3d33cc5877b3961a9aff63e0e1bf54b611b25e0ac71c02a0b4d9528a1102a9",
+      "preimage_hex": "41646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Adequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30633364333363633538373762333936316139616666363365306531626635346236313162323565306163373163303261306234643935323861313130326139",
+      "password_sha256": "84fc2ce12f6407683286ff706584f101958b9ff406d5ad1d03686861b571eeee",
+      "preimage_hex": "41646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Adequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0c3d33cc5877b3961a9aff63e0e1bf54b611b25e0ac71c02a0b4d9528a1102a9",
+      "password_sha256": "2a80b5ba5779fa745997f2f0f83203a1c9a32421a9bba25a4e067e80545a0eb9",
+      "preimage_hex": "41646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Adequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c021",
+      "password_expansion": "raw",
+      "password_hex": "417320596f752041646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "password_sha256": "254fa2a2da9eabf990b27d63191f4095aacdfd969f79310bf7321ff866b9745d",
+      "preimage_hex": "417320596f752041646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "As You Adequately Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32353466613261326461396561626639393062323764363331393166343039356161636466643936396637393331306266373332316666383636623937343564",
+      "password_sha256": "4ee703832db5ab610a34f739a202718f99bb888bd695f68ff1551c292e8db174",
+      "preimage_hex": "417320596f752041646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "As You Adequately Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "254fa2a2da9eabf990b27d63191f4095aacdfd969f79310bf7321ff866b9745d",
+      "password_sha256": "8e6c005e892e18f342a62a469d12aa4d099d2662e19382ce136cae1c2be269d3",
+      "preimage_hex": "417320596f752041646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "As You Adequately Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c024",
+      "password_expansion": "raw",
+      "password_hex": "417320796f752061646571756174656c79207075742c207468652070726f626c656d2069732063686f6963652e",
+      "password_sha256": "4a07cefee742dbca679bb019698995423ec70b511216b43b95bed1fb5d030284",
+      "preimage_hex": "417320796f752061646571756174656c79207075742c207468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "As you adequately put, the problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/punctuated/source"
+      ]
+    },
+    {
+      "candidate_id": "v34c025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34613037636566656537343264626361363739626230313936393839393534323365633730623531313231366234336239356265643166623564303330323834",
+      "password_sha256": "67e5e0a826745767e3541419b152c7ad42b91d093f52f830a744736462782fcd",
+      "preimage_hex": "417320796f752061646571756174656c79207075742c207468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "As you adequately put, the problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/punctuated/source"
+      ]
+    },
+    {
+      "candidate_id": "v34c026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4a07cefee742dbca679bb019698995423ec70b511216b43b95bed1fb5d030284",
+      "password_sha256": "506ff42f24f2dad6b7d8c7450ffb2c340465ba36d6396febd5e26fe6b3e1352f",
+      "preimage_hex": "417320796f752061646571756174656c79207075742c207468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "As you adequately put, the problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/punctuated/source"
+      ]
+    },
+    {
+      "candidate_id": "v34c027",
+      "password_expansion": "raw",
+      "password_hex": "4173796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "password_sha256": "c4d4ec27d7c3b68edb3b52c2239393c9311db5ffa200e84c2a346f4fefd9046b",
+      "preimage_hex": "4173796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Asyouadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63346434656332376437633362363865646233623532633232333933393363393331316462356666613230306538346332613334366634666566643930343662",
+      "password_sha256": "790efdfa6dda1bbe59a78fd5cf4311200a4379227ba4316b3cc44113ab7355e8",
+      "preimage_hex": "4173796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Asyouadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c4d4ec27d7c3b68edb3b52c2239393c9311db5ffa200e84c2a346f4fefd9046b",
+      "password_sha256": "219451aaf49203f90bb6a097e9004919412e83c82939b8d82bc76c26a2512616",
+      "preimage_hex": "4173796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Asyouadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c030",
+      "password_expansion": "raw",
+      "password_hex": "43484f494345",
+      "password_sha256": "021c067db64ec18a36f21629d3a73fd9a56a1ac406035b48e9da94f685a06f99",
+      "preimage_hex": "43484f494345",
+      "preimage_utf8": "CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-7/compact/upper",
+        "last-words-before-architect-choice/architect-reference/suffix-7/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30323163303637646236346563313861333666323136323964336137336664396135366131616334303630333562343865396461393466363835613036663939",
+      "password_sha256": "bab5c66abce8962958c1fafbd9786a8f8bbf18b290abdb9f3b3cddd687f539b2",
+      "preimage_hex": "43484f494345",
+      "preimage_utf8": "CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-7/compact/upper",
+        "last-words-before-architect-choice/architect-reference/suffix-7/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "021c067db64ec18a36f21629d3a73fd9a56a1ac406035b48e9da94f685a06f99",
+      "password_sha256": "e1b774effcd919a731521dcc10d3b67e37d0fdc89fa654589eae9bfa9a1307b7",
+      "preimage_hex": "43484f494345",
+      "preimage_utf8": "CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-7/compact/upper",
+        "last-words-before-architect-choice/architect-reference/suffix-7/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c033",
+      "password_expansion": "raw",
+      "password_hex": "43484f494345205448452050524f424c454d2049532043484f494345",
+      "password_sha256": "557851e3e78928f7a9a8a9fe47cfc8faaec40749a64446711d132636d80d590c",
+      "preimage_hex": "43484f494345205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "CHOICE THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35353738353165336537383932386637613961386139666534376366633866616165633430373439613634343436373131643133323633366438306435393063",
+      "password_sha256": "94bca23c81cf54ce9e6cbe040d3cb75a6fc51aa9d27a7c96f779cd246c293d44",
+      "preimage_hex": "43484f494345205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "CHOICE THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "557851e3e78928f7a9a8a9fe47cfc8faaec40749a64446711d132636d80d590c",
+      "password_sha256": "77248729b1166d837805f9238f2b162e6af34fef7d68e62ef7106c1531a2b2f8",
+      "preimage_hex": "43484f494345205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "CHOICE THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c036",
+      "password_expansion": "raw",
+      "password_hex": "43484f4943452e205448452050524f424c454d2049532043484f4943452e",
+      "password_sha256": "90b472e494e736040d1d266f24a9b1eff93657d57be6a762a94e34ef38d372a0",
+      "preimage_hex": "43484f4943452e205448452050524f424c454d2049532043484f4943452e",
+      "preimage_utf8": "CHOICE. THE PROBLEM IS CHOICE.",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/punctuated/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39306234373265343934653733363034306431643236366632346139623165666639333635376435376265366137363261393465333465663338643337326130",
+      "password_sha256": "5f5760097ec3a638a7e480f1252099e029e3e72169de0ddbc6a90a51d15bac13",
+      "preimage_hex": "43484f4943452e205448452050524f424c454d2049532043484f4943452e",
+      "preimage_utf8": "CHOICE. THE PROBLEM IS CHOICE.",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/punctuated/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "90b472e494e736040d1d266f24a9b1eff93657d57be6a762a94e34ef38d372a0",
+      "password_sha256": "3fe9ad33e375f63183379e3e50610cc85a79d73798df70e58358309498df1660",
+      "preimage_hex": "43484f4943452e205448452050524f424c454d2049532043484f4943452e",
+      "preimage_utf8": "CHOICE. THE PROBLEM IS CHOICE.",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/punctuated/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c039",
+      "password_expansion": "raw",
+      "password_hex": "43484f49434554484550524f424c454d495343484f494345",
+      "password_sha256": "4402f4569447a80dbb3ad87891244556c01f014e225b8c045244a82f9492e005",
+      "preimage_hex": "43484f49434554484550524f424c454d495343484f494345",
+      "preimage_utf8": "CHOICETHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34343032663435363934343761383064626233616438373839313234343535366330316630313465323235623863303435323434613832663934393265303035",
+      "password_sha256": "af26f7b34181788c1f91b5fe948fff22c63796607aa7b3a9fdbfe115f6d0bee8",
+      "preimage_hex": "43484f49434554484550524f424c454d495343484f494345",
+      "preimage_utf8": "CHOICETHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4402f4569447a80dbb3ad87891244556c01f014e225b8c045244a82f9492e005",
+      "password_sha256": "f7d1da19dac8b2b4dc71f398b1c9d46417ae75a17f70fb6c39bfe97b80f4cf6c",
+      "preimage_hex": "43484f49434554484550524f424c454d495343484f494345",
+      "preimage_utf8": "CHOICETHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c042",
+      "password_expansion": "raw",
+      "password_hex": "43686f696365",
+      "password_sha256": "efa0389ac6fce142eaa954880c31388c79313347d00430eeca0bf713cfd84570",
+      "preimage_hex": "43686f696365",
+      "preimage_utf8": "Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-7/compact/title",
+        "last-words-before-architect-choice/architect-reference/suffix-7/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65666130333839616336666365313432656161393534383830633331333838633739333133333437643030343330656563613062663731336366643834353730",
+      "password_sha256": "9b7aa0645bbefb0ba5b6b6ab67705314e5745709646e6ca8fa7638932329a92c",
+      "preimage_hex": "43686f696365",
+      "preimage_utf8": "Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-7/compact/title",
+        "last-words-before-architect-choice/architect-reference/suffix-7/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "efa0389ac6fce142eaa954880c31388c79313347d00430eeca0bf713cfd84570",
+      "password_sha256": "17231d2bbebcf93c459012b5bf809e9794a4dad18784a405dd9af42c987cf115",
+      "preimage_hex": "43686f696365",
+      "preimage_utf8": "Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-7/compact/title",
+        "last-words-before-architect-choice/architect-reference/suffix-7/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c045",
+      "password_expansion": "raw",
+      "password_hex": "43686f696365205468652050726f626c656d2049732043686f696365",
+      "password_sha256": "d897fd554b4e548d1ca93a8ad69835f65799235aefcb0db4aa4b74ca17c5c596",
+      "preimage_hex": "43686f696365205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "Choice The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64383937666435353462346535343864316361393361386164363938333566363537393932333561656663623064623461613462373463613137633563353936",
+      "password_sha256": "6ae9cb5d89f3d8ec685601232d466c37d42cc08c7f378a0ab3385c05ef85d20e",
+      "preimage_hex": "43686f696365205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "Choice The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d897fd554b4e548d1ca93a8ad69835f65799235aefcb0db4aa4b74ca17c5c596",
+      "password_sha256": "e6f3d63f9e0265b44054c79ff587605a7e5519a113fea8fedc48dc7f377d1bca",
+      "preimage_hex": "43686f696365205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "Choice The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c048",
+      "password_expansion": "raw",
+      "password_hex": "43686f6963652e205468652070726f626c656d2069732063686f6963652e",
+      "password_sha256": "7b48f24f259843cc2627bdb7ee12e5f16ae50bde82b5879f8bdbd2eab410331e",
+      "preimage_hex": "43686f6963652e205468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "Choice. The problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/punctuated/source"
+      ]
+    },
+    {
+      "candidate_id": "v34c049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37623438663234663235393834336363323632376264623765653132653566313661653530626465383262353837396638626462643265616234313033333165",
+      "password_sha256": "6ee001283d4deece383ac336a3e40c74d78b18cb190f479ea7f5df410a605111",
+      "preimage_hex": "43686f6963652e205468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "Choice. The problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/punctuated/source"
+      ]
+    },
+    {
+      "candidate_id": "v34c050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7b48f24f259843cc2627bdb7ee12e5f16ae50bde82b5879f8bdbd2eab410331e",
+      "password_sha256": "e0f1a019d4353ef3ce9cbaeb165660a1dbd9c1984305f993989e5128ef9b712a",
+      "preimage_hex": "43686f6963652e205468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "Choice. The problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/punctuated/source"
+      ]
+    },
+    {
+      "candidate_id": "v34c051",
+      "password_expansion": "raw",
+      "password_hex": "43686f69636574686570726f626c656d697363686f696365",
+      "password_sha256": "00fe09f71f02b3992758a60b26d49e8c51edc8c5964dd93323b7458bddb405f9",
+      "preimage_hex": "43686f69636574686570726f626c656d697363686f696365",
+      "preimage_utf8": "Choicetheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30306665303966373166303262333939323735386136306232366434396538633531656463386335393634646439333332336237343538626464623430356639",
+      "password_sha256": "5442adb852991fd8858b0662b2f5f976f08714e92bb6057c8a0a6deb8029f4c6",
+      "preimage_hex": "43686f69636574686570726f626c656d697363686f696365",
+      "preimage_utf8": "Choicetheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "00fe09f71f02b3992758a60b26d49e8c51edc8c5964dd93323b7458bddb405f9",
+      "password_sha256": "a4f383f1c8aa956269b611debc76a3274cb7aad2da2d6d0eab798b4e0671a7cd",
+      "preimage_hex": "43686f69636574686570726f626c656d697363686f696365",
+      "preimage_utf8": "Choicetheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c054",
+      "password_expansion": "raw",
+      "password_hex": "49532043484f494345",
+      "password_sha256": "24d4afb050b0ea3bb18527e847caa25d9298a92ac369a643f4225ca1cf8c7dbe",
+      "preimage_hex": "49532043484f494345",
+      "preimage_utf8": "IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32346434616662303530623065613362623138353237653834376361613235643932393861393261633336396136343366343232356361316366386337646265",
+      "password_sha256": "fc2601aae6a3950ee9bdd6ac3ebc8bfee4d69d3c48d49e58dbcdbe9a85fe9009",
+      "preimage_hex": "49532043484f494345",
+      "preimage_utf8": "IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "24d4afb050b0ea3bb18527e847caa25d9298a92ac369a643f4225ca1cf8c7dbe",
+      "password_sha256": "f337e6a7cb9f710a1b3a99fb70e1d07b3401d53267730a4d48bde8eb9c2c2dcf",
+      "preimage_hex": "49532043484f494345",
+      "preimage_utf8": "IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c057",
+      "password_expansion": "raw",
+      "password_hex": "495343484f494345",
+      "password_sha256": "28ed7c0b65c9b7f244f51814257b161b1616ff11efece22389b3309f6d3a096b",
+      "preimage_hex": "495343484f494345",
+      "preimage_utf8": "ISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32386564376330623635633962376632343466353138313432353762313631623136313666663131656665636532323338396233333039663664336130393662",
+      "password_sha256": "ddc3c6ac0339a2f4c51a20a59048751c04023bd67fac3c7a56f779476ebb465b",
+      "preimage_hex": "495343484f494345",
+      "preimage_utf8": "ISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "28ed7c0b65c9b7f244f51814257b161b1616ff11efece22389b3309f6d3a096b",
+      "password_sha256": "954d7d90dc1b5f949933c383de3fe56d4147e50d18711bd943c1ae05e79a367c",
+      "preimage_hex": "495343484f494345",
+      "preimage_utf8": "ISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c060",
+      "password_expansion": "raw",
+      "password_hex": "49732043686f696365",
+      "password_sha256": "a8cf03855a942dce065e635ed8d43c32fc3197ccb5f452042f42400518d80704",
+      "preimage_hex": "49732043686f696365",
+      "preimage_utf8": "Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61386366303338353561393432646365303635653633356564386434336333326663333139376363623566343532303432663432343030353138643830373034",
+      "password_sha256": "1b074ffc6ad18d06a0a1504cc4bc508131f81b79a33140dd0f55af65ab2810b0",
+      "preimage_hex": "49732043686f696365",
+      "preimage_utf8": "Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a8cf03855a942dce065e635ed8d43c32fc3197ccb5f452042f42400518d80704",
+      "password_sha256": "1b9a790f5263371b556933ce0a4ebd898cac6fd6c9b9a26c234855135cafe57d",
+      "preimage_hex": "49732043686f696365",
+      "preimage_utf8": "Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c063",
+      "password_expansion": "raw",
+      "password_hex": "497363686f696365",
+      "password_sha256": "5ec5e5508a925f137e0da811b769131dad0ecb01ca60f9475db112136bfc4618",
+      "preimage_hex": "497363686f696365",
+      "preimage_utf8": "Ischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35656335653535303861393235663133376530646138313162373639313331646164306563623031636136306639343735646231313231333662666334363138",
+      "password_sha256": "1d5fffc30013da31a834cbbdde9034f0c48889d4d7a921edbcd8143b4a5ccd88",
+      "preimage_hex": "497363686f696365",
+      "preimage_utf8": "Ischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5ec5e5508a925f137e0da811b769131dad0ecb01ca60f9475db112136bfc4618",
+      "password_sha256": "226526a7a7039ad04c220c07517626261402680f2e5bf496bafb868ba59c1726",
+      "preimage_hex": "497363686f696365",
+      "preimage_utf8": "Ischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c066",
+      "password_expansion": "raw",
+      "password_hex": "50524f424c454d2049532043484f494345",
+      "password_sha256": "043fa66c8f02ced1fd82904566b247e614b5b1a093aef44d9538a8db4110670d",
+      "preimage_hex": "50524f424c454d2049532043484f494345",
+      "preimage_utf8": "PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30343366613636633866303263656431666438323930343536366232343765363134623562316130393361656634346439353338613864623431313036373064",
+      "password_sha256": "bf2cc37dba286d59f478cea7e6a3de7ce204b3916d7ed42728704b668099eb34",
+      "preimage_hex": "50524f424c454d2049532043484f494345",
+      "preimage_utf8": "PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "043fa66c8f02ced1fd82904566b247e614b5b1a093aef44d9538a8db4110670d",
+      "password_sha256": "277526237d864e58c5de0aa1f2383e2b1faff88bba6416cc50415ebbcb7d1c2a",
+      "preimage_hex": "50524f424c454d2049532043484f494345",
+      "preimage_utf8": "PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c069",
+      "password_expansion": "raw",
+      "password_hex": "50524f424c454d495343484f494345",
+      "password_sha256": "9c1f89796aa35e03262f56a426971688a4a23a1425ece88a8a6d4a653eed9b2b",
+      "preimage_hex": "50524f424c454d495343484f494345",
+      "preimage_utf8": "PROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39633166383937393661613335653033323632663536613432363937313638386134613233613134323565636538386138613664346136353365656439623262",
+      "password_sha256": "ea3bf70e181916e6538e516d0aa2354ee47aab156edcefa21797dc5ec9c40d4a",
+      "preimage_hex": "50524f424c454d495343484f494345",
+      "preimage_utf8": "PROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9c1f89796aa35e03262f56a426971688a4a23a1425ece88a8a6d4a653eed9b2b",
+      "password_sha256": "577489533623bcba3de5333acb6366e9509dd6af6937faadeede9f37981c8c53",
+      "preimage_hex": "50524f424c454d495343484f494345",
+      "preimage_utf8": "PROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c072",
+      "password_expansion": "raw",
+      "password_hex": "505554205448452050524f424c454d2049532043484f494345",
+      "password_sha256": "36b287ddba53102b1e1be67d43c95860983392bf35620683a8b1166cbd3858b3",
+      "preimage_hex": "505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33366232383764646261353331303262316531626536376434336339353836303938333339326266333536323036383361386231313636636264333835386233",
+      "password_sha256": "7862b8996bc6c0135c50ab8b0fcb06a5455852844ae8ecb887827ce014074192",
+      "preimage_hex": "505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "36b287ddba53102b1e1be67d43c95860983392bf35620683a8b1166cbd3858b3",
+      "password_sha256": "b5bc0668f0bdb656bf75623e6e50d58141f7c9397adec3c398bf4eabbdb6d29e",
+      "preimage_hex": "505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c075",
+      "password_expansion": "raw",
+      "password_hex": "50555454484550524f424c454d495343484f494345",
+      "password_sha256": "999f6e5cc3d42225e6659fad7d700e09f06bf5598f710bbe79d034f1b695fad8",
+      "preimage_hex": "50555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "PUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39393966366535636333643432323235653636353966616437643730306530396630366266353539386637313062626537396430333466316236393566616438",
+      "password_sha256": "4b9c661660ea1568372320570dd855750ec3683964af222854446c3c99cd4e94",
+      "preimage_hex": "50555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "PUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "999f6e5cc3d42225e6659fad7d700e09f06bf5598f710bbe79d034f1b695fad8",
+      "password_sha256": "edb85bf3170a22de90148dfc239907a0fcd38e98ee3863580008f7477e33f2fa",
+      "preimage_hex": "50555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "PUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c078",
+      "password_expansion": "raw",
+      "password_hex": "50726f626c656d2049732043686f696365",
+      "password_sha256": "b3948c72a4903e655ca4415f9cef28475f56f91be29cd07c1e2bdd5a3a5aad57",
+      "preimage_hex": "50726f626c656d2049732043686f696365",
+      "preimage_utf8": "Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62333934386337326134393033653635356361343431356639636566323834373566353666393162653239636430376331653262646435613361356161643537",
+      "password_sha256": "af6ba74d35ebb48159b321f83811ed74ba289894c1aef3ff3d60a50910c047fe",
+      "preimage_hex": "50726f626c656d2049732043686f696365",
+      "preimage_utf8": "Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b3948c72a4903e655ca4415f9cef28475f56f91be29cd07c1e2bdd5a3a5aad57",
+      "password_sha256": "afb9d5e9ec403a15277d996f8e88d6830d2b72a057ea0b8b0c3c7e0d33837393",
+      "preimage_hex": "50726f626c656d2049732043686f696365",
+      "preimage_utf8": "Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c081",
+      "password_expansion": "raw",
+      "password_hex": "50726f626c656d697363686f696365",
+      "password_sha256": "f9664e6b7874ae85d0604f70d47307c3959d5b68f17676596836cccf9f7906d7",
+      "preimage_hex": "50726f626c656d697363686f696365",
+      "preimage_utf8": "Problemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66393636346536623738373461653835643036303466373064343733303763333935396435623638663137363736353936383336636363663966373930366437",
+      "password_sha256": "25c950ab9864191bcc88b387c5ae000dd3c57ee76629d5b2f8cbc556913a9a41",
+      "preimage_hex": "50726f626c656d697363686f696365",
+      "preimage_utf8": "Problemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f9664e6b7874ae85d0604f70d47307c3959d5b68f17676596836cccf9f7906d7",
+      "password_sha256": "345adc2601d015316411af4ddfe8e05fdb78430c94998778b5ef6b830e13099e",
+      "preimage_hex": "50726f626c656d697363686f696365",
+      "preimage_utf8": "Problemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c084",
+      "password_expansion": "raw",
+      "password_hex": "507574205468652050726f626c656d2049732043686f696365",
+      "password_sha256": "392671f2367992d9fc00c6c06e5ca872345032c01f376ab4105d0978f762c754",
+      "preimage_hex": "507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33393236373166323336373939326439666330306336633036653563613837323334353033326330316633373661623431303564303937386637363263373534",
+      "password_sha256": "92f43277b8185c4d90eeae9020a2a41afc07d78826794943dca1b934c3d2c4e1",
+      "preimage_hex": "507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "392671f2367992d9fc00c6c06e5ca872345032c01f376ab4105d0978f762c754",
+      "password_sha256": "09752bce62a44cd091dfb57bb12c6ae83f77dec699a1c3b2630611fec58e9fd3",
+      "preimage_hex": "507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c087",
+      "password_expansion": "raw",
+      "password_hex": "50757474686570726f626c656d697363686f696365",
+      "password_sha256": "cf0eaf4de41b84ead8c89209a752a2a576d85fc65c02eb185060049f33eb8aed",
+      "preimage_hex": "50757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Puttheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63663065616634646534316238346561643863383932303961373532613261353736643835666336356330326562313835303630303439663333656238616564",
+      "password_sha256": "397907c4d500cedd559f28281fd3a6baf4894ff2fce899e1bf06d48be44aaa2e",
+      "preimage_hex": "50757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Puttheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cf0eaf4de41b84ead8c89209a752a2a576d85fc65c02eb185060049f33eb8aed",
+      "password_sha256": "a441052ba40100d3ed1270e2015f2724d0f58d50bd2b08906cac33e60b19b743",
+      "preimage_hex": "50757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Puttheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c090",
+      "password_expansion": "raw",
+      "password_hex": "5448452050524f424c454d2049532043484f494345",
+      "password_sha256": "aa0476fbec9a60e29a63b02fccea9308810c5934615aeca7e8d538ab3669c590",
+      "preimage_hex": "5448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61613034373666626563396136306532396136336230326663636561393330383831306335393334363135616563613765386435333861623336363963353930",
+      "password_sha256": "98644f68b543ce01ae5daead8b71a7aca7690331cd26dba3cf5a5718b4267455",
+      "preimage_hex": "5448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "aa0476fbec9a60e29a63b02fccea9308810c5934615aeca7e8d538ab3669c590",
+      "password_sha256": "612015c7293d3ce047d3c5be36f6b214c8fcd5ac78d4fa071872805e715aecb5",
+      "preimage_hex": "5448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/spaces/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c093",
+      "password_expansion": "raw",
+      "password_hex": "54484550524f424c454d495343484f494345",
+      "password_sha256": "bf575ec9b6bc9cb6e7a4f201a06e7da76bb02957b52880557ed064c83d082401",
+      "preimage_hex": "54484550524f424c454d495343484f494345",
+      "preimage_utf8": "THEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62663537356563396236626339636236653761346632303161303665376461373662623032393537623532383830353537656430363463383364303832343031",
+      "password_sha256": "6f859edf3fe62303aec60ec9cbb2ab8aa2dd82c36e0d2ab891fca0a8f691ceed",
+      "preimage_hex": "54484550524f424c454d495343484f494345",
+      "preimage_utf8": "THEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bf575ec9b6bc9cb6e7a4f201a06e7da76bb02957b52880557ed064c83d082401",
+      "password_sha256": "d3f99c9d54bddd07ecbb36ce04d5966563b07ad2a03c38cbcb70686bfe93ffd5",
+      "preimage_hex": "54484550524f424c454d495343484f494345",
+      "preimage_utf8": "THEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/compact/upper",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c096",
+      "password_expansion": "raw",
+      "password_hex": "5468652050726f626c656d2049732043686f696365",
+      "password_sha256": "de3729925a9499045e3cf7f5640a9873e85975c1ff5ac8dd82e73c75747c9b4b",
+      "preimage_hex": "5468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64653337323939323561393439393034356533636637663536343061393837336538353937356331666635616338646438326537336337353734376339623462",
+      "password_sha256": "890bf3995f0eef9ba9063d4ba3743a10db42e75a47b4f806a42484c2cafb7bb7",
+      "preimage_hex": "5468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "de3729925a9499045e3cf7f5640a9873e85975c1ff5ac8dd82e73c75747c9b4b",
+      "password_sha256": "63b3f37d508a200652806957ef4e2447d397565d6595705ae5dd57fcf0f689c2",
+      "preimage_hex": "5468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/spaces/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c099",
+      "password_expansion": "raw",
+      "password_hex": "54686570726f626c656d697363686f696365",
+      "password_sha256": "323d9e088ce0e64180d1e68573b22dceebdf713cc79194dcb33cb01a9c10c5ea",
+      "preimage_hex": "54686570726f626c656d697363686f696365",
+      "preimage_utf8": "Theproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33323364396530383863653065363431383064316536383537336232326463656562646637313363633739313934646362333363623031613963313063356561",
+      "password_sha256": "7946e0c9ffd51d8ec87cdf76ac8602075a4578768766a9f89ed7194f67dd70c6",
+      "preimage_hex": "54686570726f626c656d697363686f696365",
+      "preimage_utf8": "Theproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "323d9e088ce0e64180d1e68573b22dceebdf713cc79194dcb33cb01a9c10c5ea",
+      "password_sha256": "a031375d330fd6a9179756d197189d1714bc34674a1c055d2889ac14bbb03418",
+      "preimage_hex": "54686570726f626c656d697363686f696365",
+      "preimage_utf8": "Theproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/compact/title",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c102",
+      "password_expansion": "raw",
+      "password_hex": "594f552041444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "password_sha256": "2b847c9a0b657f860d86b3df0dd7e51b849fb73425536a2038b45ca47b929109",
+      "preimage_hex": "594f552041444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "YOU ADEQUATELY PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c103",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32623834376339613062363537663836306438366233646630646437653531623834396662373334323535333661323033386234356361343762393239313039",
+      "password_sha256": "f167bcc2ae62edf2c010c44b7fb7df77b17345445b0367b5ba740170598a881d",
+      "preimage_hex": "594f552041444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "YOU ADEQUATELY PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c104",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2b847c9a0b657f860d86b3df0dd7e51b849fb73425536a2038b45ca47b929109",
+      "password_sha256": "4b782763fd536f54ac7c9598f285d1eaae0340c7d9031f49c772835983553cb8",
+      "preimage_hex": "594f552041444551554154454c5920505554205448452050524f424c454d2049532043484f494345",
+      "preimage_utf8": "YOU ADEQUATELY PUT THE PROBLEM IS CHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c105",
+      "password_expansion": "raw",
+      "password_hex": "594f5541444551554154454c5950555454484550524f424c454d495343484f494345",
+      "password_sha256": "2a10e521acd0952a1e4709889e88f97b61c6661f71ef82c93f49e8988f3a0f94",
+      "preimage_hex": "594f5541444551554154454c5950555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "YOUADEQUATELYPUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c106",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32613130653532316163643039353261316534373039383839653838663937623631633636363166373165663832633933663439653839383866336130663934",
+      "password_sha256": "5ad4977415ae88c6f1dad5d918c89cd77bf10e6b0064ef54c24ce6cd60a643ba",
+      "preimage_hex": "594f5541444551554154454c5950555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "YOUADEQUATELYPUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c107",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2a10e521acd0952a1e4709889e88f97b61c6661f71ef82c93f49e8988f3a0f94",
+      "password_sha256": "9a51cbeaaaead0f94a43f87734dc455b9fcab0fd7d0f035d1d2f8f9cd14375c9",
+      "preimage_hex": "594f5541444551554154454c5950555454484550524f424c454d495343484f494345",
+      "preimage_utf8": "YOUADEQUATELYPUTTHEPROBLEMISCHOICE",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v34c108",
+      "password_expansion": "raw",
+      "password_hex": "596f752041646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "password_sha256": "3a63d657c5d3390c6bef6747083da6fd24c129194685c94dcab99039c6606342",
+      "preimage_hex": "596f752041646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "You Adequately Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c109",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33613633643635376335643333393063366265663637343730383364613666643234633132393139343638356339346463616239393033396336363036333432",
+      "password_sha256": "0366250dedf3ec360081dbc5b8cafb1816e865406ef77f2109ae5a4ac5155952",
+      "preimage_hex": "596f752041646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "You Adequately Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c110",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3a63d657c5d3390c6bef6747083da6fd24c129194685c94dcab99039c6606342",
+      "password_sha256": "3454cfa6f299e667ad2513e14d60c82ee6e6ce09cd33a4620beb37e0ad7fcc0f",
+      "preimage_hex": "596f752041646571756174656c7920507574205468652050726f626c656d2049732043686f696365",
+      "preimage_utf8": "You Adequately Put The Problem Is Choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c111",
+      "password_expansion": "raw",
+      "password_hex": "596f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "password_sha256": "9904d47cbd45b71c5e21beb6ce4d8218206908af54ba9d1a876fc7a7b6b2dcd9",
+      "preimage_hex": "596f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Youadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c112",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39393034643437636264343562373163356532316265623663653464383231383230363930386166353462613964316138373666633761376236623264636439",
+      "password_sha256": "a816262210ecc0bb3f798595e2af9d697f0197fa251207d8554298b308296b3b",
+      "preimage_hex": "596f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Youadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c113",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9904d47cbd45b71c5e21beb6ce4d8218206908af54ba9d1a876fc7a7b6b2dcd9",
+      "password_sha256": "39ce61a5a1648591f8c06d0fb36d9860d0797396c19bb80b9ef2678424f933c7",
+      "preimage_hex": "596f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "Youadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v34c114",
+      "password_expansion": "raw",
+      "password_hex": "61646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "password_sha256": "2a7471283541c52a6f75f533599dc1c3db90e782b3b0a65518d5089437b52ad0",
+      "preimage_hex": "61646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "adequately put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c115",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32613734373132383335343163353261366637356635333335393964633163336462393065373832623362306136353531386435303839343337623532616430",
+      "password_sha256": "02a03ac73b86b019a15de136379295f9ec095d5def11cd089463ba60f0bd0c99",
+      "preimage_hex": "61646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "adequately put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c116",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2a7471283541c52a6f75f533599dc1c3db90e782b3b0a65518d5089437b52ad0",
+      "password_sha256": "41cf04e35532d044d6f880614a8680d235c624a89e838b5a83817f3325bcaef2",
+      "preimage_hex": "61646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "adequately put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c117",
+      "password_expansion": "raw",
+      "password_hex": "61646571756174656c7970757474686570726f626c656d697363686f696365",
+      "password_sha256": "71526bcc67ff6249eb0336092d202d5ec54bf4c8a235df1d958117031dbc271f",
+      "preimage_hex": "61646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "adequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c118",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37313532366263633637666636323439656230333336303932643230326435656335346266346338613233356466316439353831313730333164626332373166",
+      "password_sha256": "410797f99d2158cf90118135daef47577efc44762617d6bed03ef8d243d6f311",
+      "preimage_hex": "61646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "adequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c119",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "71526bcc67ff6249eb0336092d202d5ec54bf4c8a235df1d958117031dbc271f",
+      "password_sha256": "b3f488ed11c9c61e8fae43a6d510f37d5e39a40aff45a267c09406a292c1b1f9",
+      "preimage_hex": "61646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "adequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c120",
+      "password_expansion": "raw",
+      "password_hex": "617320796f752061646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "password_sha256": "6604df5912dda782463985e02264bfd4cb262944d71464357fff8ae16cca11c1",
+      "preimage_hex": "617320796f752061646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "as you adequately put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c121",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36363034646635393132646461373832343633393835653032323634626664346362323632393434643731343634333537666666386165313663636131316331",
+      "password_sha256": "d8d538cc31ae20c370c93fc5b2c0f9c3e639bd365f796614205b1073083592cc",
+      "preimage_hex": "617320796f752061646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "as you adequately put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c122",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6604df5912dda782463985e02264bfd4cb262944d71464357fff8ae16cca11c1",
+      "password_sha256": "ae5e127ac9be8c5eb1e3d2bfbe9384403657301a5703c56332638d8072762c27",
+      "preimage_hex": "617320796f752061646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "as you adequately put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c123",
+      "password_expansion": "raw",
+      "password_hex": "617320796f752061646571756174656c79207075742c207468652070726f626c656d2069732063686f6963652e",
+      "password_sha256": "f3028d3745bd4ca99b8b6b1a2d2f452809ab4477f385d8b55004a40995ae445b",
+      "preimage_hex": "617320796f752061646571756174656c79207075742c207468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "as you adequately put, the problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/punctuated/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c124",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66333032386433373435626434636139396238623662316132643266343532383039616234343737663338356438623535303034613430393935616534343562",
+      "password_sha256": "f5306dc3eeccb7140ca995c3b4fd30f77b2aaad8b9453a783988f35187701b93",
+      "preimage_hex": "617320796f752061646571756174656c79207075742c207468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "as you adequately put, the problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/punctuated/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c125",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f3028d3745bd4ca99b8b6b1a2d2f452809ab4477f385d8b55004a40995ae445b",
+      "password_sha256": "8b149ba4071ce6119c42f5244b84c55aa6e3019d4b4ca225ab57c0dc5d687e09",
+      "preimage_hex": "617320796f752061646571756174656c79207075742c207468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "as you adequately put, the problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/punctuated/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c126",
+      "password_expansion": "raw",
+      "password_hex": "6173796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "password_sha256": "ce81b71b7cfe4df1972dd6e0bab688648eb0b45dc9bba18b0f26c0cb93dc834f",
+      "preimage_hex": "6173796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "asyouadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c127",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63653831623731623763666534646631393732646436653062616236383836343865623062343564633962626131386230663236633063623933646338333466",
+      "password_sha256": "669d42048d924689790b1ce1231be8fb04a84765ee35c137df8ea0b04af4b689",
+      "preimage_hex": "6173796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "asyouadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c128",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ce81b71b7cfe4df1972dd6e0bab688648eb0b45dc9bba18b0f26c0cb93dc834f",
+      "password_sha256": "6053d103e923025b08aaa71cc4f3171457fa3c02f6dd0913e15faa2a0c61b38b",
+      "preimage_hex": "6173796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "asyouadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-0/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c129",
+      "password_expansion": "raw",
+      "password_hex": "63686f696365",
+      "password_sha256": "cf83f0f9828551b6247bfc9288d0740dd5b3ccb8501f8caed37c19b912ae4438",
+      "preimage_hex": "63686f696365",
+      "preimage_utf8": "choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-7/compact/lower",
+        "last-words-before-architect-choice/architect-reference/suffix-7/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c130",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63663833663066393832383535316236323437626663393238386430373430646435623363636238353031663863616564333763313962393132616534343338",
+      "password_sha256": "42537e39b50504033ec3ad246800e260c3937420db6d3786ecfc6885a8df1ef2",
+      "preimage_hex": "63686f696365",
+      "preimage_utf8": "choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-7/compact/lower",
+        "last-words-before-architect-choice/architect-reference/suffix-7/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c131",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cf83f0f9828551b6247bfc9288d0740dd5b3ccb8501f8caed37c19b912ae4438",
+      "password_sha256": "e267999fe86ca85cfd91a3b37908ca793c6e1db9dbca9fdb2208581647519ce1",
+      "preimage_hex": "63686f696365",
+      "preimage_utf8": "choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-7/compact/lower",
+        "last-words-before-architect-choice/architect-reference/suffix-7/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-4/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c132",
+      "password_expansion": "raw",
+      "password_hex": "63686f696365207468652070726f626c656d2069732063686f696365",
+      "password_sha256": "3da72f79beed11160e307d1cce4fd93a2fe69f8da531790e2e400c45ef661cf7",
+      "preimage_hex": "63686f696365207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "choice the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c133",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33646137326637396265656431313136306533303764316363653466643933613266653639663864613533313739306532653430306334356566363631636637",
+      "password_sha256": "b2144c1748528b156c4e01b64aa167a3e893405b4a1095b9f0338f0cfdf1f41c",
+      "preimage_hex": "63686f696365207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "choice the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c134",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3da72f79beed11160e307d1cce4fd93a2fe69f8da531790e2e400c45ef661cf7",
+      "password_sha256": "dac287ab9cce56e18c7981c801d09c09018a3318fc766e631c3177420b4207b4",
+      "preimage_hex": "63686f696365207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "choice the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c135",
+      "password_expansion": "raw",
+      "password_hex": "63686f6963652e207468652070726f626c656d2069732063686f6963652e",
+      "password_sha256": "6fd9bf4ba06e7c3dadf179c88ea48188acb171a59e073db5e071dde17b219243",
+      "preimage_hex": "63686f6963652e207468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "choice. the problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/punctuated/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c136",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36666439626634626130366537633364616466313739633838656134383138386163623137316135396530373364623565303731646465313762323139323433",
+      "password_sha256": "fb369f333b255fb0df6cb60ee69a5993d4e947ffc1f0b1dd007278cb1da1913e",
+      "preimage_hex": "63686f6963652e207468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "choice. the problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/punctuated/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c137",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6fd9bf4ba06e7c3dadf179c88ea48188acb171a59e073db5e071dde17b219243",
+      "password_sha256": "544e23c0bed06c62f3b0c00c05c8cbb0a922398ab65cc57660715fcac24e7bd5",
+      "preimage_hex": "63686f6963652e207468652070726f626c656d2069732063686f6963652e",
+      "preimage_utf8": "choice. the problem is choice.",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/punctuated/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c138",
+      "password_expansion": "raw",
+      "password_hex": "63686f69636574686570726f626c656d697363686f696365",
+      "password_sha256": "0f1a1c5e151b78d680b0c7bb0624adc1672a322c7004d5b1725399bbf4e94764",
+      "preimage_hex": "63686f69636574686570726f626c656d697363686f696365",
+      "preimage_utf8": "choicetheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c139",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30663161316335653135316237386436383062306337626230363234616463313637326133323263373030346435623137323533393962626634653934373634",
+      "password_sha256": "87ec704c5839d70af56755c80f0e2178377214837413e05538915c3a17da1c6e",
+      "preimage_hex": "63686f69636574686570726f626c656d697363686f696365",
+      "preimage_utf8": "choicetheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c140",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0f1a1c5e151b78d680b0c7bb0624adc1672a322c7004d5b1725399bbf4e94764",
+      "password_sha256": "efe8999e4cd5c16e995d6a4cfcefc1892aa79a2ac6f58e7a358b004b427ffa2a",
+      "preimage_hex": "63686f69636574686570726f626c656d697363686f696365",
+      "preimage_utf8": "choicetheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/neo-last-words/suffix-0/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c141",
+      "password_expansion": "raw",
+      "password_hex": "69732063686f696365",
+      "password_sha256": "5b91081a3926a66088c212dec23b0944e1766a7bb963bfaf9dc3300ec7590e66",
+      "preimage_hex": "69732063686f696365",
+      "preimage_utf8": "is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c142",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35623931303831613339323661363630383863323132646563323362303934346531373636613762623936336266616639646333333030656337353930653636",
+      "password_sha256": "e262a664aca3af088e9c574f347b6360bd0ad7b0828167afc062786bd9d54633",
+      "preimage_hex": "69732063686f696365",
+      "preimage_utf8": "is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c143",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5b91081a3926a66088c212dec23b0944e1766a7bb963bfaf9dc3300ec7590e66",
+      "password_sha256": "318feca4db6390715237966785a794e8e0607dbb7b87d8d64a4143b6abcd5e6d",
+      "preimage_hex": "69732063686f696365",
+      "preimage_utf8": "is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c144",
+      "password_expansion": "raw",
+      "password_hex": "697363686f696365",
+      "password_sha256": "c29274450b5af22bb7ea1499e8ef27d834d0a29a100f02a0722cee560df44a68",
+      "preimage_hex": "697363686f696365",
+      "preimage_utf8": "ischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c145",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63323932373434353062356166323262623765613134393965386566323764383334643061323961313030663032613037323263656535363064663434613638",
+      "password_sha256": "ac709ac9c1d0a6d8024c6b75cf07d41713b7f9030521cc205856e3d0d9741b94",
+      "preimage_hex": "697363686f696365",
+      "preimage_utf8": "ischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c146",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c29274450b5af22bb7ea1499e8ef27d834d0a29a100f02a0722cee560df44a68",
+      "password_sha256": "081d970a7f374b4d973a815e1f8df8a450d5a583e47d6a16d356ba55b58ae4e6",
+      "preimage_hex": "697363686f696365",
+      "preimage_utf8": "ischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-6/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-3/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c147",
+      "password_expansion": "raw",
+      "password_hex": "70726f626c656d2069732063686f696365",
+      "password_sha256": "f7f28ab9c305ba09e3bdd46ea9417c3a72cf230acc8b46753bcbb78741dca20f",
+      "preimage_hex": "70726f626c656d2069732063686f696365",
+      "preimage_utf8": "problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c148",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66376632386162396333303562613039653362646434366561393431376333613732636632333061636338623436373533626362623738373431646361323066",
+      "password_sha256": "8f54bd7bcee517cc396155a76611a5cea31a251541f61554bf36165fb5786c93",
+      "preimage_hex": "70726f626c656d2069732063686f696365",
+      "preimage_utf8": "problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c149",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f7f28ab9c305ba09e3bdd46ea9417c3a72cf230acc8b46753bcbb78741dca20f",
+      "password_sha256": "380cc8ca5e5d9bcd0de7efaf0052a4be55925725c74e2b0805380b0df885c30c",
+      "preimage_hex": "70726f626c656d2069732063686f696365",
+      "preimage_utf8": "problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c150",
+      "password_expansion": "raw",
+      "password_hex": "70726f626c656d697363686f696365",
+      "password_sha256": "dec5ce9b43f795c41598b2c22d448c2fe9151c76394f635674562a597371cb50",
+      "preimage_hex": "70726f626c656d697363686f696365",
+      "preimage_utf8": "problemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c151",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64656335636539623433663739356334313539386232633232643434386332666539313531633736333934663633353637343536326135393733373163623530",
+      "password_sha256": "bdea6796f626bab49d2f509e14450174441dbffc1f0233e30f5a5efb460041f6",
+      "preimage_hex": "70726f626c656d697363686f696365",
+      "preimage_utf8": "problemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c152",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "dec5ce9b43f795c41598b2c22d448c2fe9151c76394f635674562a597371cb50",
+      "password_sha256": "03098037a00685608eaa0e10d92a049d6e688eeb5fbd38820d103299e9e90545",
+      "preimage_hex": "70726f626c656d697363686f696365",
+      "preimage_utf8": "problemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-5/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-2/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c153",
+      "password_expansion": "raw",
+      "password_hex": "707574207468652070726f626c656d2069732063686f696365",
+      "password_sha256": "d923378f16d5f8198eafa6330f69336fc4012204079cacad41dea02c27ce9d0f",
+      "preimage_hex": "707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c154",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64393233333738663136643566383139386561666136333330663639333336666334303132323034303739636163616434316465613032633237636539643066",
+      "password_sha256": "04f1c8e99bb59624b19a323324a9f18ddb91866749f6be1c822a7db2f76670b0",
+      "preimage_hex": "707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c155",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d923378f16d5f8198eafa6330f69336fc4012204079cacad41dea02c27ce9d0f",
+      "password_sha256": "ed9611626a0b009ee74fa11675c89d250707a5af96fe32e31ffdd6aa6f1d59a5",
+      "preimage_hex": "707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c156",
+      "password_expansion": "raw",
+      "password_hex": "70757474686570726f626c656d697363686f696365",
+      "password_sha256": "e88d8fbdec2dced62f4b03b3bc5d393911c36147dec567d2bd546b22e63aea7b",
+      "preimage_hex": "70757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "puttheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c157",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65383864386662646563326463656436326634623033623362633564333933393131633336313437646563353637643262643534366232326536336165613762",
+      "password_sha256": "fd2df1cbc9e0c40c6ed11b38ffe16945b811d808b13f3eaeea3ca834076dc17c",
+      "preimage_hex": "70757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "puttheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c158",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e88d8fbdec2dced62f4b03b3bc5d393911c36147dec567d2bd546b22e63aea7b",
+      "password_sha256": "2387c5abc385ab1add914c51947b72d7c90fe5a2bf704d5f0d85924421e8eb2d",
+      "preimage_hex": "70757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "puttheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-3/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c159",
+      "password_expansion": "raw",
+      "password_hex": "7468652070726f626c656d2069732063686f696365",
+      "password_sha256": "b1e368c478ef8c04c7978f2d55c3d8819554955b688777a295c4f6fdb8b44e10",
+      "preimage_hex": "7468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c160",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62316533363863343738656638633034633739373866326435356333643838313935353439353562363838373737613239356334663666646238623434653130",
+      "password_sha256": "c69f17bfe6e7c8b5e1ba61ca3caf31a7173c43f2eef67b982e3bc4a6c584e494",
+      "preimage_hex": "7468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c161",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b1e368c478ef8c04c7978f2d55c3d8819554955b688777a295c4f6fdb8b44e10",
+      "password_sha256": "1c3d320a7803b3b45504c8b0947ccd1fdac014ea1b19b0074758331e7f37f5b3",
+      "preimage_hex": "7468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/spaces/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c162",
+      "password_expansion": "raw",
+      "password_hex": "74686570726f626c656d697363686f696365",
+      "password_sha256": "8ad23459b16c8de2d783d7f01a8d9ddc70d2e72723bec6309965a6df5dfc9fd6",
+      "preimage_hex": "74686570726f626c656d697363686f696365",
+      "preimage_utf8": "theproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c163",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38616432333435396231366338646532643738336437663031613864396464633730643265373237323362656336333039393635613664663564666339666436",
+      "password_sha256": "bbbc409fbdf83a46dbd87d9c8e5226fa90a4ac02a11274776d8eae271cfa8ed3",
+      "preimage_hex": "74686570726f626c656d697363686f696365",
+      "preimage_utf8": "theproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c164",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8ad23459b16c8de2d783d7f01a8d9ddc70d2e72723bec6309965a6df5dfc9fd6",
+      "password_sha256": "e4dde4fff15281377223b01ad2c8e1d6425c1dc33ce5acf3220a7c32e3a0b936",
+      "preimage_hex": "74686570726f626c656d697363686f696365",
+      "preimage_utf8": "theproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-4/compact/lower",
+        "last-words-before-architect-choice/neo-last-words/suffix-1/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c165",
+      "password_expansion": "raw",
+      "password_hex": "796f752061646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "password_sha256": "6cff72b0c941a34252a088c48958f0bf1460b1513cdeb33edbf367c461640d74",
+      "preimage_hex": "796f752061646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "you adequately put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c166",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36636666373262306339343161333432353261303838633438393538663062663134363062313531336364656233336564626633363763343631363430643734",
+      "password_sha256": "ec4a388808ae8c4aff9ebc63489f42d32e205016b3ee70d2daf31f4fbc87a10d",
+      "preimage_hex": "796f752061646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "you adequately put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c167",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6cff72b0c941a34252a088c48958f0bf1460b1513cdeb33edbf367c461640d74",
+      "password_sha256": "bbdc632d525143b1a8d4f8055c667e0e9bb43e1d605150490b870de78574978a",
+      "preimage_hex": "796f752061646571756174656c7920707574207468652070726f626c656d2069732063686f696365",
+      "preimage_utf8": "you adequately put the problem is choice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c168",
+      "password_expansion": "raw",
+      "password_hex": "796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "password_sha256": "d456623b856a2a3c6f34e9533070cd5ca1f54939f58f8de3f38e6f3eff9ade4a",
+      "preimage_hex": "796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "youadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c169",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64343536363233623835366132613363366633346539353333303730636435636131663534393339663538663864653366333865366633656666396164653461",
+      "password_sha256": "a10a74fb277c202d6a97b17f4ef96720ab15fd4860903b66acd00c6937ef0d70",
+      "preimage_hex": "796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "youadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v34c170",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d456623b856a2a3c6f34e9533070cd5ca1f54939f58f8de3f38e6f3eff9ade4a",
+      "password_sha256": "41bd5377a94390c8468f544a17727c414bcfc6657fe8d33ca87843a38980f4a9",
+      "preimage_hex": "796f7561646571756174656c7970757474686570726f626c656d697363686f696365",
+      "preimage_utf8": "youadequatelyputtheproblemischoice",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-1/compact/lower"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "aes": "existing v1 readable/exact-format rule",
+    "forbidden_evidence": [
+      "expected padding length",
+      "Half/Better Half",
+      "target point",
+      "community plaintext hashes"
+    ],
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v33_manifest_sha256": "17f1cf2c7b5550482627ae12354f11dde6f309fffa93812f7a1da4b8069f7c80",
+  "schema": "salphaseion-source-only-preregistration-v34-neo-last-words",
+  "source": {
+    "candidate_rule": "every whole-word suffix including the final word choice, compact/spaced and lower/upper/title case, plus exact punctuation",
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "exact_lines": {
+      "architect-reference": "As you adequately put, the problem is choice.",
+      "neo-last-words": "Choice. The problem is choice."
+    },
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+    "transcript_url": "https://www.matrixfans.net/movies/the-matrix-reloaded/transcript/"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

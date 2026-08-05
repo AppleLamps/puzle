@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "engine": "coincurve/libsecp256k1 Gray-code point-space MITM",
+  "engine_version": 1,
+  "family": "signed_synthetic_positive_control",
+  "input_sha256": "758b55104f2b485f983263d6ae3f2c2bb00205b3044f068e669365072e05564c",
+  "status": "COMPLETE",
+  "scalar_count": 12,
+  "scalar_labels": [
+    "2*power2_0",
+    "2*power2_1",
+    "2*power2_2",
+    "2*power2_3",
+    "2*power2_4",
+    "2*power2_5",
+    "2*power2_6",
+    "2*power2_7",
+    "2*power2_8",
+    "2*power2_9",
+    "2*power2_10",
+    "2*power2_11"
+  ],
+  "left_subset_count": 64,
+  "right_subset_count": 64,
+  "target_count": 1,
+  "logical_candidate_space": "4096",
+  "left_point_collisions": 0,
+  "next_right_subset": 64,
+  "matches": [
+    {
+      "target_shift": "known_sign_pattern",
+      "selected_indices": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "selected_labels": [
+        "2*power2_0",
+        "2*power2_3",
+        "2*power2_7",
+        "2*power2_11"
+      ],
+      "subset_size": 4,
+      "subset_scalar_hex": "0000000000000000000000000000000000000000000000000000000000001112",
+      "full_scalar_adjustment_hex": "fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0363155",
+      "full_private_hex": "0000000000000000000000000000000000000000000000000000000000000126",
+      "shifted_point_verified": true,
+      "full_point_verified": true,
+      "address": "1ATxHBcpvpiBkMh4zjG24N4cdX6kjDQaCz",
+      "address_verified": null,
+      "accepted": true
+    }
+  ],
+  "elapsed_seconds": 0.0050579000017023645,
+  "accepted_matches": 1
+}

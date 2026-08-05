@@ -1,0 +1,110 @@
+{
+  "candidate_count": 16,
+  "matches": [],
+  "records": [
+    {
+      "address_match": false,
+      "candidate_sha256": "a94c9fc332e0bcd29a22075a73c375c7489c76e02bbf2fe88eaa54edfe1018de",
+      "derivation": "half+better",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "3fcaeabf330f08f62028343066692965dc301ae5d65a92c4ac150561388db78f",
+      "derivation": "half-better",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "2b568307eb1d65033aabebc14d219ff9279a922b57d76cb81d24e0e73443ff1c",
+      "derivation": "better-half",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "e8839d6afc6ce467996c6c7424eb4aa56fd4500b0e2c698d04af372f35258bae",
+      "derivation": "half*better",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "b2b8f92b5a7740771eb3c38186bbd94a2f7e731b972b60fb205b9c0940b69919",
+      "derivation": "half/better",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "3fe1051c4813be03b75ac083fcfc4ef152959e20698acade454307e4d96284a9",
+      "derivation": "better/half",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "b2c8d1194d906fb0fa46a072b378122aa6d7855cffd520be0d9024996913a7b1",
+      "derivation": "half XOR better",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "ea6a2d8df15fe09a2d008ba7969dc10a8212a274a541ddd8c8599b95732d0388",
+      "derivation": "SHA256(half||better)",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "33f1ec3eeec17c226939f91e9c4ac8f5675f8e1ce901439147666a7cbe1fc940",
+      "derivation": "SHA256(better||half)",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "9db0c637dac8354bba2410362f478d1122cb27919420b2681df939eaa066c71f",
+      "derivation": "SHA256(SHA256(half||better))",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "11c377e71d1628248d32e606ec172ec8147c04299196b076abb5be8f16b99295",
+      "derivation": "SHA256(SHA256(better||half))",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "2509c9500cdaf47150d5dfdf8b33bec45543872c75193ec29c09c7a83deb155c",
+      "derivation": "HMAC-SHA256(key=half,msg=better)",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "14dd181e0c41b66f6004b609e47ff5ce7cc6e4a42c952e33a44cd628996f2056",
+      "derivation": "HMAC-SHA256(key=better,msg=half)",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "08265f1799b2181a5aea48b67a919015fb08c6d085b6037deb08b30fd3515466",
+      "derivation": "ECDH-x",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "e9ea4b714eb2465c3d64bda4531ca8246f37e6121bd939c545dd2ba1a937bb85",
+      "derivation": "SHA256(ECDH-compressed)",
+      "point_match": false
+    },
+    {
+      "address_match": false,
+      "candidate_sha256": "f2d01849195d5725864827b1771f142cdf01d17113571164210d736a6726e8ae",
+      "derivation": "SHA256(ECDH-uncompressed)",
+      "point_match": false
+    }
+  ],
+  "schema": "half-better-direct-combination-audit-v1",
+  "scope": "Only the listed direct two-share arithmetic, hash, HMAC, and ECDH-derived constructions are covered.",
+  "source": {
+    "better_half_sha256": "37ec1d8724e97d398f4d7cdc8c0659259cc771416262068f5983f7ac895a1f66",
+    "cosmic_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+    "half_sha256": "b9736fe0d64713c4e72cc383edd93818b03b56fd6171a90b8d212d7865c6afaf"
+  },
+  "status": "NO_MATCH"
+}

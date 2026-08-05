@@ -1,0 +1,646 @@
+{
+  "status": "NO_STRUCTURAL_ASSIGNMENT",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "authenticated_context": {
+    "block_count": 35,
+    "combination_identity": "35 = C(7,3) = C(7,4)",
+    "architect_phrase_verified": "SEVENINTERTWINEDPASSWORDS",
+    "password_evidence_boundary": "The Architect phrase and seven-record count are authenticated; only four SalPhaseIon token values are mechanically decoded, while the final three remain semantic/fitted readings."
+  },
+  "explicit_triple_hash_family": {
+    "triple_count": 35,
+    "model_count": 48,
+    "generated_hash_records": 1680,
+    "unique_generated_hashes": 1080,
+    "exact_hash_edges": [],
+    "maximum_fixed_model_block_coverage": 0,
+    "complete_fixed_model_matches": [],
+    "maximum_flexible_bipartite_assignment": 0,
+    "complete_assignment": false,
+    "models": [
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "raw_tokens",
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "separator": "empty",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "separator": "nul",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "separator": "colon",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      },
+      {
+        "encoding": "sha256_digest_bytes",
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "separator": "newline",
+        "block_multiset_coverage": 0,
+        "complete_multiset_match": false
+      }
+    ]
+  },
+  "legacy_multiset_reproduction": {
+    "unique_candidate_sets": 11,
+    "unique_comparisons": 66,
+    "redundant_legacy_comparisons": 18,
+    "redundancy_note": "For three textual seven-sets, raw SHA-256 bytes interpreted as an integer and their hexadecimal rendering parsed as an integer are identical; the older loop counted 18 duplicate comparisons.",
+    "hits": []
+  },
+  "linear_algebra": {
+    "block_gf2_rank": 35,
+    "block_plus_operand_gf2_rank": 36,
+    "seven_token_digest_rank": 6,
+    "blocks_in_token_digest_span": 0,
+    "eight_recovered_k_rank": 8,
+    "blocks_in_recovered_k_span": 0,
+    "assignment_independent_xor_conclusion": "Any XOR combinations of seven latent 256-bit vectors have span rank at most 7; rank 35 therefore falsifies triple/four XOR under every assignment.",
+    "xor_all_blocks_hex": "ae0d074f79a08fd2486400a20b9dc2220b7a9c5e800357155ab7b40ccd38b6b5",
+    "natural_incidence_coefficient_rank_mod_n": 7,
+    "natural_triple_sum_augmented_rank_mod_n": 8,
+    "natural_triple_sum_consistent": false,
+    "natural_incidence_coefficient_rank_gf2": 7,
+    "natural_triple_xor_inconsistent_bit_count": 256,
+    "natural_triple_xor_consistent": false
+  },
+  "latent_total_scalar_audit": {
+    "candidate_records": 12,
+    "records": [
+      {
+        "derivation": "C(7,3)_latent_total",
+        "private_hex": "5a18e177ec161828b07692f8a080463eef7e7ba1d8e22b0d27f2c00d098a7b73",
+        "target": false
+      },
+      {
+        "derivation": "SHA256(C(7,3)_latent_total)",
+        "private_hex": "5749fe4e1c4a2952b08d5bb06a162aa92c6ea984db1af284215bf5e5f6f0c19a",
+        "target": false
+      },
+      {
+        "derivation": "negative(C(7,3)_latent_total)",
+        "private_hex": "a5e71e8813e9e7d74f896d075f7fb9bfcb306144d666752e97df9e7fc6abc5ce",
+        "target": false
+      },
+      {
+        "derivation": "C(7,4)_latent_total",
+        "private_hex": "0392a919f110921e8458ee3a786034af84f3257fb6d7783aee017866931a4c46",
+        "target": false
+      },
+      {
+        "derivation": "SHA256(C(7,4)_latent_total)",
+        "private_hex": "c06bf023db17a21208ffb46864b670ca55ca698827ce0c2318cd8c56a58bea97",
+        "target": false
+      },
+      {
+        "derivation": "negative(C(7,4)_latent_total)",
+        "private_hex": "fc6d56e60eef6de17ba711c5879fcb4f35bbb766f8712800d1d0e6263d1bf4fb",
+        "target": false
+      },
+      {
+        "derivation": "C(9,2)_latent_total",
+        "private_hex": "08eea6c0daa96d4c4ade53922cf083b6cc5fddbf491aac935303ad006fc1beaf",
+        "target": false
+      },
+      {
+        "derivation": "SHA256(C(9,2)_latent_total)",
+        "private_hex": "7ca82bbd9e4f634f5c914869ac228c3b3d24a25b67b896350c9e89d49376d6d3",
+        "target": false
+      },
+      {
+        "derivation": "negative(C(9,2)_latent_total)",
+        "private_hex": "f711593f255692b3b521ac6dd30f7c47ee4eff27662df3a86cceb18c60748292",
+        "target": false
+      },
+      {
+        "derivation": "block_sum_mod_n",
+        "private_hex": "47753606d54b6a6256f29c9167841db662feedfa48d5649a981d68037e0df578",
+        "target": false
+      },
+      {
+        "derivation": "SHA256(block_sum_mod_n)",
+        "private_hex": "fac8ea935ac3ef9c142a702aa63018228178961cc3e6037aa679c0457803dc54",
+        "target": false
+      },
+      {
+        "derivation": "negative(block_sum_mod_n)",
+        "private_hex": "b88ac9f92ab4959da90d636e987be24857afeeec66733ba127b4f68952284bc9",
+        "target": false
+      }
+    ],
+    "target_matches": [],
+    "scope": "These totals are necessary consequences of additive subset models, not authenticated private-key derivations."
+  },
+  "induced_block_scalar_search": {
+    "performed": false,
+    "reason": "No block order/sign scalar search is justified without a complete structural assignment."
+  },
+  "scope_note": "The GF(2) rank result is unconditional for every seven-latent-vector XOR model. Sum inconsistency is claimed only for natural lexicographic incidence; hash coverage applies only to the 48 explicit serialization models."
+}

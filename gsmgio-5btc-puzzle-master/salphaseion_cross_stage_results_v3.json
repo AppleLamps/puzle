@@ -1,0 +1,93 @@
+{
+  "accepted": [],
+  "accepted_count": 0,
+  "rule_manifest_sha256": "7bb701eb1996b1e2c9f087fd2f27ecbcf0723c2213e4d2b0082633280bd91661",
+  "schema": "salphaseion-cross-stage-results-v3-lo-shu",
+  "stage_one_attempts": 13824,
+  "stage_one_padding_hits": 73,
+  "stage_two_attempts": 876,
+  "stage_two_padding_hits": 5,
+  "stage_two_padding_without_acceptance": [
+    {
+      "candidate_id": "v27c00327",
+      "formats": [],
+      "metrics": {
+        "length": 79,
+        "utf8": false
+      },
+      "readable": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "md5",
+      "stage_one_plaintext_sha256": "3d00260ced34d229aba665012c5d8a0e31ee697be51a727d4b044e2f85b572ac",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "sha256-lowerhex",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_sha256": "8e77baeae7e7eb755b5f48618bf9e81b1afa87bcbceafcfb64de380de033d04a"
+    },
+    {
+      "candidate_id": "v27c00348",
+      "formats": [],
+      "metrics": {
+        "length": 79,
+        "utf8": false
+      },
+      "readable": false,
+      "stage_one_blob": "cosmic-duality",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_sha256": "953fc5f0ce68d87dbf8e32f6d25a18a3c407605b563130036815137f5d2b409b",
+      "stage_two_blob": "phase32-small",
+      "stage_two_expansion": "sha256-raw-digest",
+      "stage_two_kdf": "md5",
+      "stage_two_plaintext_sha256": "b6bbb45bcfb45b74edeccae82df7e9c40e38914aa968462a601c7e71ea04f9bb"
+    },
+    {
+      "candidate_id": "v27c00742",
+      "formats": [],
+      "metrics": {
+        "length": 79,
+        "utf8": false
+      },
+      "readable": false,
+      "stage_one_blob": "salphaseion-short",
+      "stage_one_kdf": "md5",
+      "stage_one_plaintext_sha256": "327e6e42843e9246d02a7844fcd1248a544afc556a83776fb2a62b9962dadbd6",
+      "stage_two_blob": "phase32-small",
+      "stage_two_expansion": "raw",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_sha256": "95d0aa408721347f5cc387caa43e8818966cf8c7a27a8b74e51c50d97da7757d"
+    },
+    {
+      "candidate_id": "v27c00831",
+      "formats": [],
+      "metrics": {
+        "length": 79,
+        "utf8": false
+      },
+      "readable": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_sha256": "f1f8f8b6f1fb626545a8b983ec5654c0ff9ae3f09842083078419d99718459ba",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "sha256-raw-digest",
+      "stage_two_kdf": "md5",
+      "stage_two_plaintext_sha256": "0d4a1ec286a21b43400d14220afbd5d924c802422108456853a012aa3f5ab588"
+    },
+    {
+      "candidate_id": "v27c02280",
+      "formats": [],
+      "metrics": {
+        "length": 79,
+        "utf8": false
+      },
+      "readable": false,
+      "stage_one_blob": "cosmic-duality",
+      "stage_one_kdf": "md5",
+      "stage_one_plaintext_sha256": "687972f9ebfa16222b5a598aced65e34224b3ef6f02024bf56d20197c98069a7",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "raw",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_sha256": "a087f525d50a25b446bd433c0589fc197739b18e7e77ac8a9a72b3c7c189ca43"
+    }
+  ],
+  "status": "NO_ACCEPTED_CROSS_STAGE_RESULT"
+}

@@ -1,0 +1,120 @@
+{
+  "status": "NO_READABLE_UNIQUE_INVERSE",
+  "source": {
+    "s91_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "s570_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+    "symbol_mapping": "a=1 through i=9"
+  },
+  "model": "each field value is the inclusive sum of one valid 3x3 window in a binary matrix",
+  "layouts_preregistered": {
+    "S91": [
+      [
+        7,
+        13
+      ],
+      [
+        13,
+        7
+      ]
+    ],
+    "S570": [
+      [
+        15,
+        38
+      ],
+      [
+        38,
+        15
+      ],
+      [
+        19,
+        30
+      ],
+      [
+        30,
+        19
+      ]
+    ]
+  },
+  "records": [
+    {
+      "output_layout": [
+        7,
+        13
+      ],
+      "binary_layout": [
+        9,
+        15
+      ],
+      "binary_bit_count": 135,
+      "sat": false,
+      "field": "S91"
+    },
+    {
+      "output_layout": [
+        13,
+        7
+      ],
+      "binary_layout": [
+        15,
+        9
+      ],
+      "binary_bit_count": 135,
+      "sat": false,
+      "field": "S91"
+    },
+    {
+      "output_layout": [
+        15,
+        38
+      ],
+      "binary_layout": [
+        17,
+        40
+      ],
+      "binary_bit_count": 680,
+      "sat": false,
+      "field": "S570"
+    },
+    {
+      "output_layout": [
+        38,
+        15
+      ],
+      "binary_layout": [
+        40,
+        17
+      ],
+      "binary_bit_count": 680,
+      "sat": false,
+      "field": "S570"
+    },
+    {
+      "output_layout": [
+        19,
+        30
+      ],
+      "binary_layout": [
+        21,
+        32
+      ],
+      "binary_bit_count": 672,
+      "sat": false,
+      "field": "S570"
+    },
+    {
+      "output_layout": [
+        30,
+        19
+      ],
+      "binary_layout": [
+        32,
+        21
+      ],
+      "binary_bit_count": 672,
+      "sat": false,
+      "field": "S570"
+    }
+  ],
+  "accepted": []
+}

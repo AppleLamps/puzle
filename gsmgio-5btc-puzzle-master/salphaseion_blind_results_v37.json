@@ -1,0 +1,128 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 1188,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "db5cfe94bb8ccad51ad191b80e1d72b1657317b2aa7962241fda2a34bda0f134",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v37c034",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 2,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "a3e0501fe89cc144a4d72a87df597f56e6ffd481325f2de99cffe8b5d77731bc",
+      "plaintext_length": 78,
+      "plaintext_sha256": "211044d3bf850235deb7a07baeef434c46d87e137a74c92949579881f4879e00",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 78,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v37c042",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "85e060a8d75491cbf44d887456f85d7788dd2ed20fb33270a7c974e35962fa9e",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "383bb41ed0385863137aaa97aff8919516e05e3c4e4aaf9b3af65d3bbf3c7d53",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v37c090",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "51f9aa73455d4c0bcb237bdf97fb58bdd5299fb634e88b20b141bdcba113af6e",
+      "plaintext_length": 79,
+      "plaintext_sha256": "3e97c237d3a0c3b5f1a94b6c82ab0078847764b475dac76b741707957d0ae3ef",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/python-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v37c103",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "4e2e1ed7742cc5f044f8b8ba4e05d40f728eb944b2f1da505105ab87eb4575e3",
+      "plaintext_length": 79,
+      "plaintext_sha256": "a31837abbcf21e76c930cb539c1255d798fa4efcaeedb26110995326da8da336",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/python-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v37c165",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "a714cfbde67b0211574df555de05662541e65950e1bb65197127094d658d4711",
+      "plaintext_length": 79,
+      "plaintext_sha256": "3ae5c6c52851836d69611c072b69372c12d6229d780c1b3aa6040148c3255635",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v37c177",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "0d22119ae6c946373270fcdcf4c4cf3941b8efab5dd37663de59380ceb2f24eb",
+      "plaintext_length": 79,
+      "plaintext_sha256": "e3b284b6c3661a70579d5cc5765d86d202ee5beabcc357e59be7119d7a31df38",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 6
+}

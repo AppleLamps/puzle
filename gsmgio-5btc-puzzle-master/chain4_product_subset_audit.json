@@ -1,0 +1,1899 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+  "block_count": 35,
+  "operand_hex": "00002dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+  "inverse_operand_hex": "068fbef9377302ce54485158cac1f92c5a5ef7d875e8089eec656a238098516b",
+  "engine": {
+    "name": "partitioned coincurve/libsecp256k1 exact public-key gate",
+    "worker_count": 1,
+    "positive_control": {
+      "family": "Q3",
+      "fixture_block_count": 6,
+      "candidate_count": 100,
+      "expected_match": {
+        "block_indices": [
+          0,
+          1,
+          2
+        ],
+        "operation": "divide_operand",
+        "private_hex": "04c1107d86dbcd698024d354cebbb68f27c99ff8348e33cbc968f4c6f33f3c5d",
+        "point_match": true,
+        "address": "1LTDXt76iimXEVc6EZnsk9KeMCvPqsFk8Z",
+        "address_match": true
+      },
+      "matches": [
+        {
+          "block_indices": [
+            0,
+            1,
+            2
+          ],
+          "operation": "divide_operand",
+          "private_hex": "04c1107d86dbcd698024d354cebbb68f27c99ff8348e33cbc968f4c6f33f3c5d",
+          "point_match": true,
+          "address": "1LTDXt76iimXEVc6EZnsk9KeMCvPqsFk8Z",
+          "address_match": true
+        }
+      ],
+      "compressed_public_key": "0214729bb33f7c07f4ceaa9644fd1e723c2948885e579ecb4d165b8a7ebba3fbb0",
+      "uncompressed_address": "1LTDXt76iimXEVc6EZnsk9KeMCvPqsFk8Z",
+      "recovered": true
+    }
+  },
+  "families": {
+    "Q3": {
+      "subset_size": 3,
+      "operations": [
+        "product",
+        "multiply_operand",
+        "divide_operand",
+        "add_operand",
+        "subtract_operand"
+      ],
+      "partition_count": 33,
+      "combination_count": 6545,
+      "candidate_count": 32725,
+      "zero_scalar_count": 0,
+      "partition_stream_digest_sha256": "b75a397c0f0588580a513670ed6bbc804df4fe258c9a15ef797656aedca30128",
+      "matches": [],
+      "accepted_matches": 0,
+      "partitions": [
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 0,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 561,
+          "candidate_count": 2805,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "dd489e1fa11fabbc42148f94376e91d95048194fdab187249eb4b33f06730687",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 1,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 528,
+          "candidate_count": 2640,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "6f93b5ca3a3c065050b7f1007a77d6cb29085dbf712bbc6b0bb6b860d3b7e6cc",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 2,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 496,
+          "candidate_count": 2480,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a702391270ad0372698351fe53fe37bf06baa2b32d85806a74fdf451157a21c7",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 3,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 465,
+          "candidate_count": 2325,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "d0ddb52d7d25d8bf78ccc58f5e45110697ad897aa497f8710874ca3cd37844a2",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 4,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 435,
+          "candidate_count": 2175,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "8a3f644f8a3e434ef968645e355f6d17d05505719b5285f1caf5333e23aa1e7b",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 5,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 406,
+          "candidate_count": 2030,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "459beb9cea40990843f8f8c1bd541fcea7286f86fe785f88f0b0f58c05213508",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 6,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 378,
+          "candidate_count": 1890,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "9d034b1f318e5f4318d20d2d4ed5aebc0bf47dbb3c22e710b7baea139367b837",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 7,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 351,
+          "candidate_count": 1755,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "3481a260b2967a3e9229194d83c22b126b9364044225d577b3cb53fa7d6bd2db",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 8,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 325,
+          "candidate_count": 1625,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "6dfa1c40056c5ad111c55f391a3ef4defac7c2ea7ece5b9b741118bb81a92635",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 9,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 300,
+          "candidate_count": 1500,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "26f0688110a8285441c5b76d9b10cf6009966a31261bc0e238630f5392bb8f44",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 10,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 276,
+          "candidate_count": 1380,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "31a5aa30bb4850b257ac62ba696be5f2925093e5ad7d874d78437d69b12c17a2",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 11,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 253,
+          "candidate_count": 1265,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "297b73f4d02eb9c527e7cd4d532ded073c6a07b8014642ec5ef4883592821da6",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 12,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 231,
+          "candidate_count": 1155,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a9d74dafd4d3df911cfd40a0bbeab959b36463603fbb7de1623e6806e7fff794",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 13,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 210,
+          "candidate_count": 1050,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "82c8ddce245a1511cddd717b2d7cbcf5029ae99e36bba1387501d96b441a1fd6",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 14,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 190,
+          "candidate_count": 950,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "e59ec16082e26efc0e3c276d2c4abe7c4e73ab7969935a9d1c44a4ff7e9322c3",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 15,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 171,
+          "candidate_count": 855,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b30b9165d3da140b11f46f6039c8f8071c4dcb02b1cf9fdd215cd800d94bef8e",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 16,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 153,
+          "candidate_count": 765,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "1b2956f6f8951cd494b89066bb04540ae7d8daefda388e91902819a9f4ba6f80",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 17,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 136,
+          "candidate_count": 680,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "89f2190f41f812435c11da4a3467a374967001b26c014fb89ee866250f6c9d29",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 18,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 120,
+          "candidate_count": 600,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "0384d989898dc23c5c4ecca3f8dd4f082448adf1fed0b20258873acee364a888",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 19,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 105,
+          "candidate_count": 525,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "71865012794ab415b058f0bc413058d1b064c377a4b55d46c7cf2024eef6a87a",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 20,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 91,
+          "candidate_count": 455,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "615527c90ad699c3a1941f39677265c51b10aa92805cfa5357ba98b7e9bb5df6",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 21,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 78,
+          "candidate_count": 390,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "782a4bf1748c609bbb666eb7989f29e3b2d07bafaab8245bad8a0f502a26dcf1",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 22,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 66,
+          "candidate_count": 330,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "82191f008e669800da3646acfa98253edd977ac0fe1449bb053cd93495f2b16e",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 23,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 55,
+          "candidate_count": 275,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "cc124fdf8829f1d0c46ac6a3b6a02dfce5317a8560cc9adfe42ae9dae75ffdb0",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 24,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 45,
+          "candidate_count": 225,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a806097dd4c2d1c792506d319362d49bdc31cea937e2778def923f6a6193d4a8",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 25,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 36,
+          "candidate_count": 180,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "9aba8e70d4a4674fc3b6b798f1b36a3f91e51425192898d3fbd3889058a51fe4",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 26,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 28,
+          "candidate_count": 140,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "2cb6c9683d2e25484a71716411f7e552eea577bd02dda8e95880bfaff0ab74cb",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 27,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 21,
+          "candidate_count": 105,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "88be3c360adbd8327505aad042d79549186b2a16cf31e40083f76a9a6c65d8b0",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 28,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 15,
+          "candidate_count": 75,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "4145228b66e4cab978e1f9b5432bd1ea6d8ea0e3457babc7a4849287a2435a3e",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 29,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 10,
+          "candidate_count": 50,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "2d52db528c3365ae72a9fa46939ad96a451047235260eeb1411b846289378cc9",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 30,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 6,
+          "candidate_count": 30,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "ae7c948b91caaec30bdf14a61ad4dfe145071bbb6fe302055ec844da6a6a9ce1",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 31,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 3,
+          "candidate_count": 15,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "eb0a8e2d3f7f72c4ab7fbaf2af7943935b8fe675c190d4f60caf24eae08948fd",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q3",
+          "subset_size": 3,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 32,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1,
+          "candidate_count": 5,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "c7ed582329a4b5d33cb6d9abf397ddfa621cd2e1dcafd4ef602e136844581b9d",
+          "matches": [],
+          "accepted_matches": 0
+        }
+      ]
+    },
+    "Q4": {
+      "subset_size": 4,
+      "operations": [
+        "product",
+        "multiply_operand",
+        "divide_operand",
+        "add_operand",
+        "subtract_operand"
+      ],
+      "partition_count": 32,
+      "combination_count": 52360,
+      "candidate_count": 261800,
+      "zero_scalar_count": 0,
+      "partition_stream_digest_sha256": "4eb75171d1819ae97ea096340744b3fcde01c1e9c3ade67172c06371b6ab04a5",
+      "matches": [],
+      "accepted_matches": 0,
+      "partitions": [
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 0,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 5984,
+          "candidate_count": 29920,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "36344c12a506113bfaac10e2733afa8a76717a137d4b8b83fea09b5420e9a532",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 1,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 5456,
+          "candidate_count": 27280,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "5e8581cf9ea9d11011b7b1ca684e3c46fb32a4945f9be1284639f285f375f543",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 2,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 4960,
+          "candidate_count": 24800,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "33e1c8b175908bb0a734686efb6e1196ea543b9bd87b4f460e01c7ea45110c77",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 3,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 4495,
+          "candidate_count": 22475,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "6277696cf637eb5a3b468f7ab189b22113bc2b098d6f591af076785a43ffffe8",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 4,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 4060,
+          "candidate_count": 20300,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "04726642a66becac8bafa005fe0f069b3f54b5d737a5af1aa0ba630005d9b055",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 5,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 3654,
+          "candidate_count": 18270,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "420dcbdb6fbd8a311b58d41e4937b9869a1ca6de6986ac4020443d2b945f3f58",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 6,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 3276,
+          "candidate_count": 16380,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "bc54042802e6348eb7eb799d36534fbe7ab508f16becaf33402e1d0f58767f62",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 7,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 2925,
+          "candidate_count": 14625,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "cfc06494ae6e5f7497c6964dd88bc60f9b028f7764184c579eed2a79f02fae40",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 8,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 2600,
+          "candidate_count": 13000,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "7204fe4f53c22983594c8eefedb2d489bcbda6a6bb37016b977b541ebc8f3455",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 9,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 2300,
+          "candidate_count": 11500,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "e2e024aec6436c731427aaa5d82c568f9b3e14aa95fc72d3051351ed9e1bc392",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 10,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 2024,
+          "candidate_count": 10120,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "c2fbb6a9c833069d2f25b4689aa066fe5c37a7eee776c4a06a8ca1e42e47254c",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 11,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1771,
+          "candidate_count": 8855,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "3061bc29f907073b545a1b6af06f909ea38129c11d2e2c879237787eaaab3aac",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 12,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1540,
+          "candidate_count": 7700,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "4a08a46d7c54240840c86659245ad38b5578bb844fa39d2e3bf9c2f06dc78bfe",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 13,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1330,
+          "candidate_count": 6650,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "83169579f648f56e2af9b91a5f4f26cf14f64151350f54ea6b1cb0812ca2a224",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 14,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1140,
+          "candidate_count": 5700,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "837c2e3e17a5f86221bff0dd23dbe9a31e337a524f64a5c9c490de8c295db045",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 15,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 969,
+          "candidate_count": 4845,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "491c2f456e016896ec94e3f837cbf53e115025bfedd0e59d20d108bbaf3f320d",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 16,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 816,
+          "candidate_count": 4080,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "775f1dc573fa0b3f0e011ebe9346b494e2e33a29613a7d382a7364c6cb7cec14",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 17,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 680,
+          "candidate_count": 3400,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "32651e8b933c8c181e99facbd021fb30495de6691c1782456df1f82a7fb45520",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 18,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 560,
+          "candidate_count": 2800,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b8b1f8a9c1608e519ea35ffe9a06e2b28c83d16940192ac113f67bf9f2d1d114",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 19,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 455,
+          "candidate_count": 2275,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "4582b56989943f79844c7b5bad0bca68e1271c741500b9ee6c227e8d4cb9229d",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 20,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 364,
+          "candidate_count": 1820,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "bd80ab04e698de31718fcf16cae532af680ba9791d71fb6d74fda7677a729f5d",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 21,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 286,
+          "candidate_count": 1430,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "f8b1875d1045135b9dc7a87fc4b479a8ec635bcdc156dea4157740843e21dfbe",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 22,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 220,
+          "candidate_count": 1100,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "9ca8a858b18a3b8f9b7a83e33afd7b23881ab90e0854180639b5d946d2f3cd04",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 23,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 165,
+          "candidate_count": 825,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "826cbfcf12d98a9f495c58f56292d4aebcec4807ec4138b783f8fde1cd524a0c",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 24,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 120,
+          "candidate_count": 600,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "e9b051d6be3e940dcbe5c68a7bdb80a58b9754234526c7e35d32b88993e54e8a",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 25,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 84,
+          "candidate_count": 420,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "e06e89c48a4859a64327390c31898c06d8cab4d8dd3b3210cc45b149746a8914",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 26,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 56,
+          "candidate_count": 280,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b8d942a0a922ca9e97a99ea0b9c3fbeb897b1338e64befdf5879b36ef002b3f4",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 27,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 35,
+          "candidate_count": 175,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "7eba27ed3acc2d0409d4e1bac0eac0a00eb27eb4d283a0a8224b56482ac7add5",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 28,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 20,
+          "candidate_count": 100,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "190526ebed1bfde1e0af523aac23ab0deaedd2b7138e067d11a764e40339c431",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 29,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 10,
+          "candidate_count": 50,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "90f78773c9651d284860338f098f014edbb945ad5d4e865bc712793af9fe72d0",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 30,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 4,
+          "candidate_count": 20,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "f7d5ea324643855bf46b3bf6eb7e5d12b26ce2cc0c9bd3851a99805387d2a8d2",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q4",
+          "subset_size": 4,
+          "operations": [
+            "product",
+            "multiply_operand",
+            "divide_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 31,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1,
+          "candidate_count": 5,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b80347682bf5c5496d1af91a6c74c20c5e3ce26ee3c6c55fea313389f513d306",
+          "matches": [],
+          "accepted_matches": 0
+        }
+      ]
+    },
+    "Q7": {
+      "subset_size": 7,
+      "operations": [
+        "product",
+        "multiply_operand"
+      ],
+      "partition_count": 29,
+      "combination_count": 6724520,
+      "candidate_count": 13449040,
+      "zero_scalar_count": 0,
+      "partition_stream_digest_sha256": "57713faf7f504270d3a8057e814769da221a4b62769f13690cc7598548cf43b4",
+      "matches": [],
+      "accepted_matches": 0,
+      "partitions": [
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 0,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1344904,
+          "candidate_count": 2689808,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "85e3552cfa6472823ae7a0469b5f52598d437f4bbedb76fe88df964f32a9a241",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 1,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1107568,
+          "candidate_count": 2215136,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "cd54c4184e1507304f9c3866d103cf41e4851fa4eb94662df33c1a2151e99268",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 2,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 906192,
+          "candidate_count": 1812384,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "3a6f600f571db6ce84b5fe8dfe3c8c3ee2f6835f03f2537fc3be81405ce34dd3",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 3,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 736281,
+          "candidate_count": 1472562,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "f613932d91834ce39885a940763fa1d41cadf615ac2fbe7ec25ebc1f37b0a3f0",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 4,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 593775,
+          "candidate_count": 1187550,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "6ce027910127411831ce278715b1262597806834054811db7997e3dff5c23799",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 5,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 475020,
+          "candidate_count": 950040,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "dbce93bd6390a1f76f436e6a96ed4d4088d1014f85e7b5aad3f2aae7101b056c",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 6,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 376740,
+          "candidate_count": 753480,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "3c9d6152ba7afc80332584ea719d8e9a71d9329e464a6a7cef351dbc6ec64915",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 7,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 296010,
+          "candidate_count": 592020,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "fd3ad82214beaf801e721ddc636772cd9081507698384d037c08c2a42f11f551",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 8,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 230230,
+          "candidate_count": 460460,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "8b4899640bc7c1cb55a5ed024eb9ea97fc37680043930d5d61d68abd2d2d7459",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 9,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 177100,
+          "candidate_count": 354200,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "5776ab118884c704a29c50f2e1eece0241175393f9bcdf5ec845b79bf5a1b18d",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 10,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 134596,
+          "candidate_count": 269192,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "e83d3993cf6d04af36f8345e46b7eaae12f26a3d90a4e42a1ae6b16b7b4aac9f",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 11,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 100947,
+          "candidate_count": 201894,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "94b4e20944aefb791b3b619cd24ea3142cc195a0eda005ee392da65d501d37eb",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 12,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 74613,
+          "candidate_count": 149226,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "196fdf4e1c3e65fb4cc6f10a2f2b43e88fd48117e6d61e0be44e4836546b5feb",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 13,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 54264,
+          "candidate_count": 108528,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "271a808f52f20a8cb0682df3303dfd44a4a687cd5d2063ff06bc207c49cb9e5c",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 14,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 38760,
+          "candidate_count": 77520,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a35b1cd6d2f495d03905e74c3ba55a60b5e5fcb31ee6eed39b7465f4b94fdfbd",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 15,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 27132,
+          "candidate_count": 54264,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "8e6e21c4399a9a3aece5baf1c9f59f6eaf4d158aa3380a4129930664c7957cac",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 16,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 18564,
+          "candidate_count": 37128,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "7343c734d0340af4167b7c1f789252503f6baf15c786aca03e351daba517117e",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 17,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 12376,
+          "candidate_count": 24752,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "772ca29523c74b607bf957815f806c8eb766c63621661bb8e759fd6f4658614a",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 18,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 8008,
+          "candidate_count": 16016,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "8b3ded5179ede6db5e6db73fa8c781aa0522ac10ff8d7e017793ebba270e46c0",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 19,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 5005,
+          "candidate_count": 10010,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "35363e317809d65c29687e0e6ed74e85954a3c83012280c3b7fecc0919208e0e",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 20,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 3003,
+          "candidate_count": 6006,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "54521db07be44bb60a3e05e2550f65fe47c1884dcafcb69ff58a788bc5f574ca",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 21,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1716,
+          "candidate_count": 3432,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "387a859eb1210cb6c140f8e5a2e8bbf1e3a3bb480da2e392916f7b010c97afe3",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 22,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 924,
+          "candidate_count": 1848,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "41938d697e64efce0152c014ac0ce5013304f7311a25d41b3712edbe6f4c7ebd",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 23,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 462,
+          "candidate_count": 924,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "f6e42374b14bd447cd817467a13c1cda21d8d78cc728cbe7618666d61bd5fc70",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 24,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 210,
+          "candidate_count": 420,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "6cd17b2853c8e2917c2b9337bafdb7df20457def445b97f3d8e320a516bb7613",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 25,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 84,
+          "candidate_count": 168,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "5ed1a00a82d18505fb384fee5b44fe689794fa0d0c142476d4ff4384f0448b11",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 26,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 28,
+          "candidate_count": 56,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "8576ab4b023ed48fd9ead69c537a49e3a6cee6a7f37a4086b538e15636ab32ed",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 27,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 7,
+          "candidate_count": 14,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "ab5fcd44ee405fe9fbba8e51e6dc6abbfab77289acfb02ae13c389e8ccc2f340",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "Q7",
+          "subset_size": 7,
+          "operations": [
+            "product",
+            "multiply_operand"
+          ],
+          "first_block_index": 28,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1,
+          "candidate_count": 2,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a205e3161611694cb020dc2e759aa15d62c130f08d33fbc529636822830c5e06",
+          "matches": [],
+          "accepted_matches": 0
+        }
+      ]
+    }
+  },
+  "total_combinations": 6783425,
+  "total_candidate_scalars": 13743565,
+  "accepted_matches": [],
+  "scope_note": "This is exhaustive only for product subset sizes 3, 4, and 7 and the explicitly listed field operations."
+}

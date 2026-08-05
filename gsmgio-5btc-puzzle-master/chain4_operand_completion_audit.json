@@ -1,0 +1,125 @@
+{
+  "status": "NO_MATCH_IN_EXHAUSTIVE_CONTIGUOUS_THREE_BYTE_COMPLETION_FAMILY",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "operand29_hex": "ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+  "unknown_byte_count": 3,
+  "values_per_family": 16777216,
+  "insertion_positions": 30,
+  "orientations": [
+    "forward",
+    "reversed"
+  ],
+  "signs": [
+    "positive",
+    "negative"
+  ],
+  "family_count": 120,
+  "logical_candidate_space": 2013265920,
+  "baby_width": 4096,
+  "checkpoint_stream_sha256": "0244f43473a08eee3ce10e3d2a32f40e98a487ef661968fd4c98489ae1e50cb8",
+  "checkpoint_examples": [
+    {
+      "position": 0,
+      "orientation": "forward",
+      "sign": "positive",
+      "base_hex": "000000ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+      "step_hex": "0000010000000000000000000000000000000000000000000000000000000000",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 0,
+      "orientation": "forward",
+      "sign": "negative",
+      "base_hex": "000000ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+      "step_hex": "0000010000000000000000000000000000000000000000000000000000000000",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 0,
+      "orientation": "reversed",
+      "sign": "positive",
+      "base_hex": "0000003705e7b3458f633cce75ef2f9cc72cab66b18baab90ae82277dcbc9eca",
+      "step_hex": "0000010000000000000000000000000000000000000000000000000000000000",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 0,
+      "orientation": "reversed",
+      "sign": "negative",
+      "base_hex": "0000003705e7b3458f633cce75ef2f9cc72cab66b18baab90ae82277dcbc9eca",
+      "step_hex": "0000010000000000000000000000000000000000000000000000000000000000",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 1,
+      "orientation": "forward",
+      "sign": "positive",
+      "base_hex": "ca0000009ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+      "step_hex": "0000000100000000000000000000000000000000000000000000000000000000",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 1,
+      "orientation": "forward",
+      "sign": "negative",
+      "base_hex": "ca0000009ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+      "step_hex": "0000000100000000000000000000000000000000000000000000000000000000",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 1,
+      "orientation": "reversed",
+      "sign": "positive",
+      "base_hex": "3700000005e7b3458f633cce75ef2f9cc72cab66b18baab90ae82277dcbc9eca",
+      "step_hex": "0000000100000000000000000000000000000000000000000000000000000000",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 1,
+      "orientation": "reversed",
+      "sign": "negative",
+      "base_hex": "3700000005e7b3458f633cce75ef2f9cc72cab66b18baab90ae82277dcbc9eca",
+      "step_hex": "0000000100000000000000000000000000000000000000000000000000000000",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 29,
+      "orientation": "forward",
+      "sign": "positive",
+      "base_hex": "ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537000000",
+      "step_hex": "0000000000000000000000000000000000000000000000000000000000000001",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 29,
+      "orientation": "forward",
+      "sign": "negative",
+      "base_hex": "ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537000000",
+      "step_hex": "0000000000000000000000000000000000000000000000000000000000000001",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 29,
+      "orientation": "reversed",
+      "sign": "positive",
+      "base_hex": "3705e7b3458f633cce75ef2f9cc72cab66b18baab90ae82277dcbc9eca000000",
+      "step_hex": "0000000000000000000000000000000000000000000000000000000000000001",
+      "recovered_24bit_value": null
+    },
+    {
+      "position": 29,
+      "orientation": "reversed",
+      "sign": "negative",
+      "base_hex": "3705e7b3458f633cce75ef2f9cc72cab66b18baab90ae82277dcbc9eca000000",
+      "step_hex": "0000000000000000000000000000000000000000000000000000000000000001",
+      "recovered_24bit_value": null
+    }
+  ],
+  "positive_control": {
+    "inserted_hex": "a1b2c3",
+    "recovered_hex": "a1b2c3"
+  },
+  "target_compressed_public_key": "03f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464",
+  "matches": [],
+  "scope_note": "This exhausts every contiguous three-byte insertion into the verified 29-byte operand, in both byte orientations and both scalar signs. It does not cover three bytes inserted at noncontiguous positions or transformations involving the 35 following blocks."
+}

@@ -1,0 +1,1831 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+  "block_count": 35,
+  "operand_hex": "2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+  "engine": {
+    "name": "partitioned coincurve/libsecp256k1 exact public-key gate",
+    "worker_count": 1,
+    "positive_control": {
+      "family": "X3",
+      "fixture_block_count": 6,
+      "candidate_count": 80,
+      "expected_match": {
+        "block_indices": [
+          0,
+          1,
+          2
+        ],
+        "operation": "xor_operand",
+        "private_hex": "354ddad84677dd1c6935634e6f60c96d7d6dbbae690f89f42be6bca0399928bc",
+        "point_match": true,
+        "address": "14g5ZtWMMNKuMWsujc5i5kYiTXRKq8pR1L",
+        "address_match": true
+      },
+      "matches": [
+        {
+          "block_indices": [
+            0,
+            1,
+            2
+          ],
+          "operation": "xor_operand",
+          "private_hex": "354ddad84677dd1c6935634e6f60c96d7d6dbbae690f89f42be6bca0399928bc",
+          "point_match": true,
+          "address": "14g5ZtWMMNKuMWsujc5i5kYiTXRKq8pR1L",
+          "address_match": true
+        }
+      ],
+      "compressed_public_key": "02f921b295e4414b967a719e4a74d6128b3e3f2722490df27b234e1ce6ab2a395f",
+      "uncompressed_address": "14g5ZtWMMNKuMWsujc5i5kYiTXRKq8pR1L",
+      "recovered": true
+    }
+  },
+  "families": {
+    "X3": {
+      "subset_size": 3,
+      "operations": [
+        "xor",
+        "xor_operand",
+        "add_operand",
+        "subtract_operand"
+      ],
+      "partition_count": 33,
+      "combination_count": 6545,
+      "candidate_count": 26180,
+      "zero_scalar_count": 0,
+      "partition_stream_digest_sha256": "c86a98ebaed68e371f8f22a3b1d780cfd535ffaed58024fea3dff63314075ec3",
+      "matches": [],
+      "accepted_matches": 0,
+      "partitions": [
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 0,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 561,
+          "candidate_count": 2244,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a24c667059e16d7437f690db0df3c0b2e149cbcb86d830c8eeccf75c5cd870da",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 1,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 528,
+          "candidate_count": 2112,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "7ad8b66e1d25172d7960761041cd9f7a7c15a4cfbd986f72a74c5f80feba9778",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 2,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 496,
+          "candidate_count": 1984,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "dc8a10e56db34c567ab44b62e0ead1cfeebde188bff1051d10506b3a0155d6e6",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 3,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 465,
+          "candidate_count": 1860,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "c7c1a4b3d676fe606ab97ac33c04975143a620d3112a2b68d39f231730532828",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 4,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 435,
+          "candidate_count": 1740,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "1bd0fbaf45557572ac5154121fc1d38d74f1158bfee4524fe892baa5bc92092c",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 5,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 406,
+          "candidate_count": 1624,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "7ab4c59cf6d4d86ee2abf2d87c4f7180fa682dbdccb98096b3fc032056e6ca17",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 6,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 378,
+          "candidate_count": 1512,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "fc46694987a3b2eb869876b1c4eb5132825ce330f5c49c6fb35c75311c803c27",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 7,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 351,
+          "candidate_count": 1404,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "74f6b07b663ca5bdb905f819664734db87338143bd361a41238376104fc1be0c",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 8,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 325,
+          "candidate_count": 1300,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "914da3463d549ccebdc1e53dcb3afeb45970f28ab83cc8c198be86f5699395c7",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 9,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 300,
+          "candidate_count": 1200,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "cfc2995173909da4a1fbe881709e810be357ae988911c7b45937fbb6583bc37c",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 10,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 276,
+          "candidate_count": 1104,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "d7d8258196dbaca10f63586d4a8441eb44f9a29de8d60f5595d62a3fbec1fea5",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 11,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 253,
+          "candidate_count": 1012,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "7cd9a33a9f284fdb28b52cde0b9ae6363d48946ac65a617687a076b5180b1381",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 12,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 231,
+          "candidate_count": 924,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "f4982b6a82e6f2bf0b41f81c5fe113066d27af5d00f141626fa3a71a5af4382d",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 13,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 210,
+          "candidate_count": 840,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a973e1e80229e7fe4862fb6415900df9f4d9a540cf6609afc06d13216a146033",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 14,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 190,
+          "candidate_count": 760,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b4e9dafd7f0c6f827db8d93689028beb6100f89d7097a779b9e3986fe763d544",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 15,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 171,
+          "candidate_count": 684,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "06ca07159baf9c93dca5b31f4ad2d9f7ba560b382f56d5efcaf3b86637e9b102",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 16,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 153,
+          "candidate_count": 612,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "1b203c97152fa813d3741d9e4f62a9191c70485add54fe6cd0877fa696a3d65f",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 17,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 136,
+          "candidate_count": 544,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "edb702e2f1e7a77b8b732e43308c2a120ae985167528fadcc4aeb4d6f5abc321",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 18,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 120,
+          "candidate_count": 480,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "1a77ca17f5415c5854fc55ad19fb38f1497abda8530fdb65fd98747f27f5dca9",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 19,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 105,
+          "candidate_count": 420,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "e48fb80414a8aafd16ed860622ae2d01a80d6fee9bdb3e5596ea7d2e441edb04",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 20,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 91,
+          "candidate_count": 364,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "945a3a54cd840cb4e3d47ec59d177238115fe1b8fe0151982f1332b85c75cdbc",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 21,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 78,
+          "candidate_count": 312,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "61bd1a5116b79413ec6030aea2b45f82b1e774d8f254810cb3d242b85c1fdff1",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 22,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 66,
+          "candidate_count": 264,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "cb28af3a1f298646b70895b6ba47f25010c1f722b2f2f22965b2eb1d1723c868",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 23,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 55,
+          "candidate_count": 220,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "c2ffe2992d05b0d9e7e56ec8f7664f25a772b8ed4e62208eedc9364b23bbc361",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 24,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 45,
+          "candidate_count": 180,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "8a1649a12ed14c2699aa88ec47fc062378ba309b10c9806c003ca4a109ababec",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 25,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 36,
+          "candidate_count": 144,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "0bc99539af46b49d0eb6f65de976ca8410f8758ec763d0926cfe906073a47dc6",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 26,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 28,
+          "candidate_count": 112,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "8db69934a4799915bdeea51541c6596394933e812846bfc4d9d153dcb4976b7d",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 27,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 21,
+          "candidate_count": 84,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b4855b5685da1996056a75a8471f6436ade75179dae440f5735f6a586d72ce4a",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 28,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 15,
+          "candidate_count": 60,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b1e481e0c8ef343799a1d9d389bd92d7ec9e0125a11a436b25b91ca6968a073d",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 29,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 10,
+          "candidate_count": 40,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "7d838cd4a940a171380840bd1115490d3b948d14ca52bbd26d0b626a559b6f8d",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 30,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 6,
+          "candidate_count": 24,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "939065a666110be5d88df4dec4be6088f6a70995cf1d1696a34f82031fd9f7da",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 31,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 3,
+          "candidate_count": 12,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "8f49a62a746e47a61631565ff75de4bee8af44bb104763a853a013fe016f6cac",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X3",
+          "subset_size": 3,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 32,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1,
+          "candidate_count": 4,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "7da7a7145ef5c2737b989c5f448b172d1680fb7a36e24b15ecb270a20592b44c",
+          "matches": [],
+          "accepted_matches": 0
+        }
+      ]
+    },
+    "X4": {
+      "subset_size": 4,
+      "operations": [
+        "xor",
+        "xor_operand",
+        "add_operand",
+        "subtract_operand"
+      ],
+      "partition_count": 32,
+      "combination_count": 52360,
+      "candidate_count": 209440,
+      "zero_scalar_count": 0,
+      "partition_stream_digest_sha256": "8617ae7b7e30bffbeb878510207c59d01ad2ac8ee847311bd5c14d0bdedc23ca",
+      "matches": [],
+      "accepted_matches": 0,
+      "partitions": [
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 0,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 5984,
+          "candidate_count": 23936,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a7e9e98b22f5a412a2eb33c3f0179f98cf8c63517c97eef1e60636ece4819617",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 1,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 5456,
+          "candidate_count": 21824,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "0b0c803b97b511a4e46883dbd97480e106c55c021805e4b33cb65ac47e4953c3",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 2,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 4960,
+          "candidate_count": 19840,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "00573403f6c91003eace2523c3ef6f2c99242de233ff32423d62f2bb33361034",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 3,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 4495,
+          "candidate_count": 17980,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "2b2b32d417d660411f757006f29e9d7acd16eb6fa532c25320aec1fc3132bc57",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 4,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 4060,
+          "candidate_count": 16240,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "917bdf507b219b6c2b5b072644f2453d6e20b6d57d42f7330696a91a52980a72",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 5,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 3654,
+          "candidate_count": 14616,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "2545b627b4ed967a477db3fd2145aad94ff91e8852f9b6286355559a5cc862e0",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 6,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 3276,
+          "candidate_count": 13104,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "8216a005e0593d4adae203b8c723b046be0d7603eb4a8361fc6221a7537203f4",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 7,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 2925,
+          "candidate_count": 11700,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "ce122f468e4162ba7c7302e260befe31b4a7e38f0f110c98bebd7bd4893f17dd",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 8,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 2600,
+          "candidate_count": 10400,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a56b7495d02948cf7f6ed9ca16152d85d22a4b15e75d6d298efc0b258a8620d1",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 9,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 2300,
+          "candidate_count": 9200,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "945b139baa275d7ad6a9a3be48396e53dda443d6c5bc41bbc6247a6653055667",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 10,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 2024,
+          "candidate_count": 8096,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "ef20042c0a55c084b1b642cdc4c120a2205805cd2f63b79b6fef7f7db1aca9f7",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 11,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1771,
+          "candidate_count": 7084,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a867e7712a39cadc086d39ae8ab20f01f56e384c939e993e7b697b65359963e2",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 12,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1540,
+          "candidate_count": 6160,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "3a95a8888682a2fc4e615f7b07a9fe125fc3a062437653fc53e450bf6c98d4ba",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 13,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1330,
+          "candidate_count": 5320,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "3b275ca325a02b3f00b36cb432dd6306e2226a1fc858fe922d63d21f42f22f20",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 14,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1140,
+          "candidate_count": 4560,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "af56a9dcfb13c5830d04b34328ebd01ae1882d5d512582040e5733979d99ad91",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 15,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 969,
+          "candidate_count": 3876,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "91cbdadf21a6e36c54aa97a24c06f936c110b060ef57224a3258dacec7cf3eae",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 16,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 816,
+          "candidate_count": 3264,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "2bde82794953a96332c1a9db8aa178f294a7d3cf1869b106b16589fff3cf5445",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 17,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 680,
+          "candidate_count": 2720,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "88f337b43225181b3fbff9f63bf0a3405ad637ea0144f5c4969386665f527eaa",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 18,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 560,
+          "candidate_count": 2240,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "6112373002a235397b21b6cc94427e2366812ed7c03156966b1b43f3c9c3c6fa",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 19,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 455,
+          "candidate_count": 1820,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "9e8f6a33ade1bda6c3f4dca6a97177203691031601a131f7e8db1b4bc2582b84",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 20,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 364,
+          "candidate_count": 1456,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "84e72f90318389d48dac0661ae31b361c983eef7da249d8d3c82f8e4187203c9",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 21,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 286,
+          "candidate_count": 1144,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "504754faab99be4e46152392a4ad2cade8d2fb056ad8b9319c7137a5d7c876ad",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 22,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 220,
+          "candidate_count": 880,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "e43b5560bf6bd7596fa98690c1d8a629c0c0041e7a4e28cbfab40d92a14b8e31",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 23,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 165,
+          "candidate_count": 660,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "27154e4f27d4fe25cf5fc721dff2d4f05f7fe2b9c046fc2f05b96152ecd95ee9",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 24,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 120,
+          "candidate_count": 480,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "490aa7e41bffd4b12070c61987034722a5abf43e829c63ec84107b4a452c2eff",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 25,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 84,
+          "candidate_count": 336,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "815b2f82a3eb5a579fedcee195ac581517030f44983473d1ece2b5c43ba31bf4",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 26,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 56,
+          "candidate_count": 224,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "499d4c3a3b7bbe5527fec89a768b427dc1c17ee7c43f222b4d1f48ee98845b60",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 27,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 35,
+          "candidate_count": 140,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "549bf92422f8bd1d57dd698ef5137865374e296f0f6f8e4ce69df62bf4f15c16",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 28,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 20,
+          "candidate_count": 80,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "39fc08a80f85354d313618a716f177a48f68db007dcd2c2b3848d57bd87f482a",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 29,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 10,
+          "candidate_count": 40,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "5855e972d86a939b43c3744b1ed41552456bdb4eed3ebb94f6638d695f6ab0a1",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 30,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 4,
+          "candidate_count": 16,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "6bf5c2c6d0c97f1d3b710ba1ade2d19f07af79040213918f7171e4fd63eec100",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X4",
+          "subset_size": 4,
+          "operations": [
+            "xor",
+            "xor_operand",
+            "add_operand",
+            "subtract_operand"
+          ],
+          "first_block_index": 31,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1,
+          "candidate_count": 4,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "03eb391edf83f508d24e01ad9d0cb9b7cfa7b753904e8cee000e226d35363b59",
+          "matches": [],
+          "accepted_matches": 0
+        }
+      ]
+    },
+    "X7": {
+      "subset_size": 7,
+      "operations": [
+        "xor",
+        "xor_operand"
+      ],
+      "partition_count": 29,
+      "combination_count": 6724520,
+      "candidate_count": 13449040,
+      "zero_scalar_count": 0,
+      "partition_stream_digest_sha256": "f2e3a04bd83c57c361d32646cfd9d2a41c6aa85a346cd914373f99ed9e042212",
+      "matches": [],
+      "accepted_matches": 0,
+      "partitions": [
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 0,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1344904,
+          "candidate_count": 2689808,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b6f5bf9503455e6847d37254c9d9bf6e7c83cd99ae2a658bb61eee0848900388",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 1,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1107568,
+          "candidate_count": 2215136,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "398ea5c06e5f5712953ba9c6dcc5abbabe77b7cb1870a364f06f20d620aa1f15",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 2,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 906192,
+          "candidate_count": 1812384,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "fbdd8371c62e1e84e19f9d4e6ffb51c0af7babeea040ff29745b0394091fb5b8",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 3,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 736281,
+          "candidate_count": 1472562,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "da3cf71a01ecedd63c2129943f8db95fa231f78dcf95f1f2deb1c42ce0b0b188",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 4,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 593775,
+          "candidate_count": 1187550,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "541b82a10702eb6a876e1e0d3afd01748382a3579bb1d820aa41a1e039bad731",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 5,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 475020,
+          "candidate_count": 950040,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "5cf561563a1012fe92a1d137a790b6373fc3a75fc7cd64a4e0020640f9a151b2",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 6,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 376740,
+          "candidate_count": 753480,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a920dceb1c0f7fb293e8397e2bc448cdf26b519254217ed5dfebfd30c2e72548",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 7,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 296010,
+          "candidate_count": 592020,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "280ce2d931e07d016d8b14facaf061239b096b633614e76ceeb213be5bbf0142",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 8,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 230230,
+          "candidate_count": 460460,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "eda040bb9b07f0beac5410789b9a195b7b390ad3883397a96317a1218b433d66",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 9,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 177100,
+          "candidate_count": 354200,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "abd91be2ea8f3fdae68d4c093a1f4344fc2e8aff67a466bad29a8723d3343676",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 10,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 134596,
+          "candidate_count": 269192,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "47a08633f4419304d67627742e6263741a1b2efe3e059c48beca274dba020831",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 11,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 100947,
+          "candidate_count": 201894,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "eb64b0e9a5f3c60e0cc8f009a1df1d6fbd4210d777105de17feed547fef33154",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 12,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 74613,
+          "candidate_count": 149226,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "919a7fd7f761cdd78e11e4677463875b42e58a838d9b7341f7e8dc5fc477b659",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 13,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 54264,
+          "candidate_count": 108528,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "6200c96f43e48e0d9f2adb0dfcd952bdfdc0511d786da33e7e0832ab605d9aa0",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 14,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 38760,
+          "candidate_count": 77520,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a58af234e6fdb063716e21cf88faaa3dceb7efb1737cfb4e0af10033bb82d767",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 15,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 27132,
+          "candidate_count": 54264,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "c013161aead72b7938afb35206fecf7f154a63e31b01f0120ab2574c938996cc",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 16,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 18564,
+          "candidate_count": 37128,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "330e4894b28c6603a487aa5dedd1bb2a3779cf3ec8c2962f75b02c771aaf7ad7",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 17,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 12376,
+          "candidate_count": 24752,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "fc2e8a9a8739a5ee47706513da15bf575b0fc654184461ce627ed81f31f15592",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 18,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 8008,
+          "candidate_count": 16016,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b34cefae7988c5f49515f9ea1289aed417775229dbb6e335e978ac280146885e",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 19,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 5005,
+          "candidate_count": 10010,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "12d40886f15a0e1c876f3083f2f74608b06a5c15af02a782fc07ba18ac0fbaf3",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 20,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 3003,
+          "candidate_count": 6006,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "479084b3fc59455663ab76cf1c5b4f27bb7dad71a756b945fc11d9561fe50996",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 21,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1716,
+          "candidate_count": 3432,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "d1ecee26a79a2d3faa474edb73d71fdc14b7b5850457c4fd181aaee52e77578e",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 22,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 924,
+          "candidate_count": 1848,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "b8d3dfb5a803c8279d7b19f3f24dbcb9e45da0175aad7533d803f1dbc4a8784f",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 23,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 462,
+          "candidate_count": 924,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a39b19fe5b3cfc9f64a6546a7939db306eba50a6613e6264922e3c7ac4f2959b",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 24,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 210,
+          "candidate_count": 420,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "d30b95a78280ad91ff7d414d10f0040c68baa34aade91dd819e2bbb0b8f093cb",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 25,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 84,
+          "candidate_count": 168,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "a5e387fc2fefa166b5c30ea2e0e17a4b72f3f538704734764d2d9a074699e050",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 26,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 28,
+          "candidate_count": 56,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "bb9f6e2962f73ac6b7267b994494032bd140b90683e25d6d02c150ad658f844f",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 27,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 7,
+          "candidate_count": 14,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "51937494dd922cb6ecb7d0b6444ad38177fa6fd73ef064e91df3dd42c5188ee0",
+          "matches": [],
+          "accepted_matches": 0
+        },
+        {
+          "status": "COMPLETE",
+          "family": "X7",
+          "subset_size": 7,
+          "operations": [
+            "xor",
+            "xor_operand"
+          ],
+          "first_block_index": 28,
+          "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+          "combination_count": 1,
+          "candidate_count": 2,
+          "zero_scalar_count": 0,
+          "candidate_stream_sha256": "5492e9068d3aa263ef61128aa95b55df510d42f55dda0ddc9f3ea3c91c889dc3",
+          "matches": [],
+          "accepted_matches": 0
+        }
+      ]
+    }
+  },
+  "total_combinations": 6783425,
+  "total_candidate_scalars": 13684660,
+  "accepted_matches": [],
+  "scope_note": "This is exhaustive only for subset sizes 3, 4, and 7 and the explicitly listed post-operations; it does not close arbitrary XOR subset sizes or other nonlinear operations."
+}

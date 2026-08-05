@@ -1,0 +1,185 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 1152,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "7fdcb4000a6dca8c6ef6b81b65770269a5fc6534a739cf74971913bc8c3a4ac0",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v15c005",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "c5ccaf0d13aead0c569d518ecd126ced741c03cad36c555043ebf8693f414c27",
+      "plaintext_length": 79,
+      "plaintext_sha256": "b2af8b7b83e5121aeef76cbc8e25d0626f3cf4078f432d91118aa8564d2d941b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/raw-bytes"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v15c007",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "32f5e597c15ffe83e70b757b1ddead7105fca050a73338af94d6ddd45f9dcc04",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "2c2b35b1be3758f17db2f38d9be790f0ad8b95e8b1059011fc20394a5486b834",
+      "provenance": [
+        "s91-prime-tail-reinsertion/decimal-to-hex-bytes"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v15c023",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "7ba8bcdf39d687279a000018250fcf2f01cdf8bab02a5804403296ed8151b9b7",
+      "plaintext_length": 79,
+      "plaintext_sha256": "2171a43cc110c2b8091ee6dd8b7640f9734c123e2931d15c2b5a431fce4bf679",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v15c036",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "f0c02e661099c3ae3018c6357eb25c42864b2cdaf656b5afa5c82c69c95ae7ad",
+      "plaintext_length": 79,
+      "plaintext_sha256": "d1d3e1845bdca90c7fd78858044d5e83c2adbceb6a112be17802b230850ee904",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v15c101",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "432142d0240f9fbbba274ed22192c17d038cd1b73267c158eb84fb52f4bab29e",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "5c095f592881cbe1719e6b74e402500cd12cd93cbdf4d6d4f945dbbf1ec0428b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/python-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v15c102",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "71e79a9097be9220e6fd70c719bdc4d2d250a0c7b842516a61b8b840f88941ae",
+      "plaintext_length": 79,
+      "plaintext_sha256": "6d811cf8aa9dd6687bfd8a7e262ec08e06efd49d86c7c99c29b88220a7a6a22e",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/python-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v15c106",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "7fb9259a3f28c2c94f9d3a4829a51a97b2c45852e8a48c406d840893a621f1e7",
+      "plaintext_length": 79,
+      "plaintext_sha256": "09b17e29c7703fc6d62cb8d78053947842c3b7e0e21189ed6323705e81a59cde",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/json-compact"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v15c115",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "d1b61af9d36a3487fb9b5e58e021b8aafa556bd0c6ef7d844280c1ddc5255e1c",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "e38dc0dbc297077179ee4aabb8f45faa0677f0160ec796884bdb5bd83874ee1b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod9-i0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v15c178",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "05724d3203b8e5c1428caf84667472c8ab408ce600ab3db69084572591a40c3b",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "c9f80495ee8740ac0bc383c0f56168b460d022b6cd7d82719ca362ce3a3c843b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 9
+}

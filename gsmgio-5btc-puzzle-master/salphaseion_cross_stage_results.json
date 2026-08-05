@@ -1,0 +1,258 @@
+{
+  "accepted": [],
+  "accepted_count": 0,
+  "rule_manifest_sha256": "cc6571881715996463ca45dc9f58ead74b79ce30c169b8dd4b9e3070f21f55d3",
+  "schema": "salphaseion-cross-stage-results-v1",
+  "stage_one_attempts": 71184,
+  "stage_one_padding_hits": 253,
+  "stage_two_attempts": 3036,
+  "stage_two_padding_hits": 11,
+  "stage_two_padding_without_acceptance": [
+    {
+      "candidate_id": "c0220",
+      "candidate_provenance": [
+        "matrix-sum-list/S570/one-based/19x30/rows/json-compact"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates.json",
+      "readable_text": false,
+      "stage_one_blob": "salphaseion-short",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_length": 79,
+      "stage_one_plaintext_sha256": "5f541c4e0f96a6628efc75b35bd1931e6bfe9916c3b7361cdddadc7e42db1499",
+      "stage_two_blob": "phase32-small",
+      "stage_two_expansion": "sha256-lowerhex",
+      "stage_two_kdf": "md5",
+      "stage_two_plaintext_length": 79,
+      "stage_two_plaintext_sha256": "eba499b8f9d800a25faab5f787269a84f06f03cba15b13e066cfdb903a55e210",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v4c0284",
+      "candidate_provenance": [
+        "s91-sum-index-s570/one-based/13x7/total/one-based-index/selected-zero-based-digits",
+        "s91-sum-index-s570/one-based/7x13/total/one-based-index/selected-zero-based-digits"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v4.json",
+      "readable_text": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_length": 79,
+      "stage_one_plaintext_sha256": "b008a41388f9e5d2b6f9bc22a61036962c020e98a75a743f81ffb092d34b45e9",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "raw",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_length": 79,
+      "stage_two_plaintext_sha256": "ff2340d40dd8b84c53bdac549cb7efd3deac72ab28ac84893d378239f1d7cf5d",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v4c0466",
+      "candidate_provenance": [
+        "s91-sum-index-s570/one-based/13x7/columns/one-based-index/numeric-decimal-to-hex-bytes/one-based"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v4.json",
+      "readable_text": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "md5",
+      "stage_one_plaintext_length": 79,
+      "stage_one_plaintext_sha256": "c19c93ec1bc77690d10c24ce199ac647f1dc0d2b93ada5be40c174e4a5f3b776",
+      "stage_two_blob": "cosmic-duality",
+      "stage_two_expansion": "sha256-raw-digest",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_length": 1327,
+      "stage_two_plaintext_sha256": "4760fd5ddc06b4b3fee25b2a925734d8d51577b9c9ef2541993ee0fceba0232e",
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v5c0358",
+      "candidate_provenance": [
+        "adjacent-length-matrices/S570/one-based/15x38/aligned-sums/stable-key-order/raw-bytes"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v5.json",
+      "readable_text": false,
+      "stage_one_blob": "cosmic-duality",
+      "stage_one_kdf": "md5",
+      "stage_one_plaintext_length": 1327,
+      "stage_one_plaintext_sha256": "92762b947bcfc63ff487c350846b365d5b4820af2268ee4d44608b4d8cfe4d8f",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "raw",
+      "stage_two_kdf": "md5",
+      "stage_two_plaintext_length": 79,
+      "stage_two_plaintext_sha256": "4afbdfcb0317c6d7241f2f50e20454a46eb5f49d89863af2eb1b33a16013b524",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v9c02239",
+      "candidate_provenance": [
+        "repeated-adjacent-key/S570/field-origin-0/key-origin-0/key-minus-field/column-sums/mod26-a0",
+        "repeated-adjacent-key/S570/field-origin-1/key-origin-1/key-minus-field/column-sums/mod26-a0"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v9.json",
+      "readable_text": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_length": 79,
+      "stage_one_plaintext_sha256": "b98b74c627940caf9d6ac808fcd70330cae754e4be47b5457fb74189ae0795cc",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "raw",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_length": 79,
+      "stage_two_plaintext_sha256": "12672ad22642b08454a7407ad1d6233b900c4dce9098f7f2c9a3085bf2254367",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v10c2609",
+      "candidate_provenance": [
+        "s91-triangle/origin-1/rows-13-through-1/right-aligned-column-sums/sum-plus-key/key-origin-0/mod9-a0",
+        "s91-triangle/origin-1/rows-13-through-1/right-aligned-column-sums/sum-plus-key/key-origin-1/mod9-i0"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v10.json",
+      "readable_text": false,
+      "stage_one_blob": "salphaseion-short",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_length": 79,
+      "stage_one_plaintext_sha256": "6499616956088272c3c5b1753074928e358eb0f0b2ad2aac9f7c26e0de5743e6",
+      "stage_two_blob": "phase32-small",
+      "stage_two_expansion": "sha256-raw-digest",
+      "stage_two_kdf": "md5",
+      "stage_two_plaintext_length": 79,
+      "stage_two_plaintext_sha256": "18ab5cd6d1a2cf889f165f3a6d33ffb28b5a8017bb87eb688ae6b86c6517ea5f",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v10c2758",
+      "candidate_provenance": [
+        "s91-triangle/origin-0/rows-1-through-13/left-aligned-column-sums/sum-minus-key/key-origin-0/mod26-a0"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v10.json",
+      "readable_text": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_length": 79,
+      "stage_one_plaintext_sha256": "155f1bbcf86bf77346dc17f4191dd27aaa3eb8d570988ededd207a456daf0746",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "sha256-lowerhex",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_length": 79,
+      "stage_two_plaintext_sha256": "61a9bca93f93314b13e59946e0882bb460713783ea388f275eb7c321ee3d96cc",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v11c1060",
+      "candidate_provenance": [
+        "adjacent-key-columnar/S570/descending/encryption-route/origin-1/row-sums/mod9-a0"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v11.json",
+      "readable_text": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_length": 79,
+      "stage_one_plaintext_sha256": "5c38b60e574062ff24e327f9772cc8a26d280ef66a6d9a3e447f6d7420790c37",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "sha256-raw-digest",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_length": 79,
+      "stage_two_plaintext_sha256": "1f08c56674510275fd782bea680503a22c832c62b7f40e0b3b2f0d9fd92e6293",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v11c1146",
+      "candidate_provenance": [
+        "adjacent-key-columnar/S570/descending/encryption-route/origin-1/row-sums/mod26-a0"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v11.json",
+      "readable_text": false,
+      "stage_one_blob": "cosmic-duality",
+      "stage_one_kdf": "md5",
+      "stage_one_plaintext_length": 1327,
+      "stage_one_plaintext_sha256": "5fce29258d92ab201e1863402ae933a1f7dc8f222e6fe430fbddadcf62a73f6f",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "sha256-raw-digest",
+      "stage_two_kdf": "md5",
+      "stage_two_plaintext_length": 79,
+      "stage_two_plaintext_sha256": "b7d630451fd41818433220cd9d11fd9ec129f1297282b6162c7097a907eb39d4",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v16c101",
+      "candidate_provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/xor-seven-sha256"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v16.json",
+      "readable_text": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "md5",
+      "stage_one_plaintext_length": 79,
+      "stage_one_plaintext_sha256": "475d53d20ad71ba6aa515cb4433a940bb10da6f1e9c87c2a24b29ccc2a98232d",
+      "stage_two_blob": "cosmic-duality",
+      "stage_two_expansion": "sha256-lowerhex",
+      "stage_two_kdf": "md5",
+      "stage_two_plaintext_length": 1327,
+      "stage_two_plaintext_sha256": "1700f7877af769a2f7afd6a4b7731fff9e522095db5839f022f9bd6d94981c2a",
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v18c0238",
+      "candidate_provenance": [
+        "architect-choice/before-neo-moves/suffix-10/spaces/lower"
+      ],
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v18.json",
+      "readable_text": false,
+      "stage_one_blob": "cosmic-duality",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_length": 1327,
+      "stage_one_plaintext_sha256": "522075c2f94c08d0870e58d4b571a88ba6d878f5c9093bc1074e291161230d49",
+      "stage_two_blob": "phase32-small",
+      "stage_two_expansion": "sha256-raw-digest",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_length": 79,
+      "stage_two_plaintext_sha256": "c9bb8175bb0fdec3d5649d3d972df753558f595ef21cf9fe9a283bb3a65e654d",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    }
+  ],
+  "status": "NO_ACCEPTED_CROSS_STAGE_RESULT"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "COMPLETE",
+  "family": "Q4",
+  "subset_size": 4,
+  "operations": [
+    "product",
+    "multiply_operand",
+    "divide_operand",
+    "add_operand",
+    "subtract_operand"
+  ],
+  "first_block_index": 10,
+  "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+  "combination_count": 2024,
+  "candidate_count": 10120,
+  "zero_scalar_count": 0,
+  "candidate_stream_sha256": "c2fbb6a9c833069d2f25b4689aa066fe5c37a7eee776c4a06a8ca1e42e47254c",
+  "matches": [],
+  "accepted_matches": 0
+}

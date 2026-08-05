@@ -1,0 +1,180 @@
+{
+  "status": "NO_MATCH_IN_ENUMERATED_FAMILY",
+  "source": {
+    "readme_sha256": "442270a145641d6f75337bf0e12338889d22f029dc613d13f0a4d651875dae6a",
+    "image_sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+    "prefix_length": 91,
+    "prefix": "dbbibfbhccbegbihabebeihbeggegebebbgehhebhhfbabfdhbeffcdbbfcccgbfbeeggecbedcibfbffgigbeeeabe",
+    "prefix_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "image_dimensions": [
+      1048,
+      1556
+    ],
+    "grid_region": [
+      0,
+      0,
+      1048,
+      1048
+    ],
+    "sample_rule": "centers of the 14x14 cells in the image's 1048x1048 upper square",
+    "rgb_counts": {
+      "(0, 0, 0)": 87,
+      "(63, 72, 204)": 15,
+      "(254, 254, 254)": 1,
+      "(255, 242, 0)": 9,
+      "(255, 255, 255)": 84
+    },
+    "color_count": 24,
+    "blue_count": 15,
+    "yellow_count": 9,
+    "color_values_row_major": [
+      15,
+      9,
+      15,
+      15,
+      15,
+      15,
+      15,
+      9,
+      9,
+      9,
+      15,
+      9,
+      15,
+      9,
+      15,
+      15,
+      15,
+      9,
+      9,
+      15,
+      15,
+      9,
+      15,
+      15
+    ],
+    "spiral_ascii": "gsmg.io/theseedisplanted",
+    "spiral_residual_bits": [
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "prime_positions": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19,
+    23,
+    29,
+    31,
+    37,
+    41,
+    43,
+    47,
+    53,
+    59,
+    61,
+    67,
+    71,
+    73,
+    79,
+    83,
+    89
+  ],
+  "prime_count": 24,
+  "stream_lengths": {
+    "binary/rowsums": 14,
+    "binary/colsums": 14,
+    "binary/flatten": 196,
+    "binary/spiral": 196,
+    "numbered/rowsums": 14,
+    "numbered/colsums": 14,
+    "numbered/flatten": 196,
+    "numbered/spiral": 196
+  },
+  "eligible_streams": [
+    "binary/flatten",
+    "binary/spiral",
+    "numbered/flatten",
+    "numbered/spiral"
+  ],
+  "source_streams": [
+    "eligible grid stream first 67 values",
+    "91-symbol prefix first 67 values"
+  ],
+  "inserted_stream_records": 16,
+  "unique_inserted_streams": 10,
+  "ordered_stream_records": 32,
+  "unique_ordered_streams": 20,
+  "decoding_variants": [
+    "raw",
+    "mod26",
+    "mod36",
+    "mod64",
+    "mod95",
+    "mod256"
+  ],
+  "byte_offsets": [
+    0,
+    1,
+    32,
+    64,
+    65,
+    96,
+    97
+  ],
+  "decoded_byte_records": 1344,
+  "unique_decoded_bytes": 140,
+  "hex_decode_records": 0,
+  "hex_decode_note": "Every reinserted record has odd length 91, so the documented paired-nibble decode is inapplicable.",
+  "raw_32_byte_candidates": 0,
+  "sha256_decoded_candidates": 1344,
+  "sha256_decimal_concat_candidates": 32,
+  "scalar_candidate_records": 1376,
+  "unique_nonzero_scalars": 160,
+  "top_printable_diagnostics": [
+    {
+      "ratio": 1.0,
+      "derivation": "numbered/spiral/stream/colors-reverse/reverse/raw/offset-97",
+      "hex": "62627061706262626a61626170617062626270617062626170706161626170626a62616a62626a62616261616a70626270616a6162627061706162626a617062626170627061616270626a6261706a627062616170626a62707061",
+      "ascii": "bbpapbbbjabapapbbbpapbbappaabapbjbajbbjbabaajpbbpajabbpapabbjapbbapbpaabpbjbapjbpbaapbjbppa"
+    },
+    {
+      "ratio": 1.0,
+      "derivation": "numbered/spiral/stream/colors-reverse/reverse/raw/offset-96",
+      "hex": "61616f606f616161696061606f606f6161616f606f6161606f6f606061606f61696160696161696160616060696f61616f60696061616f606f60616169606f6161606f616f6060616f616961606f69616f6160606f6169616f6f60",
+      "ascii": "aao`oaaai`a`o`oaaao`oaa`oo``a`oaia`iaaia`a``ioaao`i`aao`o`aai`oaa`oao``aoaia`oiaoa``oaiaoo`"
+    },
+    {
+      "ratio": 1.0,
+      "derivation": "numbered/spiral/stream/colors-reverse/reverse/raw/offset-65",
+      "hex": "42425041504242424a41424150415042424250415042424150504141424150424a42414a42424a42414241414a50424250414a4142425041504142424a415042424150425041414250424a4241504a425042414150424a42505041",
+      "ascii": "BBPAPBBBJABAPAPBBBPAPBBAPPAABAPBJBAJBBJBABAAJPBBPAJABBPAPABBJAPBBAPBPAABPBJBAPJBPBAAPBJBPPA"
+    },
+    {
+      "ratio": 1.0,
+      "derivation": "numbered/spiral/stream/colors-reverse/reverse/raw/offset-64",
+      "hex": "41414f404f414141494041404f404f4141414f404f4141404f4f404041404f41494140494141494140414040494f41414f40494041414f404f40414149404f4141404f414f4040414f414941404f49414f4140404f4149414f4f40",
+      "ascii": "AAO@OAAAI@A@O@OAAAO@OAA@OO@@A@OAIA@IAAIA@A@@IOAAO@I@AAO@O@AAI@OAA@OAO@@AOAIA@OIAOA@@OAIAOO@"
+    },
+    {
+      "ratio": 1.0,
+      "derivation": "numbered/spiral/stream/colors-reverse/reverse/raw/offset-32",
+      "hex": "21212f202f212121292021202f202f2121212f202f2121202f2f202021202f21292120292121292120212020292f21212f20292021212f202f20212129202f2121202f212f2020212f212921202f29212f2120202f2129212f2f20",
+      "ascii": "!!/ /!!!) ! / /!!!/ /!! //  ! /!)! )!!)! !  )/!!/ ) !!/ / !!) /!! /!/  !/!)! /)!/!  /!)!// "
+    }
+  ],
+  "target": {
+    "x": "f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464",
+    "y": "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+    "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "matches": [],
+  "scope_note": "This exhausts only the explicitly enumerated row/column/flatten/spiral, prime-position, ordering, modular-byte, offset, and SHA-256 family. It is not a general impossibility result."
+}

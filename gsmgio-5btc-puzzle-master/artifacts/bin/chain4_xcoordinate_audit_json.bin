@@ -1,0 +1,196 @@
+{
+  "status": "COMPLETE_NO_POINT_RELATION",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "interpretation": "each aligned 32-byte Chain 4 block is tested as a field x-coordinate, not as a private scalar",
+  "valid_x_coordinate_count": 22,
+  "invalid_x_coordinate_count": 13,
+  "invalid_block_indices": [
+    2,
+    4,
+    5,
+    11,
+    12,
+    15,
+    21,
+    23,
+    24,
+    25,
+    26,
+    28,
+    33
+  ],
+  "valid_lifts": [
+    {
+      "index": 0,
+      "x_hex": "7775777e6ac1da188c32c6d866fc8d10dea6cb8b2c915f85b1164c2bab3ee279",
+      "positive_y_hex": "09395aee4d72f4de020ac7f62d5eea74abd324103088630f57ff77ea330610b3",
+      "negative_y_hex": "f6c6a511b28d0b21fdf53809d2a1158b542cdbefcf779cf0a8008814ccf9eb7c"
+    },
+    {
+      "index": 1,
+      "x_hex": "144e1c4a57f934c09643b905056040df9710ee40fa7b88a6642b43b1b67b2efb",
+      "positive_y_hex": "ad25d1743f2da58c3f9888afdd9d671b431ab8aabd4b861b9daa9f7035550643",
+      "negative_y_hex": "52da2e8bc0d25a73c0677750226298e4bce5475542b479e46255608ecaaaf5ec"
+    },
+    {
+      "index": 3,
+      "x_hex": "5f137aa1fe34579b5f7701ac3871951651475a2dbc5da1cdc50336ac773338b2",
+      "positive_y_hex": "8bb39916a6fabfba2cd38af61e54f251037f8da454969273613cba3203b8d815",
+      "negative_y_hex": "744c66e959054045d32c7509e1ab0daefc80725bab696d8c9ec345ccfc47241a"
+    },
+    {
+      "index": 6,
+      "x_hex": "0c359f3d121b91b4c6d912b9d4819a73547e6736f93fd556a3a8d46eb454f0f7",
+      "positive_y_hex": "776f4d961dbceae13317f7f496311e878ec4ac2af87b6ae06f311b0d5a7f00d2",
+      "negative_y_hex": "8890b269e243151ecce8080b69cee178713b53d50784951f90cee4f1a580fb5d"
+    },
+    {
+      "index": 7,
+      "x_hex": "07c2ed90e807deee80ef6443291309e68247b9d0e2d44bb0c26552261ae0e7f5",
+      "positive_y_hex": "a9d26cb145b8a0fdc84abf971ed35dc63ce5b0336730a90d8d9f389b28687c08",
+      "negative_y_hex": "562d934eba475f0237b54068e12ca239c31a4fcc98cf56f27260c763d7978027"
+    },
+    {
+      "index": 8,
+      "x_hex": "eafc244377505e911d953789ceb66872feeb2b925efc9a8bf54336453fdb5a34",
+      "positive_y_hex": "530a1061f0d2515db7834d6153f8e28eceedb5a1a94432b68e6391ce761ab4b6",
+      "negative_y_hex": "acf5ef9e0f2daea2487cb29eac071d7131124a5e56bbcd49719c6e3089e54779"
+    },
+    {
+      "index": 9,
+      "x_hex": "11317ae89ea22506687c776fe57c261a87f45c3393e45f95f9ca0caff4c81577",
+      "positive_y_hex": "0fc95a88a243cdbe297d4a57f8760cd6bf5f0d0847d2f7e56317e619b10a6d72",
+      "negative_y_hex": "f036a5775dbc3241d682b5a80789f32940a0f2f7b82d081a9ce819e54ef58ebd"
+    },
+    {
+      "index": 10,
+      "x_hex": "22e4dfd32d115a21f282648580eb3ceac0184e8fa961c58454b272d66dc27997",
+      "positive_y_hex": "60e25d1428845a742aa6f709b7639b7d434b15cb759daacc8518acba3456d376",
+      "negative_y_hex": "9f1da2ebd77ba58bd55908f6489c6482bcb4ea348a6255337ae75344cba928b9"
+    },
+    {
+      "index": 13,
+      "x_hex": "4133915a4e093be4f2b6e699c51d4ff2140e3cdc9a07989168fffb3bf8a83da3",
+      "positive_y_hex": "1f10c4dd39d67cbd1fa66e8615c7d1e2ae1ce99421558acf01d24d130403f774",
+      "negative_y_hex": "e0ef3b22c6298342e0599179ea382e1d51e3166bdeaa7530fe2db2ebfbfc04bb"
+    },
+    {
+      "index": 14,
+      "x_hex": "7378a0507c1bb465dade03c7dd4786a99001c514ab023f3d528c08907b742cf9",
+      "positive_y_hex": "3458b4fed26d42815e8c345943589ba119b8fc4e6c0c3e7448e6f6dae2700483",
+      "negative_y_hex": "cba74b012d92bd7ea173cba6bca7645ee64703b193f3c18bb71909241d8ff7ac"
+    },
+    {
+      "index": 16,
+      "x_hex": "52b910c1a1ee27c95fab05eac060b0fc3033070cff094016f8b16b1f8c2d0f03",
+      "positive_y_hex": "96f2d4f98938f071c487b3e3aef945a6793c4a517ba83f57ec9274dcb48c5543",
+      "negative_y_hex": "690d2b0676c70f8e3b784c1c5106ba5986c3b5ae8457c0a8136d8b224b73a6ec"
+    },
+    {
+      "index": 17,
+      "x_hex": "d7fe02a9ef84d856faeaf4d9e51431d56b17ca31bf4ff00e160dfd7bcfac0d0a",
+      "positive_y_hex": "dc3fd035ee57df185805bbb24fec8e17af5a29882aa2c000fbc35d4b29342715",
+      "negative_y_hex": "23c02fca11a820e7a7fa444db01371e850a5d677d55d3fff043ca2b3d6cbd51a"
+    },
+    {
+      "index": 18,
+      "x_hex": "ffecbb5f550c9aabd069f6fd993713994c1045c4202f5e9ab976f2234e4627fe",
+      "positive_y_hex": "5272bd979ed104d785c904fbfeebaffd309af2e050a65fe9278b1eb66158a50a",
+      "negative_y_hex": "ad8d4268612efb287a36fb0401145002cf650d1faf59a016d874e1489ea75725"
+    },
+    {
+      "index": 19,
+      "x_hex": "979571068546e65c8eaeb780580300133d403297391728e281ae34890445a6b6",
+      "positive_y_hex": "10d7d9d9afaa1f850e1e4bee1267dfe28851699c094e5fbbfe64b20bee13ae02",
+      "negative_y_hex": "ef2826265055e07af1e1b411ed98201d77ae9663f6b1a044019b4df311ec4e2d"
+    },
+    {
+      "index": 20,
+      "x_hex": "694e6caade1f3c5b33589ed664b0700081bd55b6a9d3cc30cec77bee9252ded5",
+      "positive_y_hex": "07594fa6026dcb30404b7cdca1384f3003d3669ca66ba633d0498f541af6de35",
+      "negative_y_hex": "f8a6b059fd9234cfbfb483235ec7b0cffc2c9963599459cc2fb670aae5091dfa"
+    },
+    {
+      "index": 22,
+      "x_hex": "75e530af2d97dc91c10e71995653bfcea60f28b932c54eb88fa59973d5c436be",
+      "positive_y_hex": "64507a28261afe40260152daae4b3592c5401ad8ad12f003a3a05da23bba36f2",
+      "negative_y_hex": "9baf85d7d9e501bfd9fead2551b4ca6d3abfe52752ed0ffc5c5fa25cc445c53d"
+    },
+    {
+      "index": 27,
+      "x_hex": "f787c4a9189b1da5016dc81524e6c667fb84d9971fbfae6d40c47fee8e757d42",
+      "positive_y_hex": "1b67b957fb86fb69c68a420c309747360fab248e45d572bc6ea15e51fba35628",
+      "negative_y_hex": "e49846a8047904963975bdf3cf68b8c9f054db71ba2a8d43915ea1ad045ca607"
+    },
+    {
+      "index": 29,
+      "x_hex": "ae6f56bdb15742092f747cfc6499cca512b1486c4b8cb4a71f351778fcf894d0",
+      "positive_y_hex": "f980b787f50bf18a7048965ea19b344013fc64e338ed2baa42dffb8f1a263307",
+      "negative_y_hex": "067f48780af40e758fb769a15e64cbbfec039b1cc712d455bd20046fe5d9c928"
+    },
+    {
+      "index": 30,
+      "x_hex": "08686f92a9352c4ac6d47287d2c2330c6ae7dfe360323999b0cb960ccbbbc038",
+      "positive_y_hex": "45b99362914ca0fdc49eec23540bb47721b1f2fffe877010507b1d2ebbdc3b54",
+      "negative_y_hex": "ba466c9d6eb35f023b6113dcabf44b88de4e0d0001788fefaf84e2d04423c0db"
+    },
+    {
+      "index": 31,
+      "x_hex": "ef0291713e72bd930d3843ebbf7fe267af314df3c30abfab9bcf5b1431905616",
+      "positive_y_hex": "2fc2e442181d751e96913ab14c5f7db390f2e1892d652e5fe4bc3e808ee5101a",
+      "negative_y_hex": "d03d1bbde7e28ae1696ec54eb3a0824c6f0d1e76d29ad1a01b43c17e711aec15"
+    },
+    {
+      "index": 32,
+      "x_hex": "992d5766a43b0b1452bd93cbbf22362d8a032970b5c2d1dbf8692ccefffcfac0",
+      "positive_y_hex": "bf9241acd8784ffd1833399c870223c9401e12acfe86f1bc490eafe8c975399b",
+      "negative_y_hex": "406dbe532787b002e7ccc66378fddc36bfe1ed5301790e43b6f15016368ac294"
+    },
+    {
+      "index": 34,
+      "x_hex": "d012f2d2b9f83e5aa40021932dafeaa24512b2c2c3f7bfa76f9bcf4290578a19",
+      "positive_y_hex": "5416953139626ad43a09ac59d95d10c5ba0a8e6713279f201bed6a1a5db624a7",
+      "negative_y_hex": "abe96acec69d952bc5f653a626a2ef3a45f57198ecd860dfe41295e4a249d788"
+    }
+  ],
+  "shift_scalars_hex": {
+    "operand": "00002dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "magnitude": "000000ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "prefix": "002b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "Half": "0423d9115a1dc756d5d08d2de880ab508bd4745fc97709f4fcb513f2cb8fcc35",
+    "Better_Half": "48cc46e66bdd36b09ae344552f606a761f9d90681f20dfefe2b43db18b623971"
+  },
+  "shift_count": 11,
+  "candidate_counts_by_term_count": {
+    "1": 484,
+    "2": 10164,
+    "3": 135520
+  },
+  "total_candidate_relations": 146168,
+  "point_relation_matches": [],
+  "synthetic_positive_control": {
+    "candidate_counts_by_term_count": {
+      "1": 66,
+      "2": 132,
+      "3": 88
+    },
+    "expected_match": {
+      "term_count": 3,
+      "block_indices": [
+        0,
+        1,
+        3
+      ],
+      "signs": [
+        "+",
+        "-",
+        "+"
+      ],
+      "shift": "+Half"
+    },
+    "recovered": true
+  },
+  "accepted_private_scalars": [],
+  "evidence_limit": "A point relation would not reveal the discrete logarithms of lifted x-coordinate points and therefore would not by itself recover the prize private scalar.",
+  "historical_correction": "Combinations are over distinct block indices before sign assignment; this excludes selecting both y lifts of the same block as separate terms."
+}

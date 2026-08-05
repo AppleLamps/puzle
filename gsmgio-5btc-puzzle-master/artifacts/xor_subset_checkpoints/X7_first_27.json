@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "family": "X7",
+  "subset_size": 7,
+  "operations": [
+    "xor",
+    "xor_operand"
+  ],
+  "first_block_index": 27,
+  "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+  "combination_count": 7,
+  "candidate_count": 14,
+  "zero_scalar_count": 0,
+  "candidate_stream_sha256": "51937494dd922cb6ecb7d0b6444ad38177fa6fd73ef064e91df3dd42c5188ee0",
+  "matches": [],
+  "accepted_matches": 0
+}

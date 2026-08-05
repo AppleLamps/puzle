@@ -1,0 +1,19 @@
+{
+  "status": "NO_FIXED_SPLIT_ENTROPY_EVIDENCE",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "split_offset": 246,
+  "head_length": 246,
+  "tail_length": 905,
+  "head_sha256": "dd08e6b5802aebf865acfe0ebcfb2bd7190e1496beda97d753e75e9d69b0dd33",
+  "tail_sha256": "9f06936a48d393c858a6fdce281540946e8f5365d632ad756c280b400c9d632c",
+  "head_plugin_entropy_bits_per_byte": 7.150104127262456,
+  "tail_plugin_entropy_bits_per_byte": 7.789932993686327,
+  "observed_entropy_delta": 0.6398288664238709,
+  "permutation_count": 10000,
+  "permutation_seed": 1196641607,
+  "permutation_mean_delta": 0.6387136758019296,
+  "permutations_at_least_observed": 4887,
+  "one_sided_permutation_p_value": 0.48875112488751127,
+  "block_alignment_remainder": 23,
+  "scope_note": "The fixed-size permutation test preserves the complete byte multiset. It tests only the reported Shannon-entropy contrast, not every possible structure at byte 246."
+}

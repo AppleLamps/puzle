@@ -1,0 +1,64 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "declared_acceptance": {
+    "forbidden": [
+      "splitting plaintext",
+      "expected padding length",
+      "Half/Better Half",
+      "target point",
+      "community hashes"
+    ],
+    "padding_alone": false,
+    "required": "readable text or exact parser/checksum format"
+  },
+  "inputs": [
+    {
+      "candidate_count": 2304,
+      "path": "salphaseion_preregistered_candidates_v27.json",
+      "sha256": "fa463d9dbe18e21dde10d3517a296da5e7418795216bf6ff7d9319255791799a"
+    }
+  ],
+  "schema": "salphaseion-cross-stage-preregistration-v3-lo-shu",
+  "stage_one": {
+    "cipher": "AES-256-CBC",
+    "gate": "strict PKCS#7; carry every hit without inspection",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ]
+  },
+  "stage_two": {
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "source": "entire unmodified stage-one plaintext",
+    "target_scope": "each other independently salted blob"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION",
+  "total_candidate_records": 2304
+}

@@ -1,0 +1,71 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 1368,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "11577dae8a3fe114226a7e583fdd966ed0d647dc618378a0c3e7d9cbd614a969",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v13c010",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "0245b3870d3610d70765d466263a81bd4d4882e980f1a1ec23a8c27b53654225",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "f11a49e9555c5d9a564c53ab63643aba9d275552b6f36cd1a45180e08a792948",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v13c034",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "82c97d73d0bf004a0621a2e18bda448623fc0a21476270a94b872912d674defc",
+      "plaintext_length": 79,
+      "plaintext_sha256": "993e3ad7e4a71d5c55d31db9336acec4535895a80bab1b2ff645072e2c263609",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/xor"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v13c212",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "4bb02ac92b8d77ef2471777aec7abca014ea8ede5aeb88417be3e0addddf6678",
+      "plaintext_length": 79,
+      "plaintext_sha256": "9354eb0f77c5a46a5fca00d49d3236f933c492e6830c557ad33289c4492c2c4b",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 3
+}

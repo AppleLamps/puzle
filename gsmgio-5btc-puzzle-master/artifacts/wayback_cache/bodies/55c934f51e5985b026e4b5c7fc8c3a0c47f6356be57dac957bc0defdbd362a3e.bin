@@ -1,0 +1,2 @@
+html{overflow-y:auto!important}.swal2-container{font-family:Roboto,sans-serif}body .swal2-popup #swal2-content,body .swal2-popup .swal2-title{text-align:left}body .swal2-popup .swal2-header{-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch}body .v-btn{text-transform:none}
+/*# sourceMappingURL=app.css.map*/

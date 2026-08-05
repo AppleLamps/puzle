@@ -1,0 +1,17 @@
+{
+  "status": "COMPLETE",
+  "family": "Q7",
+  "subset_size": 7,
+  "operations": [
+    "product",
+    "multiply_operand"
+  ],
+  "first_block_index": 22,
+  "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+  "combination_count": 924,
+  "candidate_count": 1848,
+  "zero_scalar_count": 0,
+  "candidate_stream_sha256": "41938d697e64efce0152c014ac0ce5013304f7311a25d41b3712edbe6f4c7ebd",
+  "matches": [],
+  "accepted_matches": 0
+}

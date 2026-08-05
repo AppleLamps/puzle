@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "family": "X4",
+  "subset_size": 4,
+  "operations": [
+    "xor",
+    "xor_operand",
+    "add_operand",
+    "subtract_operand"
+  ],
+  "first_block_index": 18,
+  "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+  "combination_count": 560,
+  "candidate_count": 2240,
+  "zero_scalar_count": 0,
+  "candidate_stream_sha256": "6112373002a235397b21b6cc94427e2366812ed7c03156966b1b43f3c9c3c6fa",
+  "matches": [],
+  "accepted_matches": 0
+}

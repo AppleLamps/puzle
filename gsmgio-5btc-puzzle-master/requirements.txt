@@ -1,0 +1,5 @@
+pycryptodome==3.23.0
+cryptography==48.0.0
+Pillow==12.2.0
+coincurve==21.0.0
+wordfreq==3.1.1

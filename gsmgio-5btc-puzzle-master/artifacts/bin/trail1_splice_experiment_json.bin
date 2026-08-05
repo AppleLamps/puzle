@@ -1,0 +1,35 @@
+{
+  "status": "NO_MATCH_IN_BOUNDED_FAMILY",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "trail1_hex": "fc0c1b02",
+  "word_count": 10,
+  "block_count": 35,
+  "generated_candidates": 1410,
+  "unique_nonzero_scalars": 1410,
+  "words": {
+    "trail1[0:2] || opcode_operand30": "fc0c2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "opcode_operand30 || trail1[0:2]": "2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537fc0c",
+    "trail1[1:3] || opcode_operand30": "0c1b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "opcode_operand30 || trail1[1:3]": "2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e705370c1b",
+    "trail1[2:4] || opcode_operand30": "1b022dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "opcode_operand30 || trail1[2:4]": "2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e705371b02",
+    "trail1[0:3] || marker_operand29": "fc0c1bca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "marker_operand29 || trail1[0:3]": "ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537fc0c1b",
+    "trail1[1:4] || marker_operand29": "0c1b02ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "marker_operand29 || trail1[1:4]": "ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e705370c1b02"
+  },
+  "operations": [
+    "word",
+    "word + block",
+    "word - block",
+    "block - word",
+    "word XOR block"
+  ],
+  "target": {
+    "x": "f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464",
+    "y": "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+    "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "matches": [],
+  "scope_note": "This falsifies only the exact contiguous trail1 splice family described in VERIFICATION_REPORT.md."
+}

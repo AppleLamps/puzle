@@ -1,0 +1,71 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "fragments_hex": {
+    "E_C": "38d4f4c90cb45fdfc8cff50d0ed1c5",
+    "E_S": "740a25de4b8e946d0a5ae2667a23a2",
+    "E_B": "59cc52261c54b68193aea541ca0526",
+    "E_H": "10780fe8a960ccad1c8cbb98ecdc73"
+  },
+  "k_values_hex": {
+    "K_C1": "9fa9db91a9dee0e38b93694ec874630b30f32f33671987543b1cf913f4746439",
+    "K_C2": "1517389608d55021dc436b66ec513a617c4f14cb0fed4708b535641a6dfe8210",
+    "K_S1": "b06fa6f20561756c865dac7190f063480a371e4a13206e529ee7e9078f309c4b",
+    "K_S2": "b11d211ca0a17cd68c580308f3e6f21d3f935c8da3c4373b6f73ab5ccfaea597",
+    "K_B1": "44d19415009a2929a83b2f4e0da7b180d12f8b341cb879dd769ade1f8d399d40",
+    "K_B2": "ae27695b880aa5701df9abd8c96387cd9205a339dbf3fc5a1c6d0a8e6793438a",
+    "K_H1": "db9ccfe92a60ad7cc63d43391570c49585a01ade76ca09e03ad533f498831f19",
+    "K_H2": "16f7f9c3927894563cd14f09dc69a203d31006a6726a7b3ec42fe065b6812210"
+  },
+  "raw_family_counts": {
+    "F1": 2052,
+    "F2": 61,
+    "F3": 224,
+    "F4": 72
+  },
+  "raw_attempt_count": 2409,
+  "zero_attempt_count": 0,
+  "duplicate_attempt_count": 692,
+  "unique_scalar_count": 1717,
+  "unique_by_first_family": {
+    "F1": 1380,
+    "F2": 41,
+    "F3": 224,
+    "F4": 72
+  },
+  "candidate_stream_sha256": "5d7ab1e4535c42fba68ff1b595c346bfc63ac033e156ea024fc904ce669d0564",
+  "point_matches": [],
+  "accepted_prize_matches": [],
+  "positive_control": {
+    "family": "F2",
+    "candidate_count": 61,
+    "expected_match": {
+      "label": "E_C_leftpad",
+      "private_hex": "000000000000000000000000000000000038d4f4c90cb45fdfc8cff50d0ed1c5",
+      "addresses": [
+        "151X26Na8VpwTgZbGzEgTjV28JFggqUSfN",
+        "1GaVSyKrFch3U1LgXGVxjkcp7XifYxKnmt"
+      ]
+    },
+    "matches": [
+      {
+        "label": "E_C_leftpad",
+        "private_hex": "000000000000000000000000000000000038d4f4c90cb45fdfc8cff50d0ed1c5",
+        "addresses": [
+          "151X26Na8VpwTgZbGzEgTjV28JFggqUSfN",
+          "1GaVSyKrFch3U1LgXGVxjkcp7XifYxKnmt"
+        ]
+      },
+      {
+        "label": "E_C_integer",
+        "private_hex": "000000000000000000000000000000000038d4f4c90cb45fdfc8cff50d0ed1c5",
+        "addresses": [
+          "151X26Na8VpwTgZbGzEgTjV28JFggqUSfN",
+          "1GaVSyKrFch3U1LgXGVxjkcp7XifYxKnmt"
+        ]
+      }
+    ],
+    "recovered": true
+  },
+  "scope_note": "The audit closes only the explicit fragment serialization and operation family. Duplicate scalars are globally gated once but every raw attempt contributes to the stream digest."
+}

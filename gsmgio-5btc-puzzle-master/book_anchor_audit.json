@@ -1,0 +1,20 @@
+{
+  "aes_attempts": 3888,
+  "schema": "architect-four-book-anchor-audit-v1",
+  "scope_note": "Exhausts direct word/index concatenations, not an unknown book-cipher selection rule.",
+  "semantic_accepts": [],
+  "source": {
+    "anchors": {
+      "accomplish": 142,
+      "finish": 182,
+      "source": 237,
+      "wiseman": 121
+    },
+    "evidence_boundary": "anchor selection was reported publicly without a derivation",
+    "verification": "one-based indexing into authenticated Phase 3.2 Architect plaintext"
+  },
+  "status": "COMPLETE_NO_ACCEPT",
+  "strict_padding_hits": 8,
+  "target_scalar_matches": [],
+  "unique_preimages": 432
+}

@@ -1,0 +1,208 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "A_fragment_passwords": {
+    "tested": 896,
+    "strict_padding_hits": 9,
+    "canonical_structure_hits": 1,
+    "valid_padding_records": [
+      {
+        "slots": [
+          "E_C",
+          "E_S",
+          "E_S",
+          6
+        ],
+        "password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a2946d",
+        "padding_length": 1,
+        "plaintext_length": 1151,
+        "printable64": 0.359375,
+        "head31_hex": "b08d47fceaa8fc8909fcfd307b1ecdb9773cadcfa89d08d0d5dc65ce03c22a",
+        "sha256": "c3bcc6254e37db8946fe22fee3eb7ab189fe71d4c5d757484c0bc26996f70c63",
+        "canonical_plusminus_layout": false
+      },
+      {
+        "slots": [
+          "E_C",
+          "E_S",
+          "E_B",
+          0
+        ],
+        "password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a259cc",
+        "padding_length": 1,
+        "plaintext_length": 1151,
+        "printable64": 0.40625,
+        "head31_hex": "2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+        "sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+        "canonical_plusminus_layout": true
+      },
+      {
+        "slots": [
+          "E_C",
+          "E_S",
+          "E_B",
+          11
+        ],
+        "password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a241ca",
+        "padding_length": 1,
+        "plaintext_length": 1151,
+        "printable64": 0.34375,
+        "head31_hex": "9fa46a12b8d1931074a1c265f5fc8450cd88a50de451b1724668cd7115423a",
+        "sha256": "c6a439dc9f1529091ad25259e1f88a7df04ed288012182ac52f7d703039d16a1",
+        "canonical_plusminus_layout": false
+      },
+      {
+        "slots": [
+          "E_C",
+          "E_S",
+          "E_H",
+          6
+        ],
+        "password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a2ccad",
+        "padding_length": 1,
+        "plaintext_length": 1151,
+        "printable64": 0.34375,
+        "head31_hex": "1dc27a676139a17c1ee77f261f8ed1662535ff96f2df599594f490aee27b30",
+        "sha256": "f2b95e9f172bd3646ffa324e859cf64d17c9b6476fdc8fc43d274677c26de358",
+        "canonical_plusminus_layout": false
+      },
+      {
+        "slots": [
+          "E_C",
+          "E_B",
+          "E_S",
+          4
+        ],
+        "password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c559cc52261c54b68193aea541ca05264b8e",
+        "padding_length": 1,
+        "plaintext_length": 1151,
+        "printable64": 0.359375,
+        "head31_hex": "c16052ff16a2b948fa741c8cb83df2411ee8061392cf062b2bf55c730edbc0",
+        "sha256": "b04a2240923cd1387fa65aab03864143385a58e78bd88e81ee73348622d11c26",
+        "canonical_plusminus_layout": false
+      },
+      {
+        "slots": [
+          "E_B",
+          "E_C",
+          "E_H",
+          6
+        ],
+        "password_hex": "59cc52261c54b68193aea541ca052638d4f4c90cb45fdfc8cff50d0ed1c5ccad",
+        "padding_length": 1,
+        "plaintext_length": 1151,
+        "printable64": 0.40625,
+        "head31_hex": "f6398af9ffa03826871556085a8d76f9ade5f694d1f34f611531434b705171",
+        "sha256": "b32427277f4bb7f30d793f62e7348b8e0a800afce62a74abb0a92fe8110b8d00",
+        "canonical_plusminus_layout": false
+      },
+      {
+        "slots": [
+          "E_B",
+          "E_H",
+          "E_S",
+          8
+        ],
+        "password_hex": "59cc52261c54b68193aea541ca052610780fe8a960ccad1c8cbb98ecdc730a5a",
+        "padding_length": 1,
+        "plaintext_length": 1151,
+        "printable64": 0.4375,
+        "head31_hex": "48c80f539615a1a4269af8d29c0e8c2ef906f7ac364ddc0f2716ea5915e364",
+        "sha256": "5b463a81d08ef7f697b5419cd87366193e530d94e0b16641e4920ba3aa834f46",
+        "canonical_plusminus_layout": false
+      },
+      {
+        "slots": [
+          "E_H",
+          "E_S",
+          "E_H",
+          2
+        ],
+        "password_hex": "10780fe8a960ccad1c8cbb98ecdc73740a25de4b8e946d0a5ae2667a23a20fe8",
+        "padding_length": 1,
+        "plaintext_length": 1151,
+        "printable64": 0.375,
+        "head31_hex": "ab6b65e4cce49d104e84008caad0aa57d27ea053b456021508787c32501258",
+        "sha256": "00684047d1ad3fc6bc036004a3797055886461e57cadba02d27683269e2d0573",
+        "canonical_plusminus_layout": false
+      },
+      {
+        "slots": [
+          "E_H",
+          "E_B",
+          "E_S",
+          9
+        ],
+        "password_hex": "10780fe8a960ccad1c8cbb98ecdc7359cc52261c54b68193aea541ca05265ae2",
+        "padding_length": 1,
+        "plaintext_length": 1151,
+        "printable64": 0.328125,
+        "head31_hex": "2551a18899697a2183cc898ac402d7b888a3de94d3a5ac9285d2df2db85e3a",
+        "sha256": "ff5349e39cbdf89ffb802435fab25f003700b6a3d213c53514726c85a6d35145",
+        "canonical_plusminus_layout": false
+      }
+    ]
+  },
+  "B_unstripped_integer_readings": {
+    "unstripped_length": 1152,
+    "candidate_count": 10,
+    "candidates": [
+      {
+        "name": "B36_sum",
+        "scalar_hex": "a063d1740846d979daa74b120fcf078962c43ccaf3abbc99bc465babbbb5bbe6"
+      },
+      {
+        "name": "sha256(B36_sum)",
+        "scalar_hex": "aa71ff3a956a6f0bef944284c0c41e815489508849c55bc946250c3bf9efb4ee"
+      },
+      {
+        "name": "B36_xor",
+        "scalar_hex": "262a85e71c53a56a8c0a1ba1167344a0565bc2afec22db66d43b497edfb382af"
+      },
+      {
+        "name": "sha256(B36_xor)",
+        "scalar_hex": "30b4443e3b61777f9c8c36306d5e2fe59787b8676024ca330cd4aa10d224ecc8"
+      },
+      {
+        "name": "B35_after_header_sum",
+        "scalar_hex": "753606d54b6a6256f29c9167841da0de35fca09b0435ee5d58b715f7d4b0846f"
+      },
+      {
+        "name": "sha256(B35_after_header_sum)",
+        "scalar_hex": "790d31605dcfeedd71a06de1227d2db9598844ccc62300dcd55e742ebb77e9d6"
+      },
+      {
+        "name": "B35_after_header_xor",
+        "scalar_hex": "0d074f79a08fd2486400a20b9dc2220b7a9c5e800357155ab7b40ccd38b6b5d8"
+      },
+      {
+        "name": "sha256(B35_after_header_xor)",
+        "scalar_hex": "c22ef9a8b210f65ca0acd3178103269b9cb993ec16501d330dfebfe244ebb7f3"
+      },
+      {
+        "name": "B36_sum_times_inv8",
+        "scalar_hex": "540c7a2e8108db2f3b54e96241f9e0f0db043ed30a479fa2277d6318ab8447cd"
+      },
+      {
+        "name": "sha256(B36_sum_times_inv8)",
+        "scalar_hex": "bcdd36d10352b968bd04c33d28ce2240cc37b10e960fdc7ce8ee4bd3fd0a2baf"
+      }
+    ]
+  },
+  "C_sign_windows": {
+    "candidate_count": 12360,
+    "candidate_stream_sha256": "1f07a1021b65170ffe20d8fb2d67765961a6d36986dc162b9921aee534bdac94"
+  },
+  "D_natural_sign_patterns": {
+    "base_pattern_count": 9,
+    "candidate_count": 72,
+    "candidate_stream_sha256": "6573839ea6a456e898d737caa858df1612672dadd505a7f96d311076d4bee868"
+  },
+  "matches": [],
+  "positive_controls": {
+    "canonical_password_recovered_uniquely": true,
+    "canonical_password_hex": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a259cc",
+    "canonical_chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b"
+  },
+  "scope_note": "Strict padding hits are recorded but are not treated as evidence. Only the known password yields the exact '+-' plus 31+35x32 layout. Families C and D are also contained within the complete all-sign MITM audit."
+}

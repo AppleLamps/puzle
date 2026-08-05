@@ -1,0 +1,33 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 1026,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "2585edad827023cba068c64ea3dc29a7f6ccf286b7d61b82aa5c18b6a11d6950",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v34c018",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "0c3d33cc5877b3961a9aff63e0e1bf54b611b25e0ac71c02a0b4d9528a1102a9",
+      "plaintext_length": 79,
+      "plaintext_sha256": "720b536d15e33695ce407e5d2f6ef50f46dc7fb005dd17eaa55319c1352585b5",
+      "provenance": [
+        "last-words-before-architect-choice/architect-reference/suffix-2/compact/title"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 1
+}

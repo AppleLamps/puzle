@@ -1,0 +1,278 @@
+{
+  "baselines": [
+    {
+      "path": "/__gsmg_probe_control_a_20260804",
+      "status": 200,
+      "final_url": "https://gsmg.io/__gsmg_probe_control_a_20260804",
+      "length": 1125,
+      "sha256": "ff43ac83986c1a182a7b3778f7dd725af3ca958134606574031ae2ddd3f17b2f",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1
+    },
+    {
+      "path": "/__gsmg_probe_control_b_20260804",
+      "status": 200,
+      "final_url": "https://gsmg.io/__gsmg_probe_control_b_20260804",
+      "length": 1125,
+      "sha256": "fc87ee5143047019237a390d862bcf5a547f5c24e4c430fb7b12afd591dc5cf1",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1
+    },
+    {
+      "path": "/__gsmg_probe_control_c_20260804",
+      "status": 200,
+      "final_url": "https://gsmg.io/__gsmg_probe_control_c_20260804",
+      "length": 1125,
+      "sha256": "cca3bb0d6812bfcb0db75ea774e71814650757ca83a43dfb6014db041e915315",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1
+    }
+  ],
+  "known_old_page_controls": [
+    {
+      "path": "/theseedisplanted",
+      "status": 200,
+      "final_url": "https://gsmg.io/theseedisplanted",
+      "length": 1080,
+      "sha256": "fedaa19835057a40ded4e71ede22983703f7a80c3e5964fde97bf35b40d38733",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1
+    },
+    {
+      "path": "/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+      "status": 200,
+      "final_url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+      "length": 1314,
+      "sha256": "b2f101c06365af90cc0c00c720b8d3a5657b3dbf7b8c10ca70714d4ba02f50ed",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1
+    }
+  ],
+  "candidates": [
+    {
+      "path": "/anotherdoor",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdoor",
+      "length": 1065,
+      "sha256": "5380c8568d2b198696808b4cef7e915adfbcaa777b1fc7729181db30b3f4e862",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdooranstoo",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdooranstoo",
+      "length": 1083,
+      "sha256": "1c275ad1d1884a777035051542b5ec979603ee0672fa4d0f4c987a026dbf88e3",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdoordoor",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdoordoor",
+      "length": 1077,
+      "sha256": "53eb19bba35caad7d4a7faeb0e84ca4ced3bb85d3430572e0b936d0a8447d8d6",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdoorhashthetext",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdoorhashthetext",
+      "length": 1098,
+      "sha256": "5d01c601e8cb67e21d22cdc9034b0bc40cb540d00d33a7c12df2c6b69889aec9",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdoorourfirsthintisyourlastcommand",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdoorourfirsthintisyourlastcommand",
+      "length": 1152,
+      "sha256": "374f67be8a5e2a2e60c722efecea43b08e6395e32545eafaef1178acb3621f7d",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdoorsalphaseion",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdoorsalphaseion",
+      "length": 1098,
+      "sha256": "e89dd9362fb4260213dd4082d1fce0e1cf72988735d4dfa8be1534f6f38d210e",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdoorsalvation",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdoorsalvation",
+      "length": 1092,
+      "sha256": "4dddd05c7e2c990d5170d5cef8805e49415d0a9cb181e29441237f0b0e20e2ee",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdoorsha256",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdoorsha256",
+      "length": 1083,
+      "sha256": "55bb0574d30853ccfaa43a62389d0bcd748a50fa03789830658b2c1f1fa33e6c",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdoorthematrixhasyou",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdoorthematrixhasyou",
+      "length": 1110,
+      "sha256": "53c4f0f0fd66776cce735ba5c9c0d185d8d3841004553d8c6b6142519b3d670b",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdoorthereisanotherdoor",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdoorthereisanotherdoor",
+      "length": 1119,
+      "sha256": "1bf63758f829971347f27e0d729de1e7c0719e722dd778aadd0a35c2d2235f10",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anotherdooryingyang",
+      "status": 200,
+      "final_url": "https://gsmg.io/anotherdooryingyang",
+      "length": 1089,
+      "sha256": "8846249d74cb786ca83b27b9204a8ed76a14d2e545e3dc50ac335f84252788a4",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/anstoo",
+      "status": 200,
+      "final_url": "https://gsmg.io/anstoo",
+      "length": 1050,
+      "sha256": "645d4df39cfc3ab9d3298d079200db2b18d52d823bb6a51ff8135fb7c6caff0a",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/blueyellow",
+      "status": 200,
+      "final_url": "https://gsmg.io/blueyellow",
+      "length": 1062,
+      "sha256": "f87b852cd8a4a6187a0975f7df63ed9d883209e86fb3b16f237782d9f5107996",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/blueyellowanotherdoor",
+      "status": 200,
+      "final_url": "https://gsmg.io/blueyellowanotherdoor",
+      "length": 1095,
+      "sha256": "68bedfb17c43f12fe48c617b280a3d20ff6f033ef57d7e5775b277f3064e1516",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/blueyellowdoor",
+      "status": 200,
+      "final_url": "https://gsmg.io/blueyellowdoor",
+      "length": 1074,
+      "sha256": "0c1d0ef1d4b20ebbcdcc634fddc373e65d4ab08d91bfe6ff5c0916e1634d90bb",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/blueyellowthereisanotherdoor",
+      "status": 200,
+      "final_url": "https://gsmg.io/blueyellowthereisanotherdoor",
+      "length": 1116,
+      "sha256": "83aeb7fc80ab13b3fb0f4254de85e80bdc3b09bf1492002478fe9ccebf1d45f0",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/characterszeroedout",
+      "status": 200,
+      "final_url": "https://gsmg.io/characterszeroedout",
+      "length": 1089,
+      "sha256": "b256fab142b6213334f49ff77b6e204825816a239fe8d69b18c6d473e5ac8f10",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/characterszeroedoutanotherdoor",
+      "status": 200,
+      "final_url": "https://gsmg.io/characterszeroedoutanotherdoor",
+      "length": 1122,
+      "sha256": "832a1e5fcb1e0f3ec7ec4df843c793e69b95470d1f0bcba985dbb06a3c8bb290",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/characterszeroedoutdoor",
+      "status": 200,
+      "final_url": "https://gsmg.io/characterszeroedoutdoor",
+      "length": 1101,
+      "sha256": "95c83900efca1d413cf855bfb0b2c1ef88e01a9ab0fa7ad7e6b0288f5b1578d6",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    },
+    {
+      "path": "/characterszeroedoutthereisanotherdoor",
+      "status": 200,
+      "final_url": "https://gsmg.io/characterszeroedoutthereisanotherdoor",
+      "length": 1143,
+      "sha256": "2b701fae25bff727a64bacedc3db24f3352957923e0c606c065cc38e835a1010",
+      "content_type": "text/html; charset=UTF-8",
+      "title": "gsmg.io",
+      "attempts": 1,
+      "differs_in_length_and_hash_from_all_baselines": true
+    }
+  ]
+}

@@ -1,0 +1,1428 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 123,
+  "candidates": [
+    {
+      "candidate_id": "v14c000",
+      "password_expansion": "raw",
+      "password_hex": "044a82236266ad15e73116e0e45c6ecf08fb924a32a342c17ffd15a50ca0367d2d4cecc7dff4",
+      "password_sha256": "237695cc3326afaf7ea51406785f19766f1ec2bc64725cf97875045a791f7f14",
+      "preimage_hex": "044a82236266ad15e73116e0e45c6ecf08fb924a32a342c17ffd15a50ca0367d2d4cecc7dff4",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32333736393563633333323661666166376561353134303637383566313937363666316563326263363437323563663937383735303435613739316637663134",
+      "password_sha256": "6d8dab904ae33bb140c56d8003c0d876c9f75d8a3659016af8edf34dd8699cc0",
+      "preimage_hex": "044a82236266ad15e73116e0e45c6ecf08fb924a32a342c17ffd15a50ca0367d2d4cecc7dff4",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "237695cc3326afaf7ea51406785f19766f1ec2bc64725cf97875045a791f7f14",
+      "password_sha256": "f05fa00931729a7bb7c7f085db03d3a8bffdbde30888d88853f670e0b057bd00",
+      "preimage_hex": "044a82236266ad15e73116e0e45c6ecf08fb924a32a342c17ffd15a50ca0367d2d4cecc7dff4",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c003",
+      "password_expansion": "raw",
+      "password_hex": "04aa6ea34a5a2d15e5a91650345cc62d08fb90caa68bbe3979f5fd85fc20a87da9cc2419cff2",
+      "password_sha256": "f938d8658bd7ed78e4c251d5df5885257a3a31b230f0a0358555cceebc5e97e1",
+      "preimage_hex": "04aa6ea34a5a2d15e5a91650345cc62d08fb90caa68bbe3979f5fd85fc20a87da9cc2419cff2",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66393338643836353862643765643738653463323531643564663538383532353761336133316232333066306130333538353535636365656263356539376531",
+      "password_sha256": "54f78047c60c4d883d9c3840c251712e432f9ba6dc7130a3b21b57b6a8919828",
+      "preimage_hex": "04aa6ea34a5a2d15e5a91650345cc62d08fb90caa68bbe3979f5fd85fc20a87da9cc2419cff2",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f938d8658bd7ed78e4c251d5df5885257a3a31b230f0a0358555cceebc5e97e1",
+      "password_sha256": "3c0c11c030fed0e7d00dde57399e4c437917f96dcdeb0d9b03690250bd0bc108",
+      "preimage_hex": "04aa6ea34a5a2d15e5a91650345cc62d08fb90caa68bbe3979f5fd85fc20a87da9cc2419cff2",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c006",
+      "password_expansion": "raw",
+      "password_hex": "0b49dd70c7a9e25a28ee59bfbdb32dc807347d47ebe81596a01a726a55f169b2664bcdd8423b",
+      "password_sha256": "c0819b7d9a6c4fb2b19f78a10ba042eab9e55942faa57d995303de0acea44c92",
+      "preimage_hex": "0b49dd70c7a9e25a28ee59bfbdb32dc807347d47ebe81596a01a726a55f169b2664bcdd8423b",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63303831396237643961366334666232623139663738613130626130343265616239653535393432666161353764393935333033646530616365613434633932",
+      "password_sha256": "6efcffaf1e7bbb95cab12512fa32c9c05df99414892eb632d5c5f7839dfd4716",
+      "preimage_hex": "0b49dd70c7a9e25a28ee59bfbdb32dc807347d47ebe81596a01a726a55f169b2664bcdd8423b",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c0819b7d9a6c4fb2b19f78a10ba042eab9e55942faa57d995303de0acea44c92",
+      "password_sha256": "a7111708de3b631e0b1156aae23bf07cbc8b5865047ca2339375df8e22ce6c43",
+      "preimage_hex": "0b49dd70c7a9e25a28ee59bfbdb32dc807347d47ebe81596a01a726a55f169b2664bcdd8423b",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c009",
+      "password_expansion": "raw",
+      "password_hex": "0bc58decada962fa28def92f2bb3a14007147dc5dd6ccd4e9012fa6a036fd992e2c32348301b",
+      "password_sha256": "9e3b8779a162fdb77adf7b9e01d463c54f19332d7bac71c2d4ce3558456fc277",
+      "preimage_hex": "0bc58decada962fa28def92f2bb3a14007147dc5dd6ccd4e9012fa6a036fd992e2c32348301b",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39653362383737396131363266646237376164663762396530316434363363353466313933333264376261633731633264346365333535383435366663323737",
+      "password_sha256": "ef3dcde3cf08e81df551be999a93c80d7febc21e09e448e244f08796f755fa22",
+      "preimage_hex": "0bc58decada962fa28def92f2bb3a14007147dc5dd6ccd4e9012fa6a036fd992e2c32348301b",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9e3b8779a162fdb77adf7b9e01d463c54f19332d7bac71c2d4ce3558456fc277",
+      "password_sha256": "ebe8bc2d86c9be35aefba1f30d14d141604711c58a32178c681afafd10ca6680",
+      "preimage_hex": "0bc58decada962fa28def92f2bb3a14007147dc5dd6ccd4e9012fa6a036fd992e2c32348301b",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c012",
+      "password_expansion": "raw",
+      "password_hex": "0d79e570c7a9e26e381669c1ddcd5df8194c834b1be835baa02e76967df177ce7e5bddf8424d",
+      "password_sha256": "5fc915b0a93bad007d13157dec62dac223e9551683cacd8f2da24625460a2e62",
+      "preimage_hex": "0d79e570c7a9e26e381669c1ddcd5df8194c834b1be835baa02e76967df177ce7e5bddf8424d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35666339313562306139336261643030376431333135376465633632646163323233653935353136383363616364386632646132343632353436306132653632",
+      "password_sha256": "2315ff3422a69b840387409110a8c214251bc35eb0a4a9ad32cda87cdcebab2c",
+      "preimage_hex": "0d79e570c7a9e26e381669c1ddcd5df8194c834b1be835baa02e76967df177ce7e5bddf8424d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5fc915b0a93bad007d13157dec62dac223e9551683cacd8f2da24625460a2e62",
+      "password_sha256": "2edae94c51f52563550961769d8c9f6c8278cf3865b4f7785a5026f2ca73a830",
+      "preimage_hex": "0d79e570c7a9e26e381669c1ddcd5df8194c834b1be835baa02e76967df177ce7e5bddf8424d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c015",
+      "password_expansion": "raw",
+      "password_hex": "0dfd95fcbda9620e38e609512bcda140192c83cde594cd72b0360e960f77e7aee2c32348302d",
+      "password_sha256": "f729973ebd087528fa2dfb94d2b70a4bf4339fdbd9826917cc054953fa6005a9",
+      "preimage_hex": "0dfd95fcbda9620e38e609512bcda140192c83cde594cd72b0360e960f77e7aee2c32348302d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66373239393733656264303837353238666132646662393464326237306134626634333339666462643938323639313763633035343935336661363030356139",
+      "password_sha256": "ac32aa07b96715f3b74bcc87aa60cc915a97414384eefe83f446ec9d05f64dbc",
+      "preimage_hex": "0dfd95fcbda9620e38e609512bcda140192c83cde594cd72b0360e960f77e7aee2c32348302d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f729973ebd087528fa2dfb94d2b70a4bf4339fdbd9826917cc054953fa6005a9",
+      "password_sha256": "e4e6b64846cc30cd1c969251e13de689376845d2e6e75c240c384ebf0f143df2",
+      "preimage_hex": "0dfd95fcbda9620e38e609512bcda140192c83cde594cd72b0360e960f77e7aee2c32348302d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c018",
+      "password_expansion": "raw",
+      "password_hex": "1c6a9263b6a6ed1d2b691ed0ccbc4eef083d905a6a9b42cbbf3f05850ce068bf6f4cece73332",
+      "password_sha256": "dda4bd7041f757d964df903cb22f5f900961cd66d3d2ffd74f70234ab3856df2",
+      "preimage_hex": "1c6a9263b6a6ed1d2b691ed0ccbc4eef083d905a6a9b42cbbf3f05850ce068bf6f4cece73332",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64646134626437303431663735376439363464663930336362323266356639303039363163643636643364326666643734663730323334616233383536646632",
+      "password_sha256": "6571aaf5156c7a2f10c824e2b419f82f0329b697d5fbd174080f0e87b7bd3c30",
+      "preimage_hex": "1c6a9263b6a6ed1d2b691ed0ccbc4eef083d905a6a9b42cbbf3f05850ce068bf6f4cece73332",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "dda4bd7041f757d964df903cb22f5f900961cd66d3d2ffd74f70234ab3856df2",
+      "password_sha256": "85a3eea62721a2927e2624dd7ad60405408ce5807a258f42fb02ad60c799d30a",
+      "preimage_hex": "1c6a9263b6a6ed1d2b691ed0ccbc4eef083d905a6a9b42cbbf3f05850ce068bf6f4cece73332",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c021",
+      "password_expansion": "raw",
+      "password_hex": "1cca86e3aeba6d1d29f11e203cbcb651083d92daf663de438107fd651c60d6bfd3cc1459233c",
+      "password_sha256": "6015c52baf1c56b0b3b86ad7cad8f81604614babc205c816ea5e4f36bf73a6d7",
+      "preimage_hex": "1cca86e3aeba6d1d29f11e203cbcb651083d92daf663de438107fd651c60d6bfd3cc1459233c",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36303135633532626166316335366230623362383661643763616438663831363034363134626162633230356338313665613565346633366266373361366437",
+      "password_sha256": "cb843325dd927c6b86b144add3c134299fe8d4b9c3e4f899ffbad3e6051293e7",
+      "preimage_hex": "1cca86e3aeba6d1d29f11e203cbcb651083d92daf663de438107fd651c60d6bfd3cc1459233c",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6015c52baf1c56b0b3b86ad7cad8f81604614babc205c816ea5e4f36bf73a6d7",
+      "password_sha256": "a53aaece3eed09cc2f9b10db082f26c559b7628191db939b3193f11dae594668",
+      "preimage_hex": "1cca86e3aeba6d1d29f11e203cbcb651083d92daf663de438107fd651c60d6bfd3cc1459233c",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c024",
+      "password_expansion": "raw",
+      "password_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df0911",
+      "password_sha256": "5ab2b8599ac29ec8220a5af35fe909d89c3675d33000c7c8d38d31a03e8ce825",
+      "preimage_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df0911",
+      "provenance": [
+        "url-lsb-prime-reinsertion/decimal-to-hex-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v14c025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35616232623835393961633239656338323230613561663335666539303964383963333637356433333030306337633864333864333161303365386365383235",
+      "password_sha256": "fcdc1a350876fd37d68c0ccb89623726cfee63403b6d54339e65617fdfea8f90",
+      "preimage_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df0911",
+      "provenance": [
+        "url-lsb-prime-reinsertion/decimal-to-hex-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v14c026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5ab2b8599ac29ec8220a5af35fe909d89c3675d33000c7c8d38d31a03e8ce825",
+      "password_sha256": "2bf74d481b87a18f1f05d71e220d3663731ab0f6789b59e22e4b4d9a724500e4",
+      "preimage_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df0911",
+      "provenance": [
+        "url-lsb-prime-reinsertion/decimal-to-hex-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v14c027",
+      "password_expansion": "raw",
+      "password_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df091141423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "password_sha256": "efcbb02d9aa5c910d9b218cb2b0c244a9f8806a6c5c0eae1978867ccaadca0e5",
+      "preimage_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df091141423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v14c028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65666362623032643961613563393130643962323138636232623063323434613966383830366136633563306561653139373838363763636161646361306535",
+      "password_sha256": "59f333bac36c1d5ed43582554f65ef5d23804b02932a436040761c00d2519243",
+      "preimage_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df091141423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v14c029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "efcbb02d9aa5c910d9b218cb2b0c244a9f8806a6c5c0eae1978867ccaadca0e5",
+      "password_sha256": "6c3ce0d960cbc4d5b2d1ca6398e0a2231093b7814c0b4f833b172f98c8695927",
+      "preimage_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df091141423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v14c030",
+      "password_expansion": "raw",
+      "password_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df091150514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "password_sha256": "2e9cb0b68659548f01a2f0bc10601138785253359093f1e5f9929cf6a392694f",
+      "preimage_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df091150514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v14c031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32653963623062363836353935343866303161326630626331303630313133383738353235333335393039336631653566393932396366366133393236393466",
+      "password_sha256": "bb0db0d7bcc6dcf2205510aa0e8a511916bec790810dc6c29c1ebb84e98428ed",
+      "preimage_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df091150514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v14c032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2e9cb0b68659548f01a2f0bc10601138785253359093f1e5f9929cf6a392694f",
+      "password_sha256": "27813ecd040376981108ad52deccdd1b085dfaafab9c3622b1df2f77252741b3",
+      "preimage_hex": "205aaa468d86d030094c38eefb807ed52210a16147be66e68b0e3cb029c14f96466cf5df091150514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v14c033",
+      "password_expansion": "raw",
+      "password_hex": "21e892fcb0ba700a39ecfc5b4ebfc877272fa9e2f880d64fbd37029e1482f9a305d86a693027",
+      "password_sha256": "0922f21ead9baa00ca85187b8ae3622e99d100bbbc732b651c8cfee14188f9c5",
+      "preimage_hex": "21e892fcb0ba700a39ecfc5b4ebfc877272fa9e2f880d64fbd37029e1482f9a305d86a693027",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30393232663231656164396261613030636138353138376238616533363232653939643130306262626337333262363531633863666565313431383866396335",
+      "password_sha256": "3ad54ad0803a9b1595fda4861f4ffd49a1928afe97941170235c391ccde774a8",
+      "preimage_hex": "21e892fcb0ba700a39ecfc5b4ebfc877272fa9e2f880d64fbd37029e1482f9a305d86a693027",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0922f21ead9baa00ca85187b8ae3622e99d100bbbc732b651c8cfee14188f9c5",
+      "password_sha256": "b7298ea7f8376e215f3fd3595a84b82594c301c3494a77d41811495673f23113",
+      "preimage_hex": "21e892fcb0ba700a39ecfc5b4ebfc877272fa9e2f880d64fbd37029e1482f9a305d86a693027",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c036",
+      "password_expansion": "raw",
+      "password_hex": "30f7a10bbfc97f1948fb0b6a5dced786363eb8f1078fe55ecc4611ad239108b214e779783f36",
+      "password_sha256": "cfddf6577a913ba1443e07a73a45104fbe527b8a77fe31bc5fc75602e574a1c6",
+      "preimage_hex": "30f7a10bbfc97f1948fb0b6a5dced786363eb8f1078fe55ecc4611ad239108b214e779783f36",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63666464663635373761393133626131343433653037613733613435313034666265353237623861373766653331626335666337353630326535373461316336",
+      "password_sha256": "47b2a22265d211e4498e8ae539ce05d0ff65e857ccf3a58115a4cd2efd9ea51f",
+      "preimage_hex": "30f7a10bbfc97f1948fb0b6a5dced786363eb8f1078fe55ecc4611ad239108b214e779783f36",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cfddf6577a913ba1443e07a73a45104fbe527b8a77fe31bc5fc75602e574a1c6",
+      "password_sha256": "1bd2117778b4dd1a48ef72ad944ecc901e0ec17ccd9577a56920e6302369f73f",
+      "preimage_hex": "30f7a10bbfc97f1948fb0b6a5dced786363eb8f1078fe55ecc4611ad239108b214e779783f36",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c039",
+      "password_expansion": "raw",
+      "password_hex": "34313139313631383333303531323938313231323539303235373735303531353232373531383532313831323132303438323536313334323236313330373236323530373735313230343339323630363637313732353535303235",
+      "password_sha256": "325db04211c7f42a97d771a46dc1e56dda9e242882d58f695d4d45426f111a07",
+      "preimage_hex": "34313139313631383333303531323938313231323539303235373735303531353232373531383532313831323132303438323536313334323236313330373236323530373735313230343339323630363637313732353535303235",
+      "provenance": [
+        "url-lsb-prime-reinsertion/decimal-digits"
+      ]
+    },
+    {
+      "candidate_id": "v14c040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33323564623034323131633766343261393764373731613436646331653536646461396532343238383264353866363935643464343534323666313131613037",
+      "password_sha256": "f9ebbaf5dd2aa72ce3f51cad173bcf68a17b5297641f0670051155d6a9e1734a",
+      "preimage_hex": "34313139313631383333303531323938313231323539303235373735303531353232373531383532313831323132303438323536313334323236313330373236323530373735313230343339323630363637313732353535303235",
+      "provenance": [
+        "url-lsb-prime-reinsertion/decimal-digits"
+      ]
+    },
+    {
+      "candidate_id": "v14c041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "325db04211c7f42a97d771a46dc1e56dda9e242882d58f695d4d45426f111a07",
+      "password_sha256": "30db2eacc8ea2987c8c737676c51e02c9273cb0794597d4e3f774faecf1636fe",
+      "preimage_hex": "34313139313631383333303531323938313231323539303235373735303531353232373531383532313831323132303438323536313334323236313330373236323530373735313230343339323630363637313732353535303235",
+      "provenance": [
+        "url-lsb-prime-reinsertion/decimal-digits"
+      ]
+    },
+    {
+      "candidate_id": "v14c042",
+      "password_expansion": "raw",
+      "password_hex": "3c6ad269b8a6f34b2b675afc12a48edb3c25b0785cd98a0b971f63bb46e268af5f8cfef7332e",
+      "password_sha256": "1ff40dbbcba5bb9ca3090a47b4421f56154398f9ddddbfe46040ceb977358387",
+      "preimage_hex": "3c6ad269b8a6f34b2b675afc12a48edb3c25b0785cd98a0b971f63bb46e268af5f8cfef7332e",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/left-plus-right",
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31666634306462626362613562623963613330393061343762343432316635363135343339386639646464646266653436303430636562393737333538333837",
+      "password_sha256": "11beac29d95d3c6a705c1a8def322bb7a0a3afeb1675050a576ba70887efba55",
+      "preimage_hex": "3c6ad269b8a6f34b2b675afc12a48edb3c25b0785cd98a0b971f63bb46e268af5f8cfef7332e",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/left-plus-right",
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1ff40dbbcba5bb9ca3090a47b4421f56154398f9ddddbfe46040ceb977358387",
+      "password_sha256": "771c1c2446f43459c8729e18a57bfb7c51529698f8bd279843da6e0722328d43",
+      "preimage_hex": "3c6ad269b8a6f34b2b675afc12a48edb3c25b0785cd98a0b971f63bb46e268af5f8cfef7332e",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/left-plus-right",
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c045",
+      "password_expansion": "raw",
+      "password_hex": "4b79e178c7b5025a3a76690b21b39dea4b34bf876be8991aa62e72ca55f177be6e9b0d06423d",
+      "password_sha256": "358720980bc60d44df9f2f28892bfe4f93edffd064005e680f07182a8a34903f",
+      "preimage_hex": "4b79e178c7b5025a3a76690b21b39dea4b34bf876be8991aa62e72ca55f177be6e9b0d06423d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/left-plus-right",
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33353837323039383062633630643434646639663266323838393262666534663933656466666430363430303565363830663037313832613861333439303366",
+      "password_sha256": "57f2f87013ba3308577f931a36db71c334c00dfa0141619588162e44b25e8be9",
+      "preimage_hex": "4b79e178c7b5025a3a76690b21b39dea4b34bf876be8991aa62e72ca55f177be6e9b0d06423d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/left-plus-right",
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "358720980bc60d44df9f2f28892bfe4f93edffd064005e680f07182a8a34903f",
+      "password_sha256": "503d5e3e6a2edc7acbbd5ee22fe8b39a2b35738697d12e3afb6421d6f16e0443",
+      "preimage_hex": "4b79e178c7b5025a3a76690b21b39dea4b34bf876be8991aa62e72ca55f177be6e9b0d06423d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/left-plus-right",
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c048",
+      "password_expansion": "raw",
+      "password_hex": "4d89e188c7d5026e4a8e993d21cdad16554cc18b9be8b926de5276f67df189c276ab1d064243",
+      "password_sha256": "946b3ea8cbef73dc8c0a7e562794499a1581812202830b1768d93e65797062de",
+      "preimage_hex": "4d89e188c7d5026e4a8e993d21cdad16554cc18b9be8b926de5276f67df189c276ab1d064243",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39343662336561386362656637336463386330613765353632373934343939613135383138313232303238333062313736386439336536353739373036326465",
+      "password_sha256": "49cf02aa05af8e62780e8c2837507e548af0dfcb0f2ec808c14ed3de386befbf",
+      "preimage_hex": "4d89e188c7d5026e4a8e993d21cdad16554cc18b9be8b926de5276f67df189c276ab1d064243",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "946b3ea8cbef73dc8c0a7e562794499a1581812202830b1768d93e65797062de",
+      "password_sha256": "a89e3cccb086cababdd1f3852c3553081dc440b70a21d687d3c412bc70e0acfe",
+      "preimage_hex": "4d89e188c7d5026e4a8e993d21cdad16554cc18b9be8b926de5276f67df189c276ab1d064243",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c051",
+      "password_expansion": "raw",
+      "password_hex": "5c96d27fc8a60d7d3b996e0c32bcb2e7445dd09864e78a37af2365c54ae278d367940e174d52",
+      "password_sha256": "719501373b541a9ecacec5f7fdfc2a369aff56aa3a6ca0c1f9b4b42a0b9b45c7",
+      "preimage_hex": "5c96d27fc8a60d7d3b996e0c32bcb2e7445dd09864e78a37af2365c54ae278d367940e174d52",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37313935303133373362353431613965636163656335663766646663326133363961666635366161336136636130633166396234623432613062396234356337",
+      "password_sha256": "134d6851587a0e828ed21cee51f9b08b480336a1319697f48de8ebc5136bd762",
+      "preimage_hex": "5c96d27fc8a60d7d3b996e0c32bcb2e7445dd09864e78a37af2365c54ae278d367940e174d52",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "719501373b541a9ecacec5f7fdfc2a369aff56aa3a6ca0c1f9b4b42a0b9b45c7",
+      "password_sha256": "9ff5f75673c01de1b6478d698630bcb089f4fd0c83cd0931d7d7f1ad543d9b2d",
+      "preimage_hex": "5c96d27fc8a60d7d3b996e0c32bcb2e7445dd09864e78a37af2365c54ae278d367940e174d52",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c054",
+      "password_expansion": "raw",
+      "password_hex": "61189604b0c6900a4b740ca7b2bf38996b2feb2278805ad3c34b02fe148207af0d28aa973029",
+      "password_sha256": "91da00cdaa68ac3abd3272b9ee3f38494e1b4cc932c39ce81400b7621cc857a3",
+      "preimage_hex": "61189604b0c6900a4b740ca7b2bf38996b2feb2278805ad3c34b02fe148207af0d28aa973029",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39316461303063646161363861633361626433323732623965653366333834393465316234636339333263333963653831343030623736323163633835376133",
+      "password_sha256": "5242afc50bf5c3f68f26437ec172c04442657a7104155d98672d344e421400b7",
+      "preimage_hex": "61189604b0c6900a4b740ca7b2bf38996b2feb2278805ad3c34b02fe148207af0d28aa973029",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "91da00cdaa68ac3abd3272b9ee3f38494e1b4cc932c39ce81400b7621cc857a3",
+      "password_sha256": "195f6c5e769bf3ccdffdc34f6cbf5a386a3db57f357f48eafa92c1b3921b6360",
+      "preimage_hex": "61189604b0c6900a4b740ca7b2bf38996b2feb2278805ad3c34b02fe148207af0d28aa973029",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c057",
+      "password_expansion": "raw",
+      "password_hex": "619ce688cac6106a4b846c3744bfc4216b4feba486fca21bd3537afe660497cf91b054274249",
+      "password_sha256": "2354ef78fd2c8bac566ef9ae961a0452444cd4d3ad1364266472fc45999be41b",
+      "preimage_hex": "619ce688cac6106a4b846c3744bfc4216b4feba486fca21bd3537afe660497cf91b054274249",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32333534656637386664326338626163353636656639616539363161303435323434346364346433616431333634323636343732666334353939396265343162",
+      "password_sha256": "d64da7b0f2fb6054a251a9096948f0addb0342585c74f4cbcf76dab43b5d3818",
+      "preimage_hex": "619ce688cac6106a4b846c3744bfc4216b4feba486fca21bd3537afe660497cf91b054274249",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2354ef78fd2c8bac566ef9ae961a0452444cd4d3ad1364266472fc45999be41b",
+      "password_sha256": "11cb7290691d32e5699ac06b9e590b4c9e0247d9a48ac0287ddebd4b2c6b3015",
+      "preimage_hex": "619ce688cac6106a4b846c3744bfc4216b4feba486fca21bd3537afe660497cf91b054274249",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c060",
+      "password_expansion": "raw",
+      "password_hex": "64626269626662686363616562626968626262626569616265676765616562656262676562686562626862626162616468626566626364626266626361676266626561676765626261646369626661666667626762656565616265",
+      "password_sha256": "ba613c27d41d1151c184db8d803a9086c773260257e66ae5dd7d7d92d4fdd1a9",
+      "preimage_hex": "64626269626662686363616562626968626262626569616265676765616562656262676562686562626862626162616468626566626364626266626361676266626561676765626261646369626661666667626762656565616265",
+      "provenance": [
+        "url-lsb-prime-reinsertion/binary-as-ab-symbols"
+      ]
+    },
+    {
+      "candidate_id": "v14c061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62613631336332376434316431313531633138346462386438303361393038366337373332363032353765363661653564643764376439326434666464316139",
+      "password_sha256": "b303a971e42d9ec2939c14a63a5264573d30466f37e526b4678eeeacb4eb619d",
+      "preimage_hex": "64626269626662686363616562626968626262626569616265676765616562656262676562686562626862626162616468626566626364626266626361676266626561676765626261646369626661666667626762656565616265",
+      "provenance": [
+        "url-lsb-prime-reinsertion/binary-as-ab-symbols"
+      ]
+    },
+    {
+      "candidate_id": "v14c062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ba613c27d41d1151c184db8d803a9086c773260257e66ae5dd7d7d92d4fdd1a9",
+      "password_sha256": "e7c67dd1a9ee3206105b814e5db59d602ba6a4e161349721a4d0ee96869b0d9c",
+      "preimage_hex": "64626269626662686363616562626968626262626569616265676765616562656262676562686562626862626162616468626566626364626266626361676266626561676765626261646369626661666667626762656565616265",
+      "provenance": [
+        "url-lsb-prime-reinsertion/binary-as-ab-symbols"
+      ]
+    },
+    {
+      "candidate_id": "v14c063",
+      "password_expansion": "raw",
+      "password_hex": "64a8ec81cac80f8345a3903034c0c419585fe0a69609ac39d1557beb74fc88ed79a610194f66",
+      "password_sha256": "3ddbccc526661030104c49e74e9dae769d40660b964d12341f112823e2969210",
+      "preimage_hex": "64a8ec81cac80f8345a3903034c0c419585fe0a69609ac39d1557beb74fc88ed79a610194f66",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33646462636363353236363631303330313034633439653734653964616537363964343036363062393634643132333431663131323832336532393639323130",
+      "password_sha256": "cca084538e25ee55797794d6a9fce2fc06bfe1d05b21ecdc3a8d4f26c85e58f8",
+      "preimage_hex": "64a8ec81cac80f8345a3903034c0c419585fe0a69609ac39d1557beb74fc88ed79a610194f66",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3ddbccc526661030104c49e74e9dae769d40660b964d12341f112823e2969210",
+      "password_sha256": "0deb17ef6d23a6126bd09e5d9fac4091c496e12f9dbe954c1c80ae6125e87491",
+      "preimage_hex": "64a8ec81cac80f8345a3903034c0c419585fe0a69609ac39d1557beb74fc88ed79a610194f66",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c066",
+      "password_expansion": "raw",
+      "password_hex": "700be117c1c99f79580b7bb6a3ce2b8e7a5ef83309f32da2dc5a71ed659318de1c3f9b884156",
+      "password_sha256": "e8368fdae82e56418564d5ff16e54430ea164e33292e42735acfd5731d998c5d",
+      "preimage_hex": "700be117c1c99f79580b7bb6a3ce2b8e7a5ef83309f32da2dc5a71ed659318de1c3f9b884156",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65383336386664616538326535363431383536346435666631366535343433306561313634653333323932653432373335616366643537333164393938633564",
+      "password_sha256": "93f7d3a8388e18340e5ca2fbf1b864c8bc6272a260edfe23465326dbc6ff80d8",
+      "preimage_hex": "700be117c1c99f79580b7bb6a3ce2b8e7a5ef83309f32da2dc5a71ed659318de1c3f9b884156",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e8368fdae82e56418564d5ff16e54430ea164e33292e42735acfd5731d998c5d",
+      "password_sha256": "069e3f4baf1db0a32d77b466b5b3774e4872206fa86a67d1e88f6f8310aecdbc",
+      "preimage_hex": "700be117c1c99f79580b7bb6a3ce2b8e7a5ef83309f32da2dc5a71ed659318de1c3f9b884156",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c069",
+      "password_expansion": "raw",
+      "password_hex": "70abf597d9d51f795a937b4653ced3307a5efab3950bb12ae262890d7513a6dea0bf63365158",
+      "password_sha256": "9f4a2bbd1c368d1e80f03dec12cb56def9b097a77eb09c0872137e0c63df744c",
+      "preimage_hex": "70abf597d9d51f795a937b4653ced3307a5efab3950bb12ae262890d7513a6dea0bf63365158",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39663461326262643163333638643165383066303364656331326362353664656639623039376137376562303963303837323133376530633633646637343463",
+      "password_sha256": "ecd24d69a33a72edc254e776edf24b4f9631abfcd1f2af2486893e68e0bc3d32",
+      "preimage_hex": "70abf597d9d51f795a937b4653ced3307a5efab3950bb12ae262890d7513a6dea0bf63365158",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9f4a2bbd1c368d1e80f03dec12cb56def9b097a77eb09c0872137e0c63df744c",
+      "password_sha256": "67a53cefe778c9f54641d47fda8713127b7f15bd69940d22f83a043ac3672e3b",
+      "preimage_hex": "70abf597d9d51f795a937b4653ced3307a5efab3950bb12ae262890d7513a6dea0bf63365158",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c072",
+      "password_expansion": "raw",
+      "password_hex": "73b7fb90d9d71e9254b29f3f43cfd328676eefb5a518bb48e0648afa830b97fc88b51f285e75",
+      "password_sha256": "332991ec916f8834d623321eea6ce6daba75eceeb94eae60ecf61ae18a536abe",
+      "preimage_hex": "73b7fb90d9d71e9254b29f3f43cfd328676eefb5a518bb48e0648afa830b97fc88b51f285e75",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33333239393165633931366638383334643632333332316565613663653664616261373565636565623934656165363065636636316165313861353336616265",
+      "password_sha256": "895941cf715a3c9fb037dc49b12a675dc937ffbb3c01da5bececcbaa08ab7a2a",
+      "preimage_hex": "73b7fb90d9d71e9254b29f3f43cfd328676eefb5a518bb48e0648afa830b97fc88b51f285e75",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "332991ec916f8834d623321eea6ce6daba75eceeb94eae60ecf61ae18a536abe",
+      "password_sha256": "d5816bb4b83093aa0a537d52e3f923ff5ab8d4224d7faa60b11efe8e7315e2f4",
+      "preimage_hex": "73b7fb90d9d71e9254b29f3f43cfd328676eefb5a518bb48e0648afa830b97fc88b51f285e75",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c075",
+      "password_expansion": "raw",
+      "password_hex": "8d4905702729e26eac4e61c1bd312dd89992114b5be845b8209c76067df56904784be1d8a28b",
+      "password_sha256": "40f98f79ee67798f2adc15ce36a0db490be5d1858616fd8a7378ba8dc7bd17d8",
+      "preimage_hex": "8d4905702729e26eac4e61c1bd312dd89992114b5be845b8209c76067df56904784be1d8a28b",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/right-minus-left",
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34306639386637396565363737393866326164633135636533366130646234393062653564313835383631366664386137333738626138646337626431376438",
+      "password_sha256": "9a7e2b1537f033832be581bb0fb0b67f57a9193ec0bcf1556d1f3039e5407e6a",
+      "preimage_hex": "8d4905702729e26eac4e61c1bd312dd89992114b5be845b8209c76067df56904784be1d8a28b",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/right-minus-left",
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "40f98f79ee67798f2adc15ce36a0db490be5d1858616fd8a7378ba8dc7bd17d8",
+      "password_sha256": "bf4bd2e08a2a7ab7ca8b2fedb88e7fa9de3faaa774c52cfd5e988f21a264b441",
+      "preimage_hex": "8d4905702729e26eac4e61c1bd312dd89992114b5be845b8209c76067df56904784be1d8a28b",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/right-minus-left",
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c078",
+      "password_expansion": "raw",
+      "password_hex": "9c58147f3638f17dbb5d70d0cc403ce7a8a1205a6af754c72fab85158c047813875af0e7b19a",
+      "password_sha256": "abf4ff23d3dfa83e5bda9a2b76f227afc59410c63c532db53476decf2d55b7eb",
+      "preimage_hex": "9c58147f3638f17dbb5d70d0cc403ce7a8a1205a6af754c72fab85158c047813875af0e7b19a",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/right-minus-left",
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61626634666632336433646661383365356264613961326237366632323761666335393431306336336335333264623533343736646563663264353562376562",
+      "password_sha256": "1a3eee5012e9075dafacb96fd9fe0e5ad472f7e3af18a0860d0da3147108393d",
+      "preimage_hex": "9c58147f3638f17dbb5d70d0cc403ce7a8a1205a6af754c72fab85158c047813875af0e7b19a",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/right-minus-left",
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "abf4ff23d3dfa83e5bda9a2b76f227afc59410c63c532db53476decf2d55b7eb",
+      "password_sha256": "8ae8ec938868e1e4e62cd4b772055261a8582030b157dafffdedd350884bf694",
+      "preimage_hex": "9c58147f3638f17dbb5d70d0cc403ce7a8a1205a6af754c72fab85158c047813875af0e7b19a",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/right-minus-left",
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c081",
+      "password_expansion": "raw",
+      "password_hex": "b3791d702729e292b47661c3dd335de8abb23f776be845d820ac8a0a850d773c885be1f8a2bd",
+      "password_sha256": "16df6632e3edf8817f46aa04ee2f89708b70371147fc4b04e315c86a0abdac25",
+      "preimage_hex": "b3791d702729e292b47661c3dd335de8abb23f776be845d820ac8a0a850d773c885be1f8a2bd",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31366466363633326533656466383831376634366161303465653266383937303862373033373131343766633462303465333135633836613061626461633235",
+      "password_sha256": "be4c52f2d4c5bafe74f918d04781a1f718b73276cfad479f21e3433f19b143ed",
+      "preimage_hex": "b3791d702729e292b47661c3dd335de8abb23f776be845d820ac8a0a850d773c885be1f8a2bd",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "16df6632e3edf8817f46aa04ee2f89708b70371147fc4b04e315c86a0abdac25",
+      "password_sha256": "215bceea7a9e45d7dc5c74659a46d6cfcc72f88976873bc828c5556c7d42cfe9",
+      "preimage_hex": "b3791d702729e292b47661c3dd335de8abb23f776be845d820ac8a0a850d773c885be1f8a2bd",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c084",
+      "password_expansion": "raw",
+      "password_hex": "b5871f88394bfea6c68a97f5df4d6316b5cc4179951867e65ad28e36ab0f89429265f3fabec3",
+      "password_sha256": "4de8904b49adc763143c6e9aaebdb63657fa602e6e039e31a55170b14d2d7368",
+      "preimage_hex": "b5871f88394bfea6c68a97f5df4d6316b5cc4179951867e65ad28e36ab0f89429265f3fabec3",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34646538393034623439616463373633313433633665396161656264623633363537666136303265366530333965333161353531373062313464326437333638",
+      "password_sha256": "e1dfe7a50bba71dada5bd99831e4ac2d769259f12d5c41c05cf84b085c4d11d1",
+      "preimage_hex": "b5871f88394bfea6c68a97f5df4d6316b5cc4179951867e65ad28e36ab0f89429265f3fabec3",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4de8904b49adc763143c6e9aaebdb63657fa602e6e039e31a55170b14d2d7368",
+      "password_sha256": "225131dbe6c6a663a4831950cd376c31e34f8fec15663579f0cb66dfd5d854a2",
+      "preimage_hex": "b5871f88394bfea6c68a97f5df4d6316b5cc4179951867e65ad28e36ab0f89429265f3fabec3",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c087",
+      "password_expansion": "raw",
+      "password_hex": "bc682c813658f383cb6790f0cc404c1bb8a120669a1974cb57df9b3bb41c882f9f6af0e7b3ae",
+      "password_sha256": "249742cbf6324fb991e30f9621b730536eeb6c3eb85469220dfc0b4bbc0279b2",
+      "preimage_hex": "bc682c813658f383cb6790f0cc404c1bb8a120669a1974cb57df9b3bb41c882f9f6af0e7b3ae",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32343937343263626636333234666239393165333066393632316237333035333665656236633365623835343639323230646663306234626263303237396232",
+      "password_sha256": "1cbb6617db87f29506b80f48f7ac45b393e10fe63078bad02ee9747d91a0b454",
+      "preimage_hex": "bc682c813658f383cb6790f0cc404c1bb8a120669a1974cb57df9b3bb41c882f9f6af0e7b3ae",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "249742cbf6324fb991e30f9621b730536eeb6c3eb85469220dfc0b4bbc0279b2",
+      "password_sha256": "aa79dfcc954a53aa299d8d5ef43767e048089bffd8717e38d4d001fbead6287e",
+      "preimage_hex": "bc682c813658f383cb6790f0cc404c1bb8a120669a1974cb57df9b3bb41c882f9f6af0e7b3ae",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v14c090",
+      "password_expansion": "raw",
+      "password_hex": "c4962e97485a0db5d599a604ee5c7225c4db5088a42776f569e19d45ba1e9851a1740209cdd2",
+      "password_sha256": "5fecc8f6814f9ca7428f9c7d9ef943e05e481329ead53cf7f8d255e98bb25409",
+      "preimage_hex": "c4962e97485a0db5d599a604ee5c7225c4db5088a42776f569e19d45ba1e9851a1740209cdd2",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35666563633866363831346639636137343238663963376439656639343365303565343831333239656164353363663766386432353565393862623235343039",
+      "password_sha256": "24891ee3b168c14c943b1055cf82a0afe93474b3b95583d3b94e9cf5e38b8066",
+      "preimage_hex": "c4962e97485a0db5d599a604ee5c7225c4db5088a42776f569e19d45ba1e9851a1740209cdd2",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5fecc8f6814f9ca7428f9c7d9ef943e05e481329ead53cf7f8d255e98bb25409",
+      "password_sha256": "bfdfabfcb48fa1e51b94c0ed7acac313335f81bd1528478b129639f45b215f52",
+      "preimage_hex": "c4962e97485a0db5d599a604ee5c7225c4db5088a42776f569e19d45ba1e9851a1740209cdd2",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c093",
+      "password_expansion": "raw",
+      "password_hex": "cd7909782735026ebed6710d21319dfadd92538bdbe8c93c26b076667df57710809b2106a28d",
+      "password_sha256": "d79a491351fce169044922a6f23d14c18b612f02df11ba729d6dfd5e15b16b4b",
+      "preimage_hex": "cd7909782735026ebed6710d21319dfadd92538bdbe8c93c26b076667df57710809b2106a28d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64373961343931333531666365313639303434393232613666323364313463313862363132663032646631316261373239643664666435653135623136623462",
+      "password_sha256": "ba3119514d82f2fec1000e8f58d4d2dcc9b8a5ebc48942c0ef99211073ae2b07",
+      "preimage_hex": "cd7909782735026ebed6710d21319dfadd92538bdbe8c93c26b076667df57710809b2106a28d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d79a491351fce169044922a6f23d14c18b612f02df11ba729d6dfd5e15b16b4b",
+      "password_sha256": "66d082759506fa8316180886eead8104236325d3b362b5f8d173d1821b957b26",
+      "preimage_hex": "cd7909782735026ebed6710d21319dfadd92538bdbe8c93c26b076667df57710809b2106a28d",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c096",
+      "password_expansion": "raw",
+      "password_hex": "cdfd59fc413582cebee6d19db3312982ddb2530de964118436b8ee66cf7707300423cb96b4ad",
+      "password_sha256": "e35bf3e97defe2ea924a3ca9b4f30c412463c0afde6dabe7704632fef8a21e2d",
+      "preimage_hex": "cdfd59fc413582cebee6d19db3312982ddb2530de964118436b8ee66cf7707300423cb96b4ad",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65333562663365393764656665326561393234613363613962346633306334313234363363306166646536646162653737303436333266656638613231653264",
+      "password_sha256": "bcbfb7212eb868a00b081e25ec26908d539e162aebd4bc14ee18599b30bc2399",
+      "preimage_hex": "cdfd59fc413582cebee6d19db3312982ddb2530de964118436b8ee66cf7707300423cb96b4ad",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e35bf3e97defe2ea924a3ca9b4f30c412463c0afde6dabe7704632fef8a21e2d",
+      "password_sha256": "a43d9fa6f5107179555c793bb37b4ce65809932070d343dd4abc74bfa2b98f72",
+      "preimage_hex": "cdfd59fc413582cebee6d19db3312982ddb2530de964118436b8ee66cf7707300423cb96b4ad",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c099",
+      "password_expansion": "raw",
+      "password_hex": "d0095ff5413781e7b805f596a332297acac2480ff9711ba234baef53dd6ff84eec198788c1ca",
+      "password_sha256": "d768d70b850d55488902c470ad268d68a9e4b89082276c9d87c2246b1c8ff20b",
+      "preimage_hex": "d0095ff5413781e7b805f596a332297acac2480ff9711ba234baef53dd6ff84eec198788c1ca",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64373638643730623835306435353438383930326334373061643236386436386139653462383930383232373663396438376332323436623163386666323062",
+      "password_sha256": "ceee15ad78931f89d08dc91af8e834d78022d7f18c934c80c3b4466032114f11",
+      "preimage_hex": "d0095ff5413781e7b805f596a332297acac2480ff9711ba234baef53dd6ff84eec198788c1ca",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d768d70b850d55488902c470ad268d68a9e4b89082276c9d87c2246b1c8ff20b",
+      "password_sha256": "c39599913e2ec66760e3bc33c50dbfc3db466f596628524ada86ca7ee188679f",
+      "preimage_hex": "d0095ff5413781e7b805f596a332297acac2480ff9711ba234baef53dd6ff84eec198788c1ca",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c102",
+      "password_expansion": "raw",
+      "password_hex": "dc0c680b504491ddcdf5e0acc2403891ecc1621cf873209345c7fd75de86163f1332daa5c3bc",
+      "password_sha256": "c2171abde22898b4b27d8e24808c5312b8f5c2ff8ecbeacaca0f1a33d0b84fd6",
+      "preimage_hex": "dc0c680b504491ddcdf5e0acc2403891ecc1621cf873209345c7fd75de86163f1332daa5c3bc",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c103",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63323137316162646532323839386234623237643865323438303863353331326238663563326666386563626561636163613066316133336430623834666436",
+      "password_sha256": "74ea753ac67be1b3ebf7e5bce1d79d82d931466ffcdaae972eea7e5c2d1b78f8",
+      "preimage_hex": "dc0c680b504491ddcdf5e0acc2403891ecc1621cf873209345c7fd75de86163f1332daa5c3bc",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c104",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c2171abde22898b4b27d8e24808c5312b8f5c2ff8ecbeacaca0f1a33d0b84fd6",
+      "password_sha256": "b61f97f8100a615d24a051f53a9bbe5daf898793b0976e1fb497f4da190a11d6",
+      "preimage_hex": "dc0c680b504491ddcdf5e0acc2403891ecc1621cf873209345c7fd75de86163f1332daa5c3bc",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c105",
+      "password_expansion": "raw",
+      "password_hex": "dc6c548b383811ddcb6de01c124090efecc1609c6c5b9c0b3fbfe555ce06883f8fb212f7b3ba",
+      "password_sha256": "208b9e60a1cc038792697301e625e02ea55d08bc1d6ef2cf384c3190a8a13ec3",
+      "preimage_hex": "dc6c548b383811ddcb6de01c124090efecc1609c6c5b9c0b3fbfe555ce06883f8fb212f7b3ba",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c106",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32303862396536306131636330333837393236393733303165363235653032656135356430386263316436656632636633383463333139306138613133656333",
+      "password_sha256": "af574ad927a01e28553dfcc9430825cda18a929e19e874ec311cf8ff27a36f9f",
+      "preimage_hex": "dc6c548b383811ddcb6de01c124090efecc1609c6c5b9c0b3fbfe555ce06883f8fb212f7b3ba",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c107",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "208b9e60a1cc038792697301e625e02ea55d08bc1d6ef2cf384c3190a8a13ec3",
+      "password_sha256": "d52936041ed1ead175b223926bb000302cfd5b989fca4ff96270e09b14629411",
+      "preimage_hex": "dc6c548b383811ddcb6de01c124090efecc1609c6c5b9c0b3fbfe555ce06883f8fb212f7b3ba",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c108",
+      "password_expansion": "raw",
+      "password_hex": "df186e04504690f6c71404a5b2413889d9d1571e08802ab143c9fe62ec7e075dfb289697d0d9",
+      "password_sha256": "bdfdb493f3cd3d2ac16a92492061102d7723f0dcab9e60091518eeef21d1312a",
+      "preimage_hex": "df186e04504690f6c71404a5b2413889d9d1571e08802ab143c9fe62ec7e075dfb289697d0d9",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c109",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62646664623439336633636433643261633136613932343932303631313032643737323366306463616239653630303931353138656565663231643133313261",
+      "password_sha256": "4a0796c997aa391242f4db177c2d049513cbc718dd4c24a30f4f8645228cabaf",
+      "preimage_hex": "df186e04504690f6c71404a5b2413889d9d1571e08802ab143c9fe62ec7e075dfb289697d0d9",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c110",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bdfdb493f3cd3d2ac16a92492061102d7723f0dcab9e60091518eeef21d1312a",
+      "password_sha256": "8228caf9c6bb3398ea3f04b320b1aec4be0dbd709e9193b80db7a34800aaafc1",
+      "preimage_hex": "df186e04504690f6c71404a5b2413889d9d1571e08802ab143c9fe62ec7e075dfb289697d0d9",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v14c111",
+      "password_expansion": "raw",
+      "password_hex": "f53b731453579e06d82207d1d54d5fc0f9ec833b239433b270ee0696fd91276e1e3dddb8d0e5",
+      "password_sha256": "15363c5f738eed73ad72bc13ef5bd0d8a18f83cb916c63fec0bf82aa1cd3e2a2",
+      "preimage_hex": "f53b731453579e06d82207d1d54d5fc0f9ec833b239433b270ee0696fd91276e1e3dddb8d0e5",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c112",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31353336336335663733386565643733616437326263313365663562643064386131386638336362393136633633666563306266383261613163643365326132",
+      "password_sha256": "6827bc85c1e1acac380e678d5b55eebc5a8d9dc4139e34902107ac8a766d940d",
+      "preimage_hex": "f53b731453579e06d82207d1d54d5fc0f9ec833b239433b270ee0696fd91276e1e3dddb8d0e5",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c113",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "15363c5f738eed73ad72bc13ef5bd0d8a18f83cb916c63fec0bf82aa1cd3e2a2",
+      "password_sha256": "6024efa9f79b03c180f10a1f4bbb655551705ead993359b7228c1dc118b5b704",
+      "preimage_hex": "f53b731453579e06d82207d1d54d5fc0f9ec833b239433b270ee0696fd91276e1e3dddb8d0e5",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c114",
+      "password_expansion": "raw",
+      "password_hex": "f5b7239039571ea6d812a741434dd338f9cc83b91518eb6a60e68e96ab0f974e9ab53328bec5",
+      "password_sha256": "22ef787589e832f5b3d0eb6b1bde1c4df0c67e0fae06227666aa5f218667e607",
+      "preimage_hex": "f5b7239039571ea6d812a741434dd338f9cc83b91518eb6a60e68e96ab0f974e9ab53328bec5",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c115",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32326566373837353839653833326635623364306562366231626465316334646630633637653066616530363232373636366161356632313836363765363037",
+      "password_sha256": "f955257c6bf3b990d4989407d10cf415ba201e5e69a04fcdcb6faf5a7cd6eede",
+      "preimage_hex": "f5b7239039571ea6d812a741434dd338f9cc83b91518eb6a60e68e96ab0f974e9ab53328bec5",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c116",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "22ef787589e832f5b3d0eb6b1bde1c4df0c67e0fae06227666aa5f218667e607",
+      "password_sha256": "0fb90337849930b98339b10fd2cf2d5a016cb76e6d20d4ab217f9baea882c309",
+      "preimage_hex": "f5b7239039571ea6d812a741434dd338f9cc83b91518eb6a60e68e96ab0f974e9ab53328bec5",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a0/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v14c117",
+      "password_expansion": "raw",
+      "password_hex": "fc56925db6a6d3eb1b57eab0cca43ad3f80570365a7542c7870b037b04e058835734dce7310e",
+      "password_sha256": "4087c85faa76c0547224564e916d067eace88a0efc00fac404ee81fa67801cbd",
+      "preimage_hex": "fc56925db6a6d3eb1b57eab0cca43ad3f80570365a7542c7870b037b04e058835734dce7310e",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c118",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34303837633835666161373663303534373232343536346539313664303637656163653838613065666330306661633430346565383166613637383031636264",
+      "password_sha256": "f39451472323c9c3593f39d8f64872b3df9412d95b75fe2a6ca4a8b07d8f09eb",
+      "preimage_hex": "fc56925db6a6d3eb1b57eab0cca43ad3f80570365a7542c7870b037b04e058835734dce7310e",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c119",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4087c85faa76c0547224564e916d067eace88a0efc00fac404ee81fa67801cbd",
+      "password_sha256": "f17dfb87c5fce17537d9711976163e178b78fb2cf54048d8ca6012513a4c67dd",
+      "preimage_hex": "fc56925db6a6d3eb1b57eab0cca43ad3f80570365a7542c7870b037b04e058835734dce7310e",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c120",
+      "password_expansion": "raw",
+      "password_hex": "fcb67edd9e9a53eb19cfea201ca49231f8056eb6ce5dbe3f8103eb5bf460ca83d3b41439210c",
+      "password_sha256": "cce59321f5fdb675f9bcacccb5b1c6997f9741bb3d7224911183169aea0a809e",
+      "preimage_hex": "fcb67edd9e9a53eb19cfea201ca49231f8056eb6ce5dbe3f8103eb5bf460ca83d3b41439210c",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c121",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63636535393332316635666462363735663962636163636362356231633639393766393734316262336437323234393131313833313639616561306138303965",
+      "password_sha256": "af6d1a201de10f39a796c27267ee9fb822783980bcb23de3b23653df661b32b8",
+      "preimage_hex": "fcb67edd9e9a53eb19cfea201ca49231f8056eb6ce5dbe3f8103eb5bf460ca83d3b41439210c",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v14c122",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cce59321f5fdb675f9bcacccb5b1c6997f9741bb3d7224911183169aea0a809e",
+      "password_sha256": "2e71900d3c2572864a074771e553582252e42254adb6e7cbad4b93e674f45cdb",
+      "preimage_hex": "fcb67edd9e9a53eb19cfea201ca49231f8056eb6ce5dbe3f8103eb5bf460ca83d3b41439210c",
+      "provenance": [
+        "url-lsb-prime-reinsertion/bridge/a1/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "direct_decoded_and_bridge_bytes_are_evaluated_for_readable_or_exact_structure": true,
+    "forbidden_evidence": [
+      "expected padding length",
+      "community plus/minus block grammar",
+      "Half/Better Half",
+      "target point or address",
+      "known community plaintext hashes"
+    ],
+    "inherits_v1_rules_verbatim": true,
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v13_manifest_sha256": "11577dae8a3fe114226a7e583fdd966ed0d647dc618378a0c3e7d9cbd614a969",
+  "schema": "salphaseion-source-only-preregistration-v14-url-lsb-primes",
+  "source": {
+    "architect_instruction": "REINSERTING THE PRIME BASICS",
+    "ascii_lsb_bits": "111101110011110110010010",
+    "ascii_lsb_hex": "F73D92",
+    "bridge_records": [
+      {
+        "operation": "xor",
+        "result_sha256": "91da00cdaa68ac3abd3272b9ee3f38494e1b4cc932c39ce81400b7621cc857a3",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "left-plus-right",
+        "result_sha256": "2354ef78fd2c8bac566ef9ae961a0452444cd4d3ad1364266472fc45999be41b",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "left-minus-right",
+        "result_sha256": "bdfdb493f3cd3d2ac16a92492061102d7723f0dcab9e60091518eeef21d1312a",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "right-minus-left",
+        "result_sha256": "0922f21ead9baa00ca85187b8ae3622e99d100bbbc732b651c8cfee14188f9c5",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "xor",
+        "result_sha256": "e8368fdae82e56418564d5ff16e54430ea164e33292e42735acfd5731d998c5d",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "left-plus-right",
+        "result_sha256": "9f4a2bbd1c368d1e80f03dec12cb56def9b097a77eb09c0872137e0c63df744c",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "left-minus-right",
+        "result_sha256": "d768d70b850d55488902c470ad268d68a9e4b89082276c9d87c2246b1c8ff20b",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "right-minus-left",
+        "result_sha256": "cfddf6577a913ba1443e07a73a45104fbe527b8a77fe31bc5fc75602e574a1c6",
+        "s570_origin": "a1"
+      }
+    ],
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "cardinality_rule": "24 URL character LSBs exactly match 24 primes <= 91",
+    "decoded_length": 38,
+    "decoded_sha256": "5ab2b8599ac29ec8220a5af35fe909d89c3675d33000c7c8d38d31a03e8ce825",
+    "prime_positions_one_based": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "reinsertion_rule": "replace prime positions with LSB digits; preserve S91 values at every non-prime position",
+    "spiral_text": "gsmg.io/theseedisplanted",
+    "spiral_text_length": 24,
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "NO_REPEATING_XOR_CRIB_SURVIVOR",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "periods_tested": [
+    1,
+    64
+  ],
+  "cribs": {
+    "prime_basics": "REINSERTING THE PRIME BASICS",
+    "private_key": "please take the private key",
+    "ciao_bella": "CIAO BELLA O"
+  },
+  "minimum_shared_key_constraints": 4,
+  "printable_threshold": 0.85,
+  "consistent_crib_pairs": 0,
+  "unique_full_period_keys": 0,
+  "language_survivors": [],
+  "target_matches": [],
+  "scope_note": "This tests exact-case quoted cribs under repeating-byte XOR only. It does not test Beaufort, VIC, transposition, or approximate plaintext variants."
+}

@@ -1,0 +1,92 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "source": {
+    "passport_mask": "10111100111110110110011",
+    "password_sets": {
+      "diagonals-drop-blank": [
+        "M",
+        "FK",
+        "NP",
+        "CFWQ",
+        "YJT",
+        "JL",
+        "X"
+      ],
+      "diagonals-A0-blank": [
+        "M",
+        "FK",
+        "ANP",
+        "CFWQ",
+        "YJT",
+        "JL",
+        "X"
+      ],
+      "diagonals-playfair-null": [
+        "M",
+        "FK",
+        "XNP",
+        "CFWQ",
+        "YJT",
+        "JL",
+        "X"
+      ],
+      "diagonal-A0-sums": [
+        "M",
+        "P",
+        "C",
+        "T",
+        "A",
+        "U",
+        "X"
+      ],
+      "diagonal-hill-three": [
+        "K",
+        "T",
+        "G",
+        "F",
+        "A",
+        "I",
+        "R"
+      ],
+      "direct-mask-seven-A0": [
+        "A",
+        "C",
+        "G",
+        "S",
+        "Y",
+        "M",
+        "D"
+      ],
+      "direct-mask-seven-X": [
+        "X",
+        "C",
+        "G",
+        "S",
+        "Y",
+        "M",
+        "D"
+      ],
+      "direct-mask-seven-hill": [
+        "A",
+        "G",
+        "S",
+        "C",
+        "U",
+        "K",
+        "J"
+      ]
+    },
+    "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+    "block_count": 35,
+    "identity": "35 = C(7,3) = C(7,4)"
+  },
+  "counts": {
+    "models": 1952,
+    "cipher_operations": 1093120,
+    "point_gated_candidates": 4997120
+  },
+  "candidate_stream_sha256": "7a890cfc6a3fa2cb96ea125d0ec1c9a6f8df23ca2601b6b118ae3c797b13f2c4",
+  "accepted_matches": [],
+  "acceptance_rule": "complete target point and uncompressed target address",
+  "scope": "No plaintext scoring; only the eight literal seven-component readings, C(7,3)/C(7,4), AES, XOR-triangle/even reductions, and the visible Chain 4 operand."
+}

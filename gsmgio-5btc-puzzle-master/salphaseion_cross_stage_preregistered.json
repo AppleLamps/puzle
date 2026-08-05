@@ -1,0 +1,194 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "declared_acceptance": {
+    "forbidden": [
+      "splitting stage-one plaintext into fitted fields",
+      "expected padding length",
+      "Half/Better Half",
+      "target point or address",
+      "known community plaintext hashes"
+    ],
+    "padding_alone": false,
+    "required": "readable UTF-8 English-like text or an exact parser/checksum format",
+    "second_stage_only": true
+  },
+  "inputs": [
+    {
+      "candidate_count": 376,
+      "path": "salphaseion_preregistered_candidates.json",
+      "seal_path": "salphaseion_preregistered_candidates.sha256",
+      "sha256": "80dcc2107c987a22f1d19f54d6c432665d9a80ceb6fdbe8087be5b6d96442acd"
+    },
+    {
+      "candidate_count": 488,
+      "path": "salphaseion_preregistered_candidates_v2.json",
+      "seal_path": "salphaseion_preregistered_candidates_v2.sha256",
+      "sha256": "4bdf450feeabed77e64be776f8c638513b4070cb91313c387da297226a5893cc"
+    },
+    {
+      "candidate_count": 428,
+      "path": "salphaseion_preregistered_candidates_v3.json",
+      "seal_path": "salphaseion_preregistered_candidates_v3.sha256",
+      "sha256": "bffe811d793a42ed9e86123eb44e708240094df15f3a94eacd5478eb329d672d"
+    },
+    {
+      "candidate_count": 516,
+      "path": "salphaseion_preregistered_candidates_v4.json",
+      "seal_path": "salphaseion_preregistered_candidates_v4.sha256",
+      "sha256": "dda65d6a460b24a26a479809e02e07a0e51374763d4cdda4adb467c826658c19"
+    },
+    {
+      "candidate_count": 600,
+      "path": "salphaseion_preregistered_candidates_v5.json",
+      "seal_path": "salphaseion_preregistered_candidates_v5.sha256",
+      "sha256": "b4c553f2faf3b2210e0685950e392a09f062e1d65aef4cf3b58fd61ceffb1d6b"
+    },
+    {
+      "candidate_count": 282,
+      "path": "salphaseion_preregistered_candidates_v6.json",
+      "seal_path": "salphaseion_preregistered_candidates_v6.sha256",
+      "sha256": "cd5c4f86197f112fec3034ad19c0a3309a4a0a5434e74626167cfb8ae7635ead"
+    },
+    {
+      "candidate_count": 102,
+      "path": "salphaseion_preregistered_candidates_v7.json",
+      "seal_path": "salphaseion_preregistered_candidates_v7.sha256",
+      "sha256": "4f68ed0830942edc4073e5fcd2e8fbc1693ba14426a8eb4d76e8bcb48f7f7d86"
+    },
+    {
+      "candidate_count": 636,
+      "path": "salphaseion_preregistered_candidates_v8.json",
+      "seal_path": "salphaseion_preregistered_candidates_v8.sha256",
+      "sha256": "624f960158a4edd1f0f418e298bef3b8d987304a49069d99d42618bb83f16a3d"
+    },
+    {
+      "candidate_count": 2436,
+      "path": "salphaseion_preregistered_candidates_v9.json",
+      "seal_path": "salphaseion_preregistered_candidates_v9.sha256",
+      "sha256": "e58643f4d024e48f6ac39c26cbc7c7a8c811717635d4d968804cb63d43f30b9b"
+    },
+    {
+      "candidate_count": 2967,
+      "path": "salphaseion_preregistered_candidates_v10.json",
+      "seal_path": "salphaseion_preregistered_candidates_v10.sha256",
+      "sha256": "2a1a79ab793105e0bde6b50921fe54e42c33c54c5ee93cc20e011b2b8294abf0"
+    },
+    {
+      "candidate_count": 1278,
+      "path": "salphaseion_preregistered_candidates_v11.json",
+      "seal_path": "salphaseion_preregistered_candidates_v11.sha256",
+      "sha256": "f308b9a2f812c228acee2001ed5da5c8b228640255e2ab053d229cf7f5aa21df"
+    },
+    {
+      "candidate_count": 18,
+      "path": "salphaseion_preregistered_candidates_v12.json",
+      "seal_path": "salphaseion_preregistered_candidates_v12.sha256",
+      "sha256": "97a9d1d79f4021927a82808b0ccf7712271c8a2c1292635b1f2856db4ff489c0"
+    },
+    {
+      "candidate_count": 228,
+      "path": "salphaseion_preregistered_candidates_v13.json",
+      "seal_path": "salphaseion_preregistered_candidates_v13.sha256",
+      "sha256": "11577dae8a3fe114226a7e583fdd966ed0d647dc618378a0c3e7d9cbd614a969"
+    },
+    {
+      "candidate_count": 123,
+      "path": "salphaseion_preregistered_candidates_v14.json",
+      "seal_path": "salphaseion_preregistered_candidates_v14.sha256",
+      "sha256": "b574912c561f610682d398197e131b932831ca34d074c21af7d5b64ff680c739"
+    },
+    {
+      "candidate_count": 192,
+      "path": "salphaseion_preregistered_candidates_v15.json",
+      "seal_path": "salphaseion_preregistered_candidates_v15.sha256",
+      "sha256": "7fdcb4000a6dca8c6ef6b81b65770269a5fc6534a739cf74971913bc8c3a4ac0"
+    },
+    {
+      "candidate_count": 123,
+      "path": "salphaseion_preregistered_candidates_v16.json",
+      "seal_path": "salphaseion_preregistered_candidates_v16.sha256",
+      "sha256": "7d1159faed85eac1fe42f131348dc048afdbd56c7c3aa5a6172a32ba4866dea4"
+    },
+    {
+      "candidate_count": 120,
+      "path": "salphaseion_preregistered_candidates_v17.json",
+      "seal_path": "salphaseion_preregistered_candidates_v17.sha256",
+      "sha256": "573da64cb422f81cdc2741a0505ce8927ebdc2931d1117ab10fc03a590589fa1"
+    },
+    {
+      "candidate_count": 450,
+      "path": "salphaseion_preregistered_candidates_v18.json",
+      "seal_path": "salphaseion_preregistered_candidates_v18.sha256",
+      "sha256": "50211f08358ac12cc3998dd9637aa38431ef434d9642a0b8f1c412ec6f6aca46"
+    },
+    {
+      "candidate_count": 123,
+      "path": "salphaseion_preregistered_candidates_v19.json",
+      "seal_path": "salphaseion_preregistered_candidates_v19.sha256",
+      "sha256": "873b70d32ce418330209e2757dada56a81014bf78778738fc721a832ca2e6f42"
+    },
+    {
+      "candidate_count": 72,
+      "path": "salphaseion_preregistered_candidates_v20.json",
+      "seal_path": "salphaseion_preregistered_candidates_v20.sha256",
+      "sha256": "ddf24693fc929ddf1214cb83c1de23a1a5c6c7ccf7a95eec6828a3f8ed9219ca"
+    },
+    {
+      "candidate_count": 144,
+      "path": "salphaseion_preregistered_candidates_v21.json",
+      "seal_path": "salphaseion_preregistered_candidates_v21.sha256",
+      "sha256": "84790be5d5cd9a82ade81c6fc21a33b621c7950b72014e04c55a5b63d393cbde"
+    },
+    {
+      "candidate_count": 162,
+      "path": "salphaseion_preregistered_candidates_v22.json",
+      "seal_path": "salphaseion_preregistered_candidates_v22.sha256",
+      "sha256": "c243f6b04f7c8f92bba0c58ff8d2e2d6a6b1abbc63e6bff10cdde0f8965d4f74"
+    }
+  ],
+  "rationale": "mechanically decoded 'shabefanstoo' means SHA256 answer too; this rule can authenticate an otherwise binary first-stage answer by unlocking a different blob",
+  "schema": "salphaseion-cross-stage-preregistration-v1",
+  "stage_one": {
+    "candidate_scope": "every password record in sealed v1-v22 manifests",
+    "cipher": "AES-256-CBC",
+    "gate": "strict PKCS#7 only; no plaintext inspection or selection",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ]
+  },
+  "stage_two": {
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "source": "the entire unmodified stage-one plaintext",
+    "target_scope": "each of the other two independently salted blobs"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION",
+  "total_candidate_records": 11864
+}

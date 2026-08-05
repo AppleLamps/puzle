@@ -1,0 +1,1391 @@
+{
+  "status": "NO_NEW_AUTHENTICATED_PATH",
+  "evidence_boundary": "The source fields, image pixels, envelopes, and canonical downstream controls are authenticated. Candidate matrix layouts, sums, routes, alphabets, insertions, and hash spellings are an explicitly enumerated interpretation family, not creator-documented rules.",
+  "source_corrections": {
+    "verified_row_sums": [
+      6,
+      10,
+      8,
+      7,
+      6,
+      6,
+      5,
+      5,
+      9,
+      9,
+      7,
+      8,
+      7,
+      9
+    ],
+    "supplied_row_sums": [
+      6,
+      10,
+      8,
+      7,
+      6,
+      6,
+      5,
+      4,
+      9,
+      9,
+      7,
+      8,
+      7,
+      9
+    ],
+    "verified_column_sums": [
+      8,
+      10,
+      8,
+      10,
+      8,
+      7,
+      4,
+      6,
+      7,
+      5,
+      9,
+      6,
+      6,
+      8
+    ],
+    "supplied_column_sums": [
+      8,
+      10,
+      8,
+      10,
+      8,
+      7,
+      3,
+      6,
+      7,
+      5,
+      9,
+      6,
+      6,
+      8
+    ],
+    "verified_total_ones": 102,
+    "supplied_total_ones": 101,
+    "verified_colored_bits_blue1_yellow0": "101111100010101110011011",
+    "verified_colored_hex": "BE2B9B",
+    "supplied_colored_bits": "111101110011110110010010",
+    "supplied_colored_hex": "F73D92",
+    "both_verified_and_supplied_variants_tested": true
+  },
+  "authenticated_inputs": {
+    "chain1_salt": "3ab585348552415d",
+    "chain2_salt": "b45a5e3d827593ca",
+    "cosmic_salt": "2d3f6fe06dc950e6",
+    "s91_length": 91,
+    "s91_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "binary104_length": 104,
+    "binary104_sha256": "29b59b580d592d009d10d3513e92b4466c79934cbf1a8b7d5710e23b924626a5",
+    "s570_length": 570,
+    "s570_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+    "lastwords_length": 26,
+    "lastwords_unique_letters": "lastwordbefchi",
+    "lastwords_missing_letters": "gjkmnpquvxyz"
+  },
+  "candidate_family": {
+    "raw_generation_records_by_category": {
+      "access-loop": 5,
+      "colored-cells": 32,
+      "direct-token-checklist": 11,
+      "enter-insertion": 56448,
+      "half-message": 10,
+      "last-bit-reuse": 7,
+      "lastwords-alphabet": 15,
+      "lastwords-vic": 2136,
+      "original-grid": 90,
+      "positive-control": 2,
+      "s570-route": 2562,
+      "s570-sum-list": 640,
+      "s91-index-s570": 2240,
+      "s91-keyed-columns": 2,
+      "s91-route": 2562,
+      "s91-sum-list": 6336,
+      "vic-message": 4
+    },
+    "unique_preimages": 17614,
+    "password_expansions": [
+      "raw",
+      "SHA256 digest bytes",
+      "SHA256 lower/upper hex ASCII",
+      "SHA256 of digest bytes",
+      "SHA256 of lower-hex text",
+      "lower-hex spellings of both"
+    ],
+    "unique_password_bytes": 140908,
+    "decryptions_per_envelope": 281816,
+    "random_strict_pkcs7_expected_approximately": 1105.1607843137256,
+    "password_candidate_stream_sha256": "9f7597e0c1bc48d01de038a16eb8a2cc39a6162bd5a330e18a3b9491efc8da04",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "tested_envelopes": [
+      "SalPhaseIon short",
+      "Phase 3.2 small",
+      "Cosmic Duality"
+    ],
+    "vic_decoded_outputs": 2136,
+    "vic_invalid_route_parameter_records": 424,
+    "matrix_outputs_used_by_enter_grammar": 7056
+  },
+  "acceptance_gates": {
+    "padding_is_not_acceptance": true,
+    "short_blob": "strict PKCS#7, then exactly 79 bytes and a valid first-field scalar",
+    "coupled_small_blob": "WIF(first 32 bytes) must strictly decrypt the independent small blob",
+    "embedded_chain4": "extensions plus Cosmic E_B prefix must decrypt to 1151 bytes, '+-' marker, and 35 aligned 32-byte blocks",
+    "prize": "candidate scalar must derive the exact compressed target point"
+  },
+  "strict_padding_hit_counts": {
+    "chain1": 1090,
+    "chain1-to-chain2": 13,
+    "cosmic": 1154,
+    "chain2-direct": 1033
+  },
+  "chain1_padding_audit": {
+    "count": 1090,
+    "plaintext_length_histogram": {
+      "78": 8,
+      "79": 1082
+    },
+    "known_plaintext_hits": [
+      {
+        "password_sha256": "a35346830e8e94ea068ec6606a59f2bd7b21c2ad1fe042a05c9b75b740b85f28",
+        "password_length": 69,
+        "sources": [
+          "direct-token-checklist/7/raw",
+          "positive-control/canonical-chain1-password/raw"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+        "known_chain1": true
+      }
+    ],
+    "first_padding_luck_samples": [
+      {
+        "password_sha256": "247c62df3a329897b766572dfbdd129dde64c0a343ac3e0522a872e87dbb6382",
+        "password_length": 32,
+        "sources": [
+          "direct-token-checklist/3/sha256-digest"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "26899b4104677f2e34bac8f285063d6b416b83d6be00c77a5998067828dae0ad",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "aad0647dca7ee22efe4df5c708b113b2436129e7489bb59d04a5d1b119e00519",
+        "password_length": 32,
+        "sources": [
+          "direct-token-checklist/5/sha256-of-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "477cb845d897734e668182b796a6c9ccea8c46f67df7b4872117e5096c36d87a",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "a35346830e8e94ea068ec6606a59f2bd7b21c2ad1fe042a05c9b75b740b85f28",
+        "password_length": 69,
+        "sources": [
+          "direct-token-checklist/7/raw",
+          "positive-control/canonical-chain1-password/raw"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+        "known_chain1": true
+      },
+      {
+        "password_sha256": "1dd4e6798f2dbc2f8fc2953dc7ac2bb48f2469fec204366a09565069daeabd68",
+        "password_length": 64,
+        "sources": [
+          "access-loop/access-preimage/sha256-of-lowerhex-lowerhex",
+          "access-loop/access-hash-lowerhex/sha256-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "bad70a4b6f13b9e923dc81a82634c0906a9c007864cc3ce5612d10def25a4755",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "d26c7b380cdd069430767ad4dcabe4d1f0d9678677abbed07930720b3b34cb0b",
+        "password_length": 10,
+        "sources": [
+          "half-message/5/raw"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "0d81cc44e639827cee353fef66f4ce02866597bcb198fed36886833d27e2b5a6",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "1cc8140bf3457343aac1aba6e78650344cf302c82b783529926ada7e0fd679c2",
+        "password_length": 32,
+        "sources": [
+          "half-message/8/sha256-of-digest"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "7e50f9188d95ded0625871b2cb9b81da11be07fefd3257ab7120d101153ff209",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "d297356b4025e65da8b1afcc5f99dd128aeac669c81078ec170b0e754169bfa3",
+        "password_length": 32,
+        "sources": [
+          "half-message/9/sha256-digest"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "824aa8332fefd21afe0e0df8ca3bfee18dbfbe351071f190fcf8765fbcec02e0",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "a66c6b3dc53be4488736ae19bb56217f210e21b6750fc579ee02665900b72c71",
+        "password_length": 64,
+        "sources": [
+          "original-grid/verified/rows/space/sha256-upperhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "66279d53f0a763e18bca3f5ee192c56c99f0d18f57a77acbecd5983021b938f1",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "295301e86ff5baad89c0f6f64e64b6f2d93717d5e6608d7b799f85b777647113",
+        "password_length": 64,
+        "sources": [
+          "original-grid/verified/rows/uint16be/sha256-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "1f8d725b2f8c7b0107c776a4fb3e675ff0fd84265ec4f5d551726e1c69a78f72",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "a906efe6b2cc0ad214b0b8ca79cdffa27a1869632dca3ffc0e01018f775fea03",
+        "password_length": 56,
+        "sources": [
+          "original-grid/verified/rows-plus-columns/hex2/raw"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "7c29c13a9bf0282b01cec9182d9f5e3a5d74cb8bfb9405c79ab20cd8bb7d1f96",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "e5e564698ae9e4d04680a2a93a3da219fe20c342aeac392da025900b3fcbd985",
+        "password_length": 64,
+        "sources": [
+          "original-grid/supplied-transcription/rows-plus-columns/uint16be/sha256-upperhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "c11435c8fce94bfe4a4cf6e3e17fbcd2556c12b7f74efee670c0f6d736794018",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "bbbee2ea680fb0ed4acafd081900ea4891c07245bfa71b1708026a52ef2f17d7",
+        "password_length": 64,
+        "sources": [
+          "colored-cells/supplied-transcription/inverted/decimal/sha256-of-digest-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "87104c420671d2206e37b037ab70b588bfc4e89105c70dd18eb6a36dccecdd50",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "4cfa790ae53a2eb8efd15cd9a12cbd8c69a453d7086e9d715439c3949eb74543",
+        "password_length": 14,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/rows/identity/hex2/raw",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/identity/hex2/raw",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/identity/hex2/raw",
+          "s91-sum-list/S91/one-based/13x7/rot270/columns/identity/hex2/raw"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "6fe2351d18f7c8da4a979a5326bc00a2a6af93d00da198a15918cdeefbf9bd96",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "079097607c37ed1a47bfcc8024edee2ee3935fda6260dca04880094458302e14",
+        "password_length": 64,
+        "sources": [
+          "s91-index-s570/S91/one-based/7x13/rot0/rows/mod26/zero-based-direct/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0/rows/mod26/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0/rows/mod26-zero-to26/zero-based-direct/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0/rows/mod26-zero-to26/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/rows/mod26/zero-based-direct/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/rows/mod26/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/rows/mod26-zero-to26/zero-based-direct/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/rows/mod26-zero-to26/zero-based-mod570/sha256-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "7ce256dd4be86cb436ac115f3e88d02fc4cc5dc66c1eebaee60ef552ea49820f",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "65326757cc4abb502f0c1ca97ce16ddedd2f964b2897b5a4fefd09995ad976be",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/identity/uint16be/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/identity/uint16be/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/identity/uint16be/sha256-of-digest",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/identity/uint16be/sha256-of-digest"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "05898a3f0385d10a24f63db79e02e1f1a54068e55c21cefe50ee855e93c55ed9",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "03028cc38806ea2ef59627287da890a1ef6e1e33da2a326eaae7694bb91bae28",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/mod10/concat/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/mod10/concat/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/mod10/concat/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/mod10/concat/sha256-of-digest-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "e1b6f4bf85896565ea255d1c0ec7baaef4bc85ef2734647d0328f77380fb7152",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "9969783c466c287b6dece4945cf9b2a0dab2d672b96ae844dd45c8d5faac6d3e",
+        "password_length": 26,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/mod10/uint16be/raw",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/mod10/uint16be/raw",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/mod10/uint16be/raw",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/mod10/uint16be/raw"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "93353f144bf944e0db97a6b62be8b2c40df882d90f78a5b0ed6f4c38e263c04d",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "91e070542bafbd08be0ea3f1a9aad0d4aa3b2a592bceed1396270768c47e3054",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/mod26/colon/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/mod26/colon/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/mod26/colon/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/mod26/colon/sha256-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "9868e11dfa14eacc29507c9dbe477db631eaeb4061b30de6d637bc0bb74237dc",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "bc3e0d32eccad3fceb405fba621bbb8bf2305adda82f42f54612f11899171435",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/mod26/json/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/mod26/json/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/mod26/json/sha256-of-digest",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/mod26/json/sha256-of-digest"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "4045d59a76b2eb53c76b5549628bff9ebaa78f8048b8a232954cc5fa9e926846",
+        "known_chain1": false
+      },
+      {
+        "password_sha256": "21dc747e5b688ba79519128cfcf0b8f1b977273289f8ad58b091e3162c9c32b7",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/mod26-zero-to26/concat/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/mod26-zero-to26/concat/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/mod26-zero-to26/concat/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/mod26-zero-to26/concat/sha256-of-digest-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "40bc3a329e5b0116e3d2f6ad5d8aae61a4161242f601046da6e6774b15fa04c8",
+        "known_chain1": false
+      }
+    ]
+  },
+  "chain1_to_chain2_hits": [
+    {
+      "password_sha256": "a35346830e8e94ea068ec6606a59f2bd7b21c2ad1fe042a05c9b75b740b85f28",
+      "password_length": 69,
+      "sources": [
+        "direct-token-checklist/7/raw",
+        "positive-control/canonical-chain1-password/raw"
+      ],
+      "kdf": "md5",
+      "plaintext_length": 79,
+      "plaintext_sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+      "known_chain1": true,
+      "chain2_kdf": "md5",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004",
+      "known_chain2": true,
+      "chain4_gates": [
+        {
+          "kdf": "md5",
+          "plaintext_length": 1151,
+          "plaintext_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+          "marker_hex": "2b2d",
+          "canonical_structure": true,
+          "known_chain4": true
+        }
+      ],
+      "canonical_chain4_structure": true
+    },
+    {
+      "password_sha256": "1e92615056ee59a4c4a9fc67e292977f2e8380dce7978feaf5cf594060563151",
+      "password_length": 64,
+      "sources": [
+        "s91-index-s570/S91/zero-based/7x13/rot0_mirror/columns/mod26/zero-based-direct/sha256-of-lowerhex-lowerhex",
+        "s91-index-s570/S91/zero-based/7x13/rot0_mirror/columns/mod26/zero-based-mod570/sha256-of-lowerhex-lowerhex",
+        "s91-index-s570/S91/zero-based/7x13/rot180/columns/mod26/zero-based-direct/sha256-of-lowerhex-lowerhex",
+        "s91-index-s570/S91/zero-based/7x13/rot180/columns/mod26/zero-based-mod570/sha256-of-lowerhex-lowerhex",
+        "s91-index-s570/S91/zero-based/13x7/rot270/rows/mod26/zero-based-direct/sha256-of-lowerhex-lowerhex",
+        "s91-index-s570/S91/zero-based/13x7/rot270/rows/mod26/zero-based-mod570/sha256-of-lowerhex-lowerhex",
+        "s91-index-s570/S91/zero-based/13x7/rot270_mirror/rows/mod26/zero-based-direct/sha256-of-lowerhex-lowerhex",
+        "s91-index-s570/S91/zero-based/13x7/rot270_mirror/rows/mod26/zero-based-mod570/sha256-of-lowerhex-lowerhex"
+      ],
+      "kdf": "md5",
+      "plaintext_length": 79,
+      "plaintext_sha256": "943f9686171983e468c21441796cab7abf80f4045366d7a393ad6c0e129ddcff",
+      "known_chain1": false,
+      "chain2_kdf": "sha256",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "0f29c8f971b079a79a89988468416ecdc45e10a41b24e42eab1dbbd7f424e27a",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "3bd39ebe0d02ea4c726fb4a411579fddb5fa47a2c570bd8cf093c8ad35776779",
+      "password_length": 32,
+      "sources": [
+        "s91-index-s570/S91/zero-based/7x13/rot180/diagonal-nwse/identity/zero-based-direct/sha256-digest",
+        "s91-index-s570/S91/zero-based/7x13/rot180/diagonal-nwse/identity/zero-based-mod570/sha256-digest",
+        "s91-index-s570/S91/zero-based/7x13/rot180_mirror/diagonal-nesw/identity/zero-based-direct/sha256-digest",
+        "s91-index-s570/S91/zero-based/7x13/rot180_mirror/diagonal-nesw/identity/zero-based-mod570/sha256-digest",
+        "s91-index-s570/S91/zero-based/13x7/rot270/diagonal-nesw/identity/zero-based-direct/sha256-digest",
+        "s91-index-s570/S91/zero-based/13x7/rot270/diagonal-nesw/identity/zero-based-mod570/sha256-digest",
+        "s91-index-s570/S91/zero-based/13x7/rot270_mirror/diagonal-nwse/identity/zero-based-direct/sha256-digest",
+        "s91-index-s570/S91/zero-based/13x7/rot270_mirror/diagonal-nwse/identity/zero-based-mod570/sha256-digest"
+      ],
+      "kdf": "sha256",
+      "plaintext_length": 79,
+      "plaintext_sha256": "26155e1c8b320637570acecf3e896e8a500fb473b2cc67e196b99aad06125eba",
+      "known_chain1": false,
+      "chain2_kdf": "sha256",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "ea0d3fe651eabe68686593a905e63ad8b1cc2415890aa0086a3f45e1ff94c346",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "b44c02ef6e2215e2f5bf1f5b14a710b08538ecd38c468364d5577414cafafd06",
+      "password_length": 64,
+      "sources": [
+        "s570-route/S570/one-based/30x19/rot0_mirror/row-major/forward/bytes/sha256-of-digest-lowerhex",
+        "s570-route/S570/one-based/19x30/rot90/column-major/reverse/bytes/sha256-of-digest-lowerhex",
+        "s570-route/S570/one-based/30x19/rot180_mirror/row-major/reverse/bytes/sha256-of-digest-lowerhex",
+        "s570-route/S570/one-based/19x30/rot270/column-major/forward/bytes/sha256-of-digest-lowerhex"
+      ],
+      "kdf": "sha256",
+      "plaintext_length": 79,
+      "plaintext_sha256": "f2c21f9937ae01fa2cbf57ab1d4f99e9d49c4962266e195a29734c10375b89d4",
+      "known_chain1": false,
+      "chain2_kdf": "sha256",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "03b5a9661dd5ed03e2757e1f19ee523d491ce6ba001bcf0cef05b7fe514e2712",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "1ebaa863ba554660dd84c91982a6b0727fa9501808ec9311cd9aef941301419e",
+      "password_length": 64,
+      "sources": [
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot0/rows/mod26/colon/lastwords-result-thispassword/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot0/rows/mod26-zero-to26/colon/lastwords-result-thispassword/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod26/colon/lastwords-result-thispassword/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod26-zero-to26/colon/lastwords-result-thispassword/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod26/colon/lastwords-result-thispassword/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod26-zero-to26/colon/lastwords-result-thispassword/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot270/columns/mod26/colon/lastwords-result-thispassword/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot270/columns/mod26-zero-to26/colon/lastwords-result-thispassword/sha256-upperhex"
+      ],
+      "kdf": "sha256",
+      "plaintext_length": 79,
+      "plaintext_sha256": "4f5ae39563b1f38ded4686ac0e8dd2548e1c14dbc5ec2087246a7328022e3958",
+      "known_chain1": false,
+      "chain2_kdf": "md5",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "97dae82ec43c38260dd7167b160f40d3078b6bf14d43c2406e24896582ec7847",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "11a88180d532a89d2902b828f27c7e27d22d0418b440e3af6464c0d743413a00",
+      "password_length": 64,
+      "sources": [
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot0/columns/mod10/hex2/before-choice/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot90/rows/mod10/hex2/before-choice/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/mod10/hex2/before-choice/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/mod10/hex2/before-choice/sha256-upperhex"
+      ],
+      "kdf": "md5",
+      "plaintext_length": 79,
+      "plaintext_sha256": "63c2a85c078c908fbed0dabe70bc857aa87e2e28fbef28d34e24f2d569aa1b78",
+      "known_chain1": false,
+      "chain2_kdf": "sha256",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "60c927e73b41518f4448085143b05c9c5e09b0a827208172fff4858fc4dfc595",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "8289ecb8d83543c873d7043de7351161b4394ddddab74352273fa1eebdceb413",
+      "password_length": 65,
+      "sources": [
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot0/rows/matrixsumlist-weighted/concat/start/raw",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot0_mirror/rows/matrixsumlist-weighted/concat/start/raw",
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot90_mirror/columns/matrixsumlist-weighted/concat/start/raw",
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot270/columns/matrixsumlist-weighted/concat/start/raw"
+      ],
+      "kdf": "sha256",
+      "plaintext_length": 79,
+      "plaintext_sha256": "fd01de32507a0548bd0518ba611fdc624e5c9ee32cf3758902fcecaf12dd0b3a",
+      "known_chain1": false,
+      "chain2_kdf": "md5",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "bb84d51095f13e62e4d95833c1d00ff33d946c8e980c4b2339db1d5c75c44b97",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "eb8948ca03cb099a8946e395f37e5183228f6d03ec56b7717e377aa7b5de25ba",
+      "password_length": 32,
+      "sources": [
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot0_mirror/columns/mod10/uint16be/before-archi/sha256-of-lowerhex",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot180/columns/mod10/uint16be/before-archi/sha256-of-lowerhex",
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot270/rows/mod10/uint16be/before-archi/sha256-of-lowerhex",
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot270_mirror/rows/mod10/uint16be/before-archi/sha256-of-lowerhex"
+      ],
+      "kdf": "sha256",
+      "plaintext_length": 79,
+      "plaintext_sha256": "9c8fcbfc7537561dc7e691111fb74380d93b26ce2b57256263160f80617e7d20",
+      "known_chain1": false,
+      "chain2_kdf": "md5",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "1ae5357e3416a9b4f6ecea2a3970ff9ce64fb68744c2df4ace9c1549cf8f1a95",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "cfc98b8afb36bef04931ce554a0918f6db89855916984d1c7867269e15d44231",
+      "password_length": 78,
+      "sources": [
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot90/columns/matrixsumlist-order/json/lastwords-result-thispassword/raw",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot180/rows/matrixsumlist-order/json/lastwords-result-thispassword/raw",
+        "enter-insertion/s91-sum-list/S91/one-based/13x7/rot180_mirror/rows/matrixsumlist-order/json/lastwords-result-thispassword/raw",
+        "enter-insertion/s91-sum-list/S91/one-based/7x13/rot270_mirror/columns/matrixsumlist-order/json/lastwords-result-thispassword/raw"
+      ],
+      "kdf": "sha256",
+      "plaintext_length": 79,
+      "plaintext_sha256": "fe4b47f8c13e65d51de86b05bf42d652c4bd0e704a87c27164613ca1cd05f550",
+      "known_chain1": false,
+      "chain2_kdf": "md5",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "2e6df8f1ffede73f6de38ceabd9bbc9e6e7313a3eaad4bb318f6b18d7f249920",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "f3221847bccf39863a5bd40aa49b0daefa8bc05889f9ed393bd8cea7bccc802d",
+      "password_length": 32,
+      "sources": [
+        "enter-insertion/s91-sum-list/S91/zero-based/7x13/rot0_mirror/columns/mod26/concat/end/sha256-of-lowerhex",
+        "enter-insertion/s91-sum-list/S91/zero-based/7x13/rot180/columns/mod26/concat/end/sha256-of-lowerhex",
+        "enter-insertion/s91-sum-list/S91/zero-based/13x7/rot270/rows/mod26/concat/end/sha256-of-lowerhex",
+        "enter-insertion/s91-sum-list/S91/zero-based/13x7/rot270_mirror/rows/mod26/concat/end/sha256-of-lowerhex"
+      ],
+      "kdf": "md5",
+      "plaintext_length": 79,
+      "plaintext_sha256": "2f12381145daed455fc6f22cbfcdd0759019ba987176cbe854fa4b435294e5cb",
+      "known_chain1": false,
+      "chain2_kdf": "md5",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "ce48b9ea02ec7109f0f602df774e1a10ea721a7872aa0db2b4437916116d9806",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "78abab49be66fc5c4a8a6f65aebd61cbd64fc890b63a9d07abfc7a80e0a36739",
+      "password_length": 64,
+      "sources": [
+        "enter-insertion/s91-sum-list/S91/zero-based/13x7/rot0_mirror/columns/mod10/slash/end/sha256-of-digest-lowerhex",
+        "enter-insertion/s91-sum-list/S91/zero-based/13x7/rot180/columns/mod10/slash/end/sha256-of-digest-lowerhex",
+        "enter-insertion/s91-sum-list/S91/zero-based/7x13/rot270/rows/mod10/slash/end/sha256-of-digest-lowerhex",
+        "enter-insertion/s91-sum-list/S91/zero-based/7x13/rot270_mirror/rows/mod10/slash/end/sha256-of-digest-lowerhex"
+      ],
+      "kdf": "sha256",
+      "plaintext_length": 79,
+      "plaintext_sha256": "4b83ad2e27cfa9534eeec585fef4a17da853ba3ca9965b307f4bd223731a79d2",
+      "known_chain1": false,
+      "chain2_kdf": "sha256",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "60ed7572202eafa93e99c44b97d45a460846668bf38f82822c26a9447bb5e6e4",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "2cd4ec33644da2ee45be8698416a132db19b02be9ec6672ab3afa4f03dec94b1",
+      "password_length": 64,
+      "sources": [
+        "enter-insertion/s91-sum-list/S91/zero-based/7x13/rot90/columns/matrixsumlist-order-reverse/json/matrixsumlist-result/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/zero-based/13x7/rot180/rows/matrixsumlist-order-reverse/json/matrixsumlist-result/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/zero-based/13x7/rot180_mirror/rows/matrixsumlist-order-reverse/json/matrixsumlist-result/sha256-upperhex",
+        "enter-insertion/s91-sum-list/S91/zero-based/7x13/rot270_mirror/columns/matrixsumlist-order-reverse/json/matrixsumlist-result/sha256-upperhex"
+      ],
+      "kdf": "md5",
+      "plaintext_length": 79,
+      "plaintext_sha256": "f9fb9c2523c397836d84ba6a8ca2e6888d857ba652d26c233c6fdc2590a67d5d",
+      "known_chain1": false,
+      "chain2_kdf": "md5",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "9c8f95ce79c76908208618cb74143fc47243aa670a1d0782bd59d68a2173b77f",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    },
+    {
+      "password_sha256": "ff8a4cd3d2628320e5d2b1efda0a7d37ffd5f30cfd42f98ce4a7ec7f964fff47",
+      "password_length": 63,
+      "sources": [
+        "enter-insertion/s91-sum-list/S91/zero-based/7x13/rot90/diagonal-nwse/mod10/slash/before-archi/raw",
+        "enter-insertion/s91-sum-list/S91/zero-based/7x13/rot90_mirror/diagonal-nesw/mod10/slash/before-archi/raw",
+        "enter-insertion/s91-sum-list/S91/zero-based/13x7/rot180/diagonal-nesw/mod10/slash/before-archi/raw",
+        "enter-insertion/s91-sum-list/S91/zero-based/13x7/rot180_mirror/diagonal-nwse/mod10/slash/before-archi/raw"
+      ],
+      "kdf": "sha256",
+      "plaintext_length": 79,
+      "plaintext_sha256": "5b8887a25744adafa4e9f07fc6e923cfa4520a86b69c60cb684bc88f0c5afdae",
+      "known_chain1": false,
+      "chain2_kdf": "md5",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "06465c42828e0a680e0359533f15aeea630fcf4e9e33fbe407c8a6d2b9680107",
+      "known_chain2": false,
+      "chain4_gates": [],
+      "canonical_chain4_structure": false
+    }
+  ],
+  "chain1_to_chain2_to_chain4_structure_hits": [
+    {
+      "password_sha256": "a35346830e8e94ea068ec6606a59f2bd7b21c2ad1fe042a05c9b75b740b85f28",
+      "password_length": 69,
+      "sources": [
+        "direct-token-checklist/7/raw",
+        "positive-control/canonical-chain1-password/raw"
+      ],
+      "kdf": "md5",
+      "plaintext_length": 79,
+      "plaintext_sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+      "known_chain1": true,
+      "chain2_kdf": "md5",
+      "chain2_plaintext_length": 79,
+      "chain2_plaintext_sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004",
+      "known_chain2": true,
+      "chain4_gates": [
+        {
+          "kdf": "md5",
+          "plaintext_length": 1151,
+          "plaintext_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+          "marker_hex": "2b2d",
+          "canonical_structure": true,
+          "known_chain4": true
+        }
+      ],
+      "canonical_chain4_structure": true
+    }
+  ],
+  "noncontrol_chain1_to_chain2_to_chain4_structure_hits": [],
+  "chain2_direct_padding_audit": {
+    "count": 1033,
+    "plaintext_length_histogram": {
+      "78": 6,
+      "79": 1027
+    },
+    "known_plaintext_hits": [],
+    "first_padding_luck_samples": [
+      {
+        "password_sha256": "e0e16e932be385347251b14569ce8221fdf8fd56a7b345257dea03880941b2fc",
+        "password_length": 64,
+        "sources": [
+          "original-grid/verified/rows-plus-columns/hyphen/sha256-of-lowerhex-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "78ef4fe381d0a949cdef22a164f7408c93a8e13870d80465fe5a97b766ed8e3f",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "941dd76b98eb40469c78697b74e90d3c3a977ab84764d2f8e9bbfa2eafd5b54f",
+        "password_length": 28,
+        "sources": [
+          "original-grid/supplied-transcription/rows/hex2/raw"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "8674a8c8aa8dc804e65bb12e0b82b6eb1b9d0428704ccaed3248975c0866feee",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "97540828bd51d6698b8c47a35ed4fa636d1ceb220e4517c41686c2ce27302e25",
+        "password_length": 64,
+        "sources": [
+          "colored-cells/verified/reverse/decimal/sha256-upperhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "36557e58d8e938c863bfa5028a43deca77e05ec4b4951ace38db16300c7a8f0c",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "a32e3283a10f6fc0bf912dbc6abd84ac01784dcd170abad6352284b13e108598",
+        "password_length": 41,
+        "sources": [
+          "original-grid/numbered-columns/space/raw"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "0f0b640810de91a547ad211c3eba8d9b660e6180381fb1552143db636fa60ac5",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "2d7d318cc8e4828d2889c903b9de7de2481704ba80e064e13e9774166bb23558",
+        "password_length": 64,
+        "sources": [
+          "original-grid/numbered-columns/bytes/sha256-of-digest-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "4aeed88bedb777530495f82ef9ab19337a2791ab297fe20c8e2f0bd72a9144b0",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "c572811edc529e533ea212e13ab8d042ef361f85258bbe17c27c1335cf385693",
+        "password_length": 64,
+        "sources": [
+          "s91-index-s570/S91/one-based/7x13/rot0/rows/mod10/one-based-mod570/sha256-upperhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/rows/mod10/one-based-mod570/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/columns/mod10/one-based-mod570/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot270/columns/mod10/one-based-mod570/sha256-upperhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "afbeef17777f02d6458d9ecc81bc0154025a4dad7b210c2ce4aa13a5fd108b17",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "c681ed19e2ed7deee70684eb77959da5d3a0e8d1bb23844243320d8ec802b636",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/mod26/concat/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/mod26/concat/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/mod26/concat/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/mod26/concat/sha256-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "db00e7fb4c3674ecaca583ad5492cb49fbfc88732568a12a9b2454c72fc1095e",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "0dc7d9b37c873d5c483eb144c2e6ff50f36851d508dda9b06bfc4059471b5541",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/mod26-zero-to26/space/sha256-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/mod26-zero-to26/space/sha256-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/mod26-zero-to26/space/sha256-digest",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/mod26-zero-to26/space/sha256-digest"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "1ff40d2559ec5f818208a33c6d00114d341b852d0329af2c457570c5b9379b65",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "dc0a16aa1d84bd648248c3e7bcb6fd4396a6701b517f14356354c78c0d5e0af4",
+        "password_length": 64,
+        "sources": [
+          "s91-index-s570/S91/one-based/7x13/rot0/columns/mod26-zero-to26/one-based-direct/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0/columns/mod26-zero-to26/one-based-mod570/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90/rows/mod26-zero-to26/one-based-direct/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90/rows/mod26-zero-to26/one-based-mod570/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/rows/mod26-zero-to26/one-based-direct/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/rows/mod26-zero-to26/one-based-mod570/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot180_mirror/columns/mod26-zero-to26/one-based-direct/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot180_mirror/columns/mod26-zero-to26/one-based-mod570/sha256-of-lowerhex-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "4a1d949a292d1f48679ef895d45ecf67a4ce8aaebb3e169582f714ce8f293b92",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "6108f1317dac3a43f2bfbe6612e0e875bf41a086c3ee1bcfb683cb4159389a3a",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/matrixsumlist-order/comma/sha256-of-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/matrixsumlist-order/comma/sha256-of-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/matrixsumlist-order/comma/sha256-of-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/matrixsumlist-order/comma/sha256-of-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "10394eee204903bd04295e74127d6ddde90b8d651a8f0b8b11f20a4d88b4abde",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "da3811154d59c4267077ddd8bb768fa9b06399c486e1fc00485116b57c9872f5",
+        "password_length": 64,
+        "sources": [
+          "s91-index-s570/S91/one-based/7x13/rot0/columns/matrixsumlist-weighted-total/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90/rows/matrixsumlist-weighted-total/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/rows/matrixsumlist-weighted-total/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot180_mirror/columns/matrixsumlist-weighted-total/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/zero-based/13x7/rot0/rows/matrixsumlist-weighted-total/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/zero-based/13x7/rot0_mirror/rows/matrixsumlist-weighted-total/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/zero-based/7x13/rot90_mirror/columns/matrixsumlist-weighted-total/zero-based-mod570/sha256-lowerhex",
+          "s91-index-s570/S91/zero-based/7x13/rot270/columns/matrixsumlist-weighted-total/zero-based-mod570/sha256-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "a6707795bbec2209290292153b4e0317e5ed8bc52b243482d977cefc64d29280",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "e21d34af034b23a48a29f80fd72f66c4da81a1c06c0a628928cee7d38fbc1ab0",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/diagonal-nwse/identity/space/sha256-of-lowerhex-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/diagonal-nesw/identity/space/sha256-of-lowerhex-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90/diagonal-nesw/identity/space/sha256-of-lowerhex-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/diagonal-nwse/identity/space/sha256-of-lowerhex-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "06f3830d930ef878818d22eaa90448a21e01a472ae7a06545d678f28d8f9b0ef",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "d782cd2944e8b8865975c57167a137d888099d75ab1745bfd9590098a8ce7ef5",
+        "password_length": 64,
+        "sources": [
+          "s91-index-s570/S91/one-based/7x13/rot0/diagonal-nwse/identity/one-based-direct/sha256-upperhex",
+          "s91-index-s570/S91/one-based/7x13/rot0/diagonal-nwse/identity/one-based-mod570/sha256-upperhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/diagonal-nesw/identity/one-based-direct/sha256-upperhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/diagonal-nesw/identity/one-based-mod570/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot90/diagonal-nesw/identity/one-based-direct/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot90/diagonal-nesw/identity/one-based-mod570/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/diagonal-nwse/identity/one-based-direct/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/diagonal-nwse/identity/one-based-mod570/sha256-upperhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "b92f9c2482ce11d270e08628a7e34b9e6fa1e2ef1f4cc92feb934d28e2524cc0",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "8e2098b03cf93310b41e9f3f051c55407c99863f62389112689a69a42b001b21",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/diagonal-nwse/mod10/bytes/sha256-of-digest",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/diagonal-nesw/mod10/bytes/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90/diagonal-nesw/mod10/bytes/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/diagonal-nwse/mod10/bytes/sha256-of-digest"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "6a86392d9f4eb3c648e88a44c00153ece7e2afcf4e628e93e9fa61d75356bb9a",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "6d6108681767702962aec3dc2d97bfe2a697d667a2f62db240eb4a2b48db88a7",
+        "password_length": 64,
+        "sources": [
+          "s91-index-s570/S91/one-based/7x13/rot0/diagonal-nwse/mod26/zero-based-direct/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0/diagonal-nwse/mod26/zero-based-mod570/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/diagonal-nesw/mod26/zero-based-direct/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/diagonal-nesw/mod26/zero-based-mod570/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90/diagonal-nesw/mod26/zero-based-direct/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90/diagonal-nesw/mod26/zero-based-mod570/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/diagonal-nwse/mod26/zero-based-direct/sha256-of-lowerhex-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/diagonal-nwse/mod26/zero-based-mod570/sha256-of-lowerhex-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "5bd9ab0879a2acad4e8e77092c986c7acbbe2903324284f95148d4b6b41735f1",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "89c6736406716e3a8e8fb664b65291fafd4e3db75bc4644816c1b0b14db0a5f1",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/diagonal-nwse/mod26-zero-to26/hyphen/sha256-digest",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/diagonal-nesw/mod26-zero-to26/hyphen/sha256-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90/diagonal-nesw/mod26-zero-to26/hyphen/sha256-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/diagonal-nwse/mod26-zero-to26/hyphen/sha256-digest"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "336db9cd612edbfbbac7113539012b11ab505f2478ff53be8d7cec1d2ace8849",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "8d1650e2c1eddda54dd5e7c7fc09764a30d2fb3628df0b4b8355d3bd0de6d4cf",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/diagonal-nwse/mod26-zero-to26/bytes/sha256-of-lowerhex-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/diagonal-nesw/mod26-zero-to26/bytes/sha256-of-lowerhex-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90/diagonal-nesw/mod26-zero-to26/bytes/sha256-of-lowerhex-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/diagonal-nwse/mod26-zero-to26/bytes/sha256-of-lowerhex-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "11a671ae00dc4f73f11ffe924dcfb543f28ce2164be767f593dd04d7cde8c10b",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "72adcf805515fe96d6d1e65e96a32847a0ffc1100810d0ce789e705a01b17c78",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/diagonal-nesw/mod26-zero-to26/hex2/sha256-digest",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/diagonal-nwse/mod26-zero-to26/hex2/sha256-digest",
+          "s91-sum-list/S91/one-based/13x7/rot270/diagonal-nwse/mod26-zero-to26/hex2/sha256-digest",
+          "s91-sum-list/S91/one-based/13x7/rot270_mirror/diagonal-nesw/mod26-zero-to26/hex2/sha256-digest"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "870a68e41eeab6d03c71590212a5be1190b2743c9aa361be4e9d6c3a707fd3bb",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "50b449b6016c9b2f1128b4b7fec878b29860f5c17c916d3e8eee9e451b9d0479",
+        "password_length": 64,
+        "sources": [
+          "s91-route/S91/one-based/7x13/rot0/row-major/reverse/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/13x7/rot90_mirror/column-major/reverse/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/7x13/rot180/row-major/forward/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/13x7/rot270_mirror/column-major/forward/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/13x7/rot0/row-major/reverse/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/7x13/rot90_mirror/column-major/reverse/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/13x7/rot180/row-major/forward/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/7x13/rot270_mirror/column-major/forward/comma/sha256-of-digest-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 79,
+        "plaintext_sha256": "e627ae1e07da6ced7e81d0b6001898e12e4a350ad60783323512d6b1552c442f",
+        "known_chain2": false
+      },
+      {
+        "password_sha256": "50b449b6016c9b2f1128b4b7fec878b29860f5c17c916d3e8eee9e451b9d0479",
+        "password_length": 64,
+        "sources": [
+          "s91-route/S91/one-based/7x13/rot0/row-major/reverse/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/13x7/rot90_mirror/column-major/reverse/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/7x13/rot180/row-major/forward/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/13x7/rot270_mirror/column-major/forward/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/13x7/rot0/row-major/reverse/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/7x13/rot90_mirror/column-major/reverse/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/13x7/rot180/row-major/forward/comma/sha256-of-digest-lowerhex",
+          "s91-route/S91/one-based/7x13/rot270_mirror/column-major/forward/comma/sha256-of-digest-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 79,
+        "plaintext_sha256": "9fe25a42a3c481db63934900d418ab60d4fdd4c958f9e79d44f0ec039510645a",
+        "known_chain2": false
+      }
+    ]
+  },
+  "cosmic_padding_audit": {
+    "count": 1154,
+    "plaintext_length_histogram": {
+      "1326": 6,
+      "1327": 1148
+    },
+    "known_plaintext_hits": [
+      {
+        "password_sha256": "c8bf762e473d3d012c51d78eac67c049cfffe3f8c7c0f89f5d1d5f8822844fed",
+        "password_length": 32,
+        "sources": [
+          "positive-control/canonical-cosmic-password-bytes/raw"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+        "known_cosmic": true,
+        "chain4_gates": [
+          {
+            "kdf": "md5",
+            "plaintext_length": 1151,
+            "plaintext_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+            "marker_hex": "2b2d",
+            "canonical_structure": true,
+            "known_chain4": true
+          }
+        ]
+      }
+    ],
+    "first_padding_luck_samples": [
+      {
+        "password_sha256": "c8bf762e473d3d012c51d78eac67c049cfffe3f8c7c0f89f5d1d5f8822844fed",
+        "password_length": 32,
+        "sources": [
+          "positive-control/canonical-cosmic-password-bytes/raw"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+        "known_cosmic": true,
+        "chain4_gates": [
+          {
+            "kdf": "md5",
+            "plaintext_length": 1151,
+            "plaintext_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+            "marker_hex": "2b2d",
+            "canonical_structure": true,
+            "known_chain4": true
+          }
+        ]
+      },
+      {
+        "password_sha256": "64be6a6ce1d255f05d663fe3dd6dfcd4e9d3ec7f369c00349a86cc3c7827e75a",
+        "password_length": 64,
+        "sources": [
+          "half-message/7/sha256-of-digest-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "0ffcd2d3a850292498034e2a1791796a2d0023bf2e1e70bb9aca34bb0ec99527",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "69be989875e02cc059fa6d5b4f22e3578780dddbf645366b3400ebff38c38f6c",
+        "password_length": 64,
+        "sources": [
+          "original-grid/verified/rows/space/sha256-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "fd4550020d0b3b61d9debde452fa92fcf74990cc21e89550f234dc5a01b3cd7f",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "3ab2246b4e193087575f549ceae42eac08593d4913cae2ea4c48d70aa8f2362e",
+        "password_length": 31,
+        "sources": [
+          "original-grid/verified/columns/json/raw"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "d9354d9851efc6798fb03698ba8cef78bc13f02cf1a33d9ed752502195bbb942",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "c359b6c0bd47c6cc99dd25bbde9f9f176d84f27bb8965371938eb7e62cafcdfb",
+        "password_length": 64,
+        "sources": [
+          "original-grid/verified/blue-yellow/sha256-upperhex",
+          "original-grid/supplied-transcription/blue-yellow/sha256-upperhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "a6494294c9e5adbfb9c60a2caf0a85f39906dde13cf87a34a539432e5a449fb0",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "dacae79631f534c307e9f06d5ca7f26ffc4c44c6766999b4aa5a71b953c0191a",
+        "password_length": 64,
+        "sources": [
+          "original-grid/verified/yellow-blue-concat/sha256-of-lowerhex-lowerhex",
+          "original-grid/supplied-transcription/yellow-blue-concat/sha256-of-lowerhex-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "88db926d7bb0c80f8a5e22f1eb450b3ff1f8d8673865a30ec67115b18571e787",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "ab596b0bf3f4a0c3e42d1fea0775179b3e683bec4042ef7562f4a3d43bf3806c",
+        "password_length": 32,
+        "sources": [
+          "original-grid/supplied-transcription/columns/json/sha256-of-digest"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "4a8e94e717568feb054a3bc9b94ea36e73ffdd1af80decde1275e636f2d9017b",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "c329a71f95b9cccad1633dfba7bb819c182f98c5702e437b5f6af1ac49a4995f",
+        "password_length": 32,
+        "sources": [
+          "colored-cells/supplied-transcription/reverse-inverted/hex-lower/sha256-digest"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "6ee11680c6948b022771ae8a3875426901e13e7c6a6373a56ecc999f1904e867",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "02077c2e6aeb1a5faa31ee16bd773cf2e78d13ed147ced9e05efbd8cac875c54",
+        "password_length": 32,
+        "sources": [
+          "original-grid/spiral-url/sha256-of-digest"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "8679b152d77a579a0a7931a0330327dd50335e999cce6c4fad208b2bcf9e02e6",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "6ee71c3b737e2ab10fcea596f3fd2176d5b792180581521c7d2f58295de58527",
+        "password_length": 64,
+        "sources": [
+          "original-grid/numbered-rows/hex2/sha256-upperhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "9cd4a283f146452fd51147ed8da92cc9c4ab800d1903fa7c34cb7ff1c8e32b2c",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "2382073f9852723111633d2e46e8b93b4e5e29b802dd6719c51d8b7651563aba",
+        "password_length": 28,
+        "sources": [
+          "original-grid/numbered-columns/hex2/raw"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "cb5a45a6af4c9ca3553b96e6e01bfc268213419716c99c6e7e01078baa0ba53d",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "64e41ccfaa0b99f97522d20c17fcc8e1f7fef6ee014fe2cd2cd1701d25e521e6",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/rows/mod10/hyphen/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod10/hyphen/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod10/hyphen/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot270/columns/mod10/hyphen/sha256-of-digest-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "33c8a58f8bc3784a5a69073c17c5ef1f4871a09ddf1f7d729d00d8608ef9d7ea",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "c14b63708e850c77a1dc7e8107b70f5d8b8db7e3d753d27a70d8cd9d45873fb5",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/rows/mod10/uint16be/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod10/uint16be/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod10/uint16be/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot270/columns/mod10/uint16be/sha256-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "f9cfb582a52ef7814ed9253fa2e1eb1095023b9e269f3f659a875c232321b9b3",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "b61dc8b8b74973d977e88261a09c566e7c0b09ff999f01af2d5297abe012c4ca",
+        "password_length": 64,
+        "sources": [
+          "s91-index-s570/S91/one-based/7x13/rot0/rows/mod10/zero-based-direct/sha256-upperhex",
+          "s91-index-s570/S91/one-based/7x13/rot0/rows/mod10/zero-based-mod570/sha256-upperhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/rows/mod10/zero-based-direct/sha256-upperhex",
+          "s91-index-s570/S91/one-based/7x13/rot0_mirror/rows/mod10/zero-based-mod570/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/columns/mod10/zero-based-direct/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/columns/mod10/zero-based-mod570/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot270/columns/mod10/zero-based-direct/sha256-upperhex",
+          "s91-index-s570/S91/one-based/13x7/rot270/columns/mod10/zero-based-mod570/sha256-upperhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "9466576a857e7db0cc2f4c69706b73cc736f4e60942117667cbe529796c325f6",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "e9882f5c6d275c676325b1910156c23ee4372b94df3bc0870a4364e8a26c78a2",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/rows/mod26/comma/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0/rows/mod26-zero-to26/comma/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod26/comma/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod26-zero-to26/comma/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod26/comma/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod26-zero-to26/comma/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot270/columns/mod26/comma/sha256-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot270/columns/mod26-zero-to26/comma/sha256-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "7facf071e63c015bdf6509ea1dde9a9f0b00c9b4650532a813ed6234f009f11d",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "589ab164e9b7a5b17d9ea40996f972c5e53d468f01ec25de9931a2be16ce4567",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/rows/mod26/hyphen/sha256-of-digest",
+          "s91-sum-list/S91/one-based/7x13/rot0/rows/mod26-zero-to26/hyphen/sha256-of-digest",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod26/hyphen/sha256-of-digest",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod26-zero-to26/hyphen/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod26/hyphen/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod26-zero-to26/hyphen/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot270/columns/mod26/hyphen/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot270/columns/mod26-zero-to26/hyphen/sha256-of-digest"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "dabeac10b84bdef748c762eaaab5e04bf41155823c8991828f08262a07c0a442",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "b6ce241d39466e4432bdb2cf320539d0b6088c31c50cbbb633b828b383b0a273",
+        "password_length": 64,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/rows/mod26/colon/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0/rows/mod26-zero-to26/colon/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod26/colon/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/7x13/rot0_mirror/rows/mod26-zero-to26/colon/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod26/colon/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/columns/mod26-zero-to26/colon/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot270/columns/mod26/colon/sha256-of-digest-lowerhex",
+          "s91-sum-list/S91/one-based/13x7/rot270/columns/mod26-zero-to26/colon/sha256-of-digest-lowerhex"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "cd67987e6fd86afb8b24ee6e1289f3e03f951ca97ed65ad8ae499494c4db086c",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "e16f8b1f66e24c7fe02ecf4a675b26c3f169f71ed5daf89f82cedf120dd1eb84",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/identity/colon/sha256-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/identity/colon/sha256-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/identity/colon/sha256-digest",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/identity/colon/sha256-digest"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "1a4019343fbde2e28a2c917ddc46580b64b97eda1c1b77c2b670be4552724af8",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "326b538d8e2605703cb4f47c52e97f26041fb0f024c9a3281c73d79db56edc47",
+        "password_length": 32,
+        "sources": [
+          "s91-index-s570/S91/one-based/7x13/rot0/columns/mod10/zero-based-direct/sha256-of-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot0/columns/mod10/zero-based-mod570/sha256-of-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90/rows/mod10/zero-based-direct/sha256-of-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90/rows/mod10/zero-based-mod570/sha256-of-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/rows/mod10/zero-based-direct/sha256-of-lowerhex",
+          "s91-index-s570/S91/one-based/13x7/rot90_mirror/rows/mod10/zero-based-mod570/sha256-of-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot180_mirror/columns/mod10/zero-based-direct/sha256-of-lowerhex",
+          "s91-index-s570/S91/one-based/7x13/rot180_mirror/columns/mod10/zero-based-mod570/sha256-of-lowerhex"
+        ],
+        "kdf": "sha256",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "b44cfedff8dd87b74e477cdc38bce1afebc369242435d5e768dc0e69965d1e09",
+        "known_cosmic": false,
+        "chain4_gates": []
+      },
+      {
+        "password_sha256": "63623377a2ae8ab35e12d88a45c7dbc0c137bcd3b01096f0c7cde895db42e511",
+        "password_length": 32,
+        "sources": [
+          "s91-sum-list/S91/one-based/7x13/rot0/columns/mod26/comma/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90/rows/mod26/comma/sha256-of-digest",
+          "s91-sum-list/S91/one-based/13x7/rot90_mirror/rows/mod26/comma/sha256-of-digest",
+          "s91-sum-list/S91/one-based/7x13/rot180_mirror/columns/mod26/comma/sha256-of-digest"
+        ],
+        "kdf": "md5",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "9ccbeb545ec5ea08e5f2d66f0ad20f64cb8e34034bd800d8fd921fddca4ddb18",
+        "known_cosmic": false,
+        "chain4_gates": []
+      }
+    ]
+  },
+  "cosmic_to_chain4_structure_hits": [
+    {
+      "password_sha256": "c8bf762e473d3d012c51d78eac67c049cfffe3f8c7c0f89f5d1d5f8822844fed",
+      "password_length": 32,
+      "sources": [
+        "positive-control/canonical-cosmic-password-bytes/raw"
+      ],
+      "kdf": "md5",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+      "known_cosmic": true,
+      "chain4_gates": [
+        {
+          "kdf": "md5",
+          "plaintext_length": 1151,
+          "plaintext_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+          "marker_hex": "2b2d",
+          "canonical_structure": true,
+          "known_chain4": true
+        }
+      ]
+    }
+  ],
+  "noncontrol_cosmic_to_chain4_structure_hits": [],
+  "direct_32_byte_scalar_matches": [],
+  "sha256_brainwallet_matches": [],
+  "conclusion": "No instruction-style candidate is accepted unless it passes an independent downstream cryptographic structure gate. The literal five-token path remains a positive control and is not classified as padding-only.",
+  "scope_note": "This closes the enumerated layouts, routes, serializations, alphabet/checkerboard variants, insertions, and hash spellings. It does not prove that no unenumerated SalPhaseIon grammar exists."
+}

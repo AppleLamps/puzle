@@ -1,0 +1,77 @@
+{
+  "schema": "second-door-yellow-red-followup-v1",
+  "status": "NO_PRIZE_MATCH",
+  "unique_scalars": 292,
+  "prize_matches": [],
+  "aes_structured": [],
+  "aes_padding_sample": [
+    {
+      "label": "yflip_pzero1",
+      "env": "chain1",
+      "digest": "md5",
+      "plen": 79,
+      "pr": 0.38,
+      "head": "f..-..._!.*.YU..>.F..s..`..n.....;SIG.....L....."
+    },
+    {
+      "label": "yflip_dot_pzero1",
+      "env": "chain1",
+      "digest": "md5",
+      "plen": 79,
+      "pr": 0.38,
+      "head": "f..-..._!.*.YU..>.F..s..`..n.....;SIG.....L....."
+    },
+    {
+      "label": "resistor+yflip",
+      "env": "chain1",
+      "digest": "sha256",
+      "plen": 79,
+      "pr": 0.329,
+      "head": "..A<..t..jt.W63....;...=...Y..>....c!+.>..0....<"
+    },
+    {
+      "label": "yflip_pzero0/sha256hex",
+      "env": "phase32",
+      "digest": "sha256",
+      "plen": 2431,
+      "pr": 0.39,
+      "head": "..m~.Bt..U..mO.....B..{k...1.?.P)....^..../.z.V."
+    },
+    {
+      "label": "yflip_redhex/sha256",
+      "env": "phase32",
+      "digest": "sha256",
+      "plen": 2431,
+      "pr": 0.373,
+      "head": "=.g\\.y..\".S-4SR`.....j..Y.3Y.;&l....h I...\\....!"
+    }
+  ],
+  "aes_padding_count": 5,
+  "materials": {
+    "yflip": "gsmg/io/uieseeeisqmaouee",
+    "yflip_dot": "gsmg.io/uieseeeisqmaouee",
+    "yflip_xor2": "eqoe-km-wkgqgggkqsocmwgg",
+    "yflip_dot_xor2": "eqoe,km-wkgqgggkqsocmwgg",
+    "door1_xor2": "eqoe,km-vjgqggfkqrnclvgf",
+    "yflip_pzero0": "gs00/0o0uie0e0eis0m0oue0",
+    "yflip_pzero1": "g00g0i0/ui0s0eei0q0aou0e",
+    "yflip_dot_pzero0": "gs00.0o0uie0e0eis0m0oue0",
+    "yflip_dot_pzero1": "g00g0i0/ui0s0eei0q0aou0e",
+    "yflip_insert2_at_yellow_bytes": "gsmg/2io/u2i2eseee2isq2m2ao2u2ee2",
+    "yflip+15": "gsmg/io/uieseeeisqmaouee15",
+    "yflip+2": "gsmg/io/uieseeeisqmaouee2",
+    "2+yflip": "2gsmg/io/uieseeeisqmaouee",
+    "yflip_redhex": "gsmg/io/uieseeeisqmaoueeED1C24",
+    "roses+yflip": "RosesareWhitebutoftenRedgsmg/io/uieseeeisqmaouee",
+    "yflip+roses": "gsmg/io/uieseeeisqmaoueeRosesareWhitebutoftenRed",
+    "yflip+1421": "gsmg/io/uieseeeisqmaouee1421",
+    "coords_cells": "1,4,21",
+    "yflip+86": "gsmg/io/uieseeeisqmaouee86",
+    "yflip+8686": "gsmg/io/uieseeeisqmaouee8686",
+    "yin86yang86": "8686",
+    "path_uies": "uieseeeisqmaouee",
+    "path_uies_xor2": "wkgqgggkqsocmwgg",
+    "resistor_digits": "9009900690009906900900969009900699090004900909969009000699090006900090949009099490099096900099069009909690099096900990949009099690009906900099949009009490099996900900049000909490099096900990949999",
+    "resistor+yflip": "9009900690009906900900969009900699090004900909969009000699090006900090949009099490099096900099069009909690099096900990949009099690009906900099949009009490099996900900049000909490099096900990949999gsmg/io/uieseeeisqmaouee"
+  }
+}

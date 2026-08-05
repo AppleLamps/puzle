@@ -555,6 +555,30 @@ The yellow-LSB-flip string is the striking one: it is still `gsmg/io/…` shaped
 spiral that public door-1 work leaves on the table — pursue as second-door
 material, not as a Cosmic password.
 
+### Yellow-flip + red audit (this pass) — closed negative
+
+Script: `second_door_yellow_red_audit.py` (+ follow-up JSON). Scope: first image
+spiral variants, poster red divider facts (15 px `#ED1C24`, resistor **2**),
+prime-index / char-prime zeroing, roses/red tokens, `{1},{4},{21}` hint
+concat, HASHTHETEXT-style sha256 expansions. Gates: Half pubkey + Better
+hash160; AES only on **chain1 / chain2 / phase32** (Cosmic excluded).
+
+| check | result |
+| --- | --- |
+| door1 control | `gsmg.io/theseedisplanted` |
+| yellow forced 1 | `gsmg/io/uieseeeisqmaouee` |
+| unique scalars | ~2.9k (main) + 292 (follow-up) |
+| prize matches | **0** |
+| structured AES on auth envelopes | **0** |
+| MD5/SHA padding hits | a few (incl. 79-byte chain1 under char-prime-zero) — same class as EVP false positives; not readable |
+
+Also closed as passwords/scalars: `eqoe-km-wkgqgggkqsocmwgg` (yflip⊕2),
+dot-fix `gsmg.io/uieseeeisqmaouee`, path `uieseeeisqmaouee`, yflip+`ED1C24`/
+`15`/`2`/`8686`/`1421`, `yellowblueprimes‖yflip`, resistor digit stream
+concat. **Next:** do not widen into Cosmic. Prefer a single joint rule that
+earns the name `yinyang` (86=86 dual / off-white / red+yellow+blue together),
+not more path-string brainwallets.
+
 ### Still the best “in front of your eyes” anomalies
 
 - Off-white cell `(7,4)` = `(254,254,254)`, spiral index 163 — invisible at a

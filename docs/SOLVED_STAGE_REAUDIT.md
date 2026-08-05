@@ -35,6 +35,25 @@ convention was solver-selected.
 | Chain 1/2 | Five-token password decrypts 79 bytes; first 32 bytes serialized as WIF decrypt the second 79-byte envelope | Password order/repetition and WIF interpretation; link is one-way |
 | Cosmic/103² | Seven-digest XOR decrypts 1,327 bytes; the 103×103/+7/base-38 arithmetic reproduces | Token selection, XOR, matrix layout, +7/range/base and 32+32+4 split |
 
+## High-value cross-check calculations
+
+- Across all 24 cyclic rotations of the authenticated colour stream, only the
+  authenticated rotation has a one-term balance where the sum difference is
+  itself a prime assigned to the larger colour side.
+- Row-major primes give Blue=602, Yellow=361 (difference 241); reversed order
+  gives 719/244; reverse-within-byte order gives 468/495. None reproduces the
+  removable blue 5.
+- The fixed-width XOR is `010111100111110110110011`: 24 bits, 16 ones and 8
+  zeroes. The advertised 23/16/7 counts require dropping its leading zero.
+- Straightforward passport alternatives do not preserve the full alignment:
+  `MMDDYYYY=9112001` is composite, `YYYYMMDD=20010911` is composite,
+  `DDMMYY=110901` is composite, and their XOR masks do not give 23/16/7.
+- The two repeated `matrixsumlist` digests cancel in the seven-token Cosmic XOR.
+  Whatever that operation represents, it algebraically depends on only five
+  distinct token digests.
+- Of the eight poster symmetries, only the authenticated orientation yields all
+  24 printable URL bytes and aligns every colour marker to a byte LSB.
+
 ## Corrections that affect downstream work
 
 1. `cryptologicwarningcanyoudigit` is the rebus summary, not the supported
@@ -52,10 +71,26 @@ convention was solver-selected.
 8. A fitted structural hit is not a prize-key oracle. All proposed continuations
    must still match Half’s exact public key or Better Half’s hash160.
 
-## Recommended frontier
+## Frontier decision and execution
 
-The best untested, creator-text-led operation is the literal Architect sequence
-“return to the source codes” / “reinserting the prime basics” applied to the
-authenticated 1,539-byte pre-Beaufort record. It is bounded, avoids Cosmic and
-community-only operands, and can be checked directly against both prize oracles.
-See `architect_source_prime_reinsertion_preregistered.json`.
+The highest-ranked untested creator-text-led operation was the literal Architect
+sequence “return to the source codes” / “reinserting the prime basics” applied
+to the authenticated 1,539-byte pre-Beaufort record. The experiment was sealed
+before execution and excluded Cosmic and community-only operands.
+
+Result: **COMPLETE_NO_MATCH**. All 168 preregistered records produced valid
+scalars (132 unique), and none matched Half’s exact public key or Better Half’s
+hash160. This closes the literal prime-position select/zero/xor/LSB family, not
+every possible reading of the Architect prose.
+
+The next highest-information unfinished calculation was the already sealed
+shared base-9 substitution over S91 and S570. It was also executed completely:
+all 362,880 shared digit mappings and 5,806,080 byte representations were
+checked under the preregistered exact-file, decompression, and readable-text
+gates. Result: **NO_ACCEPTED_OUTPUT**.
+
+After these two closures, the best remaining creator-authenticated frontier is
+the independent 48-byte SalPhaseIon envelope and the operational meaning of the
+four decoded field literals. Existing instruction-family sweeps are extensive,
+so the next useful advance requires a new source-authenticated control—not a
+wider password or Cosmic search.

@@ -20,7 +20,7 @@ use fixed paths. This page is their virtual organization.
 | Blind results | `salphaseion_blind_results_v*.json` |
 | Cross-stage results | `salphaseion_cross_stage_*.json` |
 | Instruction/matrix audits | `salphaseion_instruction_audit.json`, `matrixsumlist_audit.json`, `prime_reinsertion_audit.json` |
-| S-field audits | `sfield_*.json` |
+| S-field audits | `sfield_*.json`, including the completed 362,880-mapping `sfield_base9_substitution_results.json` |
 | Frontier/selector audits | `salphaseion_79_anchor_hunt.json`, `salphaseion_selector_frontier_audit.json` |
 
 See `SALPHASEION_PREREGISTRATION.md` for the v1–v39 history and exact candidate
@@ -46,6 +46,7 @@ completed; inspect the `accepted` array before claiming plaintext.
 | Root-only image audits | `../../second_door_yellow_red_audit.json`, `../../second_door_yinyang_joint_audit.json` |
 | 479 bounded search | `architect_479_bounded_search.json`, `yinyang_479_continuation_audit.json` |
 | 479 semantic/cipher tests | `architect_479_semantic_pipeline.json`, `ciao_bella_479_audit.json` |
+| Source-code / prime-basics preregistration | `architect_source_prime_reinsertion_preregistered.json`, `architect_source_prime_reinsertion_audit.json` |
 | Follow-up finite families | `architect_479_and_or_audit.json`, `architect_beginning_end_audit.json`, `architect_lastwords_yinyang_audit.json`, `architect_yinyang_cosmic_exact_test.json` |
 
 ## Witteveen/Cody
@@ -53,7 +54,7 @@ completed; inspect the `accepted` array before claiming plaintext.
 | Family | Files |
 | --- | --- |
 | Structural reproduction | `tmp/witteveen_identity_audit.json`, `WITTEVEEN_IDENTITY_AUDIT.md` |
-| Page-140 key audit | `heart_page140_key_audit.json` |
+| Page-140 key audit | `tmp/heart_page140_key_audit.json` |
 | Chain 4 two-oracle audit | `witteveen_chain4_two_oracle_audit.json` |
 | Historical report | `tmp/cody-chain.md` |
 

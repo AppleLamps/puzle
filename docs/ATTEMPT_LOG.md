@@ -96,6 +96,7 @@ reported as a failed test.
 | **NEGATIVE** | Literal AND/OR/XOR over the 16/7 quote split | `architect_479_and_or_audit.json` |
 | **NEGATIVE** | `asbothbeginningandend` and normalization/password variants | `architect_lastwords_yinyang_audit.json` |
 | **NEGATIVE** | Exact derived yin-yang phrase against the Cosmic page ciphertext; no candidate passed decryption padding (`results=[]`) | `architect_yinyang_cosmic_exact_test.json` |
+| **NEGATIVE** | Preregistered Architect “source codes / prime basics” operations on raw and transliterated 1,539-byte records: 168 records, 132 unique valid scalars, no Half/Better-Half match | `architect_source_prime_reinsertion_audit.json` |
 | **OPEN** | Intended operation after the 479 `PRIVATEKEY…` pointer | `ARCHITECT_479_CONTINUATION.md` |
 
 ## 5. SalPhaseIon extraction and direct locks
@@ -147,7 +148,7 @@ The exact candidate manifests and counts are in
 | **NEGATIVE** | S-field T9 substitution/global decode | `sfield_t9_audit.json` |
 | **NEGATIVE** | S-field 3×3 window-sum inverse; no readable unique inverse (`sat=false`) | `sfield_matrix_sum_inverse.json` |
 | **NEGATIVE** | Direct S-field cipher identification: 82,944 coordinate and 3,456 base9-pair specifications | `sfield_cipher_results.json` |
-| **OPEN / PREREGISTERED, NOT RUN** | Exhaustive shared base-9 substitution: 362,880 digit mappings and fixed representations; sealed manifest exists but no result JSON is checked in | `sfield_base9_substitution_preregistered.json` |
+| **NEGATIVE** | Exhaustive shared base-9 substitution: all 362,880 digit mappings, 5,806,080 representations, fixed text/file/decompression gates; no accepted output | `sfield_base9_substitution_preregistered.json`, `sfield_base9_substitution_results.json` |
 | **NEGATIVE** | S570 direct reductions to Chain 4/prize scalars | `sfield_reduction_audit.json` |
 | **NEGATIVE** | Reproduce claimed 79-byte anchor `e2590f15…`; `reproduced=false` | `salphaseion_79_anchor_hunt.json` |
 

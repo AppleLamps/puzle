@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "schema": "architect-source-prime-reinsertion-v1",
+  "manifest_sha256": "b3dc146d4769feb6ec8ddbda6ca28ed1540e060a641f50b535bc87ab2e396eb9",
+  "inputs": {
+    "raw": {
+      "length": 1539,
+      "sha256": "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b"
+    },
+    "transliteration": {
+      "length": 1539,
+      "sha256": "6d66e0e0e2dfdb812d5ecee2be6f54c1f3b8c84b0d74580686cf2053d76a200e"
+    }
+  },
+  "candidate_records": 168,
+  "valid_scalar_records": 168,
+  "unique_valid_scalars": 132,
+  "candidate_stream_sha256": "11ebf728b0c24aeb71f3ef54465e002ebde0a84ab1234090fd51e8dfb0a13f43",
+  "matches": [],
+  "family_counts": {
+    "layers": 2,
+    "index_bases": 2,
+    "prime_operations": 4,
+    "dissemination_modes": 3,
+    "short_extractors": 3,
+    "full_extractors": 4
+  },
+  "scope_note": "A complete negative closes only these literal select/mutate/disseminate/extract operations. It does not disprove every possible meaning of source codes or prime basics."
+}

@@ -1,0 +1,1497 @@
+{
+  "accepted": [],
+  "accepted_count": 0,
+  "manifest_sha256": "7d19436f99827b204d7d9cd59e539d80879eb3b6f2c85a48d80129ee640c93e0",
+  "mappings": 362880,
+  "representations_evaluated": 5806080,
+  "schema": "sfield-exhaustive-base9-substitution-results-v1",
+  "status": "NO_ACCEPTED_OUTPUT",
+  "top_ranked_text": [
+    {
+      "byte_order": "little",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "185726304",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6944444444444444,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "as"
+        ],
+        "score": 12.760338164251207,
+        "weighted_zipf": 6.77
+      },
+      "preview": "1$AS\u00c5FWe&=\u00ec)\u00b5S\u0085q\u00b9\u00de\u00e3-ZL\u008a7bbVx\u00f2`Q7\u00fe\tT\u00c9",
+      "printable_ratio": 0.6944444444444444,
+      "sha256": "691da4c0b1b85dc60e7264c5ff30fb97e8f299e135388949e447ab9a5af32d1d",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "185726304",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6944444444444444,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "as"
+        ],
+        "score": 12.760338164251207,
+        "weighted_zipf": 6.77
+      },
+      "preview": "1$AS\u00c5FWe&=\u00ec)\u00b5S\u0085q\u00b9\u00de\u00e3-ZL\u008a7bbVx\u00f2`Q7\u00fe\tT\u00c9",
+      "printable_ratio": 0.6944444444444444,
+      "sha256": "691da4c0b1b85dc60e7264c5ff30fb97e8f299e135388949e447ab9a5af32d1d",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "185726304",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6944444444444444,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "as"
+        ],
+        "score": 12.760338164251207,
+        "weighted_zipf": 6.77
+      },
+      "preview": "1$AS\u00c5FWe&=\u00ec)\u00b5S\u0085q\u00b9\u00de\u00e3-ZL\u008a7bbVx\u00f2`Q7\u00fe\tT\u00c9",
+      "printable_ratio": 0.6944444444444444,
+      "sha256": "691da4c0b1b85dc60e7264c5ff30fb97e8f299e135388949e447ab9a5af32d1d",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "760348215",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.34782608695652173,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "wi",
+          "di",
+          "by",
+          "to"
+        ],
+        "score": 12.699963768115941,
+        "weighted_zipf": 5.6274999999999995
+      },
+      "preview": "k\u00daF9\u00ec\u00f9b^&K>\u00d0\u00fe\u00f5\u0098Wi~?\u00d0|\u001fdI|A}x\u00dcbY\u0081TO\u00fb\f",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "66ca973d2f99b570b3056840b17244d0c13763e46b3071e72b9afe64b441b928",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "760348215",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.34782608695652173,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "wi",
+          "di",
+          "by",
+          "to"
+        ],
+        "score": 12.699963768115941,
+        "weighted_zipf": 5.6274999999999995
+      },
+      "preview": "k\u00daF9\u00ec\u00f9b^&K>\u00d0\u00fe\u00f5\u0098Wi~?\u00d0|\u001fdI|A}x\u00dcbY\u0081TO\u00fb\f",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "66ca973d2f99b570b3056840b17244d0c13763e46b3071e72b9afe64b441b928",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 37,
+      "letter_space_ratio": 0.6756756756756757,
+      "magic": [],
+      "mapping": "185726304",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6756756756756757,
+        "printable_ratio": 0.6756756756756757,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "as"
+        ],
+        "score": 12.610188014101057,
+        "weighted_zipf": 6.77
+      },
+      "preview": "1$AS\u00c5FWe&=\u00ec)\u00b5S\u0085q\u00b9\u00de\u00e3-ZL\u008a7bbVx\u00f2`Q7\u00fe\tT\u00c9\u0000",
+      "printable_ratio": 0.6756756756756757,
+      "sha256": "f9736bdc856643b3cdeeea117a8d91eebcac132bcbe8dea25585e066171ade4e",
+      "width": "fixed"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 37,
+      "letter_space_ratio": 0.6756756756756757,
+      "magic": [],
+      "mapping": "185726304",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6756756756756757,
+        "printable_ratio": 0.6756756756756757,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "as"
+        ],
+        "score": 12.610188014101057,
+        "weighted_zipf": 6.77
+      },
+      "preview": "1$AS\u00c5FWe&=\u00ec)\u00b5S\u0085q\u00b9\u00de\u00e3-ZL\u008a7bbVx\u00f2`Q7\u00fe\tT\u00c9\u0000",
+      "printable_ratio": 0.6756756756756757,
+      "sha256": "f9736bdc856643b3cdeeea117a8d91eebcac132bcbe8dea25585e066171ade4e",
+      "width": "fixed"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 37,
+      "letter_space_ratio": 0.6756756756756757,
+      "magic": [],
+      "mapping": "185726304",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6756756756756757,
+        "printable_ratio": 0.6756756756756757,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "as"
+        ],
+        "score": 12.610188014101057,
+        "weighted_zipf": 6.77
+      },
+      "preview": "1$AS\u00c5FWe&=\u00ec)\u00b5S\u0085q\u00b9\u00de\u00e3-ZL\u008a7bbVx\u00f2`Q7\u00fe\tT\u00c9\u0000",
+      "printable_ratio": 0.6756756756756757,
+      "sha256": "f9736bdc856643b3cdeeea117a8d91eebcac132bcbe8dea25585e066171ade4e",
+      "width": "fixed"
+    },
+    {
+      "byte_order": "big",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6388888888888888,
+      "magic": [],
+      "mapping": "216504378",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6388888888888888,
+        "printable_ratio": 0.6944444444444444,
+        "recognized_letter_coverage": 0.09523809523809523,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "by"
+        ],
+        "score": 12.46952380952381,
+        "weighted_zipf": 6.66
+      },
+      "preview": "\u0005SFK\u00e4\"^\u0093BEZs\nNMD\u00d3>H``.\u0014\u00fd\u00d1Z/\u00bb\n\\\u00f8g\u0003\u00d2bY",
+      "printable_ratio": 0.6944444444444444,
+      "sha256": "f680a1e617c690e7d0d86d751e47155eb0bbb6cdbba5caceaf868d25b1af6a56",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "307158462",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "if"
+        ],
+        "score": 12.238115942028987,
+        "weighted_zipf": 6.47
+      },
+      "preview": "EJ\u00caf\ns\u00cf\u00dbp\u0082L_\u0097FMGj_<\u0000u\u00cc\u00f1v\u001d\u00bbT9\u00f1\u0019\t\u00fb_iF\u00c9",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "3ae9c3e56b3da9090de92ea5444f893455601a3388dd4d71a631c27e93f5a034",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "307158462",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "if"
+        ],
+        "score": 12.238115942028987,
+        "weighted_zipf": 6.47
+      },
+      "preview": "EJ\u00caf\ns\u00cf\u00dbp\u0082L_\u0097FMGj_<\u0000u\u00cc\u00f1v\u001d\u00bbT9\u00f1\u0019\t\u00fb_iF\u00c9",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "3ae9c3e56b3da9090de92ea5444f893455601a3388dd4d71a631c27e93f5a034",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "307158462",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "if"
+        ],
+        "score": 12.238115942028987,
+        "weighted_zipf": 6.47
+      },
+      "preview": "EJ\u00caf\ns\u00cf\u00dbp\u0082L_\u0097FMGj_<\u0000u\u00cc\u00f1v\u001d\u00bbT9\u00f1\u0019\t\u00fb_iF\u00c9",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "3ae9c3e56b3da9090de92ea5444f893455601a3388dd4d71a631c27e93f5a034",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "410632857",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.09523809523809523,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "up"
+        ],
+        "score": 12.19952380952381,
+        "weighted_zipf": 6.39
+      },
+      "preview": "|\u001c\u00ef/up\r\t\u00ed|!\u001eE\u00cbr\u008a\u00d7AUp\u00d5\"\u00c0\u00d7kpS\u00eb-\u00c8ZNq\u00d3\u0094\n",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "83e1eee3f110eb8c949730b73546301a616dbbc0a9cf846db769be52609ac263",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6111111111111112,
+      "magic": [],
+      "mapping": "256301748",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6111111111111112,
+        "printable_ratio": 0.7222222222222222,
+        "recognized_letter_coverage": 0.4,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "un",
+          "qt",
+          "go",
+          "ll"
+        ],
+        "score": 11.963333333333335,
+        "weighted_zipf": 4.63
+      },
+      "preview": "\u00e7U>UN\u009a\u0088C{qt\u000fM +N[go7\u00b9Z$lL\u00ea\u008c,W\u00dey\u00a5s\nN\u008e",
+      "printable_ratio": 0.7222222222222222,
+      "sha256": "fac20201dc39aff938420b3b5dd303ce450c39abbb50864d488e06842e67f44c",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 37,
+      "letter_space_ratio": 0.6756756756756757,
+      "magic": [],
+      "mapping": "260485731",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6756756756756757,
+        "printable_ratio": 0.6756756756756757,
+        "recognized_letter_coverage": 0.24,
+        "recognized_word_count": 3,
+        "recognized_words": [
+          "uk",
+          "as",
+          "lt"
+        ],
+        "score": 11.952072072072072,
+        "weighted_zipf": 5.346666666666667
+      },
+      "preview": "\u0001UK\u00ba\"W?\u0017\u00d5Jbd1p7\u00cda@S\u00de\u00ca!dYU\u00ba6as~LT\u00cf\u00e9\u0081\u0016A",
+      "printable_ratio": 0.6756756756756757,
+      "sha256": "db66929b99ebdad89aae493bd385b66e14b35c4055634eaf8cd60dbafbd39208",
+      "width": "fixed"
+    },
+    {
+      "byte_order": "big",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 37,
+      "letter_space_ratio": 0.6756756756756757,
+      "magic": [],
+      "mapping": "260485731",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6756756756756757,
+        "printable_ratio": 0.6756756756756757,
+        "recognized_letter_coverage": 0.24,
+        "recognized_word_count": 3,
+        "recognized_words": [
+          "uk",
+          "as",
+          "lt"
+        ],
+        "score": 11.952072072072072,
+        "weighted_zipf": 5.346666666666667
+      },
+      "preview": "\u0001UK\u00ba\"W?\u0017\u00d5Jbd1p7\u00cda@S\u00de\u00ca!dYU\u00ba6as~LT\u00cf\u00e9\u0081\u0016A",
+      "printable_ratio": 0.6756756756756757,
+      "sha256": "db66929b99ebdad89aae493bd385b66e14b35c4055634eaf8cd60dbafbd39208",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "831506427",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.23076923076923078,
+        "recognized_word_count": 3,
+        "recognized_words": [
+          "ms",
+          "hd",
+          "is"
+        ],
+        "score": 11.820512820512821,
+        "weighted_zipf": 5.333333333333333
+      },
+      "preview": "K\u00dc(#\u0003\u00e5S/ms\u00bb\u00catWh\u0017F?\u00fbHD\u00db\u00aa9M\u00d5m\u00c0\u00cbk\u00a7IS\u00cfs+",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "7b3c84740327824a3aa3345edce469507959545a8a9c921334be42b0a02252fe",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "831506427",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.23076923076923078,
+        "recognized_word_count": 3,
+        "recognized_words": [
+          "ms",
+          "hd",
+          "is"
+        ],
+        "score": 11.820512820512821,
+        "weighted_zipf": 5.333333333333333
+      },
+      "preview": "K\u00dc(#\u0003\u00e5S/ms\u00bb\u00catWh\u0017F?\u00fbHD\u00db\u00aa9M\u00d5m\u00c0\u00cbk\u00a7IS\u00cfs+",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "7b3c84740327824a3aa3345edce469507959545a8a9c921334be42b0a02252fe",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "831506427",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.23076923076923078,
+        "recognized_word_count": 3,
+        "recognized_words": [
+          "ms",
+          "hd",
+          "is"
+        ],
+        "score": 11.820512820512821,
+        "weighted_zipf": 5.333333333333333
+      },
+      "preview": "K\u00dc(#\u0003\u00e5S/ms\u00bb\u00catWh\u0017F?\u00fbHD\u00db\u00aa9M\u00d5m\u00c0\u00cbk\u00a7IS\u00cfs+",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "7b3c84740327824a3aa3345edce469507959545a8a9c921334be42b0a02252fe",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "674218530",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.3333333333333333,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "hq",
+          "la",
+          "co",
+          "re"
+        ],
+        "score": 11.805,
+        "weighted_zipf": 4.805
+      },
+      "preview": "\u00f8*\u00ee'\u00e1d\u00eebnB$Hq\u00efzW\u00dc\u001bla\r\u00bdcO\u00c7w\u00ad\u00fe@;G)\u008eRE\u00b8",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "ef6e989e6079048d90d8bba29492db01e08667df102c2fd6e816bd6dfd8acb6e",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "674218530",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.3333333333333333,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "hq",
+          "la",
+          "co",
+          "re"
+        ],
+        "score": 11.805,
+        "weighted_zipf": 4.805
+      },
+      "preview": "\u00f8*\u00ee'\u00e1d\u00eebnB$Hq\u00efzW\u00dc\u001bla\r\u00bdcO\u00c7w\u00ad\u00fe@;G)\u008eRE\u00b8",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "ef6e989e6079048d90d8bba29492db01e08667df102c2fd6e816bd6dfd8acb6e",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "674218530",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.3333333333333333,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "hq",
+          "la",
+          "co",
+          "re"
+        ],
+        "score": 11.805,
+        "weighted_zipf": 4.805
+      },
+      "preview": "\u00f8*\u00ee'\u00e1d\u00eebnB$Hq\u00efzW\u00dc\u001bla\r\u00bdcO\u00c7w\u00ad\u00fe@;G)\u008eRE\u00b8",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "ef6e989e6079048d90d8bba29492db01e08667df102c2fd6e816bd6dfd8acb6e",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "638514072",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.391304347826087,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "me",
+          "ma",
+          "ja",
+          "sob"
+        ],
+        "score": 11.673188405797102,
+        "weighted_zipf": 4.383333333333334
+      },
+      "preview": "7?\u00bamE\u00f0D\u00fde2 \u0018\u008a\t\u00f0j\u00e2Ma\u009cB\u00c3D4JA\u0093SOB\u00a0\u00f6\u00cb\u00be@m",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "4134646ab0d19f40512fbd11f8efdcf6e0d98b86c86752f90520cfbe77a94359",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.75,
+      "magic": [],
+      "mapping": "518742360",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.75,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.4230769230769231,
+        "recognized_word_count": 5,
+        "recognized_words": [
+          "ima",
+          "me",
+          "rc",
+          "tm",
+          "ch"
+        ],
+        "score": 11.620738150738152,
+        "weighted_zipf": 4.0609090909090915
+      },
+      "preview": "\u00a3\u00de\u00c8ImA\u00ff5Me\u00e7\u00cf\u00dat\u00c3RC\u00e5J\u00da\u0007t3\u0005tm\r\u009bP#cH<\u00ddv^",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "0025807a808b0bdccead1ccbd3861e0f3fe327fc51d06f4b83339518fad0b61d",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "710285463",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.16666666666666666,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "so",
+          "pp"
+        ],
+        "score": 11.616666666666667,
+        "weighted_zipf": 5.449999999999999
+      },
+      "preview": "So\u00f4xVrEJqw\u00d1\u008dQP43\u008f\u00d2iOv7\u009dI\u0091\u00a0\u00f0\u001fPp\u0002j\u00d3\u00ec#\u007f",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "f3e5dae5989df86fca35870e3d3ee5c08909798c490fd6aeb7f97cd7398298c7",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "682453071",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.45454545454545453,
+        "recognized_word_count": 5,
+        "recognized_words": [
+          "pt",
+          "cp",
+          "yr",
+          "bs",
+          "ou"
+        ],
+        "score": 11.599171717171718,
+        "weighted_zipf": 3.882
+      },
+      "preview": "\u00df'1\u00d6pT\u008ee\u00be\u00efCP\u00ff\u00a0\tM\u00c9yr\u00ac\u00efT]=bS\t0\u00c5\u00ba\"4ou \u00ea",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "04302e01b452806dabfe77c19999eb1efc1cd7cfee69e8fd3a8db4b0f0c79416",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6388888888888888,
+      "magic": [],
+      "mapping": "543620871",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6388888888888888,
+        "printable_ratio": 0.6944444444444444,
+        "recognized_letter_coverage": 0.2857142857142857,
+        "recognized_word_count": 3,
+        "recognized_words": [
+          "be",
+          "lg",
+          "aa"
+        ],
+        "score": 11.585238095238093,
+        "weighted_zipf": 4.823333333333333
+      },
+      "preview": "be%1wJ\u00d0L\u00a7\u00b7\u00e3S\u00bb\u001aLg\u00a0]\rT\u00d9w,\u00d5Aa\u00d0)$8V4yw\u00ba4",
+      "printable_ratio": 0.6944444444444444,
+      "sha256": "03ca060d1f4d9ee9c6682c583416787f9f2687eed0dc24ec1d18d2a535e3171a",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "814623057",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.17391304347826086,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "nz",
+          "it"
+        ],
+        "score": 11.572898550724638,
+        "weighted_zipf": 5.37
+      },
+      "preview": "\u00eeF\u00bc\u0086\u00ffNZ?L7W\u00ac^y\u0092C'MPpb\u00d67\u00e0It\u00e2J#\u00e8\u00c8\t\t\u00b7\u00d9f",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "2169ff4d85c4f09aec700dec868c65f82e80048f3ea1e18921d7b80a3dd3a047",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "814623057",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.17391304347826086,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "nz",
+          "it"
+        ],
+        "score": 11.572898550724638,
+        "weighted_zipf": 5.37
+      },
+      "preview": "\u00eeF\u00bc\u0086\u00ffNZ?L7W^\u00a2y\u0092C'MPpb\u00d67\u00e0It\u00e2J#\u00e8\u00c8\t\t\u00b7\u00d9f",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "2169ff4d85c4f09aec700dec868c65f82e80048f3ea1e18921d7b80a3dd3a047",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "814623057",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.17391304347826086,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "nz",
+          "it"
+        ],
+        "score": 11.572898550724638,
+        "weighted_zipf": 5.37
+      },
+      "preview": "\u00eeF\u00bc\u0086\u00ffNZ?L7W\u00ac^y\u0092C'MPpb\u00d67\u00e0It\u00e2J#\u00e8\u00c8\t\t\u00b7\u00d9f",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "2169ff4d85c4f09aec700dec868c65f82e80048f3ea1e18921d7b80a3dd3a047",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.75,
+      "magic": [],
+      "mapping": "648172530",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.75,
+        "printable_ratio": 0.5833333333333334,
+        "recognized_letter_coverage": 0.375,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "ei",
+          "yrs",
+          "al",
+          "us"
+        ],
+        "score": 11.572777777777778,
+        "weighted_zipf": 4.364444444444445
+      },
+      "preview": "f\u00e2eI\u009b7f YRs\n[\u00e7H_Q\u00f1\u0093o\u00d1\u00ef\u0088AL#\u00faUs\u00e5\u000bg\u0019\u00e0\u00aa\u009a",
+      "printable_ratio": 0.5833333333333334,
+      "sha256": "9b7a26081e3076fca01757299da92b7f57841a999646ad884da65c90ee8ee572",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.75,
+      "magic": [],
+      "mapping": "648172530",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.75,
+        "printable_ratio": 0.5833333333333334,
+        "recognized_letter_coverage": 0.375,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "ei",
+          "yrs",
+          "al",
+          "us"
+        ],
+        "score": 11.572777777777778,
+        "weighted_zipf": 4.364444444444445
+      },
+      "preview": "f\u00e2eI\u009b7f YRs\n[\u00e7H_Q\u00f1\u0093o\u00d1\u00ef\u0088AL#\u00faUs\u00e5\u000bg\u0019\u00e0\u00aa\u009a",
+      "printable_ratio": 0.5833333333333334,
+      "sha256": "9b7a26081e3076fca01757299da92b7f57841a999646ad884da65c90ee8ee572",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7777777777777778,
+      "magic": [],
+      "mapping": "356280417",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7777777777777778,
+        "printable_ratio": 0.5833333333333334,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "mr"
+        ],
+        "score": 11.569227053140096,
+        "weighted_zipf": 5.69
+      },
+      "preview": "\u00c5\u008dsELz&!\t mR1\u00efNeQ\u00cfG\u009b\u00bcU\u00c0\u001fE\u00e4\u001ex|Z\u008c\u00c4j\u00c3\u00ea\u00a0",
+      "printable_ratio": 0.5833333333333334,
+      "sha256": "01e3fdb144a037e8b3e7e3d885ca1106cf7b82cfd3828259472654931c7b1f18",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7777777777777778,
+      "magic": [],
+      "mapping": "356280417",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7777777777777778,
+        "printable_ratio": 0.5833333333333334,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "mr"
+        ],
+        "score": 11.569227053140096,
+        "weighted_zipf": 5.69
+      },
+      "preview": "\u00c5\u008dsELz&]\t mR1\u00efNeQ\u00cfG\u009b\u00bcU\u00c0\u001fE\u00e4\u001ex!Z\u008c\u00c4j\u00c3\u00ea\u00a0",
+      "printable_ratio": 0.5833333333333334,
+      "sha256": "01e3fdb144a037e8b3e7e3d885ca1106cf7b82cfd3828259472654931c7b1f18",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7777777777777778,
+      "magic": [],
+      "mapping": "356280417",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7777777777777778,
+        "printable_ratio": 0.5833333333333334,
+        "recognized_letter_coverage": 0.08695652173913043,
+        "recognized_word_count": 1,
+        "recognized_words": [
+          "mr"
+        ],
+        "score": 11.569227053140096,
+        "weighted_zipf": 5.69
+      },
+      "preview": "\u00c5\u008dsELz&!\t mR1\u00efNeQ\u00cfG\u009b\u00bcU\u00c0\u001fE\u00e4\u001ex|Z\u008c\u00c4j\u00c3\u00ea\u00a0",
+      "printable_ratio": 0.5833333333333334,
+      "sha256": "01e3fdb144a037e8b3e7e3d885ca1106cf7b82cfd3828259472654931c7b1f18",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6666666666666666,
+      "magic": [],
+      "mapping": "508317246",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6666666666666666,
+        "printable_ratio": 0.6666666666666666,
+        "recognized_letter_coverage": 0.19047619047619047,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "an",
+          "sp"
+        ],
+        "score": 11.565714285714286,
+        "weighted_zipf": 5.28
+      },
+      "preview": "\u00f2\u0011\u00cd&\u00a0\u00b5!\u0001aN*z\u0089\u00dfH\u00a3c\nOML\ntLH};fjEB\u00a3sp\u00a3\u0089",
+      "printable_ratio": 0.6666666666666666,
+      "sha256": "5502f0ad8a4005811be56c6e10302aab844b3852386105546746740c3ed0514e",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6666666666666666,
+      "magic": [],
+      "mapping": "508317246",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6666666666666666,
+        "printable_ratio": 0.6666666666666666,
+        "recognized_letter_coverage": 0.19047619047619047,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "an",
+          "sp"
+        ],
+        "score": 11.565714285714286,
+        "weighted_zipf": 5.28
+      },
+      "preview": "\u00f2\u0011\u00cd&\u00a0\u00b5]\u0001aN*z\u0089\u00dfH\u00a3c\nOML\ntLH};fjEB\u00a3sp\u00a3\u0089",
+      "printable_ratio": 0.6666666666666666,
+      "sha256": "5502f0ad8a4005811be56c6e10302aab844b3852386105546746740c3ed0514e",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6666666666666666,
+      "magic": [],
+      "mapping": "508317246",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6666666666666666,
+        "printable_ratio": 0.6666666666666666,
+        "recognized_letter_coverage": 0.19047619047619047,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "an",
+          "sp"
+        ],
+        "score": 11.565714285714286,
+        "weighted_zipf": 5.28
+      },
+      "preview": "\u00f2\u0011\u00cd&\u00a0\u00b5!\u0001aN*z\u0089\u00dfH\u00a3c\nOML\ntLH};fjEB\u00a3sp\u00a3\u0089",
+      "printable_ratio": 0.6666666666666666,
+      "sha256": "5502f0ad8a4005811be56c6e10302aab844b3852386105546746740c3ed0514e",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "680451732",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.43478260869565216,
+        "recognized_word_count": 5,
+        "recognized_words": [
+          "sk",
+          "ex",
+          "ww",
+          "st",
+          "ly"
+        ],
+        "score": 11.551246376811594,
+        "weighted_zipf": 4.044
+      },
+      "preview": "\u00e6\u00f4c1Sk~EX\u00fbn\u00da\u001fWW1u'<7\u00e8?\u009eST4\fly\u00ecX\u00e4\u000ex\u00bc\u00c3",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "66608e91542bf54253187d012fccee7a5843564460ed3ee80782c0b4c3442ec6",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6944444444444444,
+      "magic": [],
+      "mapping": "213706854",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6944444444444444,
+        "printable_ratio": 0.6666666666666666,
+        "recognized_letter_coverage": 0.3333333333333333,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "ss",
+          "my",
+          "rj",
+          "hs"
+        ],
+        "score": 11.52111111111111,
+        "weighted_zipf": 4.41
+      },
+      "preview": "+SS\u00c7Q'w\u00b2\u0084my[\u00fe\u00d8s\u00e4\n#O5I\u008drj_R\u00c6C\u00f83\u00e7f\u00c7HS\u0005",
+      "printable_ratio": 0.6666666666666666,
+      "sha256": "0ce5998a139447e5feebf20056dd866c439fa891803881bcd2dfd5dae90d8ba6",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.75,
+      "magic": [],
+      "mapping": "671403852",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.75,
+        "printable_ratio": 0.5833333333333334,
+        "recognized_letter_coverage": 0.34782608695652173,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "bs",
+          "oy",
+          "an",
+          "mg"
+        ],
+        "score": 11.517463768115942,
+        "weighted_zipf": 4.445
+      },
+      "preview": "\u00c9\u0085p\u0096I\u00e0\n\u00daBs\r\u001a\u0006<`\u00b6oy\fE\u00aa[an\u00cbzx\u00c8o\u00adr\u00cc\u00demg!",
+      "printable_ratio": 0.5833333333333334,
+      "sha256": "f4b755edd0f69522a8048b05135b91745e7bf3884fc832fb7a449019928ba0fe",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "latin1",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.75,
+      "magic": [],
+      "mapping": "713825046",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.75,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.17391304347826086,
+        "recognized_word_count": 2,
+        "recognized_words": [
+          "do",
+          "rt"
+        ],
+        "score": 11.50900966183575,
+        "weighted_zipf": 5.195
+      },
+      "preview": "VJ\u00c8{\u008bdO \u00c9d\u00c1\u00b4S\r\u00barT\u00ee\u00b4|mZcm\u008fq\u00ab\u00c0\u00d5\u0085\u00a4<lhb\n",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "fc2528a9648a1b51c93e50884459ef5a636dbc4202a993692a18aae1610da28f",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.7222222222222222,
+      "magic": [],
+      "mapping": "215607438",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7222222222222222,
+        "printable_ratio": 0.6388888888888888,
+        "recognized_letter_coverage": 0.32,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "pr",
+          "me",
+          "wt",
+          "cp"
+        ],
+        "score": 11.499444444444444,
+        "weighted_zipf": 4.455
+      },
+      "preview": "\u00d9\u00dbpr\u00c9~iY\u0095A\u00cev\u00c8\u001a[Zk^>,ME\u00e1\u009aWt\u00c5\"\u00e5W1CP\u00e3\u00eb\t",
+      "printable_ratio": 0.6388888888888888,
+      "sha256": "220fab826bf6f63d5345038216a79c8b93ecdb486f1327ffc14c81a9582b31a2",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6666666666666666,
+      "magic": [],
+      "mapping": "678143052",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6666666666666666,
+        "printable_ratio": 0.6944444444444444,
+        "recognized_letter_coverage": 0.2727272727272727,
+        "recognized_word_count": 3,
+        "recognized_words": [
+          "an",
+          "ap",
+          "jm"
+        ],
+        "score": 11.481414141414142,
+        "weighted_zipf": 4.673333333333333
+      },
+      "preview": "\u00f1 l\u008cE.F\u00fe'aN\u00bbH\u00d3ap4Q\u00e5Z\u0013\u00a3@\u00fbB(JM\u0082jDk\u0001(S\t",
+      "printable_ratio": 0.6944444444444444,
+      "sha256": "877d057d916f28cde94a047ae4df0e02605cb7ad0dc4c462aac42f5db510088d",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6666666666666666,
+      "magic": [],
+      "mapping": "678143052",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6666666666666666,
+        "printable_ratio": 0.6944444444444444,
+        "recognized_letter_coverage": 0.2727272727272727,
+        "recognized_word_count": 3,
+        "recognized_words": [
+          "an",
+          "ap",
+          "jm"
+        ],
+        "score": 11.481414141414142,
+        "weighted_zipf": 4.673333333333333
+      },
+      "preview": "\u00f1 l\u008cE.F\u00fe'aN\u00bbH\u00d3ap4Q\u00e5Z\u0013\u00a3@\u00fbB(JM\u0082jDk\u0001(S\t",
+      "printable_ratio": 0.6944444444444444,
+      "sha256": "877d057d916f28cde94a047ae4df0e02605cb7ad0dc4c462aac42f5db510088d",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "big",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "forward",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.6666666666666666,
+      "magic": [],
+      "mapping": "678143052",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.6666666666666666,
+        "printable_ratio": 0.6944444444444444,
+        "recognized_letter_coverage": 0.2727272727272727,
+        "recognized_word_count": 3,
+        "recognized_words": [
+          "an",
+          "ap",
+          "jm"
+        ],
+        "score": 11.481414141414142,
+        "weighted_zipf": 4.673333333333333
+      },
+      "preview": "\u00f1 l\u008cE.F\u00fe'aN\u00bbH\u00d3ap4Q\u00e5Z\u0013\u00a3@\u00fbB(JM\u0082jDk\u0001(S\t",
+      "printable_ratio": 0.6944444444444444,
+      "sha256": "877d057d916f28cde94a047ae4df0e02605cb7ad0dc4c462aac42f5db510088d",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 37,
+      "letter_space_ratio": 0.7567567567567568,
+      "magic": [],
+      "mapping": "620175843",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7567567567567568,
+        "printable_ratio": 0.6486486486486487,
+        "recognized_letter_coverage": 0.36,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "gh",
+          "par",
+          "ll",
+          "hr"
+        ],
+        "score": 11.480510510510511,
+        "weighted_zipf": 4.058888888888889
+      },
+      "preview": "GH\u00de^A\u00c9'7\u000bPAR\u0095cZXlVx\u00db\u00f8\u001clL&\u00eehr\u00f0T?M\u0084\u00b2g\u001e\u0001",
+      "printable_ratio": 0.6486486486486487,
+      "sha256": "41d093e06ee32c32f116016bd0498afdb27b98c025a0ea5773d5583287710488",
+      "width": "fixed"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp500",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 37,
+      "letter_space_ratio": 0.7567567567567568,
+      "magic": [],
+      "mapping": "620175843",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.7567567567567568,
+        "printable_ratio": 0.6486486486486487,
+        "recognized_letter_coverage": 0.36,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "gh",
+          "par",
+          "ll",
+          "hr"
+        ],
+        "score": 11.480510510510511,
+        "weighted_zipf": 4.058888888888889
+      },
+      "preview": "GH\u00de^A\u00c9'7\u000bPAR\u0095cZXlVx\u00db\u00f8\u001clL&\u00eehr\u00f0T?M\u0084\u00b2g\u001e\u0001",
+      "printable_ratio": 0.6486486486486487,
+      "sha256": "41d093e06ee32c32f116016bd0498afdb27b98c025a0ea5773d5583287710488",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp1140",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.75,
+      "magic": [],
+      "mapping": "247658013",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.75,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.36,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "nz",
+          "hoe",
+          "al",
+          "co"
+        ],
+        "score": 11.474444444444444,
+        "weighted_zipf": 4.23
+      },
+      "preview": "l\u00c3E\\^\u00ffy\u00aeNZ\u00c2hoE\u00cc\u001d\u00da!\u00eb\u00d0T\u00d7F1\"Al\u0080\u00fcj5\u00cfD\u001eCO",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "689aaf7e2085ee052533d1e29c9987f6491ca6e44e8ea57871cb498c932ec3fd",
+      "width": "minimal"
+    },
+    {
+      "byte_order": "little",
+      "codec": "cp037",
+      "decompressed": [],
+      "direction": "reverse",
+      "field": "S91",
+      "length": 36,
+      "letter_space_ratio": 0.75,
+      "magic": [],
+      "mapping": "247658013",
+      "metrics": {
+        "accepted": false,
+        "common_chunk_rate": 0.0,
+        "letter_space_ratio": 0.75,
+        "printable_ratio": 0.6111111111111112,
+        "recognized_letter_coverage": 0.36,
+        "recognized_word_count": 4,
+        "recognized_words": [
+          "nz",
+          "hoe",
+          "al",
+          "co"
+        ],
+        "score": 11.474444444444444,
+        "weighted_zipf": 4.23
+      },
+      "preview": "l\u00c3E\\^\u00ffy\u00aeNZ\u00c2hoE\u00cc\u001d\u00da!\u00eb\u00d0T\u00d7F1\"Al\u0080\u00fcj5\u00cfD\u001eCO",
+      "printable_ratio": 0.6111111111111112,
+      "sha256": "689aaf7e2085ee052533d1e29c9987f6491ca6e44e8ea57871cb498c932ec3fd",
+      "width": "minimal"
+    }
+  ]
+}

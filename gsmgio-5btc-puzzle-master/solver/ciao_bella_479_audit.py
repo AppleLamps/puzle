@@ -212,7 +212,7 @@ def _word_layouts(parts: list[str], prefix: str) -> dict[str, str]:
         f"{prefix}/intertwine-forward": intertwine(parts),
         f"{prefix}/intertwine-reverse-words": intertwine(parts[::-1]),
         f"{prefix}/intertwine-reverse-letters": intertwine([part[::-1] for part in parts]),
-        f"{prefix}/intertwine-reverse-both": intertwine([part[::-1] for part in parts[::-1]),
+        f"{prefix}/intertwine-reverse-both": intertwine([part[::-1] for part in parts[::-1]]),
     }
     return {label: clean(value) for label, value in variants.items()}
 

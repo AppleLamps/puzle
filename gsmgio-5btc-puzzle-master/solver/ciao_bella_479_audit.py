@@ -689,6 +689,22 @@ def run() -> dict[str, object]:
             "architect_ending": "CIAO BELLA O",
         },
         "implementation_checks": known_answers,
+        "targets": {
+            "Half": {
+                "public_key_uncompressed": HALF_PUBLIC.hex(),
+                "hash160": HALF_H160.hex(),
+            },
+            "Better_Half": {"hash160": BETTER_H160.hex()},
+            "scalar_serializations_checked": ["compressed", "uncompressed"],
+            "direct_checks": [
+                "ciphertext ASCII equals Half public key",
+                "HASH160(ciphertext ASCII)",
+                "40-character hexadecimal HASH160",
+                "64-character hexadecimal private scalar",
+                "Base58Check WIF",
+            ],
+            "hashed_scalar_checks": ["SHA256(ciphertext ASCII)", "double-SHA256(ciphertext ASCII)"],
+        },
         "cipher_definitions": {
             "chaocipher": (
                 "Standard left=ciphertext/right=plaintext dynamic alphabets; "

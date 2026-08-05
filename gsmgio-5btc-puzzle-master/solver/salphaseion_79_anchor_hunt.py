@@ -174,11 +174,12 @@ def issue82_context() -> dict[str, object]:
 
 def iter_workspace_files() -> Iterable[Path]:
     skip_dirs = {".git", "__pycache__", "node_modules", ".mypy_cache", ".pytest_cache"}
+    self_path = Path(__file__).resolve()
     for dirpath, dirnames, filenames in os.walk(WORKSPACE):
         dirnames[:] = [name for name in dirnames if name not in skip_dirs]
         for filename in filenames:
             path = Path(dirpath) / filename
-            if path == RESULT_PATH:
+            if path in {RESULT_PATH, self_path}:
                 continue
             yield path
 

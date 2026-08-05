@@ -24,7 +24,7 @@
   },
   "cosmic_used": false,
   "counts": {
-    "materials": 509,
+    "materials": 546,
     "materials_by_family": {
       "clue-tokens": 27,
       "combined-kdf-inputs": 6,
@@ -33,10 +33,11 @@
       "last-words": 136,
       "prime-reinsertion": 48,
       "quote-23-16-7": 48,
+      "quote-partition-pairs": 37,
       "source-codes": 32,
       "wise-quote": 8
     },
-    "scalar_derivations": 13191,
+    "scalar_derivations": 14178,
     "scalar_derivations_by_family": {
       "clue-tokens": 672,
       "combined-kdf-inputs": 160,
@@ -45,10 +46,11 @@
       "last-words": 3572,
       "prime-reinsertion": 1134,
       "quote-23-16-7": 1204,
+      "quote-partition-pairs": 987,
       "source-codes": 854,
       "wise-quote": 211
     },
-    "unique_scalars": 9999,
+    "unique_scalars": 10693,
     "valid_wif_inputs": 0
   },
   "last_words_before_architect": {
@@ -156,6 +158,30 @@
       "target": "Half-public-uncompressed"
     },
     {
+      "candidate_sha256": "a54a2d6aaa427479c17f1c8b4b6947614c9281475f7e4c2b5e831489a626dc91",
+      "label": "quote-partition-pairs/reported-date-xor-5e7db3/interleave-blue-yellow/sha256-sub-5",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "d3e593c2a14d4ca6bc8e2c89aac757f91a246e147f92b194f2b165d73b607920",
+      "label": "quote-partition-pairs/reported-date-xor-5e7db3/16-encryptions-7-passwords-intertwined-reversed/vigenere-decrypt/heart-32@21",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "7d94cc6f88b4e799a541428318ca304a3481c22bc822c7c1e33db3134a0eadb8",
+      "label": "quote-partition-pairs/direct-last23/interleave-blue-yellow/sha256-xor-484",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "c2da6f4e070005ec137f8b260f1de492c668057a782eef120ef8418cde625f3d",
+      "label": "quote-partition-pairs/direct-first23/blue-plus-yellow/sha256-add-23",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
       "candidate_sha256": "74edee6f9334b60012224bc4516cb5300f6fc688b83bae284cabe329584ca3bc",
       "label": "quote-23-16-7/reported-date-xor-5e7db3/Y/intertwined-reversed/last-32",
       "prefix_nibbles": 4,
@@ -224,30 +250,6 @@
     {
       "candidate_sha256": "ea14641d59f1f6959e89b48a170efec3b0d7e087fc685bf56ccedf839c5a1a5b",
       "label": "last-words/quote-words-spaced-then-letters/sha256-sub-5",
-      "prefix_nibbles": 4,
-      "target": "Half-public-uncompressed"
-    },
-    {
-      "candidate_sha256": "2f4a2752d32e8a936c6568b9575a6e886d0d565e6000061b73d3d4bc941a9a16",
-      "label": "last-words/quote-lower-then-literal/sha256-sub-32",
-      "prefix_nibbles": 4,
-      "target": "Half-public-uncompressed"
-    },
-    {
-      "candidate_sha256": "54845c66c33e76bd0c78f805c04102996f2f6d0f41bbffc85ba044b212ad0ee1",
-      "label": "last-words/quote-letters-upper-then-words-spaced/sha256-add-484",
-      "prefix_nibbles": 4,
-      "target": "Half-public-uncompressed"
-    },
-    {
-      "candidate_sha256": "dc7f5a896c0b0bc0d4cf98abb28ca9117036dac5d12f7dbcd337fa469396bcc8",
-      "label": "indexed-text/span-TWENTYTHREECIPHERS-to-SIXTEENENCRYPTIONS/sha256-sub-140",
-      "prefix_nibbles": 4,
-      "target": "Half-hash160-uncompressed"
-    },
-    {
-      "candidate_sha256": "80f6c036d1d877ac4e90e8d16d00077e65614cb9d65a451bfb7c9ed5b4df9cf0",
-      "label": "indexed-text/span-TAKETHISTOHEART-to-SEVENINTERTWINEDPASSWORDS/sha256-xor-carried-code",
       "prefix_nibbles": 4,
       "target": "Half-public-uncompressed"
     }

@@ -201,3 +201,63 @@ the 2023 pipeline message, both solved URLs and the literal string `HASHTHETEXT`
 across seven spellings each and under sha256, double-sha256, sha256-of-hex-digest,
 blake2s and first-32-bytes. That is 170 distinct valid scalars, checked against
 both prize addresses in compressed and uncompressed form. **Zero matches.**
+
+## Newer creator hints (decoded)
+
+**2024-04-19 (halving day):** "There are few prizes to win besides the banter in
+this chat: A private key, some 'obscure' intel, or what I hope most of you have
+discovered by now, the most obvious reason to make sure you hold on to Bitcoin."
+So the puzzle has multiple intended payoffs, not only the key.
+
+**2026-01-01 New Year binary message**, decoded independently:
+
+    Happy new year! Make the best of everything. Oh, and here's a "tiny hint" <3.
+
+The tiny hint is the literal ASCII `<3`. That is the same heart mark the
+Architect's "take this to heart" and the Half/Better-Half language have been
+pointing at. Combined with Cosmic Duality / yin-yang, it is a creator-authored
+emphasis, not solver ornament.
+
+**2023-08-06:** "Once you hit a ying yang, you'll be able to solve it the same
+day." Cosmic Duality is that milestone. The final step after decrypting Cosmic
+is supposed to be short — "a true giveaway."
+
+## SalPhaseIon structural identity: Witteveen
+
+I reproduced the repository's structural SalPhaseIon chain from the raw fields
+without taking it on faith:
+
+```
+F73D92  (yellow/blue spiral markers, blue=1)
+  // 2     -> 7B9EC9     ("Half")
+  + 3      -> 7B9ECC     ("Better Half", using the creator's <3)
+  23 bits  -> BBBBYBBBYYBBBBYBBYYBBYY
+```
+
+That 23-bit colour string is **independently** the unique parse of S91 under the
+rule "non-primes consume one symbol; primes consume `b`=Blue or `be`=Yellow."
+So the `<3` / better-half increment is not an arbitrary edit of verified data —
+it is the exact bridge from the first image's 24 marker bits to S91's 23-colour
+cycle, including why prime 89 has no colour.
+
+Continuing the chain on S570 (zero cells at the blue/yellow prime-colour sums
+474 and 400, fold, Hill-order-one, T5, diagonals) yields the incomplete surname
+`WITVEEN`. The creator's "theory of everything" → `TOE`, "zeroed out" → drop
+`O` → `TE`, reinserted into `WITVEEN` → **`WITTEVEEN`**. That matches
+H.J. Witteveen, editor of *The Heart of Sufism* (400 pages — the yellow sum)
+and author whose themes (harmony, heart, finance, duality) sit in the Architect
+prose. This is an identity result. It is not yet the private key: direct
+brainwallets of the name, Sufi name, page-140 word `unaware`, and HMAC/XOR
+combinations with the Cosmic bytes all miss both prize addresses.
+
+## What was tested this round and closed
+
+- Yin-yang dual of the Cosmic matrix (yang rows + yin cols, shift 18) also hits
+  exact 80..117 and decodes to a different 68-byte string; neither it nor
+  arithmetic combinations with the published base-38 output produce the prize.
+- Cosmic halves as sum/difference of the prize scalars: fail against the known
+  Half pubkey.
+- Cosmic keys as 2-of-2 multisig: produce `3…` addresses, not the P2PKH prize.
+- Witteveen / Karimbakhsh / unaware / HILLONE / ASKHSKEY / COMPS / `<3` as
+  brainwallets, Cosmic passwords, 7-token XOR substitutions, and HMAC/XOR
+  against Cosmic and Chain 4: no prize match.

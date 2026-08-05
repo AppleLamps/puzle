@@ -118,7 +118,7 @@ reported as a failed test.
 | **NEGATIVE** | `THEMATRIXHASYOU` Beaufort/Vigenère variants and affine `P=2(C-8) mod 9` over the letter grid | `tmp/kenorb-analysis.md` |
 | **NEGATIVE** | Claimed Cosmic key/IV applied directly to the SalPhaseIon blob | `tmp/kenorb-analysis.md` |
 | **NEGATIVE** | Historical matrix-sum password extractions (inconsistent partial/full totals 422 versus 3239) | `tmp/kenorb-analysis.md` |
-| **OPEN** | Independent role of the 48-byte envelope | `CREATOR_SOURCED.md` |
+| **NEGATIVE** | Independent role of the 48-byte envelope: sealed split audit of env48/raw48 as independent targets — 112 direct AES-256-CBC key+IV attempts on raw48 (authenticated chain/Cosmic keys, token digests, XOR, chain-plaintext digests × frozen IV set), 84 EVP password attempts on env48 (21 unique authenticated passwords × 2 forms × 2 digests; one random-rate MD5 padding hit, `hashthetext`), 12 stage-two `shabefanstoo` derivations, 17 raw48 window scalar gates plus 18 base58check/format scans, 272 envelope-salt searches across 17 corpora; no prize match, `NO_ACCEPTED_OUTPUT` | `salphaseion_split_envelope_preregistered.json`, `salphaseion_split_envelope_results.json` |
 
 ## 6. SalPhaseIon preregistration and S-field families
 
@@ -263,12 +263,14 @@ The exact candidate manifests and counts are in
 
 1. Determine the intended operation after Architect offset 479.
 2. Explain the 23/16/7 partition without introducing a free cipher/key choice.
-3. Resolve the independent 48-byte SalPhaseIon envelope.
-4. Determine whether S91/S570 has an intended continuation beyond its
-   reproducible controls.
-5. Recover or reject the unavailable community operands with source provenance.
-6. Derive a scalar matching:
+3. Recover or reject the unavailable community operands with source provenance.
+4. Derive a scalar matching:
    - Half exact public key, or
    - Better Half hash160 under a valid public-key serialization.
+
+Resolved on 2026-08-05: the independent 48-byte SalPhaseIon envelope (former
+item 3; sealed split-envelope audit, `salphaseion_split_envelope_results.json`,
+`NO_ACCEPTED_OUTPUT`) and the intended S91/S570 continuation (former item 4;
+sealed exhaustive shared base-9 substitution, `NO_ACCEPTED_OUTPUT`).
 
 No agent or checked-in audit has yet passed either prize oracle.

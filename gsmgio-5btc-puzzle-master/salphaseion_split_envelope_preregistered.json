@@ -1,0 +1,1161 @@
+{
+  "acceptance": {
+    "cross_blob_rule": "same stage-two sha256 material accepted on both env48 and raw48",
+    "format_rule": "salphaseion_blind_eval._formats",
+    "padding_alone_never_suffices": true,
+    "prize_gate": "every 32-byte output slice of every K1/K2/K3 plaintext and every K4 window is tested as a secp256k1 scalar against Half's exact uncompressed point and Better Half's hash160 under both serializations",
+    "readable_text_rule": "salphaseion_blind_eval._readable"
+  },
+  "families": {
+    "K1": {
+      "duplicates_removed": 8,
+      "ivs": [
+        {
+          "hex": "00000000000000000000000000000000",
+          "iv_id": "zero",
+          "provenance": "16 zero bytes",
+          "sha256": "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+        },
+        {
+          "hex": "c6ff2e39d98843bc3c26b8a33a15b5c9",
+          "iv_id": "cosmic-evp-iv",
+          "provenance": "Cosmic EVP_BytesToKey(md5) IV",
+          "sha256": "109182ea2c11279febd800057f5e19e0fb9d0b21b05496edc9ccf43429eac1b5"
+        },
+        {
+          "hex": "9fa9db91a9dee0e38b93694ec874630b",
+          "iv_id": "chain1-key1-prefix16",
+          "provenance": "chain-1 key1 first 16 bytes",
+          "sha256": "fc37453570277b6fbe8364053547672834991c7ecc7d5e289b48c0b4de2ddd93"
+        },
+        {
+          "hex": "1517389608d55021dc436b66ec513a61",
+          "iv_id": "chain1-key2-prefix16",
+          "provenance": "chain-1 key2 first 16 bytes",
+          "sha256": "8358a2cc7f9e244f3bb4034c715fe06bb9f31f9366f8b7ae11cf1a68e05d11ba"
+        },
+        {
+          "hex": "b06fa6f20561756c865dac7190f06348",
+          "iv_id": "chain2-key1-prefix16",
+          "provenance": "chain-2 key1 first 16 bytes",
+          "sha256": "1c03de51b517d6d5c4bc6e7a61d32c1b20a5d0c023388a331338f0ce4bd4adfd"
+        },
+        {
+          "hex": "b11d211ca0a17cd68c580308f3e6f21d",
+          "iv_id": "chain2-key2-prefix16",
+          "provenance": "chain-2 key2 first 16 bytes",
+          "sha256": "2e058d19342ada91407c96d12dfc2c96fef81162b28e3871dfc1a02356d31eaf"
+        },
+        {
+          "hex": "0038d4f4c90cb45fdfc8cff50d0ed1c5",
+          "iv_id": "chain1-key3-leftpad",
+          "provenance": "15-byte chain-1 tail key3 left-padded with 0x00",
+          "sha256": "147b48a107384958f70c58eabda52a9aeba0a34f22e63048a30a2e2225e22b05"
+        },
+        {
+          "hex": "00740a25de4b8e946d0a5ae2667a23a2",
+          "iv_id": "chain2-key3-leftpad",
+          "provenance": "15-byte chain-2 tail key3 left-padded with 0x00",
+          "sha256": "b29026987e33c51cee6fddcec316e878c3400bd133e32c0874e9cb52c649a2f7"
+        }
+      ],
+      "keys": [
+        {
+          "hex": "6ac438facf366702b60d6dfcebd39815b582f19b591b3fdf69240c6966f4fc23",
+          "key_id": "cosmic-evp-key",
+          "provenance": "Cosmic EVP_BytesToKey(md5) key from the seven-token-digest XOR password",
+          "sha256": "155ddd2c7a0cfc3bcc3fb55368381165266e871117b45adb4a8b61aa5f03d4b6"
+        },
+        {
+          "hex": "9fa9db91a9dee0e38b93694ec874630b30f32f33671987543b1cf913f4746439",
+          "key_id": "chain1-key1",
+          "provenance": "chain-1 79-byte triplet bytes 0:32",
+          "sha256": "a7ce17669edc664a07d2a1aaec9d310f657d0b7651512de5c37fa13b9b6143de"
+        },
+        {
+          "hex": "1517389608d55021dc436b66ec513a617c4f14cb0fed4708b535641a6dfe8210",
+          "key_id": "chain1-key2",
+          "provenance": "chain-1 79-byte triplet bytes 32:64",
+          "sha256": "0695c2d68a5690d5143beb075c900e12701d4b06f55f72a38d04c8798c2e760b"
+        },
+        {
+          "hex": "b06fa6f20561756c865dac7190f063480a371e4a13206e529ee7e9078f309c4b",
+          "key_id": "chain2-key1",
+          "provenance": "chain-2 79-byte triplet bytes 0:32",
+          "sha256": "a4386b4d0ffe3e721e11b72be3c3fd01fe7138f5d0c65a365bbb566476a00350"
+        },
+        {
+          "hex": "b11d211ca0a17cd68c580308f3e6f21d3f935c8da3c4373b6f73ab5ccfaea597",
+          "key_id": "chain2-key2",
+          "provenance": "chain-2 79-byte triplet bytes 32:64",
+          "sha256": "7e24c53fd082131abebdec92de3b45b695fe87587551b2938fc713e6ad55f393"
+        },
+        {
+          "hex": "e7546e3076294907ed2a0ecaa9c33062f6e602b7c74c5aa5cc865df0ff345507",
+          "key_id": "token-digest-1-matrixsumlist",
+          "provenance": "sha256 of SalPhaseIon token 1 ('matrixsumlist')",
+          "sha256": "f28a0ece69f64d2f769e4603a6d72d9ab630eb4d8709cbe0509464553930f69b"
+        },
+        {
+          "hex": "e08d706b3e4ce964b632746cf568913cb93f1ed36476fbb0494b80ed17c5975c",
+          "key_id": "token-digest-2-enter",
+          "provenance": "sha256 of SalPhaseIon token 2 ('enter')",
+          "sha256": "fd3a5d5e3a88e8b63ff2bc8c5dd7cb518b5966dcf76edc329f6a9f5545692410"
+        },
+        {
+          "hex": "77094e7a1591fb81379f1582cf88db5aa6ab8e77176a4d8428a1ff5decfd102d",
+          "key_id": "token-digest-3-lastwordsbeforearchichoice",
+          "provenance": "sha256 of SalPhaseIon token 3 ('lastwordsbeforearchichoice')",
+          "sha256": "d404b909d06ad9582be4e4eb723f80466c4525d73a832ca00b916cfb60861079"
+        },
+        {
+          "hex": "74c1d7592daf4f89b0a7ba5e368bb59cc9e19c6a4ebb7f33cd8ccf8f3edacac0",
+          "key_id": "token-digest-4-thispassword",
+          "provenance": "sha256 of SalPhaseIon token 4 ('thispassword')",
+          "sha256": "247c62df3a329897b766572dfbdd129dde64c0a343ac3e0522a872e87dbb6382"
+        },
+        {
+          "hex": "e7546e3076294907ed2a0ecaa9c33062f6e602b7c74c5aa5cc865df0ff345507",
+          "key_id": "token-digest-5-matrixsumlist",
+          "provenance": "sha256 of SalPhaseIon token 5 ('matrixsumlist')",
+          "sha256": "f28a0ece69f64d2f769e4603a6d72d9ab630eb4d8709cbe0509464553930f69b"
+        },
+        {
+          "hex": "4c2b6d6bfb58ed3d8048130275644f48b79f8f41eb2b319df0b98b5743b7fc07",
+          "key_id": "token-digest-6-yourlastcommand",
+          "provenance": "sha256 of SalPhaseIon token 6 ('yourlastcommand')",
+          "sha256": "dd7a6983e19cf58fb2bf47df25289b230879abf9ea0bbcc49317af40fa6559dd"
+        },
+        {
+          "hex": "08fb5a32836d95c1543014ab483f77d18211d6d1335765ae15912e09d4b0b683",
+          "key_id": "token-digest-7-secondanswer",
+          "provenance": "sha256 of SalPhaseIon token 7 ('secondanswer')",
+          "sha256": "d5f0d15f5cfa46cfdd30d654f06e006e103447e648264f90791167c7c38be514"
+        },
+        {
+          "hex": "a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735",
+          "key_id": "token-digest-xor7",
+          "provenance": "XOR of the seven token sha256 digests (the Cosmic password)",
+          "sha256": "c8bf762e473d3d012c51d78eac67c049cfffe3f8c7c0f89f5d1d5f8822844fed"
+        },
+        {
+          "hex": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+          "key_id": "sha256-chain1-plaintext",
+          "provenance": "sha256 of the whole 79-byte chain-1 plaintext",
+          "sha256": "d5d7b598927d63a3a3f26e21041e7533158ffd1f3e4af0bf9a9148f9fe76d3bc"
+        },
+        {
+          "hex": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004",
+          "key_id": "sha256-chain2-plaintext",
+          "provenance": "sha256 of the whole 79-byte chain-2 plaintext",
+          "sha256": "fc0a073945a44699f01289886deaacc4f67464a4f2b2b9b12eb8d0e8e492367d"
+        }
+      ],
+      "pair_count": 112,
+      "pairs": [
+        {
+          "iv_id": "zero",
+          "key_id": "cosmic-evp-key",
+          "pair_id": "k1p0000"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "cosmic-evp-key",
+          "pair_id": "k1p0001"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "cosmic-evp-key",
+          "pair_id": "k1p0002"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "cosmic-evp-key",
+          "pair_id": "k1p0003"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "cosmic-evp-key",
+          "pair_id": "k1p0004"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "cosmic-evp-key",
+          "pair_id": "k1p0005"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "cosmic-evp-key",
+          "pair_id": "k1p0006"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "cosmic-evp-key",
+          "pair_id": "k1p0007"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "chain1-key1",
+          "pair_id": "k1p0008"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "chain1-key1",
+          "pair_id": "k1p0009"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "chain1-key1",
+          "pair_id": "k1p0010"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "chain1-key1",
+          "pair_id": "k1p0011"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "chain1-key1",
+          "pair_id": "k1p0012"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "chain1-key1",
+          "pair_id": "k1p0013"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "chain1-key1",
+          "pair_id": "k1p0014"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "chain1-key1",
+          "pair_id": "k1p0015"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "chain1-key2",
+          "pair_id": "k1p0016"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "chain1-key2",
+          "pair_id": "k1p0017"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "chain1-key2",
+          "pair_id": "k1p0018"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "chain1-key2",
+          "pair_id": "k1p0019"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "chain1-key2",
+          "pair_id": "k1p0020"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "chain1-key2",
+          "pair_id": "k1p0021"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "chain1-key2",
+          "pair_id": "k1p0022"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "chain1-key2",
+          "pair_id": "k1p0023"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "chain2-key1",
+          "pair_id": "k1p0024"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "chain2-key1",
+          "pair_id": "k1p0025"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "chain2-key1",
+          "pair_id": "k1p0026"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "chain2-key1",
+          "pair_id": "k1p0027"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "chain2-key1",
+          "pair_id": "k1p0028"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "chain2-key1",
+          "pair_id": "k1p0029"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "chain2-key1",
+          "pair_id": "k1p0030"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "chain2-key1",
+          "pair_id": "k1p0031"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "chain2-key2",
+          "pair_id": "k1p0032"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "chain2-key2",
+          "pair_id": "k1p0033"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "chain2-key2",
+          "pair_id": "k1p0034"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "chain2-key2",
+          "pair_id": "k1p0035"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "chain2-key2",
+          "pair_id": "k1p0036"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "chain2-key2",
+          "pair_id": "k1p0037"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "chain2-key2",
+          "pair_id": "k1p0038"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "chain2-key2",
+          "pair_id": "k1p0039"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "token-digest-1-matrixsumlist",
+          "pair_id": "k1p0040"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "token-digest-1-matrixsumlist",
+          "pair_id": "k1p0041"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "token-digest-1-matrixsumlist",
+          "pair_id": "k1p0042"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "token-digest-1-matrixsumlist",
+          "pair_id": "k1p0043"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "token-digest-1-matrixsumlist",
+          "pair_id": "k1p0044"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "token-digest-1-matrixsumlist",
+          "pair_id": "k1p0045"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "token-digest-1-matrixsumlist",
+          "pair_id": "k1p0046"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "token-digest-1-matrixsumlist",
+          "pair_id": "k1p0047"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "token-digest-2-enter",
+          "pair_id": "k1p0048"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "token-digest-2-enter",
+          "pair_id": "k1p0049"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "token-digest-2-enter",
+          "pair_id": "k1p0050"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "token-digest-2-enter",
+          "pair_id": "k1p0051"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "token-digest-2-enter",
+          "pair_id": "k1p0052"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "token-digest-2-enter",
+          "pair_id": "k1p0053"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "token-digest-2-enter",
+          "pair_id": "k1p0054"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "token-digest-2-enter",
+          "pair_id": "k1p0055"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "token-digest-3-lastwordsbeforearchichoice",
+          "pair_id": "k1p0056"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "token-digest-3-lastwordsbeforearchichoice",
+          "pair_id": "k1p0057"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "token-digest-3-lastwordsbeforearchichoice",
+          "pair_id": "k1p0058"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "token-digest-3-lastwordsbeforearchichoice",
+          "pair_id": "k1p0059"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "token-digest-3-lastwordsbeforearchichoice",
+          "pair_id": "k1p0060"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "token-digest-3-lastwordsbeforearchichoice",
+          "pair_id": "k1p0061"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "token-digest-3-lastwordsbeforearchichoice",
+          "pair_id": "k1p0062"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "token-digest-3-lastwordsbeforearchichoice",
+          "pair_id": "k1p0063"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "token-digest-4-thispassword",
+          "pair_id": "k1p0064"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "token-digest-4-thispassword",
+          "pair_id": "k1p0065"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "token-digest-4-thispassword",
+          "pair_id": "k1p0066"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "token-digest-4-thispassword",
+          "pair_id": "k1p0067"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "token-digest-4-thispassword",
+          "pair_id": "k1p0068"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "token-digest-4-thispassword",
+          "pair_id": "k1p0069"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "token-digest-4-thispassword",
+          "pair_id": "k1p0070"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "token-digest-4-thispassword",
+          "pair_id": "k1p0071"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "token-digest-6-yourlastcommand",
+          "pair_id": "k1p0072"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "token-digest-6-yourlastcommand",
+          "pair_id": "k1p0073"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "token-digest-6-yourlastcommand",
+          "pair_id": "k1p0074"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "token-digest-6-yourlastcommand",
+          "pair_id": "k1p0075"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "token-digest-6-yourlastcommand",
+          "pair_id": "k1p0076"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "token-digest-6-yourlastcommand",
+          "pair_id": "k1p0077"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "token-digest-6-yourlastcommand",
+          "pair_id": "k1p0078"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "token-digest-6-yourlastcommand",
+          "pair_id": "k1p0079"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "token-digest-7-secondanswer",
+          "pair_id": "k1p0080"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "token-digest-7-secondanswer",
+          "pair_id": "k1p0081"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "token-digest-7-secondanswer",
+          "pair_id": "k1p0082"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "token-digest-7-secondanswer",
+          "pair_id": "k1p0083"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "token-digest-7-secondanswer",
+          "pair_id": "k1p0084"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "token-digest-7-secondanswer",
+          "pair_id": "k1p0085"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "token-digest-7-secondanswer",
+          "pair_id": "k1p0086"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "token-digest-7-secondanswer",
+          "pair_id": "k1p0087"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "token-digest-xor7",
+          "pair_id": "k1p0088"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "token-digest-xor7",
+          "pair_id": "k1p0089"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "token-digest-xor7",
+          "pair_id": "k1p0090"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "token-digest-xor7",
+          "pair_id": "k1p0091"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "token-digest-xor7",
+          "pair_id": "k1p0092"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "token-digest-xor7",
+          "pair_id": "k1p0093"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "token-digest-xor7",
+          "pair_id": "k1p0094"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "token-digest-xor7",
+          "pair_id": "k1p0095"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "sha256-chain1-plaintext",
+          "pair_id": "k1p0096"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "sha256-chain1-plaintext",
+          "pair_id": "k1p0097"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "sha256-chain1-plaintext",
+          "pair_id": "k1p0098"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "sha256-chain1-plaintext",
+          "pair_id": "k1p0099"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "sha256-chain1-plaintext",
+          "pair_id": "k1p0100"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "sha256-chain1-plaintext",
+          "pair_id": "k1p0101"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "sha256-chain1-plaintext",
+          "pair_id": "k1p0102"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "sha256-chain1-plaintext",
+          "pair_id": "k1p0103"
+        },
+        {
+          "iv_id": "zero",
+          "key_id": "sha256-chain2-plaintext",
+          "pair_id": "k1p0104"
+        },
+        {
+          "iv_id": "cosmic-evp-iv",
+          "key_id": "sha256-chain2-plaintext",
+          "pair_id": "k1p0105"
+        },
+        {
+          "iv_id": "chain1-key1-prefix16",
+          "key_id": "sha256-chain2-plaintext",
+          "pair_id": "k1p0106"
+        },
+        {
+          "iv_id": "chain1-key2-prefix16",
+          "key_id": "sha256-chain2-plaintext",
+          "pair_id": "k1p0107"
+        },
+        {
+          "iv_id": "chain2-key1-prefix16",
+          "key_id": "sha256-chain2-plaintext",
+          "pair_id": "k1p0108"
+        },
+        {
+          "iv_id": "chain2-key2-prefix16",
+          "key_id": "sha256-chain2-plaintext",
+          "pair_id": "k1p0109"
+        },
+        {
+          "iv_id": "chain1-key3-leftpad",
+          "key_id": "sha256-chain2-plaintext",
+          "pair_id": "k1p0110"
+        },
+        {
+          "iv_id": "chain2-key3-leftpad",
+          "key_id": "sha256-chain2-plaintext",
+          "pair_id": "k1p0111"
+        }
+      ],
+      "rule": "direct AES-256-CBC key+IV on raw48 (no KDF)",
+      "target": "raw48"
+    },
+    "K2": {
+      "duplicates_removed": 7,
+      "kdf_digests": [
+        "md5",
+        "sha256"
+      ],
+      "password_forms": [
+        "raw-bytes",
+        "sha256-lowercase-hex"
+      ],
+      "passwords": [
+        {
+          "hex": "6d617472697873756d6c697374",
+          "merged_duplicate_ids": [
+            "chain1-token-5",
+            "field-literal-matrixsumlist",
+            "creator-pipeline-2"
+          ],
+          "password_id": "chain1-token-1",
+          "provenance": "chain-1 token 1 of five in frozen physical source order ('matrixsumlist')",
+          "sha256": "e7546e3076294907ed2a0ecaa9c33062f6e602b7c74c5aa5cc865df0ff345507"
+        },
+        {
+          "hex": "656e746572",
+          "merged_duplicate_ids": [
+            "field-literal-enter"
+          ],
+          "password_id": "chain1-token-2",
+          "provenance": "chain-1 token 2 of five in frozen physical source order ('enter')",
+          "sha256": "e08d706b3e4ce964b632746cf568913cb93f1ed36476fbb0494b80ed17c5975c"
+        },
+        {
+          "hex": "6c617374776f7264736265666f7265617263686963686f696365",
+          "merged_duplicate_ids": [
+            "field-literal-lastwordsbeforearchichoice",
+            "creator-pipeline-3"
+          ],
+          "password_id": "chain1-token-3",
+          "provenance": "chain-1 token 3 of five in frozen physical source order ('lastwordsbeforearchichoice')",
+          "sha256": "77094e7a1591fb81379f1582cf88db5aa6ab8e77176a4d8428a1ff5decfd102d"
+        },
+        {
+          "hex": "7468697370617373776f7264",
+          "merged_duplicate_ids": [
+            "field-literal-thispassword"
+          ],
+          "password_id": "chain1-token-4",
+          "provenance": "chain-1 token 4 of five in frozen physical source order ('thispassword')",
+          "sha256": "74c1d7592daf4f89b0a7ba5e368bb59cc9e19c6a4ebb7f33cd8ccf8f3edacac0"
+        },
+        {
+          "hex": "6d617472697873756d6c697374656e7465726c617374776f7264736265666f7265617263686963686f6963657468697370617373776f72646d617472697873756d6c697374",
+          "merged_duplicate_ids": [],
+          "password_id": "chain1-glued-joke-password",
+          "provenance": "the glued five-token joke password that opens the glued envelope",
+          "sha256": "a35346830e8e94ea068ec6606a59f2bd7b21c2ad1fe042a05c9b75b740b85f28"
+        },
+        {
+          "hex": "7368616265666f7572666972737468696e746973796f75726c617374636f6d6d616e64",
+          "merged_duplicate_ids": [],
+          "password_id": "field-literal-shabefourfirsthintisyourlastcommand",
+          "provenance": "one of the six decoded field literals from the archived page",
+          "sha256": "d3dcdb2f2b66c1b95733b6944051eb4cc5d6143b4666fb1580928a262418cac1"
+        },
+        {
+          "hex": "736861626566616e73746f6f",
+          "merged_duplicate_ids": [],
+          "password_id": "field-literal-shabefanstoo",
+          "provenance": "one of the six decoded field literals from the archived page",
+          "sha256": "e6190c95f277454dd5953a49d0b34dd176685cba336fa4b54277c8e4edc067cb"
+        },
+        {
+          "hex": "4841534854484554455854",
+          "merged_duplicate_ids": [],
+          "password_id": "HASHTHETEXT",
+          "provenance": "Decentraland audio difference-channel command (uppercase)",
+          "sha256": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae"
+        },
+        {
+          "hex": "6861736874686574657874",
+          "merged_duplicate_ids": [],
+          "password_id": "hashthetext",
+          "provenance": "Decentraland audio difference-channel command (lowercase)",
+          "sha256": "f105c3fd4d0fc9bfc74475796a1bde6ae7a1e5656ebc273c30a45356d6cfb2ca"
+        },
+        {
+          "hex": "79656c6c6f77626c75657072696d6573",
+          "merged_duplicate_ids": [],
+          "password_id": "creator-pipeline-1",
+          "provenance": "one of the seven 2023 creator-pipeline words (creator_frontier_giveaway_audit.CREATOR_PIPELINE)",
+          "sha256": "536a24c822256bf4f1b1e30f2f975d70a7e86d9b336e761f67e14b7746f16ee7"
+        },
+        {
+          "hex": "79696e79616e67",
+          "merged_duplicate_ids": [],
+          "password_id": "creator-pipeline-4",
+          "provenance": "one of the seven 2023 creator-pipeline words (creator_frontier_giveaway_audit.CREATOR_PIPELINE)",
+          "sha256": "9f9d79ece6f5c956063beff2130631da40a37d050cb3813190b58abb17fec3db"
+        },
+        {
+          "hex": "7765776f6e74676976656177617974686570617373776f7264",
+          "merged_duplicate_ids": [],
+          "password_id": "creator-pipeline-5",
+          "provenance": "one of the seven 2023 creator-pipeline words (creator_frontier_giveaway_audit.CREATOR_PIPELINE)",
+          "sha256": "49bdd6acb7a37597c308c7f7e8b6391e6e7ac782ed4d34f51ca93e4a11a4baab"
+        },
+        {
+          "hex": "697473696e66726f6e746f66796f757265796573627574796f7572656e6f74736565696e676974",
+          "merged_duplicate_ids": [],
+          "password_id": "creator-pipeline-6",
+          "provenance": "one of the seven 2023 creator-pipeline words (creator_frontier_giveaway_audit.CREATOR_PIPELINE)",
+          "sha256": "a3116564a2f81e9a6f06bcb019d57040b931fc0e41dc9fe1d29b2ef84a987ab4"
+        },
+        {
+          "hex": "766572796c6173747374657069736174727565676976656177617970726f6d69736564",
+          "merged_duplicate_ids": [],
+          "password_id": "creator-pipeline-7",
+          "provenance": "one of the seven 2023 creator-pipeline words (creator_frontier_giveaway_audit.CREATOR_PIPELINE)",
+          "sha256": "11566d1454130a1b09c5457512ca3e33310eb7273e0d88ab13f4fa0350815830"
+        },
+        {
+          "hex": "67736d672e696f2f746865736565646973706c616e746564",
+          "merged_duplicate_ids": [],
+          "password_id": "stage-password-1",
+          "provenance": "one of the seven authenticated stage passwords (seven_stage_passwords_intertwine_audit.json)",
+          "sha256": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9"
+        },
+        {
+          "hex": "746865666c6f776572626c6f73736f6d737468726f756768776861747365656d73746f626561636f6e637265746573757266616365",
+          "merged_duplicate_ids": [],
+          "password_id": "stage-password-2",
+          "provenance": "one of the seven authenticated stage passwords (seven_stage_passwords_intertwine_audit.json)",
+          "sha256": "5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75"
+        },
+        {
+          "hex": "63617573616c697479",
+          "merged_duplicate_ids": [],
+          "password_id": "stage-password-3",
+          "provenance": "one of the seven authenticated stage passwords (seven_stage_passwords_intertwine_audit.json)",
+          "sha256": "eb3efb5151e6255994711fe8f2264427ceeebf88109e1d7fad5b0a8b6d07e5bf"
+        },
+        {
+          "hex": "63617573616c697479536166656e65744c756e6148534d313131313030783733364236453631363232303732364636363230373437353646364336393631363232303634364536463633363537333230363636463230364236453639373236323230364536463230373236463643364336353633364536313638343332303339333033303332324633333330323037333635364436393534323036353638353442354b522f317235422f3252352f326231703170312f3250316b3150312f3170325032702f3150325032502f334e314e322062202d202d20302031",
+          "merged_duplicate_ids": [],
+          "password_id": "stage-password-4",
+          "provenance": "one of the seven authenticated stage passwords (seven_stage_passwords_intertwine_audit.json)",
+          "sha256": "9b076bfcd59df2d6c4e6d29eedc135fda63b7f285d7904e1f047ea312a1f043b"
+        },
+        {
+          "hex": "6a616371756566726573636f6769766569746a7573746f6e657365636f6e6468656973656e6265726773756e6365727461696e74797072696e6369706c65",
+          "merged_duplicate_ids": [],
+          "password_id": "stage-password-5",
+          "provenance": "one of the seven authenticated stage passwords (seven_stage_passwords_intertwine_audit.json)",
+          "sha256": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c"
+        },
+        {
+          "hex": "5448454d4154524958484153594f55",
+          "merged_duplicate_ids": [],
+          "password_id": "stage-password-6",
+          "provenance": "one of the seven authenticated stage passwords (seven_stage_passwords_intertwine_audit.json)",
+          "sha256": "b8de97f4752f353ae8f18bc20afff94c16fec87a230d14aead8572287c2f196c"
+        },
+        {
+          "hex": "46554243444f52412e4c455448494e474b594d5650532f4a515a5857",
+          "merged_duplicate_ids": [],
+          "password_id": "stage-password-7",
+          "provenance": "one of the seven authenticated stage passwords (seven_stage_passwords_intertwine_audit.json)",
+          "sha256": "b44bf3a8727dfb5fa3c3474aea2f8a3a0ddf3fb6f370809790f0704ccd8d3f96"
+        }
+      ],
+      "rule": "EVP_BytesToKey passwords on env48 standalone, strict PKCS#7",
+      "target": "env48",
+      "unique_password_count": 21
+    },
+    "K3": {
+      "a_evp_password_forms": [
+        "raw-digest",
+        "lowercase-hex"
+      ],
+      "a_kdf_digests": [
+        "md5",
+        "sha256"
+      ],
+      "b_direct_key_form": "raw-digest",
+      "b_iv_set": "K1 frozen IVs",
+      "rule": "stage-two shabefanstoo: sha256 of every whole strict-padding stage-one plaintext from K1/K2; (a) raw digest and lowercase hex as EVP password on env48 under md5/sha256, (b) raw digest as direct AES-256 key on raw48 under the frozen K1 IV set",
+      "stage_one_sources": [
+        "K1",
+        "K2"
+      ],
+      "whole_plaintext_only": true
+    },
+    "K4": {
+      "base58check_scopes": [
+        "whole-blob",
+        "32-byte-windows"
+      ],
+      "format_scan": "salphaseion_blind_eval._formats",
+      "rule": "raw48 byte grammar (non-AES): every 32-byte window (offsets 0-16) as secp256k1 scalar against the prize gates; base58check on the whole blob and each window; blind-evaluator format scan on the whole blob and each window",
+      "scalar_gates": [
+        "half-exact-uncompressed-point",
+        "better-half-hash160-both-serializations"
+      ],
+      "window_length": 32,
+      "window_offsets_inclusive": [
+        0,
+        16
+      ]
+    },
+    "K5": {
+      "corpora": [
+        {
+          "corpus_id": "chain1-plaintext",
+          "length": 79,
+          "sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf"
+        },
+        {
+          "corpus_id": "chain2-plaintext",
+          "length": 79,
+          "sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004"
+        },
+        {
+          "corpus_id": "cosmic-plaintext",
+          "length": 1327,
+          "sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081"
+        },
+        {
+          "corpus_id": "chain4-plaintext",
+          "length": 1151,
+          "sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b"
+        },
+        {
+          "corpus_id": "architect-raw-record",
+          "length": 1539,
+          "sha256": "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b"
+        },
+        {
+          "corpus_id": "architect-transliteration",
+          "length": 1539,
+          "sha256": "6d66e0e0e2dfdb812d5ecee2be6f54c1f3b8c84b0d74580686cf2053d76a200e"
+        },
+        {
+          "corpus_id": "poster-follow-the-white-rabbit-rgb",
+          "length": 367500,
+          "sha256": "8d1144a05afccf64210f6438a4799105a4802d0409b45d3524b5a0810d6e18c6"
+        },
+        {
+          "corpus_id": "poster-puzzle-rgb",
+          "length": 4892064,
+          "sha256": "21c508471b7050589b1265a53cf9e3ff47f40bd99eadac34a879c6f26452ddca"
+        },
+        {
+          "corpus_id": "marker-xor-derivatives",
+          "length": 81,
+          "sha256": "10c20c5b42eb14ef61c48ede0b4ffc1843ced2a26d6824c385e95c5c4ccda9bf"
+        },
+        {
+          "corpus_id": "s91-base9-bytes-a0",
+          "length": 36,
+          "sha256": "743cdc84a7557224173162ec056502a6942a7669405b211c2b236c95b679ebf2"
+        },
+        {
+          "corpus_id": "s91-decimal-digits-a0",
+          "length": 91,
+          "sha256": "12bb0bdd4aadc96d83b0896f0628ccb4eeb8abc072009ba1a36ef2b2aa604a84"
+        },
+        {
+          "corpus_id": "s91-base9-bytes-a1-i0",
+          "length": 36,
+          "sha256": "35c9ac0e27df6105e060b2666dd601b2e7e2d5bcef3d21c13898b8cc28cb7908"
+        },
+        {
+          "corpus_id": "s91-decimal-digits-a1-i0",
+          "length": 91,
+          "sha256": "b743f3f68945bed5ce23cde40397526b1b59f67dec5611cc706c3201b10d862e"
+        },
+        {
+          "corpus_id": "s570-base9-bytes-a0",
+          "length": 226,
+          "sha256": "004ff289a34bc3736c72b9a465765ac3e1f8c62a7a3ef30779ce69d3ebafa374"
+        },
+        {
+          "corpus_id": "s570-decimal-digits-a0",
+          "length": 570,
+          "sha256": "1656a2dce798d8a4350ca9d7355380da248b6ee1ed5320949715842b83848dca"
+        },
+        {
+          "corpus_id": "s570-base9-bytes-a1-i0",
+          "length": 226,
+          "sha256": "17e0b18001817a54a995372f841e47ea795454609cd1b94cdb10ec779b6f120f"
+        },
+        {
+          "corpus_id": "s570-decimal-digits-a1-i0",
+          "length": 570,
+          "sha256": "bd73eb975d0c7cc65e8b85990bc389e0edea1691a45d6e97074a4a5a5ce27ac0"
+        }
+      ],
+      "needle_forms": [
+        "big-endian-bytes",
+        "little-endian-bytes",
+        "lowercase-hex",
+        "little-endian-lowercase-hex"
+      ],
+      "rule": "envelope-salt control hunt: every salt needle form searched in every frozen corpus; any hit is a designed-link candidate and is reported verbatim",
+      "salts": [
+        {
+          "bytes": 8,
+          "hex": "3ab585348552415d",
+          "name": "env48"
+        },
+        {
+          "bytes": 8,
+          "hex": "b45a5e3d827593ca",
+          "name": "chain2"
+        },
+        {
+          "bytes": 8,
+          "hex": "eefc4c5befc1656a",
+          "name": "phase32"
+        },
+        {
+          "bytes": 8,
+          "hex": "2d3f6fe06dc950e6",
+          "name": "cosmic"
+        }
+      ]
+    }
+  },
+  "positive_controls": {
+    "chain1_glued_with_joke_password": {
+      "plaintext_length": 79,
+      "plaintext_sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf"
+    },
+    "chain1_wif": "5K2byJMssxFKuTgnk9YQjpBz5FhkwwF2LaZoAyTus8HjGEpz8AT",
+    "chain2_with_wif": {
+      "plaintext_length": 79,
+      "plaintext_sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004"
+    },
+    "cosmic_with_xor_password": {
+      "plaintext_length": 1327,
+      "plaintext_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081"
+    }
+  },
+  "prize_gates": {
+    "better_half_hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+    "half_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+  },
+  "purpose": "Test the two 48-byte halves of the SalPhaseIon short blob as independent decryption targets under only authenticated key/IV/password material, plus an envelope-salt control hunt.",
+  "schema": "salphaseion-split-envelope-audit-v1",
+  "sealed_on": "2026-08-05",
+  "source": {
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "capture_timestamp": "20230601222752",
+    "image_files": {
+      "follow_the_white_rabbit.png": {
+        "length": 1958,
+        "sha256": "5e8d84b88f8f829428df5d2a8bf36c7268346f169b799ac7570b6223990d204f"
+      },
+      "puzzle.png": {
+        "length": 29931,
+        "sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830"
+      }
+    },
+    "split_rule": "first-textarea base64 split around the unique 'enter' marker: run 1 (64 chars) -> env48, run 2 (64 chars) -> raw48",
+    "stage_passwords_file": "seven_stage_passwords_intertwine_audit.json",
+    "stage_passwords_file_sha256": "e9cc50435bfad2fb94f7c649c2a9bb2a0f38277eac6a88dfdfce07679b640618",
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+    "wayback_capture": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION",
+  "targets": {
+    "chain1-glued": {
+      "kind": "openssl-envelope",
+      "length": 96,
+      "role": "positive-control-only",
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    },
+    "env48": {
+      "kind": "openssl-envelope",
+      "length": 48,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "f35efe2236bf60310e7b645ad297b70c6fd1670e5717d7601f5319e69d489b1b"
+    },
+    "raw48": {
+      "kind": "raw-3-block-candidate",
+      "length": 48,
+      "sha256": "bab0c6d922a323c893f071b3b70885d00ae885914dbd70568dd6a032bc05ed70"
+    }
+  }
+}

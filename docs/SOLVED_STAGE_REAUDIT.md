@@ -94,3 +94,28 @@ the independent 48-byte SalPhaseIon envelope and the operational meaning of the
 four decoded field literals. Existing instruction-family sweeps are extensive,
 so the next useful advance requires a new source-authenticated control—not a
 wider password or Cosmic search.
+
+## Split-envelope outcome (2026-08-05)
+
+The remaining SalPhaseIon item was executed as a sealed split audit
+(`salphaseion_split_envelope_preregistered.json`, seal
+`494e59808dfdd3dd82b87786a9fcd2c239a1aa3da0617fb52d272695b2b42cf4`). The two
+48-byte halves of the short blob were frozen as independent targets: 112 direct
+AES-256-CBC key+IV attempts on raw48 (Cosmic and chain-1/2 keys, the seven
+token digests, their XOR, and both chain-plaintext digests against the frozen
+IV set), 84 `EVP_BytesToKey` password attempts on env48 from the finite
+authenticated token set (one random-rate MD5 padding hit, `hashthetext`,
+recorded by hash only), the stage-two `shabefanstoo` rule on that single
+stage-one plaintext (12 derivations), the raw48 byte grammar (17 window scalar
+gates plus base58check/format scans), and a 272-search envelope-salt control
+hunt across the authenticated plaintexts, the Architect record, the S91/S570
+base-9 streams, both poster RGB streams, and the F73D92/A94021/5E7DB3
+derivatives. All three positive controls and a planted K1 control passed.
+Result: **NO_ACCEPTED_OUTPUT**.
+
+The negative is structural, not a sampling gap. The glued positive control
+authenticates env48+raw48 as one chained CBC message, and the same ciphertext
+cannot carry two designed plaintexts under two different keys, so the
+split-independent reading is structurally untenable. The audit converts that
+CBC dual-use infeasibility argument into a sealed negative and closes the
+item.

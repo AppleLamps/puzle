@@ -384,6 +384,61 @@ That negative is worth something: it is evidence for the other agent's own later
 pivot, that `matrixsumlist` names a straddling-checkerboard over-encryption step
 rather than an AES passphrase. No arrangement of the sum list is a password.
 
+# BREAKTHROUGH: phase 2 part 1 decrypted
+
+The first phase 2 blob — the one the page says "will grant the first part" —
+opens with the password **`causality`**, via `sha-256("causality")` as the
+OpenSSL passphrase with sha256 key derivation:
+
+    openssl enc -aes-256-cbc -a -d -md sha256 -k $(printf causality | sha256sum | cut -d" " -f1)
+
+`attack_keymaker.py` finds it; `phase2_part1_plaintext.txt` holds the result.
+The word comes straight from the puzzle's own vocabulary — the Merovingian's
+"causality" speech in *The Matrix Reloaded*, the same scene the phase 2 URL
+quotes. It is also one of the on-chain OP_RETURN messages, as
+`Causality Transcended`.
+
+The plaintext is a fresh sub-puzzle:
+
+    The ironic 2name of the keymakers trying to protect the current digital
+    powers which are still in severe danger due to the keymaker's way of
+    security by hiding, nearly unprotected, in plain sight.
+    {eps3.4_[in one of the valleys of Phillip]runtime-error.r00., where
+    daughters hit magic keypads} When this fails.. Crypto finally to the latin
+    3Moon? Tell me, 4How so mate?
+
+    # X 2 S H 4 Y 0 Q B 15 #
+
+    Q -> extend the name of a hackers' swordless fish, the I and W are below.
+    B -> ((BV80605001911AP)- (sqrt(-1)))^2
+    H -> (Answer to only this puzzle but nothing else) * -1
+    S -> cha' + (vagh * jav)
+
+    Ok kid, on the highway, let put it in the worst gear.
+
+## Two of the four substitutions solve cleanly
+
+**B = 49.** `BV80605001911AP` is Intel's spec code for the Core **i7**-860, and
+`sqrt(-1)` is **i**. So `(i7 - i)^2 = 7^2 = 49`.
+
+**S = 32.** The operands are Klingon numerals: `cha'` = 2, `vagh` = 5, `jav` = 6.
+So `2 + (5 x 6) = 32`.
+
+That leaves `H`, `Q`, and the two bare variables `X` and `Y`. `H` is
+"(Answer to only this puzzle but nothing else) * -1" — a play on 42 being the
+answer to everything, so this wants the answer to *only* this puzzle. `Q` is
+"extend the name of a hackers' swordless fish": the fish ciphers run Blowfish →
+Twofish → Threefish, and dropping the sword from Swordfish leaves the fish.
+
+The closing line, "on the highway, let put it in the worst gear", reads as an
+instruction on the assembled string — reverse, or first gear.
+
+The prose carries superscript-style markers `2name`, `3Moon`, `4How`, and the
+page itself opens `"1... are you looking for the private keymaker?"`, so clues
+1-4 are numbered. `eps3.4_runtime-error.r00` is a *Mr. Robot* episode title and
+Phillip Price is that show's E Corp CEO. "Crypto finally to the latin 3Moon"
+wants **luna**.
+
 # The prize on-chain: Half and Better Half verified
 
 The latest transcript proposes adding `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` as a

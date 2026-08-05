@@ -21,8 +21,10 @@ import json
 import re
 from pathlib import Path
 
+from coincurve import PrivateKey
+
 from .extract import ROOT
-from .secp256k1_verify import BASE58, N, base58check, hash160, public_key, wif
+from .secp256k1_verify import BASE58, N, hash160, wif
 
 
 RESULT_PATH = ROOT / "yinyang_479_continuation_audit.json"
@@ -191,8 +193,9 @@ class Audit:
 
     def gate(self) -> None:
         for scalar, labels in self.scalar_labels.items():
-            pub_u = public_key(scalar, compressed=False)
-            pub_c = public_key(scalar, compressed=True)
+            point = PrivateKey(scalar).public_key
+            pub_u = point.format(compressed=False)
+            pub_c = point.format(compressed=True)
             hu = hash160(pub_u)
             hc = hash160(pub_c)
             prize = None

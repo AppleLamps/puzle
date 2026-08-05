@@ -200,16 +200,65 @@ is wanted.
 Note the continuity with stage one: `the seed is planted`, and now `can you dig
 it` — the same gardening pun, which is a good sign the words are right.
 
+# The `phase1verification` capture: a real 404, not a clue
+
+`GSMG _ GSMG.html` is a capture of `https://gsmg.io/phase1verification` and it
+renders "Oops! Page Not Found". That is a genuine error, not part of the puzzle.
+Run `python3 inspect_bundle.py` for the evidence, which is fivefold.
+
+**It is the trading app, not a puzzle page.** The capture ships the site's full
+Vue bundle (`app.js`, 2.3 MB). Pulling the router table out of it gives 22
+client-side routes — `/dashboard`, `/markets`, `/login`, `/puzzle`, `/terms` and
+so on — plus a catch-all `path: "*"`. `/phase1verification` is not among them,
+so it falls to the catch-all.
+
+**The message is the catch-all's own text.** The catch-all points at module
+`Dp46`, whose template `zDQp` renders exactly `Oops! {{ $t('page_not_found') }}`
+above a `go_home` link, and the page's inline config defines `page_not_found` as
+"Page Not Found" and `go_home` as "Go Home". Any unrecognised URL on the site
+produces this identical page; there is nothing puzzle-specific in it.
+
+**A GET was never going to work.** `/phase1verification` is the POST target of
+the hidden form on the `theseedisplanted` page. The Wayback crawler only issues
+GETs, so even while the puzzle was live this URL could not have returned the
+next stage to an archiver.
+
+**The capture is three years too late.** It is dated 2023-09-08, against a
+puzzle that was live in November 2020, and the footer reads "© 2023 - GSMG …
+Official Partner of Bittrex Global". The toolbar reports only **2 captures, 8
+Sep 2023 – 2 Mar 2026** — this URL has no 2020-era capture at all, unlike
+`/Puzzle` (8 captures from 9 Nov 2020) and `/theseedisplanted` (7 captures from
+12 Nov 2020).
+
+**Nothing of the later stages survives in the bundle.** `app.js` contains zero
+occurrences of `phase1verification`, `theseedisplanted` or `cryptologic`. The one
+puzzle artefact left is the `/puzzle` route itself: component `t5W0`, template
+`oQ7m`, which still renders "GSMG MEGANIGMA || 5 BTC" over
+`/img/follow_the_white_rabbit.png` — stage one, unchanged. The only new image in
+this capture is an Intercom chat-widget launcher icon, and the SVGs are menu
+chrome.
+
+That last point also explains the shape of the whole chain: the puzzle stages
+were server-rendered routes sitting outside the Vue router. The
+`theseedisplanted` capture is a bare Blade page — `<title>GSMG Puzzle</title>`, a
+CSRF meta tag, raw `<img>` tags and a form, no `app.js`. Once those server
+routes were retired, the SPA's catch-all began answering for them.
+
 ## Where this stops
 
-`cryptologicwarningcanyoudigit` goes into the hidden form, which POSTs to
-`https://gsmg.io/phase1verification`. That response is the next link in the
-chain and is not in this repo, so continuing needs that page (or an archived
-copy of it) the same way stage two needed the `theseedisplanted` capture.
+Stage three is whatever the server returned when the correct password was POSTed
+to `/phase1verification`, and no GET-based archive can hold it.
 
-The local material is exhausted: both HTML captures contain nothing but their
-Wayback wrapper plus the puzzle images, the `.js`/`.css` assets in both
-`GSMG Puzzle_files` and `GSMG Puzzle2_files` are stock Internet Archive replay
-scripts with no GSMG content, the two asset folders are byte-identical, and
-every image has been checked for metadata, appended data, alpha channels and
-near-background colour markers.
+The way the chain has worked so far suggests where it will be instead: stage
+one's answer *was* a URL, and `/theseedisplanted` was archived on 12 Nov 2020,
+three days after `/Puzzle` — someone was capturing each page as they solved it.
+So the next stage very likely sits in the archive under its own slug rather than
+behind the POST. Enumerating archived `gsmg.io/*` URLs from late 2020 (the
+Wayback CDX index will list them) should surface it, exactly the way
+`theseedisplanted` surfaced.
+
+The local material is otherwise exhausted. Every HTML capture holds only its
+Wayback wrapper plus page content, the `.js`/`.css` assets are stock Internet
+Archive replay scripts or the site's own app code, `GSMG Puzzle_files` and
+`GSMG Puzzle2_files` are byte-identical, and every image has been checked for
+metadata, appended data, alpha channels and near-background colour markers.

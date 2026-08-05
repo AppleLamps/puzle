@@ -150,6 +150,10 @@ def run() -> dict[str, object]:
             "raw_source_length": len(raw),
             "raw_source_sha256": RAW_SHA,
             "beaufort_key": recovery["beaufort_key"],
+            "ibm_1141_evidence_boundary": (
+                "One for one, four for one names 1141, but direct standard IBM1141 decoding "
+                "of the raw bytes does not yield the published transliteration."
+            ),
             "anchors_zero_based": anchors,
             "source_projection_at_479": {
                 "raw_hex_32": raw[479:511].hex(),

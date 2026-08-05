@@ -1,5 +1,10 @@
 # Rebuilding the puzzle from creator-sourced material only
 
+> Navigation: [repository index](README.md) ·
+> [solution walkthrough](SOLUTION.md) ·
+> [running attempt log](docs/ATTEMPT_LOG.md) ·
+> [transcript index](docs/TRANSCRIPTS.md)
+
 Everything below is separated by provenance. The distinction matters because the
 public corpus mixes creator artifacts with solver interpretation, and several
 widely repeated "facts" turn out to be the latter.

@@ -1,5 +1,11 @@
 # GSMG.IO 5 BTC Puzzle Analysis
 
+> **Historical/superseded analysis (November 2025).** Retained for provenance.
+> Current outcomes and corrections are tracked in
+> [`../../../docs/ATTEMPT_LOG.md`](../../../docs/ATTEMPT_LOG.md) and
+> [`../RESEARCH_LEDGER.md`](../RESEARCH_LEDGER.md). Do not treat the password
+> counts or “current state” below as the maintained repository status.
+
 This document contains comprehensive analysis of the puzzle's current state and attempted solutions.
 
 ## Puzzle Status (Updated November 2025)

@@ -1,5 +1,10 @@
 # Reproducible SalPhaseIon breakthrough: `AFFECT THIS B` -> `HILL ONE / ASK H'S KEY` -> `SPACE` -> `COMPS` -> `WITVEEN`
 
+> **Historical source report.** The arithmetic is preserved and summarized in
+> [`../WITTEVEEN_IDENTITY_AUDIT.md`](../WITTEVEEN_IDENTITY_AUDIT.md). Its use as
+> the final/yin-yang route is superseded by the direct 479 balance; see
+> [`../../../docs/ATTEMPT_LOG.md`](../../../docs/ATTEMPT_LOG.md).
+
 ## Status first
 
 This is **not a solved/private-key claim**. I do not have the private key yet.

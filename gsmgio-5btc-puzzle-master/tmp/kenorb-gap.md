@@ -1,5 +1,11 @@
 # GSMG.IO 5 BTC Puzzle - Comprehensive Gap Analysis
 
+> **Historical/superseded gap list (December 2025).** Many “not attempted”
+> entries below have since been tested. Use
+> [`../../../docs/ATTEMPT_LOG.md`](../../../docs/ATTEMPT_LOG.md) for the current
+> open/closed list and [`../RESEARCH_LEDGER.md`](../RESEARCH_LEDGER.md) for
+> exact bounded results.
+
 **Analysis Date:** December 2025
 **Current Prize:** 2.5 BTC (was 5 BTC, halved May 2020)
 **Status:** UNSOLVED

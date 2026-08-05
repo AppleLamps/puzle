@@ -1,0 +1,81 @@
+# GSMG.IO 5 BTC puzzle research
+
+This repository combines the original puzzle artifacts, reproducible solver
+code, archived community material, and several agents' forensic investigations.
+The funded private keys have **not** been recovered.
+
+## Start here
+
+1. [Creator-sourced evidence](CREATOR_SOURCED.md) — facts separated from solver
+   interpretation.
+2. [Solution walkthrough](SOLUTION.md) — reproduced stages and corrections.
+3. [Attempt log](docs/ATTEMPT_LOG.md) — running, deduplicated list of solved,
+   negative, superseded, and open approaches.
+4. [Transcript index](docs/TRANSCRIPTS.md) — community and agent sources.
+5. [Documentation index](docs/INDEX.md) — every maintained research document.
+6. [Verification report](gsmgio-5btc-puzzle-master/VERIFICATION_REPORT.md) —
+   machine-checked claims and exact cryptographic gates.
+
+## Current result
+
+The strongest new result is the creator-named yin-yang milestone:
+
+```text
+24 poster colours + consecutive primes:
+Blue = 484, Yellow = 479
+
+zero the balancing blue prime 5:
+479 = 479
+
+authenticated Architect plaintext[479:]:
+PRIVATEKEYYOUVEEARNEDITBUTPLEASE...
+```
+
+This solves a major clue sequence, not the final private-key derivation.
+
+## Repository map
+
+| Path | Purpose |
+| --- | --- |
+| `CREATOR_SOURCED.md` | Creator chronology and provenance audit |
+| `SOLUTION.md` | Narrative reconstruction and corrections |
+| `docs/` | Navigation, transcripts, and unified attempt history |
+| `gsmgio-5btc-puzzle-master/` | Tested Python solver package and generated audits |
+| `gsmgio-5btc-puzzle-master/solver/` | Reproducible experiment modules |
+| `gsmgio-5btc-puzzle-master/results/README.md` | Virtual catalog of result JSON files |
+| `gsmgio-5btc-puzzle-master/artifacts/` | Acquired source artifacts and provenance records |
+| `gsmgio-5btc-puzzle-master/tmp/` | Historical community/agent notes; not canonical |
+| `rollout-*.jsonl` | Prior agent transcript |
+| root `GSMG*`, images, audio, `.npy` | Forensic source material used by root scripts |
+
+Files remain in their historical locations because solver modules and tests use
+those paths. Organization is provided by indexes rather than destructive moves.
+
+## Running the verified package
+
+```bash
+cd gsmgio-5btc-puzzle-master
+python3 -m pytest -q
+python3 -m solver.report
+```
+
+Run an individual audit with:
+
+```bash
+python3 -m solver.<audit_module>
+```
+
+Root scripts such as `solve.py`, `solve_rebus.py`, and `phase23.py` expect the
+current directory to be the repository root.
+
+## Status vocabulary
+
+- **Solved** — mechanically reproduced with an independent control.
+- **Negative** — a precisely bounded family was tested without a target match.
+- **Open** — no intended operation or prize result is known.
+- **Superseded** — a later finding corrected or better explained the attempt.
+- **Fitted** — depends on solver-selected conventions not authenticated by the
+  creator or a cryptographic oracle.
+
+Do not treat readable fragments, AES padding, vanity prefixes, or community
+labels as proof.

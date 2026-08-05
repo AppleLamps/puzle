@@ -1,5 +1,10 @@
 # GSMG puzzle solutions
 
+> Navigation: [repository index](README.md) ·
+> [creator-sourced evidence](CREATOR_SOURCED.md) ·
+> [running attempt log](docs/ATTEMPT_LOG.md) ·
+> [transcript index](docs/TRANSCRIPTS.md)
+
 | stage | source | answer |
 | --- | --- | --- |
 | `gsmg.io/Puzzle` | `follow_the_white_rabbit.png` | `gsmg.io/theseedisplanted` |

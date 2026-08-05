@@ -1,5 +1,9 @@
 # GSMG.IO independent continuation ledger
 
+> This detailed ledger is complemented by the repository-wide, append-only
+> [`../docs/ATTEMPT_LOG.md`](../docs/ATTEMPT_LOG.md), which also incorporates
+> root scripts, later Architect-479 work, and prior-agent transcripts.
+
 Claim: Recover the intended private scalar for
 `1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe` from authenticated puzzle material.
 
@@ -7,7 +11,7 @@ Definitions:
 
 - The first image is a 14x14 binary grid: black/blue = 1 and white/yellow = 0.
 - Its authenticated upper-left, down-first counterclockwise spiral decodes to
-  `gsmg.io/theseedisplanted`, followed by four residual bits `0100`.
+  `gsmg.io/theseedisplanted`, followed by four residual bits `0000`.
 - A candidate private scalar is accepted only if its complete secp256k1 public
   point or derived P2PKH address equals the prize target.
 - An AES result is accepted only by readable semantic structure, an exact

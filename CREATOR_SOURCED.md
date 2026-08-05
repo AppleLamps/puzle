@@ -452,3 +452,59 @@ H = −86 (from the B/W balance) was included; still nothing.
 Half `1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe` ≈ 1.256 BTC remaining (pubkey known).
 Better `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` ≈ 3.751 BTC, never spent.
 No candidate from this re-parse hits either address.
+
+## Poster re-exam: QR + bunny (what keeps pulling us back)
+
+The checked-in `puzzle.png` (1048×1556) is the full first puzzle piece. It is
+**not** just the 14×14 grid. Top-to-bottom:
+
+1. **Bunny grid** — exact 3× nearest-neighbor of `follow_the_white_rabbit.png`
+   (byte-identical when cropped to 1047×1047). Door-1 spiral still reads
+   `gsmg.io/theseedisplanted`.
+2. **Red divider** — solid `#ED1C24`, **15 px** thick. This is the only red in
+   the poster. Creator 2020-01-14: *“Roses are White but often Red. Yellow has
+   a number and so does Blue.”* Resistor red = **2**; white = 9. The red line
+   has been treated as decoration and barely used.
+3. **Footer** — hexagonal **G** logo (not a rabbit), title
+   `GSMG.IO 5 BTC PUZZLE CHALLENGE`, a real **QR version 4 (33×33)** that
+   decodes (zxing) to
+   `https://www.blockchain.com/btc/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe`,
+   and the same address in text.
+
+### What is *not* the second door (closed this pass)
+
+- **QR “merlon” gray texture** in the finder rings is anti-aliasing (identical
+  35-pixel column of 234/236 in all three finders). Not an independent
+  bitstream. Dirty modules exist only on finders.
+- **Tiny second rabbit in the footer** — not present (BR corner is empty gray).
+- **Bunny grid as a scannable QR** (pad to v1–v4 / Micro sizes, with or without
+  synthetic finders) — no decode.
+- Nest 5×5 downsamples of the seven impure cells only redraw the rabbit
+  silhouette; black counts `/25 = 4,9,6,3,9,4,2`.
+
+### Alternate spiral readings that *do* look door-shaped
+
+Door 1 uses black/blue = 1, white/yellow = 0 (yellow/blue sit on each byte’s
+LSB). Two deliberate reassignments produce fully printable 24-byte strings:
+
+| rule | result |
+| --- | --- |
+| yellow forced to 1 (color-as-black) | `gsmg/io/uieseeeisqmaouee` |
+| color LSBs zeroed / yellow→white | `frlf.hn.thdrdddhrpl\`ntdd` |
+| off-white forced to 1 | `gsmg.io/theseedispla~ted` |
+| prime spiral indices zeroed | `\x05SMe&Ig\x07ThEseEdiSPdaLtEd` (high printable) |
+
+The yellow-LSB-flip string is the striking one: it is still `gsmg/io/…` shaped
+(`.`→`/` on byte 4, and every yellow-marked LSB flips). No Wayback hit under
+`gsmg.io/uieseeeisqmaouee`, and it does not open Cosmic/glued under MD5/SHA256
+EVP, but it is the clearest *second reading* of the same spiral that public
+door-1 work leaves on the table.
+
+### Still the best “in front of your eyes” anomalies
+
+- Off-white cell `(7,4)` = `(254,254,254)`, spiral index 163 — invisible at a
+  glance; only difference from white in the whole grid.
+- Black count = white/off-white count = **86** (yin-yang on the artifact the
+  creator keeps naming).
+- Red divider (resistor 2) + yellow/blue numbers — the January 2020 hint names
+  three resistor colours; solvers used two.

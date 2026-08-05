@@ -1,0 +1,437 @@
+{
+  "address_gate": {
+    "performed": false,
+    "reason": "no exact target 79-byte blob was reproduced",
+    "results": []
+  },
+  "candidate_79_counts_by_family": {
+    "material-window": 9430,
+    "matrix-cosmic": 3091,
+    "openssl": 1028
+  },
+  "conclusion": "Target 79-byte SalPhaseIon anchor not reproduced from local files, Issue #82 context, alternate SalPhaseIon base64 parses, OpenSSL password/digest sweeps, known-material 79-byte windows, or bounded Cosmic/matrix 79-byte transforms.",
+  "exact_target_matches": [],
+  "issue82_context": {
+    "available": true,
+    "body_contains_target": true,
+    "body_excerpt": "Summary\nThis post documents a reproducibility audit of Phase 3 (Cosmic Duality) using public artifacts only.\nNo private keys, derivation secrets, or sweep instructions are disclosed.\nThe goal is to establish deterministic anchors and clarify the current status.\nReproducibility Anchors\nThe following SHA256 hashes commit to specific binary artifacts without revealing derivation material:\nArtifact\nSHA256\nDecrypted blob (1327 bytes)\n4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081\nSalPhaseIon output (79 bytes)\ne2590f1581c75812c6848776f2979d3bf272a75cb95063f1b177a2bbf4992cbd\nMatrix invariants (derivation byproducts):\n\u041a\u043e\u043f\u0456\u044e\u0432\u0430\u0442\u0438 \u043a\u043e\u0434\n\nS=5193\nWr=268603\nWc=268828\np_big=58\np_little=46\nThese anchors allow independent verification without disclosing private material.\nCanonicalization\nMultiple offsets may produce printable ASCII ranges.\nHowever, canonical selection is constrained by:\nMatching SHA256 anchor of the 1327-byte artifact\nValid base-38 digit range\nExact 68-byte integer output\nDeterministic address derivation consistency\nOnly one configuration satisfies all constraints simultaneously.\nOn 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe\nNo tested deterministic transformation class over published artifacts yields a private key whose address matches the prize address.\nTested classes include:\nhash/XOR compositions\nmodular arithmetic combinations\nelliptic curve point operations\nmatrix invariant encodings\nNo reproducible function F(artifacts) \u2192 k was found such that addr(k) equals the prize address.\nStatistically, vanity P2PKH addresses (such as 1GSMG...) are typically generated via",
+    "comment_count": 2,
+    "summary": "Issue #82 body states the 79-byte SHA256 anchor but gives no concrete bytes, password, digest, or transform. Comments visible to gh add no reproducible derivation for this anchor.",
+    "target_related_comments": [
+      {
+        "author": "andersonbig",
+        "body_excerpt": "> Summary This post documents a reproducibility audit of Phase 3 (Cosmic Duality) using public artifacts only. No private keys, derivation secrets, or sweep instructions are disclosed. The goal is to establish deterministic anchors and clarify the current status. Reproducibility Anchors The following SHA256 hashes commit to specific binary artifacts without revealing derivation material: Artifact SHA256 Decrypted blob (1327 bytes) 4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081 SalPhaseIon output (79 bytes) e2590f1581c75812c6848776f2979d3bf272a75cb95063f1b177a2bbf4992cbd Matrix invariants (derivation byproducts): \u041a\u043e\u043f\u0456\u044e\u0432\u0430\u0442\u0438 \u043a\u043e\u0434\n> \n> S=5193 Wr=268603 Wc=268828 p_big=58 p_little=46 These anchors allow independent verification without disclosing private material. Canonicalization Multiple offsets may produce printable ASCII ranges. However, canonical selection is constrained by: Matching SHA256 anchor of the 1327-byte artifact Valid base-38 digit range Exact 68-byte integer output Deterministic address derivation consistency Only one configuration satisfies all constraints simultaneously. On 1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe No tested deterministic transformation clas",
+        "createdAt": "2026-04-27T16:01:42Z",
+        "index": 1
+      }
+    ],
+    "title": "Phase 3 (Cosmic Duality) \u2014 Reproducibility Audit (No Private Material Disclosed)"
+  },
+  "known_material_windows": {
+    "known_nonmatches": {
+      "chain1_plaintext": {
+        "length": 79,
+        "sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf"
+      },
+      "chain2_plaintext": {
+        "length": 79,
+        "sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004"
+      },
+      "cosmic[0:79]": {
+        "length": 79,
+        "sha256": "fd462c256a6820f159b3324814a8d07f339fe38d486a52dbf42bd9f1270e3be9"
+      },
+      "cosmic[79:158]": {
+        "length": 79,
+        "sha256": "47a96c118c872054c8d9ed83cfcad87faf89f6dd1ab756cfc999db17ddbc174a"
+      }
+    },
+    "material_lengths": {
+      "chain1_envelope": 96,
+      "chain1_plaintext": 79,
+      "chain2_envelope": 96,
+      "chain2_plaintext": 79,
+      "chain4_embedded_envelope": 1168,
+      "chain4_plaintext": 1151,
+      "cosmic_envelope": 1344,
+      "cosmic_plaintext": 1327,
+      "phase32_envelope": 2448,
+      "phase32_plaintext": 2422
+    },
+    "windows_79_tested": {
+      "chain1_envelope": 18,
+      "chain1_plaintext": 1,
+      "chain2_envelope": 18,
+      "chain2_plaintext": 1,
+      "chain4_embedded_envelope": 1090,
+      "chain4_plaintext": 1073,
+      "cosmic_envelope": 1266,
+      "cosmic_plaintext": 1249,
+      "phase32_envelope": 2370,
+      "phase32_plaintext": 2344
+    }
+  },
+  "local_hash_search": {
+    "files_whose_entire_79_bytes_match_target": [],
+    "sample_79_byte_file_nonmatches": [
+      {
+        "path": "/workspace/gsmgio-5btc-puzzle-master/artifacts/bin/chain1_plaintext.bin",
+        "sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf"
+      },
+      {
+        "path": "/workspace/gsmgio-5btc-puzzle-master/artifacts/bin/chain2_plaintext.bin",
+        "sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004"
+      }
+    ],
+    "scanned_bytes": 212134486,
+    "scanned_files": 1435,
+    "scanned_root": "/workspace",
+    "target_hash_text_occurrences": [
+      {
+        "byte_offsets": [
+          2451336,
+          2453784
+        ],
+        "path": "/workspace/rollout-2026-08-04T21-14-50-019fcf7c-cc26-7b91-b013-c82ce7cfddf0.jsonl"
+      },
+      {
+        "byte_offsets": [
+          6636126
+        ],
+        "path": "/workspace/gsmgio-5btc-puzzle-master/tmp/chat_transcript.txt"
+      }
+    ],
+    "unreadable_count": 0,
+    "unreadable_samples": []
+  },
+  "matrix_cosmic_transforms": {
+    "base38_output_length": 68,
+    "base38_output_sha256": "9c7bbaec63f8179c8b0fd014163adbd174920f05cfd4a7ddfd523e0b21cab6a6",
+    "candidate_79_count": 3091,
+    "composition_samples": [
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "0423d9115a1dc756d5d08d2de880ab50",
+        "label": "base38||invariants/big/S-Wr-Wc-p_big",
+        "printable_sample": ".#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q.....I...;....:",
+        "sha256": "b04f7332eeb1691234dc826b2a1600fc19209d1d5c86c39b706fd4540f6c6fe8"
+      },
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "14490004193b00041a1c3a0423d9115a",
+        "label": "invariants||base38/big/S-Wr-Wc-p_big",
+        "printable_sample": ".I...;....:.#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q....",
+        "sha256": "c082c93690745d33dec594273d00964bef22a19c7df686a6264087876c810f8e"
+      },
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "0423d9115a1dc756d5d08d2de880ab50",
+        "label": "base38||invariants/big/S-Wr-p_big-Wc",
+        "printable_sample": ".#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q.....I...;:....",
+        "sha256": "5d5108fe0e12bddfa5b644cc5d2c94405c0828bed7ff023718db7b012992bdd5"
+      },
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "14490004193b3a00041a1c0423d9115a",
+        "label": "invariants||base38/big/S-Wr-p_big-Wc",
+        "printable_sample": ".I...;:.....#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q....",
+        "sha256": "5bf85cc75bed4a8ce75dcc57a39fe7b77b9e2d33366ad93d1670bc444bc07a57"
+      },
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "0423d9115a1dc756d5d08d2de880ab50",
+        "label": "base38||invariants/big/S-Wc-Wr-p_big",
+        "printable_sample": ".#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q.....I.......;:",
+        "sha256": "2380fdbe7678498f4271572dddd3ac0d727811672ec0d6faead1784cdffb2d14"
+      },
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "144900041a1c0004193b3a0423d9115a",
+        "label": "invariants||base38/big/S-Wc-Wr-p_big",
+        "printable_sample": ".I.......;:.#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q....",
+        "sha256": "07ce8d644b41b3b02bdf046d27a0b496085b02649083c7875a5156aa84e1f569"
+      },
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "0423d9115a1dc756d5d08d2de880ab50",
+        "label": "base38||invariants/big/S-Wc-p_big-Wr",
+        "printable_sample": ".#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q.....I....:...;",
+        "sha256": "4f2650083a015db316417b15a79625d14112f358745d367fc7dd6cd2cd50c9ae"
+      },
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "144900041a1c3a0004193b0423d9115a",
+        "label": "invariants||base38/big/S-Wc-p_big-Wr",
+        "printable_sample": ".I....:...;.#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q....",
+        "sha256": "cedfac1724f0dcef7e41a0c3e9ebf843c4298cc990b1cd89104a2f83475e2727"
+      },
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "0423d9115a1dc756d5d08d2de880ab50",
+        "label": "base38||invariants/big/S-p_big-Wr-Wc",
+        "printable_sample": ".#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q.....I:...;....",
+        "sha256": "de90a89c0a9c5e92d3f749d3b307925da3d8a4298f1b7994c7ac69cecf43d93f"
+      },
+      {
+        "family": "matrix-cosmic",
+        "hex_prefix": "14493a0004193b00041a1c0423d9115a",
+        "label": "invariants||base38/big/S-p_big-Wr-Wc",
+        "printable_sample": ".I:...;.....#..Z..V...-...P..t_.w.........5H.F.k.6...DU/`jv...h. ....=..b9q....",
+        "sha256": "b6426613910aa6e17b0c4823886525d77d0af9bb051473663d77ad3a0cc0fd15"
+      }
+    ],
+    "cosmic_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+    "matrix_invariants": {
+      "S": 5193,
+      "Wc": 268828,
+      "Wr": 268603,
+      "p_big": 58,
+      "p_little": 46,
+      "selected_shift": 7
+    },
+    "selected_secondary_sha256": "ddf913ce3fc0ee221d1640f7f76af7841723c5f4ad15a21e50b453fbb49da2da"
+  },
+  "openssl_sweep": {
+    "attempts": 433134,
+    "digest_names": [
+      "md5",
+      "sha1",
+      "sha224",
+      "sha256",
+      "sha384",
+      "sha512"
+    ],
+    "envelopes": {
+      "chain1-short": {
+        "length": 96,
+        "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+      },
+      "chain2-small": {
+        "length": 96,
+        "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+      },
+      "chain4-embedded": {
+        "length": 1168,
+        "sha256": "f0bd54d102d8d930fbbd0c5f8e4d7b7ffd64cab5d192a3751374d688c5115add"
+      },
+      "cosmic-duality": {
+        "length": 1344,
+        "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+      },
+      "phase32": {
+        "length": 2448,
+        "sha256": "9d172dc017034564b40eb381fa61e31421f509a08430864c77ccf86cfc8fe784"
+      },
+      "salphaseion-parse/canonical/remove-enter-ab": {
+        "length": 96,
+        "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+      },
+      "salphaseion-parse/issue72-described/blob1-plus-literal-z-plus-blob2": {
+        "length": 96,
+        "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+      },
+      "salphaseion-parse/part1-only": {
+        "length": 48,
+        "sha256": "f35efe2236bf60310e7b645ad297b70c6fd1670e5717d7601f5319e69d489b1b"
+      },
+      "salphaseion-parse/uppercase-z-separator": {
+        "length": 96,
+        "sha256": "081460bddbec71fc41db9f9d4a17c9410e77659c0a17c51de3f326bbd7c14748"
+      }
+    },
+    "issue72_zion_claim": {
+      "hex": "2aa3fb73bebd876823eca6ba65e7311bea5f753a8524656bc1c9a4b40236beedde4e4ebb43738712cea920eba6b20aaea008ba6664d8e1665654ac7599e4839632d1b03bcc738df1264a03efefa86f",
+      "matches_target": false,
+      "reproduced_len": 79,
+      "sha256": "506a9e29cae9a4c75851fd2bf018a21fbfa282dfe8b0ca5861f16030bd560c00"
+    },
+    "len79_sample_limit": 25,
+    "len79_samples": [
+      {
+        "family": "openssl",
+        "hex_prefix": "2aa3fb73bebd876823eca6ba65e7311b",
+        "label": "chain1-short|literal/ZION|sha256",
+        "printable_sample": "*..s...h#...e.1.._u:.$ek.....6...NN.Cs.... ........fd..fVT.u....2..;.s..&J....o",
+        "sha256": "506a9e29cae9a4c75851fd2bf018a21fbfa282dfe8b0ca5861f16030bd560c00"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "f80b05bb01feaff5504ed988cb8a7a47",
+        "label": "chain1-short|literal/SALTPhaseZION/title|md5",
+        "printable_sample": "........PN....zG7........o.../..........)v4.....:M..,D.]<]..j7...^,3..:2..6....",
+        "sha256": "30a79068c5a33344ee0c5748459c73cc140bad44355566e4294d2e5015c73e12"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "7370b95d3ddbf5d6930ad32005d03ef2",
+        "label": "chain1-short|literal/rEdEmPtIoN/upper|sha512",
+        "printable_sample": "sp.]=...... ..>....6..Y..^..xo...y-K.=7=.............&..ff...:.X:..c)!P..x.P..9",
+        "sha256": "fbcd6051b54d110773b9718e712b57b277127310a1fa5f269cca209109f26123"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "7a425ced7ee4ae52a976616c0b8d0c1f",
+        "label": "chain1-short|marker/matrix/upper|sha224",
+        "printable_sample": "zB\\.~..R.val.....{. .#......}.L..Wb..%M.q3k5..\\./s-gX1.e9.#....=.l.....#f,.V.G.",
+        "sha256": "98dc4472dc13976be7738b38393a6ab5b8704b2bbbdbc984859f478582b86ab7"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "0643f69987e6ca547184251785cf5c22",
+        "label": "chain1-short|known/phase32-password-hex|md5",
+        "printable_sample": ".C.....Tq.%...\\\"H@..N..B.....7p/.4pJ..G}!....*o..F.t..^...&._.9../UE..i}...1.p.",
+        "sha256": "fd8e05543f06cff6c7271dcd2d6cee74337f5db2fdff69fff36a53312fcb3d90"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "6bda0480e97b09d953d9d2cf412139bc",
+        "label": "chain1-short|known/phase32-password-hex/title|md5",
+        "printable_sample": "k....{..S...A!9...{..C.....Z.^\\G.r..EX...!..!....C.&}....$.<.0..-S......-......",
+        "sha256": "f37260a1baf86c82fe88152739937b2885651458ad1bf170ea3a670dc7bee788"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "9fa9db91a9dee0e38b93694ec874630b",
+        "label": "chain1-short|tokens/first5-canonical/concat|md5",
+        "printable_sample": "..........iN.tc.0./3g..T;....td9..8...P!.Ckf.Q:a|O....G..5d.m...8....._........",
+        "sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "5e7473b02e522320624d33a44150e2eb",
+        "label": "chain1-short|tokens/contiguous-3-4/title|sha384",
+        "printable_sample": "^ts..R# bM3.AP.........hdK.c....V{..H...aW...Jeb.|..>u$..n....e)..m?o......*,5.",
+        "sha256": "6a4d96ef5e59a15da6852222625e631de5c022aee492f50e4d37ad8758ff3480"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "4db33d3cf3d3b20359cd76e83d579a72",
+        "label": "chain1-short|tokens/contiguous-3-6/upper|sha384",
+        "printable_sample": "M.=<....Y.v.=W.rY......D_+...........;..+.....P.....R......=..2a=d./@;.3....9.t",
+        "sha256": "b44261ba73ffd7c2c078d4f46bbd659e3847b73bf199735930d68c0278cecbed"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "c764f8b2abf9a2b388b46deaa8a6f74b",
+        "label": "chain1-short|tokens/contiguous-2-6/title|sha384",
+        "printable_sample": ".d........m....KB. ......C./....5...z.D..4l.D...!C&~....<?...P].....F&\\..F.....",
+        "sha256": "e0b440697fe291481516c2d5019c509c43979cb8f6927e75c214bc6ccb9e371e"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "e75c25d45e854410135621f75b30e80c",
+        "label": "chain1-short|tokens/contiguous-2-7/upper|sha512",
+        "printable_sample": ".\\%.^.D..V!.[0.........N.X.T.U..i...).Sb.RU..T...5..X...b./&.$..>.?n.6.4..*.2N.",
+        "sha256": "f2ba367ae3c500f94cde28d3a7a89332fbfed4ea9523baf46abca55255f8c579"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "ea2e04a30aa33efcab2ed848c309da14",
+        "label": "chain1-short|tokens/all7-permutation/1-2-3-1-4-6-7|sha384",
+        "printable_sample": "......>....H....&....5.-.TF...m.8....H`....c.h.....S..iDH..x..H..............v.",
+        "sha256": "09e3d5eca826080079288a028038e1e6db5fee87705772b8385a51ebf5999f0b"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "0dde5f55eeef458f1d3147464348e838",
+        "label": "chain1-short|tokens/all7-permutation/1-2-3-7-1-4-6/title|sha224",
+        "printable_sample": ".._U..E..1GFCH.8............;.....MK..,9.-......2O/.a..}....9..E..$...B[zv.g...",
+        "sha256": "b9f25d96783c94210199f848d0b5a46ab32bfbf25989e3cc1e263f953c540a8a"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "10fc175778eed9d1ae406c4587316289",
+        "label": "chain1-short|tokens/all7-permutation/1-2-4-1-7-3-6/upper|sha224",
+        "printable_sample": "...Wx....@lE.1b.K..]....w.k.Sow%i1......T.].......8.l..I...Z.2AS..u.'..xG.3...4",
+        "sha256": "f532eef2fb416a5d064397c9387f88559ed7ec3d0fdf5e2b6a53b13d084c8bab"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "dc6c4fd974aa8e5282d9b7c0b155f17d",
+        "label": "chain1-short|tokens/all7-permutation/1-2-4-6-7-3-1/upper|sha256",
+        "printable_sample": ".lO.t..R.....U.}Q...7..Q..`.p2..*?.aQ.\\.y..Mik....=..c..r.(d..swX...#~..M9..Rd.",
+        "sha256": "fea4cd4e177e688d1b887db2d4ab18312365d7b660335127cd0ab5cd2b22dc90"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "c7b4008da0bb097ce6550d0501810578",
+        "label": "chain1-short|tokens/all7-permutation/1-2-4-7-3-1-6/upper|sha384",
+        "printable_sample": ".......|.U.....x.Q..._.DN.c...Y\"..#...L....m.....y^.il.....8.H..1........g.....",
+        "sha256": "2d244cb24b016dfe0051aa2eceada9d039ca0d7ea8262500d865289a005fdb4a"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "29ee37375351779b1718d5987892076b",
+        "label": "chain1-short|tokens/all7-permutation/1-2-4-7-6-3-1/title|sha224",
+        "printable_sample": ").77SQw.....x..k.BB:O.o.r......k=.. h..|...LG.K....?,........B..#...+....y.w}..",
+        "sha256": "cab3052a8d8afe4ef35c4512aeb1185da795690de23a11310143f352263b16b0"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "2b7b12a7217949ba9fe577ecfea5f495",
+        "label": "chain1-short|tokens/all7-permutation/1-2-1-4-6-7-3/upper|md5",
+        "printable_sample": "+{..!yI...w..........L.\\4R..E...wU......K..h.IlN.&...5..b...<k.K.....b.\\|^DA`q:",
+        "sha256": "a3144c83a23d5b905a674d0927875353d598909d39bf21bb8188ec8c2365cd15"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "6882599e918adddc5979027f501ee0d3",
+        "label": "chain1-short|tokens/all7-permutation/1-2-6-4-1-3-7/upper|md5",
+        "printable_sample": "h.Y.....Yy..P.........U...i..c...).\".U(..%.5...$e=..:..:)<..'+.V.~x..']WV..`.I.",
+        "sha256": "f598e9e4f76f9d615cf6f0d7db3b84739b00cce0b42a425a96bc1f2c9b4013cd"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "9301aed6ba3aee5eedde8a170d4daeaf",
+        "label": "chain1-short|tokens/all7-permutation/1-2-7-4-6-3-1/title|sha512",
+        "printable_sample": ".....:.^.....M...(Y.....8l..-].9.....l..g..+Y..QI8E+sr.$..,j@.0-M..Y.8fpj.{....",
+        "sha256": "de786e72f2eaed1e1531786849d5b501cf15232ae063801c6d561bab712996ff"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "1a7ebd2ef4f2accd21fa574dd8b591a6",
+        "label": "chain1-short|tokens/all7-permutation/1-2-7-4-6-1-3/title|sha384",
+        "printable_sample": ".~......!.WM.........G.o.2&.....`+=..D.)e.a..wy@]a[,.+./....mmZT..o.......*&...",
+        "sha256": "5fa3777de133da57a115ee7ff5b306d359f44c8dba5b505ab5b595088f837818"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "0177ca4d100d536c5afb3d6e2d4fd917",
+        "label": "chain1-short|tokens/all7-permutation/1-3-2-7-4-1-6/upper|sha512",
+        "printable_sample": ".w.M..SlZ.=n-O.............I@.k.)...t9.~M..6.....Z[..8..z......k....... .8..>}.",
+        "sha256": "718697fe8abeea2b7495d29ec176a8f3511d4464654bda02e58fa2ea11a5df84"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "30eb089cebc88825b2444e4d30bf4044",
+        "label": "chain1-short|tokens/all7-permutation/1-3-2-7-6-4-1|sha512",
+        "printable_sample": "0......%.DNM0.@D...]....w....V..6.l.K........]..Y......G).^..MT...(. ..........",
+        "sha256": "480c43a6b4a17843d464f26975de209b9422b1f372bde2210ecf63bfee1dee9f"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "1acc86386ebcfda3c3a4a36d85495169",
+        "label": "chain1-short|tokens/all7-permutation/1-3-4-7-1-2-6/title|sha384",
+        "printable_sample": "...8n......m.IQiB./.F..:....?.5...cb..J..Dt......m...)bPW.+.o.,T../Z4..zw.....B",
+        "sha256": "9e15b14bc218042fc015372a993abdb08b3d4d3bd981cbd71877c19739fac96e"
+      },
+      {
+        "family": "openssl",
+        "hex_prefix": "0b080b5767c82f9e8bff6e5d2f2f20cb",
+        "label": "chain1-short|tokens/all7-permutation/1-3-1-2-6-7-4|md5",
+        "printable_sample": "...Wg./...n]// .....:...-!.g..Tf/...Wo...9...'.8.XH.9.s..e9....]>..1...rS..n...",
+        "sha256": "3f2dafeae739b1977b4f0fc7ed03c704de7b7d505db4fd10e0f8c4179c67e4ca"
+      }
+    ],
+    "pkcs7_padding_hits": 1755,
+    "plaintext_len_79_hits": 1028,
+    "unique_password_candidates": 8347
+  },
+  "prize_addresses": {
+    "Better_Half": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "Half": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "reproduced": false,
+  "schema": "salphaseion-79-anchor-hunt-v1",
+  "target_sha256": "e2590f1581c75812c6848776f2979d3bf272a75cb95063f1b177a2bbf4992cbd"
+}

@@ -607,6 +607,33 @@ The other agent's reading of `H -> (Answer to only this puzzle but nothing else)
 `B = 49` that leaves only `Q`, `X` and `Y` unresolved in
 `# X 2 S H 4 Y 0 Q B 15 #`.
 
+## Searching the assemblies: 349 million tested, no match
+
+`oracle.py` exploits the fact that the answer is already known. Phase 2 says the
+seven parts hash to the phase 3 password, and the archived phase 3 page sits at
+that digest, so `sha256(parts 1..7)` must equal
+`89727c59…52f6a32`. Any candidate assembly is therefore decidable in
+microseconds, with no key derivation and no plaintext judgement — a far cheaper
+gate than the address oracles used downstream.
+
+Holding parts 3, 5, 6 and 7 at `luna`, `11110`, the connected genesis headline
+and the full FEN, two sweeps have now run:
+
+| part 1 family | part 2 | part 4 | assemblies |
+| --- | --- | --- | --- |
+| digit renderings, X/Y/Q over 0-9 | 159 keymaker names | 81 candidates | 25,758,000 |
+| letter-mapped template, X/Y over a-z, H = ±42, Q ∈ {9,3,2}, four zero handlings, both directions, plus the digit family | 142 keymaker names | 66 candidates | 322,846,656 |
+
+**No match**, at about 1.5 million assemblies per second, with a self-test
+confirming the harness detects a correct assembly.
+
+That is a real constraint rather than a shrug. Either one of the four settled
+parts is being written in the wrong form — case, separators, or the FEN's
+trailing fields — or the concatenation convention is not plain `p1..p7`, or
+parts 2 and 4 are outside those candidate lists. Parts 2 and 4 are the weakest
+links: "the ironic 2name of the keymakers" and "Tell me, 4How so mate?" are the
+only two clues with no arithmetic or source text to pin them.
+
 ## The ECDSA nonce route is closed
 
 The transcript proposes auditing the prize address's signatures for a

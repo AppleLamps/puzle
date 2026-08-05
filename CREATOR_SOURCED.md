@@ -579,6 +579,34 @@ concat. **Next:** do not widen into Cosmic. Prefer a single joint rule that
 earns the name `yinyang` (86=86 dual / off-white / red+yellow+blue together),
 not more path-string brainwallets.
 
+### Yin-yang joint-rule audit (this pass) — structural hit, key miss
+
+Script: `second_door_yinyang_joint_audit.py`. The grid **does** carry
+creator-shaped duality; none of the joint rules hit the prize keys.
+
+**Structural facts (authenticated from the PNG):**
+
+| fact | value |
+| --- | --- |
+| black / white+off | **86 / 86** |
+| L/R black-white | **44/42** vs **42/44** (swap) |
+| main diagonal | **7 black + 7 white** |
+| off-white eye | `(7,4)`; rot180 dual `(6,9)` = **black** |
+| resistor Y/B/(poster R) | 4 / 6 / 2 |
+| row & col resistor sums | each total **900** (891 if eye zeroed) |
+
+**Families gated (Half pubkey + Better hash160; AES on chain1/2/phase32 only):**
+color-invert spirals; L⊕R / T⊕B / interleave halves; diagonal halves; yin/yang
+coordinate & index paths (86 vs 86); `sha256(yin)⊕sha256(yang)` duals; eye +
+RYB + `8686` joints; marker digit streams + red `2`; matrixsumlist row/col
+CSV; rot180 / reverse spirals. **~2.4k unique scalars, ~8k AES trials → 0
+prize matches, 0 structured AES.**
+
+So `yinyang` is visible as **balance on the artifact**, but the transform that
+turns that balance into a door/scalar is still missing. Do not fall back to
+Cosmic. Next pressure should be on how `yellowblueprimes` + `matrixsumlist` +
+this dual compose — not on hashing the word `yinyang`.
+
 ### Still the best “in front of your eyes” anomalies
 
 - Off-white cell `(7,4)` = `(254,254,254)`, spiral index 163 — invisible at a

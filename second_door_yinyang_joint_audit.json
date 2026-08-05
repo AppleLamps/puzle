@@ -1,0 +1,268 @@
+{
+  "schema": "second-door-yinyang-joint-audit-v1",
+  "status": "NO_PRIZE_MATCH",
+  "facts": {
+    "black": 86,
+    "white": 85,
+    "offwhite": [
+      7,
+      4
+    ],
+    "offwhite_rot180_dual": [
+      [
+        6,
+        9
+      ],
+      "BLACK"
+    ],
+    "blue": 15,
+    "yellow": 9,
+    "resistor": {
+      "red": 2,
+      "yellow": 4,
+      "blue": 6
+    },
+    "left_bw": [
+      44,
+      42
+    ],
+    "right_bw": [
+      42,
+      44
+    ],
+    "diag_bw": [
+      7,
+      7
+    ]
+  },
+  "control": {
+    "door1": "gsmg.io/theseedisplanted",
+    "yflip": "gsmg/io/uieseeeisqmaouee"
+  },
+  "material_count": 1794,
+  "unique_scalars": 2413,
+  "prize_matches": [],
+  "aes_attempts": 8076,
+  "aes_structured_hits": [],
+  "aes_padding_count": 30,
+  "aes_padding_sample": [
+    {
+      "label": "invert/swap_bw_keep_eye/blackyellow/YBP||",
+      "envelope": "chain1",
+      "digest": "md5",
+      "plaintext_len": 79,
+      "printable_ratio": 0.2911,
+      "head_ascii": "..........6.....\"x.{....rX...!X....4...Y.[......",
+      "sha256": "f5b8c8d9fc1181ac3548e538494ad6ee798e9b5c842cc29818490385467df0f8",
+      "structured": false
+    },
+    {
+      "label": "LR_concat/0/yinyang||",
+      "envelope": "phase32",
+      "digest": "md5",
+      "plaintext_len": 2431,
+      "printable_ratio": 0.3735,
+      "head_ascii": ".8e...X.%I......|za...,N<...0.s.......Q.S8.}r...",
+      "sha256": "3cdca16a8e24041b5ab51d2733c2075e449e6a00621bad977123d4695f9d0b58",
+      "structured": false
+    },
+    {
+      "label": "TB_concat/0/sha256hex",
+      "envelope": "chain1",
+      "digest": "md5",
+      "plaintext_len": 79,
+      "printable_ratio": 0.443,
+      "head_ascii": "R<#..#}$.V:....0..:.C4..F#..2+.....%....,H.i.>.d",
+      "sha256": "934463729f1eab260c5974ab2d2b3e7f4e679db53c5e8d5a98294daad793d2dc",
+      "structured": false
+    },
+    {
+      "label": "interleave_LR/0/||red2",
+      "envelope": "phase32",
+      "digest": "sha256",
+      "plaintext_len": 2431,
+      "printable_ratio": 0.3805,
+      "head_ascii": ".zh:.*%.....Z.0...Xp..H..^.........A........$.f{",
+      "sha256": "43182dde50212eeb49212d85c3147a45c3b04502d349d306129a06ae44aa5360",
+      "structured": false
+    },
+    {
+      "label": "interleave_TB/0/||yinyang",
+      "envelope": "chain1",
+      "digest": "md5",
+      "plaintext_len": 79,
+      "printable_ratio": 0.4684,
+      "head_ascii": "w.......W...pE~+O.*.}.F.s`.gn.w.}....L.3.s..7..3",
+      "sha256": "90677ba2e6c416a1926a7f27327df11f17e177029f17eb0aaf95778bc95a530f",
+      "structured": false
+    },
+    {
+      "label": "LR_xor/1/xor2",
+      "envelope": "phase32",
+      "digest": "md5",
+      "plaintext_len": 2431,
+      "printable_ratio": 0.3752,
+      "head_ascii": ".N.....$B.......O$I.(...nt.,.F.;../......m......",
+      "sha256": "0e527640255de8c6f7b21ddbc6990868fa26524637cb72827386a117b0535c83",
+      "structured": false
+    },
+    {
+      "label": "LR_xor/blue1/red2||",
+      "envelope": "phase32",
+      "digest": "sha256",
+      "plaintext_len": 2431,
+      "printable_ratio": 0.3826,
+      "head_ascii": ".y(]........0P...N+.b.op.R;...\\............0{.Q^",
+      "sha256": "faf945bf5bccc6f21fda50ff2fad72d2fce8e453ded184e97b6f79c1791c47cf",
+      "structured": false
+    },
+    {
+      "label": "LR_concat/blue1/YBP||",
+      "envelope": "chain2",
+      "digest": "sha256",
+      "plaintext_len": 79,
+      "printable_ratio": 0.3291,
+      "head_ascii": "...I...a.+.M......p...G..u....!..w........B.&|..",
+      "sha256": "cba79d9ffd1692c95c2b80c428f3d7b135a8b1055796875f548dd4c900e588e5",
+      "structured": false
+    },
+    {
+      "label": "TB_xor/yellow1/sha256hex",
+      "envelope": "chain2",
+      "digest": "md5",
+      "plaintext_len": 79,
+      "printable_ratio": 0.4557,
+      "head_ascii": ".s\\6.g........iq...(x...C.N*W.PG.G..6.Q...0.O..s",
+      "sha256": "3339bbe6dce21c81a030a300fe7b76fc1043c0488f2f54f1ba0360430b51e933",
+      "structured": false
+    },
+    {
+      "label": "TB_xor/yellow1/YBP||",
+      "envelope": "phase32",
+      "digest": "md5",
+      "plaintext_len": 2431,
+      "printable_ratio": 0.3756,
+      "head_ascii": ".....=;....C ....F...+.&*.H....vYc.i..!).......m",
+      "sha256": "50b10ee4b6615fd42d0fbcffb9e9118c4624278745d0406d3c267b606a13d5a7",
+      "structured": false
+    },
+    {
+      "label": "TB_xor/yellow1/xor2",
+      "envelope": "chain2",
+      "digest": "md5",
+      "plaintext_len": 79,
+      "printable_ratio": 0.481,
+      "head_ascii": "....J.4..~9.^.<.?zN..i.#.X.0p .w....U.. .Lc.#$q.",
+      "sha256": "8240710195e181da231e30ccd221195b75e3c1376aefaa213b55f9d17aa1ebee",
+      "structured": false
+    },
+    {
+      "label": "LR_concat/yellow1/YBP||",
+      "envelope": "chain1",
+      "digest": "sha256",
+      "plaintext_len": 79,
+      "printable_ratio": 0.3291,
+      "head_ascii": "L.d....M~;.6ck.sT.s.}s...i..U.....L...kY...y...Z",
+      "sha256": "1aaa01db80a82bc2081a658668d284c2604748c47a6a6e44e90e5f9e3543cd8d",
+      "structured": false
+    },
+    {
+      "label": "token/eye_rc/yinyang||",
+      "envelope": "chain2",
+      "digest": "md5",
+      "plaintext_len": 79,
+      "printable_ratio": 0.4304,
+      "head_ascii": ".BtJ.[C.@.a..`...P.E.p....)...{2...H.{.;.A[I=.M.",
+      "sha256": "a844c99a9365b80d48f47a37c58e1d986765c7f1e2f34216d4ed6abbc5630e1a",
+      "structured": false
+    },
+    {
+      "label": "token/dual_rc_compact",
+      "envelope": "phase32",
+      "digest": "sha256",
+      "plaintext_len": 2431,
+      "printable_ratio": 0.3916,
+      "head_ascii": "a.U.0....=..HHi..M]Dd2.....j)...a..|......\\T..*L",
+      "sha256": "80844bb65d1b74256ddbfa5b3c04ef248318be8b104eff9bb5f95a4b0e7f024c",
+      "structured": false
+    },
+    {
+      "label": "token/eye_spiral_idx/||yinyang",
+      "envelope": "chain2",
+      "digest": "sha256",
+      "plaintext_len": 79,
+      "printable_ratio": 0.4051,
+      "head_ascii": ".F ].4.z..\\Y....H.|p..C... ....\\...o.....hWY..\"^",
+      "sha256": "8e6ced1a2cf5c0603e1a5531d5ef8b604454537799053476e21e02222ea5092c",
+      "structured": false
+    }
+  ],
+  "printable_half_streams": {},
+  "printable_invert_spirals": {},
+  "scope_excludes": [
+    "cosmic_envelope",
+    "base38",
+    "chain4"
+  ],
+  "extra_matrix_dual": {
+    "row_sums_resistor": [
+      73,
+      48,
+      60,
+      69,
+      73,
+      62,
+      82,
+      91,
+      57,
+      46,
+      58,
+      60,
+      64,
+      57
+    ],
+    "row_sums_eye_zeroed": [
+      73,
+      48,
+      60,
+      69,
+      73,
+      62,
+      82,
+      82,
+      57,
+      46,
+      58,
+      60,
+      64,
+      57
+    ],
+    "col_sums_resistor": [
+      60,
+      48,
+      72,
+      42,
+      60,
+      75,
+      89,
+      73,
+      69,
+      71,
+      52,
+      67,
+      67,
+      55
+    ],
+    "total": 900,
+    "total_eye0": 891,
+    "aes_structured": [],
+    "aes_padding_count": 0,
+    "aes_padding_sample": [],
+    "notes": {
+      "rot180_spiral": "not printable door-shaped",
+      "reverse_spiral": "not printable door-shaped",
+      "invert_bw_spiral": "high-bit ASCII mojibake, not a URL",
+      "forced_LR_mirror": "not a clean second door string"
+    }
+  }
+}

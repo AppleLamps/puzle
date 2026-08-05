@@ -22,6 +22,8 @@ from .secp256k1_verify import BASE58, N, hash160, wif
 
 RESULT_PATH = ROOT / "ciao_bella_479_audit.json"
 ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+BELLASO_1553_ALPHABET = "ABCDEFGHILMNOPQRSTVXYZ"
+BELLASO_1553_KEY_PAIRS = ("AB", "EF", "IL", "OP", "VX", "CD", "GH", "MN", "QR", "ST", "YZ")
 QUOTE = (
     "The future is fluid Each act each decision and each development creates "
     "new possibilities and eliminates others The future is ours to direct"
@@ -136,12 +138,13 @@ def porta(text: str, key: str) -> str:
     return "".join(output)
 
 
-def bellaso_1553(text: str, key: str, alphabet_keyword: str = "") -> str:
-    """Bellaso's reciprocal 1553 construction over a straight or keyed alphabet.
+def bellaso_reciprocal_26(text: str, key: str, alphabet_keyword: str = "") -> str:
+    """Modern 26-letter Bellaso/Porta-style reciprocal construction.
 
     The alphabet is split into two 13-letter halves.  A key letter's position
     modulo 13 selects the rotation between opposite halves.  Applying the same
-    operation twice recovers the input.
+    operation twice recovers the input.  This is explicitly not mislabeled as
+    Bellaso's original 22-letter 1553 table.
     """
     source, password = clean(text), clean(key)
     alphabet = keyed_alphabet(alphabet_keyword)
@@ -157,6 +160,53 @@ def bellaso_1553(text: str, key: str, alphabet_keyword: str = "") -> str:
             result = (value - 13 - row) % 13
         output.append(alphabet[result])
     return "".join(output)
+
+
+def _bellaso_1553_clean(text: str) -> str:
+    """Apply conventional Latin spellings needed by the 22-letter table."""
+    expanded = clean(text).replace("J", "I").replace("U", "V").replace("W", "VV")
+    if any(character not in BELLASO_1553_ALPHABET for character in expanded):
+        raise ValueError("Bellaso 1553 input contains unsupported K after Latin normalization")
+    return expanded
+
+
+def bellaso_1553(text: str, key: str, rotation: str = "right") -> str:
+    """Bellaso's original reciprocal 22-letter, eleven-row 1553 table.
+
+    Its row order is vowels first (A/E/I/O/V), then consonants
+    (C/G/M/Q/S/Y).  Each row is selected by a key-letter pair.  ``right`` is
+    the documented lower-half shift direction; ``left`` retains the mirrored
+    print/table orientation as an explicit variant.
+    """
+    source = _bellaso_1553_clean(text)
+    password = _bellaso_1553_clean(key)
+    if not source or not password:
+        return ""
+    first = BELLASO_1553_ALPHABET[:11]
+    second = BELLASO_1553_ALPHABET[11:]
+    row_for_key = {
+        character: row
+        for row, pair in enumerate(BELLASO_1553_KEY_PAIRS)
+        for character in pair
+    }
+    sign = -1 if rotation == "right" else 1
+    if rotation not in ("right", "left"):
+        raise ValueError(f"unknown Bellaso 1553 rotation: {rotation}")
+    output: list[str] = []
+    for index, character in enumerate(source):
+        row = row_for_key[password[index % len(password)]]
+        if character in first:
+            position = first.index(character)
+            output.append(second[(position + sign * row) % 11])
+        else:
+            position = second.index(character)
+            output.append(first[(position - sign * row) % 11])
+    return "".join(output)
+
+
+def bellaso_1553_if_supported(text: str, key: str, rotation: str) -> str:
+    """Use the historical table only when no unsupported K is present."""
+    return "" if "K" in clean(text + key) else bellaso_1553(text, key, rotation)
 
 
 def primes_through(limit: int) -> list[int]:
@@ -349,14 +399,21 @@ def _add_classical_outputs(
     audit.add(family, f"{message_label}/{key_label}/porta-reciprocal", porta(message, key))
     audit.add(
         family,
-        f"{message_label}/{key_label}/bellaso-1553-straight-reciprocal",
-        bellaso_1553(message, key),
+        f"{message_label}/{key_label}/bellaso-modern-26-straight-reciprocal",
+        bellaso_reciprocal_26(message, key),
     )
     audit.add(
         family,
-        f"{message_label}/{key_label}/bellaso-1553-keyed-reciprocal",
-        bellaso_1553(message, key, key),
+        f"{message_label}/{key_label}/bellaso-modern-26-keyed-reciprocal",
+        bellaso_reciprocal_26(message, key, key),
     )
+    if "K" not in clean(message + key):
+        for rotation in ("right", "left"):
+            audit.add(
+                family,
+                f"{message_label}/{key_label}/bellaso-1553-22-{rotation}",
+                bellaso_1553(message, key, rotation),
+            )
 
 
 def _known_answer_tests() -> dict[str, object]:
@@ -370,20 +427,32 @@ def _known_answer_tests() -> dict[str, object]:
         decrypt=True,
     )
     tests = {
-        "chaocipher_byne_exhibit_encrypt": encrypted == CHAO_EXHIBIT_CIPHERTEXT,
-        "chaocipher_byne_exhibit_decrypt": decrypted == CHAO_EXHIBIT_PLAINTEXT,
+        "chaocipher_byrne_exhibit_encrypt": encrypted == CHAO_EXHIBIT_CIPHERTEXT,
+        "chaocipher_byrne_exhibit_decrypt": decrypted == CHAO_EXHIBIT_PLAINTEXT,
         "porta_reciprocal_roundtrip": porta(porta("THEFUTUREISOURS", "PASSWORD"), "PASSWORD")
         == "THEFUTUREISOURS",
-        "bellaso_1553_straight_roundtrip": bellaso_1553(
-            bellaso_1553("THEFUTUREISOURS", "PASSWORD"), "PASSWORD"
+        "bellaso_modern_26_straight_roundtrip": bellaso_reciprocal_26(
+            bellaso_reciprocal_26("THEFUTUREISOURS", "PASSWORD"), "PASSWORD"
         )
         == "THEFUTUREISOURS",
-        "bellaso_1553_keyed_roundtrip": bellaso_1553(
-            bellaso_1553("THEFUTUREISOURS", "PASSWORD", "SECRET"),
+        "bellaso_modern_26_keyed_roundtrip": bellaso_reciprocal_26(
+            bellaso_reciprocal_26("THEFUTUREISOURS", "PASSWORD", "SECRET"),
             "PASSWORD",
             "SECRET",
         )
         == "THEFUTUREISOURS",
+        "bellaso_1553_22_right_roundtrip": bellaso_1553(
+            bellaso_1553("THEFVTVREISOVRS", "PASSVORD", "right"),
+            "PASSVORD",
+            "right",
+        )
+        == "THEFVTVREISOVRS",
+        "bellaso_1553_22_left_roundtrip": bellaso_1553(
+            bellaso_1553("THEFVTVREISOVRS", "PASSVORD", "left"),
+            "PASSVORD",
+            "left",
+        )
+        == "THEFVTVREISOVRS",
     }
     if not all(tests.values()):
         raise AssertionError(f"cipher known-answer/self-inverse test failed: {tests}")
@@ -410,13 +479,23 @@ def run() -> dict[str, object]:
     key_layouts = _word_layouts(password_words, "selected7")
     primes = primes_through(140)
     prime_layouts: dict[str, str] = {}
+    prime_raw: dict[str, str] = {}
     for basis in (0, 1):
         selected = "".join(QUOTE[index - basis] for index in primes[:23])
-        prime_layouts[f"quote140/first23-primes/{basis}-based"] = clean(selected)
+        raw_label = f"quote140/first23-primes/{basis}-based"
+        prime_raw[raw_label] = selected
+        prime_layouts[raw_label] = clean(selected)
         all_selected = "".join(
             QUOTE[index - basis] for index in primes if 0 <= index - basis < len(QUOTE)
         )
-        prime_layouts[f"quote140/all-primes/{basis}-based"] = clean(all_selected)
+        all_label = f"quote140/all-primes/{basis}-based"
+        prime_raw[all_label] = all_selected
+        prime_layouts[all_label] = clean(all_selected)
+        letters_only = clean(QUOTE)
+        letters_selected = "".join(letters_only[index - basis] for index in primes[:23])
+        letters_label = f"quote118-letters/first23-primes/{basis}-based"
+        prime_raw[letters_label] = letters_selected
+        prime_layouts[letters_label] = letters_selected
     message_layouts.update(prime_layouts)
 
     audit = CandidateAudit()
@@ -440,8 +519,10 @@ def run() -> dict[str, object]:
                     "vigenere-decrypt": lambda word, k=key: vigenere(word, k, "vigenere-decrypt"),
                     "beaufort": lambda word, k=key: vigenere(word, k, "beaufort"),
                     "porta-reciprocal": lambda word, k=key: porta(word, k),
-                    "bellaso-1553-straight": lambda word, k=key: bellaso_1553(word, k),
-                    "bellaso-1553-keyed": lambda word, k=key: bellaso_1553(word, k, k),
+                    "bellaso-modern-26-straight": lambda word, k=key: bellaso_reciprocal_26(word, k),
+                    "bellaso-modern-26-keyed": lambda word, k=key: bellaso_reciprocal_26(word, k, k),
+                    "bellaso-1553-22-right": lambda word, k=key: bellaso_1553(word, k, "right"),
+                    "bellaso-1553-22-left": lambda word, k=key: bellaso_1553(word, k, "left"),
                 }
                 for mode, operation in operations.items():
                     output = _transform_wordwise(
@@ -514,8 +595,14 @@ def run() -> dict[str, object]:
     # Bellaso's cipher in modern implementations.
     pipeline_modes = {
         "porta": lambda text, key: porta(text, key),
-        "bellaso-1553-straight": lambda text, key: bellaso_1553(text, key),
-        "bellaso-1553-keyed": lambda text, key: bellaso_1553(text, key, key),
+        "bellaso-modern-26-straight": lambda text, key: bellaso_reciprocal_26(text, key),
+        "bellaso-modern-26-keyed": lambda text, key: bellaso_reciprocal_26(text, key, key),
+        "bellaso-1553-22-right": lambda text, key: bellaso_1553_if_supported(
+            text, key, "right"
+        ),
+        "bellaso-1553-22-left": lambda text, key: bellaso_1553_if_supported(
+            text, key, "left"
+        ),
         "vigenere-encrypt": lambda text, key: vigenere(text, key, "vigenere-encrypt"),
         "vigenere-decrypt": lambda text, key: vigenere(text, key, "vigenere-decrypt"),
     }
@@ -585,7 +672,8 @@ def run() -> dict[str, object]:
             "selected_7_concat": "".join(password_words),
             "selected_7_intertwined": intertwine(password_words),
             "selected_7_intertwined_reversed": intertwine(password_words[::-1]),
-            "prime_character_layouts": prime_layouts,
+            "prime_character_layouts_raw": prime_raw,
+            "prime_character_layouts_cipher_letters": prime_layouts,
             "architect_ending": "CIAO BELLA O",
         },
         "implementation_checks": known_answers,
@@ -595,8 +683,12 @@ def run() -> dict[str, object]:
                 "left zenith+1 and right zenith+2 moved to nadir after rotation."
             ),
             "bellaso_1553": (
-                "Reciprocal opposite-half substitution; key position modulo 13 "
-                "rotates a straight or keyword-mixed alphabet."
+                "Original 22-letter reciprocal table with A/E/I/O/V/C/G/M/Q/S/Y "
+                "row order; U->V and W->VV Latin normalization."
+            ),
+            "bellaso_modern_26": (
+                "Modern reciprocal opposite-half generalization; key position "
+                "modulo 13 rotates a straight or keyword-mixed alphabet."
             ),
             "porta": "Reciprocal 13-row AB/CD/.../YZ tableau.",
             "vigenere_family": "A=0..Z=25 encrypt, decrypt, and Beaufort formulas.",

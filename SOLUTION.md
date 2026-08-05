@@ -529,6 +529,92 @@ answer uses. My reading of the `/(...)` notation was right too, and the reposito
 states it in the same terms — keep the casing, strip or keep the whitespace.
 Part 5 was right, and part 3 right in substance.
 
+
+# Phase 3, verified independently, and where it actually stops
+
+With phase 2 open I decrypted the rest of the public chain myself rather than
+quoting it. Every step below I reproduced from the ciphertext.
+
+**Phase 3.1** is three riddles, all answered lowercase and joined:
+
+- "What instead of causality could be ours? ... the ...... is ours. The thinker's
+  1name" — the six dots are **future**, and the thinker is **Jacque Fresco**
+  ("the future is ours to direct"). I had read the six dots as *choice*, which is
+  also six letters and fits the Merovingian setup, and lost the riddle there.
+- the cheshire cat's "How long is forever?" — Alice's "sometimes, just one
+  second", prefixed as instructed: **giveitjustonesecond**
+- **heisenbergsuncertaintyprinciple**
+
+`sha256` of the three gives `250f3772…d61ce4c`, which decrypts phase 3.2 to 2422
+bytes beginning "I've been waiting for you."
+
+**The chain past that closes on itself**, which is the strongest evidence in the
+whole exercise. The 96-byte blob at the foot of *my* phase 3.2 plaintext is
+byte-identical to the community repository's chain 2 envelope. Chain 1, opened
+with the five SalPhaseIon tokens, yields 79 bytes as 32+32+15; the uncompressed
+WIF of its first 32 bytes is `5K2byJMssxFKuTgnk9YQjpBz5FhkwwF2LaZoAyTus8HjGEpz8AT`;
+and that WIF opens my blob to another 79-byte 32+32+15 record. Two independent
+routes meeting on the same bytes is not padding luck.
+
+## The `04` is a coincidence, and the point is not on the curve
+
+The 68-byte base-38 output begins `04`, and both the repository and the other
+agent read that as an uncompressed public key `04 || X || Y`. It is not, and the
+test is cheap:
+
+- A 103-digit base-38 number is at most `0x17…`, so its leading byte can only be
+  `0x00`-`0x17`. A leading `04` therefore happens about **1 time in 24** by
+  chance. It is not evidence of anything.
+- Parsing `X = out[1:33]`, `Y = out[33:65]`: `y^2 != x^3 + 7 (mod p)`. Stronger,
+  `x^3 + 7` is **not a quadratic residue** for that x, so no y exists for it at
+  all. The bytes cannot be a point on secp256k1 under any sign convention.
+
+## The base-38 addresses are solver noise, not the creator's
+
+The repository derives "Half" and "Better Half" from that output and reports
+addresses `1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu` and
+`145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ`. On chain both first appear on the same day,
+**2026-04-12**, carry ~0.017 BTC of dust across 101 transactions each, and are
+swept to zero; their uncompressed forms have never been used at all. That is what
+happens to any private key published in a public repository. There is no
+creator-era activity. Meanwhile the real prize is intact and split exactly as the
+Architect message says: `1GSMG…` holds 1.25634510 BTC and `17ucy…` holds
+3.75055310 BTC, together just over 5 BTC, and `17ucy` has never spent, so it
+exposes no public key.
+
+## Where the frontier really is
+
+I collected every 32-byte value the verified chain produces — the chain 1 and 2
+key fields, both Cosmic triplets, all 35 Chain 4 blocks, every 32-byte window of
+the base-38 output — and tested each one, plus its reversal, its SHA-256, and
+pairwise sums, differences, XORs and concatenation hashes, against both prize
+addresses in compressed and uncompressed form. **321 distinct valid scalars, zero
+matches.**
+
+Chain 4 itself is genuine: its mask is fitted to expose a `Salted__` header, but
+the envelope behind it decrypts under a password built from three earlier
+extension fields to exactly 1151 bytes beginning `+-`, which fitting cannot buy.
+Its 1120-byte block region is statistically perfect noise — chi-square 254.2
+against 255 expected for uniform bytes — so it is still ciphertext or key
+material. It is not another AES layer under anything we hold: 4305 (key, IV,
+ciphertext) combinations in CBC and 205 in ECB, using every key in the chain and
+every plausible IV from the 31-byte prefix, produced no valid padding, no
+`Salted__`, and no printable output. Reading the 35 blocks as "seven intertwined"
+streams — 7 by 5, 5 by 7, contiguous groups, and byte-level interleaves — gives
+nothing above noise.
+
+## What the Architect actually says about the last step
+
+The recovered Beaufort plaintext is an adapted Matrix speech, and the adaptation
+matters. "Select from over twenty-three ciphers, sixteen encryptions and or seven
+intertwined passwords" rewrites "twenty-three individuals, sixteen female, seven
+male". The arithmetic 16 + 7 = 23 comes from the film, so those numbers are
+inherited flavour and are weak ground for structural theories built on 23 or 7.
+The same speech says plainly: "I'm sorry to tell you that you've come this far but
+you'll never finish the last task", and asks solvers to stop hunting "worthless
+prices and throphies". The final stage may not be a puzzle with a discoverable
+key at all.
+
 # The prize on-chain: Half and Better Half verified
 
 The latest transcript proposes adding `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` as a

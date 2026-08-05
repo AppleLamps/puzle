@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "cosmic_delta": {
+      "Dx_ascii": ".......u..G....Q=|.M..}........,",
+      "Dx_has_trail": false,
+      "Dx_hex": "d708aa8303a2b475c9db47ffd7e5c7513d7ce84dc4817de4fd138c84da19912c",
+      "Dy_ascii": "P544..?M.8.$....[.%....d...jI.D.",
+      "Dy_hex": "5035343418db3f4dc138fe24848f00df5bd025aa8a8b8d64e203fa6a49ca44a5",
+      "Mx_hex": "d0f8aa7f009e8bca48c93c2ed6a3474f149457bb3c7e941b92ec8b83c6096f1c",
+      "My_hex": "d02cebf3e8b6df3c3f3855dc847b00a128afe596897472a3a2009a54c9b9bf8c",
+      "base38_hex": "0423d9115a1dc756d5d08d2de880ab508bd4745fc97709f4fcb513f2cb8fcc3548cc46e66bdd36b09ae344552f606a761f9d90681f20dfefe2b43db18b623971fc0c1b02",
+      "zero_prefix_Dx": "d708aa83",
+      "zero_prefix_Dy": "50353434"
+    },
+    "creator_pipeline": {
+      "aes_attempts": 83,
+      "aes_hits": [],
+      "candidate_preimages": 94
+    },
+    "halving_arith": {
+      "candidates": 18
+    },
+    "hashtext_sfields": {
+      "asciiish": [
+        {
+          "label": "sfield/S91/yin/decpairs@off0",
+          "text": "DQTRMU&\fb:3\u001c5##UX#\u0016:\u00160b.\u001c6/DTMITU5#N8GTT+\rU7b"
+        },
+        {
+          "label": "sfield/S570/omit_nonprimes/decpairs@off0",
+          "text": "\u000fK\"W$GG\"\f4LAKH\"LKI\u001aM\u001b4\rOcIK\u001a0H[]c=MCYU[a#C\u0016-;1&*/I[E"
+        },
+        {
+          "label": "sfield/S570||S91/omit_nonprimes/decpairs@off0",
+          "text": "\u000fK\"W$GG\"\f4LAKH\"LKI\u001aM\u001b4\rOcIK\u001a0H[]c=MCYU[a#C\u0016-;1&*/I[E*\u0012HVD!4["
+        }
+      ],
+      "decoded": 96,
+      "streams": 24
+    },
+    "regen": {
+      "candidates": 58
+    },
+    "witteveen": {
+      "diag_indices_0based": [
+        22,
+        34,
+        19,
+        21,
+        21,
+        30,
+        13
+      ],
+      "diag_indices_1based": [
+        21,
+        33,
+        18,
+        20,
+        20,
+        29,
+        12
+      ],
+      "word_count": 9
+    }
+  },
+  "notes": [
+    "HASHTHETEXT digit-pair decode over S91/S570 variants",
+    "Cosmic base38 XOR/sub delta vs known Half pubkey",
+    "Witteveen/page140 as Chain4 block selectors",
+    "Creator-pipeline XOR and instruction-substitution Cosmic passwords",
+    "Halving arithmetic on Cosmic halves",
+    "All scalars gated to Half AND Better Half hash160/address"
+  ],
+  "prize_addresses": {
+    "Better_Half": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "Half": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "prize_matches": [],
+  "scalar_tests": 36419,
+  "schema": "creator-frontier-giveaway-audit-v1",
+  "status": "NO_MATCH"
+}

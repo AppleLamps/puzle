@@ -42,6 +42,53 @@ the creator describing his own construction:
     itsinfrontofyoureyesbutyourenotseeingit
     verylaststepisatruegiveawaypromised
 
+## Where we went wrong (forensic)
+
+The self-authenticating trail is real through stage 1 → rebus → phase 2/3 →
+SalPhaseIon field tokens → Chain‑1/2 mutual unlock. Prize keys were never
+produced after that. The wrong turn is not “SalPhaseIon was fake.” It is that
+**the next lock was replaced by a community story.**
+
+```
+Creator trail (named):
+  first image ──2nd door──► yellowblueprimes ──► matrixsumlist
+       ──► lastwordsbeforearchichoice ──► yinyang ──► short giveaway
+
+Community trail (followed):
+  first image ──door 1 only──► phases ──► SalPhaseIon
+       ──► “Cosmic Duality” AES ──► base38 / THE_HALF / Chain4 ──► ∞
+```
+
+**Damaging fork #1 — left the first image.** From 2020-01-14 the creator says
+go back to the first piece; the nest holds more than one door. He repeats
+“2nd / extra / another door” through 2021-12-25 and still calls **yingyang
+unfound** on 2025-04-28. Public work treated door‑1 (`theseedisplanted`) as
+done and moved forward forever.
+
+**Damaging fork #2 — Cosmic Duality ≠ yinyang.** The HTML heading is the only
+creator use of those words. Solvers glued it to his `ying yang` language and
+built the 7‑XOR. Proof that equation is false: if Cosmic decrypt *were*
+yinyang, he would not say in 2025 that nobody has found it. The Dec 2022
+“scary specific” reply was to a **yin‑yang image** a solver googled — that
+endorses yin‑yang as a concept, not “AES‑decrypt the Cosmic textarea.”
+
+**Damaging fork #3 — Chain‑1 password ≠ his 2023 recipe.** Working password:
+`matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist`.
+His construction words: `yellowblueprimes`, `matrixsumlist`,
+`lastwordsbeforearchichoice`, `yinyang`. Missing from the password: the first
+and fourth. Added by solvers: `enter`, `thispassword`. Chain‑1 is a real joke
+unlock; it is **not** the pipeline he published.
+
+**What we (this effort) specifically repeated:** Cosmic password / matrix /
+base38 / half‑arithmetic loops after already knowing Cosmic was unauthenticated;
+underweighting red/roses, primes+zeroing, off‑white `(7,4)`, 86=86 dual, and
+alternate spiral readings on the poster.
+
+**Corrected surface:** second door on `puzzle.png` /
+`follow_the_white_rabbit.png` under yellow/blue/red + primes + zeroing →
+something he would call **yinyang** → then the short giveaway. Cosmic AES /
+Chain4 / base38 are closed negatives, not the next lock.
+
 ## What follows, and what has to be fixed
 
 **1. There is a second door, it branches from the first image, and the entire
@@ -60,11 +107,14 @@ list is `yellowblueprimes`, `matrixsumlist`, `lastwordsbeforearchichoice`,
 `yinyang`** — appear nowhere in the solver chain, and the two that do appear are
 joined by words the creator never lists.
 
-**3. "Yin yang" is Cosmic Duality.** The SalPhaseIon page carries exactly two
-textareas, headed `SalPhaseIon` and `Cosmic Duality`. A yin-yang is a duality.
-The creator's recipe therefore looks like the route into the Cosmic blob, and the
-7-token XOR the repository uses for that blob is a solver construction that
-appears in no creator source.
+**3. "Cosmic Duality" is a page label, not a creator instruction.** The
+SalPhaseIon HTML has a second textarea headed `Cosmic Duality`. That is the
+**only** creator-published use of those words. The Telegram corpus never says
+"Cosmic", "Duality", or "decrypt the second blob." The creator *does* say
+`ying yang` / `yingyang` and lists `yinyang` in the 2023 pipeline — solvers
+**equated** that with the Cosmic textarea and built the 7-XOR decrypt. That
+equation is not creator-sourced. Treating Cosmic AES as the mandatory next
+lock is community gravity, not his hint trail.
 
 **4. The chain 1 password reveals the creator's joke, and it should recur.** The
 raw stream reads as an instruction — *matrixsumlist, **enter**,
@@ -215,12 +265,14 @@ So the puzzle has multiple intended payoffs, not only the key.
 
 The tiny hint is the literal ASCII `<3`. That is the same heart mark the
 Architect's "take this to heart" and the Half/Better-Half language have been
-pointing at. Combined with Cosmic Duality / yin-yang, it is a creator-authored
-emphasis, not solver ornament.
+pointing at. That is creator-authored emphasis on duality / better-half
+language — not a warrant to AES-decrypt the page label "Cosmic Duality."
 
 **2023-08-06:** "Once you hit a ying yang, you'll be able to solve it the same
-day." Cosmic Duality is that milestone. The final step after decrypting Cosmic
-is supposed to be short — "a true giveaway."
+day." He names **yingyang**, not Cosmic. Whether that milestone is on the first
+image (e.g. the 86=86 dual), elsewhere in SalPhaseIon, or something not yet
+reached is open — it is **not** established that it means "AES-decrypt the
+Cosmic textarea."
 
 ## SalPhaseIon structural identity: Witteveen
 
@@ -261,3 +313,305 @@ combinations with the Cosmic bytes all miss both prize addresses.
 - Witteveen / Karimbakhsh / unaware / HILLONE / ASKHSKEY / COMPS / `<3` as
   brainwallets, Cosmic passwords, 7-token XOR substitutions, and HMAC/XOR
   against Cosmic and Chain 4: no prize match.
+
+## Continuation audit (creator-sourced only)
+
+### Closed readings of Cosmic / Chain 4
+
+- Cosmic base-38 as `04 || x || y` is **not** the Half prize pubkey. Only the
+  leading `0x04` matches; the point is not on secp256k1. Same for alternate
+  bases 39–41 and for “zero primes then re-base-38” variants that happen to
+  start with `02`/`03` — those prefixes do not decompress to curve points, and
+  no 33/65-byte window hits either prize hash160.
+- Elliptic-curve combinations of the Cosmic Half/Better scalars and points
+  (`P_h±P_b`, `2P_h±P_b`, products, inverses, XOR-as-int, `±trail1`, and
+  SHA-256 of every creator pipeline phrase as a third operand): zero prize
+  matches. Best public-x nibble LCP observed was 2 (noise).
+- BIP32 (`Bitcoin seed` HMAC-SHA512) from Cosmic halves, their XOR/concat,
+  `F73D92`/`7B9ECC`, Witteveen/`unaware`/`yinyang` digests, and common paths
+  including `m/44'/0'/0'/0/0`: zero matches.
+- Chain 4 `C(7,3)=35` star-selections, 35-bit control masks from
+  `F73D92`/`7B9ECC`/`trail1`/Cosmic XOR key, and 8+7+…+2 pyramid XOR
+  reductions: zero matches.
+- Creator-pipeline and instruction-joke passwords against the Cosmic envelope
+  under both MD5 and SHA-256 `EVP_BytesToKey`: the **only** hit remains the
+  published seven-digest XOR. That, plus Chain 4’s `+-` / 31+35×32 layout
+  after the mask forced by `rem[:8] XOR Salted__`, is still the structural
+  authentication for this branch — not padding alone.
+
+### First-image second-door notes
+
+- Majority vs centre-pixel sampling differs at exactly one cell, `(7,6)`, a
+  rabbit stroke. That flips only padding bit 193, so residuals are `0000`
+  (majority, 101 ones) vs `0100` (centre, 102 ones). Marker stream `F73D92`
+  is identical under both.
+- Forcing the off-white cell `(7,4)` to a 1-bit flips the URL’s `n` to `~`
+  (`gsmg.io/theseedispla~ted`). Treating it as white leaves the known URL.
+  Neither reading, nor rabbit-nest bitmaps, nor resistor-digit concatenations
+  of the 24 markers, unlock Cosmic or either prize address.
+- The 2021-04-01 hint `another door might be found on {1},{4},{21}` is
+  followed the same day by the creator asking what usually happens on April
+  1st. Treat it as April Fools, not a coordinate.
+
+### Cosmic matrix authentication is weaker than claimed
+
+The unique exact secondary range `80..117` at shift 7 is **not rare**: about
+**18%** of random 1327-byte strings have at least one shift with that exact
+min/max (200-trial Monte Carlo). Combined with the Chain-4 mask being fitted
+to force a `Salted__` header, the public Cosmic 7-XOR branch remains
+*structurally used* by solvers but is **not** strong proof that yin-yang has
+been reached — consistent with the creator’s 2025-04-28 remark that it had
+not.
+
+Issue #82’s matrix invariants reproduce on the public Cosmic plaintext:
+`S=5193`, `Wr=268603`, `Wc=268828`, and `p_big=58` equals the count of
+secondary values `≥ 100`. Its claimed 79-byte SalPhaseIon SHA `e2590f15…` does
+**not** match chain1/2 or either Cosmic 79-byte triplet and was not reproduced
+from public envelopes (`salphaseion_79_anchor_hunt.json`).
+
+### Closed this session (still no prize key)
+
+- **Better-Half-aware giveaway audit** (`creator_frontier_giveaway_audit`):
+  HASHTHETEXT-style digit-pair decode over S91/S570 variants; Cosmic base-38
+  XOR/sub delta vs the known Half pubkey; Witteveen/page-140 Chain4 selectors;
+  creator-pipeline XOR + instruction-substitution Cosmic passwords; halving
+  arithmetic on Cosmic halves. **36,419** scalar tests, **0** prize matches.
+  Cosmic `Dy` begins ASCII-ish `P544…` — treated as noise unless a second
+  confirmation appears.
+- **SalPhaseIon selector frontier** (`salphaseion_selector_frontier_audit`):
+  S570 Vigenere/Beaufort/Playfair with creator keys; phase-3.2 “one for one,
+  four for one” number-line material; alternate passwords on the 80-byte
+  SalPhaseIon envelope. **59,644** scalar tests, **0** matches. Best vanity
+  was only a 4-nibble hash160 prefix (noise at that scale).
+- **XOR-triangle / trail1 formula** (`xor_triangle_trail_audit`): Pascal /
+  WITVEEN C(7,3) folds, T5 HILLONE+ASKHSKEY, trail1 pairings, and
+  `[-4,2,32,12,4,27,0,2,-16,15]` Cosmic strides. **8,771** unique scalars,
+  **0** matches. Issue #88 `cosmic_A` / `cd3fea3d…` / `ca[280:312]` remain
+  unreproduced; `cc[833:865] XOR` over all Cosmic/Chain4 windows never
+  reaches a reproducible LCP≥5 against Half’s public x.
+- **Yin dual secondaries**: only `yangR+yangC@7` and `yangR+yinC@18` hit
+  exact 80..117; full yinR/yinC span-37 family (38 decodes) plus arithmetic /
+  EC combinations of their halves — **0** prize matches. Flip-prime matrix
+  duals at shifts 14 and 66 also decode to 68 bytes and miss.
+- **Near-key search**: Half pubkey − Cosmic/chain scalars within
+  `|Δ|≤50_000` (BSGS) and Better hash160 within `|Δ|≤2_000` of those bases —
+  empty. Multiplicative `k∈[1..256]` near-keys empty. EC successive
+  halvings of the Half point (`Half/2^n`) do not yield Better’s hash160.
+- Rabbit-nest impure cells (7 cells, black counts
+  `100,225,150,75,225,100,50`) and packed bitmaps do not open Cosmic or
+  match either address.
+- **Second-door frontier** (`second_door_frontier_derivations`): all-196
+  resistor + prime-zeroing, half-image splits, 14×14 matrix
+  sum/product/det, off-white mask, sub-cell rabbit morphology, and
+  URL-prime Y/B insert → HASHTHETEXT. **102,093** unique scalars and
+  **41,660** AES trials → **0** prize matches / no new structured Cosmic
+  plaintext.
+- `p_big`/`p_little` selection masks into digits/Cosmic/Chain4, embedded
+  WIF scan, and `+-` control folds from `F73D92`/`trail1` — **0** matches.
+
+### Still open (authenticated material only)
+
+**Hard rule:** do not attack Cosmic AES / Chain 4 / base-38 as the next
+mandatory lock. The creator never named those. Closed Cosmic trials stay in
+the audit above as negatives only.
+
+1. The **second door** from `follow_the_white_rabbit.png` / `puzzle.png` under
+   `yellowblueprimes` + primes + zeroing + the unused red resistor line.
+   Creator 2025-04-28 still says **yinyang not found** (“2 hours max” once
+   reached). That milestone is whatever *he* named `yinyang` — not the HTML
+   heading on the SalPhaseIon page.
+2. The **giveaway after yin-yang**: once that milestone is hit, the last step
+   is supposed to be short (`verylaststepisatruegiveawaypromised`). Do not
+   fill the gap with unreproduced solver labels (`cosmic_A` / `row1-4` /
+   `K_I1`) or Issue #82’s unreproduced `e2590f15…` SHA.
+3. Witteveen / *Heart of Sufism* as the “obscure intel” prize versus a still-
+   unknown transform into the BTC scalar.
+
+## Independent re-parse (avoiding public Cosmic / Chain4 lore)
+
+Rebuilt the SalPhaseIon textarea from the archived HTML only. All 1075 tokens
+are single characters. The mechanical fields are:
+
+```
+S91 | AB1→"matrixsumlist" | S570
+| z + ai/o → "lastwordsbeforearchichoice"
+| z + ai/o → "thispassword"
+| z + "shabefourfirsthintisyourlastcommand"
+| b64 #1 → OpenSSL env48 (Salted__, salt 3ab585348552415d)
+| AB2→"enter"
+| b64 #2 → raw 48 bytes (no Salted__ header)
+| "shabefanstoo"
+```
+
+The community `extract` path **deletes** the middle `enter` marker and glues the
+two base64 runs into one 96-byte envelope. That glued blob *does* open with the
+instruction-joke password
+
+`matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist`
+
+to a 79-byte record whose first-32 WIF opens the phase-3.2 trailing blob — so
+the glue path is self-consistent. Separately, **env48 alone does not** open with
+that same password. Treating env48 and raw48 as two locks (“sha256 answer too”)
+has not yet yielded an authenticated second plaintext. Padding hits on env48
+(`hashthetext`, etc.) sit inside the ~0.4% MD5-EVP false-positive rate and do
+not unlock raw48 or Cosmic under sha256 of the candidate plaintext.
+
+### Cosmic without semantic tokens
+
+The public Cosmic password XOR uses `yourlastcommand` and `secondanswer`, which
+are **not** alphabet-decoded from the page. Replacing them with literal fields
+(`hashthetext` / `HASHTHETEXT` / `sha256answertoo` / `SalPhaseIon` /
+`shabefanstoo`) and with the creator’s seven pipeline words produces no new
+authenticated Cosmic plaintext beyond the known 7-XOR and chance-level padding
+hits. In particular `sha256("yin") XOR sha256("yang")` opens Cosmic under MD5
+EVP, but random two-word XOR pairs hit at ~0.6% on the same blob — same class of
+evidence as other padding luck. Cosmic sha256-EVP false positives are rarer
+(~0.26%); `SalPhaseIon` as a raw sha256-EVP password is one such hit and is
+**not** treated as yin-yang.
+
+### First-image yin-yang that public Cosmic work skipped
+
+On `follow_the_white_rabbit.png`, majority-colour sampling gives **exactly 86
+black cells and 86 white/off-white cells**. Blue=15, yellow=9. That equal black/
+white split is a literal duality on the artifact the creator keeps pointing at,
+and it does not depend on Cosmic or Chain 4. The off-white cell remains at
+grid `(7,4)`, spiral index 163 (0-based), still the only near-invisible anomaly.
+Seven rabbit-nest cells are impure (two colours only). Geometric dual hashes,
+Half-point tweaks by image scalars (86, F73D92, spiral index, …), and
+pipeline-suffix brainwallets still miss both prize addresses.
+
+Door-1 spiral still reads `gsmg.io/theseedisplanted` with off-white as white;
+forcing it as 1 yields `…pla~ted`. Reverse-spiral / prime-zeroed bitstreams do
+not produce a second URL or prize key in the trials run here.
+
+### X2SH endgame (from causality plaintext, not Cosmic)
+
+The keymaker block `# X 2 S H 4 Y 0 Q B 15 #` is **not** required to open phase 3
+(the SafenetLunaHSM concatenation already does). Chat-era claims that solving it
+*is* solving the puzzle remain plausible as an endgame. Independently:
+
+| var | reading | value |
+| --- | --- | --- |
+| S | Klingon `cha'+(vagh*jav)` | 32 |
+| B | `(5i - i)^2` from the serial/`sqrt(-1)` clue | −16 |
+| Q | Mr Robot fish `qwerty` → `qwertyuiop`; numbers above I,W | 82 or 28 |
+| H | “Answer to only this puzzle but nothing else” × −1 | **unsolved** (not 42 by the wording) |
+| Y | no direct clue (keyboard-above-Y = 6 is a guess) | **unsolved** |
+
+“Worst gear on the highway” = reverse. Large concatenations / polynomials /
+sha256 of filled templates over the plausible (H,Y,Q) grid — **0** prize matches.
+H = −86 (from the B/W balance) was included; still nothing.
+
+### Prize addresses (still funded)
+
+Half `1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe` ≈ 1.256 BTC remaining (pubkey known).
+Better `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` ≈ 3.751 BTC, never spent.
+No candidate from this re-parse hits either address.
+
+## Poster re-exam: QR + bunny (what keeps pulling us back)
+
+The checked-in `puzzle.png` (1048×1556) is the full first puzzle piece. It is
+**not** just the 14×14 grid. Top-to-bottom:
+
+1. **Bunny grid** — exact 3× nearest-neighbor of `follow_the_white_rabbit.png`
+   (byte-identical when cropped to 1047×1047). Door-1 spiral still reads
+   `gsmg.io/theseedisplanted`.
+2. **Red divider** — solid `#ED1C24`, **15 px** thick. This is the only red in
+   the poster. Creator 2020-01-14: *“Roses are White but often Red. Yellow has
+   a number and so does Blue.”* Resistor red = **2**; white = 9. The red line
+   has been treated as decoration and barely used.
+3. **Footer** — hexagonal **G** logo (not a rabbit), title
+   `GSMG.IO 5 BTC PUZZLE CHALLENGE`, a real **QR version 4 (33×33)** that
+   decodes (zxing) to
+   `https://www.blockchain.com/btc/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe`,
+   and the same address in text.
+
+### What is *not* the second door (closed this pass)
+
+- **QR “merlon” gray texture** in the finder rings is anti-aliasing (identical
+  35-pixel column of 234/236 in all three finders). Not an independent
+  bitstream. Dirty modules exist only on finders.
+- **Tiny second rabbit in the footer** — not present (BR corner is empty gray).
+- **Bunny grid as a scannable QR** (pad to v1–v4 / Micro sizes, with or without
+  synthetic finders) — no decode.
+- Nest 5×5 downsamples of the seven impure cells only redraw the rabbit
+  silhouette; black counts `/25 = 4,9,6,3,9,4,2`.
+
+### Alternate spiral readings that *do* look door-shaped
+
+Door 1 uses black/blue = 1, white/yellow = 0 (yellow/blue sit on each byte’s
+LSB). Two deliberate reassignments produce fully printable 24-byte strings:
+
+| rule | result |
+| --- | --- |
+| yellow forced to 1 (color-as-black) | `gsmg/io/uieseeeisqmaouee` |
+| color LSBs zeroed / yellow→white | `frlf.hn.thdrdddhrpl\`ntdd` |
+| off-white forced to 1 | `gsmg.io/theseedispla~ted` |
+| prime spiral indices zeroed | `\x05SMe&Ig\x07ThEseEdiSPdaLtEd` (high printable) |
+
+The yellow-LSB-flip string is the striking one: it is still `gsmg/io/…` shaped
+(`.`→`/` on byte 4, and every yellow-marked LSB flips). No Wayback hit under
+`gsmg.io/uieseeeisqmaouee`. It is the clearest *second reading* of the same
+spiral that public door-1 work leaves on the table — pursue as second-door
+material, not as a Cosmic password.
+
+### Yellow-flip + red audit (this pass) — closed negative
+
+Script: `second_door_yellow_red_audit.py` (+ follow-up JSON). Scope: first image
+spiral variants, poster red divider facts (15 px `#ED1C24`, resistor **2**),
+prime-index / char-prime zeroing, roses/red tokens, `{1},{4},{21}` hint
+concat, HASHTHETEXT-style sha256 expansions. Gates: Half pubkey + Better
+hash160; AES only on **chain1 / chain2 / phase32** (Cosmic excluded).
+
+| check | result |
+| --- | --- |
+| door1 control | `gsmg.io/theseedisplanted` |
+| yellow forced 1 | `gsmg/io/uieseeeisqmaouee` |
+| unique scalars | ~2.9k (main) + 292 (follow-up) |
+| prize matches | **0** |
+| structured AES on auth envelopes | **0** |
+| MD5/SHA padding hits | a few (incl. 79-byte chain1 under char-prime-zero) — same class as EVP false positives; not readable |
+
+Also closed as passwords/scalars: `eqoe-km-wkgqgggkqsocmwgg` (yflip⊕2),
+dot-fix `gsmg.io/uieseeeisqmaouee`, path `uieseeeisqmaouee`, yflip+`ED1C24`/
+`15`/`2`/`8686`/`1421`, `yellowblueprimes‖yflip`, resistor digit stream
+concat. **Next:** do not widen into Cosmic. Prefer a single joint rule that
+earns the name `yinyang` (86=86 dual / off-white / red+yellow+blue together),
+not more path-string brainwallets.
+
+### Yin-yang joint-rule audit (this pass) — structural hit, key miss
+
+Script: `second_door_yinyang_joint_audit.py`. The grid **does** carry
+creator-shaped duality; none of the joint rules hit the prize keys.
+
+**Structural facts (authenticated from the PNG):**
+
+| fact | value |
+| --- | --- |
+| black / white+off | **86 / 86** |
+| L/R black-white | **44/42** vs **42/44** (swap) |
+| main diagonal | **7 black + 7 white** |
+| off-white eye | `(7,4)`; rot180 dual `(6,9)` = **black** |
+| resistor Y/B/(poster R) | 4 / 6 / 2 |
+| row & col resistor sums | each total **900** (891 if eye zeroed) |
+
+**Families gated (Half pubkey + Better hash160; AES on chain1/2/phase32 only):**
+color-invert spirals; L⊕R / T⊕B / interleave halves; diagonal halves; yin/yang
+coordinate & index paths (86 vs 86); `sha256(yin)⊕sha256(yang)` duals; eye +
+RYB + `8686` joints; marker digit streams + red `2`; matrixsumlist row/col
+CSV; rot180 / reverse spirals. **~2.4k unique scalars, ~8k AES trials → 0
+prize matches, 0 structured AES.**
+
+So `yinyang` is visible as **balance on the artifact**, but the transform that
+turns that balance into a door/scalar is still missing. Do not fall back to
+Cosmic. Next pressure should be on how `yellowblueprimes` + `matrixsumlist` +
+this dual compose — not on hashing the word `yinyang`.
+
+### Still the best “in front of your eyes” anomalies
+
+- Off-white cell `(7,4)` = `(254,254,254)`, spiral index 163 — invisible at a
+  glance; only difference from white in the whole grid.
+- Black count = white/off-white count = **86** (yin-yang on the artifact the
+  creator keeps naming).
+- Red divider (resistor 2) + yellow/blue numbers — the January 2020 hint names
+  three resistor colours; solvers used two.

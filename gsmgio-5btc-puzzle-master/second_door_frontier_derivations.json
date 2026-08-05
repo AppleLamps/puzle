@@ -1,0 +1,2875 @@
+{
+  "aes_gate": {
+    "attempts": 41660,
+    "known_cosmic_plaintext_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+    "known_salphaseion_short_plaintext_sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+    "padding_hit_count": 176,
+    "padding_hits_sample": [
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/trimmed/row-bits-ascii"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "3329622b8c280ca6d4e0fa0a442013601795136a0d93fd558bd7f428d0c82353",
+        "password_variant": "hex-decoded",
+        "plaintext_length": 79,
+        "plaintext_sha256": "6190f5727356857ba00c265e3bd3a4baed4382c904945f315297f6639a6e8899",
+        "readable": false,
+        "sample": ".bC... .7d....f$.........v.n..^..kv\t.=o....n.T...L.....=..P..;.....n..9.\r.^;.h*"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/mirror/col-run-lengths"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "c5fb2d4c84bc88575e32467cbcb5edd254cb8633a9e413943ef45b3b9ae08ce8",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "d7bf4318541a05945f45a28c399fae5d24a508b60d294fd99f3265d75aacf20d",
+        "readable": false,
+        "sample": ".m.).....f...`|.#..C..f#T...#'\"9..AB.\r.$9U.u.8*....\"..NT.X.5_im....d......v.K.......s.Y!.NB#..._"
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/rot90/col-run-lengths"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "1786a89012bda55e4e17bbd77c20f345bf5a9ab91f0fd5c6d8e8cbd70db2ad1d",
+        "password_variant": "sha256-upperhex",
+        "plaintext_length": 79,
+        "plaintext_sha256": "d365628730a3f16c4118c0816334c8f9bdfbc06a56e0b2ba5d8a551467a8a1c8",
+        "readable": false,
+        "sample": "....5..m..........[.YN...|...1.>...H....8n..<...nks...aC/..... .t.....n.|E.'..O"
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/raw/col-bits-bytes",
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/rot90-mirror/row-bits-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "96d27f4e1f2638a05742377a82c5c2e83ea786eb1d74acb83f086812766db17e",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 79,
+        "plaintext_sha256": "999d544644591c9a4b3950ffdbaab3846802cfec4d5e7060b487a970d38364c5",
+        "readable": false,
+        "sample": "..l.#.|S_.v@.7..fok.....\\..e...c)(S$.x`A..$.\n..q..~..7}@.zg........=...p&..i..."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/trimmed/row-bits-ascii"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "22dce9fc532825f795cc06597eb3c5c8c83187ad8a0783776753df8133041847",
+        "password_variant": "hex-decoded",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "5102459beee5f8e6e51f488e346f6994022fb076b0eddae4762b03104c535d6f",
+        "readable": false,
+        "sample": "A&....`#..}........e...[?..|...05.._G.............A...Dm..n...B.....x...!.....].F.atM,.?.N.>.l;."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/mirror/colsums"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "5cd33667d091572065b181e57a56fe95673711d6c05f4daa639223cb44b194f3",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "f376ebd871489bf5925cc75ad72145cc6397c0a9c9fde57c2a673fe819dd69f4",
+        "readable": false,
+        "sample": "/.P...e1{~c.....S.Mr..<.&ak.C.....0..&.I.v..f...@....e..p.|7.,.\\(1aD..:.f{.!..V.........j....\\.W"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/mirror/colsums"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "5cd33667d091572065b181e57a56fe95673711d6c05f4daa639223cb44b194f3",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "d527fb561e2f702a94bf83f86f3a29172cc3f34b164de46e79552fe0ea3cac7f",
+        "readable": false,
+        "sample": "...Y\"... .....&........(......|/.jITJ.#..L..{.;@.............i.8n.....f@..R..V..D$X.M..9e.|....."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "c7a2dfc6d148604b28cc097ea5347dbaac537a8b57d44edcd2533220b6e58000",
+        "password_variant": "sha256-upperhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "fe53fb7b0fda8ecbe71569eac2797780abe0049e7e8c36e52e2f8063df5a5252",
+        "readable": false,
+        "sample": "!..bv..L:.}VL..I..$....[.g...`!..*......j.9...6.>d.R!2.....4.l...\\1r.C.....C.....p....{..Kq...YO"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/raw/row-bits-ascii"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "7f419b3e0fbfe604f3f99d9e3e357da19258713bd93f3e0baff0a5479c49d882",
+        "password_variant": "double-sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "074c99d6360524d56043c748cedc8390d5993ec72a905f966446166efb872fff",
+        "readable": false,
+        "sample": "\nHm......\".O.H>..L.@...C:...mf...t;..+.G.sn.H.?.E\rG....jW.Vl.a..&9I.,...G<o`.y....K...:..^]>.c.."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/mirror/col-bits-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "9129a1dfa0ce2d18c7656678bb1eec386f828b379ce7b60d8cbbc251533e4c1a",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 79,
+        "plaintext_sha256": "93e959382e4e271537fec26eb0c4fd4c1ed9312dc0c4152d72298eeb8f64f0d5",
+        "readable": false,
+        "sample": ".c\n1..P.K..'....$...p.-.....MHr.=. T..Z....>{.....q..,....V.D..-..5.+)+......B."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/raw/col-run-lengths",
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/rot90-mirror/row-run-lengths"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "efbea475d6c0f0b22d47a1b8f8931a70bde5adafb250f3963713bc5a65f031bf",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "4f5682580d5a08a1285913e45bacd473dd193b0ef26ee49f4cf38d00f6172ece",
+        "readable": false,
+        "sample": "7_R.....S..3.[\n.q..%.....|F%o.'\r....,..[u.r...EK.A.1$..P...j.'..I..\r.+..o. .z:.L'..M...i.8..@..."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/mirror/colsums"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "066eac252e626fb9d24d53feb0be42b3a2ade41a6e034d16699c5b24ee65f0f4",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "57a322308da5584e1d87d5ac56ab896014af6882a9dd3fca4c80160b3ed9e5fc",
+        "readable": false,
+        "sample": "....c.E;hJ`......\t..$P.a...W.a-.TV\".R%_Yrq.g.yR.U...M!...m.U.t..M.8\"..B....RMCF.u.<ir....M..V..."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/mirror/col-bits-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "fc729842edce8d33b2831e2a824b5b2900ad5f6b6537e57415bec3deb5579f25",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 79,
+        "plaintext_sha256": "fc46fc8cf0e0e45b652c0faf13af86b2797a7a0d017eaba4932ac9f2611f534e",
+        "readable": false,
+        "sample": "_~..I..........V.......Gc$u.?..0.........\n!....(.b{.......=9.{.T.G..u........2L"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/mirror/col-bits-bytes"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "6f84bbf77a9801948cf170047b1ad521ba8453a72799a6fc90f3f0d2d34f57e0",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "d06a703e76b18646447b8b68003abe58185016bb359c7d694df9ede4841fbd15",
+        "readable": false,
+        "sample": ".p.....0Yc.........FP'....uJ.=.qy..... ....2..\n.1....q..axK..%..a_t.^E....5=L.G./.p..J.Q|......3"
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/rot90/row-bits-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "4bd5466b92cee2d9871f5895dd795d76dc87968691b1964d6e47b90edd1a5c8a",
+        "password_variant": "sha256-upperhex",
+        "plaintext_length": 79,
+        "plaintext_sha256": "ddd35c4da35dfe8b908a2afeea6865ef1f10fe47f67e0c00ce3ff29ef83470b2",
+        "readable": false,
+        "sample": "4=>.:..?.(S.F..z..i..MZ....!..2.X73.0..q.|......Ii....Q..m.-..J.D~?.P....uoF..U"
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/raw/col-bits-bytes",
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/rot90-mirror/row-bits-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "c17a351531178862c3205de34200798788e56238799e4e2351dd1f4d2728cf91",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 79,
+        "plaintext_sha256": "d4cef2df96a115b622d31004fdb460f3e55a619715f46a571e371da426e53ee1",
+        "readable": false,
+        "sample": ".....W..:....V..$.....N.6.....J.........2.I\n..ow]/..`..L].k.\t....{.8.......aQ.."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/impure-only-bbox-15x20/trimmed/row-bits-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "83d62445e02a62890ae3188da190ed391cc4967a1e8d47695f67a6b68cab638f",
+        "password_variant": "raw",
+        "plaintext_length": 79,
+        "plaintext_sha256": "78bb2f3a37f44a40d5ed6bb98749fbdcf6ae5e25ce1ed75d113a53ca87e865f6",
+        "readable": false,
+        "sample": ".M..\\...*n.\r..*57Ui...jm...x../..V.?.^..G..4.C.[Y/0..|....&..y.O{..ao.z..}...O."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/impure-only-bbox-15x20/mirror/col-bits-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "f65aa315493a65f4bd9dc2d6f3a1d840dade2376f72c7f02ded9d350b2894811",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 79,
+        "plaintext_sha256": "8ddf41359ae37a978420657f21bbbf4b6e17f1a80dce05cc6354d8d355535c8c",
+        "readable": false,
+        "sample": "..%C..UZ2L....s....b.*O.....9....T..<..#..........l....>..[...e...`....p~].N.c."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/impure-only-bbox-15x20/rot90/row-bits-ascii"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "1d602d9b766c00066c5fb90167ea080050a9c4582c22535d04ad5d6b1beeaa8c",
+        "password_variant": "sha256-upperhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "ed10a1a1a27f6202cbc093a71693f61e2598ac95c07125cd4f6a19a788bc3ef5",
+        "readable": false,
+        "sample": "...P....c.......+.......WP.<N...o.\t..s8.JoC..(?04atK.*.&....b..+.b5...9+}..}L?..s$:7N..Zy%.Z...."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/impure-only-bbox-15x20/rot90/colsums"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "8d8936ef0c95d89d2bf12a87e31cdb7dd6c7d43e681de4969b9ab4bf4ae962ba",
+        "password_variant": "sha256-upperhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "5044fb051096e36e431d0b40d447b4708d299c5c1a0015f01a56823119c281d7",
+        "readable": false,
+        "sample": "N.,i.H........d..xA.%...^7.'.......T.g.WD....._....r.W..s.*1^.k.-....r..\"B:..).'.........|W.AX.."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/full-bbox-15x20/rot90/row-bits-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "51fff6a1e058afef57b3aa57dbab75f5d88d0b6c07f4033c26a85ef0e6eb6a13",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 79,
+        "plaintext_sha256": "000f6fc9ece6149df17476d73e43043494101295f16807fbcb48a77ed9b65ae6",
+        "readable": false,
+        "sample": "`.r...\n.n\t..\n#l.&k(..\t.r..9.&.t.(........i.fKj..1....6..N...$.e..7..L.!.../...,"
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/plain/decimal-int-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "5cd533e13e34e985fb508c6192cc62d94caf067e51141b31af04215c52cc181e",
+        "password_variant": "raw",
+        "plaintext_length": 79,
+        "plaintext_sha256": "d31b5e30863052882570c2306ee0af87a2f5ddf3d05e6a8c4084c9d3e307a8fa",
+        "readable": false,
+        "sample": "?W!...k..(......R.s.S.\\?...'{..7...Ko..H.N]...Z!k+Q.C...y...LxR.g..qE.PB..n.4.."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-to-zero/digits-omit-zero"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "6e6ac22083a5c82ea8c2a3e8d3ab75043d51641979c338d93ee0d2f379ba6832",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "bbe74f72d25808371341e94042a2fb4a6c3566eb5ca1391521c48ff255f66bb8",
+        "readable": false,
+        "sample": "..\nw.\n[..1?.......8..g.b.0NX....z.@I..{:.$2..D.>..r..].Vs.\\.q|1....wg...zUa..A&..%.'.4D*...K...\r"
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/nonprime-to-zero/decimal-chunk2-bytes",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/nonprime-to-zero/decimal-chunk2-bytes",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/nonprime-to-zero/decimal-chunk2-bytes",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/nonprime-to-zero/decimal-chunk2-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "cce073cba691e676cb69a6146d47a110c25c0e2686fdb0762339ffac3fe358a7",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 79,
+        "plaintext_sha256": "e60410a69503634e74c5d598473c4e1ba3e9e124336e12a177069ef64e8ae481",
+        "readable": false,
+        "sample": "C....Zs.p..!r....b........,C.T....(.H..;Nn..T......9:..`..u.$...;O.U.....\rbL..7"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/plain/digits-omit-zero"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "e5416716f8aa9bbc6e487375aeaf8d57adcd79a2eecdb5ca841de45adab0941b",
+        "password_variant": "raw",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "a70845079629b62e655cce78b35c4ca0a0ed47ae652d1d4c7ff2137679cf3860",
+        "readable": false,
+        "sample": "}.,\r.M./OL..J.k.-T.F..=.L\"A...\\g............W...FH..>\t.X~.& .uK..[....'br\t.....&r..b..L....'...."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/nonprime-to-zero/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/nonprime-to-zero/digits-ascii"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "144591309a5a06b2f238da675d9fa9f13b661b645dcdc1b98d9b7f2356f89f76",
+        "password_variant": "raw",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "6dc2aa0325c0add33a93f2a51e8f474fb29f3a507c8296e77b874eea72f1ea01",
+        "readable": false,
+        "sample": ".}..\t.6.f..Q<..c..F.\"~?\n.k.d..\\n......O............d,.c.K.RUW.r....IW\rjF..G.....Xi.d\t..,.q..:.K."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-to-zero/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-to-zero/digits-ascii"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "1a21555abe59c9eda1feff9dffb976512133ff155bcf7a49056ec36399c13972",
+        "password_variant": "hex-decoded",
+        "plaintext_length": 79,
+        "plaintext_sha256": "f1ceba04de352f82fa67a369c2529bd01f2b705a265105f363fe38c3a0c72013",
+        "readable": false,
+        "sample": ".T1.i|.V.^..\n......*}\r.A..`Q\t.`..ggj.+\t.`F?....rl..Z.f.dFW)........qi...?:..h.2"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-to-zero/digits-omit-zero"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "f6f9148eb162ce4342f86313a900ed3ef0220b7108fe4968f60b1222c58dbb25",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "8db2d0499a237f7f990aaa5d60361ff01b52094e6f02f0e3f6042000004d3c9d",
+        "readable": false,
+        "sample": "...f..p..$S+;..S$............H..81..dahaz)n......2k.3.\r..{2.....Yu..#..^.K%xjEm....W3.. .Y...g.."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-to-zero/phone-multitap-runs"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "0bc57201707ccc6afea711304c3add7bb38de7c59e6dc6eaf0f68a4f0dd69f4e",
+        "password_variant": "double-sha256-digest",
+        "plaintext_length": 79,
+        "plaintext_sha256": "d7c5c7fc675a05c4a241096dfd8160c07fa29ce811f992c155ce61854c3d5cd5",
+        "readable": false,
+        "sample": "S....%1B...E2#.0Z.CG...H1p.kU9.....NS....l..*W%.....>.Z.a..\\./..... .........U."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-omit/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-omit/digits-ascii"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "9334c8b61a7a2ef24da1ac874c302fa5dd8fa0bc081df6c127c716629650dae3",
+        "password_variant": "raw",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "af405040e524fbec2a67b9cf37b0a4210fd147ab5cdb2ea42ce9651a4b86a744",
+        "readable": false,
+        "sample": "....Z....R3..x.+...zB.UqPq9.vJP..y.y..e....B\no...O!..0....d......P..8.)s.)R.......|u.#.i......\n."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral-reversed/prime-omit/decimal-chunk2-bytes",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-omit/decimal-chunk2-bytes"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "a1c221e1d2f36e4bc4aff63fe065b7e08c119a4709f5aca7d0a74f0820834a4a",
+        "password_variant": "raw",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "c370efabd30d021ae990d53ba6b873e09d2fcd888e3b6ef5ec30bdd79d6c7a9b",
+        "readable": false,
+        "sample": "....\\..4..k.)W.#....{.@.....o=.....@.\nnia......I...Z....'g.1.........Q.A.E.\t.H..(..5....(.&..a.n"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/nonprime-to-zero/phone-multitap-runs"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "0bbc29cfade1a80f12b45e9eacca53f174f2612a5709679369fdf89ba8887760",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "6b8e44c4583c51822eea81e26dcb296cdae8fd2072c852761b4df3e7d643efd5",
+        "readable": false,
+        "sample": "..uE].v..T0h....\".8...X.0..a..?..+T..d..1.f...._:...7j.H......^e...P?..!v\rf......a.6B.wL.......\""
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-omit/digits-ascii"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "e62528b53618e58a6184b8a745b305999913400d2daff4905aedc223926f1745",
+        "password_variant": "sha256-upperhex",
+        "plaintext_length": 79,
+        "plaintext_sha256": "41e0f991e7b53c81f7ffbe6e0ab5e606adf48c9c025818375a7a4cd9c61cd420",
+        "readable": false,
+        "sample": ".f.}.....r.3..:Jj......NV...........[..M-..A)ttp........<.C....9.D../.c..u...e."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-omit/base7-chunk2-bytes"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "0d82d10a005fd32bdfb1639794808f91fbc20cb0938fe18e19caef22285e29f7",
+        "password_variant": "double-sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "0254ff6eb96bf9b4701e2dc3804376cdd2249691b70e812e8c2d1c07b6cc171c",
+        "readable": false,
+        "sample": "..A$hk.\\.JeCc.....*.....X..Q0z...{2.(...V..@.R8.(.../t....MS.q..ig....z.{.....i...@:.'A|z.O3~.[R"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/plain/decimal-chunk2-bytes"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "e6737e751ac00477e05b4eeb1247dffa4e99ca6fa191b443566759a2adecdc77",
+        "password_variant": "double-sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "7a1098b1baa2d3e9392fdca9d6c93b090b551337c15b828dd377263d25182c02",
+        "readable": false,
+        "sample": "....M..Q..y...7..5..$..b..S.....rG+5...t&7./....K.........~}..%..L\t.L+.)SR.x3.....4Zl..&d..Q.y:."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-to-zero/phone-first-letters",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/prime-to-zero/phone-first-letters"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "2c8feb16bfb024377562628019be83840ecd1d229101536e2a8eeb2057b9ff70",
+        "password_variant": "raw",
+        "plaintext_length": 79,
+        "plaintext_sha256": "6c53e970fcf1f94e6ccf3dc75efe6a140d9f7d3d7300b40ed3a3837a19e86d3d",
+        "readable": false,
+        "sample": "...l....]:....4}\n.&.4..{I].\n...{!.......`...q.e..;u.....m.2.X|.....uAt........e"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/nonprime-to-zero/base7-int-bytes",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral-reversed/nonprime-to-zero/base7-int-bytes"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "f572f9fda862faf2c89cebfcd7b8eb5181bbc177bd6dedd508405270c34bb032",
+        "password_variant": "sha256-upperhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "92bd819af8e97b7b83ad756ec2909b01db31bfd609de91856e362d1c2c5ba7fb",
+        "readable": false,
+        "sample": "A.{>@_....;....!i....@.,.=#.E.........xS...v..N..................D~Q..K....?.gc..A..=H....S..N.o"
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b1w0-off0/row-major/plain/digits-omit-zero"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "f57b390dd281c75a76e81cb56fc3d19ec3c5d0a582a0525f7ba6f66a3a6c5a00",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 79,
+        "plaintext_sha256": "ae40fc78165b7d0946aa27ad96a6c416eab80f603e2d22660fb635c824cb280a",
+        "readable": false,
+        "sample": ".C......Pg....P4+..94sP.~.........*..tD..![..a...W60...H..`...Ro.!.duCVo@20...."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/row-major/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/row-major/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/row-major/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b0w1-off0/row-major/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/row-major/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/markers-only-off0/row-major/plain/phone-multitap-runs",
+          "half_image_grid_splits/center/markers-only/row-major/checker-even-then-checker-odd/phone-multitap-runs",
+          "half_image_grid_splits/center/markers-only/row-major/checker-odd-then-checker-even/phone-multitap-runs",
+          "half_image_grid_splits/center/markers-only/row-major/checker-odd/phone-multitap-runs",
+          "half_image_grid_splits/center/markers-only/row-major/top-then-bottom/phone-multitap-runs",
+          "half_image_grid_splits/majority/markers-only/row-major/checker-even-then-checker-odd/phone-multitap-runs",
+          "half_image_grid_splits/majority/markers-only/row-major/checker-odd-then-checker-even/phone-multitap-runs",
+          "half_image_grid_splits/majority/markers-only/row-major/checker-odd/phone-multitap-runs",
+          "half_image_grid_splits/majority/markers-only/row-major/top-then-bottom/phone-multitap-runs"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "bd8f26cb80af7e583fda4d7fa6732a46d8a67e858de98da1cd75e1464c1b2f4e",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 79,
+        "plaintext_sha256": "612e632e23a9cb2b5c58ed3a742f8f7b753ec0a329772c300a00f369e3c8eea8",
+        "readable": false,
+        "sample": ".D.P..m5\\y.y'..c.......K..l..En$.(6...]......qC....~z...m...:..H..hjc.b..n.\rF.."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/row-major/nonprime-to-zero/digits-ascii",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/row-major/nonprime-to-zero/digits-ascii"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "4df9ae3f151f093c1a2c75f991ab3cdf6da8af7f6c5d8936dc9e4595096627bc",
+        "password_variant": "sha256-upperhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "b2f31a5180b3c1e1ee14ba99a34b24936a9b405815ac6b646d132da4fe32422e",
+        "readable": false,
+        "sample": "..m.6%....J..v..+>Q...6.....6O.Y..5...n........yd....qp.......{q[...8...I..K.`.-...M.....3.8.N.."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/row-major/nonprime-to-zero/base7-int-bytes",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/row-major/nonprime-to-zero/base7-int-bytes"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "eef66b627c3100eac913ca29f53840981370611c7abe32bb65b405bee387f075",
+        "password_variant": "sha256-upperhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "4e15a0d4138ad9df4016058b6974c8046b7dfedcd18b7493afe62f2480d497b2",
+        "readable": false,
+        "sample": "......._.I#..M..\t#..]..]T$..sb................}l...dw.D.s,....p..Q .a..'Hg..X....s..e..`3..f\r..."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/row-major/nonprime-to-zero/decimal-chunk2-bytes",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/row-major/nonprime-to-zero/decimal-chunk2-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "1ca516d9455caadf40b8c47fce1a6749544ac2c27cc8b5f193df5d10ceeb5728",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 79,
+        "plaintext_sha256": "d433fe30d01ba7d4d5862306db47737f1cef39a7b978926544f9270452556903",
+        "readable": false,
+        "sample": "..|.L.;...A.B.!4.#l3\n.............y#.@1.L...h\rG..\n.........D.~..v.\rI..........."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/row-major/nonprime-to-zero/phone-first-letters",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/row-major/nonprime-to-zero/phone-first-letters"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "e0f9bf7843ca7a3bd274866a5849d11e694e34f72754c4b53c47968599a8cd3a",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "44fef5ecfb09e6fc2c51d86d4f3464d52c923f48fa6a6db3f5998ba8c69a9be6",
+        "readable": false,
+        "sample": "..z.>s.{....\r.....=...4....3[...Li.%.........\tF7.)q.n*.~..R..U.9.O.q..$r.0...-..HI...........E.."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral/plain/decimal-chunk2-bytes"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "2c1225263774bf249333041e4edbf8fb079a33658cd954cc055edbfadf304777",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "b99d29cca37f7d9d4f6c1fbdbaf93e40b37209cefac157e22d231934667234e2",
+        "readable": false,
+        "sample": "V..v+....FX.....u.k.....Ug_.yUE.a.B..g.(dI..U}...e...k.}.1.....j<...z.V..`...M5..@.~....<.D.s$V."
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral/prime-omit/base7-chunk2-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "06057bdff35a9d4b2750bfdc1dd0a91e83fcb48080e4ca6b6eb268707641c7ca",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 79,
+        "plaintext_sha256": "76e26bde14ea0740acace2b2a2e13b47e3a856d2895c7ee26e1dece6c44d801e",
+        "readable": false,
+        "sample": ".=u...lFR._..........3..w.W+2.....#.2C{>.%^...!KaO.`cUu..<#@....9.OL...F'...y.."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "sha256",
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral/nonprime-to-zero/digits-ascii",
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral/nonprime-to-zero/digits-ascii"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "c725aa2a70173148f20bf2ea2d9fd558542fca03efacd5b37b5754ea741032e9",
+        "password_variant": "double-sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "3d0f6c61f08f7d3482bba02f2019d35181d98a774df6cb0cf54a48fa4824a6cc",
+        "readable": false,
+        "sample": "Q..Q*la.'T............\n].bc..%......?.*.Dza...jn...Z..rO..8.X:........D..~.W.,t.Q......m\r.....H."
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral/nonprime-to-zero/decimal-chunk2-bytes",
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral/nonprime-to-zero/decimal-chunk2-bytes"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "0c7fba01331513be63268fa24c4793d223efe01427211de4e4769a7f6a15b974",
+        "password_variant": "double-sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "959dccdbda34e3520722ab5262c484986007a6462529a7a4aa30b33fd96febbb",
+        "readable": false,
+        "sample": "...'....cn.(...>.A..t...F.b.{....d.?..%...q 2......x!&..........B..f..Q...N......n7.-}......1..A"
+      },
+      {
+        "blob": "salphaseion-short-80ct",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral-reversed/plain/base7-int-bytes"
+        ],
+        "metrics": {
+          "length": 79,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "6bb89d1c1eb8fdbc3f99d65f9c46e500ea091c6122fdf0c390a6126536c9c24c",
+        "password_variant": "sha256-digest",
+        "plaintext_length": 79,
+        "plaintext_sha256": "7ee8e80740bd766498be7fbe30876bc01d8f4b54139ae8c7b30955cac1b9a08a",
+        "readable": false,
+        "sample": "....G...^....l..\t.....12~./..K..U....n..D.R.C.!..H...[....a.......bPM.1_..O..J*"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral-reversed/nonprime-to-zero/digits-ascii"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "312ddda1cdef881ba083743ab0b7e7799d0967e4b16cd0bf9cdfe9cf2d9bb354",
+        "password_variant": "double-sha256-digest",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "a704f962a507c77ba99cf65ab4bfb6406de595368a4c111309485ce799de541d",
+        "readable": false,
+        "sample": "...+b(&*.n.K...9.........a)..:.:[....J.i....g^Pi.....@..<~.n.6e.......Pn.V............\"...U))>6S"
+      },
+      {
+        "blob": "cosmic-duality",
+        "formats": [],
+        "kdf_digest": "md5",
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral-reversed/prime-only/base7-int-bytes"
+        ],
+        "metrics": {
+          "length": 1327,
+          "utf8": false
+        },
+        "padding_length": 1,
+        "password_sha256": "84c47a6712e7e748dbaf34a46aedbd07f20ec6cfdfcc001ebf10d5a6631d1aa1",
+        "password_variant": "sha256-lowerhex",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "b3fc1a05ed5590c66b503a353aa8a340a8462b816231fc41c96e7e268b36ad31",
+        "readable": false,
+        "sample": ";..!....H\n.2.%.JXI05....`5.a+.}#......[\r\r..w..a5....V.U......\\.HbM.#.....\t.YT....c`.[.y..F..\t.2."
+      }
+    ],
+    "salphaseion_short_ciphertext_len": 80,
+    "structured_hit_count": 0
+  },
+  "families_tested": [
+    "sub-cell rabbit nest as QR/barcode/morphology",
+    "all 196 cells under spiral with resistor digits and prime-index zeroing",
+    "off-white 254,254,254 as third channel and spiral mask",
+    "Yellow=4/Blue=6 inserted into URL prime slots then HASHTHETEXT sha256",
+    "14x14 resistor matrices with sum/product/determinant key material",
+    "left/right/top/bottom/diagonal/checker half-image splits"
+  ],
+  "family_counts": {
+    "all_196_resistor_prime_zero": {
+      "raw_candidates": 1328,
+      "unique_materials": 731
+    },
+    "half_image_grid_splits": {
+      "raw_candidates": 1350,
+      "unique_materials": 905
+    },
+    "matrix_14x14_resistor_sum_product_det": {
+      "raw_candidates": 200,
+      "unique_materials": 131
+    },
+    "offwhite_third_channel_mask": {
+      "raw_candidates": 14,
+      "unique_materials": 14
+    },
+    "subcell_rabbit_nest_qr_barcode_morphology": {
+      "raw_candidates": 324,
+      "unique_materials": 229
+    },
+    "url_prime_insert_yellow_blue_hashthetext": {
+      "raw_candidates": 50,
+      "unique_materials": 50
+    }
+  },
+  "family_details": {
+    "all_196_resistor_prime_zero": {
+      "colour_maps": [
+        "b0w1-off0",
+        "b1w0-off0",
+        "bw09-off0",
+        "bw09-off9",
+        "markers-only-off0",
+        "offwhite-third2"
+      ],
+      "grid_sources": [
+        "center",
+        "majority"
+      ],
+      "orders": [
+        "row-major",
+        "spiral",
+        "spiral-reversed"
+      ],
+      "prime_index_limit": 196,
+      "sample_prefixes": {
+        "majority/b1w0-off0/spiral": "0110011601110016011011060110011600101114011010060110111600101116",
+        "majority/b1w0-off0/spiral-reversed": "0000401001106010011040101110411101106000011040110110400011106100",
+        "majority/bw09-off0/row-major": "9900969909009400609900096900009000969909909009699990009096099900",
+        "majority/bw09-off0/spiral": "9009900690009906900900969009900699090004900909969009000699090006",
+        "majority/bw09-off0/spiral-reversed": "9999490990096909900949090009400000096999900949009009499900096099",
+        "majority/bw09-off9/row-major": "9900969909009400609900096900009000969909909009699990009096099900",
+        "majority/bw09-off9/spiral": "9009900690009906900900969009900699090004900909969009000699090006",
+        "majority/bw09-off9/spiral-reversed": "9999490990096909900949090009400090096999900949009009499900096099"
+      }
+    },
+    "half_image_grid_splits": {
+      "maps": [
+        "b1w0-off2",
+        "bw09-off0",
+        "markers-only"
+      ],
+      "split_sets": [
+        "anti-diagonal-lower",
+        "anti-diagonal-upper",
+        "bottom",
+        "checker-even",
+        "checker-odd",
+        "left",
+        "main-diagonal-lower",
+        "main-diagonal-upper",
+        "right",
+        "top"
+      ],
+      "summaries": {
+        "center/b1w0-off2": {
+          "bottom_sum": 112,
+          "left_sum": 115,
+          "right_sum": 100,
+          "top_sum": 103
+        },
+        "center/bw09-off0": {
+          "bottom_sum": 415,
+          "left_sum": 428,
+          "right_sum": 454,
+          "top_sum": 467
+        },
+        "center/markers-only": {
+          "bottom_sum": 64,
+          "left_sum": 68,
+          "right_sum": 58,
+          "top_sum": 62
+        },
+        "majority/b1w0-off2": {
+          "bottom_sum": 111,
+          "left_sum": 114,
+          "right_sum": 100,
+          "top_sum": 103
+        },
+        "majority/bw09-off0": {
+          "bottom_sum": 424,
+          "left_sum": 437,
+          "right_sum": 454,
+          "top_sum": 467
+        },
+        "majority/markers-only": {
+          "bottom_sum": 64,
+          "left_sum": 68,
+          "right_sum": 58,
+          "top_sum": 62
+        }
+      }
+    },
+    "matrix_14x14_resistor_sum_product_det": {
+      "maps": [
+        "b1w0-off2",
+        "bw09-off0",
+        "bw09-off9",
+        "markers-only"
+      ],
+      "summaries": {
+        "center/b1w0-off2": {
+          "anti_trace": 27,
+          "col_sums": [
+            13,
+            20,
+            23,
+            15,
+            15,
+            17,
+            12,
+            15,
+            12,
+            13,
+            23,
+            10,
+            10,
+            17
+          ],
+          "determinant": 18185238,
+          "nonzero_product_decimal_digits": 18,
+          "row_sums": [
+            15,
+            20,
+            13,
+            12,
+            15,
+            14,
+            14,
+            16,
+            19,
+            18,
+            11,
+            13,
+            16,
+            19
+          ],
+          "total": 215,
+          "trace": 7
+        },
+        "center/bw09-off0": {
+          "anti_trace": 47,
+          "col_sums": [
+            60,
+            48,
+            72,
+            42,
+            51,
+            75,
+            80,
+            73,
+            69,
+            71,
+            52,
+            67,
+            67,
+            55
+          ],
+          "determinant": -313710717422754,
+          "nonzero_product_decimal_digits": 98,
+          "row_sums": [
+            73,
+            48,
+            60,
+            69,
+            73,
+            62,
+            82,
+            73,
+            57,
+            46,
+            58,
+            60,
+            64,
+            57
+          ],
+          "total": 882,
+          "trace": 63
+        },
+        "center/bw09-off9": {
+          "anti_trace": 47,
+          "col_sums": [
+            60,
+            48,
+            72,
+            42,
+            60,
+            75,
+            80,
+            73,
+            69,
+            71,
+            52,
+            67,
+            67,
+            55
+          ],
+          "determinant": 389085111192627,
+          "nonzero_product_decimal_digits": 99,
+          "row_sums": [
+            73,
+            48,
+            60,
+            69,
+            73,
+            62,
+            82,
+            82,
+            57,
+            46,
+            58,
+            60,
+            64,
+            57
+          ],
+          "total": 891,
+          "trace": 63
+        },
+        "center/markers-only": {
+          "anti_trace": 20,
+          "col_sums": [
+            6,
+            12,
+            18,
+            6,
+            6,
+            12,
+            8,
+            10,
+            6,
+            8,
+            16,
+            4,
+            4,
+            10
+          ],
+          "determinant": 0,
+          "nonzero_product_decimal_digits": 18,
+          "row_sums": [
+            10,
+            12,
+            6,
+            6,
+            10,
+            8,
+            10,
+            10,
+            12,
+            10,
+            4,
+            6,
+            10,
+            12
+          ],
+          "total": 126,
+          "trace": 0
+        },
+        "majority/b1w0-off2": {
+          "anti_trace": 26,
+          "col_sums": [
+            13,
+            20,
+            23,
+            15,
+            15,
+            17,
+            11,
+            15,
+            12,
+            13,
+            23,
+            10,
+            10,
+            17
+          ],
+          "determinant": 18965133,
+          "nonzero_product_decimal_digits": 18,
+          "row_sums": [
+            15,
+            20,
+            13,
+            12,
+            15,
+            14,
+            14,
+            15,
+            19,
+            18,
+            11,
+            13,
+            16,
+            19
+          ],
+          "total": 214,
+          "trace": 7
+        },
+        "majority/bw09-off0": {
+          "anti_trace": 56,
+          "col_sums": [
+            60,
+            48,
+            72,
+            42,
+            51,
+            75,
+            89,
+            73,
+            69,
+            71,
+            52,
+            67,
+            67,
+            55
+          ],
+          "determinant": -1329438835964727,
+          "nonzero_product_decimal_digits": 99,
+          "row_sums": [
+            73,
+            48,
+            60,
+            69,
+            73,
+            62,
+            82,
+            82,
+            57,
+            46,
+            58,
+            60,
+            64,
+            57
+          ],
+          "total": 891,
+          "trace": 63
+        },
+        "majority/bw09-off9": {
+          "anti_trace": 56,
+          "col_sums": [
+            60,
+            48,
+            72,
+            42,
+            60,
+            75,
+            89,
+            73,
+            69,
+            71,
+            52,
+            67,
+            67,
+            55
+          ],
+          "determinant": -626643007349346,
+          "nonzero_product_decimal_digits": 100,
+          "row_sums": [
+            73,
+            48,
+            60,
+            69,
+            73,
+            62,
+            82,
+            91,
+            57,
+            46,
+            58,
+            60,
+            64,
+            57
+          ],
+          "total": 900,
+          "trace": 63
+        },
+        "majority/markers-only": {
+          "anti_trace": 20,
+          "col_sums": [
+            6,
+            12,
+            18,
+            6,
+            6,
+            12,
+            8,
+            10,
+            6,
+            8,
+            16,
+            4,
+            4,
+            10
+          ],
+          "determinant": 0,
+          "nonzero_product_decimal_digits": 18,
+          "row_sums": [
+            10,
+            12,
+            6,
+            6,
+            10,
+            8,
+            10,
+            10,
+            12,
+            10,
+            4,
+            6,
+            10,
+            12
+          ],
+          "total": 126,
+          "trace": 0
+        }
+      }
+    },
+    "offwhite_third_channel_mask": {
+      "offwhite_cells_one_based": [
+        [
+          8,
+          5
+        ]
+      ],
+      "offwhite_cells_zero_based": [
+        [
+          7,
+          4
+        ]
+      ],
+      "spiral_indices_one_based": [
+        164
+      ],
+      "spiral_indices_zero_based": [
+        163
+      ],
+      "url_byte_indices": [
+        20
+      ]
+    },
+    "subcell_rabbit_nest_qr_barcode_morphology": {
+      "ascii_cells": [
+        [
+          ".....",
+          "....#",
+          "....#",
+          "....#",
+          "...#."
+        ],
+        [
+          "#.#..",
+          ".#.#.",
+          ".#.#.",
+          ".#.#.",
+          "...#."
+        ],
+        [
+          "..#..",
+          "..#..",
+          "..#..",
+          "..#..",
+          "...##"
+        ],
+        [
+          "....#",
+          "#....",
+          "#....",
+          ".....",
+          "....."
+        ],
+        [
+          "##...",
+          "..#.#",
+          "...#.",
+          "...##",
+          "##..."
+        ],
+        [
+          ".....",
+          "#....",
+          "#....",
+          "#....",
+          "#...."
+        ],
+        [
+          ".....",
+          "....#",
+          "....#",
+          ".....",
+          "....."
+        ]
+      ],
+      "black_counts": [
+        100,
+        225,
+        150,
+        75,
+        225,
+        100,
+        50
+      ],
+      "black_counts_div25": [
+        4,
+        9,
+        6,
+        3,
+        9,
+        4,
+        2
+      ],
+      "full_bbox_shape": [
+        15,
+        20
+      ],
+      "full_component_sizes": [
+        87,
+        25,
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "impure_bbox_shape": [
+        15,
+        20
+      ],
+      "impure_cells_zero_based": [
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          7,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          6
+        ]
+      ],
+      "impure_component_sizes": [
+        8,
+        4,
+        4,
+        3,
+        3,
+        3,
+        2,
+        2,
+        2,
+        2,
+        1,
+        1,
+        1,
+        1
+      ],
+      "micro_block": "5x5 per 25x25 cell, thresholded by black majority in each 5x5 pixel block",
+      "qr_symbol_size_match": false
+    },
+    "url_prime_insert_yellow_blue_hashthetext": {
+      "generated_text": {
+        "full-url/append-resistor": "gsmg.io/theseedisplanted666646664466664664464464",
+        "full-url/insert-after-prime-slots": "gs6m6g.6io6/the4se6edis6pl6ante4d466664664464464",
+        "full-url/insert-before-prime-slots": "g6s6mg6.i6o/th4es6eedi6sp6lant4ed466664664464464",
+        "full-url/prepend-resistor": "666646664466664664464464gsmg.io/theseedisplanted",
+        "full-url/replace-prime-slots": "g66g6i6/th4s6edi6p6ant4d",
+        "path-only/append-resistor": "theseedisplanted666646664466664664464464",
+        "path-only/insert-after-prime-slots": "th6e6se6ed6ispl4an6ted664466664664464464",
+        "path-only/insert-before-prime-slots": "t6h6es6ee6disp4la6nted664466664664464464",
+        "path-only/prepend-resistor": "666646664466664664464464theseedisplanted",
+        "path-only/replace-prime-slots": "t66s6e6isp4a6ted"
+      },
+      "marker_resistor_digits": "666646664466664664464464",
+      "prime_slots_full_url": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19,
+        23
+      ],
+      "prime_slots_path_only": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ]
+    }
+  },
+  "matches": {
+    "prize_scalar_matches": [],
+    "structured_aes_hits": [],
+    "url_path_like_candidates": [
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/black-counts-concat"
+        ],
+        "text": "1002251507522510050"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/black-counts-div25-digits"
+        ],
+        "text": "4963942"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0000000001000010000100010"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "01010110"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0000010000100001000001000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0000000000000001000001110"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0000000000000000000101110"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/raw/row-bits-ascii"
+        ],
+        "text": "1010001010010100101000010"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "10100101010101010001"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0010101010010100101001000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0000101110000011111000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "1000001110100000111100000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0010000100001000010000011"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "100100100100011"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0010000100001000010011000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0000000000011111000010000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0000000000111100000100001"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0000110000100000000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "000011000010000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "1000000001000010000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0011000000000000000000001"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0110000000000000000010000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/raw/row-bits-ascii",
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "1100000101000100001111000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0001110100010001100000011"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "1000110001000100110001010"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "1000110001010000011001010"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0000010000100001000010000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0000000001000010000100001"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "1111000000000000000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0111100000000000000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0000000001000010000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0000010000100000000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0000000000000000000000110"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0000000000000000000001100"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/plain/phone-multitap-runs"
+        ],
+        "text": "WXMWXMWWWMWXMXWGWWXMWWMXWMWWWGWWXGWXWMWXMWXWMWXWMWXWGWWXMWXMWYGWWWGWZMWWGWWWGWXWMWXWGZ"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "99699696996999499699699969949949999699696999699949996999699949949999699499499969994999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWMWWMWMWWMXWGWWMWWMXWMWWGWWGWXWMXMWMWWWMXWGWWWMWXMYGWWGWWXMWWGWWGWWWMWXGY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-omit/phone-multitap-runs"
+        ],
+        "text": "XMWWMWMWWMXWGWWMWWMYMWWGWWGWXWMXMWMWWWMXWGWWWMWXMYGWWGWYMWWGWWGWWWMWXGY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-only/digits-omit-zero"
+        ],
+        "text": "999999999999999999999999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/nonprime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWWWWWWWWWWWWWWWWWWWWWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-only/digits-ascii"
+        ],
+        "text": "00900990990090900009990999909990900990090999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-only/phone-multitap-runs"
+        ],
+        "text": "WXXWWYZYWXWY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/plain/phone-multitap-runs"
+        ],
+        "text": "ZGWXWMWXWGWWWGWWMZWGWWWGYWMXWMXWWGWXWMWXWMWXWMXWMWXWGXWWGWWWMWXMWWMXWWGWXMXWMWWWMXWMXW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral-reversed/prime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "99999999949999999994999999999969949999699969999999949999499969699999996999999999699"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWXWWWWGWWWWWYWGWWWYWXWMWWGWXWMWWWMWWWWWWWWGXWWGWWWMWMWWWWWWWMXWWWWXWMWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-omit/phone-multitap-runs"
+        ],
+        "text": "WXWWGXWWZWGWWZWXWMWWGYWMWWWMWWWWXWWGXWWGXWMWMWXWWWWMXXWWXWMWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-only/digits-omit-zero"
+        ],
+        "text": "994694694699996969996949669"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/nonprime-to-zero/phone-multitap-runs"
+        ],
+        "text": "XGMWGMWGMWWWWMWMWWWMWGWMMW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-only/digits-ascii"
+        ],
+        "text": "99400690040690040609900996906900996949060609"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-only/phone-multitap-runs"
+        ],
+        "text": "XGMWGMWGMXXMWMWXMWGWMMW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/plain/phone-multitap-runs"
+        ],
+        "text": "XWMXWWGMXWMWWWMXXWWMZWWMYWGWWXWGWWGWXMYWGXMYWGZMWWMMGWYWYGWWXWMWYMWWWGWXMWWWMW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "9699499699699999999969994999499499969999496999999499969966499999949999999699949969999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WMWWGWWMWWMWWWZWWMWWWGWWWGWWGWXMYWGWMWYWWGWXMWWMMGWWWYGWXWWXMWWWGXMWWWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-omit/phone-multitap-runs"
+        ],
+        "text": "WMWWGWWMWWMWWWWWMXWGXWGXGWXMYWGWMXGYMWWMMGWWWYGWXXXMWWWGXMWWX"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-only/digits-omit-zero"
+        ],
+        "text": "9999699999699999999996996"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/nonprime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWWMWWWWWMWWWWWWWWWWMWWM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-only/digits-ascii"
+        ],
+        "text": "90990969009999600990900090990900999006909006"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-only/phone-multitap-runs"
+        ],
+        "text": "WXWMWZMXWWXWYMWWM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/plain/phone-multitap-runs"
+        ],
+        "text": "WXMWXMWWWMWXMXWGWWXMWWMXWMWWWGWWXGWXWMWXMWXWMWXWMWXWGWWXMWXMWYGWWWGWZMWGWWWGWXWMWXWGZ"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "9969969699699949969969996994994999969969699969994999699969994994999969499499969994999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWMWWMWMWWMXWGWWMWWMXWMWWGWWGWXWMXMWMWWWMXWGWWWMWXMYGWWGWWXMWGWWGWWWMWXGY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-omit/phone-multitap-runs"
+        ],
+        "text": "XMWWMWMWWMXWGWWMWWMYMWWGWWGWXWMXMWMWWWMXWGWWWMWXMYGWWGWYMWGWWGWWWMWXGY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/plain/phone-multitap-runs"
+        ],
+        "text": "ZGWXWMWXWGWWWGWMZWGWWWGYWMXWMXWWGWXWMWXWMWXWMXWMWXWGXWWGWWWMWXMWWMXWWGWXMXWMWWWMXWMXW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral-reversed/prime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "9999999994999999994999999999969949999699969999999949999499969699999996999999999699"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWXWWWWGWWWWYWGWWWYWXWMWWGWXWMWWWMWWWWWWWWGXWWGWWWMWMWWWWWWWMXWWWWXWMWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-omit/phone-multitap-runs"
+        ],
+        "text": "WXWWGXWZWGWWZWXWMWWGYWMWWWMWWWWXWWGXWWGXWMWMWXWWWWMXXWWXWMWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/plain/phone-multitap-runs",
+          "half_image_grid_splits/majority/bw09-off0/row-major/top-then-bottom/phone-multitap-runs"
+        ],
+        "text": "XWMXWWGMXWMWWWMXXWWMZWWMYWGWWXWGWWGWXMYWGXMWWWGZMWWMMGWYWYGWWXWMWYMWWWGWXMWWWMW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-only/digits-omit-zero"
+        ],
+        "text": "999969999969999999996996"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/nonprime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWWMWWWWWMWWWWWWWWWMWWM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-only/digits-ascii"
+        ],
+        "text": "90990969009999600990900090090900999006909006"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-only/phone-multitap-runs"
+        ],
+        "text": "WXWMWZMXWWWWYMWWM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral/prime-omit/phone-multitap-runs"
+        ],
+        "text": "MMMMGMMMGGMMMMGMMGGMGGMG"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "161116111611161114116111161161114111411611116111611611141116111611411141161114111141161114"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral/prime-only/digits-omit-zero"
+        ],
+        "text": "11111111111111111111"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral/prime-only/digits-ascii"
+        ],
+        "text": "11011001001101011110001000010001011001101000"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/markers-only-off0/spiral-reversed/plain/phone-multitap-runs"
+        ],
+        "text": "GMGGMGGMMGMMMMGGMMMGMMMM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "111411111111411111111611141611161111111114111411611116111111111111611111111116111"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral-reversed/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "GGMGMMGGMMMM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral-reversed/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral-reversed/prime-only/digits-omit-zero"
+        ],
+        "text": "41161141611416111616116416161"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral-reversed/prime-only/phone-multitap-runs"
+        ],
+        "text": "GMGMGMMMMGMM"
+      }
+    ]
+  },
+  "scalar_gate": {
+    "prize_matches": [],
+    "scalar_attempts_unique": 102093,
+    "scalar_variant_count_before_dedup": 205470,
+    "targets_checked": {
+      "Better_Half": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+      "Half": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "serializations": [
+        "uncompressed",
+        "compressed"
+      ]
+    }
+  },
+  "schema": "second-door-frontier-derivations-v1",
+  "source": {
+    "cell_size": 25,
+    "image": "/workspace/follow_the_white_rabbit.png",
+    "image_size": [
+      350,
+      350
+    ],
+    "known_spiral_url": "gsmg.io/theseedisplanted",
+    "marker_hex": "F73D92",
+    "new_evidence": {
+      "april_2025_yin_yang": "creator said not found",
+      "cosmic_103_exact_80_117_random_hit_rate": "about 18%; treated as weak authentication",
+      "focus": "first image second door"
+    },
+    "prizes": {
+      "Better_Half": {
+        "address": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+        "known": "hash160 only"
+      },
+      "Half": {
+        "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+        "known_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+      }
+    },
+    "resistor_digits": {
+      "blue": 6,
+      "yellow": 4
+    }
+  },
+  "status": "NO_MATCH",
+  "unique_materials_total": 2019,
+  "url_gate": {
+    "note": "Slugs are generated local candidates; this script does not perform live gsmg.io HTTP probing.",
+    "path_like_candidate_count": 380,
+    "path_like_candidates_sample": [
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/black-counts-concat"
+        ],
+        "text": "1002251507522510050"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/black-counts-div25-digits"
+        ],
+        "text": "4963942"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0000000001000010000100010"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "01010110"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0000010000100001000001000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0000000000000001000001110"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-6-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0000000000000000000101110"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/raw/row-bits-ascii"
+        ],
+        "text": "1010001010010100101000010"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "10100101010101010001"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0010101010010100101001000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0000101110000011111000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-6-7-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "1000001110100000111100000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0010000100001000010000011"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "100100100100011"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0010000100001000010011000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0000000000011111000010000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-6-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0000000000111100000100001"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0000110000100000000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "000011000010000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "1000000001000010000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0011000000000000000000001"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-7-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0110000000000000000010000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/raw/row-bits-ascii",
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/trimmed/row-bits-ascii"
+        ],
+        "text": "1100000101000100001111000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0001110100010001100000011"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "1000110001000100110001010"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-8-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "1000110001010000011001010"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0000010000100001000010000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0000000001000010000100001"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "1111000000000000000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-7-9-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0111100000000000000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/raw/row-bits-ascii"
+        ],
+        "text": "0000000001000010000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/mirror/row-bits-ascii"
+        ],
+        "text": "0000010000100000000000000"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/rot90/row-bits-ascii"
+        ],
+        "text": "0000000000000000000000110"
+      },
+      {
+        "labels": [
+          "subcell_rabbit_nest_qr_barcode_morphology/cell-8-6-5x5/rot90-mirror/row-bits-ascii"
+        ],
+        "text": "0000000000000000000001100"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/plain/phone-multitap-runs"
+        ],
+        "text": "WXMWXMWWWMWXMXWGWWXMWWMXWMWWWGWWXGWXWMWXMWXWMWXWMWXWGWWXMWXMWYGWWWGWZMWWGWWWGWXWMWXWGZ"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "99699696996999499699699969949949999699696999699949996999699949949999699499499969994999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWMWWMWMWWMXWGWWMWWMXWMWWGWWGWXWMXMWMWWWMXWGWWWMWXMYGWWGWWXMWWGWWGWWWMWXGY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-omit/phone-multitap-runs"
+        ],
+        "text": "XMWWMWMWWMXWGWWMWWMYMWWGWWGWXWMXMWMWWWMXWGWWWMWXMYGWWGWYMWWGWWGWWWMWXGY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-only/digits-omit-zero"
+        ],
+        "text": "999999999999999999999999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/nonprime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWWWWWWWWWWWWWWWWWWWWWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-only/digits-ascii"
+        ],
+        "text": "00900990990090900009990999909990900990090999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral/prime-only/phone-multitap-runs"
+        ],
+        "text": "WXXWWYZYWXWY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/plain/phone-multitap-runs"
+        ],
+        "text": "ZGWXWMWXWGWWWGWWMZWGWWWGYWMXWMXWWGWXWMWXWMWXWMXWMWXWGXWWGWWWMWXMWWMXWWGWXMXWMWWWMXWMXW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral-reversed/prime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "99999999949999999994999999999969949999699969999999949999499969699999996999999999699"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWXWWWWGWWWWWYWGWWWYWXWMWWGWXWMWWWMWWWWWWWWGXWWGWWWMWMWWWWWWWMXWWWWXWMWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-omit/phone-multitap-runs"
+        ],
+        "text": "WXWWGXWWZWGWWZWXWMWWGYWMWWWMWWWWXWWGXWWGXWMWMWXWWWWMXXWWXWMWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-only/digits-omit-zero"
+        ],
+        "text": "994694694699996969996949669"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/nonprime-to-zero/phone-multitap-runs"
+        ],
+        "text": "XGMWGMWGMWWWWMWMWWWMWGWMMW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-only/digits-ascii"
+        ],
+        "text": "99400690040690040609900996906900996949060609"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/spiral-reversed/prime-only/phone-multitap-runs"
+        ],
+        "text": "XGMWGMWGMXXMWMWXMWGWMMW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/plain/phone-multitap-runs"
+        ],
+        "text": "XWMXWWGMXWMWWWMXXWWMZWWMYWGWWXWGWWGWXMYWGXMYWGZMWWMMGWYWYGWWXWMWYMWWWGWXMWWWMW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "9699499699699999999969994999499499969999496999999499969966499999949999999699949969999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WMWWGWWMWWMWWWZWWMWWWGWWWGWWGWXMYWGWMWYWWGWXMWWMMGWWWYGWXWWXMWWWGXMWWWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-omit/phone-multitap-runs"
+        ],
+        "text": "WMWWGWWMWWMWWWWWMXWGXWGXGWXMYWGWMXGYMWWMMGWWWYGWXXXMWWWGXMWWX"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-only/digits-omit-zero"
+        ],
+        "text": "9999699999699999999996996"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/nonprime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWWMWWWWWMWWWWWWWWWWMWWM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-only/digits-ascii"
+        ],
+        "text": "90990969009999600990900090990900999006909006"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off9/row-major/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off9/row-major/prime-only/phone-multitap-runs"
+        ],
+        "text": "WXWMWZMXWWXWYMWWM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/plain/phone-multitap-runs"
+        ],
+        "text": "WXMWXMWWWMWXMXWGWWXMWWMXWMWWWGWWXGWXWMWXMWXWMWXWMWXWGWWXMWXMWYGWWWGWZMWGWWWGWXWMWXWGZ"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "9969969699699949969969996994994999969969699969994999699969994994999969499499969994999"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWMWWMWMWWMXWGWWMWWMXWMWWGWWGWXWMXMWMWWWMXWGWWWMWXMYGWWGWWXMWGWWGWWWMWXGY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral/prime-omit/phone-multitap-runs"
+        ],
+        "text": "XMWWMWMWWMXWGWWMWWMYMWWGWWGWXWMXMWMWWWMXWGWWWMWXMYGWWGWYMWGWWGWWWMWXGY"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/plain/phone-multitap-runs"
+        ],
+        "text": "ZGWXWMWXWGWWWGWMZWGWWWGYWMXWMXWWGWXWMWXWMWXWMXWMWXWGXWWGWWWMWXMWWMXWWGWXMXWMWWWMXWMXW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral-reversed/prime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "9999999994999999994999999999969949999699969999999949999499969699999996999999999699"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWXWWWWGWWWWYWGWWWYWXWMWWGWXWMWWWMWWWWWWWWGXWWGWWWMWMWWWWWWWMXWWWWXWMWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/spiral-reversed/prime-omit/phone-multitap-runs"
+        ],
+        "text": "WXWWGXWZWGWWZWXWMWWGYWMWWWMWWWWXWWGXWWGXWMWMWXWWWWMXXWWXWMWW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/plain/phone-multitap-runs",
+          "half_image_grid_splits/majority/bw09-off0/row-major/top-then-bottom/phone-multitap-runs"
+        ],
+        "text": "XWMXWWGMXWMWWWMXXWWMZWWMYWGWWXWGWWGWXMYWGXMWWWGZMWWMMGWYWYGWWXWMWYMWWWGWXMWWWMW"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-only/digits-omit-zero"
+        ],
+        "text": "999969999969999999996996"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/nonprime-to-zero/phone-multitap-runs"
+        ],
+        "text": "WWWWMWWWWWMWWWWWWWWWMWWM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-only/digits-ascii"
+        ],
+        "text": "90990969009999600990900090090900999006909006"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/bw09-off0/row-major/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/bw09-off0/row-major/prime-only/phone-multitap-runs"
+        ],
+        "text": "WXWMWZMXWWWWYMWWM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral/prime-omit/phone-multitap-runs"
+        ],
+        "text": "MMMMGMMMGGMMMMGMMGGMGGMG"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "161116111611161114116111161161114111411611116111611611141116111611411141161114111141161114"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral/prime-only/digits-omit-zero"
+        ],
+        "text": "11111111111111111111"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral/prime-only/digits-ascii",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral/prime-only/digits-ascii"
+        ],
+        "text": "11011001001101011110001000010001011001101000"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/plain/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/markers-only-off0/spiral-reversed/plain/phone-multitap-runs"
+        ],
+        "text": "GMGGMGGMMGMMMMGGMMMGMMMM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/prime-omit/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/prime-to-zero/digits-omit-zero"
+        ],
+        "text": "111411111111411111111611141611161111111114111411611116111111111111611111111116111"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/prime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral-reversed/prime-omit/phone-multitap-runs",
+          "all_196_resistor_prime_zero/majority/b0w1-off0/spiral-reversed/prime-to-zero/phone-multitap-runs"
+        ],
+        "text": "GGMGMMGGMMMM"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/b1w0-off0/spiral-reversed/prime-only/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral-reversed/nonprime-to-zero/digits-omit-zero",
+          "all_196_resistor_prime_zero/majority/offwhite-third2/spiral-reversed/prime-only/digits-omit-zero"
+        ],
+        "text": "41161141611416111616116416161"
+      },
+      {
+        "labels": [
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b0w1-off0/spiral-reversed/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/b1w0-off0/spiral-reversed/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/markers-only-off0/spiral-reversed/prime-only/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral-reversed/nonprime-to-zero/phone-multitap-runs",
+          "all_196_resistor_prime_zero/center/offwhite-third2/spiral-reversed/prime-only/phone-multitap-runs"
+        ],
+        "text": "GMGMGMMMMGMM"
+      }
+    ],
+    "sha256_slug_count": 2019,
+    "sha256_slug_samples": [
+      "0029e96585ee5bfaa7b01347565bd06cedc2f096526e5229887d8697a0fa4268",
+      "002cc090673eda98292e9478e0f504f1d92c6587f20317a36c03004283f2a51f",
+      "0051b9a44d02b2c1bd81c1cdf44a2335e97cf0c7dfaec9a593204373ce016f55",
+      "0065393aad486c1001d6020ccb8c9d91c79854e1a629f5c2114cc2b17c563547",
+      "00741e4055b658608d6dce3e805595adae527f2a096183f8bc5e0af98c0205ba",
+      "0077320e97575790100df21deafcfde14c22196986e5851b18223921e0888ba8",
+      "00826a752fd078bfe29439fd6ce849fd566c58999e6dbde94eb68cdbd680a914",
+      "009f1a795ef1350b936573de7472afee46416dffb5287009b903d1f2041d9c9e",
+      "00bacab7c5b180a7f66ccc5a4ecac5dab4b86591c39d92aa4bd3e0553503dbdd",
+      "00f8bd7f813cf665a1e983943eccb88cbb7a40d965c20594a0bcf73041f87402",
+      "0103d1bf93eeeff2ba38e9355746f7b5af9250b505d77409bdbaf180a0e17c31",
+      "01077fcf1be9fa0110db35a26171a117fa5c9cb7195249ea7862618748f2177f",
+      "010e71ab960149604a03505304f4846a9e3559427cc52d816f9b1d0b6a9da245",
+      "014442fe62bebb0daf662d9de002f1866c025e7c3d50a636db789276c9d7a36a",
+      "015940f1268b7a3a969b8e59cc0f830aacf49fc7d53480dbe10573bc5c0fb3a9",
+      "0169502a7f1870dfbf488b77d6ad0a597f471f072d7bc3797fd278edbf6af084",
+      "018c84d6b432997c5ba66803cc872f18d23b992b7fb288a8d03f119b68de1814",
+      "01a283ea3e910b2dd13f2d8b0a60f19b833d875bf36b6aa87ca65dab3a03c4e5",
+      "01a3d8806e46fa5d2e69269645a2b5a1f294e7b2794b96ca67480abb257f894a",
+      "01ae51cd7c1ea0ee82e2718900d7842f7086a1e20a9ae101e5797fe75f03f377"
+    ]
+  }
+}

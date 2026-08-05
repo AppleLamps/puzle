@@ -1,0 +1,183 @@
+{
+  "schema": "second-door-yellow-red-audit-v1",
+  "status": "NO_PRIZE_MATCH",
+  "scope": {
+    "image": "/workspace/follow_the_white_rabbit.png",
+    "poster_red": {
+      "rgb": [
+        237,
+        28,
+        36
+      ],
+      "resistor": 2,
+      "thickness_px": 15,
+      "first_row": 1047,
+      "width": 1048,
+      "bunny_edge": 1047,
+      "hex": "ED1C24"
+    },
+    "envelopes": [
+      "chain1",
+      "chain2",
+      "phase32"
+    ],
+    "excludes": [
+      "cosmic_envelope",
+      "base38",
+      "chain4"
+    ]
+  },
+  "control_door1": "gsmg.io/theseedisplanted",
+  "yellow_lsb_flip": "gsmg/io/uieseeeisqmaouee",
+  "readings": {
+    "door1_blackblue1": {
+      "text": "gsmg.io/theseedisplanted",
+      "padding": "0000",
+      "raw_hex": "67736d672e696f2f746865736565646973706c616e746564",
+      "printable": true
+    },
+    "yellow_forced_1": {
+      "text": "gsmg/io/uieseeeisqmaouee",
+      "padding": "0000",
+      "raw_hex": "67736d672f696f2f756965736565656973716d616f756565",
+      "printable": true
+    },
+    "offwhite_as_1": {
+      "text": "gsmg.io/theseedispla~ted",
+      "padding": "0000",
+      "raw_hex": "67736d672e696f2f746865736565646973706c617e746564",
+      "printable": true
+    },
+    "blue_only_1": {
+      "text": "\u0001\u0001\u0001\u0001\u0000\u0001\u0001\u0001\u0000\u0000\u0001\u0001\u0001\u0001\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0000\u0001\u0000",
+      "padding": "0000",
+      "printable": false
+    },
+    "black_only_1": {
+      "text": "frlf.hn.thdrdddhrpl`ntdd",
+      "padding": "0000",
+      "raw_hex": "66726c662e686e2e746864726464646872706c606e746464",
+      "printable": true
+    },
+    "yellow_black_1_blue0": {
+      "text": "frlf/hn.uidrddehrqm`oude",
+      "padding": "0000",
+      "raw_hex": "66726c662f686e2e756964726464656872716d606f756465",
+      "printable": true
+    },
+    "door1_primezero_0based": {
+      "text": "Bc,b*(k+d(e3 a$hc hanpad",
+      "padding": "0000",
+      "raw_hex": "42632c622a286b2b6428653320612468632068616e706164",
+      "printable": true
+    },
+    "door1_primezero_1based": {
+      "text": "\u0005SMe&Ig\u0007ThEseEdiSPdaLtEd",
+      "padding": "0000",
+      "printable": false
+    },
+    "yellow1_primezero_0based": {
+      "text": "Bc,b+(k+d(e3 a%hc!hanqad",
+      "padding": "0000",
+      "raw_hex": "42632c622b286b2b6428653320612568632168616e716164",
+      "printable": true
+    },
+    "yellow1_primezero_1based": {
+      "text": "\u0005SMe'Ig\u0007UiEseEeiSQeaMuEe",
+      "padding": "0000",
+      "printable": false
+    },
+    "resistor_digit_stream": {
+      "text": "9009900690009906900900969009900699090004900909969009000699090006900090949009099490099096900099069009909690099096900990949009099690009906900099949009009490099996900900049000909490099096900990949999",
+      "padding": "",
+      "raw_hex": "",
+      "printable": true,
+      "note": "grid has no red cells; red lives on poster divider only"
+    }
+  },
+  "material_count": 236,
+  "expanded_count": 2360,
+  "scalar_attempts_unique": 2610,
+  "prize_matches": [],
+  "aes_attempts": 1374,
+  "aes_padding_hits_recorded": 1,
+  "aes_structured_hits": [],
+  "aes_note": "Padding hits are common under MD5-EVP; structured=high printable or Salted__/PEM head",
+  "known_chain1_password_sha256": "a35346830e8e94ea068ec6606a59f2bd7b21c2ad1fe042a05c9b75b740b85f28",
+  "followup": {
+    "status": "NO_PRIZE_MATCH",
+    "unique_scalars": 292,
+    "prize_matches": [],
+    "aes_structured": [],
+    "aes_padding_count": 5,
+    "aes_padding_sample": [
+      {
+        "label": "yflip_pzero1",
+        "env": "chain1",
+        "digest": "md5",
+        "plen": 79,
+        "pr": 0.38,
+        "head": "f..-..._!.*.YU..>.F..s..`..n.....;SIG.....L....."
+      },
+      {
+        "label": "yflip_dot_pzero1",
+        "env": "chain1",
+        "digest": "md5",
+        "plen": 79,
+        "pr": 0.38,
+        "head": "f..-..._!.*.YU..>.F..s..`..n.....;SIG.....L....."
+      },
+      {
+        "label": "resistor+yflip",
+        "env": "chain1",
+        "digest": "sha256",
+        "plen": 79,
+        "pr": 0.329,
+        "head": "..A<..t..jt.W63....;...=...Y..>....c!+.>..0....<"
+      },
+      {
+        "label": "yflip_pzero0/sha256hex",
+        "env": "phase32",
+        "digest": "sha256",
+        "plen": 2431,
+        "pr": 0.39,
+        "head": "..m~.Bt..U..mO.....B..{k...1.?.P)....^..../.z.V."
+      },
+      {
+        "label": "yflip_redhex/sha256",
+        "env": "phase32",
+        "digest": "sha256",
+        "plen": 2431,
+        "pr": 0.373,
+        "head": "=.g\\.y..\".S-4SR`.....j..Y.3Y.;&l....h I...\\....!"
+      }
+    ],
+    "materials": {
+      "yflip": "gsmg/io/uieseeeisqmaouee",
+      "yflip_dot": "gsmg.io/uieseeeisqmaouee",
+      "yflip_xor2": "eqoe-km-wkgqgggkqsocmwgg",
+      "yflip_dot_xor2": "eqoe,km-wkgqgggkqsocmwgg",
+      "door1_xor2": "eqoe,km-vjgqggfkqrnclvgf",
+      "yflip_pzero0": "gs00/0o0uie0e0eis0m0oue0",
+      "yflip_pzero1": "g00g0i0/ui0s0eei0q0aou0e",
+      "yflip_dot_pzero0": "gs00.0o0uie0e0eis0m0oue0",
+      "yflip_dot_pzero1": "g00g0i0/ui0s0eei0q0aou0e",
+      "yflip_insert2_at_yellow_bytes": "gsmg/2io/u2i2eseee2isq2m2ao2u2ee2",
+      "yflip+15": "gsmg/io/uieseeeisqmaouee15",
+      "yflip+2": "gsmg/io/uieseeeisqmaouee2",
+      "2+yflip": "2gsmg/io/uieseeeisqmaouee",
+      "yflip_redhex": "gsmg/io/uieseeeisqmaoueeED1C24",
+      "roses+yflip": "RosesareWhitebutoftenRedgsmg/io/uieseeeisqmaouee",
+      "yflip+roses": "gsmg/io/uieseeeisqmaoueeRosesareWhitebutoftenRed",
+      "yflip+1421": "gsmg/io/uieseeeisqmaouee1421",
+      "coords_cells": "1,4,21",
+      "yflip+86": "gsmg/io/uieseeeisqmaouee86",
+      "yflip+8686": "gsmg/io/uieseeeisqmaouee8686",
+      "yin86yang86": "8686",
+      "path_uies": "uieseeeisqmaouee",
+      "path_uies_xor2": "wkgqgggkqsocmwgg",
+      "resistor_digits": "9009900690009906900900969009900699090004900909969009000699090006900090949009099490099096900099069009909690099096900990949009099690009906900099949009009490099996900900049000909490099096900990949999",
+      "resistor+yflip": "9009900690009906900900969009900699090004900909969009000699090006900090949009099490099096900099069009909690099096900990949009099690009906900099949009009490099996900900049000909490099096900990949999gsmg/io/uieseeeisqmaouee"
+    }
+  }
+}

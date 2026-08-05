@@ -60,11 +60,14 @@ list is `yellowblueprimes`, `matrixsumlist`, `lastwordsbeforearchichoice`,
 `yinyang`** — appear nowhere in the solver chain, and the two that do appear are
 joined by words the creator never lists.
 
-**3. "Yin yang" is Cosmic Duality.** The SalPhaseIon page carries exactly two
-textareas, headed `SalPhaseIon` and `Cosmic Duality`. A yin-yang is a duality.
-The creator's recipe therefore looks like the route into the Cosmic blob, and the
-7-token XOR the repository uses for that blob is a solver construction that
-appears in no creator source.
+**3. "Cosmic Duality" is a page label, not a creator instruction.** The
+SalPhaseIon HTML has a second textarea headed `Cosmic Duality`. That is the
+**only** creator-published use of those words. The Telegram corpus never says
+"Cosmic", "Duality", or "decrypt the second blob." The creator *does* say
+`ying yang` / `yingyang` and lists `yinyang` in the 2023 pipeline — solvers
+**equated** that with the Cosmic textarea and built the 7-XOR decrypt. That
+equation is not creator-sourced. Treating Cosmic AES as the mandatory next
+lock is community gravity, not his hint trail.
 
 **4. The chain 1 password reveals the creator's joke, and it should recur.** The
 raw stream reads as an instruction — *matrixsumlist, **enter**,
@@ -215,12 +218,14 @@ So the puzzle has multiple intended payoffs, not only the key.
 
 The tiny hint is the literal ASCII `<3`. That is the same heart mark the
 Architect's "take this to heart" and the Half/Better-Half language have been
-pointing at. Combined with Cosmic Duality / yin-yang, it is a creator-authored
-emphasis, not solver ornament.
+pointing at. That is creator-authored emphasis on duality / better-half
+language — not a warrant to AES-decrypt the page label "Cosmic Duality."
 
 **2023-08-06:** "Once you hit a ying yang, you'll be able to solve it the same
-day." Cosmic Duality is that milestone. The final step after decrypting Cosmic
-is supposed to be short — "a true giveaway."
+day." He names **yingyang**, not Cosmic. Whether that milestone is on the first
+image (e.g. the 86=86 dual), elsewhere in SalPhaseIon, or something not yet
+reached is open — it is **not** established that it means "AES-decrypt the
+Cosmic textarea."
 
 ## SalPhaseIon structural identity: Witteveen
 
@@ -359,16 +364,19 @@ from public envelopes (`salphaseion_79_anchor_hunt.json`).
 
 ### Still open (authenticated material only)
 
-1. The **second door** from `follow_the_white_rabbit.png` under
-   `yellowblueprimes` + zeroing — not another plain spiral of the 196 cells.
+**Hard rule:** do not attack Cosmic AES / Chain 4 / base-38 as the next
+mandatory lock. The creator never named those. Closed Cosmic trials stay in
+the audit above as negatives only.
+
+1. The **second door** from `follow_the_white_rabbit.png` / `puzzle.png` under
+   `yellowblueprimes` + primes + zeroing + the unused red resistor line.
    Creator 2025-04-28 still says **yinyang not found** (“2 hours max” once
-   reached), so the public Cosmic 7-XOR may be a parallel branch rather than
-   that milestone.
-2. The **giveaway after yin-yang**: if Cosmic/Chain 4 are on-path, the last
-   step is short; the missing rule is not the unreproduced solver labels
-   `cosmic_A` / `row1-4` / `K_I1` (no public bytes). Issue #82’s claimed
-   SalPhaseIon 79-byte SHA `e2590f15…` is also unreproduced from public
-   chain1/2/cosmic triplets.
+   reached). That milestone is whatever *he* named `yinyang` — not the HTML
+   heading on the SalPhaseIon page.
+2. The **giveaway after yin-yang**: once that milestone is hit, the last step
+   is supposed to be short (`verylaststepisatruegiveawaypromised`). Do not
+   fill the gap with unreproduced solver labels (`cosmic_A` / `row1-4` /
+   `K_I1`) or Issue #82’s unreproduced `e2590f15…` SHA.
 3. Witteveen / *Heart of Sufism* as the “obscure intel” prize versus a still-
    unknown transform into the BTC scalar.
 
@@ -496,9 +504,9 @@ LSB). Two deliberate reassignments produce fully printable 24-byte strings:
 
 The yellow-LSB-flip string is the striking one: it is still `gsmg/io/…` shaped
 (`.`→`/` on byte 4, and every yellow-marked LSB flips). No Wayback hit under
-`gsmg.io/uieseeeisqmaouee`, and it does not open Cosmic/glued under MD5/SHA256
-EVP, but it is the clearest *second reading* of the same spiral that public
-door-1 work leaves on the table.
+`gsmg.io/uieseeeisqmaouee`. It is the clearest *second reading* of the same
+spiral that public door-1 work leaves on the table — pursue as second-door
+material, not as a Cosmic password.
 
 ### Still the best “in front of your eyes” anomalies
 

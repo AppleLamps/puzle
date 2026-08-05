@@ -42,6 +42,53 @@ the creator describing his own construction:
     itsinfrontofyoureyesbutyourenotseeingit
     verylaststepisatruegiveawaypromised
 
+## Where we went wrong (forensic)
+
+The self-authenticating trail is real through stage 1 → rebus → phase 2/3 →
+SalPhaseIon field tokens → Chain‑1/2 mutual unlock. Prize keys were never
+produced after that. The wrong turn is not “SalPhaseIon was fake.” It is that
+**the next lock was replaced by a community story.**
+
+```
+Creator trail (named):
+  first image ──2nd door──► yellowblueprimes ──► matrixsumlist
+       ──► lastwordsbeforearchichoice ──► yinyang ──► short giveaway
+
+Community trail (followed):
+  first image ──door 1 only──► phases ──► SalPhaseIon
+       ──► “Cosmic Duality” AES ──► base38 / THE_HALF / Chain4 ──► ∞
+```
+
+**Damaging fork #1 — left the first image.** From 2020-01-14 the creator says
+go back to the first piece; the nest holds more than one door. He repeats
+“2nd / extra / another door” through 2021-12-25 and still calls **yingyang
+unfound** on 2025-04-28. Public work treated door‑1 (`theseedisplanted`) as
+done and moved forward forever.
+
+**Damaging fork #2 — Cosmic Duality ≠ yinyang.** The HTML heading is the only
+creator use of those words. Solvers glued it to his `ying yang` language and
+built the 7‑XOR. Proof that equation is false: if Cosmic decrypt *were*
+yinyang, he would not say in 2025 that nobody has found it. The Dec 2022
+“scary specific” reply was to a **yin‑yang image** a solver googled — that
+endorses yin‑yang as a concept, not “AES‑decrypt the Cosmic textarea.”
+
+**Damaging fork #3 — Chain‑1 password ≠ his 2023 recipe.** Working password:
+`matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist`.
+His construction words: `yellowblueprimes`, `matrixsumlist`,
+`lastwordsbeforearchichoice`, `yinyang`. Missing from the password: the first
+and fourth. Added by solvers: `enter`, `thispassword`. Chain‑1 is a real joke
+unlock; it is **not** the pipeline he published.
+
+**What we (this effort) specifically repeated:** Cosmic password / matrix /
+base38 / half‑arithmetic loops after already knowing Cosmic was unauthenticated;
+underweighting red/roses, primes+zeroing, off‑white `(7,4)`, 86=86 dual, and
+alternate spiral readings on the poster.
+
+**Corrected surface:** second door on `puzzle.png` /
+`follow_the_white_rabbit.png` under yellow/blue/red + primes + zeroing →
+something he would call **yinyang** → then the short giveaway. Cosmic AES /
+Chain4 / base38 are closed negatives, not the next lock.
+
 ## What follows, and what has to be fixed
 
 **1. There is a second door, it branches from the first image, and the entire

@@ -384,6 +384,66 @@ That negative is worth something: it is evidence for the other agent's own later
 pivot, that `matrixsumlist` names a straddling-checkerboard over-encryption step
 rather than an AES passphrase. No arrangement of the sum list is a password.
 
+# The prize on-chain: Half and Better Half verified
+
+The latest transcript proposes adding `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` as a
+second address oracle, on the report that the creator "moved half the original
+5 BTC" after solvers decoded phase 3.2.2. `onchain.py` checks that against the
+chain, and the move is real and unmistakably deliberate — but the story around
+it needs correcting.
+
+| | address | txs | balance |
+| --- | --- | --- | --- |
+| Half | `1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe` | 125 | 1.25634510 BTC |
+| Better Half | `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` | 44 | 3.75055310 BTC |
+
+Only two transfers ever ran between them, and both land on a Bitcoin halving:
+
+    2020-05-11   2.50000000 BTC   block 630001   halving at block 630000, +1 block
+    2024-04-24   1.25000000 BTC   block 840725   halving at block 840000, +725 blocks
+
+**The creator halves the remaining prize at every Bitcoin halving and sends the
+half to the second address.** 5 becomes 2.5 + 2.5 one block after the 2020
+halving; the 2.5 left behind becomes 1.25 + 1.25 after the 2024 halving. That is
+what "HALF AND BETTER HALF" names, and it is why both "need funds to live". A
+separate 2020-05-11 message on the address reads simply `Halving`.
+
+Two consequences matter for the search.
+
+**The prize is intact and untouched.** The two balances total 5.0067 BTC, and
+Better Half has *never spent an output* — `spent 0.00000000`. Nobody has swept
+either key. The next halving, block 1050000, would presumably move another 0.625.
+
+**The transcript's "component addresses" are not these.** It reports that the two
+addresses derived from its recovered Half/Better Half scalars "first appeared in
+February 2026" with "91/90-spend histories". Better Half first appeared
+2020-05-11, funded straight from the prize address one block after the halving.
+So whatever those February 2026 addresses are, they are solver artifacts, and
+treating their funding as confirmation that "need funds to live" is satisfied is
+circular — solvers funded them *because* the derived keys had been published. The
+proposal to gate candidates against `17ucy…` is right; the scalars it plans to
+gate are not validated by that 2026 activity.
+
+## The on-chain phrase corpus is solver noise
+
+Both addresses carry 41 distinct OP_RETURN messages. Apart from `Halving` in
+2020 they are all 2025-2026 and read as solvers writing at the puzzle: `redpill`,
+`iamtheone`, `leavethematrix`, `There is no spoon`, `THEMATRIXHASYOU`,
+`SalPhaseIon`, `hereismysecret`, `#SOLUTION`, `Causality Transcended`.
+
+Three are worth naming. `itisonlywiththeheartthatoneseesrightlywhatisessentialis
+invisibletotheeye` is Saint-Exupéry, and it accounts for both the `<3` hint and
+the `invisible` message the transcript is chasing — that OP_RETURN is a solver
+quoting *Le Petit Prince*, not a creator key. And
+`matrixsumlistenterlastwordsbeforearchichoicethispassword` is exactly the
+concatenation of the SalPhaseIon literal instructions, which someone had clearly
+already assembled.
+
+All 41 messages, cased and stripped, plus hex payloads decoded, give 88
+candidates. Against the four ciphertexts under three passphrase forms and two
+digests — **2112 trial decryptions, no hit.** The corpus is saved as
+`opreturn_corpus.txt`.
+
 ## State of play
 
 Four ciphertexts are in hand and none has yielded yet:

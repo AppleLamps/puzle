@@ -1,0 +1,321 @@
+{
+  "authenticated_plaintext": {
+    "anchors_zero_based": {
+      "ACTUALPRIVATEKEY": 1232,
+      "HUNDREDFOURTY": 562,
+      "INVESTMENT": 580,
+      "PRIMEBASICS": 1103,
+      "PRIVATEKEY": 479,
+      "SEVENINTERTWINEDPASSWORDS": 1198,
+      "SIXTEENENCRYPTIONS": 1175,
+      "SOURCECODES": 1021,
+      "TAKETHISTOHEART": 511,
+      "TWENTYTHREECIPHERS": 1157,
+      "WISEMANABOVE": 535
+    },
+    "continuation_479_prefix": "PRIVATEKEYYOUVEEARNEDITBUTPLEASETAKETHISTOHEARTTHATWHATAWISEMANABOVEHINTEDATISWORTHHUNDREDFOURTYOFTHEINVESTMENTTHATSWHATUSGUYSATGSMGARETRYINGTOACCOMPLISHINTHEEN",
+    "length": 1539,
+    "sha256": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241",
+    "slice_479_484": "PRIVA"
+  },
+  "carried_code": {
+    "hex": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c",
+    "interpretation": "the exact SHA-256 password that decrypted phase 3.2"
+  },
+  "cosmic_used": false,
+  "counts": {
+    "materials": 509,
+    "materials_by_family": {
+      "clue-tokens": 27,
+      "combined-kdf-inputs": 6,
+      "heart-center": 23,
+      "indexed-text": 181,
+      "last-words": 136,
+      "prime-reinsertion": 48,
+      "quote-23-16-7": 48,
+      "source-codes": 32,
+      "wise-quote": 8
+    },
+    "scalar_derivations": 13191,
+    "scalar_derivations_by_family": {
+      "clue-tokens": 672,
+      "combined-kdf-inputs": 160,
+      "heart-center": 606,
+      "indexed-text": 4778,
+      "last-words": 3572,
+      "prime-reinsertion": 1134,
+      "quote-23-16-7": 1204,
+      "source-codes": 854,
+      "wise-quote": 211
+    },
+    "unique_scalars": 9999,
+    "valid_wif_inputs": 0
+  },
+  "last_words_before_architect": {
+    "ibm_code_page_hint": 1141,
+    "literal": "One for one, four for one.",
+    "normalized": "oneforonefourforone"
+  },
+  "matches": [],
+  "prime_balance": {
+    "balanced": true,
+    "blue_after_zeroing_difference": 479,
+    "blue_primes": [
+      2,
+      3,
+      5,
+      7,
+      13,
+      17,
+      19,
+      31,
+      37,
+      41,
+      43,
+      53,
+      59,
+      71,
+      83
+    ],
+    "blue_sum": 484,
+    "consecutive_primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "difference": 5,
+    "difference_is_blue_prime": true,
+    "markers": "BBBBYBBBYYBBBBYBBYYBYYBY",
+    "yellow_primes": [
+      11,
+      23,
+      29,
+      47,
+      61,
+      67,
+      73,
+      79,
+      89
+    ],
+    "yellow_sum": 479
+  },
+  "schema": "yinyang-479-architect-continuation-audit-v1",
+  "scope": [
+    "Direct 24 marker colours are used without the 23-bit Better-Half mutation.",
+    "The 479 balance is accepted because it exactly indexes PRIVATEKEY in authenticated plaintext.",
+    "The 140-character source is the punctuation-stripped Jacque Fresco quote printed above the Architect record.",
+    "23/16/7 quote partitions include direct colour masks and the previously reported date-XOR mask; the latter is comparison evidence, not required by the 479 route.",
+    "Scalar forms are raw/hex/decimal/WIF where applicable, SHA-256/double-SHA-256, centered 32-byte slices, clue-number tweaks, and carried-code XOR/HMAC.",
+    "No Cosmic bytes, labels, passwords, plaintext, or Chain 4 outputs enter any candidate."
+  ],
+  "status": "NO_EXACT_MATCH_IN_ENUMERATED_FAMILY",
+  "strongest_near_misses": [
+    {
+      "candidate_sha256": "b980c2f1095d88491f31beeb7a289f80bdd16326c60bc3f8b8f860813138115c",
+      "label": "last-words/quote-words-spaced-lower-then-words-spaced/sha256-sub-5",
+      "prefix_nibbles": 5,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "46de82b644fb90994f9d963b758312f18ea2b10658ef20fe0e0844ea54b4cbe6",
+      "label": "wise-quote/words-spaced-lower/sha256",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "472be38479e862a9bd1e17d009850cb13e329cdd6420a676befc3f94549053b3",
+      "label": "wise-quote/words-spaced-lower/hmac-carried-code",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "2324672331304279c967c0efa81799f88522b86036c95d17d1091d44473d2ea8",
+      "label": "source-codes/upper/ebcdic-cp273/double-sha256",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "74edee6f9334b60012224bc4516cb5300f6fc688b83bae284cabe329584ca3bc",
+      "label": "quote-23-16-7/reported-date-xor-5e7db3/Y/intertwined-reversed/last-32",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "ef0947aecaf5f2da43e7a970004dfc2c58da02367a616b9aff58cbc5e97d0cb1",
+      "label": "quote-23-16-7/direct-last23/Y/intertwined/sha256-add-140",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "bd75f9f3f01bb8c0eeb2098fea029076817ece2e018b2ddca13736faec9c02ce",
+      "label": "prime-reinsertion/quote-words-spaced-lower/primes-2-89-zero5/0-based/sha256-sub-5",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "012a32e8911c76c6c0c855c387dc4d02d1e7f623ee6f52e6c38b177912756c45",
+      "label": "prime-reinsertion/quote-upper/primes-2-89-zero5/1-based/sha256-xor-140",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "4f06290ee37b144f871061a261b69f7a608d2249a2294d676b5feb6c5c1c5e23",
+      "label": "prime-reinsertion/quote-literal/primes-2-89/0-based/sha256-xor-140",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "e3db7ad646fad0e5f4fc7fec3669d9bd3d4aa5e000b5b22fc9d61a8cee37cf95",
+      "label": "prime-reinsertion/quote-literal/primes-2-89/0-based/sha256-add-484",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "5aa07ffa871ea5663b2b99af9094e97f76fe9ded6ff804fe2a121312b74794f7",
+      "label": "prime-reinsertion/quote-letters/all-primes-2-139/1-based/double-sha256",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "cd60032eec499545624233651edcd076f7b052d27b1c85e7e246571ab73d4d32",
+      "label": "prime-reinsertion/quote-letters-lower/all-primes-2-139/1-based/sha256-xor-carried-code",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "9905556d35ee2c30a53fd6d162a5fad68c4265d14c5aaa8539967ce7248fd5b7",
+      "label": "last-words/words-spaced-then-quote-words-spaced/sha256-sub-23",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "178d56a2b3e7cfd03ecf93829a7998017c433a9d366a18188c24eceb28cbb81a",
+      "label": "last-words/words-spaced-lower-then-quote-words-spaced-lower/sha256-add-140",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "a5ddec48cd33ea6148e0c84b1b6a21e085a36640e86d1beeadd5637574e8f23b",
+      "label": "last-words/upper/sha256-sub-5",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "ea14641d59f1f6959e89b48a170efec3b0d7e087fc685bf56ccedf839c5a1a5b",
+      "label": "last-words/quote-words-spaced-then-letters/sha256-sub-5",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "2f4a2752d32e8a936c6568b9575a6e886d0d565e6000061b73d3d4bc941a9a16",
+      "label": "last-words/quote-lower-then-literal/sha256-sub-32",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "54845c66c33e76bd0c78f805c04102996f2f6d0f41bbffc85ba044b212ad0ee1",
+      "label": "last-words/quote-letters-upper-then-words-spaced/sha256-add-484",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    },
+    {
+      "candidate_sha256": "dc7f5a896c0b0bc0d4cf98abb28ca9117036dac5d12f7dbcd337fa469396bcc8",
+      "label": "indexed-text/span-TWENTYTHREECIPHERS-to-SIXTEENENCRYPTIONS/sha256-sub-140",
+      "prefix_nibbles": 4,
+      "target": "Half-hash160-uncompressed"
+    },
+    {
+      "candidate_sha256": "80f6c036d1d877ac4e90e8d16d00077e65614cb9d65a451bfb7c9ed5b4df9cf0",
+      "label": "indexed-text/span-TAKETHISTOHEART-to-SEVENINTERTWINEDPASSWORDS/sha256-xor-carried-code",
+      "prefix_nibbles": 4,
+      "target": "Half-public-uncompressed"
+    }
+  ],
+  "targets": {
+    "Better_Half": {
+      "address": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+      "hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+      "public_key_known": false
+    },
+    "Half": {
+      "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "hash160": "a9553269572a317e39f0f518cb87c1a0ee1dbae4",
+      "public_key": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+    }
+  },
+  "valid_wif_inputs": [],
+  "wise_quote": {
+    "letters_only_length": 118,
+    "literal_length": 145,
+    "masks": {
+      "direct-first23": {
+        "B": 15,
+        "Y": 8,
+        "mask": "BBBBYBBBYYBBBBYBBYYBYYB"
+      },
+      "direct-last23": {
+        "B": 14,
+        "Y": 9,
+        "mask": "BBBYBBBYYBBBBYBBYYBYYBY"
+      },
+      "direct-zero-blue-prime5": {
+        "B": 14,
+        "Y": 9,
+        "mask": "BBBYBBBYYBBBBYBBYYBYYBY"
+      },
+      "reported-date-xor-5e7db3": {
+        "B": 16,
+        "Y": 7,
+        "mask": "BYBBBBYYBBBBBYBBYBBYYBB"
+      }
+    },
+    "no_punctuation_length": 140,
+    "word_count": 23,
+    "words": [
+      "The",
+      "future",
+      "is",
+      "fluid",
+      "Each",
+      "act",
+      "each",
+      "decision",
+      "and",
+      "each",
+      "development",
+      "creates",
+      "new",
+      "possibilities",
+      "and",
+      "eliminates",
+      "others",
+      "The",
+      "future",
+      "is",
+      "ours",
+      "to",
+      "direct"
+    ]
+  }
+}

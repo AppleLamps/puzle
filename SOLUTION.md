@@ -4,8 +4,12 @@
 | --- | --- | --- |
 | `gsmg.io/Puzzle` | `follow_the_white_rabbit.png` | `gsmg.io/theseedisplanted` |
 | `gsmg.io/theseedisplanted` | eight rebus tiles | `cryptologicwarningcanyoudigit` |
+| phase 2 | `gsmg.io/choiceisanillusion…iwroteitmyself` | sha-256 = `89727c59…52f6a32` |
+| phase 3 | `gsmg.io/89727c59…52f6a32` (SalPhaseIon) | open |
 
-Run `python3 solve.py` for stage one and `python3 solve_rebus.py` for stage two.
+Run `python3 solve.py` for stage one, `python3 solve_rebus.py` for stage two,
+`python3 inspect_bundle.py` for the phase1verification 404, and
+`python3 phase23.py` for phases two and three.
 
 # Stage one: `follow_the_white_rabbit.png`
 
@@ -199,6 +203,104 @@ is wanted.
 
 Note the continuity with stage one: `the seed is planted`, and now `can you dig
 it` — the same gardening pun, which is a good sign the words are right.
+
+# Phase 2: `gsmg.io/choiceisanillusion...iwroteitmyself`
+
+The chain does not end at the rebus. Two more puzzle pages survive in the
+Wayback Machine, found by enumerating archived `gsmg.io/*` URLs. Both are
+server-rendered Blade pages titled "GSMG Puzzle", exactly like
+`theseedisplanted`, and both were captured while the puzzle was live.
+
+**Phase 2** is at
+
+    gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself
+
+captured 2020-11-12, the same day as `theseedisplanted`. The slug is two
+Merovingian lines from *The Matrix Reloaded*. The page carries two AES blobs and
+a set of riddles whose answers are "parts 1..7"; concatenated and hashed they
+give the phase 3 password.
+
+    Ciphered with aes-256-cbc /w base64 sha-256(password)
+    --> parts 1..7 --> sha-256 -> dgst is the password to enter Phase 3.
+
+The riddles decode as follows.
+
+**The keymaker (part 1).** "1... are you looking for the private keymaker? You
+come to me, without it. Come to me with it and you'll have the power to
+continue. It'll grant the first part." Gates the first 672-byte blob.
+
+**The Norton chain (a later part).** "A guy who theorised ... equivalent current
+source Ino in parallel with an equivalent resistance Rno" is Norton's theorem,
+so **Norton** — "he might have been insecure" is the antivirus pun, and "his
+competition" is **McAfee**. "After enough belikins" is Belize's national beer,
+where John McAfee lived, and he ran to rule "the technically poorest" country on
+the planet, the most indebted one. Four US presidents share his first name
+**John** (Adams, Quincy Adams, Tyler, Kennedy) and two carry it inside their
+surname (**Johnson** twice). The ruler resembling "Carrey, James Gates, also
+Simulacra and Simulation" is the simulation-hypothesis cluster pointing at
+**Truman**. The closing moral — "never execute an order that revokes the highest
+power or you might suddenly get killed" — is Kennedy and **Executive Order
+11110**, and "the 5binary code" is that number read as five binary digits.
+
+**The genesis block (a later part).** "The idea of this _green_ came _back_" is
+the greenback; "a chancellor awaiting banks to be bailed out decided to write an
+anarchist digital answer" is the Bitcoin genesis block's coinbase message, *The
+Times 03/Jan/2009 Chancellor on brink of second bailout for banks*. "Its raw
+data after 4 on row 1616" indexes into that block's raw hex.
+
+**The chess position (a later part).**
+
+    B5KR/1r5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 w - - 0 1
+
+"And now a buddhist is forced to move. What will be the next situation?" — a
+zugzwang whose answer is the resulting position.
+
+The three `/(aaa, connected enf)`, `/(aBa, connected enf)` and `/(aBa, connected
+not enf)` markers appear to specify how each part is cased and whether it is
+concatenated without separators when the seven are joined.
+
+# Phase 3: SalPhaseIon
+
+Phase 2's answer is already recoverable without solving those riddles, because
+the phase 3 page is archived under its own password:
+
+    gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32
+
+captured 2023-06-01. A 64-hex slug is precisely the "sha-256 -> dgst" the page
+above describes, so **sha256(parts 1..7) = 89727c598b9c…52f6a32**. It serves a
+page headed **SalPhaseIon** and **Cosmic Duality**, with two more textareas.
+
+`python3 phase23.py` extracts everything and decodes the readable parts. The
+SalPhaseIon textarea is a 1075-character stream that is not one encoding but
+three interleaved:
+
+- Letters `a`..`i` are digits 1..9 and `o` is 0, with `z` acting as a separator,
+  giving three digit segments of 765, 63 and 29 digits.
+- Buried at offset 91 is a 104-character run of nothing but `a` and `b`. Read as
+  bits with `a` = 0 it spells **`matrixsumlist`**.
+- The tail turns into plain text: `shabefour`, then the instruction
+  **`firsthintisyourlastcommand`**, then a 96-byte `Salted__` blob whose base64
+  is split in two by another `a`/`b` run — which decodes the same way to the word
+  **`enter`**, i.e. the line break between the blob's two base64 lines. It closes
+  with `shabefanstoo`.
+
+## State of play
+
+Four ciphertexts are in hand and none has yielded yet:
+
+| blob | source | size | salt |
+| --- | --- | --- | --- |
+| keymaker | phase 2, first textarea | 656 B | `06286612d43ed7ed` |
+| phase 3 | phase 2, second textarea | 4096 B | `9fbc451d13d071f4` |
+| cosmic duality | phase 3, second textarea | 1328 B | `2d3f6fe06dc950e6` |
+| embedded | inside the SalPhaseIon stream | 80 B | `3ab585348552415d` |
+
+The sweep in `phase23.py` tries each candidate raw, as its sha-256 hex digest and
+as its raw digest, under md5, sha1 and sha256 key derivation, and reports no hit
+for the obvious candidates including the phase 2 digest itself and
+`matrixsumlist`. Notably the phase 3 blob on the phase 2 page does *not* open
+with the digest that the phase 3 URL exposes, so the passphrase is some further
+transformation of the seven parts rather than the digest verbatim.
 
 # The `phase1verification` capture: a real 404, not a clue
 

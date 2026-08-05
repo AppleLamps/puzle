@@ -14,7 +14,8 @@ pairing all eight tiles produces words for every pair.
 """
 
 import itertools
-from collections import Counter
+import struct
+from collections import Counter, defaultdict
 
 from PIL import Image
 
@@ -59,6 +60,28 @@ def block_geometry(name):
     return width, (left, right), side, fill
 
 
+def encoder_fingerprint(name):
+    """Return (pixels-per-metre, PNG colour type, sRGB present) for a tile.
+
+    Tiles saved in the same pass share these, so they group the tiles
+    independently of anything visible in the picture.
+    """
+    data = open(f"{DIR}/{name}.png", "rb").read()
+    offset, phys, ctype, srgb = 8, None, None, False
+    while offset < len(data):
+        length = struct.unpack(">I", data[offset : offset + 4])[0]
+        kind = data[offset + 4 : offset + 8].decode("latin1")
+        body = data[offset + 8 : offset + 8 + length]
+        if kind == "IHDR":
+            ctype = body[9]
+        elif kind == "pHYs":
+            phys = struct.unpack(">IIB", body)[0]
+        elif kind == "sRGB":
+            srgb = True
+        offset += 12 + length
+    return phys, ctype, srgb
+
+
 def read_pair(left, right):
     """Read a pair's letters in normal order: top line, then bottom line."""
     lines = (
@@ -93,6 +116,13 @@ def main():
     for pairs in matchings:
         for left, right, word in pairs:
             print(f"  {left:<22} + {right:<22} = {word}")
+
+    groups = defaultdict(list)
+    for name in sorted(TILES):
+        groups[encoder_fingerprint(name)].append(name)
+    print("\nPNG encoder fingerprints (pixels-per-metre, colour type, sRGB):")
+    for key, names in sorted(groups.items()):
+        print(f"  {key} -> {names}")
 
     if len(matchings) == 1:
         found = {word for _, _, word in matchings[0]}

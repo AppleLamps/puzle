@@ -159,6 +159,31 @@ exactly once, and the count of `n` fragments (two, one in `n you` and one in
 `n ing`) is exactly what CAN and WARNING need between them — which is what
 forces this partition and rules out readings like `unlocking` or `warn you`.
 
+## Two independent confirmations
+
+The pairing does not rest on the word list alone. The PNG headers group the
+tiles the same way, because tiles saved in the same pass share an encoder
+fingerprint — the `pHYs` pixels-per-metre value, the colour type, and whether an
+`sRGB` chunk is present:
+
+| fingerprint | tiles | line |
+| --- | --- | --- |
+| 3779, RGB, no sRGB | `blue_ca`, `red_n_you` | CAN YOU |
+| 3780, RGBA | `black_banking - war`, `red_open_lock_n_ing` | WARNING |
+| 3778, RGBA, sRGB | `blue_dig_i`, `red_t`, `blue_lock_lo`, `red_crypto_gic` | DIG IT and CRYPTOLOGIC |
+
+Two of the four lines are pinned exactly by that grouping and the other two are
+confined to the remaining four tiles, which is the same answer the word list
+gives.
+
+The two padlocks are also a deliberate matched pair rather than two drawings:
+aligned on their bounding boxes they are pixel-identical except for 25 pixels
+forming the left leg of the shackle, so one is literally the other unlocked.
+
+Nothing else is hidden in the tiles. Every pixel is opaque, none of the eight
+PNGs has metadata or bytes after `IEND`, the white padding is pure white, and
+there is no off-by-one colour marker of the kind stage one used.
+
 ## The one judgement call
 
 The four words are forced, but nothing in the tiles fixes which line came first,
@@ -174,3 +199,17 @@ is wanted.
 
 Note the continuity with stage one: `the seed is planted`, and now `can you dig
 it` — the same gardening pun, which is a good sign the words are right.
+
+## Where this stops
+
+`cryptologicwarningcanyoudigit` goes into the hidden form, which POSTs to
+`https://gsmg.io/phase1verification`. That response is the next link in the
+chain and is not in this repo, so continuing needs that page (or an archived
+copy of it) the same way stage two needed the `theseedisplanted` capture.
+
+The local material is exhausted: both HTML captures contain nothing but their
+Wayback wrapper plus the puzzle images, the `.js`/`.css` assets in both
+`GSMG Puzzle_files` and `GSMG Puzzle2_files` are stock Internet Archive replay
+scripts with no GSMG content, the two asset folders are byte-identical, and
+every image has been checked for metadata, appended data, alpha channels and
+near-background colour markers.

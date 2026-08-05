@@ -8,12 +8,14 @@ The funded private keys have **not** been recovered.
 
 1. [Creator-sourced evidence](CREATOR_SOURCED.md) — facts separated from solver
    interpretation.
-2. [Solution walkthrough](SOLUTION.md) — reproduced stages and corrections.
-3. [Attempt log](docs/ATTEMPT_LOG.md) — running, deduplicated list of solved,
+2. [Solved-stage re-audit](docs/SOLVED_STAGE_REAUDIT.md) — independent
+   re-derivation, exact bytes, and fitted/authenticated boundaries.
+3. [Solution walkthrough](SOLUTION.md) — reproduced stages and corrections.
+4. [Attempt log](docs/ATTEMPT_LOG.md) — running, deduplicated list of solved,
    negative, superseded, and open approaches.
-4. [Transcript index](docs/TRANSCRIPTS.md) — community and agent sources.
-5. [Documentation index](docs/INDEX.md) — every maintained research document.
-6. [Verification report](gsmgio-5btc-puzzle-master/VERIFICATION_REPORT.md) —
+5. [Transcript index](docs/TRANSCRIPTS.md) — community and agent sources.
+6. [Documentation index](docs/INDEX.md) — every maintained research document.
+7. [Verification report](gsmgio-5btc-puzzle-master/VERIFICATION_REPORT.md) —
    machine-checked claims and exact cryptographic gates.
 
 ## Current result
@@ -31,7 +33,10 @@ authenticated Architect plaintext[479:]:
 PRIVATEKEYYOUVEEARNEDITBUTPLEASE...
 ```
 
-This solves a major clue sequence, not the final private-key derivation.
+The arithmetic and word-boundary hit are exact. Consecutive-prime assignment,
+zeroing semantics, and zero-based indexing remain clue-driven conventions, so
+this is a strong fitted structural hit—not a cryptographically authenticated
+private-key derivation.
 
 ## Repository map
 

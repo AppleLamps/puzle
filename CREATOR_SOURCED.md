@@ -54,8 +54,10 @@ the creator describing his own construction:
 ## Where we went wrong (forensic)
 
 The self-authenticating trail is real through stage 1 → rebus → phase 2/3 →
-SalPhaseIon field tokens → Chain‑1/2 mutual unlock. Prize keys were never
-produced after that. The wrong turn is not “SalPhaseIon was fake.” It is that
+SalPhaseIon field tokens. The fitted five-token password and first-record WIF
+produce a reproducible one-way Chain‑1→Chain‑2 decryption, not a demonstrated
+mutual unlock. Prize keys were never produced after that. The wrong turn is not
+“SalPhaseIon was fake.” It is that
 **the next lock was replaced by a community story.**
 
 ```
@@ -93,12 +95,14 @@ base38 / half‑arithmetic loops after already knowing Cosmic was unauthenticate
 underweighting red/roses, primes+zeroing, off‑white `(7,4)`, 86=86 dual, and
 alternate spiral readings on the poster.
 
-**Corrected surface, now solved through the named milestone:** the 24 direct
-poster colours assigned to the first 24 primes give Blue = 484 and Yellow =
-479. Their imbalance is the blue prime 5. Zeroing 5 gives **479 = 479**, a
-literal yin-yang balance. Zero-based character 479 of the authenticated
-Architect plaintext is exactly the `P` of `PRIVATEKEY...`. Cosmic AES /
-Chain4 / base38 were not needed to reach this result.
+**Corrected surface, now an exact but fitted structural hit:** assigning the 24
+direct poster colours to the first 24 primes gives Blue = 484 and Yellow = 479.
+Their imbalance is the blue prime 5. Zeroing 5 gives **479 = 479**, a literal
+balance. Zero-based offset 479 of the authenticated A–Z Architect plaintext is
+exactly the `P` of `PRIVATEKEY...`; ordinary one-based position 479 is the
+preceding `E`. The arithmetic is exact, while consecutive-prime assignment,
+zeroing semantics, and zero-based indexing remain clue-driven conventions.
+Cosmic AES / Chain4 / base38 are not needed for this structural hit.
 
 ## The missed construction
 

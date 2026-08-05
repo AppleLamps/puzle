@@ -7,6 +7,7 @@
 | [`../README.md`](../README.md) | Repository entry point | Maintained |
 | [`../CREATOR_SOURCED.md`](../CREATOR_SOURCED.md) | Creator-authenticated chronology and forensic boundary | Maintained |
 | [`../SOLUTION.md`](../SOLUTION.md) | Full reconstruction, corrections, and current result | Maintained |
+| [`SOLVED_STAGE_REAUDIT.md`](SOLVED_STAGE_REAUDIT.md) | Independent byte/arithmetic re-derivation and evidence boundaries | Maintained |
 | [`ATTEMPT_LOG.md`](ATTEMPT_LOG.md) | Unified running list of attempted approaches | **Append here** |
 | [`TRANSCRIPTS.md`](TRANSCRIPTS.md) | Agent/community transcript provenance | Maintained |
 | [`../gsmgio-5btc-puzzle-master/RESEARCH_LEDGER.md`](../gsmgio-5btc-puzzle-master/RESEARCH_LEDGER.md) | Detailed claim/evidence ledger | Maintained |

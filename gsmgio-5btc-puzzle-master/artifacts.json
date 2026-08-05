@@ -6481,7 +6481,7 @@
     {
       "name": "phase32_positive_control_password",
       "source": "phase32_envelope",
-      "derivation": "password bytes supplied to EVP_BytesToKey-MD5",
+      "derivation": "64 lowercase ASCII-hex password bytes supplied to EVP_BytesToKey-SHA256",
       "length": 64,
       "sha256": "e06146aee02e11ba83a2d0e2f4a6ada7e0bd9a501e7f5fde0208211be4ae740b",
       "hex": "32353066333737323664363836323933396637323365646334663939336664653964333363363030346161623466323230336439656534383964363163653463",

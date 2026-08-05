@@ -32,7 +32,7 @@ reported as a failed test.
 | **NEGATIVE** | QR finder “merlon” textures; all three crops are byte-identical | `first_grid_secondary_audit.json` |
 | **NEGATIVE** | Pad/scan the rabbit grid as a QR code | `CREATOR_SOURCED.md` |
 | **NEGATIVE** | Eight spiral symmetries and fifteen colour maps; only door one is readable | `CREATOR_SOURCED.md` |
-| **OPEN** | Unique off-white cell `(7,4)`, zero-based spiral index 163. Prior notes disagree on byte/bit labelling (`SOLUTION.md` says it is not a payload boundary; `CREATOR_SOURCED.md` maps it inside the `n` byte), so no single “character 21/bit 4” convention is accepted | `SOLUTION.md`, `CREATOR_SOURCED.md` |
+| **SOLVED (location) / OPEN (role)** | Unique off-white cell `(7,4)`, zero-based spiral index 163 = byte 20, bit 3, inside the `n` of `planted`; its intended special role remains open | `SOLUTION.md`, `CREATOR_SOURCED.md` |
 | **NEGATIVE** | Treat off-white as one, producing `…theseedispla~ted`, then hash/key-test | `../second_door_yinyang_joint_audit.json` |
 | **SOLVED** | Structural counts: 86 black versus 85 white + 1 off-white; L/R and diagonal dualities are real | `../second_door_yinyang_joint_audit.json` |
 | **SOLVED** | Resistor-code structural totals Y=4, B=6, W=9, R=2 give total 900 (eye/off-white treated as 9) or 891 (eye treated as 0) | `../second_door_yinyang_joint_audit.json` |
@@ -40,8 +40,8 @@ reported as a failed test.
 | **NEGATIVE** | All-grid resistor streams, prime-zeroing, 14×14 sums/products/determinants, URL-prime/HASHTHETEXT, and rabbit-nest morphology families | `second_door_frontier_derivations.json` |
 | **NEGATIVE** | Force yellow marker LSBs to one → `gsmg/io/uieseeeisqmaouee`; red/resistor and prime-zero variants | `../second_door_yellow_red_audit.json` |
 | **NEGATIVE** | Yellow/red follow-up prime-zero, character-prime, resistor+yflip and red-XOR families: 292 unique scalars | `../second_door_yellow_red_followup.json` |
-| **SOLVED (branch result)** | Direct poster assignment of primes 2..89: Blue=484, Yellow=479; zero blue prime 5 → `479=479`. This is distinct from the fitted S91/Witteveen sums 474/400 | `CREATOR_SOURCED.md` |
-| **SOLVED (milestone only)** | Authenticated Architect plaintext offset 479 starts `PRIVATEKEY…`; this confirms an index hit, not a private-key derivation | `ARCHITECT_479_CONTINUATION.md` |
+| **SOLVED arithmetic / FITTED interpretation** | Direct poster assignment of primes 2..89: Blue=484, Yellow=479; zero blue prime 5 → `479=479`. Consecutive-prime assignment and zeroing semantics are clue-motivated, not cryptographically authenticated | `CREATOR_SOURCED.md` |
+| **FITTED structural hit** | Authenticated A–Z plaintext at zero-based offset 479 starts `PRIVATEKEY…`; one-based position 479 does not. This is a strong hit, not a convention-free key derivation | `ARCHITECT_479_CONTINUATION.md` |
 | **NEGATIVE** | Broad creator-frontier second-door family: 102,093 unique scalars and 41,660 AES checks | `second_door_frontier_derivations.json` |
 | **NEGATIVE** | `yellowblueprimes` bounded derivations independent of Cosmic | `second_door_yellowblueprimes_audit.json` |
 | **NEGATIVE** | Earlier reconstructed creator pipeline (`yellowblueprimes`→matrix sums→Architect words→yin/yang): 86 core + 21 on-chain/name candidates, 2,064 decryptions | `SOLUTION.md`, `../pipeline.py` |
@@ -50,8 +50,9 @@ reported as a failed test.
 
 | Status | Attempt and result | Evidence |
 | --- | --- | --- |
-| **SOLVED** | Pair eight rebus tiles by mirrored gutters/letter fragments → `cryptologicwarningcanyoudigit` | `SOLUTION.md`, `../solve_rebus.py` |
-| **SOLVED** | PNG encoder fingerprints independently confirm the pairings | `SOLUTION.md` |
+| **SOLVED** | Pair eight rebus tiles by mirrored gutters/letter fragments → “cryptologic warning, can you dig it?” | `SOLUTION.md`, `../solve_rebus.py` |
+| **SOLVED (historical evidence)** | Song-lyric continuation supplies the reported form password `theflowerblossomsthroughwhatseemstobeaconcretesurface`; the archived POST cannot be replayed | `SOLUTION.md`, git `c4b6a20e` |
+| **SOLVED (partial control)** | PNG fingerprints pin `CAN YOU` and constrain the remaining groups, but do not independently resolve every pair | `SOLUTION.md` |
 | **NEGATIVE** | Treat archived `/phase1verification` GET 404 as a clue; it is the SPA catch-all and the real form used POST | `../inspect_bundle.py`, `SOLUTION.md` |
 
 ## 3. Phase two and seven parts
@@ -83,8 +84,8 @@ reported as a failed test.
 | **NEGATIVE** | Direct CP1141 decode from “one for one, four for one” | `ARCHITECT_479_CONTINUATION.md` |
 | **NEGATIVE** | Architect word anchors 121/142/182/237 as passwords/scalars | `book_anchor_audit.json` |
 | **NEGATIVE** | L4 phrases as repeating-XOR, Beaufort, or Vigenère cribs over Chain 4 | `l4_crib_audit.json`, `l4_beaufort_audit.json` |
-| **SOLVED** | Fresco quote is exactly 23 words and 140 characters after punctuation removal | `ARCHITECT_479_CONTINUATION.md` |
-| **SOLVED** | `F73D92 XOR A94021` (Neo passport expiry) → 23-bit mask with 16 ones/7 zeroes | same |
+| **SOLVED counts / FITTED quote selection** | Selected Fresco quote is 23 words and 140 characters after removing five punctuation marks; the exact full quote is community editorial context, while `jacquefresco` is the authenticated riddle answer | `ARCHITECT_479_CONTINUATION.md` |
+| **SOLVED arithmetic / FITTED operation** | `F73D92 XOR A94021` → significant-bit mask with 23 bits, 16 ones and 7 zeroes; DDMMYYYY serialization, XOR, leading-zero removal and word alignment are inferred | same |
 | **NEGATIVE** | Seven zero-selected Fresco words expanded to 372 candidates across four ciphertexts, three passphrase forms, two KDF digests and the phase-two hash oracle | `SOLUTION.md` |
 | **NEGATIVE** | 479/484/472/140 windows, heart-centres, prime streams and zero-character-5 families: 725 records, 587 unique scalars | `architect_479_bounded_search.json` |
 | **NEGATIVE** | The same bounded set as 1,174 Half point offsets `P_H±tG` and 1,174 signed ECDSA nonce candidates (7,044 `r` comparisons) | `architect_479_bounded_search.json` |
@@ -104,9 +105,9 @@ reported as a failed test.
 | **SOLVED** | Mechanically segment S91, `matrixsumlist`, S570, trailing decimal fields, hint literals, and embedded AES | `SALPHASEION_PREREGISTRATION.md` |
 | **SOLVED** | Decimal/base16 fields → `lastwordsbeforearchichoice` and `thispassword` | same |
 | **SOLVED** | Binary markers → `matrixsumlist` and `enter` | same |
-| **SOLVED** | Five-token self-referential password opens the embedded 79-byte record | `VERIFICATION_REPORT.md` |
+| **REPRODUCIBLE/FITTED** | Five-token password decrypts a 79-byte record, but token order, inclusion of `enter`, omission of SHA phrases and repeated `matrixsumlist` are not source-instructed | `VERIFICATION_REPORT.md` |
 | **NEGATIVE** | Apply the same password to the independent 48-byte envelope alone | `CREATOR_SOURCED.md` |
-| **SOLVED** | WIF from the first 79-byte record opens the phase-3.2 trailing envelope and establishes a mutual byte link | `VERIFICATION_REPORT.md` |
+| **REPRODUCIBLE/FITTED** | Serializing the first 32 bytes as WIF opens the phase-3.2 trailing envelope; this is a one-way link, not a demonstrated mutual unlock | `VERIFICATION_REPORT.md` |
 | **FITTED** | Interpret `yourlastcommand` and `secondanswer` as tokens six/seven | `VERIFICATION_REPORT.md` |
 | **SOLVED/FITTED** | XOR seven token digests decrypts Cosmic to a reproducible 1327 bytes; token semantics remain fitted | same |
 | **NEGATIVE** | Instruction grammar (`matrixsumlist`/`enter`/`lastwords…`/`thispassword` as operations rather than literals): 281,816 decryptions per envelope; only the known five-token control reproduces downstream structure | `salphaseion_instruction_audit.json` |
@@ -181,7 +182,7 @@ The exact candidate manifests and counts are in
 
 | Status | Attempt and result | Evidence |
 | --- | --- | --- |
-| **SOLVED/FITTED** | 1327 bytes → 103×103 bits, +7 digit shift, base-38 → 68 bytes and `trail1` | `VERIFICATION_REPORT.md` |
+| **REPRODUCIBLE/FITTED** | 1327 bytes → 103×103 bits, +7 cyclic column shift, range 80..117, base-38 → 68 bytes and `trail1`; arithmetic reproduces but layout, range/base and split are selected conventions | `VERIFICATION_REPORT.md` |
 | **NEGATIVE** | Interpret leading `04||x||y` as an uncompressed secp256k1 point; point is off-curve | `SOLUTION.md` |
 | **NEGATIVE** | Treat two 32-byte slices as the prize Half/Better-Half keys | `half_better_combination_audit.json` |
 | **NEGATIVE** | Every standard script/address serialization for those slices | `CREATOR_SOURCED.md` |
@@ -245,7 +246,7 @@ The exact candidate manifests and counts are in
 
 | Status | Attempt | Why retired |
 | --- | --- | --- |
-| **SOLVED/FITTED** | `F73D92` is exactly the URL-byte LSB stream and also literal RGB `(247,61,146)` pink; direct colour/password readings failed and zeroing S570 positions 247/61/146 damaged existing controls | `first_grid_secondary_audit.json`, agent rollout |
+| **SOLVED stream / SUPERSEDED colour claim** | `F73D92` is exactly the URL-byte LSB stream. RGB `(247,61,146)` does not occur in the source image; treating the packed hex as a “rose source colour” was solver-added | `first_grid_secondary_audit.json`, `ARCHITECT_479_CONTINUATION.md` |
 | **NEGATIVE** | `0x77` selects seven Chain 4 blocks | Many bytes have the same frequency |
 | **NEGATIVE** | Book/death-date key for H.J. Witteveen | Funding chronology and target gates fail |
 | **FITTED/OPEN** | Playfair/Four-square produced `EVEN` and `XORU`; the rollout claimed `EVEN → XOR → 3` as an internal control, but downstream Cosmic/Chain4/address tests failed | agent rollout |

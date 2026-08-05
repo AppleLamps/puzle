@@ -10,7 +10,7 @@ unchanged screenplay language and cannot bear the same evidential weight.
 One complete, predeclared reading was executed:
 
 1. use the balanced yellow-prime sum `479` as a zero-based plaintext offset;
-2. return to rose RGB source code `F73D92`;
+2. return to the packed poster-marker code `F73D92`;
 3. XOR the creator-clued prime passport date `11092001` (`A94021` hex), giving
    `5E7DB3` and mask `10111100111110110110011`;
 4. apply the mask to the 23 words of the 140-character Jacque Fresco quote;
@@ -162,12 +162,15 @@ fragments are ranking artifacts, not accepted plaintext.
 
 The route uses one creator-supported value at every free slot:
 
-- `479` comes from the direct yellow-prime sum and lands exactly on
-  `PRIVATEKEY`;
-- `F73D92` is the rose RGB code from the first image;
+- `479` comes from the direct yellow-prime sum and, under zero-based indexing
+  of the authenticated A–Z stream, lands exactly on `PRIVATEKEY`;
+- `F73D92` is the packed blue/yellow marker bitstream from the first image. RGB
+  `(247,61,146)` does not occur in that image; “rose RGB code” was an unsupported
+  solver description;
 - `11092001` is the repeatedly highlighted Neo passport date, is prime, and in
   hex is the same 24-bit width as the rose code;
-- their XOR is 23 bits with exactly 16 ones and 7 zeroes;
+- their XOR, after omitting a leading zero from the fixed-width 24-bit result,
+  is 23 significant bits with exactly 16 ones and 7 zeroes;
 - the quote independently has exactly 23 words and 140 punctuation-free
   characters;
 - zero bits select the seven-word password side; the 16 bits select the

@@ -8,7 +8,7 @@
 | stage | source | answer |
 | --- | --- | --- |
 | `gsmg.io/Puzzle` | `follow_the_white_rabbit.png` | `gsmg.io/theseedisplanted` |
-| `gsmg.io/theseedisplanted` | eight rebus tiles | `cryptologicwarningcanyoudigit` |
+| `gsmg.io/theseedisplanted` | eight rebus tiles / song lyric | `theflowerblossomsthroughwhatseemstobeaconcretesurface` |
 | phase 2 | `gsmg.io/choiceisanillusion…iwroteitmyself` | sha-256 = `1a57c572…d2ec30d5` |
 | phase 3 | `gsmg.io/89727c59…52f6a32` (SalPhaseIon) | open |
 
@@ -47,8 +47,9 @@ Internet Archive wrapper it contains nothing but a title, `GSMG MEGANIGMA || 5 B
 and one image tagged `alt="Follow the white rabbit"`. The saved-page asset folder it
 references was never captured, so the entire puzzle is the PNG.
 
-The PNG has no metadata, no trailing bytes after `IEND`, and a fully opaque alpha
-channel. Everything is in the visible pixels.
+The PNG has no textual metadata or trailing bytes after `IEND`, and a fully
+opaque alpha channel. It does contain ordinary `sRGB`, `gAMA`, and `pHYs`
+chunks. Everything puzzle-relevant is in the visible pixels.
 
 ## Reading the image
 
@@ -73,8 +74,9 @@ binary payload; 196 bits is 24 bytes plus 4 bits.
 
 The 24 blue and yellow cells are not scattered at random. Every one of them sits on
 a cell where `col - row ≡ 1 (mod 4)` — seven diagonal lines holding 49 cells in
-total. Landing 24-for-24 inside a quarter of the grid by chance is a `(1/4)^24`
-event, so the placement is deliberate.
+total. For 24 distinct cells, the exact fixed-residue probability is
+`C(49,24)/C(196,24) = 1.6477510228e-17` (or `6.5910040912e-17` allowing any of
+four residue classes), so the placement is deliberate.
 
 That congruence is the fingerprint of *marking every 8th cell along a path that runs
 in straight rows and columns*: an 8-step move along a run changes `col - row` by
@@ -117,9 +119,11 @@ ambiguity.
 
 ## The off-white cell
 
-The single `254,254,254` cell is at row 7, column 4 — spiral index 163, which is
-not a byte boundary, so it carries no payload bit. It sits in the left-hand column
-of an inner ring, on the same row as and just left of the rabbit drawing.
+The single `254,254,254` cell is at row 7, column 4 — zero-based spiral index
+163. It is byte 20, bit 3 of the payload, inside the `n` of `planted`; it is not
+a byte boundary. Treating off-white as white preserves that zero bit, while
+forcing it to one changes `n` to `~`. It sits in the left-hand column of an
+inner ring, on the same row as and just left of the rabbit drawing.
 
 It is the white rabbit: a white cell that is not quite white, invisible unless you
 sample the pixels, placed on the leg of the spiral that runs *down the left side* —
@@ -127,7 +131,17 @@ the one non-obvious choice in the reading order.
 
 # Stage two: `gsmg.io/theseedisplanted`
 
-**Answer: `cryptologicwarningcanyoudigit`** — "cryptologic warning, can you dig it".
+**Rebus reading:** “cryptologic warning, can you dig it?”
+
+**Historically accepted form password:**
+`theflowerblossomsthroughwhatseemstobeaconcretesurface`.
+
+The tiles establish the four-word clue, not
+`cryptologicwarningcanyoudigit` as the submitted password. “Can you dig it?”
+points to the song lyric whose “Phase 2” line supplies the flower phrase. The
+successful POST cannot now be replayed through Wayback, so acceptance rests on
+the lyric, the next archived page, and the contemporaneous April 2020 solver
+record rather than a live oracle.
 
 Run `python3 solve_rebus.py` to reproduce the pairing from the images.
 
@@ -142,8 +156,8 @@ one other element is a form hidden with `display: none`:
 <input type="password" name="password">
 ```
 
-So the eight images have to spell a password. None of the PNGs carries metadata
-or trailing bytes, so the answer is in the pixels.
+So the eight images have to spell a clue. None carries textual metadata or
+trailing bytes; ordinary PNG colour/physical-resolution chunks are present.
 
 ## The tiles
 
@@ -239,30 +253,30 @@ Worth noting which oracle is stronger here. For phase 2 material the digest is a
 hard, instant test that needs no address derivation at all, and three of the
 seven parts are now fixed.
 
-## Two independent confirmations
+## Additional visual confirmations
 
-The pairing does not rest on the word list alone. The PNG headers group the
-tiles the same way, because tiles saved in the same pass share an encoder
-fingerprint — the `pHYs` pixels-per-metre value, the colour type, and whether an
-`sRGB` chunk is present:
+The pairing does not rest on the word list alone, but PNG fingerprints only
+partially constrain it. Files saved in the same pass can share the `pHYs`
+pixels-per-metre value, colour type, and `sRGB` presence:
 
 | fingerprint | tiles | line |
 | --- | --- | --- |
 | 3779, RGB, no sRGB | `blue_ca`, `red_n_you` | CAN YOU |
-| 3780, RGBA | `black_banking - war`, `red_open_lock_n_ing` | WARNING |
+| 3780, RGBA, mixed sRGB | `black_banking - war`, `red_open_lock_n_ing` | compatible with WARNING, not an exact full-fingerprint match |
 | 3778, RGBA, sRGB | `blue_dig_i`, `red_t`, `blue_lock_lo`, `red_crypto_gic` | DIG IT and CRYPTOLOGIC |
 
-Two of the four lines are pinned exactly by that grouping and the other two are
-confined to the remaining four tiles, which is the same answer the word list
-gives.
+`CAN YOU` is pinned exactly by the full fingerprint. The 3778 group confines
+four tiles to two lines but does not pair them independently, and the WARNING
+pair differs in `sRGB` presence. The visual fragments and word constraints
+complete the pairing.
 
 The two padlocks are also a deliberate matched pair rather than two drawings:
 aligned on their bounding boxes they are pixel-identical except for 25 pixels
 forming the left leg of the shackle, so one is literally the other unlocked.
 
-Nothing else is hidden in the tiles. Every pixel is opaque, none of the eight
-PNGs has metadata or bytes after `IEND`, the white padding is pure white, and
-there is no off-by-one colour marker of the kind stage one used.
+Nothing else is hidden in the tiles. Every pixel is opaque, none has textual
+metadata or bytes after `IEND`, the white padding is pure white, and there is no
+off-by-one colour marker of the kind stage one used.
 
 ## The one judgement call
 
@@ -272,10 +286,9 @@ natural sentence is a header followed by a taunt:
 
 > cryptologic warning — can you dig it?
 
-giving `cryptologicwarningcanyoudigit`. The alternative ordering,
-`canyoudigitcryptologicwarning`, uses the same four words and reads less
-naturally; `canyoudigit` on its own is a third possibility if only the question
-is wanted.
+The alternative ordering, `canyoudigitcryptologicwarning`, uses the same four
+words and reads less naturally. Neither concatenation is authenticated as the
+form password; the lyric continuation above is the supported historical answer.
 
 Note the continuity with stage one: `the seed is planted`, and now `can you dig
 it` — the same gardening pun, which is a good sign the words are right.

@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Extract and decode what is readable in GSMG puzzle phases 2 and 3.
 
-Phase 2 lives at gsmg.io/choiceisanillusion...iwroteitmyself and phase 3 at
-gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32 — that
-slug is a sha-256 digest, which is exactly what phase 2 says its answer is
-("parts 1..7 --> sha-256 -> dgst is the password to enter Phase 3").
+Phase 2 lives at gsmg.io/choiceisanillusion...iwroteitmyself. The separately
+archived SalPhaseIon page is at
+gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32.
+That slug is SHA-256 of the first poster's visible title/address string, not the
+seven-part phase-two digest. The seven-part digest opens the encrypted
+Architect/riddle payload embedded in the phase-two page.
 
 Both pages carry `openssl enc -aes-256-cbc -a` blobs. This pulls them out,
 decodes the parts of phase 3's "SalPhaseIon" stream that are readable without a
@@ -20,7 +22,7 @@ from Crypto.Cipher import AES
 PHASE2_HTML = "GSMG Puzzle3 - phase2.html"
 PHASE3_HTML = "GSMG Puzzle4 - phase3 salphaseion.html"
 
-PHASE2_DIGEST = "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32"
+SALPHASEION_SLUG = "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32"
 
 
 def textareas(path):
@@ -106,14 +108,15 @@ def sweep(blob, words):
 
 
 CANDIDATES = [
-    PHASE2_DIGEST,
-    PHASE2_DIGEST.upper(),
+    SALPHASEION_SLUG,
+    SALPHASEION_SLUG.upper(),
     "matrixsumlist",
     "enter",
     "salphaseion",
     "cosmicduality",
     "theseedisplanted",
     "cryptologicwarningcanyoudigit",
+    "theflowerblossomsthroughwhatseemstobeaconcretesurface",
     "keymaker",
     "theprivatekeymaker",
     "11110",

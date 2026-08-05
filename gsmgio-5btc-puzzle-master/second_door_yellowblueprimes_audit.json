@@ -1,0 +1,60 @@
+{
+  "aes_attempts": 4020,
+  "alternate_structure_hits": [],
+  "families": [
+    "resistor Y=4/B=6 spiral digit streams",
+    "yellowblueprimes concatenations with URL/F73D92/7B9ECC",
+    "URL/S91 character zeroing at primes and color slots",
+    "prime-slot resistor/URL reinsertion into S91",
+    "creator four-token XOR variants",
+    "Witteveen name / 474/400 sums",
+    "101/102 and off-white coordinate literals",
+    "full-grid resistor sums 900/891 and spiral digit readings",
+    "URL XOR resistor/F73D92; letter-O zeroing; pipeline+matrixsumlist"
+  ],
+  "password_padding_hit_count": 11,
+  "prize_addresses": {
+    "Better_Half": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "Half": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "prize_matches": [],
+  "scalar_attempts_unique": 678,
+  "schema": "second-door-yellowblueprimes-audit-v1",
+  "scope_note": "Finite creator-motivated family only. Does not re-enumerate plain spiral bit orders, the published 15/9 color-count reinsertion, or unconstrained password search.",
+  "semantic_or_format_hits": [],
+  "sidecar_token_substitution": {
+    "aes_attempts": 270,
+    "base_tokens": [
+      "matrixsumlist",
+      "enter",
+      "lastwordsbeforearchichoice",
+      "thispassword",
+      "matrixsumlist",
+      "yourlastcommand",
+      "secondanswer"
+    ],
+    "note": "Single-position substitutions of creator pipeline words into the published 7-token XOR; dual subst on both matrixsumlist slots; creator-four concatenations.",
+    "prize_matches": 0,
+    "replacements_tried": 21,
+    "semantic_hits": 0,
+    "strict_padding_hits": 1,
+    "structure_hits": 0,
+    "unique_passwords": 135
+  },
+  "source": {
+    "better_half_hex": "7B9ECC",
+    "half_hex": "7B9EC9",
+    "image": "/workspace/follow_the_white_rabbit.png",
+    "known_chain4_plaintext_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+    "known_cosmic_plaintext_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+    "marker_hex": "F73D92",
+    "resistor": {
+      "blue": 6,
+      "yellow": 4
+    },
+    "url": "gsmg.io/theseedisplanted"
+  },
+  "status": "NO_MATCH",
+  "strict_padding_hits": 11,
+  "unique_preimages": 134
+}

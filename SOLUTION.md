@@ -550,6 +550,56 @@ The offset is exact: the push begins at hex offset 256, which is row 16 only
 under a 16-hex-character layout (a 16-*byte* layout puts it in row 8). That is
 what makes `1616` a single instruction rather than two numbers.
 
+## Part 7 solved: the forced bishop move
+
+"And now a buddhist is forced to move. What will be the next situation?"
+
+A buddhist is a monk, and the monk on a chessboard is the **bishop**. In
+
+    B5KR/1r5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 w - - 0 1
+
+White has fourteen legal moves, of which **exactly one is a bishop move**:
+`Bxb7#`. The a8 bishop's only free square is b7, and the h7 bishop is walled in
+by its own king and rook. So a bishop move really is *forced* — the word is
+doing precise work, not decoration. It is also mate, which is consistent with a
+position where thirteen of White's fourteen moves mate.
+
+The next situation is therefore
+
+    6KR/1B5B/6R1/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 b - - 0 1
+
+and the section marker fits it exactly: `/(aBa, connected not enf)` says mixed
+case with connection *not* enforced — which is precisely how you would describe
+a FEN, whose spaces and slashes must survive.
+
+That earlier reading of mine — Black to move, all nine of whose legal moves are
+bishop moves — is the wrong one. It leaves nine candidates, so nothing is
+forced, and it contradicts the `w` in the FEN.
+
+## Part 1 is letters, not digits
+
+The section marker `/(aaa, connected enf)` says part 1 is **lower case**. That is
+vacuous for a digit string, so the template's tokens must resolve to letters.
+Mapping them A=1:
+
+    2 -> b    S = 32 -> f    H = -42 -> j    4 -> d    B = 49 -> w    15 -> o
+
+and that immediately explains the odd trailing hint on `Q`:
+
+> Q -> extend the name of a hackers' swordless fish, **the I and W are below**.
+
+Under A=1, `B = 49` gives **w**, and `Q` gives **i** if `Q ≡ 9 (mod 26)`. Both
+`Q` and `B` are defined in the lines *below* that sentence — so "the I and W are
+below" is naming the two letters those two clues produce. It is a check digit on
+the mapping, and it confirms A=1 rather than A=0 (which would send 49 to `x`).
+
+`Q = 9` also fits its own clue two ways: drop the sword from *Swordfish* and
+extend the name back out and you have nine characters, and the hacker fish
+ciphers run Blowfish → Twofish → **Threefish**, which is nine letters.
+
+That leaves `X` and `Y`, which have no clue at all, and the closing instruction
+"on the highway, let put it in the worst gear" — reverse, or first.
+
 ## Part 1's H is -42
 
 The other agent's reading of `H -> (Answer to only this puzzle but nothing else)

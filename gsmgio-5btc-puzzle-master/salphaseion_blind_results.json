@@ -1,0 +1,204 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 2256,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "80dcc2107c987a22f1d19f54d6c432665d9a80ceb6fdbe8087be5b6d96442acd",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "c0019",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "ba02f5ee36dc8d873613683d6670b4e6e378852f884ce9f36819db51569be86a",
+      "plaintext_length": 79,
+      "plaintext_sha256": "9cd80462def73ca74421ec3b21aa1c6ff77e910e3d0af0115dbb8af88513cbf9",
+      "provenance": [
+        "matrix-sum-list/S570/zero-based/19x30/rows-then-columns/decimal-comma-separated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "c0040",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "53970f2f7c0e8220a8c90e57dcc9967473c31d13a1d0a5b42c36e0f9a2de4c8e",
+      "plaintext_length": 79,
+      "plaintext_sha256": "ddecf23e30cc7af4b5f78260e0e7237b888f81b9a5873cb07725c6f6dbd9ac39",
+      "provenance": [
+        "matrix-sum-list/S570/one-based/19x30/rows/decimal-comma-separated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "c0046",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "7c6eedc26e5424d98c9098eba0de4948cea1c7689611607e3fd982d26f1268e6",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "03e53bd4745dc87fb461379a710b0c9b25940bc4555183c50ec8d5315f2cef7e",
+      "provenance": [
+        "matrix-sum-list/S570/one-based/19x30/rows-then-columns/decimal-concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "c0115",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "51ed3fe4fadb18d9558abcf99a21701b5d72a7025c1ea225e7bbce78a561dc7d",
+      "plaintext_length": 79,
+      "plaintext_sha256": "17355e71ab929bfbad53b2d1bad0bea2f412a8e538a31682179596b2e1678280",
+      "provenance": [
+        "matrix-sum-list/S91/zero-based/7x13/rows/decimal-space-separated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "c0189",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "1dd4e6798f2dbc2f8fc2953dc7ac2bb48f2469fec204366a09565069daeabd68",
+      "plaintext_length": 79,
+      "plaintext_sha256": "bad70a4b6f13b9e923dc81a82634c0906a9c007864cc3ce5612d10def25a4755",
+      "provenance": [
+        "access-loop/access-sha256"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "c0220",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "b1ac80fe0e13488220ba98318f045cb3637dc1d224dd19923c3ce83f3f085d42",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "a4d00926693fff97ac16d2acfb8b1ef33570f98220bfd09923706039bc407452",
+      "provenance": [
+        "matrix-sum-list/S570/one-based/19x30/rows/json-compact"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "c0220",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "b1ac80fe0e13488220ba98318f045cb3637dc1d224dd19923c3ce83f3f085d42",
+      "plaintext_length": 79,
+      "plaintext_sha256": "5f541c4e0f96a6628efc75b35bd1931e6bfe9916c3b7361cdddadc7e42db1499",
+      "provenance": [
+        "matrix-sum-list/S570/one-based/19x30/rows/json-compact"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "c0225",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "0692735a499defccfd1b24d44d74bef05f4e92f0c9ff892b3aba1d122ff730bb",
+      "plaintext_length": 79,
+      "plaintext_sha256": "ace3e211bcb86c23897429480b8e101e1c645d7fd97b963d7c57589c50718565",
+      "provenance": [
+        "matrix-sum-list/S570/one-based/30x19/columns/json-compact"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "c0278",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "46c33941613ef04b03fd0a8b57ca985acc00d1e4e79f5aab300f35fa2f44c552",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "7ed5c1a4c2570719462e60a17592bbbdf7f23233a03d948fb8626c1a44eb1033",
+      "provenance": [
+        "architect-before-choice/suffix-2/spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "c0363",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "d1d3252aca413c4de21d99eb6f78584d9b2e7b367f0cca17984e3a2fc36b991b",
+      "plaintext_length": 79,
+      "plaintext_sha256": "93cfe33014baafb6fd435a9db02cd6fddd0c52ff974bbb4d0e9552b29d48515c",
+      "provenance": [
+        "source-order/fields-2-5/spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 10
+}

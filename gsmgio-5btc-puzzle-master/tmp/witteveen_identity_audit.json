@@ -1,0 +1,62 @@
+{
+  "unique_s91_color_parse": "BBBBYBBBYYBBBBYBBYYBBYY",
+  "prime_color_sums": {
+    "B": 474,
+    "Y": 400
+  },
+  "s570_controls": [
+    "HILLONE",
+    "___OHICGFASKHSKEYTFMDJK",
+    "KG"
+  ],
+  "scaled_control": "QVYGSPACEVCEMUFPKJBE",
+  "t5_control": "COMPS",
+  "component_pairs": [
+    [
+      3,
+      0
+    ],
+    [
+      22,
+      23
+    ],
+    [
+      23,
+      8
+    ],
+    [
+      37,
+      14
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      29,
+      10
+    ],
+    [
+      40,
+      22
+    ],
+    [
+      52,
+      37
+    ]
+  ],
+  "seven_diagonal_sums": [
+    22,
+    34,
+    19,
+    21,
+    56,
+    30,
+    13
+  ],
+  "structural_name": "WITVEEN",
+  "zeroed_theory_of_everything": "TE",
+  "completed_surname": "WITTEVEEN",
+  "identity_hypothesis": "H.J. WITTEVEEN",
+  "scope": "structural identity audit only; no AES/plaintext/private-key search"
+}

@@ -1,0 +1,2362 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 198,
+  "candidates": [
+    {
+      "candidate_id": "v37c000",
+      "password_expansion": "raw",
+      "password_hex": "1314160813111d1b0e0e121818",
+      "password_sha256": "c1462cfe27d5c87d1f3f1e468f1920923a7d8f1f6d7c9c3090372b416e11d2cd",
+      "preimage_hex": "1314160813111d1b0e0e121818",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63313436326366653237643563383764316633663165343638663139323039323361376438663166366437633963333039303337326234313665313164326364",
+      "password_sha256": "8404d25b891274f1d422ddcc59d76fbefa028dbd668702df1672ccacab5a0b67",
+      "preimage_hex": "1314160813111d1b0e0e121818",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c1462cfe27d5c87d1f3f1e468f1920923a7d8f1f6d7c9c3090372b416e11d2cd",
+      "password_sha256": "9bca5332568603813a46bde5a8eda2507f2d080c3d39fd6fc5715e639e835793",
+      "preimage_hex": "1314160813111d1b0e0e121818",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c003",
+      "password_expansion": "raw",
+      "password_hex": "18181b0d171622201414161f1e",
+      "password_sha256": "73316ebae39403d4cc2522daecefd212c666e77166a6f9031e38b7020e675bf3",
+      "preimage_hex": "18181b0d171622201414161f1e",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37333331366562616533393430336434636332353232646165636566643231326336363665373731363661366639303331653338623730323065363735626633",
+      "password_sha256": "578d536c828953e2b2074a476c35ebce0af71623a8b52af71f86043f11d54ecc",
+      "preimage_hex": "18181b0d171622201414161f1e",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "73316ebae39403d4cc2522daecefd212c666e77166a6f9031e38b7020e675bf3",
+      "password_sha256": "969dd8affe8052ed2fcd7301483bd5a114d12c4cff20c23a0f258ff002003a97",
+      "preimage_hex": "18181b0d171622201414161f1e",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c006",
+      "password_expansion": "raw",
+      "password_hex": "19282c28282121",
+      "password_sha256": "c32efc17a6156e872af364c7bbd721aeab7b9038917765e393685100daa848eb",
+      "preimage_hex": "19282c28282121",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63333265666331376136313536653837326166333634633762626437323161656162376239303338393137373635653339333638353130306461613834386562",
+      "password_sha256": "761de52461b9eb0dd4b1b265ca75baa517c7678917d292cf3567c9ed2703caa5",
+      "preimage_hex": "19282c28282121",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c32efc17a6156e872af364c7bbd721aeab7b9038917765e393685100daa848eb",
+      "password_sha256": "4d09571da4f40f58e9cd37f5dcefb133ddf35f6296e64e2793d2a35ebc3b6c77",
+      "preimage_hex": "19282c28282121",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c009",
+      "password_expansion": "raw",
+      "password_hex": "19282c282821211314160813111d1b0e0e121818",
+      "password_sha256": "bce5376db2b0c37aefbef16df9f3f9726337e1439f90c5883604ed96fdd65ae6",
+      "preimage_hex": "19282c282821211314160813111d1b0e0e121818",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62636535333736646232623063333761656662656631366466396633663937323633333765313433396639306335383833363034656439366664643635616536",
+      "password_sha256": "f2c3b5d5d4d14eea4f07de81fdb816986d103a8355a298b75d6a95b801e934a6",
+      "preimage_hex": "19282c282821211314160813111d1b0e0e121818",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bce5376db2b0c37aefbef16df9f3f9726337e1439f90c5883604ed96fdd65ae6",
+      "password_sha256": "62d3d3e95a92af71bda436c817bae3a17cf2305b8dc60147853d74f1c9996a2d",
+      "preimage_hex": "19282c282821211314160813111d1b0e0e121818",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c012",
+      "password_expansion": "raw",
+      "password_hex": "20323632322b2b",
+      "password_sha256": "f10bdca40e72d1275f5c0c62f36bf640d457ad5daf04ca18c102f39d0b962e5a",
+      "preimage_hex": "20323632322b2b",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66313062646361343065373264313237356635633063363266333662663634306434353761643564616630346361313863313032663339643062393632653561",
+      "password_sha256": "4ed42845fc73e163f85a6054d46411fcc606bfa38dd20a3dbac6d8f5353d9fb8",
+      "preimage_hex": "20323632322b2b",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f10bdca40e72d1275f5c0c62f36bf640d457ad5daf04ca18c102f39d0b962e5a",
+      "password_sha256": "7fa4ba9c5758b78124cdcb342b64e446bab555b1fcd036e48ad7da847b309b98",
+      "preimage_hex": "20323632322b2b",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c015",
+      "password_expansion": "raw",
+      "password_hex": "20323632322b2b18181b0d171622201414161f1e",
+      "password_sha256": "63497c1031600c11918773dfa9abc3c50ec8f04fc7ad3b91e987f6a43adfae52",
+      "preimage_hex": "20323632322b2b18181b0d171622201414161f1e",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36333439376331303331363030633131393138373733646661396162633363353065633866303466633761643362393165393837663661343361646661653532",
+      "password_sha256": "d1948289247dfa548bdb2a4d2b3769661a2898ae30e3988edf4fd36a2ec77d37",
+      "preimage_hex": "20323632322b2b18181b0d171622201414161f1e",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "63497c1031600c11918773dfa9abc3c50ec8f04fc7ad3b91e987f6a43adfae52",
+      "password_sha256": "d12f777d7917845d1d05f0cfebfde4cc4530f7404979bac7759b8a673f038360",
+      "preimage_hex": "20323632322b2b18181b0d171622201414161f1e",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c018",
+      "password_expansion": "raw",
+      "password_hex": "204c827162a028c572cf0c0fb34dae5f0a67e200c9fe36a4ee3431edccbf2168d2fbeb7eade7",
+      "password_sha256": "921004a57aa05ab806cb847e7f48bbf552feead89b3d6019753af1fdaea9f375",
+      "preimage_hex": "204c827162a028c572cf0c0fb34dae5f0a67e200c9fe36a4ee3431edccbf2168d2fbeb7eade7",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-base10-integer-bytes",
+        "s91-prefix-url-lsb-primes/mixed-decimal-to-hex-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39323130303461353761613035616238303663623834376537663438626266353532666565616438396233643630313937353361663166646165613966333735",
+      "password_sha256": "d9fb92452b42bcdaeabb47f224740db8bd9accb4e81f46f86bcb63dee87581a5",
+      "preimage_hex": "204c827162a028c572cf0c0fb34dae5f0a67e200c9fe36a4ee3431edccbf2168d2fbeb7eade7",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-base10-integer-bytes",
+        "s91-prefix-url-lsb-primes/mixed-decimal-to-hex-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "921004a57aa05ab806cb847e7f48bbf552feead89b3d6019753af1fdaea9f375",
+      "password_sha256": "d98b549ecc81461e50bb80132594e48745d25862783fa771a1f4188fba1d2ede",
+      "preimage_hex": "204c827162a028c572cf0c0fb34dae5f0a67e200c9fe36a4ee3431edccbf2168d2fbeb7eade7",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-base10-integer-bytes",
+        "s91-prefix-url-lsb-primes/mixed-decimal-to-hex-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v37c021",
+      "password_expansion": "raw",
+      "password_hex": "31392032302032322038203139203137203239203237203134203134203138203234203234",
+      "password_sha256": "da7d6b0f2e5c0fed815980544bfb607438e5bcdb09e9252ce621867c57888ebe",
+      "preimage_hex": "31392032302032322038203139203137203239203237203134203134203138203234203234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64613764366230663265356330666564383135393830353434626662363037343338653562636462303965393235326365363231383637633537383838656265",
+      "password_sha256": "eab82435e326f150fe761a2ada4896737e1675ee38d2755cdd0c8ecd796c9fa5",
+      "preimage_hex": "31392032302032322038203139203137203239203237203134203134203138203234203234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "da7d6b0f2e5c0fed815980544bfb607438e5bcdb09e9252ce621867c57888ebe",
+      "password_sha256": "3235059a2ca969c37a8d2ed27798a08845afe405030ba29f44fb21f0a6956bd3",
+      "preimage_hex": "31392032302032322038203139203137203239203237203134203134203138203234203234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c024",
+      "password_expansion": "raw",
+      "password_hex": "31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c3234",
+      "password_sha256": "b77da0e4fde5cfbeb134745b07dd5ca65b9a44f1f5a1ec2ee3ff39b337d100e0",
+      "preimage_hex": "31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c3234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62373764613065346664653563666265623133343734356230376464356361363562396134346631663561316563326565336666333962333337643130306530",
+      "password_sha256": "c79f9e1cbfb52ee0581f79b699460bcd08a1ed2bed866263e2f48dbe30d8c3e9",
+      "preimage_hex": "31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c3234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b77da0e4fde5cfbeb134745b07dd5ca65b9a44f1f5a1ec2ee3ff39b337d100e0",
+      "password_sha256": "4de75a03621a5227fedf4e6393b159f22d12230af4ae87d6c9b6c26c7dd324d3",
+      "preimage_hex": "31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c3234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c027",
+      "password_expansion": "raw",
+      "password_hex": "31393230323238313931373239323731343134313832343234",
+      "password_sha256": "fa57794487693b04fa7cc13d73502f998b3ce0e81f0cde9c45c932085fc59f2f",
+      "preimage_hex": "31393230323238313931373239323731343134313832343234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66613537373934343837363933623034666137636331336437333530326639393862336365306538316630636465396334356339333230383566633539663266",
+      "password_sha256": "b8ea68623a67dc3e3b4dd257f35e761f765dd0fde0a081626f7f2ac3281fc546",
+      "preimage_hex": "31393230323238313931373239323731343134313832343234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "fa57794487693b04fa7cc13d73502f998b3ce0e81f0cde9c45c932085fc59f2f",
+      "password_sha256": "621f241e524722c070144ed799bde2ca0fffc8bfdd7ba14fca03c3a9a7deb7f3",
+      "preimage_hex": "31393230323238313931373239323731343134313832343234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c030",
+      "password_expansion": "raw",
+      "password_hex": "3234203234203237203133203233203232203334203332203230203230203232203331203330",
+      "password_sha256": "9d6bdf183f8daafe831333a1d91652124fe60c2d37212b619f9f39f0ac9fa9cf",
+      "preimage_hex": "3234203234203237203133203233203232203334203332203230203230203232203331203330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39643662646631383366386461616665383331333333613164393136353231323466653630633264333732313262363139663966333966306163396661396366",
+      "password_sha256": "91ecaa3bd5fda338d8b868a3adc47f88231e9d4925ca7b9db6595b29bf772078",
+      "preimage_hex": "3234203234203237203133203233203232203334203332203230203230203232203331203330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9d6bdf183f8daafe831333a1d91652124fe60c2d37212b619f9f39f0ac9fa9cf",
+      "password_sha256": "29a9f0855c49478a73fb3330f5820c94f285dda434d529ec5af4669f180061db",
+      "preimage_hex": "3234203234203237203133203233203232203334203332203230203230203232203331203330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c033",
+      "password_expansion": "raw",
+      "password_hex": "32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c3330",
+      "password_sha256": "ff91969a93cedbe6b4133ce66e1b9d26cce19c0eddbb20c1115d5d32ad3c4cb1",
+      "preimage_hex": "32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c3330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66663931393639613933636564626536623431333363653636653162396432366363653139633065646462623230633131313564356433326164336334636231",
+      "password_sha256": "a3e0501fe89cc144a4d72a87df597f56e6ffd481325f2de99cffe8b5d77731bc",
+      "preimage_hex": "32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c3330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ff91969a93cedbe6b4133ce66e1b9d26cce19c0eddbb20c1115d5d32ad3c4cb1",
+      "password_sha256": "18f39457acff02e7320f8cfc151d17aa9a676b6a9e127307dce565218548ecb6",
+      "preimage_hex": "32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c3330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c036",
+      "password_expansion": "raw",
+      "password_hex": "3234323432373133323332323334333232303230323233313330",
+      "password_sha256": "04ac0aa610e1fca2d86660eb0c79de845adbdaef279071ab205042d17eae7e03",
+      "preimage_hex": "3234323432373133323332323334333232303230323233313330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30346163306161363130653166636132643836363630656230633739646538343561646264616566323739303731616232303530343264313765616537653033",
+      "password_sha256": "37cdfee0bce83e38f1712e1822ff172a970c08b2327c6ffbb2a1c9cbf0cfa786",
+      "preimage_hex": "3234323432373133323332323334333232303230323233313330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "04ac0aa610e1fca2d86660eb0c79de845adbdaef279071ab205042d17eae7e03",
+      "password_sha256": "53282f6d12e95e7a53a04dd4b53ea1ed0fcf5546a4de5e9fa4a6ba110975ac72",
+      "preimage_hex": "3234323432373133323332323334333232303230323233313330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c039",
+      "password_expansion": "raw",
+      "password_hex": "3235203430203434203430203430203333203333",
+      "password_sha256": "1dd2e749bb645943f6581c35f850d04c9b3e6611fc310b1e6217af84897a1857",
+      "preimage_hex": "3235203430203434203430203430203333203333",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31646432653734396262363435393433663635383163333566383530643034633962336536363131666333313062316536323137616638343839376131383537",
+      "password_sha256": "349c0087b1ac99cd27365c9ac2df80ce0778dfd032cd1b43068eaf091838df89",
+      "preimage_hex": "3235203430203434203430203430203333203333",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1dd2e749bb645943f6581c35f850d04c9b3e6611fc310b1e6217af84897a1857",
+      "password_sha256": "906ff0144e28248ac12a7bd42fc0867717c1d10234a0a00fe94c278c0c9c9072",
+      "preimage_hex": "3235203430203434203430203430203333203333",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c042",
+      "password_expansion": "raw",
+      "password_hex": "32352034302034342034302034302033332033332031392032302032322038203139203137203239203237203134203134203138203234203234",
+      "password_sha256": "85e060a8d75491cbf44d887456f85d7788dd2ed20fb33270a7c974e35962fa9e",
+      "preimage_hex": "32352034302034342034302034302033332033332031392032302032322038203139203137203239203237203134203134203138203234203234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38356530363061386437353439316362663434643838373435366638356437373838646432656432306662333332373061376339373465333539363266613965",
+      "password_sha256": "87cbbbb1bd73e712b3dccb8f8e61dc460081a2af5485470ab8adab7c87bcfffc",
+      "preimage_hex": "32352034302034342034302034302033332033332031392032302032322038203139203137203239203237203134203134203138203234203234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "85e060a8d75491cbf44d887456f85d7788dd2ed20fb33270a7c974e35962fa9e",
+      "password_sha256": "c4cfefc3e7c3cdcf171e33a38673ad9ebd0728da18f3b5fa6b7023ad00ff1411",
+      "preimage_hex": "32352034302034342034302034302033332033332031392032302032322038203139203137203239203237203134203134203138203234203234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c045",
+      "password_expansion": "raw",
+      "password_hex": "32352c34302c34342c34302c34302c33332c3333",
+      "password_sha256": "877a6cd70217c810b1547e316058caad60949a3eef5de2e906ebd1d46e12d327",
+      "preimage_hex": "32352c34302c34342c34302c34302c33332c3333",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38373761366364373032313763383130623135343765333136303538636161643630393439613365656635646532653930366562643164343665313264333237",
+      "password_sha256": "caf52de7efce7cf88d64cd3c00f34475285cc08678f768f968c538f50278991c",
+      "preimage_hex": "32352c34302c34342c34302c34302c33332c3333",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "877a6cd70217c810b1547e316058caad60949a3eef5de2e906ebd1d46e12d327",
+      "password_sha256": "9d5b79dbc3ee24d152b4d3e84ddf08186a099ae753bbb1bfb376301121b66f69",
+      "preimage_hex": "32352c34302c34342c34302c34302c33332c3333",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c048",
+      "password_expansion": "raw",
+      "password_hex": "32352c34302c34342c34302c34302c33332c33332c31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c3234",
+      "password_sha256": "44b8b94b379c15a8ec9648d6db14f7a5c177b6e20f91cefe6b1fb0763bf3b54e",
+      "preimage_hex": "32352c34302c34342c34302c34302c33332c33332c31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c3234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34346238623934623337396331356138656339363438643664623134663761356331373762366532306639316365666536623166623037363362663362353465",
+      "password_sha256": "c5df47f0d5bd76a763752bddf4321fc6e75cc2454faa5bd6b3271f9aeeaf5527",
+      "preimage_hex": "32352c34302c34342c34302c34302c33332c33332c31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c3234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "44b8b94b379c15a8ec9648d6db14f7a5c177b6e20f91cefe6b1fb0763bf3b54e",
+      "password_sha256": "af4cbe9aeaaaaa3c1750406814f3197ab00cba52c07f8287f05c5c8bf95f75c6",
+      "preimage_hex": "32352c34302c34342c34302c34302c33332c33332c31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c3234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c051",
+      "password_expansion": "raw",
+      "password_hex": "3235343034343430343033333333",
+      "password_sha256": "78da5178ddf7dbfabb9eb82c9f2ba2d6380c884738e4ab08e65407092f633364",
+      "preimage_hex": "3235343034343430343033333333",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37386461353137386464663764626661626239656238326339663262613264363338306338383437333865346162303865363534303730393266363333333634",
+      "password_sha256": "8b9c53805be104461afc52a053b01a30a58866f5bbd36b089317ed9d104606c1",
+      "preimage_hex": "3235343034343430343033333333",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "78da5178ddf7dbfabb9eb82c9f2ba2d6380c884738e4ab08e65407092f633364",
+      "password_sha256": "d0747ee1f66d0252eac98476f646cb655cd886c781e65e5ceba1d04847d35e8e",
+      "preimage_hex": "3235343034343430343033333333",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c054",
+      "password_expansion": "raw",
+      "password_hex": "323534303434343034303333333331393230323238313931373239323731343134313832343234",
+      "password_sha256": "8cb01a166bcf93dfd78cf3850e179a5c6d168164e92d0d8f0da1c91e402ba4c9",
+      "preimage_hex": "323534303434343034303333333331393230323238313931373239323731343134313832343234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38636230316131363662636639336466643738636633383530653137396135633664313638313634653932643064386630646131633931653430326261346339",
+      "password_sha256": "c1c6b2eb4756ed8b8af641b0976e51935b01974bfb55bde6d658de34f81f6e28",
+      "preimage_hex": "323534303434343034303333333331393230323238313931373239323731343134313832343234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8cb01a166bcf93dfd78cf3850e179a5c6d168164e92d0d8f0da1c91e402ba4c9",
+      "password_sha256": "9ef8ed901a74b6a1293c9a94139aa8d19919ce1bfb404cff49b760e94127ef8f",
+      "preimage_hex": "323534303434343034303333333331393230323238313931373239323731343134313832343234",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c057",
+      "password_expansion": "raw",
+      "password_hex": "3332203530203534203530203530203433203433",
+      "password_sha256": "97fa373c64cb0258deb4cc76f2cec83fa6ab1a536324f3609be2d629e4de393d",
+      "preimage_hex": "3332203530203534203530203530203433203433",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39376661333733633634636230323538646562346363373666326365633833666136616231613533363332346633363039626532643632396534646533393364",
+      "password_sha256": "9e6f116eed3e837c33c3359d4ce9fef05148f9bb35b1ec9230dbd2bfdd992e24",
+      "preimage_hex": "3332203530203534203530203530203433203433",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "97fa373c64cb0258deb4cc76f2cec83fa6ab1a536324f3609be2d629e4de393d",
+      "password_sha256": "59fe493110cb1158a0232ec940ef92353c8368617ff466f0eac3f603c70f0079",
+      "preimage_hex": "3332203530203534203530203530203433203433",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c060",
+      "password_expansion": "raw",
+      "password_hex": "3332203530203534203530203530203433203433203234203234203237203133203233203232203334203332203230203230203232203331203330",
+      "password_sha256": "b4ea763e1994d38085da6188f49f81fbe137ed1f9cb8bd66d23cf8adfe3e6bbb",
+      "preimage_hex": "3332203530203534203530203530203433203433203234203234203237203133203233203232203334203332203230203230203232203331203330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62346561373633653139393464333830383564613631383866343966383166626531333765643166396362386264363664323363663861646665336536626262",
+      "password_sha256": "d68d68a54348cf1eba3b6eedd6b0ff84e5818fed70493028afab28e91ae40750",
+      "preimage_hex": "3332203530203534203530203530203433203433203234203234203237203133203233203232203334203332203230203230203232203331203330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b4ea763e1994d38085da6188f49f81fbe137ed1f9cb8bd66d23cf8adfe3e6bbb",
+      "password_sha256": "0bd6742ead0cc747c831b5821583cf4120597606d3be91db2ec38bfd0964f03e",
+      "preimage_hex": "3332203530203534203530203530203433203433203234203234203237203133203233203232203334203332203230203230203232203331203330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v37c063",
+      "password_expansion": "raw",
+      "password_hex": "33322c35302c35342c35302c35302c34332c3433",
+      "password_sha256": "a5200e72cfa681d255d454e2e8db4fe7fe3df63b9a413060413c9942c0e648b4",
+      "preimage_hex": "33322c35302c35342c35302c35302c34332c3433",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61353230306537326366613638316432353564343534653265386462346665376665336466363362396134313330363034313363393934326330653634386234",
+      "password_sha256": "8d2bb2a8a19f9f0476e83139cbc62f3a1df13b31bfe74951851f49b6a5333d1a",
+      "preimage_hex": "33322c35302c35342c35302c35302c34332c3433",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a5200e72cfa681d255d454e2e8db4fe7fe3df63b9a413060413c9942c0e648b4",
+      "password_sha256": "87308515a8e0a9aaacd1f2e1a977fc418219ca7ab47a94cc99389996a6fe8522",
+      "preimage_hex": "33322c35302c35342c35302c35302c34332c3433",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c066",
+      "password_expansion": "raw",
+      "password_hex": "33322c35302c35342c35302c35302c34332c34332c32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c3330",
+      "password_sha256": "7549a88725c1b1d28d57700b85f51021e2c53cc6afcaf409f24ad97c1ea98781",
+      "preimage_hex": "33322c35302c35342c35302c35302c34332c34332c32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c3330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37353439613838373235633162316432386435373730306238356635313032316532633533636336616663616634303966323461643937633165613938373831",
+      "password_sha256": "a0a7aa1acfd27af8e3ba2b941466edb2c245af3c2566f8a62096b2938d280cf1",
+      "preimage_hex": "33322c35302c35342c35302c35302c34332c34332c32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c3330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7549a88725c1b1d28d57700b85f51021e2c53cc6afcaf409f24ad97c1ea98781",
+      "password_sha256": "4065fbf38f6f4720e0b94c3cbb883fba9a2af723f50b2a88e4bec7197b4364cf",
+      "preimage_hex": "33322c35302c35342c35302c35302c34332c34332c32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c3330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v37c069",
+      "password_expansion": "raw",
+      "password_hex": "3332353035343530353034333433",
+      "password_sha256": "770ef9b2ff2783e4145d4fab696839a2afce6b44a76ed7252cac576b461021b6",
+      "preimage_hex": "3332353035343530353034333433",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37373065663962326666323738336534313435643466616236393638333961326166636536623434613736656437323532636163353736623436313032316236",
+      "password_sha256": "2e0b0b2eb0fcb587e11b0896e296a9b0ee946cd08e1d4ff6794ca7e5a0a6a043",
+      "preimage_hex": "3332353035343530353034333433",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "770ef9b2ff2783e4145d4fab696839a2afce6b44a76ed7252cac576b461021b6",
+      "password_sha256": "53b6cf53a988abae1fbeb48f191302d09c7780606820a4455dd35ec273435807",
+      "preimage_hex": "3332353035343530353034333433",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c072",
+      "password_expansion": "raw",
+      "password_hex": "33323530353435303530343334333234323432373133323332323334333232303230323233313330",
+      "password_sha256": "4a9767bf2da22efd14521d498c7554d4dcdfd8a28382bc206fbf11be2ba28042",
+      "preimage_hex": "33323530353435303530343334333234323432373133323332323334333232303230323233313330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34613937363762663264613232656664313435323164343938633735353464346463646664386132383338326263323036666266313162653262613238303432",
+      "password_sha256": "e1f99911a3aad184e76a44a03a50a85f65d1c231800cb1b4bf70fc1eaed3d0db",
+      "preimage_hex": "33323530353435303530343334333234323432373133323332323334333232303230323233313330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4a9767bf2da22efd14521d498c7554d4dcdfd8a28382bc206fbf11be2ba28042",
+      "password_sha256": "e3684209f93b53d9e48590bca52f23067a1420ae686f9581dfd48b77a3520ba4",
+      "preimage_hex": "33323530353435303530343334333234323432373133323332323334333232303230323233313330",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c075",
+      "password_expansion": "raw",
+      "password_hex": "34313132313231393236303231383333313231353732303938313235303231353938323531373735313731353235303232373538313835323838313630323132363430383235313630363334323230363333313337323632303535",
+      "password_sha256": "0a375c65b538fd52a598afa8f37821a6329ac0b1db08a59d255da3a02b6e41ec",
+      "preimage_hex": "34313132313231393236303231383333313231353732303938313235303231353938323531373735313731353235303232373538313835323838313630323132363430383235313630363334323230363333313337323632303535",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30613337356336356235333866643532613539386166613866333738323161363332396163306231646230386135396432353564613361303262366534316563",
+      "password_sha256": "78ed005f546df1c97cae05e52106f40857d634f86697fec124412497da5f322f",
+      "preimage_hex": "34313132313231393236303231383333313231353732303938313235303231353938323531373735313731353235303232373538313835323838313630323132363430383235313630363334323230363333313337323632303535",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0a375c65b538fd52a598afa8f37821a6329ac0b1db08a59d255da3a02b6e41ec",
+      "password_sha256": "c0a54965e74518cf14f00d812bf97e0d51574e2d79b2212b18bb080264d7272d",
+      "preimage_hex": "34313132313231393236303231383333313231353732303938313235303231353938323531373735313731353235303232373538313835323838313630323132363430383235313630363334323230363333313337323632303535",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v37c078",
+      "password_expansion": "raw",
+      "password_hex": "5b31392c2032302c2032322c20382c2031392c2031372c2032392c2032372c2031342c2031342c2031382c2032342c2032345d",
+      "password_sha256": "6a5125a2ea04bc0bf2ddf4748f12c74c75dc07dcf57a9c955b01aeea48098c9d",
+      "preimage_hex": "5b31392c2032302c2032322c20382c2031392c2031372c2032392c2032372c2031342c2031342c2031382c2032342c2032345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36613531323561326561303462633062663264646634373438663132633734633735646330376463663537613963393535623031616565613438303938633964",
+      "password_sha256": "ae83d6f77c3821324566f7cf82e56fc5384e6724317d151f2e35abf76798c09a",
+      "preimage_hex": "5b31392c2032302c2032322c20382c2031392c2031372c2032392c2032372c2031342c2031342c2031382c2032342c2032345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6a5125a2ea04bc0bf2ddf4748f12c74c75dc07dcf57a9c955b01aeea48098c9d",
+      "password_sha256": "5f2ef7e5f5a5f838692eb2db6b73f02786d72e4abe6bf018164943169c3b5cbf",
+      "preimage_hex": "5b31392c2032302c2032322c20382c2031392c2031372c2032392c2032372c2031342c2031342c2031382c2032342c2032345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c081",
+      "password_expansion": "raw",
+      "password_hex": "5b31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c32345d",
+      "password_sha256": "52e5856e63b28a0350448fd1784e36f6cc2de92ffc40d186c9fee766813b9536",
+      "preimage_hex": "5b31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c32345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35326535383536653633623238613033353034343866643137383465333666366363326465393266666334306431383663396665653736363831336239353336",
+      "password_sha256": "fe0985bc36c875ce9d84f147f1f4bd966a7775319ef6737f3b82d39371c5d5c2",
+      "preimage_hex": "5b31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c32345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "52e5856e63b28a0350448fd1784e36f6cc2de92ffc40d186c9fee766813b9536",
+      "password_sha256": "58da6a6f8098426d6d7c43f0b6e6703dce77eaab1df7f9af32288276821d4ba1",
+      "preimage_hex": "5b31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c32345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c084",
+      "password_expansion": "raw",
+      "password_hex": "5b32342c2032342c2032372c2031332c2032332c2032322c2033342c2033322c2032302c2032302c2032322c2033312c2033305d",
+      "password_sha256": "0ffbef3d883706472ee3c5f6d4b0361cb9188563dfb759a622fdf49b74693c25",
+      "preimage_hex": "5b32342c2032342c2032372c2031332c2032332c2032322c2033342c2033322c2032302c2032302c2032322c2033312c2033305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30666662656633643838333730363437326565336335663664346230333631636239313838353633646662373539613632326664663439623734363933633235",
+      "password_sha256": "59b01c0857af2cf7c254ffc9b74277298495bf25af6945cb0c1f921085b3dba8",
+      "preimage_hex": "5b32342c2032342c2032372c2031332c2032332c2032322c2033342c2033322c2032302c2032302c2032322c2033312c2033305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0ffbef3d883706472ee3c5f6d4b0361cb9188563dfb759a622fdf49b74693c25",
+      "password_sha256": "05ec01551f9b16df297cd8f93bab942ae5880a9867ecb0f35b6697a688f5b6af",
+      "preimage_hex": "5b32342c2032342c2032372c2031332c2032332c2032322c2033342c2033322c2032302c2032302c2032322c2033312c2033305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c087",
+      "password_expansion": "raw",
+      "password_hex": "5b32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c33305d",
+      "password_sha256": "b73acebfece4053c5a660b33a9aba013ab3daa2de9f59600ea95a093fd2fd84f",
+      "preimage_hex": "5b32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c33305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62373361636562666563653430353363356136363062333361396162613031336162336461613264653966353936303065613935613039336664326664383466",
+      "password_sha256": "840f6c43efd039b4fc57707837e9efccfb2966a6d7139f5ac0b6196443e87285",
+      "preimage_hex": "5b32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c33305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b73acebfece4053c5a660b33a9aba013ab3daa2de9f59600ea95a093fd2fd84f",
+      "password_sha256": "e80dddfdc5240bc0a32e036866f269a8420070982cbb92c59d01838f3eb5f177",
+      "preimage_hex": "5b32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c33305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c090",
+      "password_expansion": "raw",
+      "password_hex": "5b32352c2034302c2034342c2034302c2034302c2033332c2033332c2031392c2032302c2032322c20382c2031392c2031372c2032392c2032372c2031342c2031342c2031382c2032342c2032345d",
+      "password_sha256": "51f9aa73455d4c0bcb237bdf97fb58bdd5299fb634e88b20b141bdcba113af6e",
+      "preimage_hex": "5b32352c2034302c2034342c2034302c2034302c2033332c2033332c2031392c2032302c2032322c20382c2031392c2031372c2032392c2032372c2031342c2031342c2031382c2032342c2032345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35316639616137333435356434633062636232333762646639376662353862646435323939666236333465383862323062313431626463626131313361663665",
+      "password_sha256": "942d48917d2a927a1b88f9859fc41af8a18f24f6fda75b9767aa786cd95dd7de",
+      "preimage_hex": "5b32352c2034302c2034342c2034302c2034302c2033332c2033332c2031392c2032302c2032322c20382c2031392c2031372c2032392c2032372c2031342c2031342c2031382c2032342c2032345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "51f9aa73455d4c0bcb237bdf97fb58bdd5299fb634e88b20b141bdcba113af6e",
+      "password_sha256": "fddbdd0bb8623c0984d90abf3ca0902b84240f3ac5c3e63b6adb12bbca27383a",
+      "preimage_hex": "5b32352c2034302c2034342c2034302c2034302c2033332c2033332c2031392c2032302c2032322c20382c2031392c2031372c2032392c2032372c2031342c2031342c2031382c2032342c2032345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c093",
+      "password_expansion": "raw",
+      "password_hex": "5b32352c2034302c2034342c2034302c2034302c2033332c2033335d",
+      "password_sha256": "2537e8b5ad333358e5983f4f2dac42e332abe3015c154dc319f5662a5fee7dc3",
+      "preimage_hex": "5b32352c2034302c2034342c2034302c2034302c2033332c2033335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32353337653862356164333333333538653539383366346632646163343265333332616265333031356331353464633331396635363632613566656537646333",
+      "password_sha256": "9eaa284f863eac7acaf3561f28a3eed3313eec189a3541396d2bedeb519ceefc",
+      "preimage_hex": "5b32352c2034302c2034342c2034302c2034302c2033332c2033335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2537e8b5ad333358e5983f4f2dac42e332abe3015c154dc319f5662a5fee7dc3",
+      "password_sha256": "3a6b20daafee723063952c0d4a6e5994a79d5bcf72f199b4f0d374af52ef01e4",
+      "preimage_hex": "5b32352c2034302c2034342c2034302c2034302c2033332c2033335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c096",
+      "password_expansion": "raw",
+      "password_hex": "5b32352c34302c34342c34302c34302c33332c33332c31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c32345d",
+      "password_sha256": "2d82310055d20911fbee7ef36400ad162e321a16525675c01ba14290eec6c02d",
+      "preimage_hex": "5b32352c34302c34342c34302c34302c33332c33332c31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c32345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32643832333130303535643230393131666265653765663336343030616431363265333231613136353235363735633031626131343239306565633663303264",
+      "password_sha256": "0ca67478ba189a007ea90c064ec6bbe798b427e4e434ef3ed1d67e1ef484383f",
+      "preimage_hex": "5b32352c34302c34342c34302c34302c33332c33332c31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c32345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2d82310055d20911fbee7ef36400ad162e321a16525675c01ba14290eec6c02d",
+      "password_sha256": "9bf21aa4b6960a78d9d3b278d6d484a375908ad8eb1b0af4812b83cf19086b7e",
+      "preimage_hex": "5b32352c34302c34342c34302c34302c33332c33332c31392c32302c32322c382c31392c31372c32392c32372c31342c31342c31382c32342c32345d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c099",
+      "password_expansion": "raw",
+      "password_hex": "5b32352c34302c34342c34302c34302c33332c33335d",
+      "password_sha256": "68488ff23f1f2af7fd4630c402a4da313a337e87f28c0c7ce46d3d797ca0d0a0",
+      "preimage_hex": "5b32352c34302c34342c34302c34302c33332c33335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36383438386666323366316632616637666434363330633430326134646133313361333337653837663238633063376365343664336437393763613064306130",
+      "password_sha256": "2afb61ebc45e14d31b359d65e9790add654f1a5f3830849f1e9ab8e52d2d6350",
+      "preimage_hex": "5b32352c34302c34342c34302c34302c33332c33335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "68488ff23f1f2af7fd4630c402a4da313a337e87f28c0c7ce46d3d797ca0d0a0",
+      "password_sha256": "6b817215a7dcb8758d9e1dbcfd9f6ec7ff2ec036644b6d0f18ecfada2c4ce629",
+      "preimage_hex": "5b32352c34302c34342c34302c34302c33332c33335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c102",
+      "password_expansion": "raw",
+      "password_hex": "5b33322c2035302c2035342c2035302c2035302c2034332c2034332c2032342c2032342c2032372c2031332c2032332c2032322c2033342c2033322c2032302c2032302c2032322c2033312c2033305d",
+      "password_sha256": "6654b6c8398f3b18a3250acba98379d349c32f6e7aa26c89e0a6e61f6b1ad913",
+      "preimage_hex": "5b33322c2035302c2035342c2035302c2035302c2034332c2034332c2032342c2032342c2032372c2031332c2032332c2032322c2033342c2033322c2032302c2032302c2032322c2033312c2033305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c103",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36363534623663383339386633623138613332353061636261393833373964333439633332663665376161323663383965306136653631663662316164393133",
+      "password_sha256": "4e2e1ed7742cc5f044f8b8ba4e05d40f728eb944b2f1da505105ab87eb4575e3",
+      "preimage_hex": "5b33322c2035302c2035342c2035302c2035302c2034332c2034332c2032342c2032342c2032372c2031332c2032332c2032322c2033342c2033322c2032302c2032302c2032322c2033312c2033305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c104",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6654b6c8398f3b18a3250acba98379d349c32f6e7aa26c89e0a6e61f6b1ad913",
+      "password_sha256": "83b6aaadde0120c972cbbb76b9a53fa6e613d3d8f9d4cd2357b6bb38e2fb5f8f",
+      "preimage_hex": "5b33322c2035302c2035342c2035302c2035302c2034332c2034332c2032342c2032342c2032372c2031332c2032332c2032322c2033342c2033322c2032302c2032302c2032322c2033312c2033305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c105",
+      "password_expansion": "raw",
+      "password_hex": "5b33322c2035302c2035342c2035302c2035302c2034332c2034335d",
+      "password_sha256": "ef4cf1cfd94b6eb334facce75d81e1d29f8bfb3df9271f9862f4a11825940c47",
+      "preimage_hex": "5b33322c2035302c2035342c2035302c2035302c2034332c2034335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c106",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65663463663163666439346236656233333466616363653735643831653164323966386266623364663932373166393836326634613131383235393430633437",
+      "password_sha256": "694fa364a88d7c22c9d6586cf35f057bf51f83cb43c9321aca73aa4102730985",
+      "preimage_hex": "5b33322c2035302c2035342c2035302c2035302c2034332c2034335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c107",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ef4cf1cfd94b6eb334facce75d81e1d29f8bfb3df9271f9862f4a11825940c47",
+      "password_sha256": "276f58cc9fe1d167d4fcfb292a335dc01337c831fa556e43b88036599fbeb8f0",
+      "preimage_hex": "5b33322c2035302c2035342c2035302c2035302c2034332c2034335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v37c108",
+      "password_expansion": "raw",
+      "password_hex": "5b33322c35302c35342c35302c35302c34332c34332c32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c33305d",
+      "password_sha256": "a72b8f2162f70c2e7a1e3aecc17f9cdb081cddbb77fef4f04dfffc96a7dcb416",
+      "preimage_hex": "5b33322c35302c35342c35302c35302c34332c34332c32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c33305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c109",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61373262386632313632663730633265376131653361656363313766396364623038316364646262373766656634663034646666666339366137646362343136",
+      "password_sha256": "550358be379eeea6f4969cbe5faa9f343bdfb4f3e0884f109d6c54982bb1c504",
+      "preimage_hex": "5b33322c35302c35342c35302c35302c34332c34332c32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c33305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c110",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a72b8f2162f70c2e7a1e3aecc17f9cdb081cddbb77fef4f04dfffc96a7dcb416",
+      "password_sha256": "6da531bcde03402078e737448f623157b77e087c61d604220de321e6b44685c8",
+      "preimage_hex": "5b33322c35302c35342c35302c35302c34332c34332c32342c32342c32372c31332c32332c32322c33342c33322c32302c32302c32322c33312c33305d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c111",
+      "password_expansion": "raw",
+      "password_hex": "5b33322c35302c35342c35302c35302c34332c34335d",
+      "password_sha256": "24c5edf75ea6c8405cae928df5327ce21f49274ebaaff7481ad9d97deee9aafc",
+      "preimage_hex": "5b33322c35302c35342c35302c35302c34332c34335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c112",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32346335656466373565613663383430356361653932386466353332376365323166343932373465626161666637343831616439643937646565653961616663",
+      "password_sha256": "eb39c91f7f4f761627a1090d9aac0a02feacd6c4595c4836fe911161632de527",
+      "preimage_hex": "5b33322c35302c35342c35302c35302c34332c34335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c113",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "24c5edf75ea6c8405cae928df5327ce21f49274ebaaff7481ad9d97deee9aafc",
+      "password_sha256": "559f8fb6f3a9ea39bfe2294286881bf9bc668ce86b2edc35ff07f6978faf4589",
+      "preimage_hex": "5b33322c35302c35342c35302c35302c34332c34335d",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v37c114",
+      "password_expansion": "raw",
+      "password_hex": "61626468616862696565696666",
+      "password_sha256": "0a04e64fd0a4259d41bccba3b40e69e5f8ea3f825813563fc1676aff99bc60df",
+      "preimage_hex": "61626468616862696565696666",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c115",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30613034653634666430613432353964343162636362613362343065363965356638656133663832353831333536336663313637366166663939626336306466",
+      "password_sha256": "d2c3954a29de5969f59a45af339e4fc3d0011354b0b48202f59dfd77385a7ae3",
+      "preimage_hex": "61626468616862696565696666",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c116",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0a04e64fd0a4259d41bccba3b40e69e5f8ea3f825813563fc1676aff99bc60df",
+      "password_sha256": "432b39d87c6c99c74bd963c702ba6713e1c5fac10b9749022b165d6034e33d1d",
+      "preimage_hex": "61626468616862696565696666",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c117",
+      "password_expansion": "raw",
+      "password_hex": "62636569626963616666616767",
+      "password_sha256": "a992f8e4ea3e28cd3bd6c39c7d4c77844e2f642d9010bba824c4822bdefb0b8c",
+      "preimage_hex": "62636569626963616666616767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c118",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61393932663865346561336532386364336264366333396337643463373738343465326636343264393031306262613832346334383232626465666230623863",
+      "password_sha256": "58ada0578dbbe60475b4b4b0d26789316efedcf6897cbf5a68f941d8c6a73498",
+      "preimage_hex": "62636569626963616666616767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c119",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a992f8e4ea3e28cd3bd6c39c7d4c77844e2f642d9010bba824c4822bdefb0b8c",
+      "password_sha256": "e4942ee0bcea40fea9c3193439f672d3efede9f827665baa985a19dba132a9fd",
+      "preimage_hex": "62636569626963616666616767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c120",
+      "password_expansion": "raw",
+      "password_hex": "64626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565",
+      "password_sha256": "44e305eaf9ba7d28079340ad8b0f4a9380f69898fc83f8c941ebd59e7c03fc61",
+      "preimage_hex": "64626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-symbols-bit-as-ab"
+      ]
+    },
+    {
+      "candidate_id": "v37c121",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34346533303565616639626137643238303739333430616438623066346139333830663639383938666338336638633934316562643539653763303366633631",
+      "password_sha256": "1b938ac70585bc6f33fa2edbfa3a29391db1df07a30b0324f70e25b02d186e14",
+      "preimage_hex": "64626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-symbols-bit-as-ab"
+      ]
+    },
+    {
+      "candidate_id": "v37c122",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "44e305eaf9ba7d28079340ad8b0f4a9380f69898fc83f8c941ebd59e7c03fc61",
+      "password_sha256": "51d6de45a62e5b93dded24cf079267df90bf32dfe7dc444b565e83376980114c",
+      "preimage_hex": "64626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-symbols-bit-as-ab"
+      ]
+    },
+    {
+      "candidate_id": "v37c123",
+      "password_expansion": "raw",
+      "password_hex": "64626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565676765636265646369626662666667696762656565616265",
+      "password_sha256": "e6729287fef9d62576d81e6911a7de441dff727a93757e32edeb2499e6b55886",
+      "preimage_hex": "64626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565676765636265646369626662666667696762656565616265",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-symbols-then-remainder"
+      ]
+    },
+    {
+      "candidate_id": "v37c124",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65363732393238376665663964363235373664383165363931316137646534343164666637323761393337353765333265646562323439396536623535383836",
+      "password_sha256": "7274bb5e09fb57fdc2f9622e030db9b8bc6a26745ddc9b4bf87052a7db100993",
+      "preimage_hex": "64626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565676765636265646369626662666667696762656565616265",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-symbols-then-remainder"
+      ]
+    },
+    {
+      "candidate_id": "v37c125",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e6729287fef9d62576d81e6911a7de441dff727a93757e32edeb2499e6b55886",
+      "password_sha256": "9ab9160f4e783e968548e0dbc66591c60a2b072665a46b0fdd7a2696c0a995a5",
+      "preimage_hex": "64626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565676765636265646369626662666667696762656565616265",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/mixed-symbols-then-remainder"
+      ]
+    },
+    {
+      "candidate_id": "v37c126",
+      "password_expansion": "raw",
+      "password_hex": "65656965656767",
+      "password_sha256": "d485bdc3c305e3ff22db8fc1dfd8b86789fa047184c32167a983f80346d55b9f",
+      "preimage_hex": "65656965656767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c127",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64343835626463336333303565336666323264623866633164666438623836373839666130343731383463333231363761393833663830333436643535623966",
+      "password_sha256": "d06f7875b0a81b1bc67de6c9309c6342ce9ac7d0950e09c7be46c0c864ead77e",
+      "preimage_hex": "65656965656767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c128",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d485bdc3c305e3ff22db8fc1dfd8b86789fa047184c32167a983f80346d55b9f",
+      "password_sha256": "a493d490efc5c1f73ea949ad3da7fe200a0f231b2a640d88d73db42604a35ed3",
+      "preimage_hex": "65656965656767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c129",
+      "password_expansion": "raw",
+      "password_hex": "6565696565676766666964656467656262646463",
+      "password_sha256": "5ac9734d2f288eebef8f674d816f5d2d285cb20eb2184931b87b71de31971399",
+      "preimage_hex": "6565696565676766666964656467656262646463",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c130",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35616339373334643266323838656562656638663637346438313666356432643238356362323065623231383439333162383762373164653331393731333939",
+      "password_sha256": "5614feca9869c7665313ffd4543e12b5740e476bc8464e9ac5aff3310fd47442",
+      "preimage_hex": "6565696565676766666964656467656262646463",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c131",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5ac9734d2f288eebef8f674d816f5d2d285cb20eb2184931b87b71de31971399",
+      "password_sha256": "d98671a9b2fe0d8a3c0f3c68b2bce8772203fd2e286785b010693f21513bb10a",
+      "preimage_hex": "6565696565676766666964656467656262646463",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c132",
+      "password_expansion": "raw",
+      "password_hex": "66666166666868",
+      "password_sha256": "1a2c6129ab6c207e71ad84d5e380593dbc884aa270637f8f85b6d7e3799a9f0d",
+      "preimage_hex": "66666166666868",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c133",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31613263363132396162366332303765373161643834643565333830353933646263383834616132373036333766386638356236643765333739396139663064",
+      "password_sha256": "44d103612792b5d295607674c66a0255b96a77f5dd77cc7e844dae21934672dd",
+      "preimage_hex": "66666166666868",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c134",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1a2c6129ab6c207e71ad84d5e380593dbc884aa270637f8f85b6d7e3799a9f0d",
+      "password_sha256": "3b9ae4521373bb24798bad2f58115b8637613ac8eca07a67581bc0ec9a3deaeb",
+      "preimage_hex": "66666166666868",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c135",
+      "password_expansion": "raw",
+      "password_hex": "6666616666686867676165666568666363656564",
+      "password_sha256": "78f7e601be48c1fa9664c337847ac5b6f66f0288b65f8813fce631d1dbab3c14",
+      "preimage_hex": "6666616666686867676165666568666363656564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c136",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37386637653630316265343863316661393636346333333738343761633562366636366630323838623635663838313366636536333164316462616233633134",
+      "password_sha256": "e888a0aad220817e74a842bd04548f7b124c140f260afc73683d00305782126c",
+      "preimage_hex": "6666616666686867676165666568666363656564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c137",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "78f7e601be48c1fa9664c337847ac5b6f66f0288b65f8813fce631d1dbab3c14",
+      "password_sha256": "178977a688a873ac50cf4d81cf844c934a441808995ad1e9552aa9d05d88a8b6",
+      "preimage_hex": "6666616666686867676165666568666363656564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c138",
+      "password_expansion": "raw",
+      "password_hex": "66666964656467656262646463",
+      "password_sha256": "37290005e48f6e6bf8a928cbc8e2b00303d610b987356f9f52eb79afbaedb1f7",
+      "preimage_hex": "66666964656467656262646463",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c139",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33373239303030356534386636653662663861393238636263386532623030333033643631306239383733353666396635326562373961666261656462316637",
+      "password_sha256": "e3f0457087c89a4435de6766a4dcbfeaa56d5dc92baa1d83f64b6ab5826e7ff0",
+      "preimage_hex": "66666964656467656262646463",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c140",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "37290005e48f6e6bf8a928cbc8e2b00303d610b987356f9f52eb79afbaedb1f7",
+      "password_sha256": "360d25a699fa5cda4f64e768125f81d9441b706dfb98cd3af2539921621a35d2",
+      "preimage_hex": "66666964656467656262646463",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c141",
+      "password_expansion": "raw",
+      "password_hex": "66786278787171",
+      "password_sha256": "96f0342e58ed4e641e5ff9125eb3c332cf1b61d8ae57ab71d8b7ab81786748e0",
+      "preimage_hex": "66786278787171",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c142",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39366630333432653538656434653634316535666639313235656233633333326366316236316438616535376162373164386237616238313738363734386530",
+      "password_sha256": "d9ae2b0ddb075eaf0ac51157d77eb918e4c32c70cdefae60b6ce709fbfe764e4",
+      "preimage_hex": "66786278787171",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c143",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "96f0342e58ed4e641e5ff9125eb3c332cf1b61d8ae57ab71d8b7ab81786748e0",
+      "password_sha256": "0e41f87c99aca9cab07e4f7cf25d4e082563a169c73eae356c6ce72082159358",
+      "preimage_hex": "66786278787171",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c144",
+      "password_expansion": "raw",
+      "password_hex": "667862787871717878616d777668667474766564",
+      "password_sha256": "f7594f219f99d79c5a47548065687f1a9628eb7ed6fc03428878da67f5fb4c30",
+      "preimage_hex": "667862787871717878616d777668667474766564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c145",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66373539346632313966393964373963356134373534383036353638376631613936323865623765643666633033343238383738646136376635666234633330",
+      "password_sha256": "cd8c3fddcec4bddeb2c9492eed58fcdfac1937d948457422f0df21c267119607",
+      "preimage_hex": "667862787871717878616d777668667474766564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c146",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f7594f219f99d79c5a47548065687f1a9628eb7ed6fc03428878da67f5fb4c30",
+      "password_sha256": "b6add7c8f58c9f1fa2590cc2842a240ea8dad30d40aad3e0aa73d36f8b022cb9",
+      "preimage_hex": "667862787871717878616d777668667474766564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c147",
+      "password_expansion": "raw",
+      "password_hex": "67646864646666",
+      "password_sha256": "32155e8660215626ec55bbf9dce45e58c6ccbddfc260066ad1b9f7f3248bd7c9",
+      "preimage_hex": "67646864646666",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c148",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33323135356538363630323135363236656335356262663964636534356535386336636362646466633236303036366164316239663766333234386264376339",
+      "password_sha256": "081b614a289f7350ec3ad0ca7b0d4b3ce6c7c3113dc667ac4056926cf89e5569",
+      "preimage_hex": "67646864646666",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c149",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "32155e8660215626ec55bbf9dce45e58c6ccbddfc260066ad1b9f7f3248bd7c9",
+      "password_sha256": "54f990b61ec05867141cd0aa867f83cedb933798f2967b0ce46b9536c24a789d",
+      "preimage_hex": "67646864646666",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c150",
+      "password_expansion": "raw",
+      "password_hex": "6764686464666661626468616862696565696666",
+      "password_sha256": "4eea28a95d61edb5b4d595e18d592ed84db3853012471df9125505e9b006f5b9",
+      "preimage_hex": "6764686464666661626468616862696565696666",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c151",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34656561323861393564363165646235623464353935653138643539326564383464623338353330313234373164663931323535303565396230303666356239",
+      "password_sha256": "c567e9acc0c7219964f1edaa1032b707b645756f470d4c3e5883982248836c25",
+      "preimage_hex": "6764686464666661626468616862696565696666",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c152",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4eea28a95d61edb5b4d595e18d592ed84db3853012471df9125505e9b006f5b9",
+      "password_sha256": "a94c6e019e99c9688b6d7300b93e7b3c45f2aa92e055eec2428c86a01a2a004c",
+      "preimage_hex": "6764686464666661626468616862696565696666",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v37c153",
+      "password_expansion": "raw",
+      "password_hex": "67676165666568666363656564",
+      "password_sha256": "af232f27cdc485945c2e2e6d6f6e7c01fef0c003d999e6764604324f8e6d8f2a",
+      "preimage_hex": "67676165666568666363656564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c154",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61663233326632376364633438353934356332653265366436663665376330316665663063303033643939396536373634363034333234663865366438663261",
+      "password_sha256": "ea1a8c5d5aaaf75e96ab6747e47e8fc8df19119de7e0b6a07bc0538d04ef394b",
+      "preimage_hex": "67676165666568666363656564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c155",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "af232f27cdc485945c2e2e6d6f6e7c01fef0c003d999e6764604324f8e6d8f2a",
+      "password_sha256": "c4be2be80c6d57ed24c295c1908b35f432d8add54bea76475eb7089204a9182c",
+      "preimage_hex": "67676165666568666363656564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c156",
+      "password_expansion": "raw",
+      "password_hex": "676765636265646369626662666667696762656565616265",
+      "password_sha256": "97cc30f2c585fedfdfd65ae2b6b6577524696021a51e187ebde3be9f84fce0cf",
+      "preimage_hex": "676765636265646369626662666667696762656565616265",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/remainder-symbols"
+      ]
+    },
+    {
+      "candidate_id": "v37c157",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39376363333066326335383566656466646664363561653262366236353737353234363936303231613531653138376562646533626539663834666365306366",
+      "password_sha256": "7bd48e5df957ab747f7847a96b04bae45a9cbfd2cb0b6d05d070512109f5365f",
+      "preimage_hex": "676765636265646369626662666667696762656565616265",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/remainder-symbols"
+      ]
+    },
+    {
+      "candidate_id": "v37c158",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "97cc30f2c585fedfdfd65ae2b6b6577524696021a51e187ebde3be9f84fce0cf",
+      "password_sha256": "fb74aa3ec838a02340348ff4bbaa9e8ac25abf69b0a9219555b5492a7ab290c1",
+      "preimage_hex": "676765636265646369626662666667696762656565616265",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/remainder-symbols"
+      ]
+    },
+    {
+      "candidate_id": "v37c159",
+      "password_expansion": "raw",
+      "password_hex": "67676563626564636962666266666769676265656561626564626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565",
+      "password_sha256": "4c36b67d28d9412e3cfacb6d7f79df936ed701c66f47fdcb2ef4c7e208f94432",
+      "preimage_hex": "67676563626564636962666266666769676265656561626564626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/remainder-then-mixed-symbols"
+      ]
+    },
+    {
+      "candidate_id": "v37c160",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34633336623637643238643934313265336366616362366437663739646639333665643730316336366634376664636232656634633765323038663934343332",
+      "password_sha256": "09b7bf4a74b5117a9ad951349ac9b5cc33c949bb0569c1b8b83156342a800127",
+      "preimage_hex": "67676563626564636962666266666769676265656561626564626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/remainder-then-mixed-symbols"
+      ]
+    },
+    {
+      "candidate_id": "v37c161",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4c36b67d28d9412e3cfacb6d7f79df936ed701c66f47fdcb2ef4c7e208f94432",
+      "password_sha256": "b52edb8aa81deced3bc67684fc0a4d42e640a0ab8ae27be344fd6b16659a30cd",
+      "preimage_hex": "67676563626564636962666266666769676265656561626564626262626262696266616262686363626262656762616968616265616262656968626562676765626762656265616262676568626865626868626661626162666461686265626661666364626261666363626367626662616565",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/remainder-then-mixed-symbols"
+      ]
+    },
+    {
+      "candidate_id": "v37c162",
+      "password_expansion": "raw",
+      "password_hex": "67796379797272",
+      "password_sha256": "432296371a629b78ce5045f9913501d695d93c9c14d6f333b935700eb8ab91d6",
+      "preimage_hex": "67796379797272",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c163",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34333232393633373161363239623738636535303435663939313335303164363935643933633963313464366633333362393335373030656238616239316436",
+      "password_sha256": "2226839793e8d500ece8e7839c6928510881409a7632bd3c9132fd307955267f",
+      "preimage_hex": "67796379797272",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c164",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "432296371a629b78ce5045f9913501d695d93c9c14d6f333b935700eb8ab91d6",
+      "password_sha256": "6a0c3cf0afd5c858b43a0ea41de154ff1d431036904bff1278c9de2c8c9875d5",
+      "preimage_hex": "67796379797272",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c165",
+      "password_expansion": "raw",
+      "password_hex": "677963797972727979626e787769677575776665",
+      "password_sha256": "a714cfbde67b0211574df555de05662541e65950e1bb65197127094d658d4711",
+      "preimage_hex": "677963797972727979626e787769677575776665",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c166",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61373134636662646536376230323131353734646635353564653035363632353431653635393530653162623635313937313237303934643635386434373131",
+      "password_sha256": "40ee5304c7f3c1fdd0136ab92565da56c340166f99c3a91b0334e7fd570fb071",
+      "preimage_hex": "677963797972727979626e787769677575776665",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c167",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a714cfbde67b0211574df555de05662541e65950e1bb65197127094d658d4711",
+      "password_sha256": "db75ea05100ae433e32a238408e3c72f176b22f470bfd69745c4966471850a14",
+      "preimage_hex": "677963797972727979626e787769677575776665",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c168",
+      "password_expansion": "raw",
+      "password_hex": "68656965656767",
+      "password_sha256": "487eb6a919789fe53c322eb33410b6c2328df5894ae75c28163a6955428da2df",
+      "preimage_hex": "68656965656767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c169",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34383765623661393139373839666535336333323265623333343130623663323332386466353839346165373563323831363361363935353432386461326466",
+      "password_sha256": "b3a09786b44f13bea457e340648a44b8b0591618413f5ebcd13d0f92755379e4",
+      "preimage_hex": "68656965656767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c170",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "487eb6a919789fe53c322eb33410b6c2328df5894ae75c28163a6955428da2df",
+      "password_sha256": "de3b94a3fb1734371229e8802818dc426775f894c6bf6803bb5ef0598ac42015",
+      "preimage_hex": "68656965656767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c171",
+      "password_expansion": "raw",
+      "password_hex": "6865696565676762636569626963616666616767",
+      "password_sha256": "d1a3745edbf1f8d0b1fd02d455f67caa5297188f738f2ad43d4793b5d3e74b95",
+      "preimage_hex": "6865696565676762636569626963616666616767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c172",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64316133373435656462663166386430623166643032643435356636376361613532393731383866373338663261643433643437393362356433653734623935",
+      "password_sha256": "e6460af77d46b7b8e2adf3a7a2e58f2904ae3bd884ac9ffb71d613876db9b4f7",
+      "preimage_hex": "6865696565676762636569626963616666616767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c173",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d1a3745edbf1f8d0b1fd02d455f67caa5297188f738f2ad43d4793b5d3e74b95",
+      "password_sha256": "5a04fcd81e913dc7172f7172f86064661a2737e13bc1b02a059b5ba9efef5090",
+      "preimage_hex": "6865696565676762636569626963616666616767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c174",
+      "password_expansion": "raw",
+      "password_hex": "73747668737163616e6e727878",
+      "password_sha256": "2f77c3900fb7e9c03e571c15a197052513c02672be3e650e92537f3788e812e6",
+      "preimage_hex": "73747668737163616e6e727878",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c175",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32663737633339303066623765396330336535373163313561313937303532353133633032363732626533653635306539323533376633373838653831326536",
+      "password_sha256": "5cf616ea7c5ae50e6e92733da20b45bf748006e7d926af955509db8fe73d8524",
+      "preimage_hex": "73747668737163616e6e727878",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c176",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2f77c3900fb7e9c03e571c15a197052513c02672be3e650e92537f3788e812e6",
+      "password_sha256": "4de0b8015d89b7e62a8bd083c8af8d53a0c783e046ee74bb8fb8233fab6f8fdd",
+      "preimage_hex": "73747668737163616e6e727878",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c177",
+      "password_expansion": "raw",
+      "password_hex": "74757769747264626f6f737979",
+      "password_sha256": "0d22119ae6c946373270fcdcf4c4cf3941b8efab5dd37663de59380ceb2f24eb",
+      "preimage_hex": "74757769747264626f6f737979",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c178",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30643232313139616536633934363337333237306663646366346334636633393431623865666162356464333736363364653539333830636562326632346562",
+      "password_sha256": "89b6a1852e477b08a5ae4483a00b3a385f902dc45f9d50206e1731ab9b83438c",
+      "preimage_hex": "74757769747264626f6f737979",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c179",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0d22119ae6c946373270fcdcf4c4cf3941b8efab5dd37663de59380ceb2f24eb",
+      "password_sha256": "9d41bad41b06cbca9294dfed16c75331db51157c7f98b96caaf6875ef11808dd",
+      "preimage_hex": "74757769747264626f6f737979",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c180",
+      "password_expansion": "raw",
+      "password_hex": "7878616d777668667474766564",
+      "password_sha256": "fc63941c3c2f3258e81cc39fb50e7e257dbf0b225f7b98b2a32ba909d8a2c980",
+      "preimage_hex": "7878616d777668667474766564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c181",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66633633393431633363326633323538653831636333396662353065376532353764626630623232356637623938623261333262613930396438613263393830",
+      "password_sha256": "3d42c74a554612146999fe5cfeebdaa7d6dd1272addba5e1bb8346b7c8fd0221",
+      "preimage_hex": "7878616d777668667474766564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c182",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "fc63941c3c2f3258e81cc39fb50e7e257dbf0b225f7b98b2a32ba909d8a2c980",
+      "password_sha256": "307eccaf839e9366d0f3a4fa83f65f335c7e31dda2e98012313b190b869298df",
+      "preimage_hex": "7878616d777668667474766564",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c183",
+      "password_expansion": "raw",
+      "password_hex": "796e726e6e6767",
+      "password_sha256": "39f896896bf8e3d8b70810532cdc76d6aac866169f23cabe33994b32eccd7ce0",
+      "preimage_hex": "796e726e6e6767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c184",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33396638393638393662663865336438623730383130353332636463373664366161633836363136396632336361626533333939346233326563636437636530",
+      "password_sha256": "a9244be4fdf71db8cb053acbae34e5e1d92233f47c530f5a80bab880f94cee91",
+      "preimage_hex": "796e726e6e6767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c185",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "39f896896bf8e3d8b70810532cdc76d6aac866169f23cabe33994b32eccd7ce0",
+      "password_sha256": "134218ac39647467e302cf06a08e965f1da2ec795e6cfa92ada962a45c895488",
+      "preimage_hex": "796e726e6e6767",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c186",
+      "password_expansion": "raw",
+      "password_hex": "796e726e6e676773747668737163616e6e727878",
+      "password_sha256": "a4729da68a32d05e8bbe9a33aeab0dc2509c6543527fc5270b2b8dbc85873146",
+      "preimage_hex": "796e726e6e676773747668737163616e6e727878",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c187",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61343732396461363861333264303565386262653961333361656162306463323530396336353433353237666335323730623262386462633835383733313436",
+      "password_sha256": "02cee9efc5f1ee3b87e06a9b746a2788d6a7a8c324e76cd131dd8123308bd1a8",
+      "preimage_hex": "796e726e6e676773747668737163616e6e727878",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c188",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a4729da68a32d05e8bbe9a33aeab0dc2509c6543527fc5270b2b8dbc85873146",
+      "password_sha256": "704060866100694191df785b6fc80443852955fb8b7c8b86767fa09715272cd1",
+      "preimage_hex": "796e726e6e676773747668737163616e6e727878",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v37c189",
+      "password_expansion": "raw",
+      "password_hex": "7979626e787769677575776665",
+      "password_sha256": "8807f2f9f2e9c5e38c48927358f27eade1e79db4eb7b95ec826aaee315c6e26b",
+      "preimage_hex": "7979626e787769677575776665",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c190",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38383037663266396632653963356533386334383932373335386632376561646531653739646234656237623935656338323661616565333135633665323662",
+      "password_sha256": "0497b54b50d8cec5ce38b0299ff925012ba9bd2b7facf90aef939ed9bccaf68f",
+      "preimage_hex": "7979626e787769677575776665",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c191",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8807f2f9f2e9c5e38c48927358f27eade1e79db4eb7b95ec826aaee315c6e26b",
+      "password_sha256": "f1760cc63bda456b6bb04bc67ea32b53ce11ab99f0cd498036d02925c0e499da",
+      "preimage_hex": "7979626e787769677575776665",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-1/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c192",
+      "password_expansion": "raw",
+      "password_hex": "7a6f736f6f6868",
+      "password_sha256": "770cc969b7eb5cb432fb6914fa079b6b9e160d230a333fbbf00c604d198c9d8b",
+      "preimage_hex": "7a6f736f6f6868",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c193",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37373063633936396237656235636234333266623639313466613037396236623965313630643233306133333366626266303063363034643139386339643862",
+      "password_sha256": "a61ac2380087349291b0f807acca2f3caab55fc5a76c0132a03f0d2401b0dada",
+      "preimage_hex": "7a6f736f6f6868",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c194",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "770cc969b7eb5cb432fb6914fa079b6b9e160d230a333fbbf00c604d198c9d8b",
+      "password_sha256": "be2a11a04580bb539ea152a3b67258934b7d06100a4e6388a5ca03c0ece46763",
+      "preimage_hex": "7a6f736f6f6868",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c195",
+      "password_expansion": "raw",
+      "password_hex": "7a6f736f6f686874757769747264626f6f737979",
+      "password_sha256": "c0cc53e4b13098dbe56353c5193b12b5d20226bf6b5bc0ab7fe424c8fbf5a1db",
+      "preimage_hex": "7a6f736f6f686874757769747264626f6f737979",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c196",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63306363353365346231333039386462653536333533633531393362313262356432303232366266366235626330616237666534323463386662663561316462",
+      "password_sha256": "34bc4b0b85dff153322b23d9313a8cd84bf717a66562e8afff986e26b57aebc6",
+      "preimage_hex": "7a6f736f6f686874757769747264626f6f737979",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v37c197",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c0cc53e4b13098dbe56353c5193b12b5d20226bf6b5bc0ab7fe424c8fbf5a1db",
+      "password_sha256": "8c2a3eb6fbe9f2ca2e386a35c06f68f5a4a0a42d0575f3e0ca9bb09f4ebeb7ae",
+      "preimage_hex": "7a6f736f6f686874757769747264626f6f737979",
+      "provenance": [
+        "s91-prefix-url-lsb-primes/matrixsumlist/origin-0/rows-then-columns/mod26-a0"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "forbidden_evidence": [
+      "expected padding length",
+      "target point or address",
+      "known plaintext hashes"
+    ],
+    "inherits_v1_rules_verbatim": true,
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v36_manifest_sha256": "1c74fc5fe19266fc23001d4f3d300c56f2fd9ac8bb62f4535873dfb906fe6153",
+  "schema": "salphaseion-source-only-preregistration-v37-prefix-url-lsb-primes",
+  "source": {
+    "adjacent_instruction": "matrixsumlist",
+    "architect_instruction": "REINSERTING THE PRIME BASICS",
+    "ascii_lsb_bits": "111101110011110110010010",
+    "ascii_lsb_hex": "F73D92",
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "colored_spiral_positions_one_based": [
+      8,
+      16,
+      24,
+      32,
+      40,
+      48,
+      56,
+      64,
+      72,
+      80,
+      88,
+      96,
+      104,
+      112,
+      120,
+      128,
+      136,
+      144,
+      152,
+      160,
+      168,
+      176,
+      184,
+      192
+    ],
+    "matrix_records": [
+      {
+        "origin": 0,
+        "values": [
+          25,
+          40,
+          44,
+          40,
+          40,
+          33,
+          33
+        ],
+        "vector": "row-sums"
+      },
+      {
+        "origin": 0,
+        "values": [
+          19,
+          20,
+          22,
+          8,
+          19,
+          17,
+          29,
+          27,
+          14,
+          14,
+          18,
+          24,
+          24
+        ],
+        "vector": "column-sums"
+      },
+      {
+        "origin": 0,
+        "values": [
+          25,
+          40,
+          44,
+          40,
+          40,
+          33,
+          33,
+          19,
+          20,
+          22,
+          8,
+          19,
+          17,
+          29,
+          27,
+          14,
+          14,
+          18,
+          24,
+          24
+        ],
+        "vector": "rows-then-columns"
+      },
+      {
+        "origin": 1,
+        "values": [
+          32,
+          50,
+          54,
+          50,
+          50,
+          43,
+          43
+        ],
+        "vector": "row-sums"
+      },
+      {
+        "origin": 1,
+        "values": [
+          24,
+          24,
+          27,
+          13,
+          23,
+          22,
+          34,
+          32,
+          20,
+          20,
+          22,
+          31,
+          30
+        ],
+        "vector": "column-sums"
+      },
+      {
+        "origin": 1,
+        "values": [
+          32,
+          50,
+          54,
+          50,
+          50,
+          43,
+          43,
+          24,
+          24,
+          27,
+          13,
+          23,
+          22,
+          34,
+          32,
+          20,
+          20,
+          22,
+          31,
+          30
+        ],
+        "vector": "rows-then-columns"
+      }
+    ],
+    "mixed_symbolic_sha256": "44e305eaf9ba7d28079340ad8b0f4a9380f69898fc83f8c941ebd59e7c03fc61",
+    "mixed_values": [
+      4,
+      1,
+      1,
+      2,
+      1,
+      2,
+      1,
+      9,
+      2,
+      6,
+      0,
+      2,
+      1,
+      8,
+      3,
+      3,
+      1,
+      2,
+      1,
+      5,
+      7,
+      2,
+      0,
+      9,
+      8,
+      1,
+      2,
+      5,
+      0,
+      2,
+      1,
+      5,
+      9,
+      8,
+      2,
+      5,
+      1,
+      7,
+      7,
+      5,
+      1,
+      7,
+      1,
+      5,
+      2,
+      5,
+      0,
+      2,
+      2,
+      7,
+      5,
+      8,
+      1,
+      8,
+      5,
+      2,
+      8,
+      8,
+      1,
+      6,
+      0,
+      2,
+      1,
+      2,
+      6,
+      4,
+      0,
+      8,
+      2,
+      5,
+      1,
+      6,
+      0,
+      6,
+      3,
+      4,
+      2,
+      2,
+      0,
+      6,
+      3,
+      3,
+      1,
+      3,
+      7,
+      2,
+      6,
+      2,
+      0,
+      5,
+      5
+    ],
+    "prime_positions_one_based": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "remainder_24": "ggecbedcibfbffgigbeeeabe",
+    "remainder_24_sha256": "97cc30f2c585fedfdfd65ae2b6b6577524696021a51e187ebde3be9f84fce0cf",
+    "source_prefix_67_sha256": "fe7922ab4bb06c7dca817bb9a88e4873dba25796a0fb7c5fbe55811dfa340ca8",
+    "spiral_text": "gsmg.io/theseedisplanted",
+    "split_rule": "S91[:67] fills non-primes; URL LSBs fill primes; S91[67:] is preserved as remainder",
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

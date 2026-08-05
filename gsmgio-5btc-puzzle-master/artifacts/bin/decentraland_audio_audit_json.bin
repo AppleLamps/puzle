@@ -1,0 +1,109 @@
+{
+  "status": "VERIFIED",
+  "audit_date": "2026-08-03",
+  "official_content_server": "https://peer.decentraland.org/content",
+  "entity": {
+    "cid": "QmRK2YoLei9wrxLvHUKisywobxEvczTicXepPxKLKzN51v",
+    "sha256": "2c2897dc3168dd6ea3e87c56584f8b7743dae967702357d8c3f19a8647a7d29d",
+    "type": "scene",
+    "pointers": [
+      "-41,-16",
+      "-41,-17"
+    ],
+    "timestamp_ms": 1582211536189,
+    "title": "GSMG.io Puzzle piece",
+    "owner": "0x5D801b2B0B216790A49898b322246282547b546b",
+    "content": [
+      {
+        "file": "bin/game.js",
+        "hash": "QmcoAs6kCXynZksyNDB7RTgVYfTkxyrLb8nEU2RJepbhoE"
+      },
+      {
+        "file": "scene.json",
+        "hash": "QmdESuCguQMVXRKYwcXRJLdNcEcfi3ZXxTGPLEE3NC8czC"
+      },
+      {
+        "file": "sounds/puzzlepiece.mp3",
+        "hash": "QmeRy5MjmEZ2W6J3DwhQfht5HKBKXBFpoGzSkzmjeGKiDK"
+      }
+    ],
+    "active_entity_association_verified": true
+  },
+  "audio": {
+    "cid": "QmeRy5MjmEZ2W6J3DwhQfht5HKBKXBFpoGzSkzmjeGKiDK",
+    "sha256": "ef17a96dce37b4dd7cbf79f210c5cbaf37fcae60e5faf8004de4e0832bd0dfee",
+    "length": 212031,
+    "manifest_path": "sounds/puzzlepiece.mp3",
+    "codec": "mp3",
+    "sample_rate": 44100,
+    "channels": 2,
+    "duration_seconds": 5.198375,
+    "bit_rate": 320000,
+    "encoder": "Logic Pro X 10.4.1"
+  },
+  "scene": {
+    "cid": "QmdESuCguQMVXRKYwcXRJLdNcEcfi3ZXxTGPLEE3NC8czC",
+    "sha256": "dd48778735cee440da425bddfae2bc8447deba38295fdce260dab9a7a6c1a5c9",
+    "base": "-41,-17",
+    "parcels": [
+      "-41,-16",
+      "-41,-17"
+    ]
+  },
+  "game": {
+    "cid": "QmcoAs6kCXynZksyNDB7RTgVYfTkxyrLb8nEU2RJepbhoE",
+    "sha256": "d6ced07ecf05426bcc703810dca14c54d9052fe38f28d88fdfb87f9d706728b9",
+    "references_audio": true,
+    "display_text_present": true
+  },
+  "reproduction": {
+    "operation": "decode stereo MP3; mono = left - right; render spectrogram",
+    "message": "HASHTHETEXT",
+    "message_evidence": "visual reading of the generated spectrogram; not automated OCR",
+    "channel_difference_wav": "artifacts/audio_audit/channel_difference.wav",
+    "channel_difference_sha256": "89866ecc44ef94665c8cb71cfe124a1afe9256244bf2f8dd292b2680bbdcf6d9",
+    "spectrogram": "artifacts/audio_audit/channel_difference_spectrogram.png",
+    "spectrogram_sha256": "542b48b450a201fc61e1e0b1c8e1a88c4e3b46d55bd442a4b6d56f2a5b975779",
+    "text_spectrogram": "artifacts/audio_audit/channel_difference_text.png",
+    "text_spectrogram_sha256": "c0096820d583ddf1b0fdd453c1abc0d50aa50e5202b3e79096a3a1bdbb593664"
+  },
+  "salphaseion_substitution_audit": {
+    "motivation": "test whether the authenticated HASHTHETEXT command replaces the literal yourlastcommand semantic token",
+    "token6_candidates": [
+      "yourlastcommand",
+      "HASHTHETEXT",
+      "hashthetext",
+      "enter",
+      "matrixsumlist",
+      "lastwordsbeforearchichoice",
+      "thispassword",
+      "GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+    ],
+    "token7_candidates": [
+      "secondanswer",
+      "HASHTHETEXT",
+      "hashthetext",
+      "enter",
+      "matrixsumlist",
+      "lastwordsbeforearchichoice",
+      "thispassword",
+      "theflowerblossomsthroughwhatseemstobeaconcretesurface",
+      "causality",
+      "jacquefresco",
+      "giveitjustonesecond",
+      "heisenbergsuncertaintyprinciple"
+    ],
+    "tested_pairs": 96,
+    "strict_padding_hits": [
+      {
+        "token6": "yourlastcommand",
+        "token7": "secondanswer",
+        "plaintext_length": 1327,
+        "plaintext_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+        "has_expected_1327_byte_structure": true
+      }
+    ],
+    "hashthetext_token_hits": []
+  },
+  "impact": "Authenticates the original HASHTHETEXT clue and its Decentraland ownership/path. It adds no new post-Chain-4 operand and does not define cosmic_A/ca, row1-4, or K_I1."
+}

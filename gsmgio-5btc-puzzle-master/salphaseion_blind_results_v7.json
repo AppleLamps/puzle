@@ -1,0 +1,93 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 612,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "4f68ed0830942edc4073e5fcd2e8fbc1693ba14426a8eb4d76e8bcb48f7f7d86",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v7c0004",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "2a099be7874a7b2bec689f2e9f6dab8bd7c280308428442980b9113634d92447",
+      "plaintext_length": 79,
+      "plaintext_sha256": "cd508433943d6f8ea86e07fa0af3875d5bb8a8b7d8d161d896a0ca25e06a05ae",
+      "provenance": [
+        "authenticated-architect-tail/editorial-spaces/uppercase"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v7c0031",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "9cd8263c878e69038f11f5d1d3ecc5456943077dbcb04b2ccbe83e62e58a37ed",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "8bb0bcf977c51fdf9b69d8b904d0d11ef05289dfdba292fbf94239cafd175392",
+      "provenance": [
+        "italian-architect-before-choice/suffix-3/compact/uppercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/compact/uppercase/utf8",
+        "italian-architect-before-choice/suffix-3/spaces/uppercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/spaces/uppercase/utf8"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v7c0052",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "473b2e15f03a6c2e995dd353b32cbb1b75f1d2d1be6660b705fec959b9e0fb84",
+      "plaintext_length": 79,
+      "plaintext_sha256": "3b99f44421b2edd9e5d9bfeb3a6de656bfc6c73d84b4723fe587757646742f7d",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-compact/lowercase"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v7c0060",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "73950d9acf672365ad26ffddb060a752ec871263400c2801d7309b204d5ff980",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "e0d1048bad60baafb0963feaaaf2a0d886ec12428ff8126005fc104616071002",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/lowercase/ascii-fold"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 4
+}

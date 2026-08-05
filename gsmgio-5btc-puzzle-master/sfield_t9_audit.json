@@ -1,0 +1,380 @@
+{
+  "status": "NO_CONVINCING_T9_LAYER",
+  "source": {
+    "s91_length": 91,
+    "s91_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "s570_length": 570,
+    "s570_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+    "alphabet": "abcdefghi"
+  },
+  "model": {
+    "separator": "each of nine symbols exhaustively",
+    "key_assignment": "all 8! bijections to standard T9 keys 2 through 9",
+    "lexicon": "wordfreq English top 500000; exact full-word T9-code matches only",
+    "ranking": "covered characters, then covered words, then length-weighted Zipf score",
+    "assignments_tested": 362880
+  },
+  "top": [
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "4",
+        "b": "2",
+        "c": "9",
+        "d": "8",
+        "e": "5",
+        "f": "6",
+        "h": "3",
+        "i": "7"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 156,
+      "covered_words": 55,
+      "language_score": 528.68,
+      "decoded": "miku ? ? mt a s gilt singly d ? wjsn an km ? il liz bali m ll hoagy ? ukko few il vladek l dyk ? lowry roux ii map ? a ? m l glu ? w m txt ? lora pc denby ? ? ? ? ? put ? naegeli l ? yo xi off ? t xrd either s a ky ? ? manne ? ? tidus nfl orions ? s migs i ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "7",
+        "b": "5",
+        "c": "9",
+        "d": "4",
+        "e": "6",
+        "f": "2",
+        "h": "8",
+        "i": "3"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 155,
+      "covered_words": 55,
+      "language_score": 534.4999999999999,
+      "decoded": "apni ? ? ah l d prog escrow t ? yoda la ma ? so nsw klos a on palsy ? imma tux so hokuto m two pickier maxey faiz pp ale ? l doyin a m smh ? w a iwi ? mael el tucky ? ? ? ? ? egg ? ? m ? ya yr but ? i yet triste d l my niazi ? ? ? ? isthe cum ? ? d arse s ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "8",
+        "b": "4",
+        "c": "6",
+        "d": "5",
+        "e": "7",
+        "f": "2",
+        "h": "3",
+        "i": "9"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 155,
+      "covered_words": 55,
+      "language_score": 528.3899999999999,
+      "decoded": "curl ? ? al i w turk ? d ? nswc ha pc ? up run gist a pp tahun ? kprc den up krider s for ? sanyo wako tv biz ? i ? a s url ? m a lol ? qazi xi edain ? ? ? denzel ? wll ? bidvest s souare ma mt add ? l owe ? w i so plank ? chace ? ? juelz ads ? ? w atty t ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "2",
+        "b": "9",
+        "c": "8",
+        "d": "6",
+        "e": "5",
+        "f": "4",
+        "h": "3",
+        "i": "7"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 155,
+      "covered_words": 55,
+      "language_score": 525.7299999999999,
+      "decoded": "halo ? ? in w s calm ? d ? vlsi xi li ? al kat zyla i ll ? ? olli dev al ? l ful ? jitsu shot ca gws ? w skunk i l blm ? t i mum ? lgrw sw feiyu ? sunwest ? deusen ? son ? ? l lucile uh va gee ? m use dancer s w lt johto ? hygge ? ? nador idk ? ? s haas a ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "5",
+        "b": "9",
+        "c": "8",
+        "d": "6",
+        "e": "2",
+        "f": "4",
+        "h": "3",
+        "i": "7"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 155,
+      "covered_words": 55,
+      "language_score": 524.6899999999998,
+      "decoded": "glam ? ? in w s klan ? d ? tash xi ah ? la alt wyck i ca ? ? mach dev la mayeda a etc ? agust shot ll gws ? w sauna i a jan ? t i mum ? airy sw feiyu ? sunwest ? deusen ? son ? ? a ? uh uk gee ? m use djoker s w at bohun ? hygge ? ? olens ida ? ? s ills l ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "3",
+        "b": "5",
+        "c": "9",
+        "d": "2",
+        "e": "6",
+        "f": "7",
+        "h": "8",
+        "i": "4"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 154,
+      "covered_words": 55,
+      "language_score": 527.5000000000001,
+      "decoded": "sena ? ? pc l i edna geremy t ? ymir jr or ? do new kloe s on epley ? comp tux do bokuto m two ? ? gray de ski ? l gowan s m dna ? w s aya ? opik il turky ? ? ? ? ? icc ? ? m ozerov yr we put ? a wit ? i l my marya ? skrrt ? ? betch run sherri ? i pedi d ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "8",
+        "b": "3",
+        "c": "6",
+        "d": "7",
+        "e": "2",
+        "f": "4",
+        "h": "5",
+        "i": "9"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 153,
+      "covered_words": 55,
+      "language_score": 542.0900000000001,
+      "decoded": "hubs ? ? is d w tubs wuhuan l ? nazi di ah ? va cum debt i ca tieto ? rach klm va paella a job ? chown wipo tv hey ? d zampa i a tap ? m i pop ? chye we klien ? ? ? ? ? yrs ? ? a ? oh mt ill ? s owl justly w d an argos ? heigl ? ? pulpy hla ? ? w itty t ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "8",
+        "b": "3",
+        "c": "6",
+        "d": "5",
+        "e": "2",
+        "f": "4",
+        "h": "7",
+        "i": "9"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 153,
+      "covered_words": 55,
+      "language_score": 526.7699999999999,
+      "decoded": "huck ? ? il d w tuck wuhuan s ? nazi di ah ? va cum debt i ca tieto ? laci pro va ? a rob ? chown zijn tv hey ? d wanka i a val ? m i lol ? chye we prien ? ? ? ? ? wll ? ? a antics oh mt gps ? l nys sultry w d an blink ? hehir ? ? lurky ira ? ? w itty t ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "4",
+        "b": "5",
+        "c": "7",
+        "d": "9",
+        "e": "2",
+        "f": "3",
+        "h": "6",
+        "i": "8"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 153,
+      "covered_words": 55,
+      "language_score": 486.4899999999999,
+      "decoded": "diaz ? ? ex l t ghaz viegas m ? rate le be ? ha air llah d ca helis ? wace nor ha zajonc a nsa ? bests tfws ii flu ? l taqwa d a gay ? s d wry ? adul uk noels ? ? ? mostow ? vzw ? ? a ? re si don ? w run ? t l as awdry ? elden ? ? xinyu dna ? ? t diiv i ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "3",
+        "b": "9",
+        "c": "6",
+        "d": "2",
+        "e": "5",
+        "f": "8",
+        "h": "7",
+        "i": "4"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 153,
+      "covered_words": 55,
+      "language_score": 483.28,
+      "decoded": "vela ? ? va w i deja ? s ? njit yu lt ? el leo wyld t ll duzen ? allu pro el ? l sol ? junio ivan de uzi ? w glock t l fla ? m t bob ? luiz ix pruyn ? ? ? progra ? icc ? ? l ? mt of ups ? a nhs seberg i w km katoa ? tytus ? ? cerci url vietti ? i uefi d ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "4",
+        "b": "9",
+        "c": "2",
+        "d": "8",
+        "e": "5",
+        "f": "6",
+        "h": "3",
+        "i": "7"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 151,
+      "covered_words": 54,
+      "language_score": 524.1000000000003,
+      "decoded": "miku ? ? mt w s gilt simila d ? also yo km ? il lib ? m ll hoxha ? ukko feb il ? l dal ? kobra rotc ii nys ? w ? m l glu ? a m vat ? kory sw denza ? ? ? debreu ? put ? ? l jahnke an ah off ? t are either s w la ? ? ozone ? ? tidus nfl orions ? s migs i ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "7",
+        "b": "3",
+        "c": "8",
+        "d": "2",
+        "e": "9",
+        "f": "6",
+        "h": "4",
+        "i": "5"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 151,
+      "covered_words": 54,
+      "language_score": 502.83,
+      "decoded": "nswc ? ? ma d l psyc ? i ? tylo do yo skopelos sw wsu dews m xx soest ? azzo hit sw ? w guy sandals youku koat pp nfl ? d ? m w pwc ? t m ava ? wolf le hindu ? ? ? giulia ? lab ? ? w ? to up ohh ? a uli ? l d yu wanta ? ndong ? ? brick mix ? ? l npsl s ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "2",
+        "b": "3",
+        "c": "6",
+        "d": "5",
+        "e": "4",
+        "f": "8",
+        "h": "7",
+        "i": "9"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 151,
+      "covered_words": 54,
+      "language_score": 492.29999999999995,
+      "decoded": "tail ? ? uk d w bail watain s ? miyu et it ? ah ian fdic t ii ateam ? kiit pro ah khepri i smh ? gtown zuko ca tex ? d ? t i ahl ? m t lol ? huye we ? ? ? ? ? ? wll ? terapia i ? mt ma ups ? l nys salary w d in ? ? vetus ? ? lasky tri twatty ? w tacy a ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "7",
+        "b": "5",
+        "c": "3",
+        "d": "6",
+        "e": "4",
+        "f": "8",
+        "h": "2",
+        "i": "9"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 150,
+      "covered_words": 54,
+      "language_score": 517.78,
+      "decoded": "trio ? ? to l w spin ? a ? fixt lt it ? si ire klip t ii pulse ? niit bad si milcah i beg ? gueye yume pp tlw ? l zheng t i sin ? d t men ? ? xl cctld ? ? ? badwan ? won ? ? i hertha et dr tab ? m ewa crosby w l he goten ? tjuta ? ? ? tag ? ? w urry s ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "3",
+        "b": "4",
+        "c": "7",
+        "d": "9",
+        "e": "5",
+        "f": "2",
+        "h": "6",
+        "i": "8"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 150,
+      "covered_words": 54,
+      "language_score": 507.34999999999997,
+      "decoded": "adly ? ? by i t fely ? m ? skua ha la ? el les hike a ll eager ? wjla nor el ? l nrl ? lasts tays de bit ? i ? a l fly ? s a wry ? kath uh nobis ? ? ? mostow ? vzw ? cineole l ? pc re ann ? w run newent t i jr kyary ? chaco ? ? ? col aufbau ? t beet d ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "5",
+        "b": "4",
+        "c": "7",
+        "d": "2",
+        "e": "8",
+        "f": "6",
+        "h": "9",
+        "i": "3"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 150,
+      "covered_words": 54,
+      "language_score": 506.38,
+      "decoded": "okta ? ? ma i d klub ? w ? stem in to ? lt tls ghul m tv kohls ? auto xxs lt ? t wsu janicek unser docs ll mid ? i furat m t luc ? s m arc ? toei di ? ? fraizer ? ? ? fcc ? ? t ? so pl oxy ? a sex ? d i up tampa ? nimoy ? ? alyce nxt melone ? d mlle l ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "7",
+        "b": "8",
+        "c": "6",
+        "d": "2",
+        "e": "3",
+        "f": "5",
+        "h": "9",
+        "i": "4"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 150,
+      "covered_words": 54,
+      "language_score": 495.71,
+      "decoded": "kpfa ? ? la t i spec ? w ? neil uk el ? re fro tues l de slurm ? adel wyo re ? d zoe saltair ejogo glam pp jug ? t hence l d sea ? m l bob ? flit it ? ? hoatzin ? ? ? icc ? ? d ensley ok or lxx ? a mix ? i t do dalma ? lully ? ? brych lye ? ? i jrpg s ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "8",
+        "b": "4",
+        "c": "6",
+        "d": "7",
+        "e": "2",
+        "f": "3",
+        "h": "5",
+        "i": "9"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 149,
+      "covered_words": 54,
+      "language_score": 564.29,
+      "decoded": "dubs ? ? dr i w tubs ? l ? maze he be ? va cum ghat d ca teito ? race klm va scilla a job ? benzo zero tv fix ? i zampa d a tap ? m d pop ? ? xi klein ? ? ? ? ? yrs ? ? a boufal of mt elk ? s owl justly w i an ardor ? fidel ? ? pulpy fla ? ? w duty t ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "4",
+        "b": "9",
+        "c": "8",
+        "d": "5",
+        "e": "3",
+        "f": "2",
+        "h": "6",
+        "i": "7"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 149,
+      "covered_words": 54,
+      "language_score": 550.5500000000002,
+      "decoded": "biel ? ? al w s igel piaget m ? verb ya dc ? he fit zwei a de gazit ? leda not he keyone d mud ? faust salt ii aws ? w seule a d idk ? t a jul ? easy sw ? ? ? ? ? ? pkk ? ? d ? va uh ann ? l vpn ohlins s w et ? ? ayaan ? ? links and cribbs ? s chip i ? ?"
+    },
+    {
+      "separator": "g",
+      "mapping": {
+        "a": "4",
+        "b": "2",
+        "c": "7",
+        "d": "5",
+        "e": "3",
+        "f": "8",
+        "h": "6",
+        "i": "9"
+      },
+      "encrypted_word_count": 80,
+      "covered_characters": 149,
+      "covered_words": 54,
+      "language_score": 544.3600000000001,
+      "decoded": "viel ? ? uk a w igel wither m ? sext at et ? he dip abdi t de ? ? left nor he jeanne d ore ? furys yuks ii tax ? a werke t d idk ? s t jpl ? fuwa ya novas ? ? ? ? ? wll ? ? d driven st si too ? l syn ? w a dr ? ? tatum ? ? kinky toe twitty ? w thiz i ? ?"
+    }
+  ],
+  "acceptance_note": "A genuine word-separated T9 layer should cover most of the 570-symbol field under one mapping. Isolated dictionary matches are expected by chance."
+}

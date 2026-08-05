@@ -1,0 +1,8134 @@
+{
+  "records": [
+    {
+      "index": 1,
+      "name": "2020-01-14-roses-are-red.png",
+      "sha256": "7f4886a829a682012d9120f2fce923394accade39046e7283d41a3986fea3410",
+      "bytes": 90192,
+      "dimensions": [
+        574,
+        262
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.7954932782385085,
+          "box": [
+            [
+              71.0,
+              18.0
+            ],
+            [
+              122.0,
+              20.0
+            ],
+            [
+              122.0,
+              34.0
+            ],
+            [
+              71.0,
+              33.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.8313187062740326,
+          "box": [
+            [
+              485.0,
+              19.0
+            ],
+            [
+              520.0,
+              19.0
+            ],
+            [
+              520.0,
+              31.0
+            ],
+            [
+              485.0,
+              31.0
+            ]
+          ]
+        },
+        {
+          "text": "Roses are White but often Red.",
+          "confidence": 0.8691141297740321,
+          "box": [
+            [
+              71.0,
+              40.0
+            ],
+            [
+              288.0,
+              40.0
+            ],
+            [
+              288.0,
+              53.0
+            ],
+            [
+              71.0,
+              53.0
+            ]
+          ]
+        },
+        {
+          "text": "YellowhasanumberandsodoesBlue.",
+          "confidence": 0.9479897387566105,
+          "box": [
+            [
+              71.0,
+              60.0
+            ],
+            [
+              348.0,
+              61.0
+            ],
+            [
+              348.0,
+              75.0
+            ],
+            [
+              71.0,
+              74.0
+            ]
+          ]
+        },
+        {
+          "text": "Go back to the first puzzle piece without further ado.",
+          "confidence": 0.9125963319431651,
+          "box": [
+            [
+              71.0,
+              81.0
+            ],
+            [
+              441.0,
+              81.0
+            ],
+            [
+              441.0,
+              96.0
+            ],
+            [
+              71.0,
+              96.0
+            ]
+          ]
+        },
+        {
+          "text": "It might have shown you only one door, beware that the rabbits",
+          "confidence": 0.8881863724617731,
+          "box": [
+            [
+              71.0,
+              124.0
+            ],
+            [
+              514.0,
+              124.0
+            ],
+            [
+              514.0,
+              139.0
+            ],
+            [
+              71.0,
+              139.0
+            ]
+          ]
+        },
+        {
+          "text": "nest may contain a whole lot more.",
+          "confidence": 0.9217052834374564,
+          "box": [
+            [
+              70.0,
+              145.0
+            ],
+            [
+              319.0,
+              145.0
+            ],
+            [
+              319.0,
+              159.0
+            ],
+            [
+              70.0,
+              159.0
+            ]
+          ]
+        },
+        {
+          "text": "Hush hush.",
+          "confidence": 0.8408962163058195,
+          "box": [
+            [
+              71.0,
+              186.0
+            ],
+            [
+              150.0,
+              187.0
+            ],
+            [
+              150.0,
+              201.0
+            ],
+            [
+              71.0,
+              200.0
+            ]
+          ]
+        },
+        {
+          "text": "03:38 AM",
+          "confidence": 0.8106354806158278,
+          "box": [
+            [
+              469.0,
+              195.0
+            ],
+            [
+              521.0,
+              195.0
+            ],
+            [
+              521.0,
+              205.0
+            ],
+            [
+              469.0,
+              205.0
+            ]
+          ]
+        },
+        {
+          "text": "Good luck",
+          "confidence": 0.8910207092761994,
+          "box": [
+            [
+              71.0,
+              224.0
+            ],
+            [
+              143.0,
+              224.0
+            ],
+            [
+              143.0,
+              239.0
+            ],
+            [
+              71.0,
+              239.0
+            ]
+          ]
+        },
+        {
+          "text": "03:38 AM",
+          "confidence": 0.7675336798032125,
+          "box": [
+            [
+              178.0,
+              232.0
+            ],
+            [
+              230.0,
+              232.0
+            ],
+            [
+              230.0,
+              243.0
+            ],
+            [
+              178.0,
+              243.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "Jrk Bgrt\nadmin\nRoses are White but often Red.\nYellowhasanumberandsodoesBlue.\nGo back to the first puzzle piece without further ado.\nIt might have shown you only one door, beware that the rabbits\nnest may contain a whole lot more.\nHush hush.\n03:38 AM\nGood luck\n03:38 AM"
+    },
+    {
+      "index": 2,
+      "name": "2020-02-20-decentraland.jpg",
+      "sha256": "312dfc1898cb0a453ad093d7febb21c1d799717b2c089a5ea1d204aa96df9a35",
+      "bytes": 90957,
+      "dimensions": [
+        1280,
+        749
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "GSMG.ioPuzzlepiece",
+          "confidence": 0.9087124341412595,
+          "box": [
+            [
+              5.0,
+              136.0
+            ],
+            [
+              122.0,
+              139.0
+            ],
+            [
+              122.0,
+              155.0
+            ],
+            [
+              5.0,
+              153.0
+            ]
+          ]
+        },
+        {
+          "text": "O-41,-17",
+          "confidence": 0.7908064524332682,
+          "box": [
+            [
+              5.0,
+              153.0
+            ],
+            [
+              61.0,
+              153.0
+            ],
+            [
+              61.0,
+              170.0
+            ],
+            [
+              5.0,
+              170.0
+            ]
+          ]
+        },
+        {
+          "text": "5 BTCPUZZLE CHALLENGE",
+          "confidence": 0.8867937651547518,
+          "box": [
+            [
+              389.0,
+              145.0
+            ],
+            [
+              870.0,
+              320.0
+            ],
+            [
+              853.0,
+              371.0
+            ],
+            [
+              372.0,
+              196.0
+            ]
+          ]
+        },
+        {
+          "text": "GSMG.IO",
+          "confidence": 0.8254849389195442,
+          "box": [
+            [
+              615.0,
+              190.0
+            ],
+            [
+              758.0,
+              247.0
+            ],
+            [
+              744.0,
+              282.0
+            ],
+            [
+              602.0,
+              225.0
+            ]
+          ]
+        },
+        {
+          "text": "Decentraland:Type /helpfor infoaboutcontrols",
+          "confidence": 0.9050374335712856,
+          "box": [
+            [
+              11.0,
+              668.0
+            ],
+            [
+              375.0,
+              669.0
+            ],
+            [
+              375.0,
+              689.0
+            ],
+            [
+              11.0,
+              688.0
+            ]
+          ]
+        },
+        {
+          "text": "Press enter and start talking...",
+          "confidence": 0.8618973096211752,
+          "box": [
+            [
+              8.0,
+              713.0
+            ],
+            [
+              238.0,
+              715.0
+            ],
+            [
+              238.0,
+              739.0
+            ],
+            [
+              8.0,
+              737.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "GSMG.ioPuzzlepiece\nO-41,-17\n5 BTCPUZZLE CHALLENGE\nGSMG.IO\nDecentraland:Type /helpfor infoaboutcontrols\nPress enter and start talking..."
+    },
+    {
+      "index": 3,
+      "name": "2020-04-08.png",
+      "sha256": "64db0a372d006dc9b6d7900e8de028eb5f8a9a6e50866565a2e530f69f4f9cfc",
+      "bytes": 57827,
+      "dimensions": [
+        580,
+        145
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "admin",
+          "confidence": 0.7506412367026011,
+          "box": [
+            [
+              482.0,
+              16.0
+            ],
+            [
+              516.0,
+              17.0
+            ],
+            [
+              516.0,
+              28.0
+            ],
+            [
+              481.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "text": "JrkBgrt",
+          "confidence": 0.8621415868401527,
+          "box": [
+            [
+              68.0,
+              17.0
+            ],
+            [
+              118.0,
+              18.0
+            ],
+            [
+              117.0,
+              32.0
+            ],
+            [
+              67.0,
+              31.0
+            ]
+          ]
+        },
+        {
+          "text": "Humph. Hope, it is the quintessential human delusion,",
+          "confidence": 0.9083901947295224,
+          "box": [
+            [
+              69.0,
+              37.0
+            ],
+            [
+              452.0,
+              37.0
+            ],
+            [
+              452.0,
+              53.0
+            ],
+            [
+              69.0,
+              53.0
+            ]
+          ]
+        },
+        {
+          "text": "simultaneouslythesourceofyour",
+          "confidence": 0.9215323209762574,
+          "box": [
+            [
+              67.0,
+              58.0
+            ],
+            [
+              310.0,
+              58.0
+            ],
+            [
+              310.0,
+              74.0
+            ],
+            [
+              67.0,
+              73.0
+            ]
+          ]
+        },
+        {
+          "text": "greatest strength, and your",
+          "confidence": 0.8988999064479556,
+          "box": [
+            [
+              309.0,
+              60.0
+            ],
+            [
+              502.0,
+              59.0
+            ],
+            [
+              502.0,
+              73.0
+            ],
+            [
+              309.0,
+              74.0
+            ]
+          ]
+        },
+        {
+          "text": "greatestweakness.",
+          "confidence": 0.9352546168698205,
+          "box": [
+            [
+              67.0,
+              81.0
+            ],
+            [
+              205.0,
+              79.0
+            ],
+            [
+              205.0,
+              94.0
+            ],
+            [
+              67.0,
+              95.0
+            ]
+          ]
+        },
+        {
+          "text": "02:33PM",
+          "confidence": 0.8626311644911766,
+          "box": [
+            [
+              466.0,
+              88.0
+            ],
+            [
+              516.0,
+              88.0
+            ],
+            [
+              516.0,
+              98.0
+            ],
+            [
+              466.0,
+              98.0
+            ]
+          ]
+        },
+        {
+          "text": "(not a hint btw, just fooling",
+          "confidence": 0.9133909205595653,
+          "box": [
+            [
+              68.0,
+              117.0
+            ],
+            [
+              259.0,
+              117.0
+            ],
+            [
+              259.0,
+              133.0
+            ],
+            [
+              68.0,
+              133.0
+            ]
+          ]
+        },
+        {
+          "text": "garound",
+          "confidence": 0.8035548254847527,
+          "box": [
+            [
+              251.0,
+              120.0
+            ],
+            [
+              312.0,
+              118.0
+            ],
+            [
+              312.0,
+              132.0
+            ],
+            [
+              251.0,
+              134.0
+            ]
+          ]
+        },
+        {
+          "text": "02:33PM",
+          "confidence": 0.8607738614082336,
+          "box": [
+            [
+              326.0,
+              126.0
+            ],
+            [
+              376.0,
+              126.0
+            ],
+            [
+              376.0,
+              136.0
+            ],
+            [
+              326.0,
+              136.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "admin\nJrkBgrt\nHumph. Hope, it is the quintessential human delusion,\nsimultaneouslythesourceofyour\ngreatest strength, and your\ngreatestweakness.\n02:33PM\n(not a hint btw, just fooling\ngaround\n02:33PM"
+    },
+    {
+      "index": 4,
+      "name": "2020-05-11.png",
+      "sha256": "ac8e1d9bbc1e7891eff5282e39dbc57ca0f8ef90e827b4fde4aef7f944ecdfc2",
+      "bytes": 47397,
+      "dimensions": [
+        583,
+        115
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.7834091054068671,
+          "box": [
+            [
+              64.0,
+              20.0
+            ],
+            [
+              115.0,
+              21.0
+            ],
+            [
+              115.0,
+              35.0
+            ],
+            [
+              64.0,
+              34.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.7010481953620911,
+          "box": [
+            [
+              479.0,
+              20.0
+            ],
+            [
+              512.0,
+              20.0
+            ],
+            [
+              512.0,
+              31.0
+            ],
+            [
+              479.0,
+              31.0
+            ]
+          ]
+        },
+        {
+          "text": "Let's see what bitcoin is worth the next halving",
+          "confidence": 0.8852207502540277,
+          "box": [
+            [
+              64.0,
+              39.0
+            ],
+            [
+              395.0,
+              41.0
+            ],
+            [
+              395.0,
+              56.0
+            ],
+            [
+              64.0,
+              55.0
+            ]
+          ]
+        },
+        {
+          "text": "and who knows",
+          "confidence": 0.8269069875989642,
+          "box": [
+            [
+              394.0,
+              41.0
+            ],
+            [
+              509.0,
+              40.0
+            ],
+            [
+              510.0,
+              55.0
+            ],
+            [
+              394.0,
+              55.0
+            ]
+          ]
+        },
+        {
+          "text": "what you'll find after opening the",
+          "confidence": 0.9123424632208688,
+          "box": [
+            [
+              63.0,
+              60.0
+            ],
+            [
+              296.0,
+              61.0
+            ],
+            [
+              296.0,
+              78.0
+            ],
+            [
+              63.0,
+              77.0
+            ]
+          ]
+        },
+        {
+          "text": "2nd door. The price is in half,",
+          "confidence": 0.9361640531569719,
+          "box": [
+            [
+              298.0,
+              60.0
+            ],
+            [
+              507.0,
+              61.0
+            ],
+            [
+              507.0,
+              77.0
+            ],
+            [
+              298.0,
+              77.0
+            ]
+          ]
+        },
+        {
+          "text": "but what does it mean",
+          "confidence": 0.9152292257005518,
+          "box": [
+            [
+              64.0,
+              83.0
+            ],
+            [
+              222.0,
+              83.0
+            ],
+            [
+              222.0,
+              96.0
+            ],
+            [
+              64.0,
+              96.0
+            ]
+          ]
+        },
+        {
+          "text": "02:31PM",
+          "confidence": 0.7615815661847591,
+          "box": [
+            [
+              463.0,
+              91.0
+            ],
+            [
+              513.0,
+              91.0
+            ],
+            [
+              513.0,
+              100.0
+            ],
+            [
+              463.0,
+              101.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "Jrk Bgrt\nadmin\nLet's see what bitcoin is worth the next halving\nand who knows\nwhat you'll find after opening the\n2nd door. The price is in half,\nbut what does it mean\n02:31PM"
+    },
+    {
+      "index": 5,
+      "name": "2020-06-07-salph-discord.png",
+      "sha256": "349aca1ff8271272674bfffa99fed92e2393881b7acb19eb76042687ce3a90dc",
+      "bytes": 20515,
+      "dimensions": [
+        694,
+        136
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "VrsN",
+          "confidence": 0.7137848496437073,
+          "box": [
+            [
+              75.0,
+              32.0
+            ],
+            [
+              109.0,
+              32.0
+            ],
+            [
+              109.0,
+              44.0
+            ],
+            [
+              75.0,
+              44.0
+            ]
+          ]
+        },
+        {
+          "text": "07/06/202009:53",
+          "confidence": 0.8090938962996006,
+          "box": [
+            [
+              116.0,
+              34.0
+            ],
+            [
+              210.0,
+              34.0
+            ],
+            [
+              210.0,
+              44.0
+            ],
+            [
+              116.0,
+              44.0
+            ]
+          ]
+        },
+        {
+          "text": "SalPhaselon. Anybody there by now? We're stuck for over 2 months now. Just",
+          "confidence": 0.9278967869281769,
+          "box": [
+            [
+              73.0,
+              52.0
+            ],
+            [
+              597.0,
+              52.0
+            ],
+            [
+              597.0,
+              68.0
+            ],
+            [
+              73.0,
+              68.0
+            ]
+          ]
+        },
+        {
+          "text": "combine the last 2 hints and understand what the first door is, then you know what",
+          "confidence": 0.9151762242776802,
+          "box": [
+            [
+              73.0,
+              74.0
+            ],
+            [
+              636.0,
+              74.0
+            ],
+            [
+              636.0,
+              90.0
+            ],
+            [
+              73.0,
+              89.0
+            ]
+          ]
+        },
+        {
+          "text": "tolookfor",
+          "confidence": 0.8691468894481659,
+          "box": [
+            [
+              75.0,
+              97.0
+            ],
+            [
+              144.0,
+              98.0
+            ],
+            [
+              144.0,
+              110.0
+            ],
+            [
+              74.0,
+              110.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "VrsN\n07/06/202009:53\nSalPhaselon. Anybody there by now? We're stuck for over 2 months now. Just\ncombine the last 2 hints and understand what the first door is, then you know what\ntolookfor"
+    },
+    {
+      "index": 6,
+      "name": "2020-08-02.png",
+      "sha256": "de4186928bb3bacd78724a8b1036245561728224fb73efec66a647084ba991dc",
+      "bytes": 82591,
+      "dimensions": [
+        571,
+        206
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "senape",
+          "confidence": 0.8484774827957153,
+          "box": [
+            [
+              58.0,
+              13.0
+            ],
+            [
+              104.0,
+              14.0
+            ],
+            [
+              104.0,
+              25.0
+            ],
+            [
+              58.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "text": "I know, but they said that the second half will probably be used",
+          "confidence": 0.8819387050775381,
+          "box": [
+            [
+              58.0,
+              31.0
+            ],
+            [
+              499.0,
+              31.0
+            ],
+            [
+              499.0,
+              45.0
+            ],
+            [
+              58.0,
+              45.0
+            ]
+          ]
+        },
+        {
+          "text": "foranotherpuzzle",
+          "confidence": 0.898399293422699,
+          "box": [
+            [
+              58.0,
+              51.0
+            ],
+            [
+              187.0,
+              53.0
+            ],
+            [
+              187.0,
+              67.0
+            ],
+            [
+              58.0,
+              65.0
+            ]
+          ]
+        },
+        {
+          "text": "10:46 AM",
+          "confidence": 0.7554704248905182,
+          "box": [
+            [
+              457.0,
+              60.0
+            ],
+            [
+              507.0,
+              60.0
+            ],
+            [
+              507.0,
+              70.0
+            ],
+            [
+              457.0,
+              70.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.7968353033065796,
+          "box": [
+            [
+              58.0,
+              93.0
+            ],
+            [
+              109.0,
+              94.0
+            ],
+            [
+              109.0,
+              108.0
+            ],
+            [
+              58.0,
+              107.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.7277164359887441,
+          "box": [
+            [
+              389.0,
+              93.0
+            ],
+            [
+              424.0,
+              93.0
+            ],
+            [
+              424.0,
+              105.0
+            ],
+            [
+              389.0,
+              105.0
+            ]
+          ]
+        },
+        {
+          "text": "Or the same puzzle, or just not at al",
+          "confidence": 0.8982446585830889,
+          "box": [
+            [
+              59.0,
+              114.0
+            ],
+            [
+              314.0,
+              114.0
+            ],
+            [
+              314.0,
+              128.0
+            ],
+            [
+              59.0,
+              128.0
+            ]
+          ]
+        },
+        {
+          "text": "T0:54AM",
+          "confidence": 0.6632972545921803,
+          "box": [
+            [
+              374.0,
+              122.0
+            ],
+            [
+              425.0,
+              122.0
+            ],
+            [
+              425.0,
+              132.0
+            ],
+            [
+              374.0,
+              132.0
+            ]
+          ]
+        },
+        {
+          "text": "Really nobody managed to find the extra door, didn't expect",
+          "confidence": 0.8831585675477982,
+          "box": [
+            [
+              58.0,
+              151.0
+            ],
+            [
+              475.0,
+              152.0
+            ],
+            [
+              475.0,
+              167.0
+            ],
+            [
+              58.0,
+              166.0
+            ]
+          ]
+        },
+        {
+          "text": "that after the earlier pace of cracking things",
+          "confidence": 0.9245303653656168,
+          "box": [
+            [
+              57.0,
+              172.0
+            ],
+            [
+              369.0,
+              173.0
+            ],
+            [
+              369.0,
+              188.0
+            ],
+            [
+              57.0,
+              187.0
+            ]
+          ]
+        },
+        {
+          "text": "T0:56 AM",
+          "confidence": 0.8045241700278388,
+          "box": [
+            [
+              457.0,
+              181.0
+            ],
+            [
+              507.0,
+              181.0
+            ],
+            [
+              507.0,
+              191.0
+            ],
+            [
+              457.0,
+              191.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "senape\nI know, but they said that the second half will probably be used\nforanotherpuzzle\n10:46 AM\nJrk Bgrt\nadmin\nOr the same puzzle, or just not at al\nT0:54AM\nReally nobody managed to find the extra door, didn't expect\nthat after the earlier pace of cracking things\nT0:56 AM"
+    },
+    {
+      "index": 7,
+      "name": "2021-01-21.png",
+      "sha256": "3acd19edd58a678249b669670cc61b66bd3ade6ad40b8f521eb57dfff1aad523",
+      "bytes": 62794,
+      "dimensions": [
+        604,
+        140
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "January 21,2021",
+          "confidence": 0.8506630659103394,
+          "box": [
+            [
+              308.0,
+              14.0
+            ],
+            [
+              422.0,
+              14.0
+            ],
+            [
+              422.0,
+              28.0
+            ],
+            [
+              308.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "text": "JrkBgrt",
+          "confidence": 0.8662998229265213,
+          "box": [
+            [
+              68.0,
+              57.0
+            ],
+            [
+              119.0,
+              59.0
+            ],
+            [
+              119.0,
+              74.0
+            ],
+            [
+              68.0,
+              72.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.8236973583698273,
+          "box": [
+            [
+              483.0,
+              58.0
+            ],
+            [
+              517.0,
+              58.0
+            ],
+            [
+              517.0,
+              70.0
+            ],
+            [
+              483.0,
+              70.0
+            ]
+          ]
+        },
+        {
+          "text": "Not to give any hint s but a few might not require the internet",
+          "confidence": 0.9143571304157376,
+          "box": [
+            [
+              69.0,
+              78.0
+            ],
+            [
+              498.0,
+              78.0
+            ],
+            [
+              498.0,
+              94.0
+            ],
+            [
+              69.0,
+              94.0
+            ]
+          ]
+        },
+        {
+          "text": "anymore.",
+          "confidence": 0.6804706984096103,
+          "box": [
+            [
+              69.0,
+              103.0
+            ],
+            [
+              133.0,
+              103.0
+            ],
+            [
+              133.0,
+              113.0
+            ],
+            [
+              69.0,
+              113.0
+            ]
+          ]
+        },
+        {
+          "text": "04:35AM",
+          "confidence": 0.8004918023943901,
+          "box": [
+            [
+              467.0,
+              108.0
+            ],
+            [
+              517.0,
+              108.0
+            ],
+            [
+              517.0,
+              118.0
+            ],
+            [
+              467.0,
+              118.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "January 21,2021\nJrkBgrt\nadmin\nNot to give any hint s but a few might not require the internet\nanymore.\n04:35AM"
+    },
+    {
+      "index": 8,
+      "name": "2021-02-12-salph-mention.png",
+      "sha256": "b6c7e76159a1df675b9d09ea4a02982533b6fd62604b754f97f61dc38e5a1d55",
+      "bytes": 78406,
+      "dimensions": [
+        586,
+        237
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "DeletedAccount",
+          "confidence": 0.8733320275942484,
+          "box": [
+            [
+              60.0,
+              20.0
+            ],
+            [
+              163.0,
+              21.0
+            ],
+            [
+              163.0,
+              32.0
+            ],
+            [
+              60.0,
+              32.0
+            ]
+          ]
+        },
+        {
+          "text": "February 12,2021",
+          "confidence": 0.8090890084995943,
+          "box": [
+            [
+              297.0,
+              11.0
+            ],
+            [
+              417.0,
+              11.0
+            ],
+            [
+              417.0,
+              24.0
+            ],
+            [
+              297.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "text": "summary:",
+          "confidence": 0.8074094123310513,
+          "box": [
+            [
+              60.0,
+              41.0
+            ],
+            [
+              131.0,
+              42.0
+            ],
+            [
+              131.0,
+              55.0
+            ],
+            [
+              59.0,
+              54.0
+            ]
+          ]
+        },
+        {
+          "text": "#..# wasnt used.",
+          "confidence": 0.8934219128945294,
+          "box": [
+            [
+              60.0,
+              61.0
+            ],
+            [
+              177.0,
+              61.0
+            ],
+            [
+              177.0,
+              74.0
+            ],
+            [
+              60.0,
+              74.0
+            ]
+          ]
+        },
+        {
+          "text": "2nd way from start wasnt founded (shared)",
+          "confidence": 0.9110464865253085,
+          "box": [
+            [
+              60.0,
+              82.0
+            ],
+            [
+              368.0,
+              82.0
+            ],
+            [
+              368.0,
+              97.0
+            ],
+            [
+              60.0,
+              97.0
+            ]
+          ]
+        },
+        {
+          "text": "blobs in mp3 didnt recovered.",
+          "confidence": 0.9014034907023112,
+          "box": [
+            [
+              60.0,
+              102.0
+            ],
+            [
+              270.0,
+              103.0
+            ],
+            [
+              270.0,
+              118.0
+            ],
+            [
+              60.0,
+              117.0
+            ]
+          ]
+        },
+        {
+          "text": "'salphaselon\"is unknown from where was taken and didnt",
+          "confidence": 0.8640223844484849,
+          "box": [
+            [
+              61.0,
+              124.0
+            ],
+            [
+              472.0,
+              123.0
+            ],
+            [
+              472.0,
+              137.0
+            ],
+            [
+              61.0,
+              138.0
+            ]
+          ]
+        },
+        {
+          "text": "confirmed.",
+          "confidence": 0.8555089235305786,
+          "box": [
+            [
+              60.0,
+              145.0
+            ],
+            [
+              136.0,
+              145.0
+            ],
+            [
+              136.0,
+              158.0
+            ],
+            [
+              60.0,
+              158.0
+            ]
+          ]
+        },
+        {
+          "text": "more?",
+          "confidence": 0.8302239874998728,
+          "box": [
+            [
+              63.0,
+              188.0
+            ],
+            [
+              109.0,
+              186.0
+            ],
+            [
+              109.0,
+              200.0
+            ],
+            [
+              63.0,
+              202.0
+            ]
+          ]
+        },
+        {
+          "text": "24.edited09:43PM",
+          "confidence": 0.8117286036996281,
+          "box": [
+            [
+              396.0,
+              194.0
+            ],
+            [
+              510.0,
+              195.0
+            ],
+            [
+              509.0,
+              205.0
+            ],
+            [
+              395.0,
+              204.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "DeletedAccount\nFebruary 12,2021\nsummary:\n#..# wasnt used.\n2nd way from start wasnt founded (shared)\nblobs in mp3 didnt recovered.\n'salphaselon\"is unknown from where was taken and didnt\nconfirmed.\nmore?\n24.edited09:43PM"
+    },
+    {
+      "index": 9,
+      "name": "2021-03-01-primes.png",
+      "sha256": "233f67719bbec6be109a56b60c18a6d3ae705aefbe0ea8371eac57a72d96dede",
+      "bytes": 189488,
+      "dimensions": [
+        534,
+        460
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "Janusz Baran",
+          "confidence": 0.8344638118377099,
+          "box": [
+            [
+              69.0,
+              9.0
+            ],
+            [
+              153.0,
+              11.0
+            ],
+            [
+              153.0,
+              26.0
+            ],
+            [
+              69.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "text": "o thx you for answer :D",
+          "confidence": 0.8801614468296369,
+          "box": [
+            [
+              68.0,
+              31.0
+            ],
+            [
+              231.0,
+              31.0
+            ],
+            [
+              231.0,
+              47.0
+            ],
+            [
+              68.0,
+              47.0
+            ]
+          ]
+        },
+        {
+          "text": "04:33AM",
+          "confidence": 0.8017053678631783,
+          "box": [
+            [
+              240.0,
+              36.0
+            ],
+            [
+              297.0,
+              38.0
+            ],
+            [
+              296.0,
+              53.0
+            ],
+            [
+              240.0,
+              52.0
+            ]
+          ]
+        },
+        {
+          "text": "this is a hint !",
+          "confidence": 0.8344959827030406,
+          "box": [
+            [
+              68.0,
+              69.0
+            ],
+            [
+              164.0,
+              69.0
+            ],
+            [
+              164.0,
+              84.0
+            ],
+            [
+              68.0,
+              84.0
+            ]
+          ]
+        },
+        {
+          "text": "04:33 AM",
+          "confidence": 0.8225343161159091,
+          "box": [
+            [
+              172.0,
+              75.0
+            ],
+            [
+              227.0,
+              75.0
+            ],
+            [
+              227.0,
+              90.0
+            ],
+            [
+              172.0,
+              90.0
+            ]
+          ]
+        },
+        {
+          "text": "just say which primes 2,3,5,7 we need use",
+          "confidence": 0.903427738518942,
+          "box": [
+            [
+              68.0,
+              106.0
+            ],
+            [
+              366.0,
+              106.0
+            ],
+            [
+              366.0,
+              124.0
+            ],
+            [
+              68.0,
+              124.0
+            ]
+          ]
+        },
+        {
+          "text": "04:34 AM",
+          "confidence": 0.8210244244999356,
+          "box": [
+            [
+              373.0,
+              112.0
+            ],
+            [
+              427.0,
+              114.0
+            ],
+            [
+              427.0,
+              128.0
+            ],
+            [
+              373.0,
+              127.0
+            ]
+          ]
+        },
+        {
+          "text": ":D",
+          "confidence": 0.6661216815312704,
+          "box": [
+            [
+              67.0,
+              144.0
+            ],
+            [
+              84.0,
+              144.0
+            ],
+            [
+              84.0,
+              161.0
+            ],
+            [
+              67.0,
+              161.0
+            ]
+          ]
+        },
+        {
+          "text": "04:34 AM",
+          "confidence": 0.8170294430520799,
+          "box": [
+            [
+              92.0,
+              150.0
+            ],
+            [
+              147.0,
+              151.0
+            ],
+            [
+              146.0,
+              166.0
+            ],
+            [
+              92.0,
+              165.0
+            ]
+          ]
+        },
+        {
+          "text": "and will be fine :D",
+          "confidence": 0.8760267853736877,
+          "box": [
+            [
+              68.0,
+              182.0
+            ],
+            [
+              193.0,
+              182.0
+            ],
+            [
+              193.0,
+              199.0
+            ],
+            [
+              68.0,
+              199.0
+            ]
+          ]
+        },
+        {
+          "text": "04:34AM",
+          "confidence": 0.755970686674118,
+          "box": [
+            [
+              202.0,
+              189.0
+            ],
+            [
+              257.0,
+              190.0
+            ],
+            [
+              257.0,
+              205.0
+            ],
+            [
+              201.0,
+              203.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8729019165039062,
+          "box": [
+            [
+              68.0,
+              223.0
+            ],
+            [
+              119.0,
+              225.0
+            ],
+            [
+              119.0,
+              241.0
+            ],
+            [
+              67.0,
+              239.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.832476536432902,
+          "box": [
+            [
+              377.0,
+              224.0
+            ],
+            [
+              416.0,
+              222.0
+            ],
+            [
+              416.0,
+              237.0
+            ],
+            [
+              378.0,
+              239.0
+            ]
+          ]
+        },
+        {
+          "text": "You are at the prime part already???",
+          "confidence": 0.8967270706150983,
+          "box": [
+            [
+              69.0,
+              244.0
+            ],
+            [
+              328.0,
+              244.0
+            ],
+            [
+              328.0,
+              263.0
+            ],
+            [
+              69.0,
+              263.0
+            ]
+          ]
+        },
+        {
+          "text": "104:34AM",
+          "confidence": 0.875271201133728,
+          "box": [
+            [
+              335.0,
+              249.0
+            ],
+            [
+              416.0,
+              252.0
+            ],
+            [
+              416.0,
+              267.0
+            ],
+            [
+              334.0,
+              264.0
+            ]
+          ]
+        },
+        {
+          "text": "Janusz Baran",
+          "confidence": 0.8143117061028113,
+          "box": [
+            [
+              68.0,
+              288.0
+            ],
+            [
+              153.0,
+              288.0
+            ],
+            [
+              153.0,
+              302.0
+            ],
+            [
+              68.0,
+              302.0
+            ]
+          ]
+        },
+        {
+          "text": "there are too many combinations :(",
+          "confidence": 0.8906888723373413,
+          "box": [
+            [
+              67.0,
+              307.0
+            ],
+            [
+              318.0,
+              307.0
+            ],
+            [
+              318.0,
+              324.0
+            ],
+            [
+              67.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "04:34 AM",
+          "confidence": 0.8201856513818105,
+          "box": [
+            [
+              324.0,
+              310.0
+            ],
+            [
+              379.0,
+              312.0
+            ],
+            [
+              378.0,
+              329.0
+            ],
+            [
+              323.0,
+              327.0
+            ]
+          ]
+        },
+        {
+          "text": "yes",
+          "confidence": 0.6076636463403702,
+          "box": [
+            [
+              66.0,
+              346.0
+            ],
+            [
+              95.0,
+              346.0
+            ],
+            [
+              95.0,
+              363.0
+            ],
+            [
+              66.0,
+              363.0
+            ]
+          ]
+        },
+        {
+          "text": "04:35 AM",
+          "confidence": 0.8135479688644409,
+          "box": [
+            [
+              102.0,
+              348.0
+            ],
+            [
+              157.0,
+              352.0
+            ],
+            [
+              156.0,
+              368.0
+            ],
+            [
+              101.0,
+              365.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8228256967332628,
+          "box": [
+            [
+              67.0,
+              386.0
+            ],
+            [
+              120.0,
+              386.0
+            ],
+            [
+              120.0,
+              403.0
+            ],
+            [
+              67.0,
+              403.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.7584774096806844,
+          "box": [
+            [
+              480.0,
+              386.0
+            ],
+            [
+              518.0,
+              384.0
+            ],
+            [
+              519.0,
+              399.0
+            ],
+            [
+              481.0,
+              401.0
+            ]
+          ]
+        },
+        {
+          "text": "Oh wait, shouldn't have said that. That might have been a hint",
+          "confidence": 0.9279467264811198,
+          "box": [
+            [
+              67.0,
+              405.0
+            ],
+            [
+              503.0,
+              406.0
+            ],
+            [
+              503.0,
+              424.0
+            ],
+            [
+              67.0,
+              423.0
+            ]
+          ]
+        },
+        {
+          "text": "04:35 AM",
+          "confidence": 0.8117688960499234,
+          "box": [
+            [
+              465.0,
+              436.0
+            ],
+            [
+              519.0,
+              436.0
+            ],
+            [
+              519.0,
+              449.0
+            ],
+            [
+              465.0,
+              449.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "Janusz Baran\no thx you for answer :D\n04:33AM\nthis is a hint !\n04:33 AM\njust say which primes 2,3,5,7 we need use\n04:34 AM\n:D\n04:34 AM\nand will be fine :D\n04:34AM\nJrk Bgrt\nadmin\nYou are at the prime part already???\n104:34AM\nJanusz Baran\nthere are too many combinations :(\n04:34 AM\nyes\n04:35 AM\nJrk Bgrt\nadmin\nOh wait, shouldn't have said that. That might have been a hint\n04:35 AM"
+    },
+    {
+      "index": 10,
+      "name": "2021-03-01-spelling-hint.png",
+      "sha256": "c0f1747aa365636f244214f3e895f8bcf9b02040f57d19f18885ce63f39367ef",
+      "bytes": 134859,
+      "dimensions": [
+        522,
+        390
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "March 1, 2021",
+          "confidence": 0.8835282794066838,
+          "box": [
+            [
+              316.0,
+              18.0
+            ],
+            [
+              412.0,
+              18.0
+            ],
+            [
+              412.0,
+              32.0
+            ],
+            [
+              316.0,
+              32.0
+            ]
+          ]
+        },
+        {
+          "text": "RED",
+          "confidence": 0.7279464602470398,
+          "box": [
+            [
+              157.0,
+              73.0
+            ],
+            [
+              219.0,
+              73.0
+            ],
+            [
+              219.0,
+              104.0
+            ],
+            [
+              157.0,
+              104.0
+            ]
+          ]
+        },
+        {
+          "text": "FO",
+          "confidence": 0.6573370695114136,
+          "box": [
+            [
+              233.0,
+              74.0
+            ],
+            [
+              279.0,
+              74.0
+            ],
+            [
+              279.0,
+              104.0
+            ],
+            [
+              233.0,
+              104.0
+            ]
+          ]
+        },
+        {
+          "text": "someone from england or america is here",
+          "confidence": 0.9470809504389763,
+          "box": [
+            [
+              66.0,
+              144.0
+            ],
+            [
+              363.0,
+              144.0
+            ],
+            [
+              363.0,
+              159.0
+            ],
+            [
+              66.0,
+              159.0
+            ]
+          ]
+        },
+        {
+          "text": "? this is old talk, now is FoRTY but",
+          "confidence": 0.8808891628239606,
+          "box": [
+            [
+              68.0,
+              166.0
+            ],
+            [
+              318.0,
+              166.0
+            ],
+            [
+              318.0,
+              180.0
+            ],
+            [
+              68.0,
+              180.0
+            ]
+          ]
+        },
+        {
+          "text": "hundred FoUR = 104 is the fefefe square",
+          "confidence": 0.8727797895669938,
+          "box": [
+            [
+              66.0,
+              186.0
+            ],
+            [
+              363.0,
+              186.0
+            ],
+            [
+              363.0,
+              202.0
+            ],
+            [
+              66.0,
+              202.0
+            ]
+          ]
+        },
+        {
+          "text": "fefefe is 101 010",
+          "confidence": 0.8147726257642111,
+          "box": [
+            [
+              67.0,
+              207.0
+            ],
+            [
+              187.0,
+              207.0
+            ],
+            [
+              187.0,
+              221.0
+            ],
+            [
+              67.0,
+              221.0
+            ]
+          ]
+        },
+        {
+          "text": "2 \u2190 03:15 AM",
+          "confidence": 0.7603915654695951,
+          "box": [
+            [
+              294.0,
+              215.0
+            ],
+            [
+              373.0,
+              215.0
+            ],
+            [
+              373.0,
+              227.0
+            ],
+            [
+              294.0,
+              227.0
+            ]
+          ]
+        },
+        {
+          "text": "if you know how the array is indexed ofc",
+          "confidence": 0.9161679788333613,
+          "box": [
+            [
+              67.0,
+              245.0
+            ],
+            [
+              350.0,
+              245.0
+            ],
+            [
+              350.0,
+              261.0
+            ],
+            [
+              67.0,
+              261.0
+            ]
+          ]
+        },
+        {
+          "text": "03:16 AM",
+          "confidence": 0.8406421144803365,
+          "box": [
+            [
+              360.0,
+              250.0
+            ],
+            [
+              414.0,
+              252.0
+            ],
+            [
+              414.0,
+              267.0
+            ],
+            [
+              359.0,
+              265.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8177982303831313,
+          "box": [
+            [
+              61.0,
+              288.0
+            ],
+            [
+              114.0,
+              290.0
+            ],
+            [
+              114.0,
+              306.0
+            ],
+            [
+              60.0,
+              305.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.8316215972105662,
+          "box": [
+            [
+              476.0,
+              289.0
+            ],
+            [
+              513.0,
+              289.0
+            ],
+            [
+              513.0,
+              303.0
+            ],
+            [
+              476.0,
+              303.0
+            ]
+          ]
+        },
+        {
+          "text": "ED",
+          "confidence": 0.6604584455490112,
+          "box": [
+            [
+              68.0,
+              323.0
+            ],
+            [
+              92.0,
+              323.0
+            ],
+            [
+              92.0,
+              336.0
+            ],
+            [
+              68.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "JanuszBaran",
+          "confidence": 0.8645720233519872,
+          "box": [
+            [
+              109.0,
+              316.0
+            ],
+            [
+              195.0,
+              316.0
+            ],
+            [
+              195.0,
+              329.0
+            ],
+            [
+              109.0,
+              329.0
+            ]
+          ]
+        },
+        {
+          "text": "someone from england or america is here ? this is old talk, now...",
+          "confidence": 0.9003645057108864,
+          "box": [
+            [
+              107.0,
+              336.0
+            ],
+            [
+              509.0,
+              336.0
+            ],
+            [
+              509.0,
+              350.0
+            ],
+            [
+              107.0,
+              351.0
+            ]
+          ]
+        },
+        {
+          "text": "Ancient spelling",
+          "confidence": 0.8677236472859102,
+          "box": [
+            [
+              62.0,
+              361.0
+            ],
+            [
+              176.0,
+              362.0
+            ],
+            [
+              176.0,
+              378.0
+            ],
+            [
+              62.0,
+              377.0
+            ]
+          ]
+        },
+        {
+          "text": "Oneofthemany manytypos.",
+          "confidence": 0.8986039087176323,
+          "box": [
+            [
+              205.0,
+              361.0
+            ],
+            [
+              414.0,
+              362.0
+            ],
+            [
+              414.0,
+              378.0
+            ],
+            [
+              205.0,
+              377.0
+            ]
+          ]
+        },
+        {
+          "text": "04:33 AM",
+          "confidence": 0.8782591157489352,
+          "box": [
+            [
+              459.0,
+              369.0
+            ],
+            [
+              513.0,
+              369.0
+            ],
+            [
+              513.0,
+              381.0
+            ],
+            [
+              459.0,
+              381.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "March 1, 2021\nRED\nFO\nsomeone from england or america is here\n? this is old talk, now is FoRTY but\nhundred FoUR = 104 is the fefefe square\nfefefe is 101 010\n2 \u2190 03:15 AM\nif you know how the array is indexed ofc\n03:16 AM\nJrk Bgrt\nadmin\nED\nJanuszBaran\nsomeone from england or america is here ? this is old talk, now...\nAncient spelling\nOneofthemany manytypos.\n04:33 AM"
+    },
+    {
+      "index": 11,
+      "name": "2021-03-14.png",
+      "sha256": "4e3dc1a4c1306be5efaccec6f47f95c1652a21cc33d23991927a33dd8975ebf4",
+      "bytes": 131249,
+      "dimensions": [
+        552,
+        349
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8578487104839749,
+          "box": [
+            [
+              67.0,
+              14.0
+            ],
+            [
+              119.0,
+              16.0
+            ],
+            [
+              119.0,
+              32.0
+            ],
+            [
+              66.0,
+              31.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.8262423276901245,
+          "box": [
+            [
+              480.0,
+              14.0
+            ],
+            [
+              518.0,
+              14.0
+            ],
+            [
+              518.0,
+              29.0
+            ],
+            [
+              480.0,
+              29.0
+            ]
+          ]
+        },
+        {
+          "text": "zil",
+          "confidence": 0.634411633014679,
+          "box": [
+            [
+              74.0,
+              40.0
+            ],
+            [
+              96.0,
+              40.0
+            ],
+            [
+              96.0,
+              55.0
+            ],
+            [
+              74.0,
+              55.0
+            ]
+          ]
+        },
+        {
+          "text": "I always wonder how when you tell us that someone (or a team) has ...",
+          "confidence": 0.8882525180067334,
+          "box": [
+            [
+              74.0,
+              61.0
+            ],
+            [
+              511.0,
+              62.0
+            ],
+            [
+              511.0,
+              77.0
+            ],
+            [
+              74.0,
+              76.0
+            ]
+          ]
+        },
+        {
+          "text": "I don't check the website logs. There aren't any tracking scripts",
+          "confidence": 0.9214953545368079,
+          "box": [
+            [
+              66.0,
+              87.0
+            ],
+            [
+              510.0,
+              88.0
+            ],
+            [
+              510.0,
+              103.0
+            ],
+            [
+              66.0,
+              102.0
+            ]
+          ]
+        },
+        {
+          "text": "either.Peoplesomehownowhowtoreachmeontelegramand",
+          "confidence": 0.9413054597621061,
+          "box": [
+            [
+              67.0,
+              108.0
+            ],
+            [
+              513.0,
+              108.0
+            ],
+            [
+              513.0,
+              123.0
+            ],
+            [
+              67.0,
+              124.0
+            ]
+          ]
+        },
+        {
+          "text": "PM me, that's how I know :-). Although I can't prove it, we don't",
+          "confidence": 0.9242470381837903,
+          "box": [
+            [
+              66.0,
+              128.0
+            ],
+            [
+              507.0,
+              129.0
+            ],
+            [
+              507.0,
+              146.0
+            ],
+            [
+              66.0,
+              145.0
+            ]
+          ]
+        },
+        {
+          "text": "monitor the puzzlers progress in any way. I just read the chat",
+          "confidence": 0.9016885989242129,
+          "box": [
+            [
+              66.0,
+              150.0
+            ],
+            [
+              497.0,
+              150.0
+            ],
+            [
+              497.0,
+              165.0
+            ],
+            [
+              66.0,
+              166.0
+            ]
+          ]
+        },
+        {
+          "text": "and when I notice the address is empty I'll know how they did",
+          "confidence": 0.9095609861035501,
+          "box": [
+            [
+              67.0,
+              171.0
+            ],
+            [
+              498.0,
+              171.0
+            ],
+            [
+              498.0,
+              187.0
+            ],
+            [
+              67.0,
+              187.0
+            ]
+          ]
+        },
+        {
+          "text": "it. After the first stage was cracked within no-time I was afraid",
+          "confidence": 0.9232255744211602,
+          "box": [
+            [
+              67.0,
+              192.0
+            ],
+            [
+              505.0,
+              192.0
+            ],
+            [
+              505.0,
+              208.0
+            ],
+            [
+              67.0,
+              208.0
+            ]
+          ]
+        },
+        {
+          "text": "the entire puzzle would have been solved not too long after",
+          "confidence": 0.909119360645612,
+          "box": [
+            [
+              67.0,
+              214.0
+            ],
+            [
+              483.0,
+              214.0
+            ],
+            [
+              483.0,
+              228.0
+            ],
+            [
+              67.0,
+              228.0
+            ]
+          ]
+        },
+        {
+          "text": "that. When people progress in salphation it might be cracked",
+          "confidence": 0.9222076061319132,
+          "box": [
+            [
+              66.0,
+              234.0
+            ],
+            [
+              497.0,
+              234.0
+            ],
+            [
+              497.0,
+              251.0
+            ],
+            [
+              66.0,
+              251.0
+            ]
+          ]
+        },
+        {
+          "text": "pretty soon. Breaking salphation, should be giving the feeling",
+          "confidence": 0.8732527295748392,
+          "box": [
+            [
+              67.0,
+              255.0
+            ],
+            [
+              496.0,
+              255.0
+            ],
+            [
+              496.0,
+              272.0
+            ],
+            [
+              67.0,
+              272.0
+            ]
+          ]
+        },
+        {
+          "text": "of the phase's name.Won't be easybut I've noticed how clever",
+          "confidence": 0.8911000793097449,
+          "box": [
+            [
+              67.0,
+              275.0
+            ],
+            [
+              508.0,
+              276.0
+            ],
+            [
+              508.0,
+              292.0
+            ],
+            [
+              67.0,
+              291.0
+            ]
+          ]
+        },
+        {
+          "text": "mostof you areso Iassume it will be cracked atsomepoint,",
+          "confidence": 0.8521431376013839,
+          "box": [
+            [
+              66.0,
+              297.0
+            ],
+            [
+              495.0,
+              297.0
+            ],
+            [
+              495.0,
+              313.0
+            ],
+            [
+              66.0,
+              312.0
+            ]
+          ]
+        },
+        {
+          "text": "probably before next halving.",
+          "confidence": 0.9265198091665904,
+          "box": [
+            [
+              67.0,
+              318.0
+            ],
+            [
+              271.0,
+              318.0
+            ],
+            [
+              271.0,
+              335.0
+            ],
+            [
+              67.0,
+              335.0
+            ]
+          ]
+        },
+        {
+          "text": "03:45 AM",
+          "confidence": 0.8177501360575358,
+          "box": [
+            [
+              464.0,
+              325.0
+            ],
+            [
+              518.0,
+              326.0
+            ],
+            [
+              518.0,
+              339.0
+            ],
+            [
+              464.0,
+              338.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "Jrk Bgrt\nadmin\nzil\nI always wonder how when you tell us that someone (or a team) has ...\nI don't check the website logs. There aren't any tracking scripts\neither.Peoplesomehownowhowtoreachmeontelegramand\nPM me, that's how I know :-). Although I can't prove it, we don't\nmonitor the puzzlers progress in any way. I just read the chat\nand when I notice the address is empty I'll know how they did\nit. After the first stage was cracked within no-time I was afraid\nthe entire puzzle would have been solved not too long after\nthat. When people progress in salphation it might be cracked\npretty soon. Breaking salphation, should be giving the feeling\nof the phase's name.Won't be easybut I've noticed how clever\nmostof you areso Iassume it will be cracked atsomepoint,\nprobably before next halving.\n03:45 AM"
+    },
+    {
+      "index": 12,
+      "name": "2021-04-01-april fool.png",
+      "sha256": "e7ff51ad5e00646d9fb785602090db93da36d249365326e46e8ca1ec959ac33c",
+      "bytes": 33218,
+      "dimensions": [
+        516,
+        164
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8728732599152459,
+          "box": [
+            [
+              52.0,
+              9.0
+            ],
+            [
+              103.0,
+              11.0
+            ],
+            [
+              103.0,
+              26.0
+            ],
+            [
+              52.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.6556991537412008,
+          "box": [
+            [
+              466.0,
+              9.0
+            ],
+            [
+              501.0,
+              9.0
+            ],
+            [
+              501.0,
+              22.0
+            ],
+            [
+              466.0,
+              22.0
+            ]
+          ]
+        },
+        {
+          "text": "R=18",
+          "confidence": 0.7256433248519898,
+          "box": [
+            [
+              53.0,
+              30.0
+            ],
+            [
+              92.0,
+              30.0
+            ],
+            [
+              92.0,
+              45.0
+            ],
+            [
+              53.0,
+              45.0
+            ]
+          ]
+        },
+        {
+          "text": "A=1",
+          "confidence": 0.7375430315732956,
+          "box": [
+            [
+              51.0,
+              51.0
+            ],
+            [
+              80.0,
+              51.0
+            ],
+            [
+              80.0,
+              66.0
+            ],
+            [
+              51.0,
+              66.0
+            ]
+          ]
+        },
+        {
+          "text": "B=2",
+          "confidence": 0.6337161362171173,
+          "box": [
+            [
+              52.0,
+              72.0
+            ],
+            [
+              81.0,
+              72.0
+            ],
+            [
+              81.0,
+              86.0
+            ],
+            [
+              52.0,
+              86.0
+            ]
+          ]
+        },
+        {
+          "text": "Could also be21or 1812bit",
+          "confidence": 0.8697246817442087,
+          "box": [
+            [
+              53.0,
+              115.0
+            ],
+            [
+              251.0,
+              115.0
+            ],
+            [
+              251.0,
+              128.0
+            ],
+            [
+              53.0,
+              128.0
+            ]
+          ]
+        },
+        {
+          "text": ". Sometimes I'm glad I don't",
+          "confidence": 0.8948403165258211,
+          "box": [
+            [
+              272.0,
+              114.0
+            ],
+            [
+              472.0,
+              115.0
+            ],
+            [
+              472.0,
+              129.0
+            ],
+            [
+              272.0,
+              129.0
+            ]
+          ]
+        },
+        {
+          "text": "have to solve this puzzle myself.",
+          "confidence": 0.9213004532982322,
+          "box": [
+            [
+              51.0,
+              135.0
+            ],
+            [
+              280.0,
+              135.0
+            ],
+            [
+              280.0,
+              151.0
+            ],
+            [
+              51.0,
+              151.0
+            ]
+          ]
+        },
+        {
+          "text": "5\u4e2a",
+          "confidence": 0.5693467855453491,
+          "box": [
+            [
+              423.0,
+              144.0
+            ],
+            [
+              448.0,
+              144.0
+            ],
+            [
+              448.0,
+              154.0
+            ],
+            [
+              423.0,
+              154.0
+            ]
+          ]
+        },
+        {
+          "text": "07:29 AM",
+          "confidence": 0.8335190349155002,
+          "box": [
+            [
+              449.0,
+              144.0
+            ],
+            [
+              501.0,
+              144.0
+            ],
+            [
+              501.0,
+              154.0
+            ],
+            [
+              449.0,
+              154.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "Jrk Bgrt\nadmin\nR=18\nA=1\nB=2\nCould also be21or 1812bit\n. Sometimes I'm glad I don't\nhave to solve this puzzle myself.\n5\u4e2a\n07:29 AM"
+    },
+    {
+      "index": 13,
+      "name": "2021-04-16-salph.png",
+      "sha256": "6d0038e5f7988e3d8f6bf46892f445680b2f8c3194d30b438687e6b73cdb5812",
+      "bytes": 211370,
+      "dimensions": [
+        499,
+        773
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "Hi",
+          "confidence": 0.6215533018112183,
+          "box": [
+            [
+              16.0,
+              20.0
+            ],
+            [
+              38.0,
+              20.0
+            ],
+            [
+              38.0,
+              36.0
+            ],
+            [
+              16.0,
+              36.0
+            ]
+          ]
+        },
+        {
+          "text": "Nvm ive reched SalPhaselon!",
+          "confidence": 0.910570251090186,
+          "box": [
+            [
+              18.0,
+              42.0
+            ],
+            [
+              226.0,
+              42.0
+            ],
+            [
+              226.0,
+              57.0
+            ],
+            [
+              18.0,
+              57.0
+            ]
+          ]
+        },
+        {
+          "text": "This is the correct formatting if anyone wants to verify inthe",
+          "confidence": 0.9304249627249581,
+          "box": [
+            [
+              18.0,
+              62.0
+            ],
+            [
+              441.0,
+              62.0
+            ],
+            [
+              441.0,
+              80.0
+            ],
+            [
+              18.0,
+              80.0
+            ]
+          ]
+        },
+        {
+          "text": "future for the SalPhaselon part",
+          "confidence": 0.8704126756638288,
+          "box": [
+            [
+              17.0,
+              83.0
+            ],
+            [
+              237.0,
+              84.0
+            ],
+            [
+              237.0,
+              100.0
+            ],
+            [
+              17.0,
+              99.0
+            ]
+          ]
+        },
+        {
+          "text": "You can even try a stab at it !",
+          "confidence": 0.8768294770270586,
+          "box": [
+            [
+              16.0,
+              103.0
+            ],
+            [
+              224.0,
+              104.0
+            ],
+            [
+              224.0,
+              122.0
+            ],
+            [
+              16.0,
+              121.0
+            ]
+          ]
+        },
+        {
+          "text": "dbbibfbhccbegbihabebeihbeggegebebbge",
+          "confidence": 0.9105451461431142,
+          "box": [
+            [
+              16.0,
+              124.0
+            ],
+            [
+              458.0,
+              125.0
+            ],
+            [
+              458.0,
+              143.0
+            ],
+            [
+              16.0,
+              142.0
+            ]
+          ]
+        },
+        {
+          "text": "hhebhhfbabfdhbeffcdbbfcccgbfbeeggecbe",
+          "confidence": 0.927139412415655,
+          "box": [
+            [
+              16.0,
+              145.0
+            ],
+            [
+              466.0,
+              147.0
+            ],
+            [
+              466.0,
+              164.0
+            ],
+            [
+              16.0,
+              162.0
+            ]
+          ]
+        },
+        {
+          "text": "dcibfbffgigbeeeabeabbabbababbaaaabab",
+          "confidence": 0.9216573335028984,
+          "box": [
+            [
+              16.0,
+              166.0
+            ],
+            [
+              456.0,
+              167.0
+            ],
+            [
+              456.0,
+              185.0
+            ],
+            [
+              16.0,
+              184.0
+            ]
+          ]
+        },
+        {
+          "text": "bbabaaabbbaabaabbabaababbbbaaaabbba",
+          "confidence": 0.9131297469139099,
+          "box": [
+            [
+              16.0,
+              189.0
+            ],
+            [
+              464.0,
+              189.0
+            ],
+            [
+              464.0,
+              205.0
+            ],
+            [
+              16.0,
+              204.0
+            ]
+          ]
+        },
+        {
+          "text": "abbabbbabababbabbababbabbaaabbabaab",
+          "confidence": 0.9216161949767007,
+          "box": [
+            [
+              18.0,
+              210.0
+            ],
+            [
+              464.0,
+              210.0
+            ],
+            [
+              464.0,
+              225.0
+            ],
+            [
+              18.0,
+              225.0
+            ]
+          ]
+        },
+        {
+          "text": "abbbaabbabbbabaafaedggeedfcbdabhhgg",
+          "confidence": 0.9230216989914576,
+          "box": [
+            [
+              16.0,
+              227.0
+            ],
+            [
+              459.0,
+              230.0
+            ],
+            [
+              459.0,
+              250.0
+            ],
+            [
+              16.0,
+              247.0
+            ]
+          ]
+        },
+        {
+          "text": "cadcfeddgfdgbgigaaedggiafaecghggcdaih",
+          "confidence": 0.9040923134276742,
+          "box": [
+            [
+              16.0,
+              251.0
+            ],
+            [
+              464.0,
+              251.0
+            ],
+            [
+              464.0,
+              270.0
+            ],
+            [
+              16.0,
+              270.0
+            ]
+          ]
+        },
+        {
+          "text": "ehahbahigceifgbfgefgaifabifagaegeacgbb",
+          "confidence": 0.937178659133422,
+          "box": [
+            [
+              17.0,
+              270.0
+            ],
+            [
+              464.0,
+              272.0
+            ],
+            [
+              464.0,
+              291.0
+            ],
+            [
+              17.0,
+              290.0
+            ]
+          ]
+        },
+        {
+          "text": "eagfggeeggafbacgfcdbeiffaafcidahgdeefg",
+          "confidence": 0.9545553433589447,
+          "box": [
+            [
+              16.0,
+              293.0
+            ],
+            [
+              466.0,
+              293.0
+            ],
+            [
+              466.0,
+              311.0
+            ],
+            [
+              16.0,
+              311.0
+            ]
+          ]
+        },
+        {
+          "text": "hhcggaegdebhhegeghcegadfbdiagefcicggi",
+          "confidence": 0.9175786517168346,
+          "box": [
+            [
+              16.0,
+              314.0
+            ],
+            [
+              466.0,
+              314.0
+            ],
+            [
+              466.0,
+              333.0
+            ],
+            [
+              16.0,
+              333.0
+            ]
+          ]
+        },
+        {
+          "text": "fdcgaaggfbigaicfbhecaecbceiaicebgbgiec",
+          "confidence": 0.9362427561711042,
+          "box": [
+            [
+              15.0,
+              333.0
+            ],
+            [
+              464.0,
+              335.0
+            ],
+            [
+              464.0,
+              354.0
+            ],
+            [
+              15.0,
+              353.0
+            ]
+          ]
+        },
+        {
+          "text": "deggfgegaedggfiiciiififhggcgfgdcdggefcb",
+          "confidence": 0.9152539283037185,
+          "box": [
+            [
+              17.0,
+              356.0
+            ],
+            [
+              465.0,
+              356.0
+            ],
+            [
+              465.0,
+              375.0
+            ],
+            [
+              17.0,
+              375.0
+            ]
+          ]
+        },
+        {
+          "text": "eeigefibgibggghhfbcgifdehedfdagicdbhic",
+          "confidence": 0.926979755743956,
+          "box": [
+            [
+              17.0,
+              378.0
+            ],
+            [
+              459.0,
+              376.0
+            ],
+            [
+              459.0,
+              394.0
+            ],
+            [
+              17.0,
+              395.0
+            ]
+          ]
+        },
+        {
+          "text": "gaiedaehahghhcihdghfhbiicecbiichihiiigi",
+          "confidence": 0.9248629167675972,
+          "box": [
+            [
+              17.0,
+              399.0
+            ],
+            [
+              456.0,
+              397.0
+            ],
+            [
+              456.0,
+              415.0
+            ],
+            [
+              17.0,
+              417.0
+            ]
+          ]
+        },
+        {
+          "text": "ddgehhdfdchcbafgfbhaheagegecafehgcfg",
+          "confidence": 0.9569015953991864,
+          "box": [
+            [
+              16.0,
+              419.0
+            ],
+            [
+              458.0,
+              419.0
+            ],
+            [
+              458.0,
+              438.0
+            ],
+            [
+              16.0,
+              438.0
+            ]
+          ]
+        },
+        {
+          "text": "gggcagfhhghbaihidiehhfdeggdgcihgggggh",
+          "confidence": 0.9605938086384221,
+          "box": [
+            [
+              16.0,
+              440.0
+            ],
+            [
+              464.0,
+              440.0
+            ],
+            [
+              464.0,
+              460.0
+            ],
+            [
+              16.0,
+              460.0
+            ]
+          ]
+        },
+        {
+          "text": "adahigigbgecgedfcdggaccdehiicigfbffhgg",
+          "confidence": 0.9427180916835101,
+          "box": [
+            [
+              16.0,
+              460.0
+            ],
+            [
+              463.0,
+              461.0
+            ],
+            [
+              463.0,
+              480.0
+            ],
+            [
+              16.0,
+              479.0
+            ]
+          ]
+        },
+        {
+          "text": "aeidbbeibbeiifdgfdhieeeieeecifdgdahdigg",
+          "confidence": 0.9340031102299691,
+          "box": [
+            [
+              16.0,
+              480.0
+            ],
+            [
+              464.0,
+              482.0
+            ],
+            [
+              464.0,
+              502.0
+            ],
+            [
+              16.0,
+              500.0
+            ]
+          ]
+        },
+        {
+          "text": "fhegfiaffiggbcbcehceabfbedbiibfbfdedee",
+          "confidence": 0.9255247253638047,
+          "box": [
+            [
+              16.0,
+              503.0
+            ],
+            [
+              459.0,
+              503.0
+            ],
+            [
+              459.0,
+              521.0
+            ],
+            [
+              16.0,
+              521.0
+            ]
+          ]
+        },
+        {
+          "text": "hgigfaaiggagbeiichiedifbehgbccahhbiibib",
+          "confidence": 0.9248236015439033,
+          "box": [
+            [
+              16.0,
+              525.0
+            ],
+            [
+              462.0,
+              523.0
+            ],
+            [
+              462.0,
+              541.0
+            ],
+            [
+              16.0,
+              542.0
+            ]
+          ]
+        },
+        {
+          "text": "bibdcbahaidhfahiihiczagdafaoaheiecggch",
+          "confidence": 0.917132359284621,
+          "box": [
+            [
+              17.0,
+              546.0
+            ],
+            [
+              464.0,
+              546.0
+            ],
+            [
+              464.0,
+              563.0
+            ],
+            [
+              17.0,
+              563.0
+            ]
+          ]
+        },
+        {
+          "text": "gicbbhcgbehcfcoabicfdhhcdbbcagbdaiobb",
+          "confidence": 0.9263646884968406,
+          "box": [
+            [
+              17.0,
+              566.0
+            ],
+            [
+              466.0,
+              566.0
+            ],
+            [
+              466.0,
+              584.0
+            ],
+            [
+              17.0,
+              584.0
+            ]
+          ]
+        },
+        {
+          "text": "gbeadeddezcfobfdhgdobdgooiigdocdaoofi",
+          "confidence": 0.9298963782034422,
+          "box": [
+            [
+              17.0,
+              587.0
+            ],
+            [
+              466.0,
+              586.0
+            ],
+            [
+              466.0,
+              605.0
+            ],
+            [
+              17.0,
+              605.0
+            ]
+          ]
+        },
+        {
+          "text": "dhzshabefourfirsthintisyourlastcommand",
+          "confidence": 0.9316444870753166,
+          "box": [
+            [
+              18.0,
+              609.0
+            ],
+            [
+              462.0,
+              609.0
+            ],
+            [
+              462.0,
+              626.0
+            ],
+            [
+              18.0,
+              626.0
+            ]
+          ]
+        },
+        {
+          "text": "U2FsdGVkX186tYU0hVJBXXUnBU07c0+X4",
+          "confidence": 0.8883056237417108,
+          "box": [
+            [
+              18.0,
+              630.0
+            ],
+            [
+              458.0,
+              630.0
+            ],
+            [
+              458.0,
+              646.0
+            ],
+            [
+              18.0,
+              646.0
+            ]
+          ]
+        },
+        {
+          "text": "KUWnWkCvoZSxbRD3wNsGWVHefvdrd9zab",
+          "confidence": 0.8291493452647153,
+          "box": [
+            [
+              18.0,
+              651.0
+            ],
+            [
+              463.0,
+              651.0
+            ],
+            [
+              463.0,
+              666.0
+            ],
+            [
+              18.0,
+              666.0
+            ]
+          ]
+        },
+        {
+          "text": "baabababbabbbaabbbabaaabbaabababbba",
+          "confidence": 0.9093875388304392,
+          "box": [
+            [
+              18.0,
+              673.0
+            ],
+            [
+              464.0,
+              673.0
+            ],
+            [
+              464.0,
+              686.0
+            ],
+            [
+              18.0,
+              686.0
+            ]
+          ]
+        },
+        {
+          "text": "abaQvX0t8v3jPB4okpspxebRi6sE1BM15HI8",
+          "confidence": 0.8284168452829928,
+          "box": [
+            [
+              17.0,
+              692.0
+            ],
+            [
+              466.0,
+              692.0
+            ],
+            [
+              466.0,
+              710.0
+            ],
+            [
+              17.0,
+              710.0
+            ]
+          ]
+        },
+        {
+          "text": "Rku+KejUqTvdwoX6nQjSpepXwGun/jJsha",
+          "confidence": 0.8767204557146345,
+          "box": [
+            [
+              17.0,
+              713.0
+            ],
+            [
+              457.0,
+              713.0
+            ],
+            [
+              457.0,
+              731.0
+            ],
+            [
+              17.0,
+              731.0
+            ]
+          ]
+        },
+        {
+          "text": "befanstoo",
+          "confidence": 0.8461039245128632,
+          "box": [
+            [
+              17.0,
+              735.0
+            ],
+            [
+              123.0,
+              735.0
+            ],
+            [
+              123.0,
+              751.0
+            ],
+            [
+              17.0,
+              751.0
+            ]
+          ]
+        },
+        {
+          "text": "03:38 AM",
+          "confidence": 0.8306009570757548,
+          "box": [
+            [
+              414.0,
+              741.0
+            ],
+            [
+              468.0,
+              741.0
+            ],
+            [
+              468.0,
+              756.0
+            ],
+            [
+              414.0,
+              756.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "Hi\nNvm ive reched SalPhaselon!\nThis is the correct formatting if anyone wants to verify inthe\nfuture for the SalPhaselon part\nYou can even try a stab at it !\ndbbibfbhccbegbihabebeihbeggegebebbge\nhhebhhfbabfdhbeffcdbbfcccgbfbeeggecbe\ndcibfbffgigbeeeabeabbabbababbaaaabab\nbbabaaabbbaabaabbabaababbbbaaaabbba\nabbabbbabababbabbababbabbaaabbabaab\nabbbaabbabbbabaafaedggeedfcbdabhhgg\ncadcfeddgfdgbgigaaedggiafaecghggcdaih\nehahbahigceifgbfgefgaifabifagaegeacgbb\neagfggeeggafbacgfcdbeiffaafcidahgdeefg\nhhcggaegdebhhegeghcegadfbdiagefcicggi\nfdcgaaggfbigaicfbhecaecbceiaicebgbgiec\ndeggfgegaedggfiiciiififhggcgfgdcdggefcb\neeigefibgibggghhfbcgifdehedfdagicdbhic\ngaiedaehahghhcihdghfhbiicecbiichihiiigi\nddgehhdfdchcbafgfbhaheagegecafehgcfg\ngggcagfhhghbaihidiehhfdeggdgcihgggggh\nadahigigbgecgedfcdggaccdehiicigfbffhgg\naeidbbeibbeiifdgfdhieeeieeecifdgdahdigg\nfhegfiaffiggbcbcehceabfbedbiibfbfdedee\nhgigfaaiggagbeiichiedifbehgbccahhbiibib\nbibdcbahaidhfahiihiczagdafaoaheiecggch\ngicbbhcgbehcfcoabicfdhhcdbbcagbdaiobb\ngbeadeddezcfobfdhgdobdgooiigdocdaoofi\ndhzshabefourfirsthintisyourlastcommand\nU2FsdGVkX186tYU0hVJBXXUnBU07c0+X4\nKUWnWkCvoZSxbRD3wNsGWVHefvdrd9zab\nbaabababbabbbaabbbabaaabbaabababbba\nabaQvX0t8v3jPB4okpspxebRi6sE1BM15HI8\nRku+KejUqTvdwoX6nQjSpepXwGun/jJsha\nbefanstoo\n03:38 AM"
+    },
+    {
+      "index": 14,
+      "name": "2021-05-06-salph instructions.png",
+      "sha256": "21b3f2eaa7bdf8db60d2ab8d579087f2499ce8f864974f803d722692a19ff596",
+      "bytes": 32128,
+      "dimensions": [
+        513,
+        93
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "DeletedAccount",
+          "confidence": 0.8861535310745239,
+          "box": [
+            [
+              49.0,
+              17.0
+            ],
+            [
+              152.0,
+              17.0
+            ],
+            [
+              152.0,
+              29.0
+            ],
+            [
+              49.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "text": "SHA-256(GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdS",
+          "confidence": 0.8746675810915359,
+          "box": [
+            [
+              47.0,
+              36.0
+            ],
+            [
+              491.0,
+              36.0
+            ],
+            [
+              491.0,
+              52.0
+            ],
+            [
+              47.0,
+              52.0
+            ]
+          ]
+        },
+        {
+          "text": "wfwApgj2xcmJPAwx7prBe)",
+          "confidence": 0.9306253868600597,
+          "box": [
+            [
+              47.0,
+              56.0
+            ],
+            [
+              244.0,
+              57.0
+            ],
+            [
+              244.0,
+              74.0
+            ],
+            [
+              47.0,
+              74.0
+            ]
+          ]
+        },
+        {
+          "text": "06:47 PM",
+          "confidence": 0.7818278405401442,
+          "box": [
+            [
+              447.0,
+              66.0
+            ],
+            [
+              497.0,
+              66.0
+            ],
+            [
+              497.0,
+              76.0
+            ],
+            [
+              447.0,
+              76.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "DeletedAccount\nSHA-256(GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdS\nwfwApgj2xcmJPAwx7prBe)\n06:47 PM"
+    },
+    {
+      "index": 15,
+      "name": "2021-12-02-another-door-hint.png",
+      "sha256": "6fbd2939e02d0f48fa2f83cd82d83052f751033262e52f0eeb5eba7926a87ebb",
+      "bytes": 43838,
+      "dimensions": [
+        478,
+        252
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "December2,2021",
+          "confidence": 0.8599202036857605,
+          "box": [
+            [
+              253.0,
+              8.0
+            ],
+            [
+              372.0,
+              8.0
+            ],
+            [
+              372.0,
+              20.0
+            ],
+            [
+              253.0,
+              20.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.881446553601159,
+          "box": [
+            [
+              16.0,
+              50.0
+            ],
+            [
+              67.0,
+              51.0
+            ],
+            [
+              67.0,
+              67.0
+            ],
+            [
+              16.0,
+              65.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.6492484708627065,
+          "box": [
+            [
+              430.0,
+              50.0
+            ],
+            [
+              465.0,
+              50.0
+            ],
+            [
+              465.0,
+              63.0
+            ],
+            [
+              430.0,
+              63.0
+            ]
+          ]
+        },
+        {
+          "text": "DeletedAccount",
+          "confidence": 0.8706153154373169,
+          "box": [
+            [
+              26.0,
+              77.0
+            ],
+            [
+              131.0,
+              77.0
+            ],
+            [
+              131.0,
+              90.0
+            ],
+            [
+              25.0,
+              89.0
+            ]
+          ]
+        },
+        {
+          "text": "give a hint, pls, with the first day of winter 2021-2022 ) omikron colla..",
+          "confidence": 0.9047580389181773,
+          "box": [
+            [
+              26.0,
+              98.0
+            ],
+            [
+              461.0,
+              97.0
+            ],
+            [
+              461.0,
+              111.0
+            ],
+            [
+              26.0,
+              112.0
+            ]
+          ]
+        },
+        {
+          "text": "There is",
+          "confidence": 0.8557847340901693,
+          "box": [
+            [
+              16.0,
+              122.0
+            ],
+            [
+              73.0,
+              122.0
+            ],
+            [
+              73.0,
+              136.0
+            ],
+            [
+              16.0,
+              136.0
+            ]
+          ]
+        },
+        {
+          "text": "Another",
+          "confidence": 0.8152061700820923,
+          "box": [
+            [
+              16.0,
+              143.0
+            ],
+            [
+              73.0,
+              144.0
+            ],
+            [
+              73.0,
+              158.0
+            ],
+            [
+              16.0,
+              157.0
+            ]
+          ]
+        },
+        {
+          "text": "08:41PM",
+          "confidence": 0.8069741874933243,
+          "box": [
+            [
+              415.0,
+              236.0
+            ],
+            [
+              466.0,
+              236.0
+            ],
+            [
+              466.0,
+              246.0
+            ],
+            [
+              415.0,
+              246.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "December2,2021\nJrk Bgrt\nadmin\nDeletedAccount\ngive a hint, pls, with the first day of winter 2021-2022 ) omikron colla..\nThere is\nAnother\n08:41PM"
+    },
+    {
+      "index": 16,
+      "name": "2021-12-25-hint.png",
+      "sha256": "63096303fc9fc83292bc33e3819746c99f87495ca618bb19afa65645e7409083",
+      "bytes": 65612,
+      "dimensions": [
+        531,
+        175
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "JrkBgrt",
+          "confidence": 0.804234005510807,
+          "box": [
+            [
+              49.0,
+              16.0
+            ],
+            [
+              100.0,
+              17.0
+            ],
+            [
+              100.0,
+              31.0
+            ],
+            [
+              49.0,
+              30.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.8272523681322733,
+          "box": [
+            [
+              463.0,
+              16.0
+            ],
+            [
+              498.0,
+              16.0
+            ],
+            [
+              498.0,
+              28.0
+            ],
+            [
+              463.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "text": "The previous \"there is another door hint\" is still a thing. We're",
+          "confidence": 0.9013163600907181,
+          "box": [
+            [
+              52.0,
+              37.0
+            ],
+            [
+              482.0,
+              37.0
+            ],
+            [
+              482.0,
+              51.0
+            ],
+            [
+              52.0,
+              51.0
+            ]
+          ]
+        },
+        {
+          "text": "not sure if anyone has found another door so far, and we can't",
+          "confidence": 0.8888056524216182,
+          "box": [
+            [
+              47.0,
+              57.0
+            ],
+            [
+              486.0,
+              56.0
+            ],
+            [
+              486.0,
+              72.0
+            ],
+            [
+              47.0,
+              73.0
+            ]
+          ]
+        },
+        {
+          "text": "check that... We've seen prime numbers being mentioned; well",
+          "confidence": 0.9116076016035236,
+          "box": [
+            [
+              49.0,
+              78.0
+            ],
+            [
+              491.0,
+              78.0
+            ],
+            [
+              491.0,
+              94.0
+            ],
+            [
+              49.0,
+              94.0
+            ]
+          ]
+        },
+        {
+          "text": "that is definitely an aspect which is required to proceed.",
+          "confidence": 0.9260665249016325,
+          "box": [
+            [
+              48.0,
+              99.0
+            ],
+            [
+              442.0,
+              99.0
+            ],
+            [
+              442.0,
+              115.0
+            ],
+            [
+              48.0,
+              115.0
+            ]
+          ]
+        },
+        {
+          "text": "Furthermore, along the way, some characters need to be",
+          "confidence": 0.9025300860404968,
+          "box": [
+            [
+              48.0,
+              119.0
+            ],
+            [
+              448.0,
+              120.0
+            ],
+            [
+              448.0,
+              137.0
+            ],
+            [
+              48.0,
+              136.0
+            ]
+          ]
+        },
+        {
+          "text": "zeroed out'..Best of luck and happy holidays!",
+          "confidence": 0.888900620781857,
+          "box": [
+            [
+              50.0,
+              141.0
+            ],
+            [
+              372.0,
+              141.0
+            ],
+            [
+              372.0,
+              157.0
+            ],
+            [
+              50.0,
+              156.0
+            ]
+          ]
+        },
+        {
+          "text": "2\u2190 01:18 PM",
+          "confidence": 0.8039992451667786,
+          "box": [
+            [
+              420.0,
+              149.0
+            ],
+            [
+              499.0,
+              149.0
+            ],
+            [
+              499.0,
+              160.0
+            ],
+            [
+              420.0,
+              160.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "JrkBgrt\nadmin\nThe previous \"there is another door hint\" is still a thing. We're\nnot sure if anyone has found another door so far, and we can't\ncheck that... We've seen prime numbers being mentioned; well\nthat is definitely an aspect which is required to proceed.\nFurthermore, along the way, some characters need to be\nzeroed out'..Best of luck and happy holidays!\n2\u2190 01:18 PM"
+    },
+    {
+      "index": 17,
+      "name": "2022-12-10-cosmic.png",
+      "sha256": "6c61b0d2245d9627f10ed6e82a5f76aa2e0701bf6a8f977c4772ceabcffdfc5d",
+      "bytes": 243495,
+      "dimensions": [
+        543,
+        576
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "December 10, 2022",
+          "confidence": 0.8940246336989932,
+          "box": [
+            [
+              297.0,
+              8.0
+            ],
+            [
+              430.0,
+              8.0
+            ],
+            [
+              430.0,
+              25.0
+            ],
+            [
+              297.0,
+              25.0
+            ]
+          ]
+        },
+        {
+          "text": "barrystyle",
+          "confidence": 0.8871423222801902,
+          "box": [
+            [
+              65.0,
+              53.0
+            ],
+            [
+              130.0,
+              53.0
+            ],
+            [
+              130.0,
+              71.0
+            ],
+            [
+              65.0,
+              71.0
+            ]
+          ]
+        },
+        {
+          "text": "image_2022-12-11_07-09-14.png",
+          "confidence": 0.9160074849923452,
+          "box": [
+            [
+              130.0,
+              85.0
+            ],
+            [
+              373.0,
+              86.0
+            ],
+            [
+              373.0,
+              107.0
+            ],
+            [
+              130.0,
+              106.0
+            ]
+          ]
+        },
+        {
+          "text": "143.0 KB",
+          "confidence": 0.8728596303198073,
+          "box": [
+            [
+              132.0,
+              106.0
+            ],
+            [
+              190.0,
+              106.0
+            ],
+            [
+              190.0,
+              122.0
+            ],
+            [
+              132.0,
+              122.0
+            ]
+          ]
+        },
+        {
+          "text": "5 04:09 PM",
+          "confidence": 0.7403740557757291,
+          "box": [
+            [
+              295.0,
+              121.0
+            ],
+            [
+              375.0,
+              121.0
+            ],
+            [
+              375.0,
+              133.0
+            ],
+            [
+              295.0,
+              133.0
+            ]
+          ]
+        },
+        {
+          "text": "December 11, 2022",
+          "confidence": 0.8567000759972466,
+          "box": [
+            [
+              297.0,
+              166.0
+            ],
+            [
+              430.0,
+              166.0
+            ],
+            [
+              430.0,
+              183.0
+            ],
+            [
+              297.0,
+              183.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8863225049442716,
+          "box": [
+            [
+              65.0,
+              209.0
+            ],
+            [
+              119.0,
+              209.0
+            ],
+            [
+              119.0,
+              227.0
+            ],
+            [
+              65.0,
+              227.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.779246042172114,
+          "box": [
+            [
+              282.0,
+              209.0
+            ],
+            [
+              319.0,
+              209.0
+            ],
+            [
+              319.0,
+              225.0
+            ],
+            [
+              282.0,
+              225.0
+            ]
+          ]
+        },
+        {
+          "text": "barrystyle",
+          "confidence": 0.8532610914923928,
+          "box": [
+            [
+              112.0,
+              236.0
+            ],
+            [
+              176.0,
+              236.0
+            ],
+            [
+              176.0,
+              252.0
+            ],
+            [
+              112.0,
+              252.0
+            ]
+          ]
+        },
+        {
+          "text": "image_2022-12-11_07-09-14.png",
+          "confidence": 0.9476720372835795,
+          "box": [
+            [
+              111.0,
+              254.0
+            ],
+            [
+              319.0,
+              255.0
+            ],
+            [
+              319.0,
+              275.0
+            ],
+            [
+              111.0,
+              274.0
+            ]
+          ]
+        },
+        {
+          "text": ".. That is very specific",
+          "confidence": 0.8429038166999817,
+          "box": [
+            [
+              77.0,
+              280.0
+            ],
+            [
+              229.0,
+              282.0
+            ],
+            [
+              229.0,
+              300.0
+            ],
+            [
+              77.0,
+              298.0
+            ]
+          ]
+        },
+        {
+          "text": "08:30 AM",
+          "confidence": 0.845785571469201,
+          "box": [
+            [
+              265.0,
+              288.0
+            ],
+            [
+              320.0,
+              288.0
+            ],
+            [
+              320.0,
+              304.0
+            ],
+            [
+              265.0,
+              304.0
+            ]
+          ]
+        },
+        {
+          "text": "barrystyle",
+          "confidence": 0.8887073560194536,
+          "box": [
+            [
+              65.0,
+              322.0
+            ],
+            [
+              130.0,
+              322.0
+            ],
+            [
+              130.0,
+              340.0
+            ],
+            [
+              65.0,
+              340.0
+            ]
+          ]
+        },
+        {
+          "text": "i googled a phrase which would be assumed to be part of a",
+          "confidence": 0.9161709999216014,
+          "box": [
+            [
+              64.0,
+              344.0
+            ],
+            [
+              485.0,
+              342.0
+            ],
+            [
+              485.0,
+              359.0
+            ],
+            [
+              64.0,
+              361.0
+            ]
+          ]
+        },
+        {
+          "text": "hint.. is about as vague as one can get given the pure amount",
+          "confidence": 0.8942800846792036,
+          "box": [
+            [
+              65.0,
+              364.0
+            ],
+            [
+              502.0,
+              365.0
+            ],
+            [
+              502.0,
+              383.0
+            ],
+            [
+              65.0,
+              382.0
+            ]
+          ]
+        },
+        {
+          "text": "of possibilities..",
+          "confidence": 0.8548625205692492,
+          "box": [
+            [
+              65.0,
+              384.0
+            ],
+            [
+              179.0,
+              386.0
+            ],
+            [
+              178.0,
+              404.0
+            ],
+            [
+              65.0,
+              402.0
+            ]
+          ]
+        },
+        {
+          "text": "08:32 AM",
+          "confidence": 0.7876536117659675,
+          "box": [
+            [
+              463.0,
+              392.0
+            ],
+            [
+              519.0,
+              392.0
+            ],
+            [
+              519.0,
+              407.0
+            ],
+            [
+              463.0,
+              407.0
+            ]
+          ]
+        },
+        {
+          "text": "unless you've an awful tell",
+          "confidence": 0.8875110106808799,
+          "box": [
+            [
+              66.0,
+              423.0
+            ],
+            [
+              252.0,
+              423.0
+            ],
+            [
+              252.0,
+              440.0
+            ],
+            [
+              66.0,
+              440.0
+            ]
+          ]
+        },
+        {
+          "text": "08:32 AM",
+          "confidence": 0.8080807129542033,
+          "box": [
+            [
+              262.0,
+              430.0
+            ],
+            [
+              316.0,
+              430.0
+            ],
+            [
+              316.0,
+              446.0
+            ],
+            [
+              262.0,
+              446.0
+            ]
+          ]
+        },
+        {
+          "text": "LOL",
+          "confidence": 0.7473956048488617,
+          "box": [
+            [
+              65.0,
+              459.0
+            ],
+            [
+              96.0,
+              459.0
+            ],
+            [
+              96.0,
+              479.0
+            ],
+            [
+              65.0,
+              479.0
+            ]
+          ]
+        },
+        {
+          "text": "08:32 AM",
+          "confidence": 0.8521818783548143,
+          "box": [
+            [
+              103.0,
+              468.0
+            ],
+            [
+              159.0,
+              468.0
+            ],
+            [
+              159.0,
+              484.0
+            ],
+            [
+              103.0,
+              484.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8172869947221544,
+          "box": [
+            [
+              65.0,
+              501.0
+            ],
+            [
+              119.0,
+              503.0
+            ],
+            [
+              118.0,
+              521.0
+            ],
+            [
+              64.0,
+              519.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.6908473273118337,
+          "box": [
+            [
+              479.0,
+              503.0
+            ],
+            [
+              517.0,
+              501.0
+            ],
+            [
+              517.0,
+              517.0
+            ],
+            [
+              479.0,
+              518.0
+            ]
+          ]
+        },
+        {
+          "text": "If the puzzle is solved you'll see how scary specific that is",
+          "confidence": 0.9112504220777943,
+          "box": [
+            [
+              64.0,
+              521.0
+            ],
+            [
+              474.0,
+              522.0
+            ],
+            [
+              474.0,
+              542.0
+            ],
+            [
+              64.0,
+              541.0
+            ]
+          ]
+        },
+        {
+          "text": "08:33 AM",
+          "confidence": 0.7259472873475816,
+          "box": [
+            [
+              463.0,
+              551.0
+            ],
+            [
+              519.0,
+              551.0
+            ],
+            [
+              519.0,
+              566.0
+            ],
+            [
+              463.0,
+              566.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "December 10, 2022\nbarrystyle\nimage_2022-12-11_07-09-14.png\n143.0 KB\n5 04:09 PM\nDecember 11, 2022\nJrk Bgrt\nadmin\nbarrystyle\nimage_2022-12-11_07-09-14.png\n.. That is very specific\n08:30 AM\nbarrystyle\ni googled a phrase which would be assumed to be part of a\nhint.. is about as vague as one can get given the pure amount\nof possibilities..\n08:32 AM\nunless you've an awful tell\n08:32 AM\nLOL\n08:32 AM\nJrk Bgrt\nadmin\nIf the puzzle is solved you'll see how scary specific that is\n08:33 AM"
+    },
+    {
+      "index": 18,
+      "name": "2023-01-09-prime-number.png",
+      "sha256": "fa043633c30163a7c8ffe162a137e20eac44993cb44b65b35ed8f741f3348fb5",
+      "bytes": 50943,
+      "dimensions": [
+        557,
+        130
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "January9",
+          "confidence": 0.7844960755772061,
+          "box": [
+            [
+              331.0,
+              14.0
+            ],
+            [
+              397.0,
+              14.0
+            ],
+            [
+              397.0,
+              29.0
+            ],
+            [
+              331.0,
+              29.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.855693174733056,
+          "box": [
+            [
+              66.0,
+              58.0
+            ],
+            [
+              117.0,
+              59.0
+            ],
+            [
+              117.0,
+              73.0
+            ],
+            [
+              66.0,
+              72.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.7209047277768453,
+          "box": [
+            [
+              481.0,
+              58.0
+            ],
+            [
+              514.0,
+              58.0
+            ],
+            [
+              514.0,
+              69.0
+            ],
+            [
+              481.0,
+              69.0
+            ]
+          ]
+        },
+        {
+          "text": "At least",
+          "confidence": 0.8060612082481384,
+          "box": [
+            [
+              67.0,
+              79.0
+            ],
+            [
+              126.0,
+              80.0
+            ],
+            [
+              126.0,
+              93.0
+            ],
+            [
+              67.0,
+              91.0
+            ]
+          ]
+        },
+        {
+          "text": "prime number is very important to get any",
+          "confidence": 0.9081996615443911,
+          "box": [
+            [
+              121.0,
+              78.0
+            ],
+            [
+              423.0,
+              79.0
+            ],
+            [
+              423.0,
+              95.0
+            ],
+            [
+              121.0,
+              94.0
+            ]
+          ]
+        },
+        {
+          "text": "further.",
+          "confidence": 0.7359600795639886,
+          "box": [
+            [
+              421.0,
+              79.0
+            ],
+            [
+              474.0,
+              80.0
+            ],
+            [
+              474.0,
+              92.0
+            ],
+            [
+              421.0,
+              91.0
+            ]
+          ]
+        },
+        {
+          "text": "5\u4e2a",
+          "confidence": 0.6246404051780701,
+          "box": [
+            [
+              437.0,
+              107.0
+            ],
+            [
+              457.0,
+              107.0
+            ],
+            [
+              457.0,
+              118.0
+            ],
+            [
+              437.0,
+              118.0
+            ]
+          ]
+        },
+        {
+          "text": "03:10AM",
+          "confidence": 0.6899060234427452,
+          "box": [
+            [
+              464.0,
+              108.0
+            ],
+            [
+              515.0,
+              108.0
+            ],
+            [
+              515.0,
+              117.0
+            ],
+            [
+              464.0,
+              117.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "January9\nJrk Bgrt\nadmin\nAt least\nprime number is very important to get any\nfurther.\n5\u4e2a\n03:10AM"
+    },
+    {
+      "index": 19,
+      "name": "2023-01-12-theory of everything.png",
+      "sha256": "d94f05e7a955244aa2ae10261a7217097747d7f52ea49da2d254c015ff41fee6",
+      "bytes": 30798,
+      "dimensions": [
+        552,
+        76
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "Focussing",
+          "confidence": 0.8761543691158294,
+          "box": [
+            [
+              65.0,
+              20.0
+            ],
+            [
+              140.0,
+              21.0
+            ],
+            [
+              139.0,
+              37.0
+            ],
+            [
+              65.0,
+              35.0
+            ]
+          ]
+        },
+        {
+          "text": "on the theory of everything is also still",
+          "confidence": 0.8924630582332611,
+          "box": [
+            [
+              138.0,
+              19.0
+            ],
+            [
+              415.0,
+              18.0
+            ],
+            [
+              415.0,
+              37.0
+            ],
+            [
+              138.0,
+              39.0
+            ]
+          ]
+        },
+        {
+          "text": "I a valid path",
+          "confidence": 0.8775008877118429,
+          "box": [
+            [
+              408.0,
+              20.0
+            ],
+            [
+              497.0,
+              20.0
+            ],
+            [
+              497.0,
+              36.0
+            ],
+            [
+              408.0,
+              37.0
+            ]
+          ]
+        },
+        {
+          "text": "to reaching the",
+          "confidence": 0.908672284334898,
+          "box": [
+            [
+              63.0,
+              41.0
+            ],
+            [
+              175.0,
+              41.0
+            ],
+            [
+              175.0,
+              58.0
+            ],
+            [
+              63.0,
+              58.0
+            ]
+          ]
+        },
+        {
+          "text": "private key.",
+          "confidence": 0.879284721154433,
+          "box": [
+            [
+              171.0,
+              41.0
+            ],
+            [
+              255.0,
+              42.0
+            ],
+            [
+              255.0,
+              58.0
+            ],
+            [
+              171.0,
+              57.0
+            ]
+          ]
+        },
+        {
+          "text": "W\u53f7 60.70",
+          "confidence": 0.5857844716972775,
+          "box": [
+            [
+              463.0,
+              50.0
+            ],
+            [
+              514.0,
+              50.0
+            ],
+            [
+              514.0,
+              59.0
+            ],
+            [
+              463.0,
+              59.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "Focussing\non the theory of everything is also still\nI a valid path\nto reaching the\nprivate key.\nW\u53f7 60.70"
+    },
+    {
+      "index": 20,
+      "name": "2023-02-23.png",
+      "sha256": "5dddf73995c45497facb034e3d38d2bbbe3642603b15fce22e118d34209c0197",
+      "bytes": 155098,
+      "dimensions": [
+        551,
+        760
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "February 23",
+          "confidence": 0.9106971522172292,
+          "box": [
+            [
+              322.0,
+              7.0
+            ],
+            [
+              404.0,
+              7.0
+            ],
+            [
+              404.0,
+              25.0
+            ],
+            [
+              322.0,
+              25.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8870169652832879,
+          "box": [
+            [
+              64.0,
+              39.0
+            ],
+            [
+              118.0,
+              39.0
+            ],
+            [
+              118.0,
+              57.0
+            ],
+            [
+              64.0,
+              57.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.832755317290624,
+          "box": [
+            [
+              478.0,
+              40.0
+            ],
+            [
+              515.0,
+              40.0
+            ],
+            [
+              515.0,
+              53.0
+            ],
+            [
+              478.0,
+              53.0
+            ]
+          ]
+        },
+        {
+          "text": "00100110 10100110 11001110 10010110 10110110",
+          "confidence": 0.891488230228424,
+          "box": [
+            [
+              64.0,
+              60.0
+            ],
+            [
+              439.0,
+              60.0
+            ],
+            [
+              439.0,
+              75.0
+            ],
+            [
+              64.0,
+              75.0
+            ]
+          ]
+        },
+        {
+          "text": "11001111010000110",
+          "confidence": 0.8169223897986941,
+          "box": [
+            [
+              287.0,
+              83.0
+            ],
+            [
+              440.0,
+              83.0
+            ],
+            [
+              440.0,
+              95.0
+            ],
+            [
+              287.0,
+              95.0
+            ]
+          ]
+        },
+        {
+          "text": "010000010",
+          "confidence": 0.6692485719919204,
+          "box": [
+            [
+              132.0,
+              105.0
+            ],
+            [
+              246.0,
+              105.0
+            ],
+            [
+              246.0,
+              115.0
+            ],
+            [
+              132.0,
+              115.0
+            ]
+          ]
+        },
+        {
+          "text": "1100110101001101010",
+          "confidence": 0.8985330313444138,
+          "box": [
+            [
+              75.0,
+              125.0
+            ],
+            [
+              255.0,
+              125.0
+            ],
+            [
+              255.0,
+              138.0
+            ],
+            [
+              75.0,
+              138.0
+            ]
+          ]
+        },
+        {
+          "text": "10 01001110 00101110",
+          "confidence": 0.8908508618672689,
+          "box": [
+            [
+              270.0,
+              125.0
+            ],
+            [
+              439.0,
+              125.0
+            ],
+            [
+              439.0,
+              138.0
+            ],
+            [
+              270.0,
+              138.0
+            ]
+          ]
+        },
+        {
+          "text": "110011101001",
+          "confidence": 0.8088633739031278,
+          "box": [
+            [
+              137.0,
+              146.0
+            ],
+            [
+              255.0,
+              146.0
+            ],
+            [
+              255.0,
+              158.0
+            ],
+            [
+              137.0,
+              158.0
+            ]
+          ]
+        },
+        {
+          "text": "11001110 001",
+          "confidence": 0.8216643470984238,
+          "box": [
+            [
+              137.0,
+              167.0
+            ],
+            [
+              243.0,
+              167.0
+            ],
+            [
+              243.0,
+              180.0
+            ],
+            [
+              137.0,
+              180.0
+            ]
+          ]
+        },
+        {
+          "text": "11001110 10000110",
+          "confidence": 0.8978798058297899,
+          "box": [
+            [
+              290.0,
+              167.0
+            ],
+            [
+              440.0,
+              167.0
+            ],
+            [
+              440.0,
+              180.0
+            ],
+            [
+              290.0,
+              180.0
+            ]
+          ]
+        },
+        {
+          "text": "110",
+          "confidence": 0.5787843316793442,
+          "box": [
+            [
+              413.0,
+              189.0
+            ],
+            [
+              439.0,
+              189.0
+            ],
+            [
+              439.0,
+              200.0
+            ],
+            [
+              413.0,
+              200.0
+            ]
+          ]
+        },
+        {
+          "text": "10010110",
+          "confidence": 0.808870964580112,
+          "box": [
+            [
+              144.0,
+              210.0
+            ],
+            [
+              218.0,
+              210.0
+            ],
+            [
+              218.0,
+              221.0
+            ],
+            [
+              144.0,
+              221.0
+            ]
+          ]
+        },
+        {
+          "text": "0110",
+          "confidence": 0.7468752145767212,
+          "box": [
+            [
+              401.0,
+              209.0
+            ],
+            [
+              439.0,
+              209.0
+            ],
+            [
+              439.0,
+              222.0
+            ],
+            [
+              401.0,
+              222.0
+            ]
+          ]
+        },
+        {
+          "text": "110",
+          "confidence": 0.5787843316793442,
+          "box": [
+            [
+              413.0,
+              231.0
+            ],
+            [
+              439.0,
+              231.0
+            ],
+            [
+              439.0,
+              242.0
+            ],
+            [
+              413.0,
+              242.0
+            ]
+          ]
+        },
+        {
+          "text": "0110",
+          "confidence": 0.6713106274604798,
+          "box": [
+            [
+              407.0,
+              251.0
+            ],
+            [
+              440.0,
+              251.0
+            ],
+            [
+              440.0,
+              263.0
+            ],
+            [
+              407.0,
+              263.0
+            ]
+          ]
+        },
+        {
+          "text": "10",
+          "confidence": 0.5751213828722636,
+          "box": [
+            [
+              410.0,
+              272.0
+            ],
+            [
+              440.0,
+              272.0
+            ],
+            [
+              440.0,
+              284.0
+            ],
+            [
+              410.0,
+              284.0
+            ]
+          ]
+        },
+        {
+          "text": "0110",
+          "confidence": 0.7190277814865113,
+          "box": [
+            [
+              403.0,
+              335.0
+            ],
+            [
+              440.0,
+              335.0
+            ],
+            [
+              440.0,
+              347.0
+            ],
+            [
+              403.0,
+              347.0
+            ]
+          ]
+        },
+        {
+          "text": "1001010",
+          "confidence": 0.6367214359343052,
+          "box": [
+            [
+              140.0,
+              441.0
+            ],
+            [
+              215.0,
+              440.0
+            ],
+            [
+              215.0,
+              450.0
+            ],
+            [
+              140.0,
+              451.0
+            ]
+          ]
+        },
+        {
+          "text": "00010111001110110",
+          "confidence": 0.9052685466077592,
+          "box": [
+            [
+              278.0,
+              440.0
+            ],
+            [
+              440.0,
+              440.0
+            ],
+            [
+              440.0,
+              453.0
+            ],
+            [
+              278.0,
+              453.0
+            ]
+          ]
+        },
+        {
+          "text": "00110",
+          "confidence": 0.7870287795861562,
+          "box": [
+            [
+              401.0,
+              461.0
+            ],
+            [
+              440.0,
+              461.0
+            ],
+            [
+              440.0,
+              474.0
+            ],
+            [
+              401.0,
+              474.0
+            ]
+          ]
+        },
+        {
+          "text": "10000110 100",
+          "confidence": 0.8372116226416367,
+          "box": [
+            [
+              136.0,
+              481.0
+            ],
+            [
+              244.0,
+              481.0
+            ],
+            [
+              244.0,
+              494.0
+            ],
+            [
+              136.0,
+              494.0
+            ]
+          ]
+        },
+        {
+          "text": "00111011010010110",
+          "confidence": 0.8641012973255582,
+          "box": [
+            [
+              283.0,
+              481.0
+            ],
+            [
+              440.0,
+              481.0
+            ],
+            [
+              440.0,
+              496.0
+            ],
+            [
+              283.0,
+              496.0
+            ]
+          ]
+        },
+        {
+          "text": "01000",
+          "confidence": 0.7248697578907013,
+          "box": [
+            [
+              147.0,
+              504.0
+            ],
+            [
+              214.0,
+              504.0
+            ],
+            [
+              214.0,
+              514.0
+            ],
+            [
+              147.0,
+              514.0
+            ]
+          ]
+        },
+        {
+          "text": "0110",
+          "confidence": 0.755991792678833,
+          "box": [
+            [
+              407.0,
+              503.0
+            ],
+            [
+              439.0,
+              503.0
+            ],
+            [
+              439.0,
+              516.0
+            ],
+            [
+              407.0,
+              516.0
+            ]
+          ]
+        },
+        {
+          "text": "11000110",
+          "confidence": 0.7614134815004137,
+          "box": [
+            [
+              138.0,
+              524.0
+            ],
+            [
+              221.0,
+              524.0
+            ],
+            [
+              221.0,
+              536.0
+            ],
+            [
+              138.0,
+              536.0
+            ]
+          ]
+        },
+        {
+          "text": "001011011000110",
+          "confidence": 0.9166967384517193,
+          "box": [
+            [
+              305.0,
+              524.0
+            ],
+            [
+              440.0,
+              524.0
+            ],
+            [
+              440.0,
+              537.0
+            ],
+            [
+              305.0,
+              537.0
+            ]
+          ]
+        },
+        {
+          "text": "0110",
+          "confidence": 0.6713106274604798,
+          "box": [
+            [
+              407.0,
+              545.0
+            ],
+            [
+              440.0,
+              545.0
+            ],
+            [
+              440.0,
+              557.0
+            ],
+            [
+              407.0,
+              557.0
+            ]
+          ]
+        },
+        {
+          "text": "0 00100110",
+          "confidence": 0.8518251505765048,
+          "box": [
+            [
+              356.0,
+              565.0
+            ],
+            [
+              441.0,
+              565.0
+            ],
+            [
+              441.0,
+              580.0
+            ],
+            [
+              356.0,
+              580.0
+            ]
+          ]
+        },
+        {
+          "text": "0 10000110 10110110",
+          "confidence": 0.8166540324687958,
+          "box": [
+            [
+              276.0,
+              647.0
+            ],
+            [
+              441.0,
+              649.0
+            ],
+            [
+              441.0,
+              664.0
+            ],
+            [
+              276.0,
+              662.0
+            ]
+          ]
+        },
+        {
+          "text": "1101001011001001110",
+          "confidence": 0.9144306421279907,
+          "box": [
+            [
+              263.0,
+              671.0
+            ],
+            [
+              439.0,
+              671.0
+            ],
+            [
+              439.0,
+              684.0
+            ],
+            [
+              263.0,
+              684.0
+            ]
+          ]
+        },
+        {
+          "text": "0000",
+          "confidence": 0.7563613533973694,
+          "box": [
+            [
+              67.0,
+              693.0
+            ],
+            [
+              99.0,
+              693.0
+            ],
+            [
+              99.0,
+              704.0
+            ],
+            [
+              67.0,
+              704.0
+            ]
+          ]
+        },
+        {
+          "text": "10 00110110 01000110",
+          "confidence": 0.8728326615833101,
+          "box": [
+            [
+              270.0,
+              692.0
+            ],
+            [
+              439.0,
+              692.0
+            ],
+            [
+              439.0,
+              705.0
+            ],
+            [
+              270.0,
+              705.0
+            ]
+          ]
+        },
+        {
+          "text": "11101110 11110110 00110110 00110110 10100110",
+          "confidence": 0.8789713263511658,
+          "box": [
+            [
+              67.0,
+              712.0
+            ],
+            [
+              441.0,
+              712.0
+            ],
+            [
+              441.0,
+              727.0
+            ],
+            [
+              67.0,
+              727.0
+            ]
+          ]
+        },
+        {
+          "text": "10011110",
+          "confidence": 0.8615272839864095,
+          "box": [
+            [
+              65.0,
+              732.0
+            ],
+            [
+              139.0,
+              732.0
+            ],
+            [
+              139.0,
+              749.0
+            ],
+            [
+              65.0,
+              749.0
+            ]
+          ]
+        },
+        {
+          "text": "1 \u2190 04:20 PM",
+          "confidence": 0.7834226580766531,
+          "box": [
+            [
+              434.0,
+              741.0
+            ],
+            [
+              515.0,
+              741.0
+            ],
+            [
+              515.0,
+              753.0
+            ],
+            [
+              434.0,
+              753.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "February 23\nJrk Bgrt\nadmin\n00100110 10100110 11001110 10010110 10110110\n11001111010000110\n010000010\n1100110101001101010\n10 01001110 00101110\n110011101001\n11001110 001\n11001110 10000110\n110\n10010110\n0110\n110\n0110\n10\n0110\n1001010\n00010111001110110\n00110\n10000110 100\n00111011010010110\n01000\n0110\n11000110\n001011011000110\n0110\n0 00100110\n0 10000110 10110110\n1101001011001001110\n0000\n10 00110110 01000110\n11101110 11110110 00110110 00110110 10100110\n10011110\n1 \u2190 04:20 PM"
+    },
+    {
+      "index": 21,
+      "name": "2023-08-03-1.png",
+      "sha256": "3e955954b5b8f687a8615ab409f1481556c448145980cdbe11dd0b0de0e8c216",
+      "bytes": 77053,
+      "dimensions": [
+        526,
+        202
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "August 3",
+          "confidence": 0.8166484700308906,
+          "box": [
+            [
+              322.0,
+              19.0
+            ],
+            [
+              382.0,
+              19.0
+            ],
+            [
+              382.0,
+              33.0
+            ],
+            [
+              322.0,
+              33.0
+            ]
+          ]
+        },
+        {
+          "text": "JrkBgrt",
+          "confidence": 0.8039241135120392,
+          "box": [
+            [
+              55.0,
+              63.0
+            ],
+            [
+              105.0,
+              64.0
+            ],
+            [
+              104.0,
+              79.0
+            ],
+            [
+              54.0,
+              77.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.7749954362710317,
+          "box": [
+            [
+              390.0,
+              63.0
+            ],
+            [
+              424.0,
+              63.0
+            ],
+            [
+              424.0,
+              74.0
+            ],
+            [
+              390.0,
+              74.0
+            ]
+          ]
+        },
+        {
+          "text": "zil",
+          "confidence": 0.6227366030216217,
+          "box": [
+            [
+              64.0,
+              88.0
+            ],
+            [
+              82.0,
+              88.0
+            ],
+            [
+              82.0,
+              102.0
+            ],
+            [
+              64.0,
+              102.0
+            ]
+          ]
+        },
+        {
+          "text": "@SoWut please shine us some light'",
+          "confidence": 0.8971296233790261,
+          "box": [
+            [
+              66.0,
+              110.0
+            ],
+            [
+              292.0,
+              109.0
+            ],
+            [
+              292.0,
+              124.0
+            ],
+            [
+              66.0,
+              125.0
+            ]
+          ]
+        },
+        {
+          "text": "Ok ok ok ok. I can't hold this one any longer.",
+          "confidence": 0.8952071692081208,
+          "box": [
+            [
+              54.0,
+              134.0
+            ],
+            [
+              362.0,
+              136.0
+            ],
+            [
+              362.0,
+              150.0
+            ],
+            [
+              54.0,
+              148.0
+            ]
+          ]
+        },
+        {
+          "text": "01:50 PM",
+          "confidence": 0.8282364540629916,
+          "box": [
+            [
+              374.0,
+              142.0
+            ],
+            [
+              425.0,
+              142.0
+            ],
+            [
+              425.0,
+              153.0
+            ],
+            [
+              374.0,
+              153.0
+            ]
+          ]
+        },
+        {
+          "text": "Are you really looking for just the btc...?",
+          "confidence": 0.8540894768454812,
+          "box": [
+            [
+              54.0,
+              172.0
+            ],
+            [
+              333.0,
+              172.0
+            ],
+            [
+              333.0,
+              187.0
+            ],
+            [
+              54.0,
+              188.0
+            ]
+          ]
+        },
+        {
+          "text": "O:5PM",
+          "confidence": 0.6645391384760538,
+          "box": [
+            [
+              365.0,
+              181.0
+            ],
+            [
+              421.0,
+              181.0
+            ],
+            [
+              421.0,
+              190.0
+            ],
+            [
+              365.0,
+              190.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "August 3\nJrkBgrt\nadmin\nzil\n@SoWut please shine us some light'\nOk ok ok ok. I can't hold this one any longer.\n01:50 PM\nAre you really looking for just the btc...?\nO:5PM"
+    },
+    {
+      "index": 22,
+      "name": "2023-08-03-2.png",
+      "sha256": "6564f5a9be9e4f43c1fced18775cf117992c8884742cf7f14ffa23f1a51e3395",
+      "bytes": 50112,
+      "dimensions": [
+        519,
+        157
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "JrkBgrt",
+          "confidence": 0.7983952835202217,
+          "box": [
+            [
+              57.0,
+              16.0
+            ],
+            [
+              107.0,
+              18.0
+            ],
+            [
+              106.0,
+              33.0
+            ],
+            [
+              56.0,
+              31.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.7528034051259359,
+          "box": [
+            [
+              471.0,
+              17.0
+            ],
+            [
+              505.0,
+              17.0
+            ],
+            [
+              505.0,
+              28.0
+            ],
+            [
+              471.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "text": "Sid2408",
+          "confidence": 0.8564118891954422,
+          "box": [
+            [
+              68.0,
+              43.0
+            ],
+            [
+              118.0,
+              43.0
+            ],
+            [
+              118.0,
+              55.0
+            ],
+            [
+              68.0,
+              55.0
+            ]
+          ]
+        },
+        {
+          "text": "But you can confirm if there is indeed a 3rd door that is yet to be foun..",
+          "confidence": 0.9166099238395691,
+          "box": [
+            [
+              67.0,
+              64.0
+            ],
+            [
+              503.0,
+              64.0
+            ],
+            [
+              503.0,
+              77.0
+            ],
+            [
+              67.0,
+              77.0
+            ]
+          ]
+        },
+        {
+          "text": "I saw that you guys got really really far already.",
+          "confidence": 0.911497582991918,
+          "box": [
+            [
+              54.0,
+              88.0
+            ],
+            [
+              385.0,
+              88.0
+            ],
+            [
+              385.0,
+              105.0
+            ],
+            [
+              54.0,
+              105.0
+            ]
+          ]
+        },
+        {
+          "text": "02:33PM",
+          "confidence": 0.7670587450265884,
+          "box": [
+            [
+              455.0,
+              97.0
+            ],
+            [
+              505.0,
+              97.0
+            ],
+            [
+              505.0,
+              106.0
+            ],
+            [
+              455.0,
+              106.0
+            ]
+          ]
+        },
+        {
+          "text": "Actually, the hardest part is done.",
+          "confidence": 0.9088015655676523,
+          "box": [
+            [
+              57.0,
+              127.0
+            ],
+            [
+              291.0,
+              127.0
+            ],
+            [
+              291.0,
+              141.0
+            ],
+            [
+              57.0,
+              141.0
+            ]
+          ]
+        },
+        {
+          "text": "02:34PM",
+          "confidence": 0.7805390283465385,
+          "box": [
+            [
+              303.0,
+              135.0
+            ],
+            [
+              354.0,
+              135.0
+            ],
+            [
+              354.0,
+              144.0
+            ],
+            [
+              303.0,
+              144.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "JrkBgrt\nadmin\nSid2408\nBut you can confirm if there is indeed a 3rd door that is yet to be foun..\nI saw that you guys got really really far already.\n02:33PM\nActually, the hardest part is done.\n02:34PM"
+    },
+    {
+      "index": 23,
+      "name": "2023-08-06-1.png",
+      "sha256": "2696ea0469ed91d4f03a6b06f038d3c62837015caef4a450eb3eaf3794bc4f7d",
+      "bytes": 169022,
+      "dimensions": [
+        518,
+        410
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8791302839914957,
+          "box": [
+            [
+              56.0,
+              15.0
+            ],
+            [
+              110.0,
+              15.0
+            ],
+            [
+              110.0,
+              32.0
+            ],
+            [
+              56.0,
+              32.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.5992976129055023,
+          "box": [
+            [
+              472.0,
+              15.0
+            ],
+            [
+              508.0,
+              15.0
+            ],
+            [
+              508.0,
+              28.0
+            ],
+            [
+              472.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "text": "This may sound at little dramatic but if I suddenly can't answer",
+          "confidence": 0.9393963777101957,
+          "box": [
+            [
+              57.0,
+              36.0
+            ],
+            [
+              501.0,
+              35.0
+            ],
+            [
+              501.0,
+              52.0
+            ],
+            [
+              58.0,
+              52.0
+            ]
+          ]
+        },
+        {
+          "text": "you guys anymore, it was nice knowing you all",
+          "confidence": 0.8953028515629147,
+          "box": [
+            [
+              56.0,
+              58.0
+            ],
+            [
+              385.0,
+              56.0
+            ],
+            [
+              385.0,
+              73.0
+            ],
+            [
+              56.0,
+              75.0
+            ]
+          ]
+        },
+        {
+          "text": "2 04.42 AM",
+          "confidence": 0.7391015399586071,
+          "box": [
+            [
+              428.0,
+              63.0
+            ],
+            [
+              509.0,
+              65.0
+            ],
+            [
+              509.0,
+              77.0
+            ],
+            [
+              428.0,
+              76.0
+            ]
+          ]
+        },
+        {
+          "text": "Oh, and be careful of what you get yourselves into.",
+          "confidence": 0.9353041006968572,
+          "box": [
+            [
+              59.0,
+              95.0
+            ],
+            [
+              413.0,
+              95.0
+            ],
+            [
+              413.0,
+              111.0
+            ],
+            [
+              59.0,
+              111.0
+            ]
+          ]
+        },
+        {
+          "text": "04:43 AM",
+          "confidence": 0.7767677240901523,
+          "box": [
+            [
+              450.0,
+              103.0
+            ],
+            [
+              503.0,
+              103.0
+            ],
+            [
+              503.0,
+              115.0
+            ],
+            [
+              450.0,
+              115.0
+            ]
+          ]
+        },
+        {
+          "text": "???",
+          "confidence": 0.6408690810203552,
+          "box": [
+            [
+              57.0,
+              155.0
+            ],
+            [
+              82.0,
+              156.0
+            ],
+            [
+              81.0,
+              174.0
+            ],
+            [
+              56.0,
+              172.0
+            ]
+          ]
+        },
+        {
+          "text": "04:44 AM",
+          "confidence": 0.8252483805020651,
+          "box": [
+            [
+              91.0,
+              163.0
+            ],
+            [
+              145.0,
+              164.0
+            ],
+            [
+              145.0,
+              178.0
+            ],
+            [
+              90.0,
+              176.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8317880166901482,
+          "box": [
+            [
+              57.0,
+              197.0
+            ],
+            [
+              110.0,
+              200.0
+            ],
+            [
+              109.0,
+              215.0
+            ],
+            [
+              57.0,
+              213.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.7825928032398224,
+          "box": [
+            [
+              217.0,
+              198.0
+            ],
+            [
+              253.0,
+              198.0
+            ],
+            [
+              253.0,
+              212.0
+            ],
+            [
+              217.0,
+              212.0
+            ]
+          ]
+        },
+        {
+          "text": "I'll not explain why.",
+          "confidence": 0.8757221563295885,
+          "box": [
+            [
+              57.0,
+              217.0
+            ],
+            [
+              191.0,
+              220.0
+            ],
+            [
+              191.0,
+              237.0
+            ],
+            [
+              57.0,
+              234.0
+            ]
+          ]
+        },
+        {
+          "text": "04:44AM",
+          "confidence": 0.8219272643327713,
+          "box": [
+            [
+              199.0,
+              224.0
+            ],
+            [
+              255.0,
+              226.0
+            ],
+            [
+              254.0,
+              241.0
+            ],
+            [
+              199.0,
+              239.0
+            ]
+          ]
+        },
+        {
+          "text": "The puzzle talks for me. 1 \u00b1 04:44 AM",
+          "confidence": 0.9139680783999594,
+          "box": [
+            [
+              57.0,
+              252.0
+            ],
+            [
+              321.0,
+              259.0
+            ],
+            [
+              320.0,
+              280.0
+            ],
+            [
+              57.0,
+              274.0
+            ]
+          ]
+        },
+        {
+          "text": "???",
+          "confidence": 0.7295756489038467,
+          "box": [
+            [
+              56.0,
+              317.0
+            ],
+            [
+              82.0,
+              318.0
+            ],
+            [
+              81.0,
+              335.0
+            ],
+            [
+              55.0,
+              333.0
+            ]
+          ]
+        },
+        {
+          "text": "04:44 AM",
+          "confidence": 0.7397634916835361,
+          "box": [
+            [
+              91.0,
+              325.0
+            ],
+            [
+              145.0,
+              327.0
+            ],
+            [
+              144.0,
+              341.0
+            ],
+            [
+              90.0,
+              339.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.8251774112383524,
+          "box": [
+            [
+              57.0,
+              360.0
+            ],
+            [
+              110.0,
+              362.0
+            ],
+            [
+              109.0,
+              377.0
+            ],
+            [
+              57.0,
+              375.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.8177087108294169,
+          "box": [
+            [
+              456.0,
+              360.0
+            ],
+            [
+              492.0,
+              360.0
+            ],
+            [
+              492.0,
+              374.0
+            ],
+            [
+              456.0,
+              374.0
+            ]
+          ]
+        },
+        {
+          "text": "And don't worry, I just be here in the meanwhile",
+          "confidence": 0.8660316637584141,
+          "box": [
+            [
+              59.0,
+              382.0
+            ],
+            [
+              401.0,
+              382.0
+            ],
+            [
+              401.0,
+              396.0
+            ],
+            [
+              59.0,
+              396.0
+            ]
+          ]
+        },
+        {
+          "text": "04:45 AM",
+          "confidence": 0.7559839751985338,
+          "box": [
+            [
+              439.0,
+              388.0
+            ],
+            [
+              494.0,
+              389.0
+            ],
+            [
+              493.0,
+              402.0
+            ],
+            [
+              439.0,
+              400.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "Jrk Bgrt\nadmin\nThis may sound at little dramatic but if I suddenly can't answer\nyou guys anymore, it was nice knowing you all\n2 04.42 AM\nOh, and be careful of what you get yourselves into.\n04:43 AM\n???\n04:44 AM\nJrk Bgrt\nadmin\nI'll not explain why.\n04:44AM\nThe puzzle talks for me. 1 \u00b1 04:44 AM\n???\n04:44 AM\nJrk Bgrt\nadmin\nAnd don't worry, I just be here in the meanwhile\n04:45 AM"
+    },
+    {
+      "index": 24,
+      "name": "2023-08-06-2.png",
+      "sha256": "692add262a52302458069e7172c74b2b13aeee1e734685ce201fcb1ab5f42743",
+      "bytes": 80485,
+      "dimensions": [
+        536,
+        246
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "JrkBgrt",
+          "confidence": 0.8620867431163788,
+          "box": [
+            [
+              56.0,
+              18.0
+            ],
+            [
+              107.0,
+              20.0
+            ],
+            [
+              107.0,
+              35.0
+            ],
+            [
+              56.0,
+              33.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.8268647094567617,
+          "box": [
+            [
+              470.0,
+              19.0
+            ],
+            [
+              505.0,
+              19.0
+            ],
+            [
+              505.0,
+              31.0
+            ],
+            [
+              470.0,
+              31.0
+            ]
+          ]
+        },
+        {
+          "text": "Sid2408",
+          "confidence": 0.803221583366394,
+          "box": [
+            [
+              68.0,
+              44.0
+            ],
+            [
+              119.0,
+              44.0
+            ],
+            [
+              119.0,
+              57.0
+            ],
+            [
+              68.0,
+              57.0
+            ]
+          ]
+        },
+        {
+          "text": "I wishonly forthatthepuzzle provided some exciting pieces of",
+          "confidence": 0.88252940236545,
+          "box": [
+            [
+              55.0,
+              90.0
+            ],
+            [
+              501.0,
+              90.0
+            ],
+            [
+              501.0,
+              105.0
+            ],
+            [
+              55.0,
+              106.0
+            ]
+          ]
+        },
+        {
+          "text": "information. That others have learned something new and that",
+          "confidence": 0.8910068801191987,
+          "box": [
+            [
+              56.0,
+              111.0
+            ],
+            [
+              499.0,
+              111.0
+            ],
+            [
+              499.0,
+              127.0
+            ],
+            [
+              56.0,
+              126.0
+            ]
+          ]
+        },
+        {
+          "text": "for some it is simply entertaining. I hope that the person who",
+          "confidence": 0.9201016690995958,
+          "box": [
+            [
+              55.0,
+              132.0
+            ],
+            [
+              486.0,
+              133.0
+            ],
+            [
+              486.0,
+              148.0
+            ],
+            [
+              55.0,
+              147.0
+            ]
+          ]
+        },
+        {
+          "text": "connects the last pieces for the'main price' will thus get its",
+          "confidence": 0.9101830985811021,
+          "box": [
+            [
+              55.0,
+              153.0
+            ],
+            [
+              473.0,
+              153.0
+            ],
+            [
+              473.0,
+              169.0
+            ],
+            [
+              55.0,
+              168.0
+            ]
+          ]
+        },
+        {
+          "text": "hands on the private key and hold or spend it wisely, but mostly",
+          "confidence": 0.9017896982339713,
+          "box": [
+            [
+              55.0,
+              174.0
+            ],
+            [
+              501.0,
+              175.0
+            ],
+            [
+              501.0,
+              191.0
+            ],
+            [
+              55.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "enjoy it. And lastly, I hope to witness the day that the last scene",
+          "confidence": 0.8998799026012421,
+          "box": [
+            [
+              56.0,
+              197.0
+            ],
+            [
+              503.0,
+              196.0
+            ],
+            [
+              503.0,
+              210.0
+            ],
+            [
+              56.0,
+              211.0
+            ]
+          ]
+        },
+        {
+          "text": "of mr.Robotbecomes a reality.",
+          "confidence": 0.89384858806928,
+          "box": [
+            [
+              55.0,
+              216.0
+            ],
+            [
+              275.0,
+              218.0
+            ],
+            [
+              275.0,
+              232.0
+            ],
+            [
+              55.0,
+              230.0
+            ]
+          ]
+        },
+        {
+          "text": "06:05 AM",
+          "confidence": 0.7286673916710747,
+          "box": [
+            [
+              454.0,
+              225.0
+            ],
+            [
+              506.0,
+              225.0
+            ],
+            [
+              506.0,
+              235.0
+            ],
+            [
+              454.0,
+              235.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "JrkBgrt\nadmin\nSid2408\nI wishonly forthatthepuzzle provided some exciting pieces of\ninformation. That others have learned something new and that\nfor some it is simply entertaining. I hope that the person who\nconnects the last pieces for the'main price' will thus get its\nhands on the private key and hold or spend it wisely, but mostly\nenjoy it. And lastly, I hope to witness the day that the last scene\nof mr.Robotbecomes a reality.\n06:05 AM"
+    },
+    {
+      "index": 25,
+      "name": "2023-08-06-3.png",
+      "sha256": "75e756cec140a234f146e30b42be4155cbb332bbe5241d54c35b33f35ddb2a26",
+      "bytes": 32782,
+      "dimensions": [
+        533,
+        131
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.7950294216473898,
+          "box": [
+            [
+              70.0,
+              13.0
+            ],
+            [
+              121.0,
+              14.0
+            ],
+            [
+              121.0,
+              28.0
+            ],
+            [
+              70.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.6854696075121561,
+          "box": [
+            [
+              485.0,
+              13.0
+            ],
+            [
+              518.0,
+              13.0
+            ],
+            [
+              518.0,
+              24.0
+            ],
+            [
+              485.0,
+              24.0
+            ]
+          ]
+        },
+        {
+          "text": "Probably the last hint:",
+          "confidence": 0.8628766189018885,
+          "box": [
+            [
+              70.0,
+              34.0
+            ],
+            [
+              224.0,
+              34.0
+            ],
+            [
+              224.0,
+              48.0
+            ],
+            [
+              70.0,
+              48.0
+            ]
+          ]
+        },
+        {
+          "text": "Once you hit a \"ying yang\", you'll be able to solve it the same",
+          "confidence": 0.880108127836138,
+          "box": [
+            [
+              69.0,
+              75.0
+            ],
+            [
+              495.0,
+              75.0
+            ],
+            [
+              495.0,
+              92.0
+            ],
+            [
+              69.0,
+              92.0
+            ]
+          ]
+        },
+        {
+          "text": "day.",
+          "confidence": 0.7221394062042237,
+          "box": [
+            [
+              70.0,
+              96.0
+            ],
+            [
+              99.0,
+              98.0
+            ],
+            [
+              98.0,
+              113.0
+            ],
+            [
+              69.0,
+              111.0
+            ]
+          ]
+        },
+        {
+          "text": "06:12.AM",
+          "confidence": 0.6816346446673075,
+          "box": [
+            [
+              468.0,
+              105.0
+            ],
+            [
+              518.0,
+              105.0
+            ],
+            [
+              518.0,
+              114.0
+            ],
+            [
+              468.0,
+              114.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "Jrk Bgrt\nadmin\nProbably the last hint:\nOnce you hit a \"ying yang\", you'll be able to solve it the same\nday.\n06:12.AM"
+    },
+    {
+      "index": 26,
+      "name": "2023-08-06-4.png",
+      "sha256": "5b4b92a99af75af85150293ab89b5a2d9a8b2682e7bc1d5a049ad7a0804f0c23",
+      "bytes": 200644,
+      "dimensions": [
+        554,
+        537
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "admin",
+          "confidence": 0.8265821238358816,
+          "box": [
+            [
+              435.0,
+              12.0
+            ],
+            [
+              474.0,
+              10.0
+            ],
+            [
+              475.0,
+              26.0
+            ],
+            [
+              436.0,
+              28.0
+            ]
+          ]
+        },
+        {
+          "text": " Zil",
+          "confidence": 0.735013234615326,
+          "box": [
+            [
+              77.0,
+              37.0
+            ],
+            [
+              100.0,
+              37.0
+            ],
+            [
+              100.0,
+              54.0
+            ],
+            [
+              77.0,
+              54.0
+            ]
+          ]
+        },
+        {
+          "text": "unless Jrk thinks we already know something, which we do not",
+          "confidence": 0.8850065928990724,
+          "box": [
+            [
+              82.0,
+              60.0
+            ],
+            [
+              472.0,
+              60.0
+            ],
+            [
+              472.0,
+              74.0
+            ],
+            [
+              82.0,
+              74.0
+            ]
+          ]
+        },
+        {
+          "text": "Something was solved rather... remarkable.",
+          "confidence": 0.9342744849448981,
+          "box": [
+            [
+              71.0,
+              82.0
+            ],
+            [
+              377.0,
+              83.0
+            ],
+            [
+              377.0,
+              102.0
+            ],
+            [
+              71.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": "06:49 AM",
+          "confidence": 0.8144901196161906,
+          "box": [
+            [
+              420.0,
+              91.0
+            ],
+            [
+              475.0,
+              91.0
+            ],
+            [
+              475.0,
+              107.0
+            ],
+            [
+              420.0,
+              107.0
+            ]
+          ]
+        },
+        {
+          "text": "RdfBbx",
+          "confidence": 0.8405441386359078,
+          "box": [
+            [
+              70.0,
+              122.0
+            ],
+            [
+              142.0,
+              125.0
+            ],
+            [
+              141.0,
+              146.0
+            ],
+            [
+              69.0,
+              143.0
+            ]
+          ]
+        },
+        {
+          "text": " Jrk Bgrt",
+          "confidence": 0.8679072797298432,
+          "box": [
+            [
+              77.0,
+              150.0
+            ],
+            [
+              136.0,
+              150.0
+            ],
+            [
+              136.0,
+              168.0
+            ],
+            [
+              77.0,
+              168.0
+            ]
+          ]
+        },
+        {
+          "text": "Something was solved rather... remarkable.",
+          "confidence": 0.9416489933812341,
+          "box": [
+            [
+              80.0,
+              171.0
+            ],
+            [
+              350.0,
+              172.0
+            ],
+            [
+              350.0,
+              189.0
+            ],
+            [
+              80.0,
+              187.0
+            ]
+          ]
+        },
+        {
+          "text": "Has anyone passed the salvation part?",
+          "confidence": 0.9003269766506395,
+          "box": [
+            [
+              71.0,
+              198.0
+            ],
+            [
+              347.0,
+              198.0
+            ],
+            [
+              347.0,
+              215.0
+            ],
+            [
+              71.0,
+              215.0
+            ]
+          ]
+        },
+        {
+          "text": "06:51AM",
+          "confidence": 0.7031542509794235,
+          "box": [
+            [
+              356.0,
+              203.0
+            ],
+            [
+              411.0,
+              205.0
+            ],
+            [
+              410.0,
+              221.0
+            ],
+            [
+              355.0,
+              218.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.859626485241784,
+          "box": [
+            [
+              70.0,
+              237.0
+            ],
+            [
+              125.0,
+              239.0
+            ],
+            [
+              124.0,
+              256.0
+            ],
+            [
+              70.0,
+              254.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.804681251446406,
+          "box": [
+            [
+              142.0,
+              238.0
+            ],
+            [
+              180.0,
+              236.0
+            ],
+            [
+              181.0,
+              252.0
+            ],
+            [
+              143.0,
+              254.0
+            ]
+          ]
+        },
+        {
+          "text": "Partly.",
+          "confidence": 0.7835045605897903,
+          "box": [
+            [
+              70.0,
+              256.0
+            ],
+            [
+              121.0,
+              259.0
+            ],
+            [
+              119.0,
+              280.0
+            ],
+            [
+              69.0,
+              276.0
+            ]
+          ]
+        },
+        {
+          "text": "06:53 AM",
+          "confidence": 0.8440514405568441,
+          "box": [
+            [
+              122.0,
+              263.0
+            ],
+            [
+              183.0,
+              266.0
+            ],
+            [
+              182.0,
+              283.0
+            ],
+            [
+              121.0,
+              281.0
+            ]
+          ]
+        },
+        {
+          "text": "ArchOptic",
+          "confidence": 0.8293039500713348,
+          "box": [
+            [
+              71.0,
+              300.0
+            ],
+            [
+              136.0,
+              300.0
+            ],
+            [
+              136.0,
+              317.0
+            ],
+            [
+              71.0,
+              317.0
+            ]
+          ]
+        },
+        {
+          "text": "Don't give away too much. Especially if someone is close!",
+          "confidence": 0.9345856308937073,
+          "box": [
+            [
+              71.0,
+              320.0
+            ],
+            [
+              480.0,
+              320.0
+            ],
+            [
+              480.0,
+              339.0
+            ],
+            [
+              71.0,
+              339.0
+            ]
+          ]
+        },
+        {
+          "text": "06:55AM",
+          "confidence": 0.8467397317290306,
+          "box": [
+            [
+              468.0,
+              349.0
+            ],
+            [
+              524.0,
+              349.0
+            ],
+            [
+              524.0,
+              365.0
+            ],
+            [
+              468.0,
+              365.0
+            ]
+          ]
+        },
+        {
+          "text": "Jrk Bgrt",
+          "confidence": 0.7913940019077725,
+          "box": [
+            [
+              70.0,
+              383.0
+            ],
+            [
+              125.0,
+              383.0
+            ],
+            [
+              125.0,
+              401.0
+            ],
+            [
+              70.0,
+              401.0
+            ]
+          ]
+        },
+        {
+          "text": "admin",
+          "confidence": 0.7245038151741028,
+          "box": [
+            [
+              148.0,
+              383.0
+            ],
+            [
+              186.0,
+              383.0
+            ],
+            [
+              186.0,
+              398.0
+            ],
+            [
+              148.0,
+              398.0
+            ]
+          ]
+        },
+        {
+          "text": "I won't!",
+          "confidence": 0.8834921187824674,
+          "box": [
+            [
+              69.0,
+              404.0
+            ],
+            [
+              125.0,
+              404.0
+            ],
+            [
+              125.0,
+              422.0
+            ],
+            [
+              69.0,
+              422.0
+            ]
+          ]
+        },
+        {
+          "text": "06:56 AM",
+          "confidence": 0.8812825746006436,
+          "box": [
+            [
+              129.0,
+              408.0
+            ],
+            [
+              186.0,
+              410.0
+            ],
+            [
+              186.0,
+              428.0
+            ],
+            [
+              129.0,
+              426.0
+            ]
+          ]
+        },
+        {
+          "text": "Ok, although I somehow feel the need to have my eyes at this",
+          "confidence": 0.9297945802329016,
+          "box": [
+            [
+              71.0,
+              441.0
+            ],
+            [
+              505.0,
+              442.0
+            ],
+            [
+              505.0,
+              460.0
+            ],
+            [
+              71.0,
+              459.0
+            ]
+          ]
+        },
+        {
+          "text": "chat all for sudden it's time for me to shut up again and see my",
+          "confidence": 0.9050984144210815,
+          "box": [
+            [
+              70.0,
+              461.0
+            ],
+            [
+              518.0,
+              463.0
+            ],
+            [
+              518.0,
+              482.0
+            ],
+            [
+              70.0,
+              480.0
+            ]
+          ]
+        },
+        {
+          "text": "little ones play in an obstacle parc here on France. Ciao!",
+          "confidence": 0.9322894649990534,
+          "box": [
+            [
+              71.0,
+              484.0
+            ],
+            [
+              468.0,
+              484.0
+            ],
+            [
+              468.0,
+              501.0
+            ],
+            [
+              71.0,
+              501.0
+            ]
+          ]
+        },
+        {
+          "text": "1+ 07:00 AM",
+          "confidence": 0.7844294086098671,
+          "box": [
+            [
+              441.0,
+              512.0
+            ],
+            [
+              523.0,
+              512.0
+            ],
+            [
+              523.0,
+              527.0
+            ],
+            [
+              441.0,
+              527.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "admin\n Zil\nunless Jrk thinks we already know something, which we do not\nSomething was solved rather... remarkable.\n06:49 AM\nRdfBbx\n Jrk Bgrt\nSomething was solved rather... remarkable.\nHas anyone passed the salvation part?\n06:51AM\nJrk Bgrt\nadmin\nPartly.\n06:53 AM\nArchOptic\nDon't give away too much. Especially if someone is close!\n06:55AM\nJrk Bgrt\nadmin\nI won't!\n06:56 AM\nOk, although I somehow feel the need to have my eyes at this\nchat all for sudden it's time for me to shut up again and see my\nlittle ones play in an obstacle parc here on France. Ciao!\n1+ 07:00 AM"
+    },
+    {
+      "index": 27,
+      "name": "cosmic-duality-book.png",
+      "sha256": "edde7220c751583a7f9a884b64ee72a28e8d5c2e53c29a74d7a1c7cdc4221504",
+      "bytes": 687085,
+      "dimensions": [
+        553,
+        651
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "MTSTERIES OFTHE UNKHOWN",
+          "confidence": 0.8080891221761703,
+          "box": [
+            [
+              215.0,
+              24.0
+            ],
+            [
+              341.0,
+              20.0
+            ],
+            [
+              341.0,
+              38.0
+            ],
+            [
+              216.0,
+              41.0
+            ]
+          ]
+        },
+        {
+          "text": "Cosmic Duality",
+          "confidence": 0.8798596779505412,
+          "box": [
+            [
+              200.0,
+              54.0
+            ],
+            [
+              358.0,
+              51.0
+            ],
+            [
+              359.0,
+              86.0
+            ],
+            [
+              200.0,
+              90.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "MTSTERIES OFTHE UNKHOWN\nCosmic Duality"
+    },
+    {
+      "index": 28,
+      "name": "decentraland-tg.png",
+      "sha256": "e0e9d0ea66a1e867032a54217fc57833a4b1bfcb114fd3d67a029776a19f60f6",
+      "bytes": 247119,
+      "dimensions": [
+        613,
+        362
+      ],
+      "raw_ocr_lines": [
+        {
+          "text": "February 20,2020",
+          "confidence": 0.7961844942148995,
+          "box": [
+            [
+              304.0,
+              12.0
+            ],
+            [
+              425.0,
+              12.0
+            ],
+            [
+              425.0,
+              27.0
+            ],
+            [
+              304.0,
+              27.0
+            ]
+          ]
+        },
+        {
+          "text": "5BTCPUZZLECHALLENGE",
+          "confidence": 0.8832144260406494,
+          "box": [
+            [
+              200.0,
+              101.0
+            ],
+            [
+              375.0,
+              164.0
+            ],
+            [
+              368.0,
+              183.0
+            ],
+            [
+              193.0,
+              119.0
+            ]
+          ]
+        },
+        {
+          "text": "GSMG.IO",
+          "confidence": 0.7176208086311817,
+          "box": [
+            [
+              282.0,
+              116.0
+            ],
+            [
+              334.0,
+              138.0
+            ],
+            [
+              328.0,
+              151.0
+            ],
+            [
+              277.0,
+              130.0
+            ]
+          ]
+        },
+        {
+          "text": "08:31 AM",
+          "confidence": 0.7214485141966078,
+          "box": [
+            [
+              464.0,
+              335.0
+            ],
+            [
+              519.0,
+              335.0
+            ],
+            [
+              519.0,
+              349.0
+            ],
+            [
+              464.0,
+              349.0
+            ]
+          ]
+        }
+      ],
+      "raw_ocr_text": "February 20,2020\n5BTCPUZZLECHALLENGE\nGSMG.IO\n08:31 AM"
+    }
+  ]
+}

@@ -1,0 +1,2061 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 192,
+  "candidates": [
+    {
+      "candidate_id": "v15c000",
+      "password_expansion": "raw",
+      "password_hex": "1a211c0e1a1523250f1617181b",
+      "password_sha256": "aa8f9f868b30694654d3cb79fb5c57181cc3d6b6f474a3775134b522dcaff08d",
+      "preimage_hex": "1a211c0e1a1523250f1617181b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61613866396638363862333036393436353464336362373966623563353731383163633364366236663437346133373735313334623532326463616666303864",
+      "password_sha256": "047779de83bd35801198ef7633c11f4bfbb1ccd05ffb34e81cc5b7f13c779e5d",
+      "preimage_hex": "1a211c0e1a1523250f1617181b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "aa8f9f868b30694654d3cb79fb5c57181cc3d6b6f474a3775134b522dcaff08d",
+      "password_sha256": "d342e3666ae8f0c03ee56dce65ac11c9231b196a7aa097e13e23e76f3f2aed85",
+      "preimage_hex": "1a211c0e1a1523250f1617181b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c003",
+      "password_expansion": "raw",
+      "password_hex": "21282315211c2a2c161d1e1f22",
+      "password_sha256": "4afd8d927c528eeb41c8121b223cecf6837f402e95d3643e68590590c3d77404",
+      "preimage_hex": "21282315211c2a2c161d1e1f22",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34616664386439323763353238656562343163383132316232323363656366363833376634303265393564333634336536383539303539306333643737343034",
+      "password_sha256": "ad91ed357d1cd2cd1bfcb755f9d1061d82ddd7be21259f444210acf034ccf1be",
+      "preimage_hex": "21282315211c2a2c161d1e1f22",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4afd8d927c528eeb41c8121b223cecf6837f402e95d3643e68590590c3d77404",
+      "password_sha256": "c5ccaf0d13aead0c569d518ecd126ced741c03cad36c555043ebf8693f414c27",
+      "preimage_hex": "21282315211c2a2c161d1e1f22",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c006",
+      "password_expansion": "raw",
+      "password_hex": "257c6c2cfd0b6bf2f01d7061268d275c312d060fd045a8edeeefd8b382530d80d99b3c4da0db",
+      "password_sha256": "baa0dea5e30d71f704f87ca79ab4c2da0eb77e7073467efdd528ee6069fed99a",
+      "preimage_hex": "257c6c2cfd0b6bf2f01d7061268d275c312d060fd045a8edeeefd8b382530d80d99b3c4da0db",
+      "provenance": [
+        "s91-prime-tail-reinsertion/decimal-to-hex-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62616130646561356533306437316637303466383763613739616234633264613065623737653730373334363765666464353238656536303639666564393961",
+      "password_sha256": "32f5e597c15ffe83e70b757b1ddead7105fca050a73338af94d6ddd45f9dcc04",
+      "preimage_hex": "257c6c2cfd0b6bf2f01d7061268d275c312d060fd045a8edeeefd8b382530d80d99b3c4da0db",
+      "provenance": [
+        "s91-prime-tail-reinsertion/decimal-to-hex-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "baa0dea5e30d71f704f87ca79ab4c2da0eb77e7073467efdd528ee6069fed99a",
+      "password_sha256": "00311e7327a908d61db9600975860ac3d8d39de78fe63e1fa74b48a94020d6c2",
+      "preimage_hex": "257c6c2cfd0b6bf2f01d7061268d275c312d060fd045a8edeeefd8b382530d80d99b3c4da0db",
+      "provenance": [
+        "s91-prime-tail-reinsertion/decimal-to-hex-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c009",
+      "password_expansion": "raw",
+      "password_hex": "2b333136352c25",
+      "password_sha256": "eeb71fd4d4e8d0b29d44322479d87b0925f6ab7e9f9758b932830070b988801c",
+      "preimage_hex": "2b333136352c25",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65656237316664346434653864306232396434343332323437396438376230393235663661623765396639373538623933323833303037306239383838303163",
+      "password_sha256": "780813061a2d9d88d2fa9d649b192e4e6b23ef5cd6ce8778bc2076a3c4c680d5",
+      "preimage_hex": "2b333136352c25",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "eeb71fd4d4e8d0b29d44322479d87b0925f6ab7e9f9758b932830070b988801c",
+      "password_sha256": "f07d155035734b85c8b24bd54d13f2b951dd19d2ff7ce269c39df343a24acceb",
+      "preimage_hex": "2b333136352c25",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c012",
+      "password_expansion": "raw",
+      "password_hex": "2b333136352c251a211c0e1a1523250f1617181b",
+      "password_sha256": "88b1836b81b8ea39131e74e9ac9db7945e70d48336fd920afe86e06d7e2b3e56",
+      "preimage_hex": "2b333136352c251a211c0e1a1523250f1617181b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38386231383336623831623865613339313331653734653961633964623739343565373064343833333666643932306166653836653036643765326233653536",
+      "password_sha256": "9e8774c30c5d1bd5d10fdf9929b5c539c647b81dc21a0020355047a5f7a93861",
+      "preimage_hex": "2b333136352c251a211c0e1a1523250f1617181b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "88b1836b81b8ea39131e74e9ac9db7945e70d48336fd920afe86e06d7e2b3e56",
+      "password_sha256": "24239704ba48ab77595c8f0469c77b85255691848f6655c8ac434183f75d5975",
+      "preimage_hex": "2b333136352c251a211c0e1a1523250f1617181b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c015",
+      "password_expansion": "raw",
+      "password_hex": "3236203333203238203134203236203231203335203337203135203232203233203234203237",
+      "password_sha256": "bfeff016b80b14630a884866aa0b2973e2ba1e1cfbb851912acd610eff2d335a",
+      "preimage_hex": "3236203333203238203134203236203231203335203337203135203232203233203234203237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62666566663031366238306231343633306138383438363661613062323937336532626131653163666262383531393132616364363130656666326433333561",
+      "password_sha256": "884eddc4a3df4e63c9b73a96e7e634a68876b7ec6ec5f931a3865282bf00a1d7",
+      "preimage_hex": "3236203333203238203134203236203231203335203337203135203232203233203234203237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bfeff016b80b14630a884866aa0b2973e2ba1e1cfbb851912acd610eff2d335a",
+      "password_sha256": "cf5807db8fd765086585679076a44b0bdc80e0f360744a6554c9a11dbae510dd",
+      "preimage_hex": "3236203333203238203134203236203231203335203337203135203232203233203234203237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c018",
+      "password_expansion": "raw",
+      "password_hex": "32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c3237",
+      "password_sha256": "020d6ccee766398fec535db3b6ef445d7d30f186c5369a50dd780154bbbfc44f",
+      "preimage_hex": "32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c3237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30323064366363656537363633393866656335333564623362366566343435643764333066313836633533363961353064643738303135346262626663343466",
+      "password_sha256": "59022d3b6434a02e543e2b2a312235a00adf219bb642f36ec24d7de99d5c8edc",
+      "preimage_hex": "32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c3237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "020d6ccee766398fec535db3b6ef445d7d30f186c5369a50dd780154bbbfc44f",
+      "password_sha256": "4aa42889a2250770e8cd7cac3635db566d83655df71133e8c00783a0cf8f12dd",
+      "preimage_hex": "32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c3237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c021",
+      "password_expansion": "raw",
+      "password_hex": "3236333332383134323632313335333731353232323332343237",
+      "password_sha256": "5e82b173bae104553519f76674248018b0fc8b2607b1d31a0008632328546138",
+      "preimage_hex": "3236333332383134323632313335333731353232323332343237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35653832623137336261653130343535333531396637363637343234383031386230666338623236303762316433316130303038363332333238353436313338",
+      "password_sha256": "7d4ed1819f3681374d7d7540657cdbb6bec74860d0019dabf23aaed277b9c061",
+      "preimage_hex": "3236333332383134323632313335333731353232323332343237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5e82b173bae104553519f76674248018b0fc8b2607b1d31a0008632328546138",
+      "password_sha256": "7ba8bcdf39d687279a000018250fcf2f01cdf8bab02a5804403296ed8151b9b7",
+      "preimage_hex": "3236333332383134323632313335333731353232323332343237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c024",
+      "password_expansion": "raw",
+      "password_hex": "3333203430203335203231203333203238203432203434203232203239203330203331203334",
+      "password_sha256": "38afbe77645750aaca9854bfca7f5171bbf2be77d3a6025af7d388468b602ec5",
+      "preimage_hex": "3333203430203335203231203333203238203432203434203232203239203330203331203334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33386166626537373634353735306161636139383534626663613766353137316262663262653737643361363032356166376433383834363862363032656335",
+      "password_sha256": "26b3f728c6a627dab00f8a07488f59f5e73815cdaf3149fcad910aa2f65db1be",
+      "preimage_hex": "3333203430203335203231203333203238203432203434203232203239203330203331203334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "38afbe77645750aaca9854bfca7f5171bbf2be77d3a6025af7d388468b602ec5",
+      "password_sha256": "48502009172574c560ec225abcddf6f8d417a9621fc242ef96a09404dd82e98d",
+      "preimage_hex": "3333203430203335203231203333203238203432203434203232203239203330203331203334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c027",
+      "password_expansion": "raw",
+      "password_hex": "33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c3334",
+      "password_sha256": "e34e4a5203b7ca8aee06efe51f7fe92631be77883e5ee7186c98c426fb86cf9d",
+      "preimage_hex": "33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c3334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65333465346135323033623763613861656530366566653531663766653932363331626537373838336535656537313836633938633432366662383663663964",
+      "password_sha256": "f1eacd538338911ce57662ec86ee49199138f26ffee3670380558a1f24aeede9",
+      "preimage_hex": "33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c3334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e34e4a5203b7ca8aee06efe51f7fe92631be77883e5ee7186c98c426fb86cf9d",
+      "password_sha256": "19b2d69cf47232b4853ddd70f2385a3f3388f40faabba0c174488382989fbceb",
+      "preimage_hex": "33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c3334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c030",
+      "password_expansion": "raw",
+      "password_hex": "3333343033353231333332383432343432323239333033313334",
+      "password_sha256": "68e55030311c5dc160c216abc4cfd5a225ce6d49039e9ae4c02dec52ef4d81ab",
+      "preimage_hex": "3333343033353231333332383432343432323239333033313334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36386535353033303331316335646331363063323136616263346366643561323235636536643439303339653961653463303264656335326566346438316162",
+      "password_sha256": "c89407eeaab17ee82816ff4facd128a537532284e80bb195d9d3e1179a2bfc21",
+      "preimage_hex": "3333343033353231333332383432343432323239333033313334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "68e55030311c5dc160c216abc4cfd5a225ce6d49039e9ae4c02dec52ef4d81ab",
+      "password_sha256": "377d1c9f3feb097030c72349b3dfc7fbfe51a99ef95eac97eee2e07a408041b7",
+      "preimage_hex": "3333343033353231333332383432343432323239333033313334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c033",
+      "password_expansion": "raw",
+      "password_hex": "3433203531203439203534203533203434203337",
+      "password_sha256": "84740e4a17d8887ca1575634124a9cd22a8f10c0e29c08827c19c90f37a24485",
+      "preimage_hex": "3433203531203439203534203533203434203337",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38343734306534613137643838383763613135373536333431323461396364323261386631306330653239633038383237633139633930663337613234343835",
+      "password_sha256": "53e85c4fc1ab456344245a4151733e738c511457462efaf946da296da973e07a",
+      "preimage_hex": "3433203531203439203534203533203434203337",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "84740e4a17d8887ca1575634124a9cd22a8f10c0e29c08827c19c90f37a24485",
+      "password_sha256": "4fde11f51eba39653cb8b2199f58aa090b4023d2ecc015997cd2280d00099f78",
+      "preimage_hex": "3433203531203439203534203533203434203337",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c036",
+      "password_expansion": "raw",
+      "password_hex": "3433203531203439203534203533203434203337203236203333203238203134203236203231203335203337203135203232203233203234203237",
+      "password_sha256": "f0c02e661099c3ae3018c6357eb25c42864b2cdaf656b5afa5c82c69c95ae7ad",
+      "preimage_hex": "3433203531203439203534203533203434203337203236203333203238203134203236203231203335203337203135203232203233203234203237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66306330326536363130393963336165333031386336333537656232356334323836346232636461663635366235616661356338326336396339356165376164",
+      "password_sha256": "098639b5afef064750cb71611b9bad87533a362b9ab0771b5042c4ffdbe03926",
+      "preimage_hex": "3433203531203439203534203533203434203337203236203333203238203134203236203231203335203337203135203232203233203234203237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f0c02e661099c3ae3018c6357eb25c42864b2cdaf656b5afa5c82c69c95ae7ad",
+      "password_sha256": "cb13816fa3680a2b2bed61ea339b669e8a02d4f02f3abfce1cb348ad80560775",
+      "preimage_hex": "3433203531203439203534203533203434203337203236203333203238203134203236203231203335203337203135203232203233203234203237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c039",
+      "password_expansion": "raw",
+      "password_hex": "34332c35312c34392c35342c35332c34342c3337",
+      "password_sha256": "a8f9f493af6da74886ffd3a9fc6487f3ab1ba576f990675022006ae780a721b2",
+      "preimage_hex": "34332c35312c34392c35342c35332c34342c3337",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61386639663439336166366461373438383666666433613966633634383766336162316261353736663939303637353032323030366165373830613732316232",
+      "password_sha256": "c3f157a23b2e0e90fdab7d6e1af97bc9998e50fc7f1247578c44f4f47672d616",
+      "preimage_hex": "34332c35312c34392c35342c35332c34342c3337",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a8f9f493af6da74886ffd3a9fc6487f3ab1ba576f990675022006ae780a721b2",
+      "password_sha256": "b6203962af3d1fdc012d090f628227d2b71b0f45008122382916fcc9d879b871",
+      "preimage_hex": "34332c35312c34392c35342c35332c34342c3337",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c042",
+      "password_expansion": "raw",
+      "password_hex": "34332c35312c34392c35342c35332c34342c33372c32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c3237",
+      "password_sha256": "62205fd0cb98c2b8fbc94e8f3e1206b4c071969ac756b7f7f87964c6517f7434",
+      "preimage_hex": "34332c35312c34392c35342c35332c34342c33372c32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c3237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36323230356664306362393863326238666263393465386633653132303662346330373139363961633735366237663766383739363463363531376637343334",
+      "password_sha256": "18b555d760e9de5218a8dbfc1fd2c45c66b1c75382b08ce4652c4b998e3c2e02",
+      "preimage_hex": "34332c35312c34392c35342c35332c34342c33372c32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c3237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "62205fd0cb98c2b8fbc94e8f3e1206b4c071969ac756b7f7f87964c6517f7434",
+      "password_sha256": "11339a157b171b0f2e87267f510b260de2929cff1d14d464e814073595d7263e",
+      "preimage_hex": "34332c35312c34392c35342c35332c34342c33372c32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c3237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c045",
+      "password_expansion": "raw",
+      "password_hex": "3433353134393534353334343337",
+      "password_sha256": "7a222c666de0c0215acbc4dfec0d0f196a217bc8078601da24674d014658390f",
+      "preimage_hex": "3433353134393534353334343337",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37613232326336363664653063303231356163626334646665633064306631393661323137626338303738363031646132343637346430313436353833393066",
+      "password_sha256": "ba3796466058c85505f0866937bd6ef432faadf86440fbb8283ee50e61b6befe",
+      "preimage_hex": "3433353134393534353334343337",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7a222c666de0c0215acbc4dfec0d0f196a217bc8078601da24674d014658390f",
+      "password_sha256": "d6366f9821748ee41dd3502630f37970753041e7e3202eb95ad4f31011151502",
+      "preimage_hex": "3433353134393534353334343337",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c048",
+      "password_expansion": "raw",
+      "password_hex": "34333531343935343533343433373236333332383134323632313335333731353232323332343237",
+      "password_sha256": "08bb8c72ec61ef7caae05e420e471418dcdde00179c6a0d08c36044e237363b1",
+      "preimage_hex": "34333531343935343533343433373236333332383134323632313335333731353232323332343237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30386262386337326563363165663763616165303565343230653437313431386463646465303031373963366130643038633336303434653233373336336231",
+      "password_sha256": "e5b9de463576229f14468fc4efed21c9e9282d61596731d319f964e88c4f33d8",
+      "preimage_hex": "34333531343935343533343433373236333332383134323632313335333731353232323332343237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "08bb8c72ec61ef7caae05e420e471418dcdde00179c6a0d08c36044e237363b1",
+      "password_sha256": "f589da59c9c5972d6691e3ff6bafed89877b4bfc685cdc8586dafe087e185db2",
+      "preimage_hex": "34333531343935343533343433373236333332383134323632313335333731353232323332343237",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c051",
+      "password_expansion": "raw",
+      "password_hex": "3536203634203632203637203636203537203530",
+      "password_sha256": "a958b7e373ddc16ad0a975f0b89744cfd86e13d64d2543c27207b7c1960c6b19",
+      "preimage_hex": "3536203634203632203637203636203537203530",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61393538623765333733646463313661643061393735663062383937343463666438366531336436346432353433633237323037623763313936306336623139",
+      "password_sha256": "720137479818143c0ab45c0dc57363062d37d28239950ee65ae1059a6dbf14d5",
+      "preimage_hex": "3536203634203632203637203636203537203530",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a958b7e373ddc16ad0a975f0b89744cfd86e13d64d2543c27207b7c1960c6b19",
+      "password_sha256": "cf3a65d87416f04894840ba4f0ecaa2268d9e8800c20766ed551cc4e3ccd8306",
+      "preimage_hex": "3536203634203632203637203636203537203530",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c054",
+      "password_expansion": "raw",
+      "password_hex": "3536203634203632203637203636203537203530203333203430203335203231203333203238203432203434203232203239203330203331203334",
+      "password_sha256": "78cbde0253f8ee6f232ba0630ca47b2f48a6085bd2fe9818185ec75989737708",
+      "preimage_hex": "3536203634203632203637203636203537203530203333203430203335203231203333203238203432203434203232203239203330203331203334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37386362646530323533663865653666323332626130363330636134376232663438613630383562643266653938313831383565633735393839373337373038",
+      "password_sha256": "492fa127dcddba229fca18bea56550b00b40aa0fc62bccf7c1ec85fce501d985",
+      "preimage_hex": "3536203634203632203637203636203537203530203333203430203335203231203333203238203432203434203232203239203330203331203334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "78cbde0253f8ee6f232ba0630ca47b2f48a6085bd2fe9818185ec75989737708",
+      "password_sha256": "4a374e5beb0a6973351be2b2b9334b368748936774df84050b3bba0e715c3c27",
+      "preimage_hex": "3536203634203632203637203636203537203530203333203430203335203231203333203238203432203434203232203239203330203331203334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/decimal-spaces"
+      ]
+    },
+    {
+      "candidate_id": "v15c057",
+      "password_expansion": "raw",
+      "password_hex": "35362c36342c36322c36372c36362c35372c3530",
+      "password_sha256": "154980ffc4cefa3d167feec2937b983b4f35dd3351991f6f0748d46009f9ffca",
+      "preimage_hex": "35362c36342c36322c36372c36362c35372c3530",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31353439383066666334636566613364313637666565633239333762393833623466333564643333353139393166366630373438643436303039663966666361",
+      "password_sha256": "5ea8e1ac932df7b12882bbe792e064a4f48074bb42aaf9ce62c3622185e2f3ca",
+      "preimage_hex": "35362c36342c36322c36372c36362c35372c3530",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "154980ffc4cefa3d167feec2937b983b4f35dd3351991f6f0748d46009f9ffca",
+      "password_sha256": "e21dd233820965f8b9d011b663aa3bd922971661194c26ad26a58ee62666c699",
+      "preimage_hex": "35362c36342c36322c36372c36362c35372c3530",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c060",
+      "password_expansion": "raw",
+      "password_hex": "35362c36342c36322c36372c36362c35372c35302c33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c3334",
+      "password_sha256": "4d6d7324054d78c72a8f83bed89f2d9ee3cc2c8f8f0a9963366aeee85a4c6d57",
+      "preimage_hex": "35362c36342c36322c36372c36362c35372c35302c33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c3334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34643664373332343035346437386337326138663833626564383966326439656533636332633866386630613939363333363661656565383561346336643537",
+      "password_sha256": "8250c47329eb355086feeab5c02602b8530dcfbde69f053f7e0ebb06b4327294",
+      "preimage_hex": "35362c36342c36322c36372c36362c35372c35302c33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c3334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4d6d7324054d78c72a8f83bed89f2d9ee3cc2c8f8f0a9963366aeee85a4c6d57",
+      "password_sha256": "ca98e16f9f63e1a3ba055650b5efc9525c58f124705921c7eff7e4e6c56dfcf7",
+      "preimage_hex": "35362c36342c36322c36372c36362c35372c35302c33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c3334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/decimal-commas"
+      ]
+    },
+    {
+      "candidate_id": "v15c063",
+      "password_expansion": "raw",
+      "password_hex": "3536363436323637363635373530",
+      "password_sha256": "01344580a8e01ebf3552146441debb5dea5bdccc8594a592b764f350b002df80",
+      "preimage_hex": "3536363436323637363635373530",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30313334343538306138653031656266333535323134363434316465626235646561356264636363383539346135393262373634663335306230303264663830",
+      "password_sha256": "8fabf81e3d9a07303542538d8bab8671e60f539859506b630b572e02315125f8",
+      "preimage_hex": "3536363436323637363635373530",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "01344580a8e01ebf3552146441debb5dea5bdccc8594a592b764f350b002df80",
+      "password_sha256": "47539ba84461c265bf098cd6239a936ffcb27288d14ebb09922d4e38b4cca38e",
+      "preimage_hex": "3536363436323637363635373530",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c066",
+      "password_expansion": "raw",
+      "password_hex": "35363634363236373636353735303333343033353231333332383432343432323239333033313334",
+      "password_sha256": "3b0bd72874b108ae4387363fc3577540230afc93e422bda6dd15cd87c8aa1cd2",
+      "preimage_hex": "35363634363236373636353735303333343033353231333332383432343432323239333033313334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33623062643732383734623130386165343338373336336663333537373534303233306166633933653432326264613664643135636438376338616131636432",
+      "password_sha256": "dd13cc785f6ca75c059a76b1e1d1375642c0de53902fb771b7b3d8a84ab3ce95",
+      "preimage_hex": "35363634363236373636353735303333343033353231333332383432343432323239333033313334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3b0bd72874b108ae4387363fc3577540230afc93e422bda6dd15cd87c8aa1cd2",
+      "password_sha256": "a72616f3e00ebf80d59f962b411465913629b2fb5093d2a5e083fa626d962f49",
+      "preimage_hex": "35363634363236373636353735303333343033353231333332383432343432323239333033313334",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/decimal-concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v15c069",
+      "password_expansion": "raw",
+      "password_hex": "38403e43423932",
+      "password_sha256": "ebece3e4763adad4b6fe948e3f4c5bcb1a8047bdd5cc6ab5ca2d6587f309a50f",
+      "preimage_hex": "38403e43423932",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65626563653365343736336164616434623666653934386533663463356263623161383034376264643563633661623563613264363538376633303961353066",
+      "password_sha256": "88fb511effc31bae70eff7317a7ae30e65db277638b810167440322a963d6476",
+      "preimage_hex": "38403e43423932",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ebece3e4763adad4b6fe948e3f4c5bcb1a8047bdd5cc6ab5ca2d6587f309a50f",
+      "password_sha256": "f09e4f5162d3d4957be00731f28a3ea103780c8619b968747a1d21f71a43391b",
+      "preimage_hex": "38403e43423932",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c072",
+      "password_expansion": "raw",
+      "password_hex": "38403e4342393221282315211c2a2c161d1e1f22",
+      "password_sha256": "439467c986c216387361f3c517f59cd2927237d800b0e3c5b23faa070aa931c5",
+      "preimage_hex": "38403e4342393221282315211c2a2c161d1e1f22",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34333934363763393836633231363338373336316633633531376635396364323932373233376438303062306533633562323366616130373061613933316335",
+      "password_sha256": "3048b65635a9136e4340696e5147aa28437fe9e28cc4b4460951e04536d3b256",
+      "preimage_hex": "38403e4342393221282315211c2a2c161d1e1f22",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "439467c986c216387361f3c517f59cd2927237d800b0e3c5b23faa070aa931c5",
+      "password_sha256": "dac89aeb44fd1a815fba5b53403aaed590f0af2a46bc6af2e66c542f0cf6257f",
+      "preimage_hex": "38403e4342393221282315211c2a2c161d1e1f22",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/raw-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c075",
+      "password_expansion": "raw",
+      "password_hex": "5b32362c2033332c2032382c2031342c2032362c2032312c2033352c2033372c2031352c2032322c2032332c2032342c2032375d",
+      "password_sha256": "50eca3656114059aba80c2b1db8b417c68bda01af923e3aefc4d79b099f4205b",
+      "preimage_hex": "5b32362c2033332c2032382c2031342c2032362c2032312c2033352c2033372c2031352c2032322c2032332c2032342c2032375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35306563613336353631313430353961626138306332623164623862343137633638626461303161663932336533616566633464373962303939663432303562",
+      "password_sha256": "30f1c056f9c8dc57321ec8af57228f6073df4b67a96a525353e91202a634313b",
+      "preimage_hex": "5b32362c2033332c2032382c2031342c2032362c2032312c2033352c2033372c2031352c2032322c2032332c2032342c2032375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "50eca3656114059aba80c2b1db8b417c68bda01af923e3aefc4d79b099f4205b",
+      "password_sha256": "f6db6d0217e805a082065a44413c5458ff6fb04c62af099dd4d42d1025964a00",
+      "preimage_hex": "5b32362c2033332c2032382c2031342c2032362c2032312c2033352c2033372c2031352c2032322c2032332c2032342c2032375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c078",
+      "password_expansion": "raw",
+      "password_hex": "5b32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c32375d",
+      "password_sha256": "5f88db276ddfcb8fe045f9c4fa640c6ce17479f1ff58f53e59c0adc7731b9d34",
+      "preimage_hex": "5b32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c32375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35663838646232373664646663623866653034356639633466613634306336636531373437396631666635386635336535396330616463373733316239643334",
+      "password_sha256": "362624268d76ff3428744bbfaa5a8b02f80177678d5319871bc7c4f3f935d2cf",
+      "preimage_hex": "5b32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c32375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5f88db276ddfcb8fe045f9c4fa640c6ce17479f1ff58f53e59c0adc7731b9d34",
+      "password_sha256": "dd474f63756ae731c6302b34764f8cbf973118c68196d3e01385be75f99940b2",
+      "preimage_hex": "5b32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c32375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c081",
+      "password_expansion": "raw",
+      "password_hex": "5b33332c2034302c2033352c2032312c2033332c2032382c2034322c2034342c2032322c2032392c2033302c2033312c2033345d",
+      "password_sha256": "77978ee3e782bb01af324f385602ddd68862c39513ee145a6fa50dad429926b2",
+      "preimage_hex": "5b33332c2034302c2033352c2032312c2033332c2032382c2034322c2034342c2032322c2032392c2033302c2033312c2033345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37373937386565336537383262623031616633323466333835363032646464363838363263333935313365653134356136666135306461643432393932366232",
+      "password_sha256": "da6c4b7870ce934538b4e740679e6e8d8b122f268d302a9e7c8fe50e3c80a81a",
+      "preimage_hex": "5b33332c2034302c2033352c2032312c2033332c2032382c2034322c2034342c2032322c2032392c2033302c2033312c2033345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "77978ee3e782bb01af324f385602ddd68862c39513ee145a6fa50dad429926b2",
+      "password_sha256": "ce7d8abec9aaac13ed5c883b45891672d65ab6426241b67c9eae8d4c89c14e90",
+      "preimage_hex": "5b33332c2034302c2033352c2032312c2033332c2032382c2034322c2034342c2032322c2032392c2033302c2033312c2033345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c084",
+      "password_expansion": "raw",
+      "password_hex": "5b33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c33345d",
+      "password_sha256": "a12d789699528b3385807c3e472931c92878e0f719ad8becd2d2069274610607",
+      "preimage_hex": "5b33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c33345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61313264373839363939353238623333383538303763336534373239333163393238373865306637313961643862656364326432303639323734363130363037",
+      "password_sha256": "6646f1433bf20d84cd7c07f91ad733a8f2203d3ce7989a630c86d26ea9149450",
+      "preimage_hex": "5b33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c33345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a12d789699528b3385807c3e472931c92878e0f719ad8becd2d2069274610607",
+      "password_sha256": "152059610b93dd54358e214fdfc2cccb352a5d6de52c890853653b08dc15846c",
+      "preimage_hex": "5b33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c33345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c087",
+      "password_expansion": "raw",
+      "password_hex": "5b34332c2035312c2034392c2035342c2035332c2034342c2033372c2032362c2033332c2032382c2031342c2032362c2032312c2033352c2033372c2031352c2032322c2032332c2032342c2032375d",
+      "password_sha256": "86a73c8de6e69ea7ec35678218162c1e724a11d3c7bede26c18e7e86e31d6ab9",
+      "preimage_hex": "5b34332c2035312c2034392c2035342c2035332c2034342c2033372c2032362c2033332c2032382c2031342c2032362c2032312c2033352c2033372c2031352c2032322c2032332c2032342c2032375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38366137336338646536653639656137656333353637383231383136326331653732346131316433633762656465323663313865376538366533316436616239",
+      "password_sha256": "7f20908b8d9d5416d66fe8e58999d948afdf3ebf186d71b365c2d1a775fb755a",
+      "preimage_hex": "5b34332c2035312c2034392c2035342c2035332c2034342c2033372c2032362c2033332c2032382c2031342c2032362c2032312c2033352c2033372c2031352c2032322c2032332c2032342c2032375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "86a73c8de6e69ea7ec35678218162c1e724a11d3c7bede26c18e7e86e31d6ab9",
+      "password_sha256": "7e64dc91cbb7fa64120ad60d1f1f6cb93b46f108a8f2efeeb6eefcb9ed501099",
+      "preimage_hex": "5b34332c2035312c2034392c2035342c2035332c2034342c2033372c2032362c2033332c2032382c2031342c2032362c2032312c2033352c2033372c2031352c2032322c2032332c2032342c2032375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c090",
+      "password_expansion": "raw",
+      "password_hex": "5b34332c2035312c2034392c2035342c2035332c2034342c2033375d",
+      "password_sha256": "88a0545f14732484ff324843815e8c39b5c44c187dc97c59f755161909916c87",
+      "preimage_hex": "5b34332c2035312c2034392c2035342c2035332c2034342c2033375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38386130353435663134373332343834666633323438343338313565386333396235633434633138376463393763353966373535313631393039393136633837",
+      "password_sha256": "d543260e0c5961ebf71bfd6f85584ee39ca3628692915c2f6bf014edc9cabf49",
+      "preimage_hex": "5b34332c2035312c2034392c2035342c2035332c2034342c2033375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "88a0545f14732484ff324843815e8c39b5c44c187dc97c59f755161909916c87",
+      "password_sha256": "2f6dc23e3a80857f0404d8da2a7c35b1ee445c784501d4086ae149b82fb40260",
+      "preimage_hex": "5b34332c2035312c2034392c2035342c2035332c2034342c2033375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c093",
+      "password_expansion": "raw",
+      "password_hex": "5b34332c35312c34392c35342c35332c34342c33372c32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c32375d",
+      "password_sha256": "feed681ffc2eeb2f8a859710e70d89e31ded77649c363e4de98f57ade8902f85",
+      "preimage_hex": "5b34332c35312c34392c35342c35332c34342c33372c32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c32375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66656564363831666663326565623266386138353937313065373064383965333164656437373634396333363365346465393866353761646538393032663835",
+      "password_sha256": "7d910ed7be5d26cbb99b51e768feddd881d9105543ba6ed2caff6d05cd753468",
+      "preimage_hex": "5b34332c35312c34392c35342c35332c34342c33372c32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c32375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "feed681ffc2eeb2f8a859710e70d89e31ded77649c363e4de98f57ade8902f85",
+      "password_sha256": "03d7ce9058226c1a859fd0fb5df5b57002f775352da690573d56c55750f62491",
+      "preimage_hex": "5b34332c35312c34392c35342c35332c34342c33372c32362c33332c32382c31342c32362c32312c33352c33372c31352c32322c32332c32342c32375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c096",
+      "password_expansion": "raw",
+      "password_hex": "5b34332c35312c34392c35342c35332c34342c33375d",
+      "password_sha256": "92fbeccd49e983fbfb5d9d191a8091dec1510d20640d6671dbca9dfbdccafcff",
+      "preimage_hex": "5b34332c35312c34392c35342c35332c34342c33375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39326662656363643439653938336662666235643964313931613830393164656331353130643230363430643636373164626361396466626463636166636666",
+      "password_sha256": "64d7a3fddd7ddcb6b8e25a1d2e45f945e9fb3617b74dbbe0c5b2a51e077fd24d",
+      "preimage_hex": "5b34332c35312c34392c35342c35332c34342c33375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "92fbeccd49e983fbfb5d9d191a8091dec1510d20640d6671dbca9dfbdccafcff",
+      "password_sha256": "cedc3893087795d90559a46f5c12a9c67f26134ce92e1a517ddf1c076360c5ce",
+      "preimage_hex": "5b34332c35312c34392c35342c35332c34342c33375d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c099",
+      "password_expansion": "raw",
+      "password_hex": "5b35362c2036342c2036322c2036372c2036362c2035372c2035302c2033332c2034302c2033352c2032312c2033332c2032382c2034322c2034342c2032322c2032392c2033302c2033312c2033345d",
+      "password_sha256": "6e56422c2e4ad0b021a742d918914df7ac5477e8cd0f0f0402702fb78812662d",
+      "preimage_hex": "5b35362c2036342c2036322c2036372c2036362c2035372c2035302c2033332c2034302c2033352c2032312c2033332c2032382c2034322c2034342c2032322c2032392c2033302c2033312c2033345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36653536343232633265346164306230323161373432643931383931346466376163353437376538636430663066303430323730326662373838313236363264",
+      "password_sha256": "e70cb1fed81dfc5bd4ffef1659b3bf7078d510f47607efad2da54fe648017618",
+      "preimage_hex": "5b35362c2036342c2036322c2036372c2036362c2035372c2035302c2033332c2034302c2033352c2032312c2033332c2032382c2034322c2034342c2032322c2032392c2033302c2033312c2033345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6e56422c2e4ad0b021a742d918914df7ac5477e8cd0f0f0402702fb78812662d",
+      "password_sha256": "432142d0240f9fbbba274ed22192c17d038cd1b73267c158eb84fb52f4bab29e",
+      "preimage_hex": "5b35362c2036342c2036322c2036372c2036362c2035372c2035302c2033332c2034302c2033352c2032312c2033332c2032382c2034322c2034342c2032322c2032392c2033302c2033312c2033345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c102",
+      "password_expansion": "raw",
+      "password_hex": "5b35362c2036342c2036322c2036372c2036362c2035372c2035305d",
+      "password_sha256": "71e79a9097be9220e6fd70c719bdc4d2d250a0c7b842516a61b8b840f88941ae",
+      "preimage_hex": "5b35362c2036342c2036322c2036372c2036362c2035372c2035305d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c103",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37316537396139303937626539323230653666643730633731396264633464326432353061306337623834323531366136316238623834306638383934316165",
+      "password_sha256": "9a06fd9f2528440dcaccd93ffeccda5f27f950a4ff71c2a8d767bdcfaac40581",
+      "preimage_hex": "5b35362c2036342c2036322c2036372c2036362c2035372c2035305d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c104",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "71e79a9097be9220e6fd70c719bdc4d2d250a0c7b842516a61b8b840f88941ae",
+      "password_sha256": "d364224656ced6a28030e07d233029bb781f2fe8a39a9ede04a276540f584f0f",
+      "preimage_hex": "5b35362c2036342c2036322c2036372c2036362c2035372c2035305d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/python-list"
+      ]
+    },
+    {
+      "candidate_id": "v15c105",
+      "password_expansion": "raw",
+      "password_hex": "5b35362c36342c36322c36372c36362c35372c35302c33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c33345d",
+      "password_sha256": "09ccf0a207ff2094da4b099df35e4c29c48e0e8fea402c2ca9681b4efd64ea84",
+      "preimage_hex": "5b35362c36342c36322c36372c36362c35372c35302c33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c33345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c106",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30396363663061323037666632303934646134623039396466333565346332396334386530653866656134303263326361393638316234656664363465613834",
+      "password_sha256": "7fb9259a3f28c2c94f9d3a4829a51a97b2c45852e8a48c406d840893a621f1e7",
+      "preimage_hex": "5b35362c36342c36322c36372c36362c35372c35302c33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c33345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c107",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "09ccf0a207ff2094da4b099df35e4c29c48e0e8fea402c2ca9681b4efd64ea84",
+      "password_sha256": "e0cf4814692a31157fb23887848f0e5b30101c485bf52f76c32ae8d4854fd687",
+      "preimage_hex": "5b35362c36342c36322c36372c36362c35372c35302c33332c34302c33352c32312c33332c32382c34322c34342c32322c32392c33302c33312c33345d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c108",
+      "password_expansion": "raw",
+      "password_hex": "5b35362c36342c36322c36372c36362c35372c35305d",
+      "password_sha256": "bf224581a5bab47c35e9716abcc44b4daa7a8c1754cf2204c2801da19c548a91",
+      "preimage_hex": "5b35362c36342c36322c36372c36362c35372c35305d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c109",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62663232343538316135626162343763333565393731366162636334346234646161376138633137353463663232303463323830316461313963353438613931",
+      "password_sha256": "1a9d6294fb856020276c650843ecde4125046f2d9dee64b754d1e15c16c97854",
+      "preimage_hex": "5b35362c36342c36322c36372c36362c35372c35305d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c110",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bf224581a5bab47c35e9716abcc44b4daa7a8c1754cf2204c2801da19c548a91",
+      "password_sha256": "473fa0648e4d2a82e5467dbc8ffaae13f8febaca99dd15d5c8a7e2bb97fb5f1a",
+      "preimage_hex": "5b35362c36342c36322c36372c36362c35372c35305d",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/json-compact"
+      ]
+    },
+    {
+      "candidate_id": "v15c111",
+      "password_expansion": "raw",
+      "password_hex": "6168636f61766a6c7077787962",
+      "password_sha256": "911e52f3c203030661725345d4e0b90abc9660852a71fdd9291318cad0bbbfdc",
+      "preimage_hex": "6168636f61766a6c7077787962",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c112",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39313165353266336332303330333036363137323533343564346530623930616263393636303835326137316664643932393133313863616430626262666463",
+      "password_sha256": "b295d5dc13f1577e833dad55cf55ba2aa1d2660f2d1ed4764484cd2e81d14815",
+      "preimage_hex": "6168636f61766a6c7077787962",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c113",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "911e52f3c203030661725345d4e0b90abc9660852a71fdd9291318cad0bbbfdc",
+      "password_sha256": "7cca9c1feb9b4c442356845840378468433ceb557e403ef42a94d1d058d4ed25",
+      "preimage_hex": "6168636f61766a6c7077787962",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c114",
+      "password_expansion": "raw",
+      "password_hex": "62616864636365",
+      "password_sha256": "7c0f8749c437890b7fe5461f1cbfaf0eb2fdae8d04268ef89bf685b1fe619e7e",
+      "preimage_hex": "62616864636365",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c115",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37633066383734396334333738393062376665353436316631636266616630656232666461653864303432363865663839626636383562316665363139653765",
+      "password_sha256": "d1b61af9d36a3487fb9b5e58e021b8aafa556bd0c6ef7d844280c1ddc5255e1c",
+      "preimage_hex": "62616864636365",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c116",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7c0f8749c437890b7fe5461f1cbfaf0eb2fdae8d04268ef89bf685b1fe619e7e",
+      "password_sha256": "981d961a2447e1363d963adbbcd7a23c5887f757718139d719c5e5cb71546daa",
+      "preimage_hex": "62616864636365",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c117",
+      "password_expansion": "raw",
+      "password_hex": "6261686463636566646863666166686462636467",
+      "password_sha256": "7c733128a3b24eaab857643d7f02417e9aef1551709ae77927ddcaabb41042d3",
+      "preimage_hex": "6261686463636566646863666166686462636467",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c118",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37633733333132386133623234656161623835373634336437663032343137653961656631353531373039616537373932376464636161626234313034326433",
+      "password_sha256": "9dce49f10ab47589b9cc4cac485417baba5ab5b22856ef2d5d62415768fed30e",
+      "preimage_hex": "6261686463636566646863666166686462636467",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c119",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7c733128a3b24eaab857643d7f02417e9aef1551709ae77927ddcaabb41042d3",
+      "password_sha256": "f8315f9f1b907e08960e45cd7fd27c85e5f3eb10f956c451d03a1b90292bac82",
+      "preimage_hex": "6261686463636566646863666166686462636467",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c120",
+      "password_expansion": "raw",
+      "password_hex": "63626965646466",
+      "password_sha256": "f20f1878075f102a4d9b0b645197d16b88e9578ceba604d7581e8977a98b2a1e",
+      "preimage_hex": "63626965646466",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c121",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66323066313837383037356631303261346439623062363435313937643136623838653935373863656261363034643735383165383937376139386232613165",
+      "password_sha256": "60845ddeccb919ff9c5ec8a67687befca8b3ef70d3dfb965769024862d214d54",
+      "preimage_hex": "63626965646466",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c122",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f20f1878075f102a4d9b0b645197d16b88e9578ceba604d7581e8977a98b2a1e",
+      "password_sha256": "2e9a370db7154d2efdb7a7a891b0036d9a827e331a57f4b89c9c683370828f5a",
+      "preimage_hex": "63626965646466",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c123",
+      "password_expansion": "raw",
+      "password_hex": "6362696564646667656964676267696563646568",
+      "password_sha256": "b9e2355b190aa232c66ea91d5306737c410727d4a81e251aa0f45c7ca905a918",
+      "preimage_hex": "6362696564646667656964676267696563646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c124",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62396532333535623139306161323332633636656139316435333036373337633431303732376434613831653235316161306634356337636139303561393138",
+      "password_sha256": "d35dc407fb4009a2641d7392f4e015dda999ac65c190c51ac598bd2e938e5ab7",
+      "preimage_hex": "6362696564646667656964676267696563646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c125",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b9e2355b190aa232c66ea91d5306737c410727d4a81e251aa0f45c7ca905a918",
+      "password_sha256": "b61d9af1ffdf5b293e51bdc70b888e79273022cc3afe6e8ba6a99c7ebfbda57e",
+      "preimage_hex": "6362696564646667656964676267696563646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c126",
+      "password_expansion": "raw",
+      "password_hex": "64676762656263696266626265686363646263656762696968616265626266656968626562676765666766656265676262676568696865626868676662626162666465686265656665666364626261666363626367626662656565",
+      "password_sha256": "c1c328e9cfff6b496165b587c71299cd901a29e15c7ea6718d8b9117368d3da1",
+      "preimage_hex": "64676762656263696266626265686363646263656762696968616265626266656968626562676765666766656265676262676568696865626868676662626162666465686265656665666364626261666363626367626662656565",
+      "provenance": [
+        "s91-prime-tail-reinsertion/symbols"
+      ]
+    },
+    {
+      "candidate_id": "v15c127",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63316333323865396366666636623439363136356235383763373132393963643930316132396531356337656136373138643862393131373336386433646131",
+      "password_sha256": "803f91521856d925e9347f7c578ec00342e5510af08764d5a9f6b7fb500e8195",
+      "preimage_hex": "64676762656263696266626265686363646263656762696968616265626266656968626562676765666766656265676262676568696865626868676662626162666465686265656665666364626261666363626367626662656565",
+      "provenance": [
+        "s91-prime-tail-reinsertion/symbols"
+      ]
+    },
+    {
+      "candidate_id": "v15c128",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c1c328e9cfff6b496165b587c71299cd901a29e15c7ea6718d8b9117368d3da1",
+      "password_sha256": "113b8dee7552cbee3365f1f4e54f3b2f7719a60bf10e7fa05bba559e5dc2b654",
+      "preimage_hex": "64676762656263696266626265686363646263656762696968616265626266656968626562676765666766656265676262676568696865626868676662626162666465686265656665666364626261666363626367626662656565",
+      "provenance": [
+        "s91-prime-tail-reinsertion/symbols"
+      ]
+    },
+    {
+      "candidate_id": "v15c129",
+      "password_expansion": "raw",
+      "password_hex": "646c6a6f6e6578",
+      "password_sha256": "fd7ac1f26d2a9ecaaf4bc319097cd6c531644244d9f5ea82021ec1307604dab0",
+      "preimage_hex": "646c6a6f6e6578",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c130",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66643761633166323664326139656361616634626333313930393763643663353331363434323434643966356561383230323165633133303736303464616230",
+      "password_sha256": "f031e6d0046509cb1f0824de8b0b1e3751e9689fb70c6f5a1d071f3a12614618",
+      "preimage_hex": "646c6a6f6e6578",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c131",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "fd7ac1f26d2a9ecaaf4bc319097cd6c531644244d9f5ea82021ec1307604dab0",
+      "password_sha256": "1c9cb52d24bca88d16353c59e2b23e77f2eeb729e4c5b70c584f8205242e86ca",
+      "preimage_hex": "646c6a6f6e6578",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c132",
+      "password_expansion": "raw",
+      "password_hex": "646c6a6f6e6578676e6975676270727663646568",
+      "password_sha256": "b11851e3286214545ddcc27e98eefc880c0ed7ca44ce764d00e70b75af1642f9",
+      "preimage_hex": "646c6a6f6e6578676e6975676270727663646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c133",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62313138353165333238363231343534356464636332376539386565666338383063306564376361343463653736346430306537306237356166313634326639",
+      "password_sha256": "dd102e801a79226fc05c9da7a15e44b60355c307b7bcb8c5e09dd115ba68335b",
+      "preimage_hex": "646c6a6f6e6578676e6975676270727663646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c134",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b11851e3286214545ddcc27e98eefc880c0ed7ca44ce764d00e70b75af1642f9",
+      "password_sha256": "0055c1eafcbb754549ef85c5e71d4ab6ccac0796a28b07c1a2da4bdcbbd2f5e6",
+      "preimage_hex": "646c6a6f6e6578676e6975676270727663646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c135",
+      "password_expansion": "raw",
+      "password_hex": "656d6b706f6679",
+      "password_sha256": "de392fd36f0713e1c9d1a9dce883dda07cd08584ce432e8111f21112f49f34d9",
+      "preimage_hex": "656d6b706f6679",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c136",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64653339326664333666303731336531633964316139646365383833646461303763643038353834636534333265383131316632313131326634396633346439",
+      "password_sha256": "5bb91624a834854aee2fe748488253e0f3aee9bf213e7a071f574b5fcc7a741d",
+      "preimage_hex": "656d6b706f6679",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c137",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "de392fd36f0713e1c9d1a9dce883dda07cd08584ce432e8111f21112f49f34d9",
+      "password_sha256": "2d7429c126a728bc4c4a1ed272f7a0428ab9bda48fcfc702ee9edfcfee9c22ac",
+      "preimage_hex": "656d6b706f6679",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c138",
+      "password_expansion": "raw",
+      "password_hex": "656d6b706f6679686f6a76686371737764656669",
+      "password_sha256": "ab96013b65416a9c1052ebb0b277de32a84e784ae52297b39266540e7b39e88c",
+      "preimage_hex": "656d6b706f6679686f6a76686371737764656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c139",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61623936303133623635343136613963313035326562623062323737646533326138346537383461653532323937623339323636353430653762333965383863",
+      "password_sha256": "aa3c3102efa39c5aedba81980bae753bbdee0704395ce8057f9f315caaaf373d",
+      "preimage_hex": "656d6b706f6679686f6a76686371737764656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c140",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ab96013b65416a9c1052ebb0b277de32a84e784ae52297b39266540e7b39e88c",
+      "password_sha256": "0b384f6b310d185fe6d1155f79b6e008dd1bd4c1c97e862a2791a10fa00f5dac",
+      "preimage_hex": "656d6b706f6679686f6a76686371737764656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c141",
+      "password_expansion": "raw",
+      "password_hex": "66646863666166686462636467",
+      "password_sha256": "36002ee31ed64c3f0c317b534b41fcf52497b70f2e3cfab37c96f19ac7aeeb6a",
+      "preimage_hex": "66646863666166686462636467",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c142",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33363030326565333165643634633366306333313762353334623431666366353234393762373066326533636661623337633936663139616337616565623661",
+      "password_sha256": "5c7f50e2d03fee1f1056c6148e78d155f63c0df4b926671a2b334493d62ae447",
+      "preimage_hex": "66646863666166686462636467",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c143",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "36002ee31ed64c3f0c317b534b41fcf52497b70f2e3cfab37c96f19ac7aeeb6a",
+      "password_sha256": "3cb7ca410bc7670897d49f8f6aab0fb202f0b56839fe11843190dc195502985f",
+      "preimage_hex": "66646863666166686462636467",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c144",
+      "password_expansion": "raw",
+      "password_hex": "67656964676267696563646568",
+      "password_sha256": "85c871997eaeeec83ed6e6807dddfe3d251b43f371182f71de74e92c4eb4f42c",
+      "preimage_hex": "67656964676267696563646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c145",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38356338373139393765616565656338336564366536383037646464666533643235316234336633373131383266373164653734653932633465623466343263",
+      "password_sha256": "32dc1f0bceb70869aef3c9065bed3d21f9154ca15beddbacbaf6f795f0908cf4",
+      "preimage_hex": "67656964676267696563646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c146",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "85c871997eaeeec83ed6e6807dddfe3d251b43f371182f71de74e92c4eb4f42c",
+      "password_sha256": "00a977174f14e35ab9cf5e6a3f0b7480551179c31dfaf128f03706ae7227a12c",
+      "preimage_hex": "67656964676267696563646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c147",
+      "password_expansion": "raw",
+      "password_hex": "67666469686861",
+      "password_sha256": "06fb6a0d67da4c719f5c9e4e06aea6938088b930129ac58d621d21ab64685ba8",
+      "preimage_hex": "67666469686861",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c148",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30366662366130643637646134633731396635633965346530366165613639333830383862393330313239616335386436323164323161623634363835626138",
+      "password_sha256": "c9dcf8f70a3e77aba05f46d0c4365ffffa2f7ec63af4f5f92d42965e71862659",
+      "preimage_hex": "67666469686861",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c149",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "06fb6a0d67da4c719f5c9e4e06aea6938088b930129ac58d621d21ab64685ba8",
+      "password_sha256": "25311550d42636c210d0d1a122e1fea82334024f5bfbaec63b1b0a94ab534c09",
+      "preimage_hex": "67666469686861",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c150",
+      "password_expansion": "raw",
+      "password_hex": "6766646968686168666165686368616664656669",
+      "password_sha256": "a0c12677a71b12f1eb45fadfc2470b1d614f141c9fa0993c39e5f166d4dee1c8",
+      "preimage_hex": "6766646968686168666165686368616664656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c151",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61306331323637376137316231326631656234356661646663323437306231643631346631343163396661303939336333396535663136366434646565316338",
+      "password_sha256": "21fd459e2fa334c7c4323b95db5967e3b06908abc19f68505b5570a154c8ae7b",
+      "preimage_hex": "6766646968686168666165686368616664656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c152",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a0c12677a71b12f1eb45fadfc2470b1d614f141c9fa0993c39e5f166d4dee1c8",
+      "password_sha256": "7dd182029fa184677316fc504266e4975b8cfb00b7c6513d1375a2c91c98ca48",
+      "preimage_hex": "6766646968686168666165686368616664656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c153",
+      "password_expansion": "raw",
+      "password_hex": "676e6975676270727663646568",
+      "password_sha256": "214e5b73a73d99d5c6b9fdfbd3bcf547fb25d424296f5a6fc74b22ce9c37ec5a",
+      "preimage_hex": "676e6975676270727663646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c154",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32313465356237336137336439396435633662396664666264336263663534376662323564343234323936663561366663373462323263653963333765633561",
+      "password_sha256": "b4c4c17b21af1efa2a71d816c30529a822ff3606584985108d3bf1ec0d471847",
+      "preimage_hex": "676e6975676270727663646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c155",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "214e5b73a73d99d5c6b9fdfbd3bcf547fb25d424296f5a6fc74b22ce9c37ec5a",
+      "password_sha256": "84d5981cbcbe5009742c1bc88015cae1414f098c26841c25d119dd89261a00cd",
+      "preimage_hex": "676e6975676270727663646568",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c156",
+      "password_expansion": "raw",
+      "password_hex": "68666165686368616664656669",
+      "password_sha256": "686aba8bc00f6385866aa76ff167afdc4b81110e52103da4cc02c1c5546b055b",
+      "preimage_hex": "68666165686368616664656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c157",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36383661626138626330306636333835383636616137366666313637616664633462383131313065353231303364613463633032633163353534366230353562",
+      "password_sha256": "b8504513802cd0402fc5d458b8fbd9346537cba274d1a028ad47b217a5e22c41",
+      "preimage_hex": "68666165686368616664656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c158",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "686aba8bc00f6385866aa76ff167afdc4b81110e52103da4cc02c1c5546b055b",
+      "password_sha256": "21d1566d074d3a36043431a2aa430e36875eef3b43f6c726a19deaa545b81c9f",
+      "preimage_hex": "68666165686368616664656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod9-i0"
+      ]
+    },
+    {
+      "candidate_id": "v15c159",
+      "password_expansion": "raw",
+      "password_hex": "68676561696962",
+      "password_sha256": "546c81a233e46d07fc0d4838705bdb2380e1b02a56df74cfaf6e14036b74e4e1",
+      "preimage_hex": "68676561696962",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c160",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35343663383161323333653436643037666330643438333837303562646232333830653162303261353664663734636661663665313430333662373465346531",
+      "password_sha256": "ba8bd3d8825fdeef2f959999066a56cda0637489c25421e08aef9e6a0a504a51",
+      "preimage_hex": "68676561696962",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c161",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "546c81a233e46d07fc0d4838705bdb2380e1b02a56df74cfaf6e14036b74e4e1",
+      "password_sha256": "574896c41cc3651bcb1d0013e4bfed07314178ef5b04eecc20276143d924db75",
+      "preimage_hex": "68676561696962",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c162",
+      "password_expansion": "raw",
+      "password_hex": "6867656169696269676266696469626765666761",
+      "password_sha256": "67a93f177e61730d209aecc4757dea9eafcc23b8d364dbc01285d7d6bdb9d243",
+      "preimage_hex": "6867656169696269676266696469626765666761",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c163",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36376139336631373765363137333064323039616563633437353764656139656166636332336238643336346462633031323835643764366264623964323433",
+      "password_sha256": "e8c760544f0c030a559d1ffc7c54a2afd78c8e12c8e53eb34e651aacd4fec5c0",
+      "preimage_hex": "6867656169696269676266696469626765666761",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c164",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "67a93f177e61730d209aecc4757dea9eafcc23b8d364dbc01285d7d6bdb9d243",
+      "password_sha256": "6d96f6428c9b15c3ad56314d136a8a817257d8c4d27cf9744d9d43fc7d80f75a",
+      "preimage_hex": "6867656169696269676266696469626765666761",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c165",
+      "password_expansion": "raw",
+      "password_hex": "686f6a76686371737764656669",
+      "password_sha256": "098b71e9169cdc1d9460708866cf0d693b165a91468b41133a036dfaa1e43c30",
+      "preimage_hex": "686f6a76686371737764656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c166",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30393862373165393136396364633164393436303730383836366366306436393362313635613931343638623431313333613033366466616131653433633330",
+      "password_sha256": "850340b96b4b9edc1369398396a1a4d2ed92206038acda8fce32a97753ab6b74",
+      "preimage_hex": "686f6a76686371737764656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c167",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "098b71e9169cdc1d9460708866cf0d693b165a91468b41133a036dfaa1e43c30",
+      "password_sha256": "78480758e3156034df3e5b481a479f4ddf99cdaf604ede9cf26a75d90eaa0301",
+      "preimage_hex": "686f6a76686371737764656669",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-1/column-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c168",
+      "password_expansion": "raw",
+      "password_hex": "69676266696469626765666761",
+      "password_sha256": "7104a3a4d95750ba1157cfca8b7fdf0deee1ae52d798b60c3e39580fb2421e7d",
+      "preimage_hex": "69676266696469626765666761",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c169",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37313034613361346439353735306261313135376366636138623766646630646565653161653532643739386236306333653339353830666232343231653764",
+      "password_sha256": "745acd08615f27992e98df96bc464d1f60ee7ccb1d104786e7db57e64ae0f323",
+      "preimage_hex": "69676266696469626765666761",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c170",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7104a3a4d95750ba1157cfca8b7fdf0deee1ae52d798b60c3e39580fb2421e7d",
+      "password_sha256": "94b0319e574df97b0523a2d6b7962025fbcab4aeeeea2fb922718e0e3b9bee18",
+      "preimage_hex": "69676266696469626765666761",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod9-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c171",
+      "password_expansion": "raw",
+      "password_hex": "7179776261726b",
+      "password_sha256": "8a2cf1cdddc0b052c11cb8421d60d2610a0974d8d7735877c415bda964bb8b43",
+      "preimage_hex": "7179776261726b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c172",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38613263663163646464633062303532633131636238343231643630643236313061303937346438643737333538373763343135626461393634626238623433",
+      "password_sha256": "d54ac7fb16ee8bea69e3e592a7fd28f829c029345b1b210e76b8725eba61927b",
+      "preimage_hex": "7179776261726b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c173",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8a2cf1cdddc0b052c11cb8421d60d2610a0974d8d7735877c415bda964bb8b43",
+      "password_sha256": "c62075e284153596d0012075aa240b2f3645c376bcd6727215d9fb11d7ebd904",
+      "preimage_hex": "7179776261726b",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c174",
+      "password_expansion": "raw",
+      "password_hex": "7179776261726b7a67626e7a75696b6f76777861",
+      "password_sha256": "2a375affc331044aba31f4bfc2b1f1f8d96a72275e71152ffa8b93e165e24cd3",
+      "preimage_hex": "7179776261726b7a67626e7a75696b6f76777861",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c175",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32613337356166666333333130343461626133316634626663326231663166386439366137323237356537313135326666613862393365313635653234636433",
+      "password_sha256": "1cdbf66b6da197d871cf92f45116d174cc1d1be1a4daf537a3c28b63ed0a964c",
+      "preimage_hex": "7179776261726b7a67626e7a75696b6f76777861",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c176",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2a375affc331044aba31f4bfc2b1f1f8d96a72275e71152ffa8b93e165e24cd3",
+      "password_sha256": "ce9b3a07a44436327af4fd8b4d1727f5bf29def80106d6ae082b7491ae1277ca",
+      "preimage_hex": "7179776261726b7a67626e7a75696b6f76777861",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c177",
+      "password_expansion": "raw",
+      "password_hex": "727a786362736c",
+      "password_sha256": "2ceabe58cf22164af53da9eccf1777826a8c76c9aafc8813fcae9d0a5e093dcf",
+      "preimage_hex": "727a786362736c",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c178",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32636561626535386366323231363461663533646139656363663137373738323661386337366339616166633838313366636165396430613565303933646366",
+      "password_sha256": "05724d3203b8e5c1428caf84667472c8ab408ce600ab3db69084572591a40c3b",
+      "preimage_hex": "727a786362736c",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c179",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2ceabe58cf22164af53da9eccf1777826a8c76c9aafc8813fcae9d0a5e093dcf",
+      "password_sha256": "d8c167c8c1b6040a29485b058e5fb0e1e4514f4c880a08b1ab8e3a3021bdc1fc",
+      "preimage_hex": "727a786362736c",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/row-sums/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c180",
+      "password_expansion": "raw",
+      "password_hex": "727a786362736c6168636f61766a6c7077787962",
+      "password_sha256": "0ed4ccf01a1e38d24932ed3fbacf846036ff0f686f6b94d92520f9d0c140ee65",
+      "preimage_hex": "727a786362736c6168636f61766a6c7077787962",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c181",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30656434636366303161316533386432343933326564336662616366383436303336666630663638366636623934643932353230663964306331343065653635",
+      "password_sha256": "710bf240ffccc549582b9b653d004c0ceb289a886f28a0db9080918d3ce9d5e5",
+      "preimage_hex": "727a786362736c6168636f61766a6c7077787962",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c182",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0ed4ccf01a1e38d24932ed3fbacf846036ff0f686f6b94d92520f9d0c140ee65",
+      "password_sha256": "800c8728a8d37e3b49241f70fa434ec7833d177416b5a2e1cd62bcf99fc3f1d2",
+      "preimage_hex": "727a786362736c6168636f61766a6c7077787962",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/rows-then-columns/mod26-a0"
+      ]
+    },
+    {
+      "candidate_id": "v15c183",
+      "password_expansion": "raw",
+      "password_hex": "7a67626e7a75696b6f76777861",
+      "password_sha256": "877ca28d3b6dc5493d495e3932a5c4e8af8e00e614bafed58a1e07224099aac1",
+      "preimage_hex": "7a67626e7a75696b6f76777861",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c184",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38373763613238643362366463353439336434393565333933326135633465386166386530306536313462616665643538613165303732323430393961616331",
+      "password_sha256": "056835e2a72ed0dcebf77d9cfd35b280c7fb5727ea3ac31472016564918f736b",
+      "preimage_hex": "7a67626e7a75696b6f76777861",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c185",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "877ca28d3b6dc5493d495e3932a5c4e8af8e00e614bafed58a1e07224099aac1",
+      "password_sha256": "a12843eddf9a3b671283b33f638c115d01845f58d48ec3bd8cf6fdb5978fc370",
+      "preimage_hex": "7a67626e7a75696b6f76777861",
+      "provenance": [
+        "s91-prime-tail-reinsertion/matrixsumlist/origin-0/column-sums/mod26-a1"
+      ]
+    },
+    {
+      "candidate_id": "v15c186",
+      "password_expansion": "raw",
+      "password_hex": "92c362ce9c1087cc3923d3bfe986589f60efc7d6246df3150b283f09e9a895c139a461eb",
+      "password_sha256": "7804139f6417029b0c78c2caa9ce3c2bd9dea924313eeda75960a33d4a8ddef7",
+      "preimage_hex": "92c362ce9c1087cc3923d3bfe986589f60efc7d6246df3150b283f09e9a895c139a461eb",
+      "provenance": [
+        "s91-prime-tail-reinsertion/base9-a0-integer-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c187",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37383034313339663634313730323962306337386332636161396365336332626439646561393234333133656564613735393630613333643461386464656637",
+      "password_sha256": "e4dab29955c8baaedb10937f01fb73395999c5cc51f5b8a587fcc0f03ea30453",
+      "preimage_hex": "92c362ce9c1087cc3923d3bfe986589f60efc7d6246df3150b283f09e9a895c139a461eb",
+      "provenance": [
+        "s91-prime-tail-reinsertion/base9-a0-integer-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c188",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7804139f6417029b0c78c2caa9ce3c2bd9dea924313eeda75960a33d4a8ddef7",
+      "password_sha256": "8f2360c803e62b55c9fc7e7da5ce0a85b85e1c0660c645ec38fb1cfd4d2869c5",
+      "preimage_hex": "92c362ce9c1087cc3923d3bfe986589f60efc7d6246df3150b283f09e9a895c139a461eb",
+      "provenance": [
+        "s91-prime-tail-reinsertion/base9-a0-integer-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c189",
+      "password_expansion": "raw",
+      "password_hex": "bee0a206b8a59b11f11d811ff2fa784a8c37d3dd25d9a77592f4ceb54a15b4e3aa9e2301",
+      "password_sha256": "e906e30f82cae82cf63de51a1e9d18711012f4d28f9c8e379470c2311b8bb1ba",
+      "preimage_hex": "bee0a206b8a59b11f11d811ff2fa784a8c37d3dd25d9a77592f4ceb54a15b4e3aa9e2301",
+      "provenance": [
+        "s91-prime-tail-reinsertion/base9-a1-i0-integer-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c190",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65393036653330663832636165383263663633646535316131653964313837313130313266346432386639633865333739343730633233313162386262316261",
+      "password_sha256": "4fb8e81ca3ff15eda4ab7653de808911ef98216a5ba0b60351059118a30357c1",
+      "preimage_hex": "bee0a206b8a59b11f11d811ff2fa784a8c37d3dd25d9a77592f4ceb54a15b4e3aa9e2301",
+      "provenance": [
+        "s91-prime-tail-reinsertion/base9-a1-i0-integer-bytes"
+      ]
+    },
+    {
+      "candidate_id": "v15c191",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e906e30f82cae82cf63de51a1e9d18711012f4d28f9c8e379470c2311b8bb1ba",
+      "password_sha256": "826d2a040a82e6d90ec38c75de3ffe071b88fbac5acc0f4199acb4a8058fb905",
+      "preimage_hex": "bee0a206b8a59b11f11d811ff2fa784a8c37d3dd25d9a77592f4ceb54a15b4e3aa9e2301",
+      "provenance": [
+        "s91-prime-tail-reinsertion/base9-a1-i0-integer-bytes"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "forbidden_evidence": [
+      "expected padding length",
+      "community plus/minus block grammar",
+      "Half/Better Half",
+      "target point or address",
+      "known community plaintext hashes"
+    ],
+    "inherits_v1_rules_verbatim": true,
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v14_manifest_sha256": "b574912c561f610682d398197e131b932831ca34d074c21af7d5b64ff680c739",
+  "schema": "salphaseion-source-only-preregistration-v15-prime-tail-list",
+  "source": {
+    "adjacent_instruction": "matrixsumlist",
+    "architect_instruction": "REINSERTING THE PRIME BASICS",
+    "candidate_rule": "lossless prime-tail permutation, then direct numeric forms or 7x13 row/column sum lists",
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "prime_positions_one_based": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "reinserted_sha256": "c1c328e9cfff6b496165b587c71299cd901a29e15c7ea6718d8b9117368d3da1",
+    "source_prefix_67_sha256": "fe7922ab4bb06c7dca817bb9a88e4873dba25796a0fb7c5fbe55811dfa340ca8",
+    "source_prime_tail_24_sha256": "97cc30f2c585fedfdfd65ae2b6b6577524696021a51e187ebde3be9f84fce0cf",
+    "split_rule": "S91[:67] fills non-prime positions; S91[67:] fills the 24 prime positions",
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

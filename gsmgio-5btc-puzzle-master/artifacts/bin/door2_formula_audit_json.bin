@@ -1,0 +1,102 @@
+{
+  "status": "NO_MATCH_IN_EXPLICIT_ENCODINGS",
+  "claim_url": "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/issues/92#issuecomment-4944877522",
+  "claim_text": "M3DGNJTGMZTCMZTG",
+  "claimed_label": "Door-2 LCP7 = ascii_hex(text) XOR Half XOR Better",
+  "lcp_metric_used": "leading equal hexadecimal nibbles of candidate public x and target public x",
+  "literal_lowercase_ascii_hex_lcp": 5,
+  "literal_claim_reproduces_lcp7": false,
+  "target": {
+    "x": "f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464",
+    "y": "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+    "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "results": [
+    {
+      "encoding": "literal_ascii_hex_lower_text",
+      "encoded_hex": "3464333334343437346534613534343734643561353434333464356135343437",
+      "private_hex": "788bacc405f4c5d17b56fd19f2d4f511a02dd156e363e2282a651b2275d9c173",
+      "public_x": "f4d1bf8f021a85adb6330887bff54f5a87a93f174c7dae46ccce040b65caa518",
+      "public_y": "1a0f1e16f900b448d17cf0ca48c4c47219d7172c5367f6a51e246db938fc23cd",
+      "target_x_hex_nibble_lcp": 5,
+      "addresses": {
+        "uncompressed": "14qGvrgLvtRe5dE8Fz33NJ9WodWqtBmsZg",
+        "compressed": "1E5rWsJMHb9k81GkLrgvnS8cizqRAua3hU"
+      },
+      "exact_target_point": false,
+      "exact_target_address": false
+    },
+    {
+      "encoding": "literal_ascii_hex_upper_text",
+      "encoded_hex": "3444333334343437344534413534343734443541353434333444354135343437",
+      "private_hex": "78abacc405f4c5d17b76fd39f2d4f511a00dd176e363e2282a451b0275d9c173",
+      "public_x": "117dc0419c724d8a1dbd92abdb696fa4abffd4f60773ace82c44fca5913741e5",
+      "public_y": "7401d4b8583dbaafa5159522a723cdc634325c27ba5f9d77a6efc2fae9c8460e",
+      "target_x_hex_nibble_lcp": 0,
+      "addresses": {
+        "uncompressed": "1Cp7EVbitjEMJnqwYxg8BdzHACAYHM5y7",
+        "compressed": "1PRmdzhHkR8aFmGLPcoPfxQ3GrYymtiNXS"
+      },
+      "exact_target_point": false,
+      "exact_target_address": false
+    },
+    {
+      "encoding": "ascii_repeated_twice",
+      "encoded_hex": "4d3344474e4a54474d5a54434d5a54474d3344474e4a54474d5a54434d5a5447",
+      "private_hex": "01dcdbb07f8aa5a102699d3b8aba9561d97aa070981d825c535b7a000db7a103",
+      "public_x": "777c0e00e36d2c0c116ba994b4de090bfe299ce44e4058b30db87ed5643d0d44",
+      "public_y": "b4b0bda360fc7753871253569c46ad9ced50defa1ef00955e151b9b0877c1e0d",
+      "target_x_hex_nibble_lcp": 0,
+      "addresses": {
+        "uncompressed": "1sqj4b5ctX4nQZem1R2ZUYPxGEHqq8xaU",
+        "compressed": "1KpLnbvhSkfLdZZLr5NP1y7bk5jQH3NboP"
+      },
+      "exact_target_point": false,
+      "exact_target_address": false
+    },
+    {
+      "encoding": "ascii_left_zero_padded",
+      "encoded_hex": "000000000000000000000000000000004d3344474e4a54474d5a54434d5a5447",
+      "private_hex": "4cef9ff731c0f1e64f33c978c7e0c126d97aa070981d825c535b7a000db7a103",
+      "public_x": "83d8cbfd3af2d34daec72699ec55efffd1d7b49c5bba59c3497506c9c1d71618",
+      "public_y": "d5d8c31baa4eab847837607ab164bbe9efadbb765e52555dfe7415337553c5b3",
+      "target_x_hex_nibble_lcp": 0,
+      "addresses": {
+        "uncompressed": "1Ps5ExSFCtbZsDNkaNt97kXP9bTQyfa78s",
+        "compressed": "1M3tYa3G8FFmNgyVFA9zEWbYavWppGNxh8"
+      },
+      "exact_target_point": false,
+      "exact_target_address": false
+    },
+    {
+      "encoding": "ascii_right_zero_padded",
+      "encoded_hex": "4d3344474e4a54474d5a54434d5a544700000000000000000000000000000000",
+      "private_hex": "01dcdbb07f8aa5a102699d3b8aba95619449e437d657d61b1e012e4340edf544",
+      "public_x": "e9e0300fef05d6b452071ecc595f14367186e6969ae539cd6bc861eff7812f7c",
+      "public_y": "56c0086743f40069aceab8d3ffd7dace62d3953ff4c2547b131ca7f6dbadeac9",
+      "target_x_hex_nibble_lcp": 0,
+      "addresses": {
+        "uncompressed": "12ms8EpcHC15YrPWnas7PZtANkZdgxLsze",
+        "compressed": "1EzVVes8jkB8FY9UhskkCjiNYLAHorQPDv"
+      },
+      "exact_target_point": false,
+      "exact_target_address": false
+    },
+    {
+      "encoding": "sha256_ascii",
+      "encoded_hex": "2f670359023f4749cbfd8fb7bf59ad1e6057c1d7438af4a5c44fdeb926235d97",
+      "private_hex": "63889cae33ffb6af84ce46cf78b96c38f41e25e095dd22beda4ef0fa66cea8d3",
+      "public_x": "16077883a7324a9a599463966ed124965ff8199513ad489cb51b3b77beafaeaa",
+      "public_y": "b85808d4d6b9a7c39cf3821718e2f4ccd25fdf5b0528adf07fcfe218149b3854",
+      "target_x_hex_nibble_lcp": 0,
+      "addresses": {
+        "uncompressed": "1DXCR21AYqKhjQkgRWUi6ZHvbEeimhdCVD",
+        "compressed": "1GyFmLMcMQiPFfjAfi14vV21XUbc1bpTpX"
+      },
+      "exact_target_point": false,
+      "exact_target_address": false
+    }
+  ],
+  "matches": [],
+  "scope_note": "The public comment does not define ascii_hex or the LCP comparison field. This refutes LCP7 only under the listed explicit encodings and x-coordinate metric."
+}

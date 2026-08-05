@@ -1,0 +1,63 @@
+{
+  "status": "REPRODUCED",
+  "phase32_plaintext_sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34",
+  "symbol_record": {
+    "offset": 447,
+    "length": 1539,
+    "sha256": "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b",
+    "unique_symbols": 26,
+    "bijective_alphabet": true,
+    "mapping": {
+      "25": "l",
+      "2c": "k",
+      "2f": "a",
+      "3a": "z",
+      "3e": "n",
+      "3f": "o",
+      "5b": "c",
+      "5f": "m",
+      "60": "y",
+      "c0": "d",
+      "c1": "e",
+      "c2": "b",
+      "c3": "f",
+      "c5": "g",
+      "c7": "h",
+      "c8": "t",
+      "c9": "q",
+      "ca": "r",
+      "cb": "s",
+      "cc": "x",
+      "cd": "u",
+      "ce": "v",
+      "cf": "w",
+      "d1": "i",
+      "f6": "j",
+      "f8": "p"
+    },
+    "evidence_boundary": "The byte-to-letter transliteration is validated against the published README line; it is not independently derived from a bundled CCSID-1141 table."
+  },
+  "beaufort": {
+    "key": "THEMATRIXHASYOU",
+    "ciphertext_length": 1539,
+    "ciphertext_sha256": "6d66e0e0e2dfdb812d5ecee2be6f54c1f3b8c84b0d74580686cf2053d76a200e",
+    "plaintext_length": 1539,
+    "plaintext_sha256": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241",
+    "contains_take_private_key_phrase": true,
+    "contains_prime_basics_phrase": true,
+    "contains_seven_intertwined_passwords_phrase": true,
+    "ends_ciao_bella_o": true
+  },
+  "vic": {
+    "digit_count": 149,
+    "digits_sha256": "71e3af174d533ad2c1c79fce64308f5fdf200f3cc50f059b2f1485a2c5f1765d",
+    "alphabet": "FUBCDORA.LETHINGKYMVPS.JQZXW",
+    "row_digits": [
+      "1",
+      "4"
+    ],
+    "plaintext": "INCASEYOUMANAGETOCRACKTHISTHEPRIVATEKEYSBELONGTOHALFANDBETTERHALFANDTHEYALSONEEDFUNDSTOLIVE",
+    "plaintext_sha256": "878b7afacc9e35412e76b8506cc8297fa5aeba5381e108dc421b71a0ab8993d8"
+  },
+  "layer_ownership": "The three Issue #87 phrases are reproduced inside Phase 3.2.1, not derived from Chain 4."
+}

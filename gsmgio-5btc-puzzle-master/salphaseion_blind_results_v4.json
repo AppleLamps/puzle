@@ -1,0 +1,207 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 3096,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "dda65d6a460b24a26a479809e02e07a0e51374763d4cdda4adb467c826658c19",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v4c0065",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "13203490f13ddc4f863fbda1c15c8035989b6fd0faad48400fafb179c52d71a8",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "d10d3110e8e80c5f9dbbdab1e4679e857f6f05d3baaa2ccab52e27b512acb9d2",
+      "provenance": [
+        "s91-sum-index-s570/one-based/13x7/columns-then-rows/one-based-index/numeric-decimal-to-hex-bytes/one-based"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v4c0251",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "93f620df2bb7d859378709f71b820725ef54d985e86662c51027ccfd18d66208",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "edf637e5114dd629f999ef80df817bd0880b3755d8e981ef34090ba07492a8fd",
+      "provenance": [
+        "s91-sum-index-s570/zero-based/13x7/total/one-based-index/selected-one-based-digits",
+        "s91-sum-index-s570/zero-based/7x13/total/one-based-index/selected-one-based-digits"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v4c0260",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "5563f5454f7fbfae03d9aa11c199d44d3c2a73e454358408b32af751eee81458",
+      "plaintext_length": 79,
+      "plaintext_sha256": "97f353f7ce9e60173f343af9c9fcdd5b3a90b196079c949138ba8c03a73c1f3a",
+      "provenance": [
+        "s91-sum-index-s570/one-based/7x13/columns/zero-based-index/selected-one-based-digits"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v4c0278",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "fa5d2818ec2ca2b3dc575181ac70cfc38c26f84ee0d28130a3b5d9f3f3b8363a",
+      "plaintext_length": 79,
+      "plaintext_sha256": "edd85c2027b893226f5d8dddd90377aa69aa4300a25ee622e1c867c5658cdfaf",
+      "provenance": [
+        "s91-sum-index-s570/one-based/13x7/columns/one-based-index/selected-one-based-digits"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v4c0284",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "68b6acce6948c45ed26e193c33443b4aedc1c25e6f96e29a3d939a774f8b74d1",
+      "plaintext_length": 79,
+      "plaintext_sha256": "b008a41388f9e5d2b6f9bc22a61036962c020e98a75a743f81ffb092d34b45e9",
+      "provenance": [
+        "s91-sum-index-s570/one-based/13x7/total/one-based-index/selected-zero-based-digits",
+        "s91-sum-index-s570/one-based/7x13/total/one-based-index/selected-zero-based-digits"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v4c0366",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "f9838d8d3df81e91d918387253056ed90d7744533868e74cf7a29484704733b7",
+      "plaintext_length": 79,
+      "plaintext_sha256": "016b1444b938cf239b3e51f8c940d6405570136adc58252703b90e0836924a3f",
+      "provenance": [
+        "s91-sum-index-s570/one-based/13x7/columns/zero-based-index/numeric-decimal-to-hex-bytes/zero-based"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v4c0402",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "16e60208f0ba896110e85c64d0fae07c64faf463d49e7da4c25a0209c5880990",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "afddaec57ea6104ac7260e099b87d82372dda18ad8e11e35177aa4c148e93973",
+      "provenance": [
+        "s91-sum-index-s570/one-based/13x7/rows/one-based-index/selected-letters"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v4c0430",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "102816a6d7f534a3178b720ab0f97257e9e4ab9c5fc431f91b2f2213d7f6c903",
+      "plaintext_length": 79,
+      "plaintext_sha256": "ed61655f94d0170c9ca0a9c313122ec4395d34aebc21ee6cee249693cea65f02",
+      "provenance": [
+        "s91-sum-index-s570/one-based/13x7/columns/zero-based-index/selected-letters"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v4c0447",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "aaa9402664f1a41f40ebbc52c9993eb66aeb366602958fdfaa283b71e64db123",
+      "plaintext_length": 79,
+      "plaintext_sha256": "a83e219951e30afd18e2d2d78f0c99858a3711498fdb4592466992622217b778",
+      "provenance": [
+        "s91-sum-index-s570/one-based/13x7/total/one-based-index/selected-letters",
+        "s91-sum-index-s570/one-based/7x13/total/one-based-index/selected-letters"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v4c0466",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "65bb686d7e3fa1f26d24b4ab3daa92a6418c67dd6e3e8e1f94fd5a179f01cda1",
+      "plaintext_length": 79,
+      "plaintext_sha256": "c19c93ec1bc77690d10c24ce199ac647f1dc0d2b93ada5be40c174e4a5f3b776",
+      "provenance": [
+        "s91-sum-index-s570/one-based/13x7/columns/one-based-index/numeric-decimal-to-hex-bytes/one-based"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 10
+}

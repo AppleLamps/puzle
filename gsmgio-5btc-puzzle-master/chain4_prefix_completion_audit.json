@@ -1,0 +1,26 @@
+{
+  "status": "NO_MATCH_IN_EXHAUSTIVE_ONE_BYTE_COMPLETION_FAMILY",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "prefix31_hex": "2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+  "insertion_positions": 32,
+  "inserted_byte_values": 256,
+  "unique_completed_words": 8161,
+  "transforms": [
+    "direct-big",
+    "negative-direct-big",
+    "direct-little",
+    "negative-direct-little",
+    "sha256",
+    "sha256-reversed-word"
+  ],
+  "generated_candidates": 48966,
+  "unique_nonzero_scalars": 48966,
+  "candidate_stream_sha256": "6d73e1d0aae942fc8176b61bfbaf2dadcc6c205a507c5ccd1518b18e2ad21b50",
+  "target_compressed_public_key": "03f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464",
+  "positive_control": {
+    "scalar": 1,
+    "compressed_public_key": "0279be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798"
+  },
+  "matches": [],
+  "scope_note": "This exhausts every insertion of one arbitrary byte into the verified 31-byte Chain 4 prefix under the six recorded scalar transforms. It does not test multi-byte completion of the 29-byte operand or transforms involving the 35 following blocks."
+}

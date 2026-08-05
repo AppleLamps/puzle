@@ -1,0 +1,148 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 756,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "17f1cf2c7b5550482627ae12354f11dde6f309fffa93812f7a1da4b8069f7c80",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v33c003",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "20c96057cd943bbc5625ad39f91862353d4ab4088247ae2c946ad3d2fce53bd0",
+      "plaintext_length": 79,
+      "plaintext_sha256": "dc25145a706a5a59e8b186199184159f5159f5f3293e9bd2f48e3358e10d0082",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v33c008",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "dd4d6c1fb8e4098cd4a91d766e7d99f5f8d0e50e92e9d00502cdb6ca6c49aefc",
+      "plaintext_length": 79,
+      "plaintext_sha256": "36df4d4ecbaa8e2f43ece7a80307fca6161f92eeadbe59bf72498e4fa9f64a38",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v33c009",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "61614fac965e7736f1760276096f4cca27b0aab8044a285dc2077b6faa7d52be",
+      "plaintext_length": 79,
+      "plaintext_sha256": "33b146574c2ebc2db135565972164c1df826874ea9aa6df3c68187bf5a344b4d",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v33c027",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "817a1ecef3d5de558160e163d8218006b388cc38b500146bcab0260107b0d0e8",
+      "plaintext_length": 79,
+      "plaintext_sha256": "c55c1067a651380f5d363e99214ac60e9604486f1e15f5015df52b704a3e7903",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/title"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v33c034",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "a8f8cb63cce5a5015420c3543a0542b3b1cd1daed7874c4cd64a4ca7f3682616",
+      "plaintext_length": 79,
+      "plaintext_sha256": "8057bf1b7f5d2908c0355abbeb30fef2c92eab97066ef8f287f614e0f8d1e12d",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/title",
+        "architect-two-door-choice/suffix-6/spaces/title"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v33c065",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "4c49bf0cbbe63b37e7d5333dd4fe30c719cac1c688867c7ffb3dcb5455db832a",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "147b8f0c1779dc0f7e6cf33c531c65a022b5b5dde2a6e353619b0cdb33eb02d7",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v33c084",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "46c33941613ef04b03fd0a8b57ca985acc00d1e4e79f5aab300f35fa2f44c552",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "7ed5c1a4c2570719462e60a17592bbbdf7f23233a03d948fb8626c1a44eb1033",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 7
+}

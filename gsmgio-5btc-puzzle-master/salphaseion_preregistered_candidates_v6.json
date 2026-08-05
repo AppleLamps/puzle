@@ -1,0 +1,3270 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 282,
+  "candidates": [
+    {
+      "candidate_id": "v6c0000",
+      "password_expansion": "raw",
+      "password_hex": "6162616967676762696565646869666462666569686864676768676861646162616361666563",
+      "password_sha256": "839c90762afa71a88fbf67b28432ba7cbca6e6b31f7d0d12c567518dd7fcb598",
+      "preimage_ascii": "abaigggbieedhifdbfeihhdgghghadabacafec",
+      "preimage_hex": "6162616967676762696565646869666462666569686864676768676861646162616361666563",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38333963393037363261666137316138386662663637623238343332626137636263613665366233316637643064313263353637353138646437666362353938",
+      "password_sha256": "429b5b498916beeae54a7639fbdf00a549b6e17444ef28c5fa586a3b9c803efe",
+      "preimage_ascii": "abaigggbieedhifdbfeihhdgghghadabacafec",
+      "preimage_hex": "6162616967676762696565646869666462666569686864676768676861646162616361666563",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "839c90762afa71a88fbf67b28432ba7cbca6e6b31f7d0d12c567518dd7fcb598",
+      "password_sha256": "d8a71330f7d9e4f607ad37d81131e32c2014cabc42e1291211a0383a3345d1ec",
+      "preimage_ascii": "abaigggbieedhifdbfeihhdgghghadabacafec",
+      "preimage_hex": "6162616967676762696565646869666462666569686864676768676861646162616361666563",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0003",
+      "password_expansion": "raw",
+      "password_hex": "61626661666666676863686662",
+      "password_sha256": "01338d807f2383df56cc56f651a1e69718161256a2edf34440bbd9c2e77de37b",
+      "preimage_ascii": "abfafffghchfb",
+      "preimage_hex": "61626661666666676863686662",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30313333386438303766323338336466353663633536663635316131653639373138313631323536613265646633343434306262643963326537376465333762",
+      "password_sha256": "7fe89c222f215a27da8cba18aee14e8b0051861868c67b97ff4a4a8656034097",
+      "preimage_ascii": "abfafffghchfb",
+      "preimage_hex": "61626661666666676863686662",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "01338d807f2383df56cc56f651a1e69718161256a2edf34440bbd9c2e77de37b",
+      "password_sha256": "d6ae8ae28a265055de87077d9ee167fa0f84e2708fc627dac6c8a93d2a8150b3",
+      "preimage_ascii": "abfafffghchfb",
+      "preimage_hex": "61626661666666676863686662",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0006",
+      "password_expansion": "raw",
+      "password_hex": "616266616666666768636866626865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "password_sha256": "3b8f093f24e699c74ce411f13f7d5b1b49fb35530b5ddeb6b83ef862064765dc",
+      "preimage_ascii": "abfafffghchfbhebcbeihceigifbedihdfigfadafchghfhahae",
+      "preimage_hex": "616266616666666768636866626865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33623866303933663234653639396337346365343131663133663764356231623439666233353533306235646465623662383365663836323036343736356463",
+      "password_sha256": "fa6aa6d22daa7827990e0ea9947b0a1f9135efcbd022b61c52f2b984b5d3b364",
+      "preimage_ascii": "abfafffghchfbhebcbeihceigifbedihdfigfadafchghfhahae",
+      "preimage_hex": "616266616666666768636866626865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3b8f093f24e699c74ce411f13f7d5b1b49fb35530b5ddeb6b83ef862064765dc",
+      "password_sha256": "d8d8eaf7ff430606588aa3e56e43471a4093d1290dc06459f0645316b2dd8aae",
+      "preimage_ascii": "abfafffghchfbhebcbeihceigifbedihdfigfadafchghfhahae",
+      "preimage_hex": "616266616666666768636866626865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0009",
+      "password_expansion": "raw",
+      "password_hex": "616266616666666768636866626869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "password_sha256": "74dc0a2be97e6c49accadbb3bf6a8f8748ab4cb2db305b29cb35b9966c0b66e7",
+      "preimage_ascii": "abfafffghchfbhicidggaihdggfdagfhafecefcecdafiibbfih",
+      "preimage_hex": "616266616666666768636866626869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37346463306132626539376536633439616363616462623362663661386638373438616234636232646233303562323963623335623939363663306236366537",
+      "password_sha256": "3146db729cd4b8af845b9e81b61474c86a2c6371711bce8bb70949428ab1559b",
+      "preimage_ascii": "abfafffghchfbhicidggaihdggfdagfhafecefcecdafiibbfih",
+      "preimage_hex": "616266616666666768636866626869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "74dc0a2be97e6c49accadbb3bf6a8f8748ab4cb2db305b29cb35b9966c0b66e7",
+      "password_sha256": "714a3d70372401859c0649f1666fba41f1bbf44055e9d68df22e308a93fa160d",
+      "preimage_ascii": "abfafffghchfbhicidggaihdggfdagfhafecefcecdafiibbfih",
+      "preimage_hex": "616266616666666768636866626869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0012",
+      "password_expansion": "raw",
+      "password_hex": "61646668646963626962626868",
+      "password_sha256": "2d8e81d1d006c24f6bd62958c042267a663653767e68d6facd435964e4d06092",
+      "preimage_ascii": "adfhdicbibbhh",
+      "preimage_hex": "61646668646963626962626868",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32643865383164316430303663323466366264363239353863303432323637613636333635333736376536386436666163643433353936346534643036303932",
+      "password_sha256": "af5ea869c9c89fbc92a475bcec57352cb814edce0809eef176e17d431dbe59d2",
+      "preimage_ascii": "adfhdicbibbhh",
+      "preimage_hex": "61646668646963626962626868",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2d8e81d1d006c24f6bd62958c042267a663653767e68d6facd435964e4d06092",
+      "password_sha256": "1bcb4b96fc4efa28829b9ce864cf265a9cf6370ac29ac81976c4a4235b96f21e",
+      "preimage_ascii": "adfhdicbibbhh",
+      "preimage_hex": "61646668646963626962626868",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0015",
+      "password_expansion": "raw",
+      "password_hex": "616466686469636269626268686961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "password_sha256": "6efab4206a1918ae30363a6455443a2b630c82b12a776c53b46eb7ec62cd133d",
+      "preimage_ascii": "adfhdicbibbhhiadaehhbaiehhgebhgibgfdfgdfdebgaaccgai",
+      "preimage_hex": "616466686469636269626268686961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36656661623432303661313931386165333033363361363435353434336132623633306338326231326137373663353362343665623765633632636431333364",
+      "password_sha256": "08d3ce3df33f877f47f558eacf2b0cfca5dbbf617be1328e498cdfbefa7714fa",
+      "preimage_ascii": "adfhdicbibbhhiadaehhbaiehhgebhgibgfdfgdfdebgaaccgai",
+      "preimage_hex": "616466686469636269626268686961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6efab4206a1918ae30363a6455443a2b630c82b12a776c53b46eb7ec62cd133d",
+      "password_sha256": "2420f8f109fca8f1c2b6e1b69b6c1c9c86f1404e33f262cfeff53f37fe86dce2",
+      "preimage_ascii": "adfhdicbibbhhiadaehhbaiehhgebhgibgfdfgdfdebgaaccgai",
+      "preimage_hex": "616466686469636269626268686961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0018",
+      "password_expansion": "raw",
+      "password_hex": "616466686469636269626268686966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "password_sha256": "a5883023bf744a521403a46b599d8a2ced2fcb3b4ffc2db802e00ca706c2046a",
+      "preimage_ascii": "adfhdicbibbhhifcdcfaidfahagcfeaiegahgbebgdihigibibf",
+      "preimage_hex": "616466686469636269626268686966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61353838333032336266373434613532313430336134366235393964386132636564326663623362346666633264623830326530306361373036633230343661",
+      "password_sha256": "7731543015dabdeedec91bbd7185ccfa90606d4f8d308964b3a39e9c47362c1c",
+      "preimage_ascii": "adfhdicbibbhhifcdcfaidfahagcfeaiegahgbebgdihigibibf",
+      "preimage_hex": "616466686469636269626268686966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a5883023bf744a521403a46b599d8a2ced2fcb3b4ffc2db802e00ca706c2046a",
+      "password_sha256": "82652e70d02d1be4274648c2fcb098df209c00344f46017f1b81768921d1360c",
+      "preimage_ascii": "adfhdicbibbhhifcdcfaidfahagcfeaiegahgbebgdihigibibf",
+      "preimage_hex": "616466686469636269626268686966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0021",
+      "password_expansion": "raw",
+      "password_hex": "6165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "password_sha256": "0c73ce2890ae9e3830a353479e5f1dd627bc87ad780e072f81d5435757506d4b",
+      "preimage_ascii": "aebdfahbcfdceefecbfchgcechbdbhdhfhedih",
+      "preimage_hex": "6165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30633733636532383930616539653338333061333533343739653566316464363237626338376164373830653037326638316435343335373537353036643462",
+      "password_sha256": "772e32824876d98f61759e4373a2ba056677fd8bea719cb7af6a697e187f52a5",
+      "preimage_ascii": "aebdfahbcfdceefecbfchgcechbdbhdhfhedih",
+      "preimage_hex": "6165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0c73ce2890ae9e3830a353479e5f1dd627bc87ad780e072f81d5435757506d4b",
+      "password_sha256": "89e172a0b81c0d087d627d8301fe0dcbdad5a5497ef0413f8f6b75e9d012633c",
+      "preimage_ascii": "aebdfahbcfdceefecbfchgcechbdbhdhfhedih",
+      "preimage_hex": "6165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0024",
+      "password_expansion": "raw",
+      "password_hex": "6169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "password_sha256": "0cf8ca529adba4af7ec5ce8e9aa4b67e9aef96fe0460401e0718f29892aaab7d",
+      "preimage_ascii": "aicahcfdiihccehafhfihchdhgfacaciibfbhb",
+      "preimage_hex": "6169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30636638636135323961646261346166376563356365386539616134623637653961656639366665303436303430316530373138663239383932616161623764",
+      "password_sha256": "e869d15eb4cf89bbbb728a4b6d4f6b6970361e375da83d19d38b638aca691531",
+      "preimage_ascii": "aicahcfdiihccehafhfihchdhgfacaciibfbhb",
+      "preimage_hex": "6169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0cf8ca529adba4af7ec5ce8e9aa4b67e9aef96fe0460401e0718f29892aaab7d",
+      "password_sha256": "d2d03f3075e97edbedc82a57991dcef7fd7cfeaf679adebf88cb1dbeb8a2e3a1",
+      "preimage_ascii": "aicahcfdiihccehafhfihchdhgfacaciibfbhb",
+      "preimage_hex": "6169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0027",
+      "password_expansion": "raw",
+      "password_hex": "6261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "password_sha256": "4ac8063a1e45595d9f55d90be628bc1e776187fdff3fac056458e47617351752",
+      "preimage_ascii": "badbidgeaaiddfibgigaidieihgbdbdaacgcic",
+      "preimage_hex": "6261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34616338303633613165343535393564396635356439306265363238626331653737363138376664666633666163303536343538653437363137333531373532",
+      "password_sha256": "638bd4b4de00c3fba0c577dbf7f12a76eac24489d333617cbaa1c4e435657ffd",
+      "preimage_ascii": "badbidgeaaiddfibgigaidieihgbdbdaacgcic",
+      "preimage_hex": "6261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4ac8063a1e45595d9f55d90be628bc1e776187fdff3fac056458e47617351752",
+      "password_sha256": "5d201dd4cb47b221f499b29458b3187fa442d8d2007f7e3ee07d9592173edd89",
+      "preimage_ascii": "badbidgeaaiddfibgigaidieihgbdbdaacgcic",
+      "preimage_hex": "6261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0030",
+      "password_expansion": "raw",
+      "password_hex": "6263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "password_sha256": "cb5d1511b709dfeb4e5ef2d61cc7d42930325ea4aa4f1ec796ca4fa4dba3156e",
+      "preimage_ascii": "bcfcgaadcbgaaigdaibdihfhifhfgdicceeicb",
+      "preimage_hex": "6263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63623564313531316237303964666562346535656632643631636337643432393330333235656134616134663165633739366361346661346462613331353665",
+      "password_sha256": "ff2986e0c35d73cd07a9369e998f4aa01211a122c2f15af9a348e94345dc23af",
+      "preimage_ascii": "bcfcgaadcbgaaigdaibdihfhifhfgdicceeicb",
+      "preimage_hex": "6263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cb5d1511b709dfeb4e5ef2d61cc7d42930325ea4aa4f1ec796ca4fa4dba3156e",
+      "password_sha256": "2c7d9ace63b891c3e63fead0d3c64245a95dba846f7e653db7222d1f7a1f7bd7",
+      "preimage_ascii": "bcfcgaadcbgaaigdaibdihfhifhfgdicceeicb",
+      "preimage_hex": "6263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0033",
+      "password_expansion": "raw",
+      "password_hex": "62636762676767686964696763",
+      "password_sha256": "bef9ecdf4b5be8fa932f702586173a69cd3b78fe7dc556615f0b55d71024785d",
+      "preimage_ascii": "bcgbggghidigc",
+      "preimage_hex": "62636762676767686964696763",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62656639656364663462356265386661393332663730323538363137336136396364336237386665376463353536363135663062353564373130323437383564",
+      "password_sha256": "17b733ac2b5b27701d684e1b1bbfb7521445794404e8a163bfccb107be38f209",
+      "preimage_ascii": "bcgbggghidigc",
+      "preimage_hex": "62636762676767686964696763",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bef9ecdf4b5be8fa932f702586173a69cd3b78fe7dc556615f0b55d71024785d",
+      "password_sha256": "1da44d2938d134f95555557199bfc6e742b489680b0be8b72a29e5016a0d8e36",
+      "preimage_ascii": "bcgbggghidigc",
+      "preimage_hex": "62636762676767686964696763",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0036",
+      "password_expansion": "raw",
+      "password_hex": "626367626767676869646967636961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "password_sha256": "464079dfc5819d512ddc76d1882f3ef2428ea8fb350cb1e53a9fed88a2df5f8d",
+      "preimage_ascii": "bcgbggghidigciadaehhbaiehhgebhgibgfdfgdfdebgaaccgai",
+      "preimage_hex": "626367626767676869646967636961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34363430373964666335383139643531326464633736643138383266336566323432386561386662333530636231653533613966656438386132646635663864",
+      "password_sha256": "d300123d5e96f922be468644e48de254240a9236e270d4e9b758da8ce5c6f2ae",
+      "preimage_ascii": "bcgbggghidigciadaehhbaiehhgebhgibgfdfgdfdebgaaccgai",
+      "preimage_hex": "626367626767676869646967636961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "464079dfc5819d512ddc76d1882f3ef2428ea8fb350cb1e53a9fed88a2df5f8d",
+      "password_sha256": "34f664e2b8d643a6831ed9e2a3c92859c80ed4c8087b5a0dac716125fa92984c",
+      "preimage_ascii": "bcgbggghidigciadaehhbaiehhgebhgibgfdfgdfdebgaaccgai",
+      "preimage_hex": "626367626767676869646967636961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0039",
+      "password_expansion": "raw",
+      "password_hex": "626367626767676869646967636966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "password_sha256": "c9d36b5ae9f56e9297c52a21e56b52a578a05a6373919dd78b5ea7ccf7324ccd",
+      "preimage_ascii": "bcgbggghidigcifcdcfaidfahagcfeaiegahgbebgdihigibibf",
+      "preimage_hex": "626367626767676869646967636966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63396433366235616539663536653932393763353261323165353662353261353738613035613633373339313964643738623565613763636637333234636364",
+      "password_sha256": "82a8973868d24ee4d66ce5eb85fd8d040a46c0e47b25849091c66a42543d03f6",
+      "preimage_ascii": "bcgbggghidigcifcdcfaidfahagcfeaiegahgbebgdihigibibf",
+      "preimage_hex": "626367626767676869646967636966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c9d36b5ae9f56e9297c52a21e56b52a578a05a6373919dd78b5ea7ccf7324ccd",
+      "password_sha256": "9fe603fb75d87d0281f10605733acb6547e8c54208c620a4497627f5505ea46a",
+      "preimage_ascii": "bcgbggghidigcifcdcfaidfahagcfeaiegahgbebgdihigibibf",
+      "preimage_hex": "626367626767676869646967636966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0042",
+      "password_expansion": "raw",
+      "password_hex": "62656769656164636163636969",
+      "password_sha256": "2da2e2c861ea64c82b4c18e89843e85fe2961887940e89e7eacd178cd6de2cf5",
+      "preimage_ascii": "begieadcaccii",
+      "preimage_hex": "62656769656164636163636969",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32646132653263383631656136346338326234633138653839383433653835666532393631383837393430653839653765616364313738636436646532636635",
+      "password_sha256": "5278c838132b6c8aa8b8d86ff5ae6bab087313f17f1dd9992baf288fb9bb29e7",
+      "preimage_ascii": "begieadcaccii",
+      "preimage_hex": "62656769656164636163636969",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2da2e2c861ea64c82b4c18e89843e85fe2961887940e89e7eacd178cd6de2cf5",
+      "password_sha256": "632f5e44c2bbebeeeb5f384b4ccbd7f1184d336d1ad0f9bf282cf8d1ebcf74bd",
+      "preimage_ascii": "begieadcaccii",
+      "preimage_hex": "62656769656164636163636969",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0045",
+      "password_expansion": "raw",
+      "password_hex": "626567696561646361636369696263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "password_sha256": "c3b35a9887abd1743afcea95d7c9a2b9b9f50cfc8dc624d22c0bf16f94742a88",
+      "preimage_ascii": "begieadcacciibcfcgaadcbgaaigdaibdihfhifhfgdicceeicb",
+      "preimage_hex": "626567696561646361636369696263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63336233356139383837616264313734336166636561393564376339613262396239663530636663386463363234643232633062663136663934373432613838",
+      "password_sha256": "c7fd280256f2589159517fe4eb9aa491ce09ddba638692e75a2b68b54fbfbb24",
+      "preimage_ascii": "begieadcacciibcfcgaadcbgaaigdaibdihfhifhfgdicceeicb",
+      "preimage_hex": "626567696561646361636369696263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c3b35a9887abd1743afcea95d7c9a2b9b9f50cfc8dc624d22c0bf16f94742a88",
+      "password_sha256": "cc1153baaec338d745794f0d36caf144490d8e5b603a77f363d150c9fed9d7ab",
+      "preimage_ascii": "begieadcacciibcfcgaadcbgaaigdaibdihfhifhfgdicceeicb",
+      "preimage_hex": "626567696561646361636369696263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0048",
+      "password_expansion": "raw",
+      "password_hex": "626567696561646361636369696268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "password_sha256": "54f291d4b1860f839fd6bcb13ad7c0444cd56928fb6e0ab3ae3ec779f7327f39",
+      "preimage_ascii": "begieadcacciibhefehcbfhcaciehgcbgicaidgdifbabibdbdh",
+      "preimage_hex": "626567696561646361636369696268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35346632393164346231383630663833396664366263623133616437633034343463643536393238666236653061623361653365633737396637333237663339",
+      "password_sha256": "214e772404fcb0151855287bd6be944e16a34bce85462a319ba946a5eca89b10",
+      "preimage_ascii": "begieadcacciibhefehcbfhcaciehgcbgicaidgdifbabibdbdh",
+      "preimage_hex": "626567696561646361636369696268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "54f291d4b1860f839fd6bcb13ad7c0444cd56928fb6e0ab3ae3ec779f7327f39",
+      "password_sha256": "c990144b282d93111ba14b8129ef7297aa95a63424005e2b11e252b08ba53a07",
+      "preimage_ascii": "begieadcacciibhefehcbfhcaciehgcbgicaidgdifbabibdbdh",
+      "preimage_hex": "626567696561646361636369696268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0051",
+      "password_expansion": "raw",
+      "password_hex": "6266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "password_sha256": "e2627e38ceb2cb75b95c70a68539f64c57ca02cc74dce029dd709474cfe71ebb",
+      "preimage_ascii": "bfcegbicdgedffgfdcgdihdfdicecieigifeai",
+      "preimage_hex": "6266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65323632376533386365623263623735623935633730613638353339663634633537636130326363373464636530323964643730393437346366653731656262",
+      "password_sha256": "8a08d85a032ae10db6f46f2248274af755145ec06ebbba9c87ef1161d44feb8c",
+      "preimage_ascii": "bfcegbicdgedffgfdcgdihdfdicecieigifeai",
+      "preimage_hex": "6266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e2627e38ceb2cb75b95c70a68539f64c57ca02cc74dce029dd709474cfe71ebb",
+      "password_sha256": "64e2df804564bf9db47898a114fe75be00984e87042370935a104d0a9b3f39e6",
+      "preimage_ascii": "bfcegbicdgedffgfdcgdihdfdicecieigifeai",
+      "preimage_hex": "6266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0054",
+      "password_expansion": "raw",
+      "password_hex": "62666863616861666666626766",
+      "password_sha256": "0da8f94e1586afffc1b0ecef317430840fe0305c4c33323abfa550e23f131899",
+      "preimage_ascii": "bfhcahafffbgf",
+      "preimage_hex": "62666863616861666666626766",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30646138663934653135383661666666633162306563656633313734333038343066653033303563346333333332336162666135353065323366313331383939",
+      "password_sha256": "43333228129f3dae820ec2859487f2e73eb08a2e5ac24c5cf0d9e8e313006c01",
+      "preimage_ascii": "bfhcahafffbgf",
+      "preimage_hex": "62666863616861666666626766",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0da8f94e1586afffc1b0ecef317430840fe0305c4c33323abfa550e23f131899",
+      "password_sha256": "3f90701729aaaf7232e231398efe0ec79d86718e4fd4997e1e601062ba09a7df",
+      "preimage_ascii": "bfhcahafffbgf",
+      "preimage_hex": "62666863616861666666626766",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0057",
+      "password_expansion": "raw",
+      "password_hex": "6268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "password_sha256": "33ae1e36f3dce65af861a13f53fa2fe3a726fff99c7394a9be90c801f12172e7",
+      "preimage_ascii": "bhefehcbfhcaciehgcbgicaidgdifbabibdbdh",
+      "preimage_hex": "6268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33336165316533366633646365363561663836316131336635336661326665336137323666666639396337333934613962653930633830316631323137326537",
+      "password_sha256": "c28788c26e87b63e40a7f3daf4a75fc04b8067728a5461217a80b17ab8a5ee29",
+      "preimage_ascii": "bhefehcbfhcaciehgcbgicaidgdifbabibdbdh",
+      "preimage_hex": "6268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "33ae1e36f3dce65af861a13f53fa2fe3a726fff99c7394a9be90c801f12172e7",
+      "password_sha256": "04005b9959e057fba4b98a9482cfb88fdd8f88d2a79c921d255160799e12ae40",
+      "preimage_ascii": "bhefehcbfhcaciehgcbgicaidgdifbabibdbdh",
+      "preimage_hex": "6268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0060",
+      "password_expansion": "raw",
+      "password_hex": "6362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "password_sha256": "5ff4798ecc6bf9ae2eb40c12ed3d3aa81592415107cbf481e9261ad11cce9798",
+      "preimage_ascii": "cbecaehfbbaeegachahbaeafaihcecebbdhdad",
+      "preimage_hex": "6362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35666634373938656363366266396165326562343063313265643364336161383135393234313531303763626634383165393236316164313163636539373938",
+      "password_sha256": "90502ab63be0e64787ac36320d3c218c6f0d96c151513fb5ebeb8d2a26da030f",
+      "preimage_ascii": "cbecaehfbbaeegachahbaeafaihcecebbdhdad",
+      "preimage_hex": "6362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5ff4798ecc6bf9ae2eb40c12ed3d3aa81592415107cbf481e9261ad11cce9798",
+      "password_sha256": "92fb30bdd5837a8c1b7c46474d3deaf7e822e4017bf17cd1e6d57e3ed16b5929",
+      "preimage_ascii": "cbecaehfbbaeegachahbaeafaihcecebbdhdad",
+      "preimage_hex": "6362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0063",
+      "password_expansion": "raw",
+      "password_hex": "63636161696867626765676168",
+      "password_sha256": "4ba56164e08329ca8cb3ca9a4133ff12e3f18441870b62ed4a9d808d0adab218",
+      "preimage_ascii": "ccaaihgbgegah",
+      "preimage_hex": "63636161696867626765676168",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34626135363136346530383332396361386362336361396134313333666631326533663138343431383730623632656434613964383038643061646162323138",
+      "password_sha256": "f95877146eda527241b427793210fc80de4fe1c51b540a5a1b66c31c1bd99f57",
+      "preimage_ascii": "ccaaihgbgegah",
+      "preimage_hex": "63636161696867626765676168",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4ba56164e08329ca8cb3ca9a4133ff12e3f18441870b62ed4a9d808d0adab218",
+      "password_sha256": "c2cdfa9bb0b6faf3c595dd164914794d50a2345d38cacc3e25570a6a8708e60e",
+      "preimage_ascii": "ccaaihgbgegah",
+      "preimage_hex": "63636161696867626765676168",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0066",
+      "password_expansion": "raw",
+      "password_hex": "63636666626462636263696768",
+      "password_sha256": "c9032226fe32555fd836d04dae90b727f64829b8180d379e95c01e543335d80f",
+      "preimage_ascii": "ccffbdbcbcigh",
+      "preimage_hex": "63636666626462636263696768",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63393033323232366665333235353566643833366430346461653930623732376636343832396238313830643337396539356330316535343333333564383066",
+      "password_sha256": "d0c95565e2c57af421268ca2bbb961344995c41764005627f359838d9baa96e2",
+      "preimage_ascii": "ccffbdbcbcigh",
+      "preimage_hex": "63636666626462636263696768",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c9032226fe32555fd836d04dae90b727f64829b8180d379e95c01e543335d80f",
+      "password_sha256": "e29e6cc31a7aeca63370f49d5217fee0c113dc0c1c6fe3ca99441317f9396598",
+      "preimage_ascii": "ccffbdbcbcigh",
+      "preimage_hex": "63636666626462636263696768",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0069",
+      "password_expansion": "raw",
+      "password_hex": "636366666264626362636967686165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "password_sha256": "71cb6ed2d792fbbeb940665fcd8bec6a49cc5f539f1f00ce60f755565a62e9e5",
+      "preimage_ascii": "ccffbdbcbcighaebdfahbcfdceefecbfchgcechbdbhdhfhedih",
+      "preimage_hex": "636366666264626362636967686165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37316362366564326437393266626265623934303636356663643862656336613439636335663533396631663030636536306637353535363561363265396535",
+      "password_sha256": "f19c64ba53bfb4f929239b022de07318c931a4975088fdab2af27a4a088cdde3",
+      "preimage_ascii": "ccffbdbcbcighaebdfahbcfdceefecbfchgcechbdbhdhfhedih",
+      "preimage_hex": "636366666264626362636967686165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "71cb6ed2d792fbbeb940665fcd8bec6a49cc5f539f1f00ce60f755565a62e9e5",
+      "password_sha256": "4bcb0e2d41c05b3ae8bf47e907b797d0e949ef15d55cba7a94ef9850386fcc14",
+      "preimage_ascii": "ccffbdbcbcighaebdfahbcfdceefecbfchgcechbdbhdhfhedih",
+      "preimage_hex": "636366666264626362636967686165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0072",
+      "password_expansion": "raw",
+      "password_hex": "636366666264626362636967686169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "password_sha256": "b8c85037ec0fc2e9d10232ef452476c47468ea147cda08159fdd5d0aaa80763f",
+      "preimage_ascii": "ccffbdbcbcighaicahcfdiihccehafhfihchdhgfacaciibfbhb",
+      "preimage_hex": "636366666264626362636967686169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62386338353033376563306663326539643130323332656634353234373663343734363865613134376364613038313539666464356430616161383037363366",
+      "password_sha256": "699d79d0f98a44120df6e19084fe343517be54c2a4f6aeba8a0ee9e3a8046dd9",
+      "preimage_ascii": "ccffbdbcbcighaicahcfdiihccehafhfihchdhgfacaciibfbhb",
+      "preimage_hex": "636366666264626362636967686169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b8c85037ec0fc2e9d10232ef452476c47468ea147cda08159fdd5d0aaa80763f",
+      "password_sha256": "0d23927ffa6ff8f92fc0725b2e32129a2c9bc558750d1a66a8dcbf25112875eb",
+      "preimage_ascii": "ccffbdbcbcighaicahcfdiihccehafhfihchdhgfacaciibfbhb",
+      "preimage_hex": "636366666264626362636967686169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0075",
+      "password_expansion": "raw",
+      "password_hex": "6364636269696964626767666162686664686762616166696961696163666364636563686765",
+      "password_sha256": "b9a50772e9dd09354c3896c8e0634b389a6b97fd5b8a9cc0fef2543c2b29afdd",
+      "preimage_ascii": "cdcbiiidbggfabhfdhgbaafiiaiacfcdcechge",
+      "preimage_hex": "6364636269696964626767666162686664686762616166696961696163666364636563686765",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62396135303737326539646430393335346333383936633865303633346233383961366239376664356238613963633066656632353433633262323961666464",
+      "password_sha256": "8231b594f614fb3fe213d5846d27e9b2d44629035ec87a9a680311469d5a7a31",
+      "preimage_ascii": "cdcbiiidbggfabhfdhgbaafiiaiacfcdcechge",
+      "preimage_hex": "6364636269696964626767666162686664686762616166696961696163666364636563686765",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b9a50772e9dd09354c3896c8e0634b389a6b97fd5b8a9cc0fef2543c2b29afdd",
+      "password_sha256": "603e442104d574fb0b05434ba244bdc015371c6ddc61fba9fcde847eacc9fe56",
+      "preimage_ascii": "cdcbiiidbggfabhfdhgbaafiiaiacfcdcechge",
+      "preimage_hex": "6364636269696964626767666162686664686762616166696961696163666364636563686765",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0078",
+      "password_expansion": "raw",
+      "password_hex": "6364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "password_sha256": "34674b0d474c48341f0d0394b1c2459f7940c48bd250382cf7823776ab8eeae3",
+      "preimage_ascii": "cdgdhbbedchbbahebaceaigiagigheaddffadc",
+      "preimage_hex": "6364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33343637346230643437346334383334316630643033393462316332343539663739343063343862643235303338326366373832333737366162386565616533",
+      "password_sha256": "0cb9d29e852eaa75da0b874d1f47ec806ea644d0093b77ff9b06b02cafb8b909",
+      "preimage_ascii": "cdgdhbbedchbbahebaceaigiagigheaddffadc",
+      "preimage_hex": "6364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "34674b0d474c48341f0d0394b1c2459f7940c48bd250382cf7823776ab8eeae3",
+      "password_sha256": "1f49efb6e219df31a65618d03d9d4f51b8d17f60c6fb1ee27d08b04fdf52eea3",
+      "preimage_ascii": "cdgdhbbedchbbahebaceaigiagigheaddffadc",
+      "preimage_hex": "6364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0081",
+      "password_expansion": "raw",
+      "password_hex": "63646863686868696165616864",
+      "password_sha256": "5fd059452aba86a6b64b9b06f82677080264b0e53831e54c1f27f8833720b5ff",
+      "preimage_ascii": "cdhchhhiaeahd",
+      "preimage_hex": "63646863686868696165616864",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35666430353934353261626138366136623634623962303666383236373730383032363462306535333833316535346331663237663838333337323062356666",
+      "password_sha256": "1fc6f1dbc678946890db25d968060ff8730a84785e9447295c5cb6490c14ffa6",
+      "preimage_ascii": "cdhchhhiaeahd",
+      "preimage_hex": "63646863686868696165616864",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5fd059452aba86a6b64b9b06f82677080264b0e53831e54c1f27f8833720b5ff",
+      "password_sha256": "4d1c0303f30e232c73a538ba5053307c967f74975f00d30eb8609d76e150ba09",
+      "preimage_ascii": "cdhchhhiaeahd",
+      "preimage_hex": "63646863686868696165616864",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0084",
+      "password_expansion": "raw",
+      "password_hex": "636468636868686961656168646263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "password_sha256": "3291c8ff683197e330a3ccdda5218641e67d395c4654be43136b7c2843ad3a6d",
+      "preimage_ascii": "cdhchhhiaeahdbcfcgaadcbgaaigdaibdihfhifhfgdicceeicb",
+      "preimage_hex": "636468636868686961656168646263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33323931633866663638333139376533333061336363646461353231383634316536376433393563343635346265343331333662376332383433616433613664",
+      "password_sha256": "3bb1cc012cdad9c6790fd763b1d1b625608115dc565ffde495f95587e5691628",
+      "preimage_ascii": "cdhchhhiaeahdbcfcgaadcbgaaigdaibdihfhifhfgdicceeicb",
+      "preimage_hex": "636468636868686961656168646263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3291c8ff683197e330a3ccdda5218641e67d395c4654be43136b7c2843ad3a6d",
+      "password_sha256": "ba3e73eccb4f6a827a2260aee92fc64b995c334e3db052eebd2b288baa312586",
+      "preimage_ascii": "cdhchhhiaeahdbcfcgaadcbgaaigdaibdihfhifhfgdicceeicb",
+      "preimage_hex": "636468636868686961656168646263666367616164636267616169676461696264696866686966686667646963636565696362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0087",
+      "password_expansion": "raw",
+      "password_hex": "636468636868686961656168646268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "password_sha256": "9ecf5b199cb84f186e944a3846627d7d30fffcbc42d2079be63f3dde81724b42",
+      "preimage_ascii": "cdhchhhiaeahdbhefehcbfhcaciehgcbgicaidgdifbabibdbdh",
+      "preimage_hex": "636468636868686961656168646268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39656366356231393963623834663138366539343461333834363632376437643330666666636263343264323037396265363366336464653831373234623432",
+      "password_sha256": "5a8e7206aa59bdf806903eabad7432f6c67006f897811d8c73a51cf1e5acc0eb",
+      "preimage_ascii": "cdhchhhiaeahdbhefehcbfhcaciehgcbgicaidgdifbabibdbdh",
+      "preimage_hex": "636468636868686961656168646268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9ecf5b199cb84f186e944a3846627d7d30fffcbc42d2079be63f3dde81724b42",
+      "password_sha256": "c465a1a48e6207eccefc6dc98ad48c51c3ed4cfcdfd46cd8c3aed1a1a83b73bb",
+      "preimage_ascii": "cdhchhhiaeahdbhefehcbfhcaciehgcbgicaidgdifbabibdbdh",
+      "preimage_hex": "636468636868686961656168646268656665686362666863616369656867636267696361696467646966626162696264626468",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0090",
+      "password_expansion": "raw",
+      "password_hex": "63666861666265646264646161",
+      "password_sha256": "6211e62ab4513163bb05a32f2023fb8ed6844b4b27dd1982a79a56043fea848d",
+      "preimage_ascii": "cfhafbedbddaa",
+      "preimage_hex": "63666861666265646264646161",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36323131653632616234353133313633626230356133326632303233666238656436383434623462323764643139383261373961353630343366656138343864",
+      "password_sha256": "bd3fb27f4b4b27965aa5593729e1cd750f9b5416675609a5d8512ccfd9bf6b33",
+      "preimage_ascii": "cfhafbedbddaa",
+      "preimage_hex": "63666861666265646264646161",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6211e62ab4513163bb05a32f2023fb8ed6844b4b27dd1982a79a56043fea848d",
+      "password_sha256": "ba485da759cb4b1e914fd28c2544d07f578c3af178ba3dc19158af9746bdbb2b",
+      "preimage_ascii": "cfhafbedbddaa",
+      "preimage_hex": "63666861666265646264646161",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0093",
+      "password_expansion": "raw",
+      "password_hex": "636668616662656462646461616364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "password_sha256": "4946bdfb5db812e271338be67152f16cd8930920ad6d3610d4b05a3425fd6f20",
+      "preimage_ascii": "cfhafbedbddaacdgdhbbedchbbahebaceaigiagigheaddffadc",
+      "preimage_hex": "636668616662656462646461616364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34393436626466623564623831326532373133333862653637313532663136636438393330393230616436643336313064346230356133343235666436663230",
+      "password_sha256": "075e646950279482fc42549c0535dd95a5bcccfe78d44e27d831b2214841dc63",
+      "preimage_ascii": "cfhafbedbddaacdgdhbbedchbbahebaceaigiagigheaddffadc",
+      "preimage_hex": "636668616662656462646461616364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4946bdfb5db812e271338be67152f16cd8930920ad6d3610d4b05a3425fd6f20",
+      "password_sha256": "fe6c403f8ae47866db3f243a04a6e304f24877647ebe99c9339e18440e97d6c6",
+      "preimage_ascii": "cfhafbedbddaacdgdhbbedchbbahebaceaigiagigheaddffadc",
+      "preimage_hex": "636668616662656462646461616364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0096",
+      "password_expansion": "raw",
+      "password_hex": "636668616662656462646461616369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "password_sha256": "6d9d9bb70794d27f8530bba05038e0835571c906262eb4b078d3ad5e23ff8c37",
+      "preimage_ascii": "cfhafbedbddaacifgfidcgidbdafihdchadbaeheagcbcacecei",
+      "preimage_hex": "636668616662656462646461616369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36643964396262373037393464323766383533306262613035303338653038333535373163393036323632656234623037386433616435653233666638633337",
+      "password_sha256": "f9328d4837a777779828137696f96bb3cbe382a05a12b0787469dbf759bf0c39",
+      "preimage_ascii": "cfhafbedbddaacifgfidcgidbdafihdchadbaeheagcbcacecei",
+      "preimage_hex": "636668616662656462646461616369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6d9d9bb70794d27f8530bba05038e0835571c906262eb4b078d3ad5e23ff8c37",
+      "password_sha256": "c864efd101402e4364a2531939035cd8ea1a2173e3564ebfbabf56135052808b",
+      "preimage_ascii": "cfhafbedbddaacifgfidcgidbdafihdchadbaeheagcbcacecei",
+      "preimage_hex": "636668616662656462646461616369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0099",
+      "password_expansion": "raw",
+      "password_hex": "6367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "password_sha256": "4ed39b655e7da6c6eec949b880e16615fefabf9ea763125d1170e7d4e1117dd1",
+      "preimage_ascii": "cgdfhcadehfegghgedheaiegeadfdafahagfba",
+      "preimage_hex": "6367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34656433396236353565376461366336656563393439623838306531363631356665666162663965613736333132356431313730653764346531313137646431",
+      "password_sha256": "7c8754783a4a2c24f95aa7bb7402c99bf7bc383109b52e09e6d82b57f3c6725b",
+      "preimage_ascii": "cgdfhcadehfegghgedheaiegeadfdafahagfba",
+      "preimage_hex": "6367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4ed39b655e7da6c6eec949b880e16615fefabf9ea763125d1170e7d4e1117dd1",
+      "password_sha256": "ad05a9b21c5c5fde251d2ebef6568e33d862945a4e2b14f5d48c277d4af7e8b8",
+      "preimage_ascii": "cgdfhcadehfegghgedheaiegeadfdafahagfba",
+      "preimage_hex": "6367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0102",
+      "password_expansion": "raw",
+      "password_hex": "63676964626962676767636867",
+      "password_sha256": "196835504dd0483da97ca32e55b98cc54d334f13ac54bf6daa8786a2c39a6c4c",
+      "preimage_ascii": "cgidbibgggchg",
+      "preimage_hex": "63676964626962676767636867",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0103",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31393638333535303464643034383364613937636133326535356239386363353464333334663133616335346266366461613837383661326333396136633463",
+      "password_sha256": "1d488a21dc3757008282b45d20b33f81256152fcafc6b8957b2317dd27c7cd28",
+      "preimage_ascii": "cgidbibgggchg",
+      "preimage_hex": "63676964626962676767636867",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0104",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "196835504dd0483da97ca32e55b98cc54d334f13ac54bf6daa8786a2c39a6c4c",
+      "password_sha256": "048f5c49695ca4136c632b64dce1b84ca51218485108b706502fc2fc3d76e721",
+      "preimage_ascii": "cgidbibgggchg",
+      "preimage_hex": "63676964626962676767636867",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0105",
+      "password_expansion": "raw",
+      "password_hex": "6369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "password_sha256": "cb614c1423641becf93b195561706d187d7b038d401d763ff3c00ccef28a8a02",
+      "preimage_ascii": "cifgfidcgidbdafihdchadbaeheagcbcacecei",
+      "preimage_hex": "6369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0106",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63623631346331343233363431626563663933623139353536313730366431383764376230333864343031643736336666336330306363656632386138613032",
+      "password_sha256": "b1647d31588e7dfb1da5dad234fa4f36e2c612a6acce42d6c8595937ef7fe552",
+      "preimage_ascii": "cifgfidcgidbdafihdchadbaeheagcbcacecei",
+      "preimage_hex": "6369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0107",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cb614c1423641becf93b195561706d187d7b038d401d763ff3c00ccef28a8a02",
+      "password_sha256": "a0c8f01e4bce4946212d677c670d61b8bda27d7446bdbf21fbb324ee3f5dd549",
+      "preimage_ascii": "cifgfidcgidbdafihdchadbaeheagcbcacecei",
+      "preimage_hex": "6369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0108",
+      "password_expansion": "raw",
+      "password_hex": "64626769656266696265676663",
+      "password_sha256": "97b9a9c0c70a155f44a1c7ee2181a2ba24b834e790ea3f6d87e84472ce99314c",
+      "preimage_ascii": "dbgiebfibegfc",
+      "preimage_hex": "64626769656266696265676663",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0109",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39376239613963306337306131353566343461316337656532313831613262613234623833346537393065613366366438376538343437326365393933313463",
+      "password_sha256": "cf394dd2e079bf2e2371605b2fd76d2adb34f22f40dbe975dc26265069da10d9",
+      "preimage_ascii": "dbgiebfibegfc",
+      "preimage_hex": "64626769656266696265676663",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0110",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "97b9a9c0c70a155f44a1c7ee2181a2ba24b834e790ea3f6d87e84472ce99314c",
+      "password_sha256": "a6e627838036d0170ad9ef2c1f39229733613b2075f65e30228f6d40b0c09e04",
+      "preimage_ascii": "dbgiebfibegfc",
+      "preimage_hex": "64626769656266696265676663",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0111",
+      "password_expansion": "raw",
+      "password_hex": "646267696562666962656766636165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "password_sha256": "5dcf9d52063df4d241bba5a8cc54063b1bbdba01739664a42759c9e04605ba6b",
+      "preimage_ascii": "dbgiebfibegfcaebdfahbcfdceefecbfchgcechbdbhdhfhedih",
+      "preimage_hex": "646267696562666962656766636165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0112",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35646366396435323036336466346432343162626135613863633534303633623162626462613031373339363634613432373539633965303436303562613662",
+      "password_sha256": "3f0f63724b5b71aa403f63bf0b7864ac6ad3f4bd9d2728ee25bbf263bdfce208",
+      "preimage_ascii": "dbgiebfibegfcaebdfahbcfdceefecbfchgcechbdbhdhfhedih",
+      "preimage_hex": "646267696562666962656766636165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0113",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5dcf9d52063df4d241bba5a8cc54063b1bbdba01739664a42759c9e04605ba6b",
+      "password_sha256": "3bfc84ff0c08797f71cc6bf2ec3196809e7c77aff05915de962f828781da7482",
+      "preimage_ascii": "dbgiebfibegfcaebdfahbcfdceefecbfchgcechbdbhdhfhedih",
+      "preimage_hex": "646267696562666962656766636165626466616862636664636565666563626663686763656368626462686468666865646968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0114",
+      "password_expansion": "raw",
+      "password_hex": "646267696562666962656766636169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "password_sha256": "2d51ff3f908256d202d4a705a430affbea6845f732edd773237f037dbe58d45d",
+      "preimage_ascii": "dbgiebfibegfcaicahcfdiihccehafhfihchdhgfacaciibfbhb",
+      "preimage_hex": "646267696562666962656766636169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0115",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32643531666633663930383235366432303264346137303561343330616666626561363834356637333265646437373332333766303337646265353864343564",
+      "password_sha256": "615af2e34606d8814869170c15496f0c0064ae9a76f438bb38d80f62bdb52c8a",
+      "preimage_ascii": "dbgiebfibegfcaicahcfdiihccehafhfihchdhgfacaciibfbhb",
+      "preimage_hex": "646267696562666962656766636169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0116",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2d51ff3f908256d202d4a705a430affbea6845f732edd773237f037dbe58d45d",
+      "password_sha256": "06f9b27ee4436719fce49605261e549452638147353f7f1779ef4a9d5527fe0b",
+      "preimage_ascii": "dbgiebfibegfcaicahcfdiihccehafhfihchdhgfacaciibfbhb",
+      "preimage_hex": "646267696562666962656766636169636168636664696968636365686166686669686368646867666163616369696266626862",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0117",
+      "password_expansion": "raw",
+      "password_hex": "6463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "password_sha256": "3426500401108939f1f1e87f6b1a0d8fb75d41e18db8148b693fe2267f2e43db",
+      "preimage_ascii": "dcfdbfigccbffhbdibicbfbgbaidfdfcceiebe",
+      "preimage_hex": "6463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0118",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33343236353030343031313038393339663166316538376636623161306438666237356434316531386462383134386236393366653232363766326534336462",
+      "password_sha256": "0b3bd5189ed45a57c7573d6730c56f783ffc63388fb68cf6ccd3b62627784ec7",
+      "preimage_ascii": "dcfdbfigccbffhbdibicbfbgbaidfdfcceiebe",
+      "preimage_hex": "6463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0119",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3426500401108939f1f1e87f6b1a0d8fb75d41e18db8148b693fe2267f2e43db",
+      "password_sha256": "68b07f0b8112a4c4f66c75eb5b8d91c2b1e77c7e37dfdfef8b4ba8b1a8e28066",
+      "preimage_ascii": "dcfdbfigccbffhbdibicbfbgbaidfdfcceiebe",
+      "preimage_hex": "6463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0120",
+      "password_expansion": "raw",
+      "password_hex": "64646262616968636866686269",
+      "password_sha256": "7d102443d85e024670e09c82799ca7011b754c30e84caed0fa4c3fc7018b00ad",
+      "preimage_ascii": "ddbbaihchfhbi",
+      "preimage_hex": "64646262616968636866686269",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0121",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37643130323434336438356530323436373065303963383237393963613730313162373534633330653834636165643066613463336663373031386230306164",
+      "password_sha256": "aae592766450b27d6057d4cd0530c9c71ffed02cc334ec4cf72c9d92f4c582e7",
+      "preimage_ascii": "ddbbaihchfhbi",
+      "preimage_hex": "64646262616968636866686269",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0122",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7d102443d85e024670e09c82799ca7011b754c30e84caed0fa4c3fc7018b00ad",
+      "password_sha256": "0af0249ea73c08e42876cb859d868924c18c3b34758e87c88da10557853d9daf",
+      "preimage_ascii": "ddbbaihchfhbi",
+      "preimage_hex": "64646262616968636866686269",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0123",
+      "password_expansion": "raw",
+      "password_hex": "64646767636563646364616869",
+      "password_sha256": "cd0b185d68ff9721cfaeac3a1c39abbd06d7fc66c458b89536716e0b683e0384",
+      "preimage_ascii": "ddggcecdcdahi",
+      "preimage_hex": "64646767636563646364616869",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0124",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63643062313835643638666639373231636661656163336131633339616262643036643766633636633435386238393533363731366530623638336530333834",
+      "password_sha256": "860490124bf1ff27106c9c4942703f3632e1afef8741a5d4c1d0a4b8f0e77ac9",
+      "preimage_ascii": "ddggcecdcdahi",
+      "preimage_hex": "64646767636563646364616869",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0125",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cd0b185d68ff9721cfaeac3a1c39abbd06d7fc66c458b89536716e0b683e0384",
+      "password_sha256": "2aa814691941d338700446a259a5b0b9eabc06569b555113cdf5946fa01718bb",
+      "preimage_ascii": "ddggcecdcdahi",
+      "preimage_hex": "64646767636563646364616869",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0126",
+      "password_expansion": "raw",
+      "password_hex": "646467676365636463646168696261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "password_sha256": "2c44bc4f091abd9869e695e5edae8ec9973f12e150dac0503ec73f1cd0fe0f63",
+      "preimage_ascii": "ddggcecdcdahibadbidgeaaiddfibgigaidieihgbdbdaacgcic",
+      "preimage_hex": "646467676365636463646168696261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0127",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32633434626334663039316162643938363965363935653565646165386563393937336631326531353064616330353033656337336631636430666530663633",
+      "password_sha256": "c5a7d906d5f0dd4cd7290e5233583c3412ccf86659ef1421b0f96f4d9578888a",
+      "preimage_ascii": "ddggcecdcdahibadbidgeaaiddfibgigaidieihgbdbdaacgcic",
+      "preimage_hex": "646467676365636463646168696261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0128",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2c44bc4f091abd9869e695e5edae8ec9973f12e150dac0503ec73f1cd0fe0f63",
+      "password_sha256": "f7fe1dd65541e4518e94f2ff7369cfee509420b7130d1f2743eeb016fbb2f3f6",
+      "preimage_ascii": "ddggcecdcdahibadbidgeaaiddfibgigaidieihgbdbdaacgcic",
+      "preimage_hex": "646467676365636463646168696261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0129",
+      "password_expansion": "raw",
+      "password_hex": "646467676365636463646168696266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "password_sha256": "ec156bff66b32ec6eb487f71fc5888a2f00784612ceed6f91081f436d9b242e8",
+      "preimage_ascii": "ddggcecdcdahibfcegbicdgedffgfdcgdihdfdicecieigifeai",
+      "preimage_hex": "646467676365636463646168696266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0130",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65633135366266663636623332656336656234383766373166633538383861326630303738343631326365656436663931303831663433366439623234326538",
+      "password_sha256": "7161abcb967dd9923d725a6d683d153ad789b8801e06df32e0c86c736b8bd060",
+      "preimage_ascii": "ddggcecdcdahibfcegbicdgedffgfdcgdihdfdicecieigifeai",
+      "preimage_hex": "646467676365636463646168696266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0131",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ec156bff66b32ec6eb487f71fc5888a2f00784612ceed6f91081f436d9b242e8",
+      "password_sha256": "6264f703e8aaaadd085bff02e651194f41bf5cc37c82e35c91f1ff6370ba987c",
+      "preimage_ascii": "ddggcecdcdahibfcegbicdgedffgfdcgdihdfdicecieigifeai",
+      "preimage_hex": "646467676365636463646168696266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0132",
+      "password_expansion": "raw",
+      "password_hex": "6465646361616165636868676263696765696863626267616162616264676465646664696866",
+      "password_sha256": "fcc138d9dbc04e3463bee7d2fc183307f03e379c7e8214de9417d8b35c017c1e",
+      "preimage_ascii": "dedcaaaechhgbcigeihcbbgaababdgdedfdihf",
+      "preimage_hex": "6465646361616165636868676263696765696863626267616162616264676465646664696866",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0133",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66636331333864396462633034653334363362656537643266633138333330376630336533373963376538323134646539343137643862333563303137633165",
+      "password_sha256": "99bb1931b01c3b32bb43bbe410dbc940d9908b99be6b765be7e667cb3b6e5b0a",
+      "preimage_ascii": "dedcaaaechhgbcigeihcbbgaababdgdedfdihf",
+      "preimage_hex": "6465646361616165636868676263696765696863626267616162616264676465646664696866",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0134",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "fcc138d9dbc04e3463bee7d2fc183307f03e379c7e8214de9417d8b35c017c1e",
+      "password_sha256": "a700d968c1bc7accb02269272f2907b9ef4e697ce2ded2d59265b2d1690a28bc",
+      "preimage_ascii": "dedcaaaechhgbcigeihcbbgaababdgdedfdihf",
+      "preimage_hex": "6465646361616165636868676263696765696863626267616162616264676465646664696866",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0135",
+      "password_expansion": "raw",
+      "password_hex": "64656964696969616266626965",
+      "password_sha256": "e71de6fbff88cf473d42c5d56f6654e7a0c85323eecee6df8605a9a31c1b2dd9",
+      "preimage_ascii": "deidiiiabfbie",
+      "preimage_hex": "64656964696969616266626965",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0136",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65373164653666626666383863663437336434326335643536663636353465376130633835333233656563656536646638363035613961333163316232646439",
+      "password_sha256": "f921cae69654d8c16ecc24ef82c2a489911862b4411a86752ff58782641add60",
+      "preimage_ascii": "deidiiiabfbie",
+      "preimage_hex": "64656964696969616266626965",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0137",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e71de6fbff88cf473d42c5d56f6654e7a0c85323eecee6df8605a9a31c1b2dd9",
+      "password_sha256": "774feea1b364f7f641cbf9e5236371764f2dee098bf5a8474b8222699c78285f",
+      "preimage_ascii": "deidiiiabfbie",
+      "preimage_hex": "64656964696969616266626965",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0138",
+      "password_expansion": "raw",
+      "password_hex": "646569646969696162666269656364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "password_sha256": "03580202f222bfba5b8e30f62d635274d88436816fef12e6a8ee5e975295784d",
+      "preimage_ascii": "deidiiiabfbiecdgdhbbedchbbahebaceaigiagigheaddffadc",
+      "preimage_hex": "646569646969696162666269656364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0139",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30333538303230326632323262666261356238653330663632643633353237346438383433363831366665663132653661386565356539373532393537383464",
+      "password_sha256": "c0b48e770bc4002a96b24f88f8e7124bd1e47cdad060053ee28bc91973ac4b51",
+      "preimage_ascii": "deidiiiabfbiecdgdhbbedchbbahebaceaigiagigheaddffadc",
+      "preimage_hex": "646569646969696162666269656364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0140",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "03580202f222bfba5b8e30f62d635274d88436816fef12e6a8ee5e975295784d",
+      "password_sha256": "2053cabf3056469967565e1a271f609d05c03dd09fc9837a88eafbb048923839",
+      "preimage_ascii": "deidiiiabfbiecdgdhbbedchbbahebaceaigiagigheaddffadc",
+      "preimage_hex": "646569646969696162666269656364676468626265646368626261686562616365616967696167696768656164646666616463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0141",
+      "password_expansion": "raw",
+      "password_hex": "646569646969696162666269656369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "password_sha256": "8c50b4d6f7f79fc3d10326cb09c43015df4292d813682054b3d40ad1b27ccabd",
+      "preimage_ascii": "deidiiiabfbiecifgfidcgidbdafihdchadbaeheagcbcacecei",
+      "preimage_hex": "646569646969696162666269656369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0142",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38633530623464366637663739666333643130333236636230396334333031356466343239326438313336383230353462336434306164316232376363616264",
+      "password_sha256": "2720b3f8928c1d3f0e057ddf05e8e57cf9c0acd3a2c8d0e049f5fd71336c8acf",
+      "preimage_ascii": "deidiiiabfbiecifgfidcgidbdafihdchadbaeheagcbcacecei",
+      "preimage_hex": "646569646969696162666269656369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0143",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8c50b4d6f7f79fc3d10326cb09c43015df4292d813682054b3d40ad1b27ccabd",
+      "password_sha256": "3b59ba96777b4a31b910688e6072f9fb32f6b3d9ee538412f78c34a94acba120",
+      "preimage_ascii": "deidiiiabfbiecifgfidcgidbdafihdchadbaeheagcbcacecei",
+      "preimage_hex": "646569646969696162666269656369666766696463676964626461666968646368616462616568656167636263616365636569",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0144",
+      "password_expansion": "raw",
+      "password_hex": "64686165636163686868646968",
+      "password_sha256": "e2e511de14604c30f2c0f0efcda949df1d6784ed3eca1b6bbb7b4f7695f15014",
+      "preimage_ascii": "dhaecachhhdih",
+      "preimage_hex": "64686165636163686868646968",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0145",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65326535313164653134363034633330663263306630656663646139343964663164363738346564336563613162366262623762346637363935663135303134",
+      "password_sha256": "4a18e173caecf03f973399beea2344e5b5fa7c88aa22735fdc0efe0d44988061",
+      "preimage_ascii": "dhaecachhhdih",
+      "preimage_hex": "64686165636163686868646968",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0146",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e2e511de14604c30f2c0f0efcda949df1d6784ed3eca1b6bbb7b4f7695f15014",
+      "password_sha256": "7d5823fa5abab64a7ffbf1296a2d496c11ba29cca5274cafa6c16b219d720d68",
+      "preimage_ascii": "dhaecachhhdih",
+      "preimage_hex": "64686165636163686868646968",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0147",
+      "password_expansion": "raw",
+      "password_hex": "6468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "password_sha256": "e09b3a9bc98ebf03b4ddd4b633f619c7e70cecaae610d352fe6aa90e7fd99795",
+      "preimage_ascii": "dhegidbefigfhhihfeifbafhfbegebgbibhgcb",
+      "preimage_hex": "6468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0148",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65303962336139626339386562663033623464646434623633336636313963376537306365636161653631306433353266653661613930653766643939373935",
+      "password_sha256": "0bf49e695fd0fa5529af49d582d9247f6e097edb24b4e8f7177e3dc5b638122e",
+      "preimage_ascii": "dhegidbefigfhhihfeifbafhfbegebgbibhgcb",
+      "preimage_hex": "6468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0149",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e09b3a9bc98ebf03b4ddd4b633f619c7e70cecaae610d352fe6aa90e7fd99795",
+      "password_sha256": "1101d9e88867ef79484602085464bc817f16e24aa19100283c2ddf0fcc7d3291",
+      "preimage_ascii": "dhegidbefigfhhihfeifbafhfbegebgbibhgcb",
+      "preimage_hex": "6468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0150",
+      "password_expansion": "raw",
+      "password_hex": "65636861666367616366686764",
+      "password_sha256": "47a453f573c6c18ba11195bccb85d7dd6b631b634b9f294186ced8a809acd780",
+      "preimage_ascii": "echafcgacfhgd",
+      "preimage_hex": "65636861666367616366686764",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0151",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34376134353366353733633663313862613131313935626363623835643764643662363331623633346239663239343138366365643861383039616364373830",
+      "password_sha256": "40e0175a09b64f2549ec6c2e4a6681b02f60eb4f56f8e9b0f6a60ea2cc0dbddf",
+      "preimage_ascii": "echafcgacfhgd",
+      "preimage_hex": "65636861666367616366686764",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0152",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "47a453f573c6c18ba11195bccb85d7dd6b631b634b9f294186ced8a809acd780",
+      "password_sha256": "f9f656804549ba1ef1b6b746ae6679a01ed3ff9a6606d05694c925eac342e991",
+      "preimage_ascii": "echafcgacfhgd",
+      "preimage_hex": "65636861666367616366686764",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0153",
+      "password_expansion": "raw",
+      "password_hex": "656368616663676163666867646261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "password_sha256": "3a6ff1740c2f41db554ed30002e94f11b34c57983c03f2081fd4e522a60c8190",
+      "preimage_ascii": "echafcgacfhgdbadbidgeaaiddfibgigaidieihgbdbdaacgcic",
+      "preimage_hex": "656368616663676163666867646261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0154",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33613666663137343063326634316462353534656433303030326539346631316233346335373938336330336632303831666434653532326136306338313930",
+      "password_sha256": "22b4a47b88006b0f136a767fbda30a9418bcf8734c5ada40c2b251cdb3c835d1",
+      "preimage_ascii": "echafcgacfhgdbadbidgeaaiddfibgigaidieihgbdbdaacgcic",
+      "preimage_hex": "656368616663676163666867646261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0155",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3a6ff1740c2f41db554ed30002e94f11b34c57983c03f2081fd4e522a60c8190",
+      "password_sha256": "299178fe11cff300c4ecbf84d68e239975407ca9767ccfee87a670759355bc8e",
+      "preimage_ascii": "echafcgacfhgdbadbidgeaaiddfibgigaidieihgbdbdaacgcic",
+      "preimage_hex": "656368616663676163666867646261646269646765616169646466696267696761696469656968676264626461616367636963",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0156",
+      "password_expansion": "raw",
+      "password_hex": "656368616663676163666867646266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "password_sha256": "abfc1db288cd6300bd58c63ec74dfa69bae95c72b57b5c855a1798ab11bc9678",
+      "preimage_ascii": "echafcgacfhgdbfcegbicdgedffgfdcgdihdfdicecieigifeai",
+      "preimage_hex": "656368616663676163666867646266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0157",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61626663316462323838636436333030626435386336336563373464666136396261653935633732623537623563383535613137393861623131626339363738",
+      "password_sha256": "dfc35a9cd68b1526b4431bced4b7768ce88bada6e34507ebfdad09158e45d48c",
+      "preimage_ascii": "echafcgacfhgdbfcegbicdgedffgfdcgdihdfdicecieigifeai",
+      "preimage_hex": "656368616663676163666867646266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0158",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "abfc1db288cd6300bd58c63ec74dfa69bae95c72b57b5c855a1798ab11bc9678",
+      "password_sha256": "6d3576367425aa86cd92a208c927378039b122c7ddc7ac0c51fe57d49942a3a0",
+      "preimage_ascii": "echafcgacfhgdbfcegbicdgedffgfdcgdihdfdicecieigifeai",
+      "preimage_hex": "656368616663676163666867646266636567626963646765646666676664636764696864666469636563696569676966656169",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0159",
+      "password_expansion": "raw",
+      "password_hex": "6564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "password_sha256": "2dda1df6d03a2b3c9fc20d47f443deb58cdaaa78660a4da40334c8c122330e1a",
+      "preimage_ascii": "edgecgahddcggiceacadcgchcbaegegddfafcf",
+      "preimage_hex": "6564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0160",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32646461316466366430336132623363396663323064343766343433646562353863646161613738363630613464613430333334633863313232333330653161",
+      "password_sha256": "3d9ad231f793392bef5c54611c26879406defa272cd54cf0c6a53c373408edb2",
+      "preimage_ascii": "edgecgahddcggiceacadcgchcbaegegddfafcf",
+      "preimage_hex": "6564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0161",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2dda1df6d03a2b3c9fc20d47f443deb58cdaaa78660a4da40334c8c122330e1a",
+      "password_sha256": "c25776935cbe8a117429262651e4dcf5513314fbf0ee24a1e63ef8f5a39c2a04",
+      "preimage_ascii": "edgecgahddcggiceacadcgchcbaegegddfafcf",
+      "preimage_hex": "6564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0162",
+      "password_expansion": "raw",
+      "password_hex": "65656363626169646967696361",
+      "password_sha256": "d5cd87e97196b4a58a9f828aebb4a6cd664a69884c2639ed6d61b2d6a2dc3aeb",
+      "preimage_ascii": "eeccbaidigica",
+      "preimage_hex": "65656363626169646967696361",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0163",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64356364383765393731393662346135386139663832386165626234613663643636346136393838346332363339656436643631623264366132646333616562",
+      "password_sha256": "316bfa7b458acff10a7d6672daa7d37d7dfa5a19018c41cc7e83dc1b9c501676",
+      "preimage_ascii": "eeccbaidigica",
+      "preimage_hex": "65656363626169646967696361",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0164",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d5cd87e97196b4a58a9f828aebb4a6cd664a69884c2639ed6d61b2d6a2dc3aeb",
+      "password_sha256": "f3ce6aa936a0576ec9961d65083ec0452b39921cd61c0cc9b4b690c99074064c",
+      "preimage_ascii": "eeccbaidigica",
+      "preimage_hex": "65656363626169646967696361",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0165",
+      "password_expansion": "raw",
+      "password_hex": "6565686569666168656962646768696664666368656967686769666461626368666863616261",
+      "password_sha256": "f212f1a1e672086f59892847366d5703b41d4fcd1f2e1e9da2b80d89a858e92d",
+      "preimage_ascii": "eeheifaheibdghifdfcheighgifdabchfhcaba",
+      "preimage_hex": "6565686569666168656962646768696664666368656967686769666461626368666863616261",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0166",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66323132663161316536373230383666353938393238343733363664353730336234316434666364316632653165396461326238306438396138353865393264",
+      "password_sha256": "53214ccdf445eaf3934cb294edf01c97dd00611eb1a0f31b31bc57e54c80d837",
+      "preimage_ascii": "eeheifaheibdghifdfcheighgifdabchfhcaba",
+      "preimage_hex": "6565686569666168656962646768696664666368656967686769666461626368666863616261",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0167",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f212f1a1e672086f59892847366d5703b41d4fcd1f2e1e9da2b80d89a858e92d",
+      "password_sha256": "d6d72ad0949247cffdfcdd86763ac4c9614ba19109533e2bee905b6bc73a5329",
+      "preimage_ascii": "eeheifaheibdghifdfcheighgifdabchfhcaba",
+      "preimage_hex": "6565686569666168656962646768696664666368656967686769666461626368666863616261",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0168",
+      "password_expansion": "raw",
+      "password_hex": "65656868646664656465626961",
+      "password_sha256": "fa063d56b086e304d61ed764bbc7014d5601089917a2b32b95debc6d17d3c4ce",
+      "preimage_ascii": "eehhdfdedebia",
+      "preimage_hex": "65656868646664656465626961",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0",
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0169",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66613036336435366230383665333034643631656437363462626337303134643536303130383939313761326233326239356465626336643137643363346365",
+      "password_sha256": "405b04f810230f00da9d84c3353a3bca44311a7f805879853f021305c33502c1",
+      "preimage_ascii": "eehhdfdedebia",
+      "preimage_hex": "65656868646664656465626961",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0",
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0170",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "fa063d56b086e304d61ed764bbc7014d5601089917a2b32b95debc6d17d3c4ce",
+      "password_sha256": "78c3a324594ebb5e1ca87fda34c54015d83cf8419244e21318483b747ff5fafd",
+      "preimage_ascii": "eehhdfdedebia",
+      "preimage_hex": "65656868646664656465626961",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0",
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0171",
+      "password_expansion": "raw",
+      "password_hex": "656568686466646564656269616362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "password_sha256": "54d19b91daebc8997df58f15b65e67b96d918ae2b45f089c55b18ecfa44e7cfb",
+      "preimage_ascii": "eehhdfdedebiacbecaehfbbaeegachahbaeafaihcecebbdhdad",
+      "preimage_hex": "656568686466646564656269616362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0172",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35346431396239316461656263383939376466353866313562363565363762393664393138616532623435663038396335356231386563666134346537636662",
+      "password_sha256": "b4ec9d6e67aa79f3dae3efa168605477cc9c83d48b8c15c058f8567f3c229f0f",
+      "preimage_ascii": "eehhdfdedebiacbecaehfbbaeegachahbaeafaihcecebbdhdad",
+      "preimage_hex": "656568686466646564656269616362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0173",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "54d19b91daebc8997df58f15b65e67b96d918ae2b45f089c55b18ecfa44e7cfb",
+      "password_sha256": "004359600d27b2046e7427f03f8265a8d47f54dd800dede59160085cd7bb1fc2",
+      "preimage_ascii": "eehhdfdedebiacbecaehfbbaeegachahbaeafaihcecebbdhdad",
+      "preimage_hex": "656568686466646564656269616362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0174",
+      "password_expansion": "raw",
+      "password_hex": "656568686466646564656269616367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "password_sha256": "ed2beda77205847d456507e3da95add90a7977440a9b3e5508fb02e6a6d17246",
+      "preimage_ascii": "eehhdfdedebiacgdfhcadehfegghgedheaiegeadfdafahagfba",
+      "preimage_hex": "656568686466646564656269616367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0175",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65643262656461373732303538343764343536353037653364613935616464393061373937373434306139623365353530386662303265366136643137323436",
+      "password_sha256": "43c9fe5e962431ce2ab9dcc9005115d587691a5acf038a38bb44e0c6760959f5",
+      "preimage_ascii": "eehhdfdedebiacgdfhcadehfegghgedheaiegeadfdafahagfba",
+      "preimage_hex": "656568686466646564656269616367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0176",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ed2beda77205847d456507e3da95add90a7977440a9b3e5508fb02e6a6d17246",
+      "password_sha256": "8f740378c29f2b8486e05167f30cce8e81f541656c0404f1c42e2dc8ea6a6e92",
+      "preimage_ascii": "eehhdfdedebiacgdfhcadehfegghgedheaiegeadfdafahagfba",
+      "preimage_hex": "656568686466646564656269616367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0177",
+      "password_expansion": "raw",
+      "password_hex": "656568686466646564656269616463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "password_sha256": "cb83b2411d5dea52ae3352696f20b483fcfc08d1f49d8b66fa4eba9adca577ed",
+      "preimage_ascii": "eehhdfdedebiadcfdbfigccbffhbdibicbfbgbaidfdfcceiebe",
+      "preimage_hex": "656568686466646564656269616463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0178",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63623833623234313164356465613532616533333532363936663230623438336663666330386431663439643862363666613465626139616463613537376564",
+      "password_sha256": "5f3a231783d9da1ddc38167930239b3cd7a866ce6d162493775ec4bced7a66a1",
+      "preimage_ascii": "eehhdfdedebiadcfdbfigccbffhbdibicbfbgbaidfdfcceiebe",
+      "preimage_hex": "656568686466646564656269616463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0179",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cb83b2411d5dea52ae3352696f20b483fcfc08d1f49d8b66fa4eba9adca577ed",
+      "password_sha256": "1f88b2cb29430201f7da206f71ff3823f928fc85cc94cc8daee0e8415a57de9a",
+      "preimage_ascii": "eehhdfdedebiadcfdbfigccbffhbdibicbfbgbaidfdfcceiebe",
+      "preimage_hex": "656568686466646564656269616463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0180",
+      "password_expansion": "raw",
+      "password_hex": "656568686466646564656269616468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "password_sha256": "92a27abb6091838755756e1198ac56950d54de6f83bec9da9cfe685124df01df",
+      "preimage_ascii": "eehhdfdedebiadhegidbefigfhhihfeifbafhfbegebgbibhgcb",
+      "preimage_hex": "656568686466646564656269616468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0181",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39326132376162623630393138333837353537353665313139386163353639353064353464653666383362656339646139636665363835313234646630316466",
+      "password_sha256": "404b1db5137766d1b8cb65befe41d3232bac12fd2dadfa63b5dc2a2c0df66913",
+      "preimage_ascii": "eehhdfdedebiadhegidbefigfhhihfeifbafhfbegebgbibhgcb",
+      "preimage_hex": "656568686466646564656269616468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0182",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "92a27abb6091838755756e1198ac56950d54de6f83bec9da9cfe685124df01df",
+      "password_sha256": "4290d5aa67e235e43cc67a71f5b20c1e878aae7952b3d214f069dd643554fb2e",
+      "preimage_ascii": "eehhdfdedebiadhegidbefigfhhihfeifbafhfbegebgbibhgcb",
+      "preimage_hex": "656568686466646564656269616468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0183",
+      "password_expansion": "raw",
+      "password_hex": "65696266646264696969656169",
+      "password_sha256": "e347bd35558f534667a039263ac5558c074ad503c89e30616cd234bb8c2c1089",
+      "preimage_ascii": "eibfdbdiiieai",
+      "preimage_hex": "65696266646264696969656169",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0184",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65333437626433353535386635333436363761303339323633616335353538633037346164353033633839653330363136636432333462623863326331303839",
+      "password_sha256": "c4fd739dbc7d886cfe70595c8e34ae348c469749956251c466a1ac934bc07398",
+      "preimage_ascii": "eibfdbdiiieai",
+      "preimage_hex": "65696266646264696969656169",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0185",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e347bd35558f534667a039263ac5558c074ad503c89e30616cd234bb8c2c1089",
+      "password_sha256": "2763e1813fb0614c87fee6930d5f155421fd589fc0e5987d0772dc365e8c31ac",
+      "preimage_ascii": "eibfdbdiiieai",
+      "preimage_hex": "65696266646264696969656169",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0186",
+      "password_expansion": "raw",
+      "password_hex": "6569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "password_sha256": "2a3d83552cba50dbd68a8cd6913d2977de68d6610c146a847f53c838054238e8",
+      "preimage_ascii": "eifhaecfgahgiiaigfagcbgigcfhfchcacihdc",
+      "preimage_hex": "6569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0187",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32613364383335353263626135306462643638613863643639313364323937376465363864363631306331343661383437663533633833383035343233386538",
+      "password_sha256": "8e5c434b933fb4f7ab4189fc321877e1741a4a8158f29ce55c913ea896771457",
+      "preimage_ascii": "eifhaecfgahgiiaigfagcbgigcfhfchcacihdc",
+      "preimage_hex": "6569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0188",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2a3d83552cba50dbd68a8cd6913d2977de68d6610c146a847f53c838054238e8",
+      "password_sha256": "b296f4741f1d8f2d8e9767b0adf087f198b915efa84d9b5593f0f5ff88ae59dc",
+      "preimage_ascii": "eifhaecfgahgiiaigfagcbgigcfhfchcacihdc",
+      "preimage_hex": "6569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0189",
+      "password_expansion": "raw",
+      "password_hex": "6661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "password_sha256": "d15477ce394c1f1e120f5901cb68f1dc32e58473eba854f2f737b360f280e3e1",
+      "preimage_ascii": "fagibfdghbihaabahgbhdchahdgigdidbdaied",
+      "preimage_hex": "6661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0190",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64313534373763653339346331663165313230663539303163623638663164633332653538343733656261383534663266373337623336306632383065336531",
+      "password_sha256": "e199ab205ed85db0ba42d819963675f40d757b2c419c32138256a5eacade60aa",
+      "preimage_ascii": "fagibfdghbihaabahgbhdchahdgigdidbdaied",
+      "preimage_hex": "6661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0191",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d15477ce394c1f1e120f5901cb68f1dc32e58473eba854f2f737b360f280e3e1",
+      "password_sha256": "b4224de9cace0d066a0a0bfa6613621052301bc3ed8aa37014f2dd14db9b0970",
+      "preimage_ascii": "fagibfdghbihaabahgbhdchahdgigdidbdaied",
+      "preimage_hex": "6661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0192",
+      "password_expansion": "raw",
+      "password_hex": "66646962676468626467696865",
+      "password_sha256": "28f43b4c965f117a274bcdf5a4075d6c7d7242904a14e97c3b09e1497261c447",
+      "preimage_ascii": "fdibgdhbdgihe",
+      "preimage_hex": "66646962676468626467696865",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0",
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0193",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32386634336234633936356631313761323734626364663561343037356436633764373234323930346131346539376333623039653134393732363163343437",
+      "password_sha256": "52972a187ce1d228477f6dfab6c515eb2f68ae140395335cb16f6f1eb77b2940",
+      "preimage_ascii": "fdibgdhbdgihe",
+      "preimage_hex": "66646962676468626467696865",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0",
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0194",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "28f43b4c965f117a274bcdf5a4075d6c7d7242904a14e97c3b09e1497261c447",
+      "password_sha256": "9bb14e0a8c8bc6a436cb69bdd049d3996ea3f62ce8b8c653293eeed4b32171b7",
+      "preimage_ascii": "fdibgdhbdgihe",
+      "preimage_hex": "66646962676468626467696865",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/one-based-i0",
+        "z9-matrix-sum/S91/a1-i0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0195",
+      "password_expansion": "raw",
+      "password_hex": "666469626764686264676968656362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "password_sha256": "0847a097c3ce913da19f109163d85bc4fbe445e68e0a7b1ab12b60c34416eb14",
+      "preimage_ascii": "fdibgdhbdgihecbecaehfbbaeegachahbaeafaihcecebbdhdad",
+      "preimage_hex": "666469626764686264676968656362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0196",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30383437613039376333636539313364613139663130393136336438356263346662653434356536386530613762316162313262363063333434313665623134",
+      "password_sha256": "c49a2b4af605d226a4c1b7a2dbeb2d50a9cb053f5a56cdf51b8a40ebaffcc48c",
+      "preimage_ascii": "fdibgdhbdgihecbecaehfbbaeegachahbaeafaihcecebbdhdad",
+      "preimage_hex": "666469626764686264676968656362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0197",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0847a097c3ce913da19f109163d85bc4fbe445e68e0a7b1ab12b60c34416eb14",
+      "password_sha256": "d0cb7c33a80e421aedfc05d6cc231c7df75659e6a6786ebb890f5007896f8361",
+      "preimage_ascii": "fdibgdhbdgihecbecaehfbbaeegachahbaeafaihcecebbdhdad",
+      "preimage_hex": "666469626764686264676968656362656361656866626261656567616368616862616561666169686365636562626468646164",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0198",
+      "password_expansion": "raw",
+      "password_hex": "666469626764686264676968656367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "password_sha256": "d34c0a316c43815d666628aeb6f1905fd9448439236e30fa9866871e5c4f1d83",
+      "preimage_ascii": "fdibgdhbdgihecgdfhcadehfegghgedheaiegeadfdafahagfba",
+      "preimage_hex": "666469626764686264676968656367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0199",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64333463306133313663343338313564363636363238616562366631393035666439343438343339323336653330666139383636383731653563346631643833",
+      "password_sha256": "a8fdb25bcd39643b55517bb2da1a42bf41f349bb817c64d3121b2d8f74a0ae52",
+      "preimage_ascii": "fdibgdhbdgihecgdfhcadehfegghgedheaiegeadfdafahagfba",
+      "preimage_hex": "666469626764686264676968656367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0200",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d34c0a316c43815d666628aeb6f1905fd9448439236e30fa9866871e5c4f1d83",
+      "password_sha256": "c57bdbecab9e6436920c0f926042e1b7dbe644a9fa9e705ce12739aa3b083275",
+      "preimage_ascii": "fdibgdhbdgihecgdfhcadehfegghgedheaiegeadfdafahagfba",
+      "preimage_hex": "666469626764686264676968656367646668636164656866656767686765646865616965676561646664616661686167666261",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0201",
+      "password_expansion": "raw",
+      "password_hex": "666469626764686264676968656463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "password_sha256": "dc0ab7f60275f4acccc896c0e3e1cadee1a14360287aa6a099d34f172a030e35",
+      "preimage_ascii": "fdibgdhbdgihedcfdbfigccbffhbdibicbfbgbaidfdfcceiebe",
+      "preimage_hex": "666469626764686264676968656463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0202",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64633061623766363032373566346163636363383936633065336531636164656531613134333630323837616136613039396433346631373261303330653335",
+      "password_sha256": "c08149273aa946f4a5c5b86252b0f51c1323bfbc7c8246c2006fe33648bf215e",
+      "preimage_ascii": "fdibgdhbdgihedcfdbfigccbffhbdibicbfbgbaidfdfcceiebe",
+      "preimage_hex": "666469626764686264676968656463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0203",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "dc0ab7f60275f4acccc896c0e3e1cadee1a14360287aa6a099d34f172a030e35",
+      "password_sha256": "7590578cca47b391b44b406e431dcd6a2451af2afbc965c14e9545eded78f80f",
+      "preimage_ascii": "fdibgdhbdgihedcfdbfigccbffhbdibicbfbgbaidfdfcceiebe",
+      "preimage_hex": "666469626764686264676968656463666462666967636362666668626469626963626662676261696466646663636569656265",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0204",
+      "password_expansion": "raw",
+      "password_hex": "666469626764686264676968656468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "password_sha256": "8ee000bda9638eed9a3281b9e30508b936042f57ec69d9f8cb54ccfabfa5f178",
+      "preimage_ascii": "fdibgdhbdgihedhegidbefigfhhihfeifbafhfbegebgbibhgcb",
+      "preimage_hex": "666469626764686264676968656468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0205",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38656530303062646139363338656564396133323831623965333035303862393336303432663537656336396439663863623534636366616266613566313738",
+      "password_sha256": "295d694d6d06565042954efb58430b9f938fbe2e5e14f84559b52ba809a3e401",
+      "preimage_ascii": "fdibgdhbdgihedhegidbefigfhhihfeifbafhfbegebgbibhgcb",
+      "preimage_hex": "666469626764686264676968656468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0206",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8ee000bda9638eed9a3281b9e30508b936042f57ec69d9f8cb54ccfabfa5f178",
+      "password_sha256": "2b6a0cc8a5b1f11e70315066bcde8ada046a4ecc9d046562f19756a50959aa32",
+      "preimage_ascii": "fdibgdhbdgihedhegidbefigfhhihfeifbafhfbegebgbibhgcb",
+      "preimage_hex": "666469626764686264676968656468656769646265666967666868696866656966626166686662656765626762696268676362",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0207",
+      "password_expansion": "raw",
+      "password_hex": "6665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "password_sha256": "298c737736748d9967b7fa580e1cd76fba3d65bb9fd4f459c8a4f1dd3f5f8375",
+      "preimage_ascii": "fehfdhbieedhhadfbdbedhdidcbfhfheegbgdg",
+      "preimage_hex": "6665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0208",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32393863373337373336373438643939363762376661353830653163643736666261336436356262396664346634353963386134663164643366356638333735",
+      "password_sha256": "609733193c21682f3ed487533ded607462e15d77c52c7b5c917b12f992737cc7",
+      "preimage_ascii": "fehfdhbieedhhadfbdbedhdidcbfhfheegbgdg",
+      "preimage_hex": "6665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0209",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "298c737736748d9967b7fa580e1cd76fba3d65bb9fd4f459c8a4f1dd3f5f8375",
+      "password_sha256": "5c4c89cbd9143a577850183f99db91c593009c617d737d09eff339bd367abfbc",
+      "preimage_ascii": "fehfdhbieedhhadfbdbedhdidcbfhfheegbgdg",
+      "preimage_hex": "6665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/15x38/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0210",
+      "password_expansion": "raw",
+      "password_hex": "66666464636261656168616462",
+      "password_sha256": "f5db007d075f97fc71547b59773d6b1ae9e83d40656f2c8d9249853acc96005c",
+      "preimage_ascii": "ffddcbaeahadb",
+      "preimage_hex": "66666464636261656168616462",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0211",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66356462303037643037356639376663373135343762353937373364366231616539653833643430363536663263386439323439383533616363393630303563",
+      "password_sha256": "d9f8ebf3cab9b87a5a3cbe12cb7d4fb4fc6737f0c184453b42101b7c214fc1ac",
+      "preimage_ascii": "ffddcbaeahadb",
+      "preimage_hex": "66666464636261656168616462",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0212",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f5db007d075f97fc71547b59773d6b1ae9e83d40656f2c8d9249853acc96005c",
+      "password_sha256": "75dfbaeb0a917e87025366897b0319fe72780d3dc796ccb35fb74cf63ae5b88b",
+      "preimage_ascii": "ffddcbaeahadb",
+      "preimage_hex": "66666464636261656168616462",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0213",
+      "password_expansion": "raw",
+      "password_hex": "6666696661676269666163656869616765676469666168696861676562636469676964626362",
+      "password_sha256": "883c1201aa338082e6d80702fa4ab862d8edded0685a9dc8f2d137f1ffd5971c",
+      "preimage_ascii": "ffifagbifacehiagegdifahihagebcdigidbcb",
+      "preimage_hex": "6666696661676269666163656869616765676469666168696861676562636469676964626362",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0214",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38383363313230316161333338303832653664383037303266613461623836326438656464656430363835613964633866326431333766316666643539373163",
+      "password_sha256": "ac90e936c24994da197c50f087896be8782a84d3d05ad2da62a11eb2d21d7333",
+      "preimage_ascii": "ffifagbifacehiagegdifahihagebcdigidbcb",
+      "preimage_hex": "6666696661676269666163656869616765676469666168696861676562636469676964626362",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0215",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "883c1201aa338082e6d80702fa4ab862d8edded0685a9dc8f2d137f1ffd5971c",
+      "password_sha256": "478dc2d299c69efe67593a88dace5aeed814c114fed63d49ca0ea3505ebd8fa5",
+      "preimage_ascii": "ffifagbifacehiagegdifahihagebcdigidbcb",
+      "preimage_hex": "6666696661676269666163656869616765676469666168696861676562636469676964626362",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0216",
+      "password_expansion": "raw",
+      "password_hex": "66666969656765666566636162",
+      "password_sha256": "0ac40b119a01114facf2dd8895d77655aa4d92db35f327540f5e2c4fb01949b7",
+      "preimage_ascii": "ffiiegefefcab",
+      "preimage_hex": "66666969656765666566636162",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0217",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30616334306231313961303131313466616366326464383839356437373635356161346439326462333566333237353430663565326334666230313934396237",
+      "password_sha256": "aef21f31802328160463573db589c0c8acff1657b7d08aebfb167d466c951b69",
+      "preimage_ascii": "ffiiegefefcab",
+      "preimage_hex": "66666969656765666566636162",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0218",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0ac40b119a01114facf2dd8895d77655aa4d92db35f327540f5e2c4fb01949b7",
+      "password_sha256": "e9a21c08d445bc997c5d4f7831ee45cbc8925d68c316f0d91bd74214c1e50ef2",
+      "preimage_ascii": "ffiiegefefcab",
+      "preimage_hex": "66666969656765666566636162",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0219",
+      "password_expansion": "raw",
+      "password_hex": "666669696567656665666361626564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "password_sha256": "d3316fb417061288c4689418465b9681cd398ddff9479df1145e991a2b3169b4",
+      "preimage_ascii": "ffiiegefefcabedgecgahddcggiceacadcgchcbaegegddfafcf",
+      "preimage_hex": "666669696567656665666361626564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0220",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64333331366662343137303631323838633436383934313834363562393638316364333938646466663934373964663131343565393931613262333136396234",
+      "password_sha256": "9db5c71196f33de6c4021492fa25bca5c5f282310656e19204759161aa294740",
+      "preimage_ascii": "ffiiegefefcabedgecgahddcggiceacadcgchcbaegegddfafcf",
+      "preimage_hex": "666669696567656665666361626564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0221",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d3316fb417061288c4689418465b9681cd398ddff9479df1145e991a2b3169b4",
+      "password_sha256": "2f749c438695589661e588ea0e6f2f891633037399684fe994e9079f074c35b7",
+      "preimage_ascii": "ffiiegefefcabedgecgahddcggiceacadcgchcbaegegddfafcf",
+      "preimage_hex": "666669696567656665666361626564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0222",
+      "password_expansion": "raw",
+      "password_hex": "666669696567656665666361626569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "password_sha256": "948998557177a2bd6b56e82359b7170420a16740d3b5fc831b7ec9def1d8c5f9",
+      "preimage_ascii": "ffiiegefefcabeifhaecfgahgiiaigfagcbgigcfhfchcacihdc",
+      "preimage_hex": "666669696567656665666361626569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0223",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39343839393835353731373761326264366235366538323335396237313730343230613136373430643362356663383331623765633964656631643863356639",
+      "password_sha256": "816d5ad24f6271d753f8826de136b69e2ae06de69a35e9621d971b221c1316d5",
+      "preimage_ascii": "ffiiegefefcabeifhaecfgahgiiaigfagcbgigcfhfchcacihdc",
+      "preimage_hex": "666669696567656665666361626569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0224",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "948998557177a2bd6b56e82359b7170420a16740d3b5fc831b7ec9def1d8c5f9",
+      "password_sha256": "d83ac94ef198e2bdf91c3067813caef0bf867e1136915f09f4cb0e7584520b2c",
+      "preimage_ascii": "ffiiegefefcabeifhaecfgahgiiaigfagcbgigcfhfchcacihdc",
+      "preimage_hex": "666669696567656665666361626569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0225",
+      "password_expansion": "raw",
+      "password_hex": "67656163686569636568616966",
+      "password_sha256": "050a2198e6503278778ce1591c4388c34d9b321b1d9139a8eb959c874f0e79e7",
+      "preimage_ascii": "geacheicehaif",
+      "preimage_hex": "67656163686569636568616966",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0226",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30353061323139386536353033323738373738636531353931633433383863333464396233323162316439313339613865623935396338373466306537396537",
+      "password_sha256": "7ae07c6f3350200ca29f2a3368e942f0d6853603efd9fc0b74c73deb00f0bc6b",
+      "preimage_ascii": "geacheicehaif",
+      "preimage_hex": "67656163686569636568616966",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0227",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "050a2198e6503278778ce1591c4388c34d9b321b1d9139a8eb959c874f0e79e7",
+      "password_sha256": "f55ce2d477b4ff9b9e7c4f96fedd96516d1417af6df8bb6bcaba5bc2950cb79d",
+      "preimage_ascii": "geacheicehaif",
+      "preimage_hex": "67656163686569636568616966",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0228",
+      "password_expansion": "raw",
+      "password_hex": "676561636865696365686169666564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "password_sha256": "beb54a2701124d0b6aced8f2363f03287965249059cec499037ee1e9a53b86b9",
+      "preimage_ascii": "geacheicehaifedgecgahddcggiceacadcgchcbaegegddfafcf",
+      "preimage_hex": "676561636865696365686169666564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0229",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62656235346132373031313234643062366163656438663233363366303332383739363532343930353963656334393930333765653165396135336238366239",
+      "password_sha256": "09ba1bb022784d1582b387bf28068dc4e7cf9e59801e25eb1aa2c07968cf37fb",
+      "preimage_ascii": "geacheicehaifedgecgahddcggiceacadcgchcbaegegddfafcf",
+      "preimage_hex": "676561636865696365686169666564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0230",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "beb54a2701124d0b6aced8f2363f03287965249059cec499037ee1e9a53b86b9",
+      "password_sha256": "cdf2ac93e606747048d0233a529e808b9ebc96861d0ad54f89700cd119e4b957",
+      "preimage_ascii": "geacheicehaifedgecgahddcggiceacadcgchcbaegegddfafcf",
+      "preimage_hex": "676561636865696365686169666564676563676168646463676769636561636164636763686362616567656764646661666366",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0231",
+      "password_expansion": "raw",
+      "password_hex": "676561636865696365686169666569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "password_sha256": "16af5001ae05ee7c537c0015f9825be1c2bb6a4243b383804ced400e3278fd53",
+      "preimage_ascii": "geacheicehaifeifhaecfgahgiiaigfagcbgigcfhfchcacihdc",
+      "preimage_hex": "676561636865696365686169666569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0232",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31366166353030316165303565653763353337633030313566393832356265316332626236613432343362333833383034636564343030653332373866643533",
+      "password_sha256": "ea93850af3c39f4ed14805ff42618f9159f76abe6405e1be9100d29f6678ce1a",
+      "preimage_ascii": "geacheicehaifeifhaecfgahgiiaigfagcbgigcfhfchcacihdc",
+      "preimage_hex": "676561636865696365686169666569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0233",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "16af5001ae05ee7c537c0015f9825be1c2bb6a4243b383804ced400e3278fd53",
+      "password_sha256": "b23eed1852ee7548029b2f35123b2cd8e4197b1178087f4621ab481aedac953a",
+      "preimage_ascii": "geacheicehaifeifhaecfgahgiiaigfagcbgigcfhfchcacihdc",
+      "preimage_hex": "676561636865696365686169666569666861656366676168676969616967666167636267696763666866636863616369686463",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a0z25-mod9/zero-based-a0",
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0234",
+      "password_expansion": "raw",
+      "password_hex": "67676161666866676667646263",
+      "password_sha256": "c7b5e397167ac5971d7a05f326b1fc2608d2f4a19a71d43875697ba3e960d271",
+      "preimage_ascii": "ggaafhfgfgdbc",
+      "preimage_hex": "67676161666866676667646263",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0235",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63376235653339373136376163353937316437613035663332366231666332363038643266346131396137316434333837353639376261336539363064323731",
+      "password_sha256": "2ddf5d0b3e225486a298c7ad064d55455c3127322bedea6daf84cfbc6dc15a96",
+      "preimage_ascii": "ggaafhfgfgdbc",
+      "preimage_hex": "67676161666866676667646263",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0236",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c7b5e397167ac5971d7a05f326b1fc2608d2f4a19a71d43875697ba3e960d271",
+      "password_sha256": "06ead81429e97dc9bd21643a560ad9cd99be804ba8c1cb05c25580548d4e23ef",
+      "preimage_ascii": "ggaafhfgfgdbc",
+      "preimage_hex": "67676161666866676667646263",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/13x7/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0237",
+      "password_expansion": "raw",
+      "password_hex": "676761616668666766676462636661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "password_sha256": "34ade7c9dc9e7ef7c02f5918b02955c06dc6279604087f381f63b8de899c4d2f",
+      "preimage_ascii": "ggaafhfgfgdbcfagibfdghbihaabahgbhdchahdgigdidbdaied",
+      "preimage_hex": "676761616668666766676462636661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0238",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33346164653763396463396537656637633032663539313862303239353563303664633632373936303430383766333831663633623864653839396334643266",
+      "password_sha256": "9b27833c9497797e0ba11e368e8844c65edbb461bb33943ff800ec33ab8472f0",
+      "preimage_ascii": "ggaafhfgfgdbcfagibfdghbihaabahgbhdchahdgigdidbdaied",
+      "preimage_hex": "676761616668666766676462636661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0239",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "34ade7c9dc9e7ef7c02f5918b02955c06dc6279604087f381f63b8de899c4d2f",
+      "password_sha256": "dc55e0e633b08dafb1500f17a47c97389160a7637b43d17b4d13042d27d96d83",
+      "preimage_ascii": "ggaafhfgfgdbcfagibfdghbihaabahgbhdchahdgigdidbdaied",
+      "preimage_hex": "676761616668666766676462636661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0240",
+      "password_expansion": "raw",
+      "password_hex": "676761616668666766676462636665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "password_sha256": "93ebd42328606122f8d9f49a075d8f92c34a18a7aaf885fc6d6044bb4f6eee86",
+      "preimage_ascii": "ggaafhfgfgdbcfehfdhbieedhhadfbdbedhdidcbfhfheegbgdg",
+      "preimage_hex": "676761616668666766676462636665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0241",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39336562643432333238363036313232663864396634396130373564386639326333346131386137616166383835666336643630343462623466366565653836",
+      "password_sha256": "1ba118e7a89447c21e988588cdd0c081604aa7b0a16fc5f7d5aaa02ede117026",
+      "preimage_ascii": "ggaafhfgfgdbcfehfdhbieedhhadfbdbedhdidcbfhfheegbgdg",
+      "preimage_hex": "676761616668666766676462636665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0242",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "93ebd42328606122f8d9f49a075d8f92c34a18a7aaf885fc6d6044bb4f6eee86",
+      "password_sha256": "af0fd747d3841f468c62828df75cab38dc05600350719e25abf56c740ba7ea63",
+      "preimage_ascii": "ggaafhfgfgdbcfehfdhbieedhhadfbdbedhdidcbfhfheegbgdg",
+      "preimage_hex": "676761616668666766676462636665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/13x7+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0243",
+      "password_expansion": "raw",
+      "password_hex": "6865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "password_sha256": "297531275fd28a064f4c9115959b2db6946d6305d99465c6867a72c7d9610b71",
+      "preimage_ascii": "hebcbeihceigifbedihdfigfadafchghfhahae",
+      "preimage_hex": "6865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0244",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32393735333132373566643238613036346634633931313539353962326462363934366436333035643939343635633638363761373263376439363130623731",
+      "password_sha256": "f5a1f0952aee0f09f4e1aa412560876781d016c798f3c60909d23dc039b06bd5",
+      "preimage_ascii": "hebcbeihceigifbedihdfigfadafchghfhahae",
+      "preimage_hex": "6865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0245",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "297531275fd28a064f4c9115959b2db6946d6305d99465c6867a72c7d9610b71",
+      "password_sha256": "5aed01ef50b374db53f36884da60956b5f852db27e7702ee830e5636afe19322",
+      "preimage_ascii": "hebcbeihceigifbedihdfigfadafchghfhahae",
+      "preimage_hex": "6865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0246",
+      "password_expansion": "raw",
+      "password_hex": "68666264696661646669626167",
+      "password_sha256": "63cf7fc58c5ebb794094afa90ec5aab70b81f8124e1c94a9fab5cb6b3cafc8c4",
+      "preimage_ascii": "hfbdifadfibag",
+      "preimage_hex": "68666264696661646669626167",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0247",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36336366376663353863356562623739343039346166613930656335616162373062383166383132346531633934613966616235636236623363616663386334",
+      "password_sha256": "afc1584ba21a2f4d0e1ea80f264e96198f50e28b39aa9cf221604b0200c2ca24",
+      "preimage_ascii": "hfbdifadfibag",
+      "preimage_hex": "68666264696661646669626167",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0248",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "63cf7fc58c5ebb794094afa90ec5aab70b81f8124e1c94a9fab5cb6b3cafc8c4",
+      "password_sha256": "cba079db6ce0e2ed8e94f9ecee0592b29cd7b436e4acdf8f57e33bd7c16887e7",
+      "preimage_ascii": "hfbdifadfibag",
+      "preimage_hex": "68666264696661646669626167",
+      "provenance": [
+        "z9-matrix-sum/S91/a0/7x13/aligned/sum-with-adjacent-key/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0249",
+      "password_expansion": "raw",
+      "password_hex": "686662646966616466696261676661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "password_sha256": "bafcd2e9601114175fb0d217c0dd6f407aa8f175f3225f1346c3ca6adc1fceff",
+      "preimage_ascii": "hfbdifadfibagfagibfdghbihaabahgbhdchahdgigdidbdaied",
+      "preimage_hex": "686662646966616466696261676661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0250",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62616663643265393630313131343137356662306432313763306464366634303761613866313735663332323566313334366333636136616463316663656666",
+      "password_sha256": "be402324cf9cac223259b3441feb5a183a08d9d86ad999651061f157ad00765b",
+      "preimage_ascii": "hfbdifadfibagfagibfdghbihaabahgbhdchahdgigdidbdaied",
+      "preimage_hex": "686662646966616466696261676661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0251",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bafcd2e9601114175fb0d217c0dd6f407aa8f175f3225f1346c3ca6adc1fceff",
+      "password_sha256": "b889831becbf74d2f822272c774e5aa99e2426660a2f8111332f5062c4a96246",
+      "preimage_ascii": "hfbdifadfibagfagibfdghbihaabahgbhdchahdgigdidbdaied",
+      "preimage_hex": "686662646966616466696261676661676962666467686269686161626168676268646368616864676967646964626461696564",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+38x15/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0252",
+      "password_expansion": "raw",
+      "password_hex": "686662646966616466696261676665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "password_sha256": "c5d8712447761533bc633ec44aaf9864c7f3f15679d401f1534186fb992c7c4e",
+      "preimage_ascii": "hfbdifadfibagfehfdhbieedhhadfbdbedhdidcbfhfheegbgdg",
+      "preimage_hex": "686662646966616466696261676665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0253",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63356438373132343437373631353333626336333365633434616166393836346337663366313536373964343031663135333431383666623939326337633465",
+      "password_sha256": "e64becd3cf022258c3adfe8e23b842972b0799c6a0c1765847a80291b8a47d97",
+      "preimage_ascii": "hfbdifadfibagfehfdhbieedhhadfbdbedhdidcbfhfheegbgdg",
+      "preimage_hex": "686662646966616466696261676665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0254",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c5d8712447761533bc633ec44aaf9864c7f3f15679d401f1534186fb992c7c4e",
+      "password_sha256": "43e9c845988cbf8a513db124e2da40f4838fd60f5f12de9bc22565768cf13020",
+      "preimage_ascii": "hfbdifadfibagfehfdhbieedhhadfbdbedhdidcbfhfheegbgdg",
+      "preimage_hex": "686662646966616466696261676665686664686269656564686861646662646265646864696463626668666865656762676467",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a0/7x13+15x38/sum-with-adjacent-keys/a1z26-mod9/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0255",
+      "password_expansion": "raw",
+      "password_hex": "6868626863696462686365676162636967696662686361626163696764656662696266646564",
+      "password_sha256": "aebd93af9a94ae7df95d0d43be2a0052bd94e46519012229cc8d2a04e221cfa8",
+      "preimage_ascii": "hhbhcidbhcegabcigifbhcabacigdefbibfded",
+      "preimage_hex": "6868626863696462686365676162636967696662686361626163696764656662696266646564",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0256",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61656264393361663961393461653764663935643064343362653261303035326264393465343635313930313232323963633864326130346532323163666138",
+      "password_sha256": "4d3e67cd9573cb1b029770132906a639ea37dfcd5a371747afd2c1549b077367",
+      "preimage_ascii": "hhbhcidbhcegabcigifbhcabacigdefbibfded",
+      "preimage_hex": "6868626863696462686365676162636967696662686361626163696764656662696266646564",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0257",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "aebd93af9a94ae7df95d0d43be2a0052bd94e46519012229cc8d2a04e221cfa8",
+      "password_sha256": "c67c3f4c1d4253aa99d1105a145de24270aa8d51533cf7563a3dbf84b02cabd0",
+      "preimage_ascii": "hhbhcidbhcegabcigifbhcabacigdefbibfded",
+      "preimage_hex": "6868626863696462686365676162636967696662686361626163696764656662696266646564",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0258",
+      "password_expansion": "raw",
+      "password_hex": "6869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "password_sha256": "8801109d53118b6300c079500d0ebef33dec3787f12e07da637cc02023c0aa55",
+      "preimage_ascii": "hicidggaihdggfdagfhafecefcecdafiibbfih",
+      "preimage_hex": "6869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0259",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38383031313039643533313138623633303063303739353030643065626566333364656333373837663132653037646136333763633032303233633061613535",
+      "password_sha256": "b5a0b3d6ad24599b6f2a15972864a03a5f5f0a3fc1b1c6f65f3a5106ce34a986",
+      "preimage_ascii": "hicidggaihdggfdagfhafecefcecdafiibbfih",
+      "preimage_hex": "6869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0260",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8801109d53118b6300c079500d0ebef33dec3787f12e07da637cc02023c0aa55",
+      "password_sha256": "243d0ab7792605ba73582b5179a1a2d7e214a0c437ca390a72ebbd02a5cb2506",
+      "preimage_ascii": "hicidggaihdggfdagfhafecefcecdafiibbfih",
+      "preimage_hex": "6869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0261",
+      "password_expansion": "raw",
+      "password_hex": "6961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "password_sha256": "7b685509f154ccc6b255c5cfa0947bc7de2a3c2879232da7ff1f2da3cfc500ad",
+      "preimage_ascii": "iadaehhbaiehhgebhgibgfdfgdfdebgaaccgai",
+      "preimage_hex": "6961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0262",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37623638353530396631353463636336623235356335636661303934376263376465326133633238373932333264613766663166326461336366633530306164",
+      "password_sha256": "8b1069672097d2bd13672ffc3ca7a8496b265ad6456779a8381c2d1005fe6e54",
+      "preimage_ascii": "iadaehhbaiehhgebhgibgfdfgdfdebgaaccgai",
+      "preimage_hex": "6961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0263",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7b685509f154ccc6b255c5cfa0947bc7de2a3c2879232da7ff1f2da3cfc500ad",
+      "password_sha256": "eac8c3df8059098569c28bff36b8b1895221b9e8bbf4c2aefc08cfadcf6dc3cf",
+      "preimage_ascii": "iadaehhbaiehhgebhgibgfdfgdfdebgaaccgai",
+      "preimage_hex": "6961646165686862616965686867656268676962676664666764666465626761616363676169",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0264",
+      "password_expansion": "raw",
+      "password_hex": "6961696866666661686464636768656361656468676763666667666769636961696269656462",
+      "password_sha256": "ce55aa864b8f7531b1dcd36c4b220961ba2216661fad3fa143525cbc74523986",
+      "preimage_ascii": "iaihfffahddcghecaedhggcffgfgiciaibiedb",
+      "preimage_hex": "6961696866666661686464636768656361656468676763666667666769636961696269656462",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0265",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63653535616138363462386637353331623164636433366334623232303936316261323231363636316661643366613134333532356362633734353233393836",
+      "password_sha256": "3d88e1fc8b62eb50ed4c8d14642531c63c061947699794cea14418448a0cb916",
+      "preimage_ascii": "iaihfffahddcghecaedhggcffgfgiciaibiedb",
+      "preimage_hex": "6961696866666661686464636768656361656468676763666667666769636961696269656462",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0266",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ce55aa864b8f7531b1dcd36c4b220961ba2216661fad3fa143525cbc74523986",
+      "password_sha256": "39b37a8c8a1f318ade0037337f2a050847215782c64d7095cf99c411027925f2",
+      "preimage_ascii": "iaihfffahddcghecaedhggcffgfgiciaibiedb",
+      "preimage_hex": "6961696866666661686464636768656361656468676763666667666769636961696269656462",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/15x38/aligned/stable-adjacent-key-order/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0267",
+      "password_expansion": "raw",
+      "password_hex": "69636567636862616861616767",
+      "password_sha256": "de5937c2efdfc511bdb62c19841d10bd82e9bb2fedbc8b2189c61f705620b169",
+      "preimage_ascii": "icegchbahaagg",
+      "preimage_hex": "69636567636862616861616767",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0268",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64653539333763326566646663353131626462363263313938343164313062643832653962623266656462633862323138396336316637303536323062313639",
+      "password_sha256": "9b2447c93bb8495a9eafeb302be45fb1bb33cf8dbdc28fed6a09837452f93251",
+      "preimage_ascii": "icegchbahaagg",
+      "preimage_hex": "69636567636862616861616767",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0269",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "de5937c2efdfc511bdb62c19841d10bd82e9bb2fedbc8b2189c61f705620b169",
+      "password_sha256": "c627317436a55b55a5dc03f7afe39ba87560d9f8d2b360309f1c3322a1f62a82",
+      "preimage_ascii": "icegchbahaagg",
+      "preimage_hex": "69636567636862616861616767",
+      "provenance": [
+        "z9-matrix-sum/S91/a1-i0/13x7/aligned/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0270",
+      "password_expansion": "raw",
+      "password_hex": "696365676368626168616167676865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "password_sha256": "6fae1466c40bdbce2c094ae737fdb55b22309c0aaf0ab99e50f4ad9b9302ab6e",
+      "preimage_ascii": "icegchbahaagghebcbeihceigifbedihdfigfadafchghfhahae",
+      "preimage_hex": "696365676368626168616167676865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0271",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36666165313436366334306264626365326330393461653733376664623535623232333039633061616630616239396535306634616439623933303261623665",
+      "password_sha256": "efcd0d037a48b233b4d8d3c77346af0df20b58bbf348491521564630d3b7a153",
+      "preimage_ascii": "icegchbahaagghebcbeihceigifbedihdfigfadafchghfhahae",
+      "preimage_hex": "696365676368626168616167676865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0272",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6fae1466c40bdbce2c094ae737fdb55b22309c0aaf0ab99e50f4ad9b9302ab6e",
+      "password_sha256": "7b3e9711c50578c608b949a19bce6ad069cd6aa0eb1204271f426aa3ef6359bc",
+      "preimage_ascii": "icegchbahaagghebcbeihceigifbedihdfigfadafchghfhahae",
+      "preimage_hex": "696365676368626168616167676865626362656968636569676966626564696864666967666164616663686768666861686165",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+38x15/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0273",
+      "password_expansion": "raw",
+      "password_hex": "696365676368626168616167676869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "password_sha256": "203eb3e60f638402f40e774c2856163d64899c7ee2a451701f1837b2c5f7ad56",
+      "preimage_ascii": "icegchbahaagghicidggaihdggfdagfhafecefcecdafiibbfih",
+      "preimage_hex": "696365676368626168616167676869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0274",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32303365623365363066363338343032663430653737346332383536313633643634383939633765653261343531373031663138333762326335663761643536",
+      "password_sha256": "6fcc2c2f698026198c9f1e105f683114adc8a5f09934c6ddff1775ad15966aff",
+      "preimage_ascii": "icegchbahaagghicidggaihdggfdagfhafecefcecdafiibbfih",
+      "preimage_hex": "696365676368626168616167676869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0275",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "203eb3e60f638402f40e774c2856163d64899c7ee2a451701f1837b2c5f7ad56",
+      "password_sha256": "85077ee7b499cf638a7a508015e37588da44c8d75f548cc21b7b279b1fb8cadc",
+      "preimage_ascii": "icegchbahaagghicidggaihdggfdagfhafecefcecdafiibbfih",
+      "preimage_hex": "696365676368626168616167676869636964676761696864676766646167666861666563656663656364616669696262666968",
+      "provenance": [
+        "z9-matrix-sum/combined-source-order/a1-i0/13x7+15x38/direct/one-based-i0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0276",
+      "password_expansion": "raw",
+      "password_hex": "6966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "password_sha256": "9d5869e05e4547bd761af2c66f34189145576466923903113f5ae950099726f4",
+      "preimage_ascii": "ifcdcfaidfahagcfeaiegahgbebgdihigibibf",
+      "preimage_hex": "6966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0277",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39643538363965303565343534376264373631616632633636663334313839313435353736343636393233393033313133663561653935303039393732366634",
+      "password_sha256": "252f3d1f9cf44b29fb49cb0006ae6eda2149cf4c85fb2cd2e9efe2c00b4cdc4a",
+      "preimage_ascii": "ifcdcfaidfahagcfeaiegahgbebgdihigibibf",
+      "preimage_hex": "6966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0278",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9d5869e05e4547bd761af2c66f34189145576466923903113f5ae950099726f4",
+      "password_sha256": "c93ea3341b638758d9c460b0a46515a5d0f55caade1c6cac90bd83141d2b315e",
+      "preimage_ascii": "ifcdcfaidfahagcfeaiegahgbebgdihigibibf",
+      "preimage_hex": "6966636463666169646661686167636665616965676168676265626764696869676962696266",
+      "provenance": [
+        "z9-matrix-sum/S570/a1-i0/38x15/aligned/direct/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0279",
+      "password_expansion": "raw",
+      "password_hex": "6969636964616563696466686263646168616763696462636264616865666763616367656665",
+      "password_sha256": "dee30fcbb78ee1c33b2095a87aaa03680d67a36997725dd6539272da4c0a9d0e",
+      "preimage_ascii": "iicidaecidfhbcdahagcidbcbdahefgcacgefe",
+      "preimage_hex": "6969636964616563696466686263646168616763696462636264616865666763616367656665",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0280",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64656533306663626237386565316333336232303935613837616161303336383064363761333639393737323564643635333932373264613463306139643065",
+      "password_sha256": "cd28af0d88e3a0043b953328be04a7fc5144256cd02bcd0790b6b493cce499cc",
+      "preimage_ascii": "iicidaecidfhbcdahagcidbcbdahefgcacgefe",
+      "preimage_hex": "6969636964616563696466686263646168616763696462636264616865666763616367656665",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    },
+    {
+      "candidate_id": "v6c0281",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "dee30fcbb78ee1c33b2095a87aaa03680d67a36997725dd6539272da4c0a9d0e",
+      "password_sha256": "aaf17f40f58795426f1ee4b202612a097fa0f3ed9d7c79391932a878e78dc2d6",
+      "preimage_ascii": "iicidaecidfhbcdahagcidbcbdahefgcacgefe",
+      "preimage_hex": "6969636964616563696466686263646168616763696462636264616865666763616367656665",
+      "provenance": [
+        "z9-matrix-sum/S570/a0/38x15/aligned/stable-adjacent-key-order/zero-based-a0"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "forbidden_evidence": [
+      "expected padding length",
+      "plus/minus grammar",
+      "Half/Better Half",
+      "target point or address",
+      "known community plaintext hashes"
+    ],
+    "inherits_v1_rules_verbatim": true,
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v5_manifest_sha256": "b4c553f2faf3b2210e0685950e392a09f062e1d65aef4cf3b58fd61ceffb1d6b",
+  "schema": "salphaseion-source-only-preregistration-v6-z9",
+  "source": {
+    "algebra": "row or column sums in Z/9Z, retaining only the vector aligned to the adjacent decoded field",
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "classification": "structured nine-symbol data; not an ordinary uniform decimal numeral",
+    "dimension_rules": [
+      "len(S91)=91=7x13 and len(matrixsumlist)=13",
+      "len(S570)=570=15x38 and len(lastwordsbeforearchichoice+thispassword)=38"
+    ],
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

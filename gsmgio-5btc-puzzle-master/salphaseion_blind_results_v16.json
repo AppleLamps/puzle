@@ -1,0 +1,52 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 738,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "7d1159faed85eac1fe42f131348dc048afdbd56c7c3aa5a6172a32ba4866dea4",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v16c088",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "05724d3203b8e5c1428caf84667472c8ab408ce600ab3db69084572591a40c3b",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "c9f80495ee8740ac0bc383c0f56168b460d022b6cd7d82719ca362ce3a3c843b",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v16c101",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "eb471ced8f7b8d66a9071f4494d99fa05440eef54d177df31c40209e0063369b",
+      "plaintext_length": 79,
+      "plaintext_sha256": "475d53d20ad71ba6aa515cb4433a940bb10da6f1e9c87c2a24b29ccc2a98232d",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/xor-seven-sha256"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 2
+}

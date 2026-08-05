@@ -1,0 +1,2972 @@
+{
+  "accepted_natural_order_semantic_results": [],
+  "best_maximum_padding_matching": 9,
+  "best_natural_order_padding_count": 1,
+  "decryptions": 362600,
+  "manifest_sha256": "3f0964be2327514caccc88c73ee88f60b70c9e07ade983ea754b488581c762af",
+  "model_mode_records": [
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 414,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 407,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 401,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-012/nul",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 440,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-012/nul",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 424,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-012/nul",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-012/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 0,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-012/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 389,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 0,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-012/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 388,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 0,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-012/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 387,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-012/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 411,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 408,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 392,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 10,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-021/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 428,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-021/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 410,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-021/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 427,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-021/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 413,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 456,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 411,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 393,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 427,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 429,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 401,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 386,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 396,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-102/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 394,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-102/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 402,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-102/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 389,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-102/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 390,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-102/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 387,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-102/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 378,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-102/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 383,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-102/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 419,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 400,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-102/newline",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 409,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-120/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 406,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-120/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 404,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-120/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 398,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-120/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 393,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 417,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 428,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 436,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 437,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 414,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 413,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 398,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-120/newline",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 411,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 415,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 397,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 10,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 391,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 395,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 388,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 400,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 419,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 414,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 394,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 392,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 442,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 418,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 417,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 395,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-210/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 430,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-210/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 426,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-210/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 423,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-210/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 415,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 423,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 402,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 402,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-210/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 415,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-210/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 399,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-210/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 409,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-210/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 419,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/raw-tokens/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/raw-tokens/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 414,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/raw-tokens/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 385,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/raw-tokens/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 385,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 419,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 448,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 445,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-012/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 437,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-012/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 422,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-012/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 444,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-012/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 436,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-012/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 418,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-012/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 423,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-012/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 424,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-012/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 430,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 408,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 424,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 416,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-021/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 442,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-021/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 446,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-021/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 423,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-021/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 408,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 388,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 414,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 393,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-021/nul",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 404,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 399,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 410,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 402,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 392,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 419,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 378,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 390,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 418,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 429,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 418,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 410,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 416,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-102/nul",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 389,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-102/nul",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 400,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-102/nul",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 401,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-102/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-102/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-102/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 388,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-102/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-102/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 434,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 441,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 437,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 437,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-120/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 398,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-120/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-120/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-120/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 427,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 395,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 426,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-120/nul",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 431,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 387,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 383,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 390,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 418,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 435,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 416,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 395,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 384,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 401,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 423,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 399,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 440,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 408,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 439,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 446,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 417,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 432,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 417,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-210/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-210/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 410,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-210/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 423,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-210/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 432,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 445,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 435,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 422,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 446,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-210/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 417,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-210/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 401,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-210/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-210/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 424,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-bytes/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-bytes/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 424,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-bytes/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "ecb",
+      "model": "sha256/digest-bytes/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 422,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 399,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-012/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 413,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-012/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 411,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-012/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 402,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-012/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-012/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 443,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-012/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 429,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-012/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-012/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 0,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-012/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 393,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 432,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 7,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-012/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 417,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-012/newline",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 419,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-021/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 417,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-021/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 398,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-021/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 395,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-021/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 397,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 393,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 394,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 431,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-021/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 450,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 390,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-021/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 372,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-021/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 365,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 415,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 409,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 395,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-021/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 419,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 397,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 399,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 407,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-102/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-102/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 409,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-102/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 401,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-102/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 431,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-102/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 457,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-102/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 407,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-102/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 414,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-102/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 423,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-102/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 426,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 390,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-102/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 426,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-120/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 422,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-120/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-120/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-120/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 422,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 393,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 404,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 406,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-120/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 435,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 408,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-120/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 412,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 389,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 398,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-120/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 414,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 434,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-201/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-201/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 394,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 434,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 428,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 408,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 2,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-201/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 388,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 443,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 418,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-201/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 400,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 417,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 426,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 8,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 406,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 8,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-201/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 422,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-210/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-210/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 409,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-210/empty",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 425,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-210/empty",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 416,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 1,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 393,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 1,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-210/nul",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 388,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-210/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 421,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-210/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 397,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-210/colon",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 418,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-210/colon",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 399,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 5,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 9,
+      "mode": "cbc-operand-head",
+      "model": "sha256/digest-lowerhex/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 407,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 9,
+      "mode": "cbc-operand-tail",
+      "model": "sha256/digest-lowerhex/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 405,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 9,
+      "mode": "cbc-zero",
+      "model": "sha256/digest-lowerhex/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 419,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 9,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 6,
+      "mode": "ecb",
+      "model": "sha256/digest-lowerhex/order-210/newline",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 440,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 6,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-head",
+      "model": "triple-digest-xor",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 431,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-operand-tail",
+      "model": "triple-digest-xor",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 430,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 2,
+      "mode": "cbc-zero",
+      "model": "triple-digest-xor",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 424,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 3,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 4,
+      "mode": "ecb",
+      "model": "triple-digest-xor",
+      "natural_order_padding_count": 1,
+      "natural_order_printable_byte_count": 424,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-head",
+      "model": "triple-digest-sum-mod-2^256",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 433,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-operand-tail",
+      "model": "triple-digest-sum-mod-2^256",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 420,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 5,
+      "mode": "cbc-zero",
+      "model": "triple-digest-sum-mod-2^256",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 403,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 7,
+      "semantic_edges": []
+    },
+    {
+      "maximum_padding_matching": 3,
+      "mode": "ecb",
+      "model": "triple-digest-sum-mod-2^256",
+      "natural_order_padding_count": 0,
+      "natural_order_printable_byte_count": 426,
+      "natural_order_semantic_count": 0,
+      "padding_edge_count": 4,
+      "semantic_edges": []
+    }
+  ],
+  "schema": "chain4-c7-3-intertwined-password-cipher-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "target_matches": []
+}

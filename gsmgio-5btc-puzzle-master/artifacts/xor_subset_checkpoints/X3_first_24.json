@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETE",
+  "family": "X3",
+  "subset_size": 3,
+  "operations": [
+    "xor",
+    "xor_operand",
+    "add_operand",
+    "subtract_operand"
+  ],
+  "first_block_index": 24,
+  "input_sha256": "5d83291ddc63e8a9cf8bc28f301007248bcaf77adcc430593a7e48ca26fdd3cc",
+  "combination_count": 45,
+  "candidate_count": 180,
+  "zero_scalar_count": 0,
+  "candidate_stream_sha256": "8a1649a12ed14c2699aa88ec47fc062378ba309b10c9806c003ca4a109ababec",
+  "matches": [],
+  "accepted_matches": 0
+}

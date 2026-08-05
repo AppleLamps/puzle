@@ -1,0 +1,1474 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 13824,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "fa463d9dbe18e21dde10d3517a296da5e7418795216bf6ff7d9319255791799a",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c00066",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "4efc822f92b4cb8a51720f315043aa3b1bf7fd81e787eb665f3b1a75494f4e9a",
+      "plaintext_length": 79,
+      "plaintext_sha256": "e11d4a567a6a18f03b54f3992e1c6b0771d56c761e662f53f64e0d6d3d59076c",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/direct/S91/base9-9-as-zero",
+        "lo-shu-matrixsum/symmetry-6/inverse/S91/base9-9-as-zero"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00109",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "842bfc6601937416d9426a1cc4e75d1fe3a6c81b00d197c25de8835bedfad510",
+      "plaintext_length": 79,
+      "plaintext_sha256": "0f63f5ab4072dfd035f3b3b114555f15f03179d1bf04ca2d08af2362e005da9d",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/S91-7x13/column-sums/raw-byte-list",
+        "lo-shu-matrixsum/symmetry-5/inverse/S91-7x13/column-sums/raw-byte-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00138",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "4dc4bd41858d73d8d595d9cebeecdef5552e26a7b6859a335052655f61ef3715",
+      "plaintext_length": 79,
+      "plaintext_sha256": "f8b27bffeee5693c69475c933df9ead076dc1887e182d782a3f2697df716e27e",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/S570/base9-9-as-zero",
+        "lo-shu-matrixsum/symmetry-4/direct/S570/base9-9-as-zero"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c00140",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "bdc1e0b1a99f5d2efa6499184508f7384fd2b3f55cb67ea410a32259232a9105",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "777beb9a9ad2fd2f743298a46aee423cadf8482e2d09646e92d603889e047758",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/S570/base9-9-as-zero",
+        "lo-shu-matrixsum/symmetry-4/direct/S570/base9-9-as-zero"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c00183",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "e7b084e739a7044fc6af647ec379649e5687cea752f044f1688eca9eb15fa803",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "1693c31757d8d9d54f7622876af0a14c5cb4a431c3e7524052064844b9acae6e",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/completed-first-15x13/column-sums/decimal-spaces",
+        "lo-shu-matrixsum/symmetry-5/direct/completed-first-15x13/column-sums/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00202",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "f91b74eb80c9590a2de8dbf74fbb8ee53848b0de212329cad2858d8601b15bb1",
+      "plaintext_length": 79,
+      "plaintext_sha256": "ff6b0093c8de023540ed8ab5a13f62935fc7fe79b3fb22c6d32777aa42550883",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/inverse/S570/digit-string",
+        "lo-shu-matrixsum/symmetry-7/direct/S570/digit-string"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00237",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "b80242ccbf4a902881dcdc275d77b5f0d564bb8cbbbef13276e648d2d8d570e3",
+      "plaintext_length": 79,
+      "plaintext_sha256": "162c7b03640ced15085c9ea7c6d22c3f07f36d96dc0ebdc32c7f08ce30776b76",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/direct/S570-15x38/row-sums/decimal-commas",
+        "lo-shu-matrixsum/symmetry-6/inverse/S570-15x38/row-sums/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00246",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "b1365bb2b2a095d1415a24c068a2a343397226f4bf21241de8d495c2c6a2f94a",
+      "plaintext_length": 79,
+      "plaintext_sha256": "d97a4dfd2e111da51014c4d3b4f616676e912ffd0515a3a55a689dc05899f1a2",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S570-15x38/rows-then-columns/decimal-commas",
+        "lo-shu-matrixsum/symmetry-7/inverse/S570-15x38/rows-then-columns/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c00256",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "d31847414017ca072e26039e8f9f7c0f0988fa9a979a3bc2057e765f858f280b",
+      "plaintext_length": 79,
+      "plaintext_sha256": "6c9cac2d32b23beeb773c7d58954024858ff3ccdc1691df15bed7f34802ba9af",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S570-15x38/row-sums/decimal-concatenated",
+        "lo-shu-matrixsum/symmetry-7/inverse/S570-15x38/row-sums/decimal-concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00268",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "527b3a7b112a15ecb2dbe3c57f2d107956ab6cdae8330d68577204440e3f3723",
+      "plaintext_length": 79,
+      "plaintext_sha256": "7c82f6a5e10fab0107dde55e331d01fb6c510b425821d3035f931fce36bdcf6e",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/direct/S570-15x38/row-sums/decimal-spaces",
+        "lo-shu-matrixsum/symmetry-4/inverse/S570-15x38/row-sums/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00309",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "5255f061755483bafbd651b30e2c097aa8deb033706f6a7c698b5295d9dc0b91",
+      "plaintext_length": 79,
+      "plaintext_sha256": "c927e0bc75fc66c4705497b686ab5bc1646a9927aa7a7029b2ef22d8ae455b69",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/S570-15x38/row-sums/decimal-commas",
+        "lo-shu-matrixsum/symmetry-4/direct/S570-15x38/row-sums/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00327",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "3e4630358012435e055874a913246ec83f296528c820d402f17912f605177edd",
+      "plaintext_length": 79,
+      "plaintext_sha256": "3d00260ced34d229aba665012c5d8a0e31ee697be51a727d4b044e2f85b572ac",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/S570-15x38/row-sums/decimal-concatenated",
+        "lo-shu-matrixsum/symmetry-5/inverse/S570-15x38/row-sums/decimal-concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c00348",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "12fca7740b2e74a0e682ca445a1019c840fa1b4a20adecb3348f47026dfa3997",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "953fc5f0ce68d87dbf8e32f6d25a18a3c407605b563130036815137f5d2b409b",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/S570-15x38/rows-then-columns/decimal-commas",
+        "lo-shu-matrixsum/symmetry-5/direct/S570-15x38/rows-then-columns/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c00463",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "39efe34dc3d388b9a965aac1412c7c54a747863937d9c8277198b01b7962d6f7",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "e71231c8a7558c729d72275f07fd35ff879af529306683cd37f93301a0232f0e",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S91-7x13/rows-then-columns/raw-byte-list",
+        "lo-shu-matrixsum/symmetry-7/inverse/S91-7x13/rows-then-columns/raw-byte-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c00573",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "a180613654b0e9e2b116f2867b4867f03c1f03dc7561df635a032026972cd964",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "40832970f7213fc65cb46c66b665ae8d173d35afcd0236d1fc6ed1e9f338a320",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/completed-first-15x13/column-sums/decimal-commas",
+        "lo-shu-matrixsum/symmetry-7/inverse/completed-first-15x13/column-sums/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00595",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "7245bee71526d935441c036328ec647a77d76326aef4126ff9dc180bbabfb621",
+      "plaintext_length": 79,
+      "plaintext_sha256": "d17bd4ca0f9884b846c273e2dc04cb95e8ba82406e6810e3725659475e9b2866",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/S91-7x13/columns-then-rows/decimal-spaces",
+        "lo-shu-matrixsum/symmetry-5/direct/S91-7x13/columns-then-rows/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c00672",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "057aa263d3f2fca7339b7c295f63a7f2f49dca1200d0c452c8b9c3ad6cd4a3e8",
+      "plaintext_length": 79,
+      "plaintext_sha256": "e721548515903739c3a1433d8301e64bea089d7096c2bfdadcf7d87b01e68b5f",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/S91-7x13/rows-then-columns/decimal-concatenated",
+        "lo-shu-matrixsum/symmetry-5/inverse/S91-7x13/rows-then-columns/decimal-concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00709",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "2da9d12b247c437564286ad06f5ae64e835b040cc67fe4d7ce0f344b51b773d6",
+      "plaintext_length": 79,
+      "plaintext_sha256": "cdb049780d41d5f2b7d086b9bdd0a53c60119531a31df9bd0ff0745251996ea0",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/direct/completed-first-15x13/columns-then-rows/decimal-commas",
+        "lo-shu-matrixsum/symmetry-4/inverse/completed-first-15x13/columns-then-rows/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c00742",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "44cf55415a10dd288d47f2f740f18a18021d94c257e5e64718da65f6089b4608",
+      "plaintext_length": 79,
+      "plaintext_sha256": "327e6e42843e9246d02a7844fcd1248a544afc556a83776fb2a62b9962dadbd6",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/direct/completed-first-15x13/row-sums/decimal-spaces",
+        "lo-shu-matrixsum/symmetry-6/inverse/completed-first-15x13/row-sums/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00818",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "c18f0ef515811dbf527823a5414267ce7dc6c6effb52c325aa97f440291ec70d",
+      "plaintext_length": 79,
+      "plaintext_sha256": "da4ccc69b3f7b96b8f40aed647a8ac3f0a934b6696f9147e32c995ff836730a2",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S91+S570/digit-string",
+        "lo-shu-matrixsum/symmetry-7/inverse/S91+S570/digit-string"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00831",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "88f4a5519a7b3c7be5e0c242c8c4f58eccfcb27aca97407988e8afd7dd3acb8d",
+      "plaintext_length": 79,
+      "plaintext_sha256": "f1f8f8b6f1fb626545a8b983ec5654c0ff9ae3f09842083078419d99718459ba",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S570-15x38/columns-then-rows/decimal-spaces",
+        "lo-shu-matrixsum/symmetry-7/inverse/S570-15x38/columns-then-rows/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c00875",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "911c7d64b4528e7426505c1e19057817c61ec97927c3fcc203b9f660816a6d5a",
+      "plaintext_length": 79,
+      "plaintext_sha256": "b03025df2a03b0edcc45897a7ccab936fab9f01edfbcd20231d68483ab8f0756",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/completed-first-15x13/columns-then-rows/decimal-spaces",
+        "lo-shu-matrixsum/symmetry-5/inverse/completed-first-15x13/columns-then-rows/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00878",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "87e2623efe671c3fa2dc0c5062842a281f10c0a265bad7a2253ada0a7df96580",
+      "plaintext_length": 79,
+      "plaintext_sha256": "d71bb8935f857eb1630ba882cd6dfc05181b842da0b51336b3071d0c0ccb5ce5",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/inverse/S570-15x38/column-sums/decimal-commas",
+        "lo-shu-matrixsum/symmetry-7/direct/S570-15x38/column-sums/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c00889",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "1838689f2977fe87b1dd84ffb285dfbf67067569041db0ea88d1055953c33a3a",
+      "plaintext_length": 79,
+      "plaintext_sha256": "a8cc00573c4a08fce2bf71882747d34667d3fc04915c945fea74aca38c021523",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/completed-first-15x13/column-sums/decimal-commas",
+        "lo-shu-matrixsum/symmetry-5/inverse/completed-first-15x13/column-sums/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c00987",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "c545cb13bfd2f631473e74629c0a469f44d465ad4d43f96118fed68c5c78afea",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "d69d59bf3384dbb9e160f0e8d4b08b1e1b56ecd93a48981c88d0d51094679248",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/inverse/completed-first-15x13/row-sums/decimal-commas",
+        "lo-shu-matrixsum/symmetry-7/direct/completed-first-15x13/row-sums/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01004",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "c51011ed77def09c2e5bb7bc83dfb44d089645567580529e87c92a5e4c282746",
+      "plaintext_length": 79,
+      "plaintext_sha256": "0f4963dfe5b902e799803725cf8fe64085e766c7ba018f8ccf0ba924dbe2b28d",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/inverse/completed-first-15x13/rows-then-columns/decimal-concatenated",
+        "lo-shu-matrixsum/symmetry-7/direct/completed-first-15x13/rows-then-columns/decimal-concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01022",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "38a2b25dd502b83c7260907fa23def7e706daf3adf669867bd292472da6f5032",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "acdf640ab27664a0c50bc4e89c91fbf2b29ac15174a5d02be1775ab72fce4154",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/S570-15x38/columns-then-rows/decimal-commas",
+        "lo-shu-matrixsum/symmetry-5/direct/S570-15x38/columns-then-rows/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01033",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "aba1d68dffe0186c51a65056c135f95ff155a36f3427c431816e00276fc732c0",
+      "plaintext_length": 79,
+      "plaintext_sha256": "b2eff6348d282fc98cb9e56e4e74eb738e15cf432d003df49c5efd0b5fa200b8",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/S570-15x38/column-sums/decimal-concatenated",
+        "lo-shu-matrixsum/symmetry-5/direct/S570-15x38/column-sums/decimal-concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01064",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "c76f1013b96524ae135b342c29c58f0696d79a38c679d871b12173c8bc62ab53",
+      "plaintext_length": 79,
+      "plaintext_sha256": "f5b10bd29065f952b57e47ea190994fe486bcd666bafe0d271d119c966f65b06",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/completed-first-15x13/row-sums/decimal-commas",
+        "lo-shu-matrixsum/symmetry-5/direct/completed-first-15x13/row-sums/decimal-commas"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01092",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "5c1666e5b25ed3cf9b83131771254afc0f4ab92beddb3ceb1299644f9da3c82d",
+      "plaintext_length": 79,
+      "plaintext_sha256": "66f3ffb0ce0b11a3f9d61e7b7d0ef0af0f67905ab828ecb820cf95073720bff8",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S91/decimal-to-hex",
+        "lo-shu-matrixsum/symmetry-7/inverse/S91/decimal-to-hex"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01093",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "60064f52955cb3e88826da8ca16a0b2ccaa729787e6d56ea598ad8bcd38d4b6d",
+      "plaintext_length": 79,
+      "plaintext_sha256": "9c343abc635a5154935116b0b8ba60d8af84f6e1cebbb58eae83a9ea22e04905",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S91/decimal-to-hex",
+        "lo-shu-matrixsum/symmetry-7/inverse/S91/decimal-to-hex"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01094",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "dfe4e99b22ce92b4448441ff1ef70e9c3d8e05f3a864caf2147463193691505f",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "c0c2b27f2505235289417380db7e075eace054a80602de586ff904c8593d47c8",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S91/decimal-to-hex",
+        "lo-shu-matrixsum/symmetry-7/inverse/S91/decimal-to-hex"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01119",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "f89e61f5cb873ec59d4d0993e9181950041d6120946f445d441cbe7d997c8095",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "4d3a1fb153e438e8e0244bc3442953949131331349cda7f88cfd3f21fc425cd9",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/S91-7x13/row-sums/decimal-concatenated",
+        "lo-shu-matrixsum/symmetry-4/direct/S91-7x13/row-sums/decimal-concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01136",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "7d171b8893e47e895c792ad30125c91b896e6a4465a6d93da3f637fa382be1d7",
+      "plaintext_length": 79,
+      "plaintext_sha256": "f52c59f25343ba981de9de9819c23feb493a4ccfefe15d4794c81046f45746d0",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/completed-first-15x13/columns-then-rows/decimal-spaces",
+        "lo-shu-matrixsum/symmetry-4/direct/completed-first-15x13/columns-then-rows/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01147",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "1d66a37d97b1937b82fa3f46def5de02d7139d58b3f3c295fc65a49d2815f10b",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "3efbcc089a0c1356743a8190aa47b3f088d16703751dc9cb93e41530459bf905",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/completed-first-15x13/columns-then-rows/decimal-concatenated",
+        "lo-shu-matrixsum/symmetry-4/direct/completed-first-15x13/columns-then-rows/decimal-concatenated"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01161",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "2f313cda2d0ced404cdf56ff6a147f99e74c76f478b88674d867e472b6912bf3",
+      "plaintext_length": 79,
+      "plaintext_sha256": "93e8446e8f65cff9a552e3a9c041667274056639811126bb17a637eb91a33d96",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/inverse/completed-first-15x13/columns-then-rows/decimal-spaces",
+        "lo-shu-matrixsum/symmetry-6/direct/completed-first-15x13/columns-then-rows/decimal-spaces"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01240",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "1aac38d79f2cbd755dc7dfc14044139b31d4ef4922eff85c84db88bc3c5290e3",
+      "plaintext_length": 79,
+      "plaintext_sha256": "0f34c8e63781fe1eae0793c0b59b50c6ef40ca0a7f05e3e870bed381c4c2627a",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/direct/S91/decimal-to-hex",
+        "lo-shu-matrixsum/symmetry-6/inverse/S91/decimal-to-hex"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01250",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "6c0935ab0d17a2fdff8670eca0f56d60d1828c0eca7d493e36c8d51599104bbe",
+      "plaintext_length": 79,
+      "plaintext_sha256": "1a0099310d4db9b8739332365ba5a649603b6757ab03054b09c268fed0bfbf5a",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/inverse/S570-15x38/columns-then-rows/raw-byte-list",
+        "lo-shu-matrixsum/symmetry-7/direct/S570-15x38/columns-then-rows/raw-byte-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01271",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "45aa8731e4e25c9fb1f6718b434f9e957301ee813e3a6d8729474b67af6c4a05",
+      "plaintext_length": 79,
+      "plaintext_sha256": "8d40ecf4f6baee0a03a49d67f6b3e41df85ad48f6618a4f714c9cc5a578c87da",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/S570-15x38/column-sums/raw-byte-list",
+        "lo-shu-matrixsum/symmetry-4/direct/S570-15x38/column-sums/raw-byte-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01317",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "4b1372b57f0252973d6abf24d9a6cc0a87cce2e6768611ffc8e15d77e3e7d012",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "d2d01d3fdca0004b54dd48b6ab44136ba2de888ac00f17a9a624b39d697dbfc8",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/completed-first-15x13/rows-then-columns/raw-byte-list",
+        "lo-shu-matrixsum/symmetry-5/direct/completed-first-15x13/rows-then-columns/raw-byte-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01365",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "44e67f2d18e3cae3b83b2ec45d89a5436bedf11aac39883884d3484c14ee539d",
+      "plaintext_length": 79,
+      "plaintext_sha256": "5943a76018f9de9857b50dfc1340527fcf84b809a6a41d17d57964340d8a49e5",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/S570-15x38/rows-then-columns/compact-json",
+        "lo-shu-matrixsum/symmetry-4/direct/S570-15x38/rows-then-columns/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01403",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "9efb1ad31aaa16743247a09c75e7083826a9269ad6efea4410475996910c0745",
+      "plaintext_length": 79,
+      "plaintext_sha256": "4136856b11776dd717ae99777dba8af06f16b136fac9709662e60f6654972798",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/direct/S91-7x13/columns-then-rows/compact-json",
+        "lo-shu-matrixsum/symmetry-6/inverse/S91-7x13/columns-then-rows/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01424",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "78bfde89aa79c23601e4555cd50a59b48349d07a80b932ab7b3f510bd0e14c03",
+      "plaintext_length": 79,
+      "plaintext_sha256": "63b883d038c51432f9ca341130a5f541f27581c101936848b82cb5bc2b456b7c",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/inverse/S91-7x13/column-sums/compact-json",
+        "lo-shu-matrixsum/symmetry-6/direct/S91-7x13/column-sums/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01443",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "c14238afd619be5679f8ef4923fb3bd60218f765e13f5f30b992600d9d7b20cb",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "caf4177ed47848d6cc3160673e2b0e4ad6ca47f8f8765ad6d709bd82c8cc40a9",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/completed-first-15x13/columns-then-rows/compact-json",
+        "lo-shu-matrixsum/symmetry-7/inverse/completed-first-15x13/columns-then-rows/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01446",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "fc24941ec825bdfa8c11cbfffbc0766a078fae3e45c16c06da0b90e5d739f851",
+      "plaintext_length": 79,
+      "plaintext_sha256": "a7081833d56d1bec7b9408172609eeeec4b075fb4a080dfa4320f9d04876cf4a",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/completed-first-15x13/column-sums/compact-json",
+        "lo-shu-matrixsum/symmetry-7/inverse/completed-first-15x13/column-sums/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01451",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "43ade8dbe545db2c27c385eec0f367d3d77c56b94a680551785acb1d0407f814",
+      "plaintext_length": 79,
+      "plaintext_sha256": "2efbe4b4cfc4c8989f76ec248ce5e2d5c12ca9226c021d3e5ce45fee21ee4de6",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/S91-7x13/columns-then-rows/compact-json",
+        "lo-shu-matrixsum/symmetry-5/direct/S91-7x13/columns-then-rows/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01467",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "488f7326f634d4877986ee1cd51e4685909f600b3fb01bc522521288df1708cd",
+      "plaintext_length": 79,
+      "plaintext_sha256": "1ff08fdeac0c39e85cc855c2d8b958c45dce1c3383c22a5cff9d67b2eae7db06",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/S91-7x13/rows-then-columns/compact-json",
+        "lo-shu-matrixsum/symmetry-5/inverse/S91-7x13/rows-then-columns/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01501",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "4ed1c62aee1762d64399f3ced1a7f5e7f0298442465a3aea3fa70329fdb5833f",
+      "plaintext_length": 79,
+      "plaintext_sha256": "cbb18ffe704de0ce4f398c4b9ffacd7b57cf216ee6050a201dbde9a86fc5d7ee",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/direct/S91-7x13/row-sums/compact-json",
+        "lo-shu-matrixsum/symmetry-6/inverse/S91-7x13/row-sums/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01504",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "76e84819e87c14f5ae58a57a99455939064aef8a0b2e28851377a797c8955786",
+      "plaintext_length": 79,
+      "plaintext_sha256": "dcef65d45c27f123d7a549029dd0f21ffcf1e55b4891d340a3bf21c60406ea04",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/inverse/S91-7x13/rows-then-columns/compact-json",
+        "lo-shu-matrixsum/symmetry-6/direct/S91-7x13/rows-then-columns/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01562",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "e7a74998eaf1920e610e4b35c1ed7eb71ef4392f8bf3f06577e66061a0200b4b",
+      "plaintext_length": 79,
+      "plaintext_sha256": "39a0f924f3cba9fd9907359177d9a4a8dd8ae90fd3c4bc181f422ab2837b45b7",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/S570-15x38/column-sums/compact-json",
+        "lo-shu-matrixsum/symmetry-5/inverse/S570-15x38/column-sums/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01595",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "5821cdc3095cfd3e6b5c81223db3ffdc1876151f1a47f21163302b5225f513a8",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "ba1812d180eb5a786edf0ea28ac74e6b38968ba5219dfeb51491aea7a870aca3",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/completed-first-15x13/row-sums/compact-json",
+        "lo-shu-matrixsum/symmetry-5/direct/completed-first-15x13/row-sums/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01603",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "ba4d163a5f3605a4d23869a632ce6b3ed691c8305830e1cc40d90d4ffe0ef201",
+      "plaintext_length": 79,
+      "plaintext_sha256": "6d060f1459e5ab4bffc502c481ec6799fa96ee10b8339f99a3021c944190d860",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/completed-first-15x13/rows-then-columns/compact-json",
+        "lo-shu-matrixsum/symmetry-4/direct/completed-first-15x13/rows-then-columns/compact-json"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01639",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "afb6e625e71f4bf1ace5d9c319c4832bf68c4de942a0df88b00df4962c1c7152",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "b1649db263e63c7b46c961fde4e740472d0d5adc575d23f43384308ece37e74c",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/direct/completed-first-15x13/column-sums/mod9-symbols",
+        "lo-shu-matrixsum/symmetry-6/inverse/completed-first-15x13/column-sums/mod9-symbols"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01703",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "ee15c110ad5213dd1c0f387e2144318bb74370cee69283a2c4e9794baf0387cd",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "343c18044162c4e9c22ea1ae10760a10c8772af9813dddfa92a76e7068b7ce59",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/S91-7x13/rows-then-columns/mod26-a0",
+        "lo-shu-matrixsum/symmetry-5/inverse/S91-7x13/rows-then-columns/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01735",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "2dfefc1a7d9a6a509d07be9cf89d266e3636f9736555a264e4fb874fb95256cf",
+      "plaintext_length": 79,
+      "plaintext_sha256": "35297b89c4d56275793e95bd2873ebd4130f9eda50c3fa8fa6d39df67a60d481",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/direct/S570-15x38/column-sums/mod9-symbols",
+        "lo-shu-matrixsum/symmetry-4/inverse/S570-15x38/column-sums/mod9-symbols"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c01771",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "35f271dde358e48c8e796bd385bc2f34db1eec87493ae092631872e9ba352a7b",
+      "plaintext_length": 79,
+      "plaintext_sha256": "1afdc0740e92fcece8ee3cde51e0b11c61675dbbeb38c039d2102f4c47372b9a",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S91-7x13/column-sums/mod9-symbols",
+        "lo-shu-matrixsum/symmetry-7/inverse/S91-7x13/column-sums/mod9-symbols"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01775",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "71c622b9e889d2aa5794b50776549816a0a23df13456b4666990121b2feb3974",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "91076302e750f73eb1a1d6c5e583cf2ee67fa0209142c18a9ae3d7f858db220a",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S91-7x13/columns-then-rows/mod9-symbols",
+        "lo-shu-matrixsum/symmetry-7/inverse/S91-7x13/columns-then-rows/mod9-symbols"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01820",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "04b7af0ec81dc2ace3e515cf9a9177af537607b88714df238d34ed7b89556eb8",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "d044e5da23475fbae3d4bcfd93c139ecded8c7136f9fac45bb5e3ef1e9222596",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/S570-15x38/row-sums/mod9-symbols",
+        "lo-shu-matrixsum/symmetry-4/direct/S570-15x38/row-sums/mod9-symbols"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01863",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "c0e4864a5753c18c255e92988482fe80f6ec47b6a13febe3c1d53fe1ece9b3c6",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "5b8268900f6a535ee8ee70c763d2eb21fd520c7273ce98079c7d89e1ad112f98",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/completed-first-15x13/columns-then-rows/raw-byte-list",
+        "lo-shu-matrixsum/symmetry-5/direct/completed-first-15x13/columns-then-rows/raw-byte-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01899",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "89d41961ae87956d499400506303d10ccf0b73962f5709e6588e43a575d5fa9f",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "d5fbb1e856fde32b50da4a4da92167964f901cd62b3ea02aa446c0ac3a6fd745",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/inverse/S91-7x13/rows-then-columns/mod26-a0",
+        "lo-shu-matrixsum/symmetry-4/direct/S91-7x13/rows-then-columns/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01916",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "432e1223dbd55179e6ec967bcf1df7adced298fab6eca54562523edd85f15297",
+      "plaintext_length": 79,
+      "plaintext_sha256": "d12896f1716535d0b4ac9e1a372da9fc8b75bcdaf0121912901e68f51bd1afb0",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/direct/completed-first-15x13/columns-then-rows/mod26-a0",
+        "lo-shu-matrixsum/symmetry-4/inverse/completed-first-15x13/columns-then-rows/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c01954",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "99215290bd7320cc511b09d133485f714152c3f803b0a2cd4e8e242310ae129d",
+      "plaintext_length": 79,
+      "plaintext_sha256": "64f6523e7560313dd4791f25c46965ff3801b2e4492c896413da41ef57a7c321",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/completed-first-15x13/row-sums/mod9-symbols",
+        "lo-shu-matrixsum/symmetry-7/inverse/completed-first-15x13/row-sums/mod9-symbols"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c01989",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "76c6e6cf65b6ab016badd48f61a1446b2c7c1f8c345458fe371b70685e4069c1",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "1df890fdb6ffa32a8a2c4c8290a51b247d6b40915c579d041e0b2e2c51f3d6e8",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/inverse/S570-15x38/row-sums/mod9-symbols",
+        "lo-shu-matrixsum/symmetry-7/direct/S570-15x38/row-sums/mod9-symbols"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c02078",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "b6dc1801d77680ddd9bede074497d9ffa7d25d70fbff8d1d1def75006b88a392",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "d108e5813678f27925756d57eda6a25446c1ac0125fa159209bd0253f690b092",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/inverse/completed-first-15x13/rows-then-columns/mod26-a0",
+        "lo-shu-matrixsum/symmetry-6/direct/completed-first-15x13/rows-then-columns/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c02085",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "f4e24c7f65a075cf205647211590f93d651a0f8ed3f34ebe32a56bd70ac9f224",
+      "plaintext_length": 79,
+      "plaintext_sha256": "b1a5eb4890c21c8a146ea6a7e5b1eeff594c972620d7b18be34f6a79c6cd4c5f",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/inverse/completed-first-15x13/columns-then-rows/mod26-a0",
+        "lo-shu-matrixsum/symmetry-6/direct/completed-first-15x13/columns-then-rows/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c02112",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "2b9fba25c0d170f602db705fba13bb51973f749568ae18f7d5562a46171be5b4",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "1b4edbd147c2b90ed8546247f3120d0bb6ed1268af6894bf0baac3f127b9c47f",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/inverse/S91/base9-9-as-zero",
+        "lo-shu-matrixsum/symmetry-5/direct/S91/base9-9-as-zero"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v27c02121",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "ec4ca382fe5f6b14ac8a4748a574496f8c7a8a9761ec6b808f8cc0864e872bb7",
+      "plaintext_length": 79,
+      "plaintext_sha256": "098553bdf8141ae4751b78409d934cc095e67e926da9dc4e895953b4403ed868",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-0/direct/completed-first-15x13/rows-then-columns/mod26-a0",
+        "lo-shu-matrixsum/symmetry-4/inverse/completed-first-15x13/rows-then-columns/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c02132",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "5c56e39bc4e1ac712801747dc3ba33cefddc4d510ca3165e15ce13358c121448",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "1a73293d11a590a19b98e5d162d97fb5fc78ced34282b0e26d9317a18ad71086",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/completed-first-15x13/columns-then-rows/mod26-a0",
+        "lo-shu-matrixsum/symmetry-5/inverse/completed-first-15x13/columns-then-rows/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c02167",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "8d58412cc91ccac59a03d4778253dc01bde86d9a422b389c06deab1fd58ec80f",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "7ddda9ddf2ff24fd561c2ab05489b016afa89b6021ea0aea7b9ececa97d69536",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/S570-15x38/columns-then-rows/mod26-a0",
+        "lo-shu-matrixsum/symmetry-5/inverse/S570-15x38/columns-then-rows/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c02195",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "faef504e70f15c62145ed39b710e91e650fedddfce01005a47d0b0049861548b",
+      "plaintext_length": 79,
+      "plaintext_sha256": "5561e42be6549edaed2248bf07a965040882d1dbad94d669e39caa8ca849b589",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/direct/S91-7x13/row-sums/mod26-a0",
+        "lo-shu-matrixsum/symmetry-7/inverse/S91-7x13/row-sums/mod26-a0"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c02250",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "e63fe0d1f9fcd8f46df0edda914bdf55de29de9f750aff9ec99c2beb08190497",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "ddc553572b4b9f402402b0cb8aaad96229652641af8de3f0b5c1d08705bb6b6d",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-2/direct/S570-15x38/rows-then-columns/raw-byte-list",
+        "lo-shu-matrixsum/symmetry-6/inverse/S570-15x38/rows-then-columns/raw-byte-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v27c02261",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "46807f32b0b008cedba0b9fc4c0ecda3b54505b5075b99ef83949ed6ee1fa0ac",
+      "plaintext_length": 79,
+      "plaintext_sha256": "6ea2d06c27deb98a8bdde9d54a581eda8a0ab2efc3164d89589eca36b358abb5",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-1/inverse/S570-15x38/row-sums/raw-byte-list",
+        "lo-shu-matrixsum/symmetry-7/direct/S570-15x38/row-sums/raw-byte-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v27c02280",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "5297816e9b3805425590ece602c28e7e96788982b9418f73be06dcb9e07034d6",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "687972f9ebfa16222b5a598aced65e34224b3ef6f02024bf56d20197c98069a7",
+      "provenance": [
+        "lo-shu-matrixsum/symmetry-3/direct/S570-15x38/rows-then-columns/raw-byte-list",
+        "lo-shu-matrixsum/symmetry-5/inverse/S570-15x38/rows-then-columns/raw-byte-list"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 73
+}

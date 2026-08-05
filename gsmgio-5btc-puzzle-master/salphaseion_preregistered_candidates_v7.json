@@ -1,0 +1,1256 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 102,
+  "candidates": [
+    {
+      "candidate_id": "v7c0000",
+      "password_expansion": "raw",
+      "password_hex": "4349414f2042454c4c41",
+      "password_sha256": "5b6a82b087bbe776829c29c334dee1a22cc0791dba21e954500c26c901bc22b8",
+      "preimage_hex": "4349414f2042454c4c41",
+      "preimage_utf8": "CIAO BELLA",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-spaces/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35623661383262303837626265373736383239633239633333346465653161323263633037393164626132316539353435303063323663393031626332326238",
+      "password_sha256": "3eaee9f2894e751457a3b24018e2db739a7478728824c3ee6575f7588908b9bb",
+      "preimage_hex": "4349414f2042454c4c41",
+      "preimage_utf8": "CIAO BELLA",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-spaces/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5b6a82b087bbe776829c29c334dee1a22cc0791dba21e954500c26c901bc22b8",
+      "password_sha256": "6eebc73f29fd49f0f3ae0ae57fd83baaf2ad86690f48635c4acb8707d9dedc9c",
+      "preimage_hex": "4349414f2042454c4c41",
+      "preimage_utf8": "CIAO BELLA",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-spaces/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0003",
+      "password_expansion": "raw",
+      "password_hex": "4349414f2042454c4c41204f",
+      "password_sha256": "7f735131ce9398e2a248d2c3d0186d58ff0beec36e8afcb2f7f9aba6a4aab985",
+      "preimage_hex": "4349414f2042454c4c41204f",
+      "preimage_utf8": "CIAO BELLA O",
+      "provenance": [
+        "authenticated-architect-tail/editorial-spaces/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37663733353133316365393339386532613234386432633364303138366435386666306265656333366538616663623266376639616261366134616162393835",
+      "password_sha256": "2a099be7874a7b2bec689f2e9f6dab8bd7c280308428442980b9113634d92447",
+      "preimage_hex": "4349414f2042454c4c41204f",
+      "preimage_utf8": "CIAO BELLA O",
+      "provenance": [
+        "authenticated-architect-tail/editorial-spaces/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7f735131ce9398e2a248d2c3d0186d58ff0beec36e8afcb2f7f9aba6a4aab985",
+      "password_sha256": "b7dfb9646811f60a0d6151d9312fb189119628a98033e932793aa2e47454cf47",
+      "preimage_hex": "4349414f2042454c4c41204f",
+      "preimage_utf8": "CIAO BELLA O",
+      "provenance": [
+        "authenticated-architect-tail/editorial-spaces/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0006",
+      "password_expansion": "raw",
+      "password_hex": "4349414f42454c4c41",
+      "password_sha256": "94a30d4a2bf72eeaaa8ebe74137c95250cb19323c2f440b4a47cac93b2bb8fad",
+      "preimage_hex": "4349414f42454c4c41",
+      "preimage_utf8": "CIAOBELLA",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-compact/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39346133306434613262663732656561616138656265373431333763393532353063623139333233633266343430623461343763616339336232626238666164",
+      "password_sha256": "787169b892764e540acd4216d0312501e7b748ff3d1447571c016c3d6a52d923",
+      "preimage_hex": "4349414f42454c4c41",
+      "preimage_utf8": "CIAOBELLA",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-compact/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "94a30d4a2bf72eeaaa8ebe74137c95250cb19323c2f440b4a47cac93b2bb8fad",
+      "password_sha256": "8a1af4b6a56819a44ef36ba2bb5dc3e3967f7915e78a0022adf7ca34102d8ddd",
+      "preimage_hex": "4349414f42454c4c41",
+      "preimage_utf8": "CIAOBELLA",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-compact/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0009",
+      "password_expansion": "raw",
+      "password_hex": "4349414f42454c4c414f",
+      "password_sha256": "9b319371677826efd518d3dd978f12c090f812cf3557fcf2b66d227e5613e865",
+      "preimage_hex": "4349414f42454c4c414f",
+      "preimage_utf8": "CIAOBELLAO",
+      "provenance": [
+        "authenticated-architect-tail/exact-compact/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39623331393337313637373832366566643531386433646439373866313263303930663831326366333535376663663262363664323237653536313365383635",
+      "password_sha256": "32a2ff4e8ef0b374614004287f94a3b751d4f765bc4f8c11c8216d5a85039390",
+      "preimage_hex": "4349414f42454c4c414f",
+      "preimage_utf8": "CIAOBELLAO",
+      "provenance": [
+        "authenticated-architect-tail/exact-compact/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9b319371677826efd518d3dd978f12c090f812cf3557fcf2b66d227e5613e865",
+      "password_sha256": "b651f050f8d14842f7cf07bacae38f91deba8005db8472a94bc7f4de7fa8bd4e",
+      "preimage_hex": "4349414f42454c4c414f",
+      "preimage_utf8": "CIAOBELLAO",
+      "provenance": [
+        "authenticated-architect-tail/exact-compact/uppercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0012",
+      "password_expansion": "raw",
+      "password_hex": "45204c41",
+      "password_sha256": "25a4ad9496f80857741c0f2e03a0e8cfc9e5073f31b9047501584e4618b08dfa",
+      "preimage_hex": "45204c41",
+      "preimage_utf8": "E LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32356134616439343936663830383537373431633066326530336130653863666339653530373366333162393034373530313538346534363138623038646661",
+      "password_sha256": "e1669f680c703ee875fa40420376a41c9c808e1dc5f3f5bb1b1f8e07266a1f40",
+      "preimage_hex": "45204c41",
+      "preimage_utf8": "E LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "25a4ad9496f80857741c0f2e03a0e8cfc9e5073f31b9047501584e4618b08dfa",
+      "password_sha256": "a4612963a3c4b46873a3c13613a204dbfc5e3f2a0402432106b5c33e35dacba6",
+      "preimage_hex": "45204c41",
+      "preimage_utf8": "E LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0015",
+      "password_expansion": "raw",
+      "password_hex": "454c41",
+      "password_sha256": "c9609c5e8871d4bcf524d5fca4f587a156f25f3120b418cdf7a5f9289c8da29e",
+      "preimage_hex": "454c41",
+      "preimage_utf8": "ELA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63393630396335653838373164346263663532346435666361346635383761313536663235663331323062343138636466376135663932383963386461323965",
+      "password_sha256": "ba6f83d72f647db028e001da9018c8da61c31f8c62c944a34a5aa195b99c7b86",
+      "preimage_hex": "454c41",
+      "preimage_utf8": "ELA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c9609c5e8871d4bcf524d5fca4f587a156f25f3120b418cdf7a5f9289c8da29e",
+      "password_sha256": "221259f8611a91f85e95da1214d687e5ea2d1b833db22e4ce67fa971366f1c78",
+      "preimage_hex": "454c41",
+      "preimage_utf8": "ELA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0018",
+      "password_expansion": "raw",
+      "password_hex": "494c2050524f424c454d412045204c41",
+      "password_sha256": "c444fb82aebdb96fbf15718b448d9465f3356f13af308343513ed61d13bdede4",
+      "preimage_hex": "494c2050524f424c454d412045204c41",
+      "preimage_utf8": "IL PROBLEMA E LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63343434666238326165626462393666626631353731386234343864393436356633333536663133616633303833343335313365643631643133626465646534",
+      "password_sha256": "ba32a71f7b1792de209eddfe266479fbdc52ad0327591f06adbca517bfb129af",
+      "preimage_hex": "494c2050524f424c454d412045204c41",
+      "preimage_utf8": "IL PROBLEMA E LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c444fb82aebdb96fbf15718b448d9465f3356f13af308343513ed61d13bdede4",
+      "password_sha256": "777a4c963d00e657a219104420ee51f416a344d71b2b799e7da9729f60439dcd",
+      "preimage_hex": "494c2050524f424c454d412045204c41",
+      "preimage_utf8": "IL PROBLEMA E LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0021",
+      "password_expansion": "raw",
+      "password_hex": "494c2050524f424c454d4120c388204c41",
+      "password_sha256": "975152b73864e874cd36eb4bc7e1c008485ad6c1aff7246eb190c4b3871fa022",
+      "preimage_hex": "494c2050524f424c454d4120c388204c41",
+      "preimage_utf8": "IL PROBLEMA \u00c8 LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39373531353262373338363465383734636433366562346263376531633030383438356164366331616666373234366562313930633462333837316661303232",
+      "password_sha256": "af33914cfc78f6d5286b5fdd5a30dbde545e2de793d0e45fa1a9117090deb935",
+      "preimage_hex": "494c2050524f424c454d4120c388204c41",
+      "preimage_utf8": "IL PROBLEMA \u00c8 LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "975152b73864e874cd36eb4bc7e1c008485ad6c1aff7246eb190c4b3871fa022",
+      "password_sha256": "56b3f8cae7c342b05ef47ed7ada599ae1cc62d621dcf9bb326000c15d2789795",
+      "preimage_hex": "494c2050524f424c454d4120c388204c41",
+      "preimage_utf8": "IL PROBLEMA \u00c8 LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0024",
+      "password_expansion": "raw",
+      "password_hex": "494c50524f424c454d41454c41",
+      "password_sha256": "b0e4906c4d6dc5cf69cc7941ec019a05b9a5eba151c5136f8308baf2706b3e1c",
+      "preimage_hex": "494c50524f424c454d41454c41",
+      "preimage_utf8": "ILPROBLEMAELA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62306534393036633464366463356366363963633739343165633031396130356239613565626131353163353133366638333038626166323730366233653163",
+      "password_sha256": "f289cf5eeea4a5c4085476c11373f1ebb48116a2c37dbe950f0c8a3e62182aff",
+      "preimage_hex": "494c50524f424c454d41454c41",
+      "preimage_utf8": "ILPROBLEMAELA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b0e4906c4d6dc5cf69cc7941ec019a05b9a5eba151c5136f8308baf2706b3e1c",
+      "password_sha256": "67d9c25473cd9e72dbd90e29ec1d251e761d6cb34642f569ed66950f62be66b6",
+      "preimage_hex": "494c50524f424c454d41454c41",
+      "preimage_utf8": "ILPROBLEMAELA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0027",
+      "password_expansion": "raw",
+      "password_hex": "494c50524f424c454d41c3884c41",
+      "password_sha256": "a9b3697b54e8ec8649a6a98001c4717b5ef3e94846dc629db4248e88260da653",
+      "preimage_hex": "494c50524f424c454d41c3884c41",
+      "preimage_utf8": "ILPROBLEMA\u00c8LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61396233363937623534653865633836343961366139383030316334373137623565663365393438343664633632396462343234386538383236306461363533",
+      "password_sha256": "8e16d5de2b5c9bb35b7957b7fa15a172f6e835f6a7da0e25a1fde7af2d839d97",
+      "preimage_hex": "494c50524f424c454d41c3884c41",
+      "preimage_utf8": "ILPROBLEMA\u00c8LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a9b3697b54e8ec8649a6a98001c4717b5ef3e94846dc629db4248e88260da653",
+      "password_sha256": "7c5121edf651500e97739d0640266be8abed08a19ab75ce52694e3d480359594",
+      "preimage_hex": "494c50524f424c454d41c3884c41",
+      "preimage_utf8": "ILPROBLEMA\u00c8LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0030",
+      "password_expansion": "raw",
+      "password_hex": "4c41",
+      "password_sha256": "004c75c4a5cf6faaa9c8a200457de7a8bc4845becf71d5ef6883ef5d3f1caf70",
+      "preimage_hex": "4c41",
+      "preimage_utf8": "LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-3/compact/uppercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/compact/uppercase/utf8",
+        "italian-architect-before-choice/suffix-3/spaces/uppercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30303463373563346135636636666161613963386132303034353764653761386263343834356265636637316435656636383833656635643366316361663730",
+      "password_sha256": "9cd8263c878e69038f11f5d1d3ecc5456943077dbcb04b2ccbe83e62e58a37ed",
+      "preimage_hex": "4c41",
+      "preimage_utf8": "LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-3/compact/uppercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/compact/uppercase/utf8",
+        "italian-architect-before-choice/suffix-3/spaces/uppercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "004c75c4a5cf6faaa9c8a200457de7a8bc4845becf71d5ef6883ef5d3f1caf70",
+      "password_sha256": "01263b5550ae3035db1574cc4099af50cb4e4ffd48b50109876fb2638462937f",
+      "preimage_hex": "4c41",
+      "preimage_utf8": "LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-3/compact/uppercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/compact/uppercase/utf8",
+        "italian-architect-before-choice/suffix-3/spaces/uppercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0033",
+      "password_expansion": "raw",
+      "password_hex": "50524f424c454d412045204c41",
+      "password_sha256": "1473f18c2bbcf50225edc98e65361a7f41cb26fcd0a9f216ecf54a1933b309f1",
+      "preimage_hex": "50524f424c454d412045204c41",
+      "preimage_utf8": "PROBLEMA E LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31343733663138633262626366353032323565646339386536353336316137663431636232366663643061396632313665636635346131393333623330396631",
+      "password_sha256": "b749a863fd959b20ffb878c831af8187b59bf561a43699e5cd1eb73ea47ee808",
+      "preimage_hex": "50524f424c454d412045204c41",
+      "preimage_utf8": "PROBLEMA E LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1473f18c2bbcf50225edc98e65361a7f41cb26fcd0a9f216ecf54a1933b309f1",
+      "password_sha256": "0950b62c93ef64dadbb737bb6bdab347760cde2262dd94492396255431f1d050",
+      "preimage_hex": "50524f424c454d412045204c41",
+      "preimage_utf8": "PROBLEMA E LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0036",
+      "password_expansion": "raw",
+      "password_hex": "50524f424c454d4120c388204c41",
+      "password_sha256": "da9ee4d4ae0320c4189a4aaff627867949e83cae97dfd6f560835dcef7c8813b",
+      "preimage_hex": "50524f424c454d4120c388204c41",
+      "preimage_utf8": "PROBLEMA \u00c8 LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64613965653464346165303332306334313839613461616666363237383637393439653833636165393764666436663536303833356463656637633838313362",
+      "password_sha256": "c1a79614bcc7decbff6d0058614fdd79272160a4b13b356f06a32e53faadd724",
+      "preimage_hex": "50524f424c454d4120c388204c41",
+      "preimage_utf8": "PROBLEMA \u00c8 LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "da9ee4d4ae0320c4189a4aaff627867949e83cae97dfd6f560835dcef7c8813b",
+      "password_sha256": "dd2d7cef9cdea197538a2847cd53d662abdefafdb86c0e71b68c1a9a85474346",
+      "preimage_hex": "50524f424c454d4120c388204c41",
+      "preimage_utf8": "PROBLEMA \u00c8 LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0039",
+      "password_expansion": "raw",
+      "password_hex": "50524f424c454d41454c41",
+      "password_sha256": "c4033130fbf77bee032955fa1dc0622bd9a02de1f574c979694b970a2760ada7",
+      "preimage_hex": "50524f424c454d41454c41",
+      "preimage_utf8": "PROBLEMAELA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63343033333133306662663737626565303332393535666131646330363232626439613032646531663537346339373936393462393730613237363061646137",
+      "password_sha256": "ce97496d2f2c6344b0356d7ddfd473f8d178ac9766ceb6c8d85ce2250646c3b3",
+      "preimage_hex": "50524f424c454d41454c41",
+      "preimage_utf8": "PROBLEMAELA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c4033130fbf77bee032955fa1dc0622bd9a02de1f574c979694b970a2760ada7",
+      "password_sha256": "571d089e9a6f57e71099052372fbf2b17ddb3a9a7eea51c6405b71af2864e3ad",
+      "preimage_hex": "50524f424c454d41454c41",
+      "preimage_utf8": "PROBLEMAELA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/uppercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0042",
+      "password_expansion": "raw",
+      "password_hex": "50524f424c454d41c3884c41",
+      "password_sha256": "27c1f586b202f9d372f2daca21af935923560468bb05d48b9c4e619269cdae24",
+      "preimage_hex": "50524f424c454d41c3884c41",
+      "preimage_utf8": "PROBLEMA\u00c8LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32376331663538366232303266396433373266326461636132316166393335393233353630343638626230356434386239633465363139323639636461653234",
+      "password_sha256": "131ccc249ca5c46c621ebaf1c1d5e9b18cc9ca7f414411bb40a31da9da92d654",
+      "preimage_hex": "50524f424c454d41c3884c41",
+      "preimage_utf8": "PROBLEMA\u00c8LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "27c1f586b202f9d372f2daca21af935923560468bb05d48b9c4e619269cdae24",
+      "password_sha256": "af8cbd743e1b2563d9dd439e9a6e9a18ca62d9af48d0b789bf1e23b073d6b4e7",
+      "preimage_hex": "50524f424c454d41c3884c41",
+      "preimage_utf8": "PROBLEMA\u00c8LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0045",
+      "password_expansion": "raw",
+      "password_hex": "6369616f2062656c6c61",
+      "password_sha256": "f0b2b4ae7df07acc5c96695d8b55e9002ab9c6cce0bdc8befebfa7d5bdeed6c5",
+      "preimage_hex": "6369616f2062656c6c61",
+      "preimage_utf8": "ciao bella",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-spaces/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66306232623461653764663037616363356339363639356438623535653930303261623963366363653062646338626566656266613764356264656564366335",
+      "password_sha256": "b716781a653720f9ccf75338a2291f1f8b6c56fb21bab83504cb901d64394ad3",
+      "preimage_hex": "6369616f2062656c6c61",
+      "preimage_utf8": "ciao bella",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-spaces/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f0b2b4ae7df07acc5c96695d8b55e9002ab9c6cce0bdc8befebfa7d5bdeed6c5",
+      "password_sha256": "8e5da46aff44affeb100009ea3160f07785aa4de9700fa46d3e745cf4f349c4d",
+      "preimage_hex": "6369616f2062656c6c61",
+      "preimage_utf8": "ciao bella",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-spaces/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0048",
+      "password_expansion": "raw",
+      "password_hex": "6369616f2062656c6c61206f",
+      "password_sha256": "29c9e0c662a1fdf56dc0f850ec3358c0cd38adc6b335105e004cda524da81dc7",
+      "preimage_hex": "6369616f2062656c6c61206f",
+      "preimage_utf8": "ciao bella o",
+      "provenance": [
+        "authenticated-architect-tail/editorial-spaces/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32396339653063363632613166646635366463306638353065633333353863306364333861646336623333353130356530303463646135323464613831646337",
+      "password_sha256": "6ad18a6df9a3415b30387a1e87e0f30b1f591bd5a5c6a473ef7dd3519407cacb",
+      "preimage_hex": "6369616f2062656c6c61206f",
+      "preimage_utf8": "ciao bella o",
+      "provenance": [
+        "authenticated-architect-tail/editorial-spaces/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "29c9e0c662a1fdf56dc0f850ec3358c0cd38adc6b335105e004cda524da81dc7",
+      "password_sha256": "b1e6c5813eb6da9e5075ad4089e44bd4fbfbc8907f77190dced94a2e40e29db1",
+      "preimage_hex": "6369616f2062656c6c61206f",
+      "preimage_utf8": "ciao bella o",
+      "provenance": [
+        "authenticated-architect-tail/editorial-spaces/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0051",
+      "password_expansion": "raw",
+      "password_hex": "6369616f62656c6c61",
+      "password_sha256": "098746c93e3ba5ece71e5e27e7e4a72dcd7a949be175e50c82d4c6c2d6d9c1ec",
+      "preimage_hex": "6369616f62656c6c61",
+      "preimage_utf8": "ciaobella",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-compact/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30393837343663393365336261356563653731653565323765376534613732646364376139343962653137356535306338326434633663326436643963316563",
+      "password_sha256": "473b2e15f03a6c2e995dd353b32cbb1b75f1d2d1be6660b705fec959b9e0fb84",
+      "preimage_hex": "6369616f62656c6c61",
+      "preimage_utf8": "ciaobella",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-compact/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "098746c93e3ba5ece71e5e27e7e4a72dcd7a949be175e50c82d4c6c2d6d9c1ec",
+      "password_sha256": "42643924d59cd3a964cae9be91bef0698022fb26796748010775888f1a27cc40",
+      "preimage_hex": "6369616f62656c6c61",
+      "preimage_utf8": "ciaobella",
+      "provenance": [
+        "authenticated-architect-tail/before-final-o-compact/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0054",
+      "password_expansion": "raw",
+      "password_hex": "6369616f62656c6c616f",
+      "password_sha256": "85234fb20c0cc0cfee751947bcd2cf1ecb774ff14a919f57e873273ee35b014e",
+      "preimage_hex": "6369616f62656c6c616f",
+      "preimage_utf8": "ciaobellao",
+      "provenance": [
+        "authenticated-architect-tail/exact-compact/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38353233346662323063306363306366656537353139343762636432636631656362373734666631346139313966353765383733323733656533356230313465",
+      "password_sha256": "925341a040c7e8692e531950b9b884423f0b57e8b63dc62d970e4f3cf2e198fa",
+      "preimage_hex": "6369616f62656c6c616f",
+      "preimage_utf8": "ciaobellao",
+      "provenance": [
+        "authenticated-architect-tail/exact-compact/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "85234fb20c0cc0cfee751947bcd2cf1ecb774ff14a919f57e873273ee35b014e",
+      "password_sha256": "99081a8f3b6c040af7e75c321e743f2d4a99f14ee36a78223a517eec4a3f531f",
+      "preimage_hex": "6369616f62656c6c616f",
+      "preimage_utf8": "ciaobellao",
+      "provenance": [
+        "authenticated-architect-tail/exact-compact/lowercase"
+      ]
+    },
+    {
+      "candidate_id": "v7c0057",
+      "password_expansion": "raw",
+      "password_hex": "65206c61",
+      "password_sha256": "ca97bf74d4e6d27ba9c72eb1e09ce2179ef31c7ebb08951c171c96ad52d98169",
+      "preimage_hex": "65206c61",
+      "preimage_utf8": "e la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63613937626637346434653664323762613963373265623165303963653231373965663331633765626230383935316331373163393661643532643938313639",
+      "password_sha256": "2dd17a7f1c4045284ffa8a7f104cd01f56a83508b9df1035f7d7165615048cf9",
+      "preimage_hex": "65206c61",
+      "preimage_utf8": "e la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ca97bf74d4e6d27ba9c72eb1e09ce2179ef31c7ebb08951c171c96ad52d98169",
+      "password_sha256": "7ae0fd2d12829c9142fb5f9457ceb048f15e40e65751a1228f87aaf572fbeac7",
+      "preimage_hex": "65206c61",
+      "preimage_utf8": "e la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0060",
+      "password_expansion": "raw",
+      "password_hex": "656c61",
+      "password_sha256": "73950d9acf672365ad26ffddb060a752ec871263400c2801d7309b204d5ff980",
+      "preimage_hex": "656c61",
+      "preimage_utf8": "ela",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37333935306439616366363732333635616432366666646462303630613735326563383731323633343030633238303164373330396232303464356666393830",
+      "password_sha256": "47b1c0f27225f868b6dc721f033f7f4aa78529447b8028c80ecba9a30444bba3",
+      "preimage_hex": "656c61",
+      "preimage_utf8": "ela",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "73950d9acf672365ad26ffddb060a752ec871263400c2801d7309b204d5ff980",
+      "password_sha256": "369f70bb8b02b2874d2db56269f8f1dc65b3f6e868a58df48dafb88013edd34e",
+      "preimage_hex": "656c61",
+      "preimage_utf8": "ela",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0063",
+      "password_expansion": "raw",
+      "password_hex": "696c2070726f626c656d612065206c61",
+      "password_sha256": "01dc231b6ebf0b3d75de6bd4e39bab82bd7d409ea99ebc13079fee1568725356",
+      "preimage_hex": "696c2070726f626c656d612065206c61",
+      "preimage_utf8": "il problema e la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30316463323331623665626630623364373564653662643465333962616238326264376434303965613939656263313330373966656531353638373235333536",
+      "password_sha256": "b2962abe2e33869fb306b4c3ef6aea45247fbff07c6cada4afb6c6fb7d9b36a3",
+      "preimage_hex": "696c2070726f626c656d612065206c61",
+      "preimage_utf8": "il problema e la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "01dc231b6ebf0b3d75de6bd4e39bab82bd7d409ea99ebc13079fee1568725356",
+      "password_sha256": "41196935fb2d504a31567c29c6b865b19c7733d78c6e81ef847450879eca8a2f",
+      "preimage_hex": "696c2070726f626c656d612065206c61",
+      "preimage_utf8": "il problema e la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0066",
+      "password_expansion": "raw",
+      "password_hex": "696c2070726f626c656d6120c3a8206c61",
+      "password_sha256": "8bb69a6a2fce3a838e890e1c22606b3bc0f71d836fcb1cd3ebca7cbc37f622ed",
+      "preimage_hex": "696c2070726f626c656d6120c3a8206c61",
+      "preimage_utf8": "il problema \u00e8 la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38626236396136613266636533613833386538393065316332323630366233626330663731643833366663623163643365626361376362633337663632326564",
+      "password_sha256": "bc0c9049c674d721d243ce8b82059f1a33ea56567bf37d711f5a664e3b8a6d2f",
+      "preimage_hex": "696c2070726f626c656d6120c3a8206c61",
+      "preimage_utf8": "il problema \u00e8 la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8bb69a6a2fce3a838e890e1c22606b3bc0f71d836fcb1cd3ebca7cbc37f622ed",
+      "password_sha256": "b87a7a1b9b5d4141789ca0b69d81a9ee02506f550924b70da133e9edc8342388",
+      "preimage_hex": "696c2070726f626c656d6120c3a8206c61",
+      "preimage_utf8": "il problema \u00e8 la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0069",
+      "password_expansion": "raw",
+      "password_hex": "696c70726f626c656d61656c61",
+      "password_sha256": "ca5f2f2312fc67a37a738a2cd6a4d92e8695f7d1ed63bd478da2f6a1767a575a",
+      "preimage_hex": "696c70726f626c656d61656c61",
+      "preimage_utf8": "ilproblemaela",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63613566326632333132666336376133376137333861326364366134643932653836393566376431656436336264343738646132663661313736376135373561",
+      "password_sha256": "25d53458dd82781754c5a20dac0a62799fe48104ea730fb62f77b01e465ec859",
+      "preimage_hex": "696c70726f626c656d61656c61",
+      "preimage_utf8": "ilproblemaela",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ca5f2f2312fc67a37a738a2cd6a4d92e8695f7d1ed63bd478da2f6a1767a575a",
+      "password_sha256": "5b0e825590493ef460f16e032bf93afba539d0a289d835067f7db809f681b7db",
+      "preimage_hex": "696c70726f626c656d61656c61",
+      "preimage_utf8": "ilproblemaela",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0072",
+      "password_expansion": "raw",
+      "password_hex": "696c70726f626c656d61c3a86c61",
+      "password_sha256": "5abd26669057d4d8718059102cda220007ff9bf186d68faa7881cf46d83c6128",
+      "preimage_hex": "696c70726f626c656d61c3a86c61",
+      "preimage_utf8": "ilproblema\u00e8la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35616264323636363930353764346438373138303539313032636461323230303037666639626631383664363866616137383831636634366438336336313238",
+      "password_sha256": "43532c2118db0ce904f10d85c47c633db227d71c84f4486050ba150975091744",
+      "preimage_hex": "696c70726f626c656d61c3a86c61",
+      "preimage_utf8": "ilproblema\u00e8la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5abd26669057d4d8718059102cda220007ff9bf186d68faa7881cf46d83c6128",
+      "password_sha256": "4cc3549206891492fd8ce68e6feafefc7f0192fdbd85aa61cb367d186cb55e3d",
+      "preimage_hex": "696c70726f626c656d61c3a86c61",
+      "preimage_utf8": "ilproblema\u00e8la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-0/compact/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0075",
+      "password_expansion": "raw",
+      "password_hex": "6c61",
+      "password_sha256": "b737ca7ee563ae80e457bb3d1dfe64edd2b4c015a8f88b6f87d5c113b68897fd",
+      "preimage_hex": "6c61",
+      "preimage_utf8": "la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-3/compact/lowercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/compact/lowercase/utf8",
+        "italian-architect-before-choice/suffix-3/spaces/lowercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62373337636137656535363361653830653435376262336431646665363465646432623463303135613866383862366638376435633131336236383839376664",
+      "password_sha256": "20691c6e86c6c303772a72cbf0d4ecf1528738a5c1b637dd233485eaf1025170",
+      "preimage_hex": "6c61",
+      "preimage_utf8": "la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-3/compact/lowercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/compact/lowercase/utf8",
+        "italian-architect-before-choice/suffix-3/spaces/lowercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b737ca7ee563ae80e457bb3d1dfe64edd2b4c015a8f88b6f87d5c113b68897fd",
+      "password_sha256": "cf4d453e2121e242c8f985862f1a4052195da0f4e64f19845197a9219e229e8e",
+      "preimage_hex": "6c61",
+      "preimage_utf8": "la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-3/compact/lowercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/compact/lowercase/utf8",
+        "italian-architect-before-choice/suffix-3/spaces/lowercase/ascii-fold",
+        "italian-architect-before-choice/suffix-3/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0078",
+      "password_expansion": "raw",
+      "password_hex": "70726f626c656d612065206c61",
+      "password_sha256": "c438956ea32fc4cc451e1f786fed287e3f6856c942e150ebea9214a3f32b85ea",
+      "preimage_hex": "70726f626c656d612065206c61",
+      "preimage_utf8": "problema e la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63343338393536656133326663346363343531653166373836666564323837653366363835366339343265313530656265613932313461336633326238356561",
+      "password_sha256": "416593210e9faa657920faea0727d94ef395371f14025744f1c770fabfeab3cf",
+      "preimage_hex": "70726f626c656d612065206c61",
+      "preimage_utf8": "problema e la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c438956ea32fc4cc451e1f786fed287e3f6856c942e150ebea9214a3f32b85ea",
+      "password_sha256": "a127ce5b283641485756aafedfb0f0d23588326508fc26702b38996193892615",
+      "preimage_hex": "70726f626c656d612065206c61",
+      "preimage_utf8": "problema e la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0081",
+      "password_expansion": "raw",
+      "password_hex": "70726f626c656d6120c3a8206c61",
+      "password_sha256": "0e17d136febf21083d902cde899a7c844d85232bc0ccf1bfc16dd29751ffe995",
+      "preimage_hex": "70726f626c656d6120c3a8206c61",
+      "preimage_utf8": "problema \u00e8 la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30653137643133366665626632313038336439303263646538393961376338343464383532333262633063636631626663313664643239373531666665393935",
+      "password_sha256": "b53b9333380228370527a56da00ade1fdc7350c8ff2b0e02a999977cdd2d9280",
+      "preimage_hex": "70726f626c656d6120c3a8206c61",
+      "preimage_utf8": "problema \u00e8 la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0e17d136febf21083d902cde899a7c844d85232bc0ccf1bfc16dd29751ffe995",
+      "password_sha256": "bdd5ce709245614757480028ebe027eb9b8970adb07c7217c48c2fd7e7ed8b3b",
+      "preimage_hex": "70726f626c656d6120c3a8206c61",
+      "preimage_utf8": "problema \u00e8 la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0084",
+      "password_expansion": "raw",
+      "password_hex": "70726f626c656d61656c61",
+      "password_sha256": "4dcd923274c7d886a60896881813c40345bc6927c10da4b6857217214074717c",
+      "preimage_hex": "70726f626c656d61656c61",
+      "preimage_utf8": "problemaela",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34646364393233323734633764383836613630383936383831383133633430333435626336393237633130646134623638353732313732313430373437313763",
+      "password_sha256": "d351d8a95ad28f66ffe51fdcf0d6533f0449fc63f588fe885a97af145a22c805",
+      "preimage_hex": "70726f626c656d61656c61",
+      "preimage_utf8": "problemaela",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4dcd923274c7d886a60896881813c40345bc6927c10da4b6857217214074717c",
+      "password_sha256": "90e511e88c13b56d42eb168097169adb37a2abf431df2bf5bc716ce97639de18",
+      "preimage_hex": "70726f626c656d61656c61",
+      "preimage_utf8": "problemaela",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/lowercase/ascii-fold"
+      ]
+    },
+    {
+      "candidate_id": "v7c0087",
+      "password_expansion": "raw",
+      "password_hex": "70726f626c656d61c3a86c61",
+      "password_sha256": "3f82c1e3af637311dcb89d72cdd4cb5e8ff7668b785ad9bfee532471f9042681",
+      "preimage_hex": "70726f626c656d61c3a86c61",
+      "preimage_utf8": "problema\u00e8la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33663832633165336166363337333131646362383964373263646434636235653866663736363862373835616439626665653533323437316639303432363831",
+      "password_sha256": "1a1e2a8c864046062f41f6cd3677c44e56ffee7ec497907d7dc0ce5a10663ca5",
+      "preimage_hex": "70726f626c656d61c3a86c61",
+      "preimage_utf8": "problema\u00e8la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3f82c1e3af637311dcb89d72cdd4cb5e8ff7668b785ad9bfee532471f9042681",
+      "password_sha256": "0d93a730e9b97d2aa900624d7f9a01319bd30a165337452f2ffe84ecf52500b5",
+      "preimage_hex": "70726f626c656d61c3a86c61",
+      "preimage_utf8": "problema\u00e8la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-1/compact/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0090",
+      "password_expansion": "raw",
+      "password_hex": "c388204c41",
+      "password_sha256": "ab3c41b4c3e814e9f043eec64fa9f5daaf74b44fd37bf64bd05d0ef2e57c6916",
+      "preimage_hex": "c388204c41",
+      "preimage_utf8": "\u00c8 LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61623363343162346333653831346539663034336565633634666139663564616166373462343466643337626636346264303564306566326535376336393136",
+      "password_sha256": "ee89bdcbe7090ac817e8bd1a3e01eb6427981d06e1b81b119434176563093836",
+      "preimage_hex": "c388204c41",
+      "preimage_utf8": "\u00c8 LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ab3c41b4c3e814e9f043eec64fa9f5daaf74b44fd37bf64bd05d0ef2e57c6916",
+      "password_sha256": "cd3ce541b3e651c42d6e8835de58c6aa66de4e8be6d09c5dceb6ffd832c9c7ca",
+      "preimage_hex": "c388204c41",
+      "preimage_utf8": "\u00c8 LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0093",
+      "password_expansion": "raw",
+      "password_hex": "c3884c41",
+      "password_sha256": "32a6340a53b583eaff49533d7e0771ef1a8ea3b07b04e648889c647a2e773d18",
+      "preimage_hex": "c3884c41",
+      "preimage_utf8": "\u00c8LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33326136333430613533623538336561666634393533336437653037373165663161386561336230376230346536343838383963363437613265373733643138",
+      "password_sha256": "4408eae7c407da68771764d1fb96021b46e4db69d7b0cd5156b821f9130692b3",
+      "preimage_hex": "c3884c41",
+      "preimage_utf8": "\u00c8LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "32a6340a53b583eaff49533d7e0771ef1a8ea3b07b04e648889c647a2e773d18",
+      "password_sha256": "f67e301c4f813da9b2f3b7d029fd9301b9dec037667d50788f4ff84017b3bbff",
+      "preimage_hex": "c3884c41",
+      "preimage_utf8": "\u00c8LA",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/uppercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0096",
+      "password_expansion": "raw",
+      "password_hex": "c3a8206c61",
+      "password_sha256": "3c4f2ed2e6d9b6340e45f3fe3c9da425948830a3689092fa0a4ee8a0b839704d",
+      "preimage_hex": "c3a8206c61",
+      "preimage_utf8": "\u00e8 la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33633466326564326536643962363334306534356633666533633964613432353934383833306133363839303932666130613465653861306238333937303464",
+      "password_sha256": "58705ab510c976ed5080bbb07472218816c45567d330df8c38a07117d3681371",
+      "preimage_hex": "c3a8206c61",
+      "preimage_utf8": "\u00e8 la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3c4f2ed2e6d9b6340e45f3fe3c9da425948830a3689092fa0a4ee8a0b839704d",
+      "password_sha256": "88d637075397668e57afa9dd12d0cc381296ddba1fd75c2897d3172aae3f7b04",
+      "preimage_hex": "c3a8206c61",
+      "preimage_utf8": "\u00e8 la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/spaces/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0099",
+      "password_expansion": "raw",
+      "password_hex": "c3a86c61",
+      "password_sha256": "ff53d32d96814dc8de8131b3f0b850cf3e79e37fdacf1f8c2b42d34d38157fdd",
+      "preimage_hex": "c3a86c61",
+      "preimage_utf8": "\u00e8la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66663533643332643936383134646338646538313331623366306238353063663365373965333766646163663166386332623432643334643338313537666464",
+      "password_sha256": "79d8fc7c1ab86ea81357f065d7dfaa21187901203944751a49ef1b91ea9022f0",
+      "preimage_hex": "c3a86c61",
+      "preimage_utf8": "\u00e8la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/lowercase/utf8"
+      ]
+    },
+    {
+      "candidate_id": "v7c0101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ff53d32d96814dc8de8131b3f0b850cf3e79e37fdacf1f8c2b42d34d38157fdd",
+      "password_sha256": "8246ba6141470b2ac17d219aed632f7c8923550b985b169d684a555bdbe453fd",
+      "preimage_hex": "c3a86c61",
+      "preimage_utf8": "\u00e8la",
+      "provenance": [
+        "italian-architect-before-choice/suffix-2/compact/lowercase/utf8"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "forbidden_evidence": [
+      "expected padding length",
+      "plus/minus grammar",
+      "Half/Better Half",
+      "target point or address",
+      "known community plaintext hashes"
+    ],
+    "inherits_v1_rules_verbatim": true,
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v6_manifest_sha256": "cd5c4f86197f112fec3034ad19c0a3309a4a0a5434e74626167cfb8ae7635ead",
+  "schema": "salphaseion-source-only-preregistration-v7-italian-architect",
+  "source": {
+    "authenticated_tail": "CIAOBELLAO",
+    "candidate_rule": "exact authenticated Italian tail forms plus every suffix of the Italian Architect words immediately before SCELTA",
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "italian_line": "IL PROBLEMA \u00c8 LA SCELTA",
+    "italian_reference": "https://www.lucianogiustini.org/blog/documents/dialogo_matrix2_architetto.html",
+    "phase32_plaintext_sha256": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241",
+    "phase32_recovery_file_sha256": "5ef359b0e3555bf574faed1318be98243b5d9f12f994d7d90fb611c8c4bf5907",
+    "phase32_recovery_path": "phase32_symbol_recovery.json",
+    "salphaseion_instruction": "lastwordsbeforearchichoice",
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

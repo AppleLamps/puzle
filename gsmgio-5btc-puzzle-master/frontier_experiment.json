@@ -1,0 +1,40 @@
+{
+  "status": "NO_MATCH_IN_BOUNDED_FAMILY",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "half_sha256": "b9736fe0d64713c4e72cc383edd93818b03b56fd6171a90b8d212d7865c6afaf",
+  "better_half_sha256": "37ec1d8724e97d398f4d7cdc8c0659259cc771416262068f5983f7ac895a1f66",
+  "trail1_hex": "fc0c1b02",
+  "window_count": 1120,
+  "constant_count": 12,
+  "generated_candidates": 81760,
+  "unique_nonzero_scalars": 79519,
+  "operations": [
+    "window",
+    "window XOR constant",
+    "window + constant mod n",
+    "window - constant mod n",
+    "constant - window mod n",
+    "SHA256(window || constant)",
+    "SHA256(constant || window)"
+  ],
+  "constants": {
+    "half": "0423d9115a1dc756d5d08d2de880ab508bd4745fc97709f4fcb513f2cb8fcc35",
+    "better_half": "48cc46e66bdd36b09ae344552f606a761f9d90681f20dfefe2b43db18b623971",
+    "half_xor_better": "4cef9ff731c0f1e64f33c978c7e0c1269449e437d657d61b1e012e4340edf544",
+    "half_plus_better_mod_n": "4cf01ff7c5fafe0770b3d18317e115c6ab7204c7e897e9e4df6951a456f205a6",
+    "half_minus_better_mod_n": "bb57922aee4090a63aed48d8b92040d926e5c0de599eca40d9d334ce1063d405",
+    "better_minus_half_mod_n": "44a86dd511bf6f59c512b72746dfbf2593c91c0855a9d5fae5ff29bebfd26d3c",
+    "trail1_repeated": "fc0c1b02fc0c1b02fc0c1b02fc0c1b02fc0c1b02fc0c1b02fc0c1b02fc0c1b02",
+    "sha256_trail1": "bbf54842988b73cba4273885954b9d9a95d736f0454b55d2d90942fabc6c5ca4",
+    "opcode_operand30_leftpad": "00002dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "opcode_operand30_rightpad": "2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e705370000",
+    "marker_operand29_leftpad": "000000ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "sha256_prefix31": "5b9a25b74490affcf02ea8bf8f01fe1ed715a9d29037a952e8dc0b4188641a1e"
+  },
+  "target": {
+    "x": "f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464",
+    "y": "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+  },
+  "matches": [],
+  "scope_note": "This falsifies only the enumerated elementary cross-branch family; it is not a general impossibility result."
+}

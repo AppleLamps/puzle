@@ -1,0 +1,2518 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 228,
+  "candidates": [
+    {
+      "candidate_id": "v13c000",
+      "password_expansion": "raw",
+      "password_hex": "036d1f03ce562326d52fae34ff0361d929ecea25846172b1b20f2027d8a7a0e75375c9129178",
+      "password_sha256": "e31d31959fbb0275ff0fd42170a901d41f0d1787b55fd84b8cae00b3eebc6dbc",
+      "preimage_hex": "036d1f03ce562326d52fae34ff0361d929ecea25846172b1b20f2027d8a7a0e75375c9129178",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65333164333139353966626230323735666630666434323137306139303164343166306431373837623535666438346238636165303062336565626336646263",
+      "password_sha256": "80a5c5466e0b768f36ff6b7e0280662003bc637892aabba1b938925a921dd903",
+      "preimage_hex": "036d1f03ce562326d52fae34ff0361d929ecea25846172b1b20f2027d8a7a0e75375c9129178",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e31d31959fbb0275ff0fd42170a901d41f0d1787b55fd84b8cae00b3eebc6dbc",
+      "password_sha256": "98f4b9698f4e5b555ffdf18761acc68d74111d1da6cb2f231de3864a98d4f665",
+      "preimage_hex": "036d1f03ce562326d52fae34ff0361d929ecea25846172b1b20f2027d8a7a0e75375c9129178",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c003",
+      "password_expansion": "raw",
+      "password_hex": "03afe10332aae7ee3bf376fc0107a35be92c3ae784a18e737611e0e728696029b59b37ee71b8",
+      "password_sha256": "e7399a3deb73e6fcbea7ed362b5970fa15848ce9a05d2e0ce671576d3277d644",
+      "preimage_hex": "03afe10332aae7ee3bf376fc0107a35be92c3ae784a18e737611e0e728696029b59b37ee71b8",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65373339396133646562373365366663626561376564333632623539373066613135383438636539613035643265306365363731353736643332373764363434",
+      "password_sha256": "a6d6a79d3bad22d86f706cc49e53d5ed073c8f8c5e35e6cd1ae6411a95fb4e16",
+      "preimage_hex": "03afe10332aae7ee3bf376fc0107a35be92c3ae784a18e737611e0e728696029b59b37ee71b8",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e7399a3deb73e6fcbea7ed362b5970fa15848ce9a05d2e0ce671576d3277d644",
+      "password_sha256": "be6119781e94eba53bae359d2b2f968d31bfc6bcfad65c2cecd0f73446aaddeb",
+      "preimage_hex": "03afe10332aae7ee3bf376fc0107a35be92c3ae784a18e737611e0e728696029b59b37ee71b8",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c006",
+      "password_expansion": "raw",
+      "password_hex": "040201064f2004de2dcafc5823009a7a612530135437712b6a47d59cca082874b7a40a827ef2",
+      "password_sha256": "78ee946ca29718012acc8e035b626eec512a7696ab742a6c14c2d2bf127fc062",
+      "preimage_hex": "040201064f2004de2dcafc5823009a7a612530135437712b6a47d59cca082874b7a40a827ef2",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37386565393436636132393731383031326163633865303335623632366565633531326137363936616237343261366331346332643262663132376663303632",
+      "password_sha256": "c5c80266e6deb8b10872d49a18f9e592e062caecd4eb329216181207466c8d18",
+      "preimage_hex": "040201064f2004de2dcafc5823009a7a612530135437712b6a47d59cca082874b7a40a827ef2",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "78ee946ca29718012acc8e035b626eec512a7696ab742a6c14c2d2bf127fc062",
+      "password_sha256": "91e1c6ad8bbe25b7d22aa85ae3aa6314dc42a350e36d08e155c177d6ec1fa656",
+      "preimage_hex": "040201064f2004de2dcafc5823009a7a612530135437712b6a47d59cca082874b7a40a827ef2",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c009",
+      "password_expansion": "raw",
+      "password_hex": "042217085fa016f0cf5000d8b3189a7a71b1b217e4b787ab8ee7dd4e6208b6845724e68e8ef4",
+      "password_sha256": "c0a9648a2ce0b44f47e051d6d697ce86122f4830c73b44ace2e32d6e46560a57",
+      "preimage_hex": "042217085fa016f0cf5000d8b3189a7a71b1b217e4b787ab8ee7dd4e6208b6845724e68e8ef4",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63306139363438613263653062343466343765303531643664363937636538363132326634383330633733623434616365326533326436653436353630613537",
+      "password_sha256": "0245b3870d3610d70765d466263a81bd4d4882e980f1a1ec23a8c27b53654225",
+      "preimage_hex": "042217085fa016f0cf5000d8b3189a7a71b1b217e4b787ab8ee7dd4e6208b6845724e68e8ef4",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c0a9648a2ce0b44f47e051d6d697ce86122f4830c73b44ace2e32d6e46560a57",
+      "password_sha256": "efe8e88055d26d42f3b6f52a74c1c60a2ff1c4498299f2e8aef682a08fb59695",
+      "preimage_hex": "042217085fa016f0cf5000d8b3189a7a71b1b217e4b787ab8ee7dd4e6208b6845724e68e8ef4",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c012",
+      "password_expansion": "raw",
+      "password_hex": "0bedf807b06ff91f40bf0f375cf775959e5e5df82b588864812832c1ad07598bb8eb2981811b",
+      "password_sha256": "22b1d38ae129b46e16aacbd55cabe40876ccd02d9785e10c27ddb607c8dfd793",
+      "preimage_hex": "0bedf807b06ff91f40bf0f375cf775959e5e5df82b588864812832c1ad07598bb8eb2981811b",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32326231643338616531323962343665313661616362643535636162653430383736636364303264393738356531306332376464623630376338646664373933",
+      "password_sha256": "d3658432b2fe11bdb1928da4778efdd68ffa6ffcbb299f3788b9c517c5bfaa65",
+      "preimage_hex": "0bedf807b06ff91f40bf0f375cf775959e5e5df82b588864812832c1ad07598bb8eb2981811b",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "22b1d38ae129b46e16aacbd55cabe40876ccd02d9785e10c27ddb607c8dfd793",
+      "password_sha256": "0a7ffef8fa94572344efd3171ee420e1f66ac4eb74eff1494118c4e56ad3fe69",
+      "preimage_hex": "0bedf807b06ff91f40bf0f375cf775959e5e5df82b588864812832c1ad07598bb8eb2981811b",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c015",
+      "password_expansion": "raw",
+      "password_hex": "0bf1700bc0eff933c00f4fb7ec6f7995b06addfc9d7cd88491a83a512709e9bd3873c781f13b",
+      "password_sha256": "bbd658372ba40d90883f8abf97f9a7628a7337805c8e0b5f615dcef292b464aa",
+      "preimage_hex": "0bf1700bc0eff933c00f4fb7ec6f7995b06addfc9d7cd88491a83a512709e9bd3873c781f13b",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62626436353833373262613430643930383833663861626639376639613736323861373333373830356338653062356636313564636566323932623436346161",
+      "password_sha256": "dd58debf0f97d893139acd39478cc1b7578fa9fb99afd14b5f55f2d5c3120b90",
+      "preimage_hex": "0bf1700bc0eff933c00f4fb7ec6f7995b06addfc9d7cd88491a83a512709e9bd3873c781f13b",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bbd658372ba40d90883f8abf97f9a7628a7337805c8e0b5f615dcef292b464aa",
+      "password_sha256": "80049953fcb43dc1fdef54efe9ed4906fad7d5802b35c417bd065eeffd03ca8b",
+      "preimage_hex": "0bf1700bc0eff933c00f4fb7ec6f7995b06addfc9d7cd88491a83a512709e9bd3873c781f13b",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c018",
+      "password_expansion": "raw",
+      "password_hex": "0ca2f00c41b9ece93ae061db100cae36e62325ea8bae9d5e5d00efe837686f28bc9a46fd7e97",
+      "password_sha256": "6e25c9a3e488ba0bea27b9738407e4d582369578af86c357e9c6fa78e4fb8186",
+      "preimage_hex": "0ca2f00c41b9ece93ae061db100cae36e62325ea8bae9d5e5d00efe837686f28bc9a46fd7e97",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36653235633961336534383862613062656132376239373338343037653464353832333639353738616638366333353765396336666137386534666238313836",
+      "password_sha256": "7ca7efa11e339d31f1436dee9c353677fba6042a49292c757083a5eb6b561a05",
+      "preimage_hex": "0ca2f00c41b9ece93ae061db100cae36e62325ea8bae9d5e5d00efe837686f28bc9a46fd7e97",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6e25c9a3e488ba0bea27b9738407e4d582369578af86c357e9c6fa78e4fb8186",
+      "password_sha256": "e11b1bf12b5c62a49996f9c64019c9a0af5b294d730856f66a802d1097ad13dc",
+      "preimage_hex": "0ca2f00c41b9ece93ae061db100cae36e62325ea8bae9d5e5d00efe837686f28bc9a46fd7e97",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c021",
+      "password_expansion": "raw",
+      "password_hex": "0cdef01c41d9f41f4ae061ed3014d24afe232b16bbd2bd626500f1e85b787158c4aa461d86a9",
+      "password_sha256": "5d485d114d95f45feddb5fd698e1ca4d9dd207a3ab2c7308bf91d12a2f363850",
+      "preimage_hex": "0cdef01c41d9f41f4ae061ed3014d24afe232b16bbd2bd626500f1e85b787158c4aa461d86a9",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35643438356431313464393566343566656464623566643639386531636134643964643230376133616232633733303862663931643132613266333633383530",
+      "password_sha256": "1270238b396affef790de120b83ce4c95d6c394b22bec8ef0fccf530ca7b2b32",
+      "preimage_hex": "0cdef01c41d9f41f4ae061ed3014d24afe232b16bbd2bd626500f1e85b787158c4aa461d86a9",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5d485d114d95f45feddb5fd698e1ca4d9dd207a3ab2c7308bf91d12a2f363850",
+      "password_sha256": "07c35716d3bd725991198dc394afa06b4a9f0dd0300e5234862379f43305e3d1",
+      "preimage_hex": "0cdef01c41d9f41f4ae061ed3014d24afe232b16bbd2bd626500f1e85b787158c4aa461d86a9",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c024",
+      "password_expansion": "raw",
+      "password_hex": "0d11701dc0ef0b55c03173c9ec7189adb09ae304a584f88cb1d84e7f2b19f7c54873c781f34d",
+      "password_sha256": "2763d2df3397e1ffcb5ed2dfe374dbe5dfdaff64d43045780aba22d7d731830c",
+      "preimage_hex": "0d11701dc0ef0b55c03173c9ec7189adb09ae304a584f88cb1d84e7f2b19f7c54873c781f34d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32373633643264663333393765316666636235656432646665333734646265356466646166663634643433303435373830616261323264376437333138333063",
+      "password_sha256": "e1a79019548ccdc9413dbeaa9bbf9816fe29591267b84a8d3e05b463f6f0ba50",
+      "preimage_hex": "0d11701dc0ef0b55c03173c9ec7189adb09ae304a584f88cb1d84e7f2b19f7c54873c781f34d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2763d2df3397e1ffcb5ed2dfe374dbe5dfdaff64d43045780aba22d7d731830c",
+      "password_sha256": "49a35c2e5da9359b9d1c326e7dae61d77dae7a7fcfeb291f12aa5e3fa77f34f4",
+      "preimage_hex": "0d11701dc0ef0b55c03173c9ec7189adb09ae304a584f88cb1d84e7f2b19f7c54873c781f34d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c027",
+      "password_expansion": "raw",
+      "password_hex": "0d150819b06f0b2140c133497c0995ada66663185b78886c815836cfd51f67b7c8fb3981832d",
+      "password_sha256": "2cd3fd4684beb61b51bb2863f3c77c637745775a364977de16976ea26f877c45",
+      "preimage_hex": "0d150819b06f0b2140c133497c0995ada66663185b78886c815836cfd51f67b7c8fb3981832d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32636433666434363834626562363162353162623238363366336337376336333737343537373561333634393737646531363937366561323666383737633435",
+      "password_sha256": "89544ea2e2fd914f7ceafb20080c5cdf38189f03f392e645552400720e572cba",
+      "preimage_hex": "0d150819b06f0b2140c133497c0995ada66663185b78886c815836cfd51f67b7c8fb3981832d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2cd3fd4684beb61b51bb2863f3c77c637745775a364977de16976ea26f877c45",
+      "password_sha256": "4f2d9ab77122dcbcd853c709f7a9d3f13297497d990c4a745367ac5d611bedf9",
+      "preimage_hex": "0d150819b06f0b2140c133497c0995ada66663185b78886c815836cfd51f67b7c8fb3981832d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c030",
+      "password_expansion": "raw",
+      "password_hex": "0e22f810b3396ce9bef0815b105a2ece6825b5eabd26c5866d00fbeca1e87f284ca2ea0df0b7",
+      "password_sha256": "9f69e2fc32a32dedfadd1b6ff3ecdc5d39995fae5613bc76ec1a24b1b793b9d4",
+      "preimage_hex": "0e22f810b3396ce9bef0815b105a2ece6825b5eabd26c5866d00fbeca1e87f284ca2ea0df0b7",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39663639653266633332613332646564666164643162366666336563646335643339393935666165353631336263373665633161323462316237393362396434",
+      "password_sha256": "7bab4156d5e9f902a692a86172147ce3c924f2fb199189018eaed4e000178e90",
+      "preimage_hex": "0e22f810b3396ce9bef0815b105a2ece6825b5eabd26c5866d00fbeca1e87f284ca2ea0df0b7",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9f69e2fc32a32dedfadd1b6ff3ecdc5d39995fae5613bc76ec1a24b1b793b9d4",
+      "password_sha256": "e78ad6a7c3eb0d18b53f876df18658840dba446ef493319cfb76fe6ae16ce5da",
+      "preimage_hex": "0e22f810b3396ce9bef0815b105a2ece6825b5eabd26c5866d00fbeca1e87f284ca2ea0df0b7",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c033",
+      "password_expansion": "raw",
+      "password_hex": "1c02070eb1e00426d34e04d8fd009abaa1ebf015d4f78ffdaec93d6c5a08e8b45964f69e8232",
+      "password_sha256": "dc4bf872de5f600045af643bf06e78cc148da738cbe126ad8ab833d3fbee1bc3",
+      "preimage_hex": "1c02070eb1e00426d34e04d8fd009abaa1ebf015d4f78ffdaec93d6c5a08e8b45964f69e8232",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64633462663837326465356636303030343561663634336266303665373863633134386461373338636265313236616438616238333364336662656531626333",
+      "password_sha256": "82c97d73d0bf004a0621a2e18bda448623fc0a21476270a94b872912d674defc",
+      "preimage_hex": "1c02070eb1e00426d34e04d8fd009abaa1ebf015d4f78ffdaec93d6c5a08e8b45964f69e8232",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "dc4bf872de5f600045af643bf06e78cc148da738cbe126ad8ab833d3fbee1bc3",
+      "password_sha256": "6240c839888e39c9c52770e6549cb8b640ffec33bbb2f844b731bafbb4e2927e",
+      "preimage_hex": "1c02070eb1e00426d34e04d8fd009abaa1ebf015d4f78ffdaec93d6c5a08e8b45964f69e8232",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c036",
+      "password_expansion": "raw",
+      "password_hex": "1ce2f908a160fa3031d000584df89aba917772e92477997d922925dea2085684b9e42a92723c",
+      "password_sha256": "9c3cddc15326bdef807a25baad3f8583c75696d33452082f631ca51d0e887099",
+      "preimage_hex": "1ce2f908a160fa3031d000584df89aba917772e92477997d922925dea2085684b9e42a92723c",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39633363646463313533323662646566383037613235626161643366383538336337353639366433333435323038326636333163613531643065383837303939",
+      "password_sha256": "ea1b724503c10da2718292027baa3aa60568716718396ee54982d615c72c783a",
+      "preimage_hex": "1ce2f908a160fa3031d000584df89aba917772e92477997d922925dea2085684b9e42a92723c",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9c3cddc15326bdef807a25baad3f8583c75696d33452082f631ca51d0e887099",
+      "password_sha256": "6eac351fe4daa589d5a0c47047824c08d54af6d0a3ecbbb10d9f086f144b74cc",
+      "preimage_hex": "1ce2f908a160fa3031d000584df89aba917772e92477997d922925dea2085684b9e42a92723c",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c039",
+      "password_expansion": "raw",
+      "password_hex": "1d3567fdc236695ccd55d24c210941dd5714c8fb8c3792d77af16af9b0d982193dadbbf27f92",
+      "password_sha256": "43a7635239f2adba40dc6c44c8a2f40ea29b4036fe3976c6d1bb7729f5503e4b",
+      "preimage_hex": "1d3567fdc236695ccd55d24c210941dd5714c8fb8c3792d77af16af9b0d982193dadbbf27f92",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34336137363335323339663261646261343064633663343463386132663430656132396234303336666533393736633664316262373732396635353033653462",
+      "password_sha256": "78f9df8cc766509d982d96adf1b755c33f9575a9a0966cd2edb8aaa10f673e0c",
+      "preimage_hex": "1d3567fdc236695ccd55d24c210941dd5714c8fb8c3792d77af16af9b0d982193dadbbf27f92",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "43a7635239f2adba40dc6c44c8a2f40ea29b4036fe3976c6d1bb7729f5503e4b",
+      "password_sha256": "7d46da53e3340383e0bd07b3d95b83fc344510f8dfbc0084f3e9c7e86131daaa",
+      "preimage_hex": "1d3567fdc236695ccd55d24c210941dd5714c8fb8c3792d77af16af9b0d982193dadbbf27f92",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c042",
+      "password_expansion": "raw",
+      "password_hex": "1f7d4726f9764641f74ad042162771df4301f93c997c96d6be204732f5c8b9006c95d22abb9541423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "password_sha256": "dd78152608d3aa3a4cb24ee88b27d3618c4be9ebee80361c9c999a85b7084f45",
+      "preimage_hex": "1f7d4726f9764641f74ad042162771df4301f93c997c96d6be204732f5c8b9006c95d22abb9541423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64643738313532363038643361613361346362323465653838623237643336313863346265396562656538303336316339633939396138356237303834663435",
+      "password_sha256": "5ba518c95e3562e0bcf0498cced35d8cb959a5e680a744547b12d15b564c7ea4",
+      "preimage_hex": "1f7d4726f9764641f74ad042162771df4301f93c997c96d6be204732f5c8b9006c95d22abb9541423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "dd78152608d3aa3a4cb24ee88b27d3618c4be9ebee80361c9c999a85b7084f45",
+      "password_sha256": "ecd7df30915407abe527be24733b070cb3af6dffba6def50b5e570e77041aa0b",
+      "preimage_hex": "1f7d4726f9764641f74ad042162771df4301f93c997c96d6be204732f5c8b9006c95d22abb9541423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c045",
+      "password_expansion": "raw",
+      "password_hex": "1f7d4726f9764641f74ad042162771df4301f93c997c96d6be204732f5c8b9006c95d22abb9550514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "password_sha256": "4d9291107444c6f4b6b970d8f231d208731d344db712758dacdc1f1aba407629",
+      "preimage_hex": "1f7d4726f9764641f74ad042162771df4301f93c997c96d6be204732f5c8b9006c95d22abb9550514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34643932393131303734343463366634623662393730643866323331643230383733316433343464623731323735386461636463316631616261343037363239",
+      "password_sha256": "4ca4cfdad7c8a6076cd6e5641a922a5e95bac546a89c2bddd6185966d228f35d",
+      "preimage_hex": "1f7d4726f9764641f74ad042162771df4301f93c997c96d6be204732f5c8b9006c95d22abb9550514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4d9291107444c6f4b6b970d8f231d208731d344db712758dacdc1f1aba407629",
+      "password_sha256": "119af2fab26fa53729ea03e6f4e3a4caa24f84cf3c842dd34886d9fae60c2033",
+      "preimage_hex": "1f7d4726f9764641f74ad042162771df4301f93c997c96d6be204732f5c8b9006c95d22abb9550514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c048",
+      "password_expansion": "raw",
+      "password_hex": "20323f2b8ac0390bf16b22e6ca3caa808bc6c12ef9d2abd09af804597f29cf9d7044efa6b81141423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "password_sha256": "3f83ec1e4a400e2af309a7f69b812497502c6560fef2fb1f86b1569bca790c2c",
+      "preimage_hex": "20323f2b8ac0390bf16b22e6ca3caa808bc6c12ef9d2abd09af804597f29cf9d7044efa6b81141423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33663833656331653461343030653261663330396137663639623831323439373530326336353630666566326662316638366231353639626361373930633263",
+      "password_sha256": "5852273e49a0fa9673b85f93716948d9aa09e6fe30d159662f7f3b3c4642d463",
+      "preimage_hex": "20323f2b8ac0390bf16b22e6ca3caa808bc6c12ef9d2abd09af804597f29cf9d7044efa6b81141423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3f83ec1e4a400e2af309a7f69b812497502c6560fef2fb1f86b1569bca790c2c",
+      "password_sha256": "d1d0a38287a206a767a0bb331723a82f0240304117f48ec03c0aa810890c69c7",
+      "preimage_hex": "20323f2b8ac0390bf16b22e6ca3caa808bc6c12ef9d2abd09af804597f29cf9d7044efa6b81141423c423d40403a42383449493f464c493f4a433f3e3c3548453e4e3d4348394b445f483938",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c051",
+      "password_expansion": "raw",
+      "password_hex": "20323f2b8ac0390bf16b22e6ca3caa808bc6c12ef9d2abd09af804597f29cf9d7044efa6b81150514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "password_sha256": "2b3ec4f6955dc80b789ae0407cc70428d30b59804382b24762cbc451d8cbb8b6",
+      "preimage_hex": "20323f2b8ac0390bf16b22e6ca3caa808bc6c12ef9d2abd09af804597f29cf9d7044efa6b81150514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32623365633466363935356463383062373839616530343037636337303432386433306235393830343338326232343736326362633435316438636262386236",
+      "password_sha256": "1ce876a0361a0abc63dd76880ea9f5c3c469ce45c039d2f6e42521f7d34fbb23",
+      "preimage_hex": "20323f2b8ac0390bf16b22e6ca3caa808bc6c12ef9d2abd09af804597f29cf9d7044efa6b81150514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2b3ec4f6955dc80b789ae0407cc70428d30b59804382b24762cbc451d8cbb8b6",
+      "password_sha256": "3ea0e74deaa8b8316bfd14f71f6315f73866db41dde341fd2e946833362ce4de",
+      "preimage_hex": "20323f2b8ac0390bf16b22e6ca3caa808bc6c12ef9d2abd09af804597f29cf9d7044efa6b81150514b514c4f4f4951474358584e555b584e59524e4d4b4457544d5d4c5257485a536e574847",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v13c054",
+      "password_expansion": "raw",
+      "password_hex": "2110fd17b380072f51cd12637f039cccbe798915466c9165ae4d3af5be1a799cdb0070a28127",
+      "password_sha256": "62b45f014b9484fe1351354bea240e1e121b366349a923bc39cdeaefe4a70143",
+      "preimage_hex": "2110fd17b380072f51cd12637f039cccbe798915466c9165ae4d3af5be1a799cdb0070a28127",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36326234356630313462393438346665313335313335346265613234306531653132316233363633343961393233626333396364656165666534613730313433",
+      "password_sha256": "e68a9df88164e1498024d565c94a5771daa3013419eb9b010b1e73e88a4e9b17",
+      "preimage_hex": "2110fd17b380072f51cd12637f039cccbe798915466c9165ae4d3af5be1a799cdb0070a28127",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "62b45f014b9484fe1351354bea240e1e121b366349a923bc39cdeaefe4a70143",
+      "password_sha256": "4ecb2aafafd38ea567d1c25cb91f1e882fd9db84e873b028d807cee575597177",
+      "preimage_hex": "2110fd17b380072f51cd12637f039cccbe798915466c9165ae4d3af5be1a799cdb0070a28127",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c057",
+      "password_expansion": "raw",
+      "password_hex": "22c5f51c44cafaf94bee64073318d56d063e5107a6c2a65f8a25f71c487b8f39dfaf8d1e7ea3",
+      "password_sha256": "1984f74f4da09301354b64286b56c110017dc57fb9cf471885b2dfa6400eba4b",
+      "preimage_hex": "22c5f51c44cafaf94bee64073318d56d063e5107a6c2a65f8a25f71c487b8f39dfaf8d1e7ea3",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31393834663734663464613039333031333534623634323836623536633131303031376463353766623963663437313838356232646661363430306562613462",
+      "password_sha256": "9179b36b2d831a70a6fb7abe1e6fc0623675b0ebfd50dc63b39a6733454abe37",
+      "preimage_hex": "22c5f51c44cafaf94bee64073318d56d063e5107a6c2a65f8a25f71c487b8f39dfaf8d1e7ea3",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1984f74f4da09301354b64286b56c110017dc57fb9cf471885b2dfa6400eba4b",
+      "password_sha256": "a11360e97a85130a09ae4929d5adc50357f80185ca00bc0288632b2c17ba8cdc",
+      "preimage_hex": "22c5f51c44cafaf94bee64073318d56d063e5107a6c2a65f8a25f71c487b8f39dfaf8d1e7ea3",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c060",
+      "password_expansion": "raw",
+      "password_hex": "234d7f03c2567b6cd56ff67c211b41e5692cc807b459b2fb8a117e07d0e99e2945b5cb1281b6",
+      "password_sha256": "a6ccbd4b6824426048f140aa6d47ff63d62ac0be4536d9f51ee0ffb5f80820aa",
+      "preimage_hex": "234d7f03c2567b6cd56ff67c211b41e5692cc807b459b2fb8a117e07d0e99e2945b5cb1281b6",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61366363626434623638323434323630343866313430616136643437666636336436326163306265343533366439663531656530666662356638303832306161",
+      "password_sha256": "84a2fbd249ec0534ca4efddeae37fa880fafcc27c1c1707a1a325b9698d6ebb8",
+      "preimage_hex": "234d7f03c2567b6cd56ff67c211b41e5692cc807b459b2fb8a117e07d0e99e2945b5cb1281b6",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a6ccbd4b6824426048f140aa6d47ff63d62ac0be4536d9f51ee0ffb5f80820aa",
+      "password_sha256": "9a762cedfeeee19251bdb081e36ae3a67ca61567c6952c048012060c0e4dcbbe",
+      "preimage_hex": "234d7f03c2567b6cd56ff67c211b41e5692cc807b459b2fb8a117e07d0e99e2945b5cb1281b6",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c063",
+      "password_expansion": "raw",
+      "password_hex": "301f0c26c28f163e60dc21728e12abdbcd889824557ba074bd5c4904cd2988abea0f7fb19036",
+      "password_sha256": "c6c662c1af6ca67d384e0d2469222e43f3c59d269b18709c438c577b22b34761",
+      "preimage_hex": "301f0c26c28f163e60dc21728e12abdbcd889824557ba074bd5c4904cd2988abea0f7fb19036",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63366336363263316166366361363764333834653064323436393232326534336633633539643236396231383730396334333863353737623232623334373631",
+      "password_sha256": "fb4b36a656d630a9ce68f85631527d9af5594d7e5313faaac34b6276f7b29a27",
+      "preimage_hex": "301f0c26c28f163e60dc21728e12abdbcd889824557ba074bd5c4904cd2988abea0f7fb19036",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c6c662c1af6ca67d384e0d2469222e43f3c59d269b18709c438c577b22b34761",
+      "password_sha256": "b6f55bea4c45f3d15f919d20b014df1e56665fbcd03af6ff2561276efb2208df",
+      "preimage_hex": "301f0c26c28f163e60dc21728e12abdbcd889824557ba074bd5c4904cd2988abea0f7fb19036",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c066",
+      "password_expansion": "raw",
+      "password_hex": "31d4042b53d909085afd73164227e47c154d6016b5d1b56e9934062b578a9e48eebe9c2d8db2",
+      "password_sha256": "d62d74509789016476d4928e56c8ef22d67a62cdaf707cb4f5dff157f21d0566",
+      "preimage_hex": "31d4042b53d909085afd73164227e47c154d6016b5d1b56e9934062b578a9e48eebe9c2d8db2",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64363264373435303937383930313634373664343932386535366338656632326436376136326364616637303763623466356466663135376632316430353636",
+      "password_sha256": "cbbc36b9370afe9ca2446f336eebdabda54c7abd583f2b6d1d660399708202c9",
+      "preimage_hex": "31d4042b53d909085afd73164227e47c154d6016b5d1b56e9934062b578a9e48eebe9c2d8db2",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d62d74509789016476d4928e56c8ef22d67a62cdaf707cb4f5dff157f21d0566",
+      "password_sha256": "0643d54a66f19740af994e8e2b7fa3bf01f2c6a45e46012ec092e223361f063f",
+      "preimage_hex": "31d4042b53d909085afd73164227e47c154d6016b5d1b56e9934062b578a9e48eebe9c2d8db2",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c069",
+      "password_expansion": "raw",
+      "password_hex": "325e0810b359741fc610816d306a52f2785ddb16c52ac58a95000d14a1f8815854a2fa0df0c9",
+      "password_sha256": "1862aca23692eba495a7f72502b886b6c3634cf5720942f56337c4f5454b1da3",
+      "preimage_hex": "325e0810b359741fc610816d306a52f2785ddb16c52ac58a95000d14a1f8815854a2fa0df0c9",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31383632616361323336393265626134393561376637323530326238383662366333363334636635373230393432663536333337633466353435346231646133",
+      "password_sha256": "c91a400bd76d278cb8f453fff6b04945bbabd433a35c99f0bd810f71b6f9dd61",
+      "preimage_hex": "325e0810b359741fc610816d306a52f2785ddb16c52ac58a95000d14a1f8815854a2fa0df0c9",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1862aca23692eba495a7f72502b886b6c3634cf5720942f56337c4f5454b1da3",
+      "password_sha256": "8b0a3576aecc9476b5a3ac398b60f530e0f0063562090408ae5712490d9f9353",
+      "preimage_hex": "325e0810b359741fc610816d306a52f2785ddb16c52ac58a95000d14a1f8815854a2fa0df0c9",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c072",
+      "password_expansion": "raw",
+      "password_hex": "3b8d6f492496695c1965f2502d4b81e55d160853ae97bafbca316e3d12e9d21985b5db42e5b2",
+      "password_sha256": "cdf934f79558a75a201d0374a989f28c19d73a5b07f5e7de198a306095cba33c",
+      "preimage_hex": "3b8d6f492496695c1965f2502d4b81e55d160853ae97bafbca316e3d12e9d21985b5db42e5b2",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63646639333466373935353861373561323031643033373461393839663238633139643733613562303766356537646531393861333036303935636261333363",
+      "password_sha256": "630d8c473ae47363a5ebcfcce8812b31e3bdc18b97bb9f5f45bfe0322e1f7806",
+      "preimage_hex": "3b8d6f492496695c1965f2502d4b81e55d160853ae97bafbca316e3d12e9d21985b5db42e5b2",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cdf934f79558a75a201d0374a989f28c19d73a5b07f5e7de198a306095cba33c",
+      "password_sha256": "ffd552feb3d855bfb7fcad7c31f98343e1131a23aed3178e498293fce0051c4d",
+      "preimage_hex": "3b8d6f492496695c1965f2502d4b81e55d160853ae97bafbca316e3d12e9d21985b5db42e5b2",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c075",
+      "password_expansion": "raw",
+      "password_hex": "3c42674eb5e05c26138644f4e160ba86a5dbd0450eedcff5a6092b649c4ae8b68964f8bee22e",
+      "password_sha256": "f08d58081fe6cfff2108dae1702e4514fca9e77d345b4ee8672148ef2fb8c65d",
+      "preimage_hex": "3c42674eb5e05c26138644f4e160ba86a5dbd0450eedcff5a6092b649c4ae8b68964f8bee22e",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66303864353830383166653663666666323130386461653137303265343531346663613965373764333435623465653836373231343865663266623863363564",
+      "password_sha256": "d94a9dbfa9e9e700489f3f64b4b80ced097e5009043a6436d95a5f8dd228faee",
+      "preimage_hex": "3c42674eb5e05c26138644f4e160ba86a5dbd0450eedcff5a6092b649c4ae8b68964f8bee22e",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f08d58081fe6cfff2108dae1702e4514fca9e77d345b4ee8672148ef2fb8c65d",
+      "password_sha256": "9d0a110a00290cb2cd8010ade426a3b7a73da13e0ea2882a69af9f9ac124028a",
+      "preimage_hex": "3c42674eb5e05c26138644f4e160ba86a5dbd0450eedcff5a6092b649c4ae8b68964f8bee22e",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c078",
+      "password_expansion": "raw",
+      "password_hex": "4a9c7e5833a5786b2874015f3c5a90f46c251762bda6c90ad9407d4c21f8e12894c4ea51f4c1",
+      "password_sha256": "ef0a9dc48582c07bb329b6bd6c3aefaab4f515b1c450041238775af1f56d7ac4",
+      "preimage_hex": "4a9c7e5833a5786b2874015f3c5a90f46c251762bda6c90ad9407d4c21f8e12894c4ea51f4c1",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65663061396463343835383263303762623332396236626436633361656661616234663531356231633435303034313233383737356166316635366437616334",
+      "password_sha256": "4ac7fa325210349e412e1980675ca1f5f42ead8930a64ef107b20b2601ba086c",
+      "preimage_hex": "4a9c7e5833a5786b2874015f3c5a90f46c251762bda6c90ad9407d4c21f8e12894c4ea51f4c1",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ef0a9dc48582c07bb329b6bd6c3aefaab4f515b1c450041238775af1f56d7ac4",
+      "password_sha256": "ed217bc5af79c94c3b4d68c93c5d438af07bf72ddea71d2181f5644d85d837d0",
+      "preimage_hex": "4a9c7e5833a5786b2874015f3c5a90f46c251762bda6c90ad9407d4c21f8e12894c4ea51f4c1",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c081",
+      "password_expansion": "raw",
+      "password_hex": "4b51765dc4ef6b3522955303f06fc995b4eadf541dfcde04b5183a73ab59f7c5987307cdf13d",
+      "password_sha256": "24366a520136605d9623b35c57f4f34504b89c542974cc2631778d5974796584",
+      "preimage_hex": "4b51765dc4ef6b3522955303f06fc995b4eadf541dfcde04b5183a73ab59f7c5987307cdf13d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32343336366135323031333636303564393632336233356335376634663334353034623839633534323937346363323633313737386435393734373936353834",
+      "password_sha256": "c7f99490f1b78f9549bac8fe7d58102301f7b389c9b014427848d943fa00bf18",
+      "preimage_hex": "4b51765dc4ef6b3522955303f06fc995b4eadf541dfcde04b5183a73ab59f7c5987307cdf13d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "24366a520136605d9623b35c57f4f34504b89c542974cc2631778d5974796584",
+      "password_sha256": "62ea55283e85a48f69c18d379f1ba07395bfd29c31d556863408c31c0b5021c3",
+      "preimage_hex": "4b51765dc4ef6b3522955303f06fc995b4eadf541dfcde04b5183a73ab59f7c5987307cdf13d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/left-plus-right",
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c084",
+      "password_expansion": "raw",
+      "password_hex": "4d718e63c4ef754b22af77051071f9adcc1ae17c2504fe0ccd284e9dd76909fda87307cdf343",
+      "password_sha256": "b9b1ac8001aaa5577d65969f9d1c63e3021f9eb743a53872f715be34c8543499",
+      "preimage_hex": "4d718e63c4ef754b22af77051071f9adcc1ae17c2504fe0ccd284e9dd76909fda87307cdf343",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62396231616338303031616161353537376436353936396639643163363365333032316639656237343361353338373266373135626533346338353433343939",
+      "password_sha256": "3c53144e2529423fad69bcd1b091ab0dc604078333635227bb6248d356410149",
+      "preimage_hex": "4d718e63c4ef754b22af77051071f9adcc1ae17c2504fe0ccd284e9dd76909fda87307cdf343",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b9b1ac8001aaa5577d65969f9d1c63e3021f9eb743a53872f715be34c8543499",
+      "password_sha256": "d89dc1db3c4fee95bc5f00e28dfad3b5af59290da55b7e8c1a98f9beca4ad920",
+      "preimage_hex": "4d718e63c4ef754b22af77051071f9adcc1ae17c2504fe0ccd284e9dd76909fda87307cdf343",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c087",
+      "password_expansion": "raw",
+      "password_hex": "4ea4866833a5889d388c01615c6ab00c745d396ec5aac936e94083742108ff58acdcfa710cc7",
+      "password_sha256": "5b3d255e29d9c6aca0fc77e53b31da82a207c342edc87cece79a99f49dc74839",
+      "preimage_hex": "4ea4866833a5889d388c01615c6ab00c745d396ec5aac936e94083742108ff58acdcfa710cc7",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35623364323535653239643963366163613066633737653533623331646138326132303763333432656463383763656365373961393966343964633734383339",
+      "password_sha256": "9c85fb6591b6c513404f2a2ce29f006afec45043da2fb374f86ea4cc040594df",
+      "preimage_hex": "4ea4866833a5889d388c01615c6ab00c745d396ec5aac936e94083742108ff58acdcfa710cc7",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5b3d255e29d9c6aca0fc77e53b31da82a207c342edc87cece79a99f49dc74839",
+      "password_sha256": "59df5cef040e997863ad60b165400a3b6e16ada19071d72eaf3e53a8890d0de8",
+      "preimage_hex": "4ea4866833a5889d388c01615c6ab00c745d396ec5aac936e94083742108ff58acdcfa710cc7",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c090",
+      "password_expansion": "raw",
+      "password_hex": "4f2c0c77b5390908a60d931a4e6924841b4fa06ed731dd92e9740a6fb99aee4836c6bc7df3d2",
+      "password_sha256": "a4a5335628177e68ccc8f1b1f5497a0be25f3bb440534de2c2a6131ac019836e",
+      "preimage_hex": "4f2c0c77b5390908a60d931a4e6924841b4fa06ed731dd92e9740a6fb99aee4836c6bc7df3d2",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61346135333335363238313737653638636363386631623166353439376130626532356633626234343035333464653263326136313331616330313938333665",
+      "password_sha256": "3c8e54413198826613e391c4c25cac0cbacfe04b1261f027f2566b29448200e0",
+      "preimage_hex": "4f2c0c77b5390908a60d931a4e6924841b4fa06ed731dd92e9740a6fb99aee4836c6bc7df3d2",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a4a5335628177e68ccc8f1b1f5497a0be25f3bb440534de2c2a6131ac019836e",
+      "password_sha256": "7e64e0260e5105e8d37c1404264a64925180b1a5061e3dc659bbf59b614aa5ef",
+      "preimage_hex": "4f2c0c77b5390908a60d931a4e6924841b4fa06ed731dd92e9740a6fb99aee4836c6bc7df3d2",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c093",
+      "password_expansion": "raw",
+      "password_hex": "5c7e7f52b5e0645a13be4414e160cebabfebf04d3613cf1dde393d6ca45af8ca997c08dee252",
+      "password_sha256": "6ff889783e3da1fa1cd627a9e32e82c7e6b7fdf132819d9be3c8a778d529c155",
+      "preimage_hex": "5c7e7f52b5e0645a13be4414e160cebabfebf04d3613cf1dde393d6ca45af8ca997c08dee252",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36666638383937383365336461316661316364363237613965333265383263376536623766646631333238313964396265336338613737386435323963313535",
+      "password_sha256": "88b411a349196335f180d5b68ac19ffbbe9f434a7c77a2057c41b773cd8db94f",
+      "preimage_hex": "5c7e7f52b5e0645a13be4414e160cebabfebf04d3613cf1dde393d6ca45af8ca997c08dee252",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6ff889783e3da1fa1cd627a9e32e82c7e6b7fdf132819d9be3c8a778d529c155",
+      "password_sha256": "00b0789f7732251b1aa68c2a1d8a15441466003e9857ac2cfe0b44e901e926a4",
+      "preimage_hex": "5c7e7f52b5e0645a13be4414e160cebabfebf04d3613cf1dde393d6ca45af8ca997c08dee252",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c096",
+      "password_expansion": "raw",
+      "password_hex": "5db5775f24b67b6c299f16702d55811d672e087fd6b9da07fa5172433ef9ee299dcdeb42ffd6",
+      "password_sha256": "b08f7a38a3de8b1b56d3ac9616f7b70cb543663627482a456dc3190114d1ee56",
+      "preimage_hex": "5db5775f24b67b6c299f16702d55811d672e087fd6b9da07fa5172433ef9ee299dcdeb42ffd6",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62303866376133386133646538623162353664336163393631366637623730636235343336363336323734383261343536646333313930313134643165653536",
+      "password_sha256": "56939898a5f8f80079af337d697c9890f8f0477155f31fc65801c80f8f57b73c",
+      "preimage_hex": "5db5775f24b67b6c299f16702d55811d672e087fd6b9da07fa5172433ef9ee299dcdeb42ffd6",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b08f7a38a3de8b1b56d3ac9616f7b70cb543663627482a456dc3190114d1ee56",
+      "password_sha256": "7eab7b81949d8f4de6a8db6175ef1757ddc51cdb73a58d73d58103eeb5b8c45f",
+      "preimage_hex": "5db5775f24b67b6c299f16702d55811d672e087fd6b9da07fa5172433ef9ee299dcdeb42ffd6",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c099",
+      "password_expansion": "raw",
+      "password_hex": "5e3f7b64c436067bb572e40b5f1837930a3eb37fa642aae3f665797cc88bf13927d18d6282ad",
+      "password_sha256": "813816cdddd9d3ec89822f08a21f19a364811d2b78adbd0ba08acfd7f8c9a237",
+      "preimage_hex": "5e3f7b64c436067bb572e40b5f1837930a3eb37fa642aae3f665797cc88bf13927d18d6282ad",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38313338313663646464643964336563383938323266303861323166313961333634383131643262373861646264306261303861636664376638633961323337",
+      "password_sha256": "127b2af2ddd3c4d90e9e118268952884aaf1ec7f3ffba6e89e1a10b3bd3f559b",
+      "preimage_hex": "5e3f7b64c436067bb572e40b5f1837930a3eb37fa642aae3f665797cc88bf13927d18d6282ad",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "813816cdddd9d3ec89822f08a21f19a364811d2b78adbd0ba08acfd7f8c9a237",
+      "password_sha256": "51fba5aaeb0131ce009db841e6224bb25088fd77cf1327cc4f83304785b516ac",
+      "preimage_hex": "5e3f7b64c436067bb572e40b5f1837930a3eb37fa642aae3f665797cc88bf13927d18d6282ad",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c102",
+      "password_expansion": "raw",
+      "password_hex": "60bf836836b6867b3982048b5f66b72b8c40437fd8bad20b06658580320b0139b7d93172f4cd",
+      "password_sha256": "c500d47d3d6b63c821e1f0060e6f1b9f794e3437942e6bccf6db3eb1366401aa",
+      "preimage_hex": "60bf836836b6867b3982048b5f66b72b8c40437fd8bad20b06658580320b0139b7d93172f4cd",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c103",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63353030643437643364366236336338323165316630303630653666316239663739346533343337393432653662636366366462336562313336363430316161",
+      "password_sha256": "b647e7437cfdc18a2f4c98f59b57181b4defc6c0bcc07b204947f503a634cc31",
+      "preimage_hex": "60bf836836b6867b3982048b5f66b72b8c40437fd8bad20b06658580320b0139b7d93172f4cd",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c104",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c500d47d3d6b63c821e1f0060e6f1b9f794e3437942e6bccf6db3eb1366401aa",
+      "password_sha256": "b7b6e927dd31dfa4a780c0a22dee19613e0b7fc379a349f55bf25ffefdefabeb",
+      "preimage_hex": "60bf836836b6867b3982048b5f66b72b8c40437fd8bad20b06658580320b0139b7d93172f4cd",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c105",
+      "password_expansion": "raw",
+      "password_hex": "61700369b7807931b35316af8303ecccc2f98b6dc6ec97e5d2bd3a17426a87a43b00b0ee8129",
+      "password_sha256": "45b25d77e840bf00094dcdc56e7be92f0edde7fdeca84e4a12d41673d9b8c2dd",
+      "preimage_hex": "61700369b7807931b35316af8303ecccc2f98b6dc6ec97e5d2bd3a17426a87a43b00b0ee8129",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c106",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34356232356437376538343062663030303934646364633536653762653932663065646465376664656361383465346131326434313637336439623863326464",
+      "password_sha256": "8a81cc0ada17d7929dcf8d58f0b419ccd00b43c33927ef5d595f43c5f5e307a6",
+      "preimage_hex": "61700369b7807931b35316af8303ecccc2f98b6dc6ec97e5d2bd3a17426a87a43b00b0ee8129",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c107",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "45b25d77e840bf00094dcdc56e7be92f0edde7fdeca84e4a12d41673d9b8c2dd",
+      "password_sha256": "db5182d571e77332eba6f7710bd23061f005f56b0a6174415d2b402e7442036a",
+      "preimage_hex": "61700369b7807931b35316af8303ecccc2f98b6dc6ec97e5d2bd3a17426a87a43b00b0ee8129",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c108",
+      "password_expansion": "raw",
+      "password_hex": "61747b6dc700794533a3562f137bf0ccd4050b713810e705e23d42a7bc6c17d6bb884eeef149",
+      "password_sha256": "daf09af74e6fbeca81dbd18901571f927e27b7cd0a8113adbd9811ce50fe50e5",
+      "preimage_hex": "61747b6dc700794533a3562f137bf0ccd4050b713810e705e23d42a7bc6c17d6bb884eeef149",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c109",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64616630396166373465366662656361383164626431383930313537316639323765323762376364306138313133616462643938313163653530666535306535",
+      "password_sha256": "704059437cc065db1ea2e4da291f1263516a64e874ca7f41bca53698e4ab09d0",
+      "preimage_hex": "61747b6dc700794533a3562f137bf0ccd4050b713810e705e23d42a7bc6c17d6bb884eeef149",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c110",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "daf09af74e6fbeca81dbd18901571f927e27b7cd0a8113adbd9811ce50fe50e5",
+      "password_sha256": "5119b09b53ca12602677865f697aa9f6430d1ca2e6ee28d525040299163af776",
+      "preimage_hex": "61747b6dc700794533a3562f137bf0ccd4050b713810e705e23d42a7bc6c17d6bb884eeef149",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c111",
+      "password_expansion": "raw",
+      "password_hex": "63cb896136b8859433a128844f67b72379503881e8c7dc290467866d4003f2579fcfed6401ea",
+      "password_sha256": "610e6c0de2015e538c798691d286468f44866ec6e396c7676ab727c6ab7125eb",
+      "preimage_hex": "63cb896136b8859433a128844f67b72379503881e8c7dc290467866d4003f2579fcfed6401ea",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c112",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36313065366330646532303135653533386337393836393164323836343638663434383636656336653339366337363736616237323763366162373132356562",
+      "password_sha256": "1811a0efc988ae7accb2f9c918ec40928095bf32225139f735eaa06d4dd80d47",
+      "preimage_hex": "63cb896136b8859433a128844f67b72379503881e8c7dc290467866d4003f2579fcfed6401ea",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c113",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "610e6c0de2015e538c798691d286468f44866ec6e396c7676ab727c6ab7125eb",
+      "password_sha256": "7ee723a82533ca698358fd0690fa1d6f6d3e7e010d33c372555506a24bcfcece",
+      "preimage_hex": "63cb896136b8859433a128844f67b72379503881e8c7dc290467866d4003f2579fcfed6401ea",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c114",
+      "password_expansion": "raw",
+      "password_hex": "64808166c702785e2dc27a28037cf0c4c1150073481df123e03f4394ca6408f4a37e0ae0fe66",
+      "password_sha256": "afd1f1c56e4073d2eab05d5d6457bf2a5a6e6d1c2f2f1f372537f502a48a51a2",
+      "preimage_hex": "64808166c702785e2dc27a28037cf0c4c1150073481df123e03f4394ca6408f4a37e0ae0fe66",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c115",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61666431663163353665343037336432656162303564356436343537626632613561366536643163326632663166333732353337663530326134386135316132",
+      "password_sha256": "3839b0f436b559f0b98721e3914e52df22586defd96a3668d55687bc2b62003f",
+      "preimage_hex": "64808166c702785e2dc27a28037cf0c4c1150073481df123e03f4394ca6408f4a37e0ae0fe66",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c116",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "afd1f1c56e4073d2eab05d5d6457bf2a5a6e6d1c2f2f1f372537f502a48a51a2",
+      "password_sha256": "0fc4c851bb521b6b8bae305da1c9a6565683e2bf2d97e4817f441c2c34d47042",
+      "preimage_hex": "64808166c702785e2dc27a28037cf0c4c1150073481df123e03f4394ca6408f4a37e0ae0fe66",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c117",
+      "password_expansion": "raw",
+      "password_hex": "6fce927745c5958a4891139a6e75c63a9b4f528ee7c9e11a1574948f411a1048c6e8408103dc",
+      "password_sha256": "7521fd44295fe22e1ee0a6f809114818a43438e68378c2f9391bf2cbc02458d6",
+      "preimage_hex": "6fce927745c5958a4891139a6e75c63a9b4f528ee7c9e11a1574948f411a1048c6e8408103dc",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c118",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37353231666434343239356665323265316565306136663830393131343831386134333433386536383337386332663933393162663263626330323435386436",
+      "password_sha256": "4547ff0ea277d45d824a6114814ed733ab3e0b6f21f56f92dcc6c97e41257a24",
+      "preimage_hex": "6fce927745c5958a4891139a6e75c63a9b4f528ee7c9e11a1574948f411a1048c6e8408103dc",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c119",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7521fd44295fe22e1ee0a6f809114818a43438e68378c2f9391bf2cbc02458d6",
+      "password_sha256": "62d8ba540dc1e1b4a23b76668418d5cc4efee474497ca84231bdda47f0079823",
+      "preimage_hex": "6fce927745c5958a4891139a6e75c63a9b4f528ee7c9e11a1574948f411a1048c6e8408103dc",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c120",
+      "password_expansion": "raw",
+      "password_hex": "7063747ac68f7642a02c61be9272ffdbd388987cb79fe094cdac4904337b98d52a1781f1f056",
+      "password_sha256": "69b060dd2ebef157d2f2b18f77d1f48f3ac1ff9ca91deb25bd5595ee5dca2e04",
+      "preimage_hex": "7063747ac68f7642a02c61be9272ffdbd388987cb79fe094cdac4904337b98d52a1781f1f056",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c121",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36396230363064643265626566313537643266326231386637376431663438663361633166663963613931646562323562643535393565653564636132653034",
+      "password_sha256": "483f512a4f94538b8b39bb35307a5e5a898c9b6581e9450650ee1bd24467e7dc",
+      "preimage_hex": "7063747ac68f7642a02c61be9272ffdbd388987cb79fe094cdac4904337b98d52a1781f1f056",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c122",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "69b060dd2ebef157d2f2b18f77d1f48f3ac1ff9ca91deb25bd5595ee5dca2e04",
+      "password_sha256": "8dc7179c5298f0a94844bf58c31f3d5f310b544a9d5656d154d7e751d82def02",
+      "preimage_hex": "7063747ac68f7642a02c61be9272ffdbd388987cb79fe094cdac4904337b98d52a1781f1f056",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c123",
+      "password_expansion": "raw",
+      "password_hex": "70838a7cd60f885442b2653e228affdbe3141a80471ff614f14c51b6cb7b26e5ca975dfd0058",
+      "password_sha256": "d2bcf51b815799fda43de119a435f113ed44545be523637429614dd07eb47d4f",
+      "preimage_hex": "70838a7cd60f885442b2653e228affdbe3141a80471ff614f14c51b6cb7b26e5ca975dfd0058",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c124",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64326263663531623831353739396664613433646531313961343335663131336564343435343562653532333633373432393631346464303765623437643466",
+      "password_sha256": "bd931f686b4cbc25cf1647270ac8a46d5f526e54aafc96102b3aefd699a4aef6",
+      "preimage_hex": "70838a7cd60f885442b2653e228affdbe3141a80471ff614f14c51b6cb7b26e5ca975dfd0058",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c125",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d2bcf51b815799fda43de119a435f113ed44545be523637429614dd07eb47d4f",
+      "password_sha256": "56e3805a15876adf4d962baa577e9dc45b41a82bc2c0a7cd53a86599732682f5",
+      "preimage_hex": "70838a7cd60f885442b2653e228affdbe3141a80471ff614f14c51b6cb7b26e5ca975dfd0058",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c126",
+      "password_expansion": "raw",
+      "password_hex": "72da987045c794a342b037935e76c632885f4790f7d6eb381376957c4f120166aedefc7310f9",
+      "password_sha256": "216812550ada4c2ed7738fb4c43b8396e3b7fdca58f414610551f53b1ae8c21d",
+      "preimage_hex": "72da987045c794a342b037935e76c632885f4790f7d6eb381376957c4f120166aedefc7310f9",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c127",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32313638313235353061646134633265643737333866623463343362383339366533623766646361353866343134363130353531663533623161653863323164",
+      "password_sha256": "8724fb32cb0e9db4fde714e05a5d5b172c166592c6d97c51709a038a8a4f940b",
+      "preimage_hex": "72da987045c794a342b037935e76c632885f4790f7d6eb381376957c4f120166aedefc7310f9",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c128",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "216812550ada4c2ed7738fb4c43b8396e3b7fdca58f414610551f53b1ae8c21d",
+      "password_sha256": "46b0552d9b8573352a4280858667889b41e2b22ae3c17939dfc5b138f963f49d",
+      "preimage_hex": "72da987045c794a342b037935e76c632885f4790f7d6eb381376957c4f120166aedefc7310f9",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c129",
+      "password_expansion": "raw",
+      "password_hex": "738f9075d611876d3cd18937128bffd3d0240f82572c0032ef4e52a3d9731703b28d19ef0d75",
+      "password_sha256": "aeba0cbf024a2b5f249ab2746a7ec6ab8f5df4bdcf8d39472073897b9a963339",
+      "preimage_hex": "738f9075d611876d3cd18937128bffd3d0240f82572c0032ef4e52a3d9731703b28d19ef0d75",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c130",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61656261306362663032346132623566323439616232373436613765633661623866356466346264636638643339343732303733383937623961393633333339",
+      "password_sha256": "b9bdfd1941e3413afccfa63523ef406e08100ddaff444b2b9d5be3b33848046e",
+      "preimage_hex": "738f9075d611876d3cd18937128bffd3d0240f82572c0032ef4e52a3d9731703b28d19ef0d75",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c131",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "aeba0cbf024a2b5f249ab2746a7ec6ab8f5df4bdcf8d39472073897b9a963339",
+      "password_sha256": "a4fb2df30ba9d12546cbf8688e879d96ea4086e15d45c358e1e382349ad89b85",
+      "preimage_hex": "738f9075d611876d3cd18937128bffd3d0240f82572c0032ef4e52a3d9731703b28d19ef0d75",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c132",
+      "password_expansion": "raw",
+      "password_hex": "8d71708b2aef7993c42f77c9ee75012d30dcf17ea9d400ce11b2ae5d278de9fd4e73e711f38b",
+      "password_sha256": "4f10fc013917e251154390fd5ed588d66fcc12f02dca84a71860c2cc1e34ebd0",
+      "preimage_hex": "8d71708b2aef7993c42f77c9ee75012d30dcf17ea9d400ce11b2ae5d278de9fd4e73e711f38b",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c133",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34663130666330313339313765323531313534333930666435656435383864363666636331326630326463613834613731383630633263633165333465626430",
+      "password_sha256": "6eeae5016148a8bfe31ef784d16a1f391d3e47995ba811af95bd3a8879e38e3f",
+      "preimage_hex": "8d71708b2aef7993c42f77c9ee75012d30dcf17ea9d400ce11b2ae5d278de9fd4e73e711f38b",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c134",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4f10fc013917e251154390fd5ed588d66fcc12f02dca84a71860c2cc1e34ebd0",
+      "password_sha256": "f25d2d7dfa99ccc716c63f791391e3ffd50a4c2903301108ad4ccac5d2cfc43a",
+      "preimage_hex": "8d71708b2aef7993c42f77c9ee75012d30dcf17ea9d400ce11b2ae5d278de9fd4e73e711f38b",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c135",
+      "password_expansion": "raw",
+      "password_hex": "8e266890bb396c5dbe50c96da28a3ace78a1b970092a15c8ed8a6b84b1eeff9a5222048df007",
+      "password_sha256": "d79a5852837ca1c713ba8a24527eec21cc17e60cc103177c86cddf14351e4f5a",
+      "preimage_hex": "8e266890bb396c5dbe50c96da28a3ace78a1b970092a15c8ed8a6b84b1eeff9a5222048df007",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c136",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64373961353835323833376361316337313362613861323435323765656332316363313765363063633130333137376338366364646631343335316534663561",
+      "password_sha256": "c9c1c232b509bd95140b7129cb28f68ebf619852ea6c2a3cf313fa33d340b2c9",
+      "preimage_hex": "8e266890bb396c5dbe50c96da28a3ace78a1b970092a15c8ed8a6b84b1eeff9a5222048df007",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c137",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d79a5852837ca1c713ba8a24527eec21cc17e60cc103177c86cddf14351e4f5a",
+      "password_sha256": "474ca19617e1d25e49b12f96e6d74fead1614cd7575f69079fc63a9a632f0046",
+      "preimage_hex": "8e266890bb396c5dbe50c96da28a3ace78a1b970092a15c8ed8a6b84b1eeff9a5222048df007",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c138",
+      "password_expansion": "raw",
+      "password_hex": "9c807f9a39fe88a2d33e86d8fd84103c3feb008db8e30fdd20c1bd6c369cf80c5d82f620029a",
+      "password_sha256": "b37d1f109f8dda6467621ab38bdc1969d5979e45c70f9496182d35272ed57f74",
+      "preimage_hex": "9c807f9a39fe88a2d33e86d8fd84103c3feb008db8e30fdd20c1bd6c369cf80c5d82f620029a",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c139",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62333764316631303966386464613634363736323161623338626463313936396435393739653435633730663934393631383264333532373265643537663734",
+      "password_sha256": "ca3e9e7a0c1bffd0967377828d67648df4d2077b8612d4d69b54ba1a76016487",
+      "preimage_hex": "9c807f9a39fe88a2d33e86d8fd84103c3feb008db8e30fdd20c1bd6c369cf80c5d82f620029a",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c140",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b37d1f109f8dda6467621ab38bdc1969d5979e45c70f9496182d35272ed57f74",
+      "password_sha256": "db746148ec919ef528b35a26ed0acb03f2718fa8d27a7382f8569f08339ef7fc",
+      "preimage_hex": "9c807f9a39fe88a2d33e86d8fd84103c3feb008db8e30fdd20c1bd6c369cf80c5d82f620029a",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c141",
+      "password_expansion": "raw",
+      "password_hex": "9d35779fca487b6ccd5fd87cb19949dd87b0c87f183924d7fc997a93c0fd0ea96131139cff16",
+      "password_sha256": "6aa72fa89de03c37c2b02d5750c21fe23ca3ba8f7b6990903847ddcea730d63f",
+      "preimage_hex": "9d35779fca487b6ccd5fd87cb19949dd87b0c87f183924d7fc997a93c0fd0ea96131139cff16",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c142",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36616137326661383964653033633337633262303264353735306332316665323363613362613866376236393930393033383437646463656137333064363366",
+      "password_sha256": "d93e37038fdbe42cd20cc2e274994ae66523a38310c9b2eb6938cbcd4cc65d80",
+      "preimage_hex": "9d35779fca487b6ccd5fd87cb19949dd87b0c87f183924d7fc997a93c0fd0ea96131139cff16",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c143",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6aa72fa89de03c37c2b02d5750c21fe23ca3ba8f7b6990903847ddcea730d63f",
+      "password_sha256": "d33ab9bfbe355699be9474b17d79a92bafa0e43bacfcd77b0d1ac21b769f4968",
+      "preimage_hex": "9d35779fca487b6ccd5fd87cb19949dd87b0c87f183924d7fc997a93c0fd0ea96131139cff16",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/right-minus-left",
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c144",
+      "password_expansion": "raw",
+      "password_hex": "a34d8fa1da48859cd561e88cd1ab79e599d0c883284724fb04a98ebdc00512d9613113bc012a",
+      "password_sha256": "0f53ce03303b27a519de795e1f7a9444e65dbe3359320e44b7f844bb485b5827",
+      "preimage_hex": "a34d8fa1da48859cd561e88cd1ab79e599d0c883284724fb04a98ebdc00512d9613113bc012a",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c145",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30663533636530333330336232376135313964653739356531663761393434346536356462653333353933323065343462376638343462623438356235383237",
+      "password_sha256": "d8efc865fc9d1f85751c1a17e6d9bd9a27de4271e9c91d28c037d422d0158215",
+      "preimage_hex": "a34d8fa1da48859cd561e88cd1ab79e599d0c883284724fb04a98ebdc00512d9613113bc012a",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c146",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0f53ce03303b27a519de795e1f7a9444e65dbe3359320e44b7f844bb485b5827",
+      "password_sha256": "8be595882d32a7fd51c3248d086b63e723ce07c4edf07ecaa8831a1f3cd900ac",
+      "preimage_hex": "a34d8fa1da48859cd561e88cd1ab79e599d0c883284724fb04a98ebdc00512d9613113bc012a",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c147",
+      "password_expansion": "raw",
+      "password_hex": "b25a7890cb597463c670f99fa29a4ef288a1c790395635c815be7d8cd1f601a65222048df039",
+      "password_sha256": "e0f38db0126137a14a1d95a3f301b77180060b0c690414691120a3e500c903c9",
+      "preimage_hex": "b25a7890cb597463c670f99fa29a4ef288a1c790395635c815be7d8cd1f601a65222048df039",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c148",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65306633386462303132363133376131346131643935613366333031623737313830303630623063363930343134363931313230613365353030633930336339",
+      "password_sha256": "2eddbd4583ede6d18fc095a0b0afa59e2d269232ebaa60eb2359dd99d044ea11",
+      "preimage_hex": "b25a7890cb597463c670f99fa29a4ef288a1c790395635c815be7d8cd1f601a65222048df039",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c149",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e0f38db0126137a14a1d95a3f301b77180060b0c690414691120a3e500c903c9",
+      "password_sha256": "ff734cf34dc9a3712f287f9a12442d0b4ed956e3df9704b82506044169ddfac3",
+      "preimage_hex": "b25a7890cb597463c670f99fa29a4ef288a1c790395635c815be7d8cd1f601a65222048df039",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c150",
+      "password_expansion": "raw",
+      "password_hex": "b391709d3aef8bb5dc518bfbee8f015530e41f82d9fc00f231d6b2632b95f7055673e7310dbd",
+      "password_sha256": "0b1db04fbc57f7293bab039698c7dd8b27ad78b05df844f9622f923d94aaa7c7",
+      "preimage_hex": "b391709d3aef8bb5dc518bfbee8f015530e41f82d9fc00f231d6b2632b95f7055673e7310dbd",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c151",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30623164623034666263353766373239336261623033393639386337646438623237616437386230356466383434663936323266393233643934616161376337",
+      "password_sha256": "4ee0a69049282b2fbc0efcf1d883b3ee2f5ab3e586012d0f011ec2f4c52b73e9",
+      "preimage_hex": "b391709d3aef8bb5dc518bfbee8f015530e41f82d9fc00f231d6b2632b95f7055673e7310dbd",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c152",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0b1db04fbc57f7293bab039698c7dd8b27ad78b05df844f9622f923d94aaa7c7",
+      "password_sha256": "c5e7cef416a58649101291e3d6310a717adbb45d1f6ed40b0e2155df2bbbb6f2",
+      "preimage_hex": "b391709d3aef8bb5dc518bfbee8f015530e41f82d9fc00f231d6b2632b95f7055673e7310dbd",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c153",
+      "password_expansion": "raw",
+      "password_hex": "b5af8aa33c1195cbde6badfd1091376b4c1621ace30422fc4be8c68d55a7093b688df9330fc3",
+      "password_sha256": "364e2b83373a67272002964d2540e81ccc2e82900c53b4b629619d1a4257bbb3",
+      "preimage_hex": "b5af8aa33c1195cbde6badfd1091376b4c1621ace30422fc4be8c68d55a7093b688df9330fc3",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c154",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33363465326238333337336136373237323030323936346432353430653831636363326538323930306335336234623632393631396431613432353762626233",
+      "password_sha256": "2050de1e523130e0104158ede3f4ed7dfdfc9903bcec150b9c9b74b712bf42a3",
+      "preimage_hex": "b5af8aa33c1195cbde6badfd1091376b4c1621ace30422fc4be8c68d55a7093b688df9330fc3",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c155",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "364e2b83373a67272002964d2540e81ccc2e82900c53b4b629619d1a4257bbb3",
+      "password_sha256": "198e981c6bc977ad81ba7b5db14cdb44c6bc492aaf04b7cb26bd1dd4f5301c11",
+      "preimage_hex": "b5af8aa33c1195cbde6badfd1091376b4c1621ace30422fc4be8c68d55a7093b688df9330fc3",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c156",
+      "password_expansion": "raw",
+      "password_hex": "b66482a8cd5b8895d88cffa1c4a6700c94dbe99e435a37f627c083b4df081fd86c3c16af0c3f",
+      "password_sha256": "2354b2cf0afe8c655e1db022698cc44a275e2e17fcb810b7057c6b11df21aacf",
+      "preimage_hex": "b66482a8cd5b8895d88cffa1c4a6700c94dbe99e435a37f627c083b4df081fd86c3c16af0c3f",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c157",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32333534623263663061666538633635356531646230323236393863633434613237356532653137666362383130623730353763366231316466323161616366",
+      "password_sha256": "a1ed19995f909cc66611e83a0df3dc44c66701f755adc91cd0853e7bac5e2bf5",
+      "preimage_hex": "b66482a8cd5b8895d88cffa1c4a6700c94dbe99e435a37f627c083b4df081fd86c3c16af0c3f",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c158",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2354b2cf0afe8c655e1db022698cc44a275e2e17fcb810b7057c6b11df21aacf",
+      "password_sha256": "d46d7bb8419a6e3d32e29158503f2f3bfe67bf082c548d0b217c36d63bb13788",
+      "preimage_hex": "b66482a8cd5b8895d88cffa1c4a6700c94dbe99e435a37f627c083b4df081fd86c3c16af0c3f",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c159",
+      "password_expansion": "raw",
+      "password_hex": "bb8d7feb2ca87b6c196ff880bddb89e58db208d73a994cfb4cd97ed7220d5ea9a93933ec6536",
+      "password_sha256": "c8baff1185cd348697ddca5397eba4c936e09535061860291ac346660fa007b3",
+      "preimage_hex": "bb8d7feb2ca87b6c196ff880bddb89e58db208d73a994cfb4cd97ed7220d5ea9a93933ec6536",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c160",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63386261666631313835636433343836393764646361353339376562613463393336653039353335303631383630323931616333343636363066613030376233",
+      "password_sha256": "b4559b20ea2ef7ecf8fa75370e1e9fc3ce0ea4f00000bf8d14373a7c857182f6",
+      "preimage_hex": "bb8d7feb2ca87b6c196ff880bddb89e58db208d73a994cfb4cd97ed7220d5ea9a93933ec6536",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c161",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c8baff1185cd348697ddca5397eba4c936e09535061860291ac346660fa007b3",
+      "password_sha256": "f2f4250a064995dbc0b2a66064ca6c346c58fe2749e0ab433e43b82c825f2754",
+      "preimage_hex": "bb8d7feb2ca87b6c196ff880bddb89e58db208d73a994cfb4cd97ed7220d5ea9a93933ec6536",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c162",
+      "password_expansion": "raw",
+      "password_hex": "bc8087ae491e98a6d346bae81d9c3044411b00b5c8ed0fe520c1c3945aa408346582f62002ae",
+      "password_sha256": "7cf01415b9a39f751d384a9126f6a4b45c5d6c3f24480899316bb59e08b055bb",
+      "preimage_hex": "bc8087ae491e98a6d346bae81d9c3044411b00b5c8ed0fe520c1c3945aa408346582f62002ae",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c163",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37636630313431356239613339663735316433383461393132366636613462343563356436633366323434383038393933313662623539653038623035356262",
+      "password_sha256": "200d82b8182a8664bfe1301e8d799bb2829ff9cf1b0432ce3980b6fc37e4ec54",
+      "preimage_hex": "bc8087ae491e98a6d346bae81d9c3044411b00b5c8ed0fe520c1c3945aa408346582f62002ae",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c164",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7cf01415b9a39f751d384a9126f6a4b45c5d6c3f24480899316bb59e08b055bb",
+      "password_sha256": "36d6770ac3063d295a0b88009cc47893ff96cce13c050bb3fd1d9c9ea4abb530",
+      "preimage_hex": "bc8087ae491e98a6d346bae81d9c3044411b00b5c8ed0fe520c1c3945aa408346582f62002ae",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/then-adjacent-key/xor"
+      ]
+    },
+    {
+      "candidate_id": "v13c165",
+      "password_expansion": "raw",
+      "password_hex": "c4be99b24b20a4daed7abc0c1fa0467a5b2530bbf213310b5af7d59c64b6184a779c08421ed2",
+      "password_sha256": "6dfba7c55ca626cf19b471f312f366926cabf47b8175dc1c4bd7def4e514228a",
+      "preimage_hex": "c4be99b24b20a4daed7abc0c1fa0467a5b2530bbf213310b5af7d59c64b6184a779c08421ed2",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c166",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36646662613763353563613632366366313962343731663331326633363639323663616266343762383137356463316334626437646566346535313432323861",
+      "password_sha256": "b13efb66606caae20d6668b3ee092c961edb74b661eaa464fc41dae6da8e7f5e",
+      "preimage_hex": "c4be99b24b20a4daed7abc0c1fa0467a5b2530bbf213310b5af7d59c64b6184a779c08421ed2",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c167",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6dfba7c55ca626cf19b471f312f366926cabf47b8175dc1c4bd7def4e514228a",
+      "password_sha256": "39921ab6170b673dbffb6940ea5dcb89d6ae2f8fe9bf2fd34cf8d5ea3da8a1c2",
+      "preimage_hex": "c4be99b24b20a4daed7abc0c1fa0467a5b2530bbf213310b5af7d59c64b6184a779c08421ed2",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c168",
+      "password_expansion": "raw",
+      "password_hex": "c57391b7dc6a97a4e79b0eb0d3b57f1ba3eaf8ad5269460536cf92c3ee172ee77b4b25be1b4e",
+      "password_sha256": "e9120db73e57d30476ffbe0ca7117fddf6c36825e9eb56cd0c3efd2c25987688",
+      "preimage_hex": "c57391b7dc6a97a4e79b0eb0d3b57f1ba3eaf8ad5269460536cf92c3ee172ee77b4b25be1b4e",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c169",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65393132306462373365353764333034373666666265306361373131376664646636633336383235653965623536636430633365666432633235393837363838",
+      "password_sha256": "969cafb72c1ba7b7b296c8915a8a8a3e8f9fe146ef2e0b0dbbc17225f3d33a57",
+      "preimage_hex": "c57391b7dc6a97a4e79b0eb0d3b57f1ba3eaf8ad5269460536cf92c3ee172ee77b4b25be1b4e",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c170",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e9120db73e57d30476ffbe0ca7117fddf6c36825e9eb56cd0c3efd2c25987688",
+      "password_sha256": "d8315ac8a90e35bd5e926cb3f5b15d51fca31d8013187ea7998e289ed4f1bbaf",
+      "preimage_hex": "c57391b7dc6a97a4e79b0eb0d3b57f1ba3eaf8ad5269460536cf92c3ee172ee77b4b25be1b4e",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/right-minus-left/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c171",
+      "password_expansion": "raw",
+      "password_hex": "caa0eed83ba578df28d44971ce8a9cf47ca11be809aa194c59caede431fe619a9a4404d1f411",
+      "password_sha256": "71ea6cf0ca658cc5e32f2a943956216592a11b5ea504c6eff9418e245596f808",
+      "preimage_hex": "caa0eed83ba578df28d44971ce8a9cf47ca11be809aa194c59caede431fe619a9a4404d1f411",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c172",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37316561366366306361363538636335653332663261393433393536323136353932613131623565613530346336656666393431386532343535393666383038",
+      "password_sha256": "1b5b63651620d1fe7a85113a2b517021b7dd36d146f52fa054fd206c586a6c5f",
+      "preimage_hex": "caa0eed83ba578df28d44971ce8a9cf47ca11be809aa194c59caede431fe619a9a4404d1f411",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c173",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "71ea6cf0ca658cc5e32f2a943956216592a11b5ea504c6eff9418e245596f808",
+      "password_sha256": "b887a33d69faf432165f7c00fd8b5b4dd7c0d7b419665562c94d500bd3d5d6af",
+      "preimage_hex": "caa0eed83ba578df28d44971ce8a9cf47ca11be809aa194c59caede431fe619a9a4404d1f411",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c174",
+      "password_expansion": "raw",
+      "password_hex": "cc20f6dcad25f8dface469f1ced81c8cfea3abe83b22417469caf9e89b7e719a2a4ca8e16631",
+      "password_sha256": "efaefc4faaad2677650ff874da5404a5d48e560535ba49ce40c48668ed019468",
+      "preimage_hex": "cc20f6dcad25f8dface469f1ced81c8cfea3abe83b22417469caf9e89b7e719a2a4ca8e16631",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c175",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65666165666334666161616432363737363530666638373464613534303461356434386535363035333562613439636534306334383636386564303139343638",
+      "password_sha256": "56db4e807ce53be7be5c53984f8bb4950a7bee1f0ff5137c472bcdf2b61af39d",
+      "preimage_hex": "cc20f6dcad25f8dface469f1ced81c8cfea3abe83b22417469caf9e89b7e719a2a4ca8e16631",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c176",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "efaefc4faaad2677650ff874da5404a5d48e560535ba49ce40c48668ed019468",
+      "password_sha256": "12b8fac998536a0b620b6ca257f1dcdce3d96e839ead4c8aab2850a1dcb04754",
+      "preimage_hex": "cc20f6dcad25f8dface469f1ced81c8cfea3abe83b22417469caf9e89b7e719a2a4ca8e16631",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c177",
+      "password_expansion": "raw",
+      "password_hex": "cdd176dd2eefeb9526b57b15f275512d345cf3d62954064e3522ae7fabddf705ae73275df38d",
+      "password_sha256": "c4f03cf9de9001245ffefdf67b28f918dda510531432e29f155f2db1162472fb",
+      "preimage_hex": "cdd176dd2eefeb9526b57b15f275512d345cf3d62954064e3522ae7fabddf705ae73275df38d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c178",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63346630336366396465393030313234356666656664663637623238663931386464613531303533313433326532396631353566326462313136323437326662",
+      "password_sha256": "5e8d00a9be56a4cccdfad116a31186fe01f8a2c3fd53e557ef6a917cdd595d06",
+      "preimage_hex": "cdd176dd2eefeb9526b57b15f275512d345cf3d62954064e3522ae7fabddf705ae73275df38d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c179",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c4f03cf9de9001245ffefdf67b28f918dda510531432e29f155f2db1162472fb",
+      "password_sha256": "b5f09f797f5c66868342f15666e2144d01ca78369abe5fe8783a86b53a9d7804",
+      "preimage_hex": "cdd176dd2eefeb9526b57b15f275512d345cf3d62954064e3522ae7fabddf705ae73275df38d",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c180",
+      "password_expansion": "raw",
+      "password_hex": "cdd5eee13e6feba9a605bb9582ed552d466873da9b78566e45a2b60f25df87372efbc55d63ad",
+      "password_sha256": "ce5f2f00cf56d1cd440e85298ed9bcb01cf6dfe382daa6392898a1eee5e8518e",
+      "preimage_hex": "cdd5eee13e6feba9a605bb9582ed552d466873da9b78566e45a2b60f25df87372efbc55d63ad",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c181",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63653566326630306366353664316364343430653835323938656439626362303163663664666533383264616136333932383938613165656535653835313865",
+      "password_sha256": "e3cb6b8f2a1e032a863f1097e62368eb1ea6f09b593f318b30099d674b936150",
+      "preimage_hex": "cdd5eee13e6feba9a605bb9582ed552d466873da9b78566e45a2b60f25df87372efbc55d63ad",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c182",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ce5f2f00cf56d1cd440e85298ed9bcb01cf6dfe382daa6392898a1eee5e8518e",
+      "password_sha256": "a2b465a7d4403c317912baf363bca5f0f12632dc6e546d0971295958caba7c28",
+      "preimage_hex": "cdd5eee13e6feba9a605bb9582ed552d466873da9b78566e45a2b60f25df87372efbc55d63ad",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c183",
+      "password_expansion": "raw",
+      "password_hex": "cf2cfcd5ad27f7f8a6038deabed91c84ebb3a0ea4b2f4b9267ccfad5a97662b8124264d3734e",
+      "password_sha256": "fd174c5cc2695c30f7d3287e74b4423d29d33443a220db9e3d4a82bb9364f503",
+      "preimage_hex": "cf2cfcd5ad27f7f8a6038deabed91c84ebb3a0ea4b2f4b9267ccfad5a97662b8124264d3734e",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c184",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66643137346335636332363935633330663764333238376537346234343233643239643333343433613232306462396533643461383262623933363466353033",
+      "password_sha256": "df8f32ac3c2a52dc2ebafb54c200cc625b461865481f933e0d0e7fcbb7262064",
+      "preimage_hex": "cf2cfcd5ad27f7f8a6038deabed91c84ebb3a0ea4b2f4b9267ccfad5a97662b8124264d3734e",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c185",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "fd174c5cc2695c30f7d3287e74b4423d29d33443a220db9e3d4a82bb9364f503",
+      "password_sha256": "8b5f839853437507360bb33cf4fd289fd069d042329de2f5df5b3ba981dc7309",
+      "preimage_hex": "cf2cfcd5ad27f7f8a6038deabed91c84ebb3a0ea4b2f4b9267ccfad5a97662b8124264d3734e",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c186",
+      "password_expansion": "raw",
+      "password_hex": "d0e1f4da3e71eac2a024df8e72ee5525337868dcab85608c43a4b7fc33d7785516f1814f70ca",
+      "password_sha256": "1cc209f30117dff545be13e8a25dcb95734741766a8210608e147a0e718f4c63",
+      "preimage_hex": "d0e1f4da3e71eac2a024df8e72ee5525337868dcab85608c43a4b7fc33d7785516f1814f70ca",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c187",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31636332303966333031313764666635343562653133653861323564636239353733343734313736366138323130363038653134376130653731386634633633",
+      "password_sha256": "fa7e102fd47e1863c4d09b20033e9f653f3598d63ff991c9f2c1d393baa1e3b4",
+      "preimage_hex": "d0e1f4da3e71eac2a024df8e72ee5525337868dcab85608c43a4b7fc33d7785516f1814f70ca",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c188",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1cc209f30117dff545be13e8a25dcb95734741766a8210608e147a0e718f4c63",
+      "password_sha256": "ff9109aa81a2598e05a3c735ffff95c907382a9a590658ea1fe0c9021a43e53a",
+      "preimage_hex": "d0e1f4da3e71eac2a024df8e72ee5525337868dcab85608c43a4b7fc33d7785516f1814f70ca",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c189",
+      "password_expansion": "raw",
+      "password_hex": "db2f05ebbc3407eebbf37800dde72b9b0db2baf74a31508378d908f7aa8d80a9395bb7f07540",
+      "password_sha256": "8e1d1aba186d516792a338364e3ed5dbc0504802aaf8d70c9cf2e4220db74161",
+      "preimage_hex": "db2f05ebbc3407eebbf37800dde72b9b0db2baf74a31508378d908f7aa8d80a9395bb7f07540",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c190",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38653164316162613138366435313637393261333338333634653365643564626330353034383032616166386437306339636632653432323064623734313631",
+      "password_sha256": "a0f6cc655a0911cafa62f70d7c33aa6b1fe734460057b2c9f1d1982d78041330",
+      "preimage_hex": "db2f05ebbc3407eebbf37800dde72b9b0db2baf74a31508378d908f7aa8d80a9395bb7f07540",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c191",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8e1d1aba186d516792a338364e3ed5dbc0504802aaf8d70c9cf2e4220db74161",
+      "password_sha256": "95cd8332788b54df43d73ca4c16fbf6fe8b16069ebabc291e4f40dba3c01475a",
+      "preimage_hex": "db2f05ebbc3407eebbf37800dde72b9b0db2baf74a31508378d908f7aa8d80a9395bb7f07540",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c192",
+      "password_expansion": "raw",
+      "password_hex": "dcc4e7ee3dfee8a6138ec62401e4643c45eb00e51a074ffd3011bd6c9cee08369d8af86062ba",
+      "password_sha256": "b2cf7cd67eaee0deec2dd0a3d59a8b068e96f47565797328535a7b42f61aa160",
+      "preimage_hex": "dcc4e7ee3dfee8a6138ec62401e4643c45eb00e51a074ffd3011bd6c9cee08369d8af86062ba",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c193",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62326366376364363765616565306465656332646430613364353961386230363865393666343735363537393733323835333561376234326636316161313630",
+      "password_sha256": "3523e34fad2c531abbfe22bc924d9847b36061c4ffbf5a581a392a9ef2cb8954",
+      "preimage_hex": "dcc4e7ee3dfee8a6138ec62401e4643c45eb00e51a074ffd3011bd6c9cee08369d8af86062ba",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c194",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b2cf7cd67eaee0deec2dd0a3d59a8b068e96f47565797328535a7b42f61aa160",
+      "password_sha256": "50ef42eeb3f28ebecebe46a7b4abc087cd4c3ad350f33d4229f6062774acf860",
+      "preimage_hex": "dcc4e7ee3dfee8a6138ec62401e4643c45eb00e51a074ffd3011bd6c9cee08369d8af86062ba",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c195",
+      "password_expansion": "raw",
+      "password_hex": "dce4fdf04d7efab8b514caa491fc643c557782e9aa87657d54b1c51e34ee96463d0ad46c72bc",
+      "password_sha256": "37d0bcdf301801b05662a58f8d0e65ab0c8f9d7e8d4d991704c8e63067bbda2f",
+      "preimage_hex": "dce4fdf04d7efab8b514caa491fc643c557782e9aa87657d54b1c51e34ee96463d0ad46c72bc",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c196",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33376430626364663330313830316230353636326135386638643065363561623063386639643765386434643939313730346338653633303637626264613266",
+      "password_sha256": "48008253e40a2d4f8a35c4bd0b8b3a4f98a6f5ab3a6366fdd6a8e79e1e4ce1ab",
+      "preimage_hex": "dce4fdf04d7efab8b514caa491fc643c557782e9aa87657d54b1c51e34ee96463d0ad46c72bc",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c197",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "37d0bcdf301801b05662a58f8d0e65ab0c8f9d7e8d4d991704c8e63067bbda2f",
+      "password_sha256": "7c8eeb69370b8256dcdf6eacd64e5208e43ef2b389507380250086ef8c732ca3",
+      "preimage_hex": "dce4fdf04d7efab8b514caa491fc643c557782e9aa87657d54b1c51e34ee96463d0ad46c72bc",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/left-plus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c198",
+      "password_expansion": "raw",
+      "password_hex": "de3b0be4bc360607b5129cf9cde82b93fac2aff95a3e5aa176db09e4b88571c7215173e2825d",
+      "password_sha256": "c0cbffa644e8b61a90281aaacaa6acf53bf44fd554ae3882c8671db3d1421663",
+      "preimage_hex": "de3b0be4bc360607b5129cf9cde82b93fac2aff95a3e5aa176db09e4b88571c7215173e2825d",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c199",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63306362666661363434653862363161393032383161616163616136616366353362663434666435353461653338383263383637316462336431343231363633",
+      "password_sha256": "95359ad0115ff8f63150b80718aa1b8c4358ed8a084797568e903397f9c7a513",
+      "preimage_hex": "de3b0be4bc360607b5129cf9cde82b93fac2aff95a3e5aa176db09e4b88571c7215173e2825d",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c200",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c0cbffa644e8b61a90281aaacaa6acf53bf44fd554ae3882c8671db3d1421663",
+      "password_sha256": "e9755fab7a4677da7e01975c79dcf8575e7df3c7ecb0fabc43ef0ca37914a00c",
+      "preimage_hex": "de3b0be4bc360607b5129cf9cde82b93fac2aff95a3e5aa176db09e4b88571c7215173e2825d",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c201",
+      "password_expansion": "raw",
+      "password_hex": "dff003e94d80f9d1af33ee9d81fd6434428777ebba946f9b52b3c60b42e687642500905e7fd9",
+      "password_sha256": "22516d78ad286a3d49a662678a6bbafa6d138fc80e0d00bf9046239a235e95d5",
+      "preimage_hex": "dff003e94d80f9d1af33ee9d81fd6434428777ebba946f9b52b3c60b42e687642500905e7fd9",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c202",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32323531366437386164323836613364343961363632363738613662626166613664313338666338306530643030626639303436323339613233356539356435",
+      "password_sha256": "367d23321da89ea4b3470f9eb5252a9f64274ed3d6256bbd2dc5c996ceba167b",
+      "preimage_hex": "dff003e94d80f9d1af33ee9d81fd6434428777ebba946f9b52b3c60b42e687642500905e7fd9",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c203",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "22516d78ad286a3d49a662678a6bbafa6d138fc80e0d00bf9046239a235e95d5",
+      "password_sha256": "fdabc6f905ed0922182426d3eb375f73fc70bb9b7298525216438f6da450fc73",
+      "preimage_hex": "dff003e94d80f9d1af33ee9d81fd6434428777ebba946f9b52b3c60b42e687642500905e7fd9",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-minus-right/direct"
+      ]
+    },
+    {
+      "candidate_id": "v13c204",
+      "password_expansion": "raw",
+      "password_hex": "e3cb99033eca97a433ab2eb4dff7bf23a9ec380574c96e29860f960750277ee7c353450e816e",
+      "password_sha256": "db93dc8bbca648adfca49cb30a7303b35b156c09c92720e3ec753505395d5570",
+      "preimage_hex": "e3cb99033eca97a433ab2eb4dff7bf23a9ec380574c96e29860f960750277ee7c353450e816e",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c205",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64623933646338626263613634386164666361343963623330613733303362333562313536633039633932373230653365633735333530353339356435353730",
+      "password_sha256": "28bfc69d876ab4d233612d58951622590a3b41acb2ed59ec28bd1b78af227d1f",
+      "preimage_hex": "e3cb99033eca97a433ab2eb4dff7bf23a9ec380574c96e29860f960750277ee7c353450e816e",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c206",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "db93dc8bbca648adfca49cb30a7303b35b156c09c92720e3ec753505395d5570",
+      "password_sha256": "eec73ba01cec84e3097c22fc2623b2bc9c41902d71683c4b6512a5cd6e54b336",
+      "preimage_hex": "e3cb99033eca97a433ab2eb4dff7bf23a9ec380574c96e29860f960750277ee7c353450e816e",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c207",
+      "password_expansion": "raw",
+      "password_hex": "f2de08f04dc7941742107fa5f0a6d23298db4b1643da3b7a930005145f1881d8b45e16f31049",
+      "password_sha256": "5de0956fb6af9be8959ce6f64254e34b189db75d174f07504be4a3446be6871d",
+      "preimage_hex": "f2de08f04dc7941742107fa5f0a6d23298db4b1643da3b7a930005145f1881d8b45e16f31049",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c208",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35646530393536666236616639626538393539636536663634323534653334623138396462373564313734663037353034626534613334343662653638373164",
+      "password_sha256": "89932dd22e78b7191e67a56bb124d0a76896adfc84f4fade1b15ecc1cefb6baf",
+      "preimage_hex": "f2de08f04dc7941742107fa5f0a6d23298db4b1643da3b7a930005145f1881d8b45e16f31049",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c209",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5de0956fb6af9be8959ce6f64254e34b189db75d174f07504be4a3446be6871d",
+      "password_sha256": "961f05ed28834c9ca99639f2a2e9c7e275c332276ebeb991ae8219e6b2771262",
+      "preimage_hex": "f2de08f04dc7941742107fa5f0a6d23298db4b1643da3b7a930005145f1881d8b45e16f31049",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c210",
+      "password_expansion": "raw",
+      "password_hex": "f45e10f4bf471417c6209f25f0f452ca1adddb16755263a2a3001118c99891d84466ba038269",
+      "password_sha256": "0c134bafe4445d822dee22a0495552493b865ac39fd194edf9f212dc4f3727e1",
+      "preimage_hex": "f45e10f4bf471417c6209f25f0f452ca1adddb16755263a2a3001118c99891d84466ba038269",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c211",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30633133346261666534343435643832326465653232613034393535353234393362383635616333396664313934656466396632313264633466333732376531",
+      "password_sha256": "03660bbc7236ec0bf6c181d261918c7660066c2883cd531c670308902221a366",
+      "preimage_hex": "f45e10f4bf471417c6209f25f0f452ca1adddb16755263a2a3001118c99891d84466ba038269",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c212",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0c134bafe4445d822dee22a0495552493b865ac39fd194edf9f212dc4f3727e1",
+      "password_sha256": "4bb02ac92b8d77ef2471777aec7abca014ea8ede5aeb88417be3e0addddf6678",
+      "preimage_hex": "f45e10f4bf471417c6209f25f0f452ca1adddb16755263a2a3001118c99891d84466ba038269",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c213",
+      "password_expansion": "raw",
+      "password_hex": "f50f90f5401107cd40f1b1491491876b509623046384287c6f58c6afd9f71743c88d397f0fc5",
+      "password_sha256": "8b6f26fbd8cb385646545eb2bd5932e6a20e156545c6195ec580847a3cede34d",
+      "preimage_hex": "f50f90f5401107cd40f1b1491491876b509623046384287c6f58c6afd9f71743c88d397f0fc5",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c214",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38623666323666626438636233383536343635343565623262643539333265366132306531353635343563363139356563353830383437613363656465333464",
+      "password_sha256": "ad3babb2936a02da0e599ec009a32ebe78b172f04d38cb9359686dd07dc29fdf",
+      "preimage_hex": "f50f90f5401107cd40f1b1491491876b509623046384287c6f58c6afd9f71743c88d397f0fc5",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c215",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8b6f26fbd8cb385646545eb2bd5932e6a20e156545c6195ec580847a3cede34d",
+      "password_sha256": "dd6419c5c130ff54c8c2ac6b6a123952686bd9f60faaf4c632378c1ef89b9f36",
+      "preimage_hex": "f50f90f5401107cd40f1b1491491876b509623046384287c6f58c6afd9f71743c88d397f0fc5",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/xor/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c216",
+      "password_expansion": "raw",
+      "password_hex": "f51308f9509107e1c041f1c9a4098b6b62a2a308d5a8789c7fd8ce3f53f9a7754815d77f7fe5",
+      "password_sha256": "c7876c92c079de9f615a12278ce16fa452d540c30adbf52827fcb406ec902ce8",
+      "preimage_hex": "f51308f9509107e1c041f1c9a4098b6b62a2a308d5a8789c7fd8ce3f53f9a7754815d77f7fe5",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c217",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63373837366339326330373964653966363135613132323738636531366661343532643534306333306164626635323832376663623430366563393032636538",
+      "password_sha256": "1fb77dee2496e5a20d5670aef24a3f70ff0e2e6951af12890d1229c554fc5e99",
+      "preimage_hex": "f51308f9509107e1c041f1c9a4098b6b62a2a308d5a8789c7fd8ce3f53f9a7754815d77f7fe5",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c218",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c7876c92c079de9f615a12278ce16fa452d540c30adbf52827fcb406ec902ce8",
+      "password_sha256": "d7c51a4382012e122cea2cb245ddbe33dbd6227a8e9fdb23891e4df3698d06bf",
+      "preimage_hex": "f51308f9509107e1c041f1c9a4098b6b62a2a308d5a8789c7fd8ce3f53f9a7754815d77f7fe5",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a0/left-plus-right/then-adjacent-key/left-minus-right"
+      ]
+    },
+    {
+      "candidate_id": "v13c219",
+      "password_expansion": "raw",
+      "password_hex": "fcdee9f8a160ea1031b000284de866868f4f4ee91c497955721923b29ef84a7ca9dc1a72720c",
+      "password_sha256": "8e9f4c2811c5244a134275164fc6a3372ee91b8519dce1c0e48be8835f03fba2",
+      "preimage_hex": "fcdee9f8a160ea1031b000284de866868f4f4ee91c497955721923b29ef84a7ca9dc1a72720c",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c220",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38653966346332383131633532343461313334323735313634666336613333373265653931623835313964636531633065343862653838333566303366626132",
+      "password_sha256": "1cafda36d15dc5dde604b74829cdf2ebfab7af7597bcf4a1bc3e95f2f1209a6f",
+      "preimage_hex": "fcdee9f8a160ea1031b000284de866868f4f4ee91c497955721923b29ef84a7ca9dc1a72720c",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c221",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8e9f4c2811c5244a134275164fc6a3372ee91b8519dce1c0e48be8835f03fba2",
+      "password_sha256": "da7de1c039d2787a2ab726aab5bfa67bc5291987103942e8841959a59c187bfc",
+      "preimage_hex": "fcdee9f8a160ea1031b000284de866868f4f4ee91c497955721923b29ef84a7ca9dc1a72720c",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c222",
+      "password_expansion": "raw",
+      "password_hex": "fcfefffab1e0fc22d33604a8dd0066869fdbd0edacc98fd596b92b6436f8d88c495cf67e820e",
+      "password_sha256": "0015e0fb0c627a56c05137678a016e2bfee5befabb59c4784f2fc92f497b44fc",
+      "preimage_hex": "fcfefffab1e0fc22d33604a8dd0066869fdbd0edacc98fd596b92b6436f8d88c495cf67e820e",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c223",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30303135653066623063363237613536633035313337363738613031366532626665653562656661626235396334373834663266633932663439376234346663",
+      "password_sha256": "6c38a754047e4d8dcd0c485b8b5700db1a1893d1f3d51512178375cf888f514d",
+      "preimage_hex": "fcfefffab1e0fc22d33604a8dd0066869fdbd0edacc98fd596b92b6436f8d88c495cf67e820e",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c224",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0015e0fb0c627a56c05137678a016e2bfee5befabb59c4784f2fc92f497b44fc",
+      "password_sha256": "2f8d6d3a2660f7455e459c1102aa311a19c5db880efa2b1dfa65e36aaacde09f",
+      "preimage_hex": "fcfefffab1e0fc22d33604a8dd0066869fdbd0edacc98fd596b92b6436f8d88c495cf67e820e",
+      "provenance": [
+        "dual-38-byte-bridge/row-major/a1/xor/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c225",
+      "password_expansion": "raw",
+      "password_hex": "fd93e1fd32aaddda2bd152cc01fd9f27d71416db7c9f8e4f4ef1e0d928596019ad8b37ee6f88",
+      "password_sha256": "f8921baf6a28c791c1b6eed2d2fef4677a3fe8b81706e0a2519516dae76785d0",
+      "preimage_hex": "fd93e1fd32aaddda2bd152cc01fd9f27d71416db7c9f8e4f4ef1e0d928596019ad8b37ee6f88",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c226",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66383932316261663661323863373931633162366565643264326665663436373761336665386238313730366530613235313935313664616537363738356430",
+      "password_sha256": "31302aea117503129f7d1e062c65882e6f1710355248cde0ba2cef2543fb777c",
+      "preimage_hex": "fd93e1fd32aaddda2bd152cc01fd9f27d71416db7c9f8e4f4ef1e0d928596019ad8b37ee6f88",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    },
+    {
+      "candidate_id": "v13c227",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f8921baf6a28c791c1b6eed2d2fef4677a3fe8b81706e0a2519516dae76785d0",
+      "password_sha256": "15f99bba71d4c6f57567dd1a96508949163ef8488a0ad82752ada0340b6a49fc",
+      "preimage_hex": "fd93e1fd32aaddda2bd152cc01fd9f27d71416db7c9f8e4f4ef1e0d928596019ad8b37ee6f88",
+      "provenance": [
+        "dual-38-byte-bridge/counterclockwise-spiral/a1/left-plus-right/then-adjacent-key/right-minus-left"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "direct_combination_bytes_are_evaluated_for_readable_or_exact_structure": true,
+    "forbidden_evidence": [
+      "expected padding length",
+      "community plus/minus block grammar",
+      "Half/Better Half",
+      "target point or address",
+      "known community plaintext hashes"
+    ],
+    "inherits_v1_rules_verbatim": true,
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v12_manifest_sha256": "97a9d1d79f4021927a82808b0ccf7712271c8a2c1292635b1f2856db4ff489c0",
+  "schema": "salphaseion-source-only-preregistration-v13-dual-38-byte",
+  "source": {
+    "candidate_rule": "XOR or modular byte addition/difference of the two authenticated 38-byte operands; direct result or the same finite operations with the exact adjacent 38-byte field",
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "direct_records": [
+      {
+        "operation": "xor",
+        "result_sha256": "45b25d77e840bf00094dcdc56e7be92f0edde7fdeca84e4a12d41673d9b8c2dd",
+        "route": "row-major",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "left-plus-right",
+        "result_sha256": "daf09af74e6fbeca81dbd18901571f927e27b7cd0a8113adbd9811ce50fe50e5",
+        "route": "row-major",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "left-minus-right",
+        "result_sha256": "22516d78ad286a3d49a662678a6bbafa6d138fc80e0d00bf9046239a235e95d5",
+        "route": "row-major",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "right-minus-left",
+        "result_sha256": "62b45f014b9484fe1351354bea240e1e121b366349a923bc39cdeaefe4a70143",
+        "route": "row-major",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "xor",
+        "result_sha256": "69b060dd2ebef157d2f2b18f77d1f48f3ac1ff9ca91deb25bd5595ee5dca2e04",
+        "route": "row-major",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "left-plus-right",
+        "result_sha256": "d2bcf51b815799fda43de119a435f113ed44545be523637429614dd07eb47d4f",
+        "route": "row-major",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "left-minus-right",
+        "result_sha256": "1cc209f30117dff545be13e8a25dcb95734741766a8210608e147a0e718f4c63",
+        "route": "row-major",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "right-minus-left",
+        "result_sha256": "c6c662c1af6ca67d384e0d2469222e43f3c59d269b18709c438c577b22b34761",
+        "route": "row-major",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "xor",
+        "result_sha256": "813816cdddd9d3ec89822f08a21f19a364811d2b78adbd0ba08acfd7f8c9a237",
+        "route": "counterclockwise-spiral",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "left-plus-right",
+        "result_sha256": "c500d47d3d6b63c821e1f0060e6f1b9f794e3437942e6bccf6db3eb1366401aa",
+        "route": "counterclockwise-spiral",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "left-minus-right",
+        "result_sha256": "c0cbffa644e8b61a90281aaacaa6acf53bf44fd554ae3882c8671db3d1421663",
+        "route": "counterclockwise-spiral",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "right-minus-left",
+        "result_sha256": "1984f74f4da09301354b64286b56c110017dc57fb9cf471885b2dfa6400eba4b",
+        "route": "counterclockwise-spiral",
+        "s570_origin": "a0"
+      },
+      {
+        "operation": "xor",
+        "result_sha256": "a4a5335628177e68ccc8f1b1f5497a0be25f3bb440534de2c2a6131ac019836e",
+        "route": "counterclockwise-spiral",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "left-plus-right",
+        "result_sha256": "7521fd44295fe22e1ee0a6f809114818a43438e68378c2f9391bf2cbc02458d6",
+        "route": "counterclockwise-spiral",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "left-minus-right",
+        "result_sha256": "fd174c5cc2695c30f7d3287e74b4423d29d33443a220db9e3d4a82bb9364f503",
+        "route": "counterclockwise-spiral",
+        "s570_origin": "a1"
+      },
+      {
+        "operation": "right-minus-left",
+        "result_sha256": "d62d74509789016476d4928e56c8ef22d67a62cdaf707cb4f5dff157f21d0566",
+        "route": "counterclockwise-spiral",
+        "s570_origin": "a1"
+      }
+    ],
+    "equal_width_rules": [
+      "prime/color-reinserted S91 decimal-to-hex decode is 38 bytes",
+      "S570=15x38 and its column-sum list has 38 byte-sized entries",
+      "lastwordsbeforearchichoice+thispassword has 38 ASCII bytes"
+    ],
+    "puzzle_image_sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

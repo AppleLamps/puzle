@@ -1,0 +1,67 @@
+{
+  "authenticated_counterclockwise_spiral": {
+    "bits": "111101110011110110010010",
+    "hex": "F73D92"
+  },
+  "blue_count": 15,
+  "colored_cell_count": 24,
+  "colored_spiral_positions_one_based": [
+    8,
+    16,
+    24,
+    32,
+    40,
+    48,
+    56,
+    64,
+    72,
+    80,
+    88,
+    96,
+    104,
+    112,
+    120,
+    128,
+    136,
+    144,
+    152,
+    160,
+    168,
+    176,
+    184,
+    192
+  ],
+  "image_sha256": "38125bbdf1ea58b9b30b075bc6bf71e4089d04bba37098317e47097e2f2a1830",
+  "qr": {
+    "bounds": [
+      1,
+      1289,
+      232,
+      1520
+    ],
+    "finder_crop_sha256": [
+      "64d157f0f51b4c822a3336fc6e65a7a9f4aa2d7e51fecd48db392d2a2cf39bdb",
+      "64d157f0f51b4c822a3336fc6e65a7a9f4aa2d7e51fecd48db392d2a2cf39bdb",
+      "64d157f0f51b4c822a3336fc6e65a7a9f4aa2d7e51fecd48db392d2a2cf39bdb"
+    ],
+    "finder_crops_identical": true,
+    "finder_texture_conclusion": "the repeated gray merlons contain no finder-to-finder entropy",
+    "sha256": "4d4f737f7a2dec55e7c0d6091dc0743ed4792a0f167112bcbcf2dddc1c555715"
+  },
+  "report_correction": "F73D92 is the exact spiral-ordered colored-cell/URL-LSB stream; BE2B9B is the unrelated row-major ordering.",
+  "row_major": {
+    "bits": "101111100010101110011011",
+    "hex": "BE2B9B"
+  },
+  "sampled_grid_rgb_counts": {
+    "(0, 0, 0)": 87,
+    "(254, 254, 254)": 1,
+    "(255, 242, 0)": 9,
+    "(255, 255, 255)": 84,
+    "(63, 72, 204)": 15
+  },
+  "schema": "first-grid-secondary-audit-v1",
+  "structural_interpretation": "The 24 colored cells are exactly spiral positions 8,16,...,192: the least-significant bit of each decoded URL byte.",
+  "url_ascii_lsb_bits": "111101110011110110010010",
+  "yellow_count": 9
+}

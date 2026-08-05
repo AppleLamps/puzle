@@ -1,0 +1,81 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "declared_acceptance": {
+    "forbidden": [
+      "splitting plaintext",
+      "expected padding length",
+      "Half/Better Half",
+      "target point or address",
+      "community plaintext hashes"
+    ],
+    "padding_alone": false,
+    "required": "readable UTF-8 English-like text or exact parser/checksum format",
+    "second_stage_only": true
+  },
+  "inputs": [
+    {
+      "candidate_count": 402,
+      "path": "salphaseion_preregistered_candidates_v23.json",
+      "sha256": "68cef773f824a3ff5d79476b8ff0b63272b52f378bae3fb2fd196bab1354edc9"
+    },
+    {
+      "candidate_count": 2784,
+      "path": "salphaseion_preregistered_candidates_v24.json",
+      "sha256": "6f950fb8941704e1c53ff3ec9c3531aa4a31fe09a1f605d33b870b73bef15e46"
+    },
+    {
+      "candidate_count": 1845,
+      "path": "salphaseion_preregistered_candidates_v25.json",
+      "sha256": "1c2eed39a79431fc3c407a0b15b2ce1b81f1c91a2246e23287a295f05a1e509f"
+    },
+    {
+      "candidate_count": 420,
+      "path": "salphaseion_preregistered_candidates_v26.json",
+      "sha256": "a9b67de8c177a803e7c4692b51c641d281e0e5b5999e749446c9d759d4cac9cb"
+    }
+  ],
+  "schema": "salphaseion-cross-stage-preregistration-v2-source-layout",
+  "stage_one": {
+    "candidate_scope": "every password record in sealed v23-v26 manifests",
+    "cipher": "AES-256-CBC",
+    "gate": "strict PKCS#7 only; carry forward every hit without inspection",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ]
+  },
+  "stage_two": {
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "source": "entire unmodified stage-one plaintext",
+    "target_scope": "each other independently salted blob"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION",
+  "total_candidate_records": 5451
+}

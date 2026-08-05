@@ -1,0 +1,90 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 864,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "84790be5d5cd9a82ade81c6fc21a33b621c7950b72014e04c55a5b63d393cbde",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v21c018",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "93aba66344b3c0c0975a32ce9b098f5b27f67e030a1951c5a397561fb3cf0162",
+      "plaintext_length": 79,
+      "plaintext_sha256": "8984771047647996e86a0a1295f2c0232619c79dc8ccd5c5055d0400eb87a4de",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v21c071",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "a20b3072075932c2ffb89dab30b99c123a866232c1c149a0bc46957b874a645d",
+      "plaintext_length": 79,
+      "plaintext_sha256": "c4de8f4f0a9ff94367b4f18a0819c128c909108e9cb0fd691f1bc0f21fbecdc5",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v21c096",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "c006c7e3ab14d686f63524136f1ec7c5e553d839bc01c851e4dc9de2bdbfc589",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "84513a926be3da1613f662b370057034ff1d5a3f43485cc24bf58fc5f2f6afda",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v21c133",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "8d1cedae11800e1307894e75358de309189d23ce0d04ee9b560fb937c4414cda",
+      "plaintext_length": 79,
+      "plaintext_sha256": "1f71febbd7f7688d57b565ed93ff4dbc5f36c8f1a220a021abbeba94a1499736",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 4
+}

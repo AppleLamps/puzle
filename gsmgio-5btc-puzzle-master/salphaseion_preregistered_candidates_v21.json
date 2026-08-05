@@ -1,0 +1,1700 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 144,
+  "candidates": [
+    {
+      "candidate_id": "v21c000",
+      "password_expansion": "raw",
+      "password_hex": "424c41434b",
+      "password_sha256": "5d1d1c000f66504af11cbd6dc0fefb74adcb841152e573a67052f32004915921",
+      "preimage_hex": "424c41434b",
+      "preimage_utf8": "BLACK",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35643164316330303066363635303461663131636264366463306665666237346164636238343131353265353733613637303532663332303034393135393231",
+      "password_sha256": "6f17e1303772f6feb8487ec0f8acfe30b3b1a0d8572d98241ae3c716232d217b",
+      "preimage_hex": "424c41434b",
+      "preimage_utf8": "BLACK",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5d1d1c000f66504af11cbd6dc0fefb74adcb841152e573a67052f32004915921",
+      "password_sha256": "8e8f54dd7480c69ef59ecc07e213cf143a13f7a482c98f183b6f37ab5ce9712d",
+      "preimage_hex": "424c41434b",
+      "preimage_utf8": "BLACK",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c003",
+      "password_expansion": "raw",
+      "password_hex": "424c41434b20524f5345",
+      "password_sha256": "ada0d9f1a3db3986417ccdd7ed1649e1f36572b2e8a721ad97b3259ec9ac58ef",
+      "preimage_hex": "424c41434b20524f5345",
+      "preimage_utf8": "BLACK ROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61646130643966316133646233393836343137636364643765643136343965316633363537326232653861373231616439376233323539656339616335386566",
+      "password_sha256": "c2c84b789e84816d574f56299bc9b208b68ebb4f62253214dfb63ae7439a22cc",
+      "preimage_hex": "424c41434b20524f5345",
+      "preimage_utf8": "BLACK ROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ada0d9f1a3db3986417ccdd7ed1649e1f36572b2e8a721ad97b3259ec9ac58ef",
+      "password_sha256": "223ad568d66104810e2d7860399fcc4f3b1907ffa3839c30658b3d1d63098f1a",
+      "preimage_hex": "424c41434b20524f5345",
+      "preimage_utf8": "BLACK ROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c006",
+      "password_expansion": "raw",
+      "password_hex": "424c41434b524f5345",
+      "password_sha256": "4c7081652eb7ff387958edd62827f0c4ba86ffd602476bef734c41288f6acfcc",
+      "preimage_hex": "424c41434b524f5345",
+      "preimage_utf8": "BLACKROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/blackrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34633730383136353265623766663338373935386564643632383237663063346261383666666436303234373662656637333463343132383866366163666363",
+      "password_sha256": "69b70c89315c832ec2ab8961391c67b007d306df0eb06c25f428fa5f15bbe516",
+      "preimage_hex": "424c41434b524f5345",
+      "preimage_utf8": "BLACKROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/blackrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4c7081652eb7ff387958edd62827f0c4ba86ffd602476bef734c41288f6acfcc",
+      "password_sha256": "f698b074aea192597f85a87534092fdd806e21d2762b4a3a03103414a16bd06f",
+      "preimage_hex": "424c41434b524f5345",
+      "preimage_utf8": "BLACKROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/blackrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c009",
+      "password_expansion": "raw",
+      "password_hex": "426c61636b",
+      "password_sha256": "c6cfe6e4f129a34671d10c1bbe158eff05197d388727e331951b0ec2637c194e",
+      "preimage_hex": "426c61636b",
+      "preimage_utf8": "Black",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63366366653665346631323961333436373164313063316262653135386566663035313937643338383732376533333139353162306563323633376331393465",
+      "password_sha256": "8d70c7ce1f253560b581d2b1b1281f6e89836000c2ffb6e5cf4f727d4e227e4c",
+      "preimage_hex": "426c61636b",
+      "preimage_utf8": "Black",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c6cfe6e4f129a34671d10c1bbe158eff05197d388727e331951b0ec2637c194e",
+      "password_sha256": "e1b74e9b376492af8f7222a54899b85cbeafe8de73009d79eaba939a5742e4bc",
+      "preimage_hex": "426c61636b",
+      "preimage_utf8": "Black",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c012",
+      "password_expansion": "raw",
+      "password_hex": "426c61636b20526f7365",
+      "password_sha256": "34d3d07003ebaf65eecec70598bea37368ce8d42170bc8502d4b686378dfd4ba",
+      "preimage_hex": "426c61636b20526f7365",
+      "preimage_utf8": "Black Rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33346433643037303033656261663635656563656337303539386265613337333638636538643432313730626338353032643462363836333738646664346261",
+      "password_sha256": "2656d465fd0fc40f044a4354e4526c2bba9f5be3cd11106ee27def5fb7a2a6ec",
+      "preimage_hex": "426c61636b20526f7365",
+      "preimage_utf8": "Black Rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "34d3d07003ebaf65eecec70598bea37368ce8d42170bc8502d4b686378dfd4ba",
+      "password_sha256": "729463c0e8a87f4096cce2949ace1b162cc68998fb113d165bb26e0bc03dc2ef",
+      "preimage_hex": "426c61636b20526f7365",
+      "preimage_utf8": "Black Rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c015",
+      "password_expansion": "raw",
+      "password_hex": "426c61636b726f7365",
+      "password_sha256": "4732d60360f22453853024ebc6f19bad93ea2ccc2849caf29da05649d066c0fd",
+      "preimage_hex": "426c61636b726f7365",
+      "preimage_utf8": "Blackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/blackrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34373332643630333630663232343533383533303234656263366631396261643933656132636363323834396361663239646130353634396430363663306664",
+      "password_sha256": "32a6657b762859930081d27620fa012e09be7e4e37bb70268b52e4e9fda51cf0",
+      "preimage_hex": "426c61636b726f7365",
+      "preimage_utf8": "Blackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/blackrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4732d60360f22453853024ebc6f19bad93ea2ccc2849caf29da05649d066c0fd",
+      "password_sha256": "503d549d6e5837f3a531f8e047f12ab2837c4f9cc8a7ebd2cc7b7e49bbc818ad",
+      "preimage_hex": "426c61636b726f7365",
+      "preimage_utf8": "Blackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/blackrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c018",
+      "password_expansion": "raw",
+      "password_hex": "4a554447454d454e54",
+      "password_sha256": "93aba66344b3c0c0975a32ce9b098f5b27f67e030a1951c5a397561fb3cf0162",
+      "preimage_hex": "4a554447454d454e54",
+      "preimage_utf8": "JUDGEMENT",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39336162613636333434623363306330393735613332636539623039386635623237663637653033306131393531633561333937353631666233636630313632",
+      "password_sha256": "2f74ad4225f0c2757074c95fc83edc3d8c1ca12aedae62c0e54942fb41a88298",
+      "preimage_hex": "4a554447454d454e54",
+      "preimage_utf8": "JUDGEMENT",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "93aba66344b3c0c0975a32ce9b098f5b27f67e030a1951c5a397561fb3cf0162",
+      "password_sha256": "374f6959f3a77d7f8e665ac1b1af2c7161703e5069682f7d90822f84ae1be987",
+      "preimage_hex": "4a554447454d454e54",
+      "preimage_utf8": "JUDGEMENT",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c021",
+      "password_expansion": "raw",
+      "password_hex": "4a5544474d454e54",
+      "password_sha256": "98cfe42af93a7f38c8954b96ab0a8242a20965d71ae02d5f6b86536abae993ba",
+      "preimage_hex": "4a5544474d454e54",
+      "preimage_utf8": "JUDGMENT",
+      "provenance": [
+        "warning-song/song-phase-name-american/judgment/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39386366653432616639336137663338633839353462393661623061383234326132303936356437316165303264356636623836353336616261653939336261",
+      "password_sha256": "4a57cd4f60c305abeb7b07d2fe063e69421ef4d73fd489a51141682eba1c98e1",
+      "preimage_hex": "4a5544474d454e54",
+      "preimage_utf8": "JUDGMENT",
+      "provenance": [
+        "warning-song/song-phase-name-american/judgment/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "98cfe42af93a7f38c8954b96ab0a8242a20965d71ae02d5f6b86536abae993ba",
+      "password_sha256": "b91110dd33cd0fa2d95e367407dcc851b9e9292afed2f7e1202a3ed2b1b40cc1",
+      "preimage_hex": "4a5544474d454e54",
+      "preimage_utf8": "JUDGMENT",
+      "provenance": [
+        "warning-song/song-phase-name-american/judgment/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c024",
+      "password_expansion": "raw",
+      "password_hex": "4a756467656d656e74",
+      "password_sha256": "18d3597ca7321b870805999b94b4303977f1a29cdfe6eabea08163a478156d73",
+      "preimage_hex": "4a756467656d656e74",
+      "preimage_utf8": "Judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31386433353937636137333231623837303830353939396239346234333033393737663161323963646665366561626561303831363361343738313536643733",
+      "password_sha256": "c2d37468105e538e3f0c0a9c260ec5095fb741fced4bc8987ba493d32f5c2097",
+      "preimage_hex": "4a756467656d656e74",
+      "preimage_utf8": "Judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "18d3597ca7321b870805999b94b4303977f1a29cdfe6eabea08163a478156d73",
+      "password_sha256": "5770658569ec5e42412f387e25fa24bd0afbbe12c0a23a58cd4e142d2421f2ca",
+      "preimage_hex": "4a756467656d656e74",
+      "preimage_utf8": "Judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c027",
+      "password_expansion": "raw",
+      "password_hex": "4a7564676d656e74",
+      "password_sha256": "c011634b292d658b304c275576b3d250d522e7a0b7f893eee99c1fc6b2352da9",
+      "preimage_hex": "4a7564676d656e74",
+      "preimage_utf8": "Judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/judgment/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63303131363334623239326436353862333034633237353537366233643235306435323265376130623766383933656565393963316663366232333532646139",
+      "password_sha256": "bc276ea26f3b9f9b82447486a1e0005df25894cddc770f8fbb280bfc39514d11",
+      "preimage_hex": "4a7564676d656e74",
+      "preimage_utf8": "Judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/judgment/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c011634b292d658b304c275576b3d250d522e7a0b7f893eee99c1fc6b2352da9",
+      "password_sha256": "2359f5f38ed297c32d40ad52cc56fd8144f78152f398edc2757f4fe652625a85",
+      "preimage_hex": "4a7564676d656e74",
+      "preimage_utf8": "Judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/judgment/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c030",
+      "password_expansion": "raw",
+      "password_hex": "524544",
+      "password_sha256": "65cbe1e19791d49b023800b3e22714e2589b6339bef5e660b628dd1023506ebd",
+      "preimage_hex": "524544",
+      "preimage_utf8": "RED",
+      "provenance": [
+        "warning-song/creator-rose-selection/red/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36356362653165313937393164343962303233383030623365323237313465323538396236333339626566356536363062363238646431303233353036656264",
+      "password_sha256": "519c0950df149b77877b963c6368dab72745cc4df493fffe2e211f447405fe8a",
+      "preimage_hex": "524544",
+      "preimage_utf8": "RED",
+      "provenance": [
+        "warning-song/creator-rose-selection/red/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "65cbe1e19791d49b023800b3e22714e2589b6339bef5e660b628dd1023506ebd",
+      "password_sha256": "893c20708713af723698600cf16b17403900f930a5c2b36ad6b8cc058aa2084d",
+      "preimage_hex": "524544",
+      "preimage_utf8": "RED",
+      "provenance": [
+        "warning-song/creator-rose-selection/red/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c033",
+      "password_expansion": "raw",
+      "password_hex": "52454420524f5345",
+      "password_sha256": "92c605fc2c128aa5f697fc1bd93b52a85a10ba479b186a373d75653891db8f39",
+      "preimage_hex": "52454420524f5345",
+      "preimage_utf8": "RED ROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/red-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39326336303566633263313238616135663639376663316264393362353261383561313062613437396231383661333733643735363533383931646238663339",
+      "password_sha256": "31e1c61a3b0a9e6bfda7d6ca3b6637acab0dba0501cda2db7e3dd4dc7051558a",
+      "preimage_hex": "52454420524f5345",
+      "preimage_utf8": "RED ROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/red-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "92c605fc2c128aa5f697fc1bd93b52a85a10ba479b186a373d75653891db8f39",
+      "password_sha256": "26dd0de32b59d85e1b0995fc9b137f3edebf4a4bd1a6249df677741b2e2495cb",
+      "preimage_hex": "52454420524f5345",
+      "preimage_utf8": "RED ROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/red-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c036",
+      "password_expansion": "raw",
+      "password_hex": "524544524f5345",
+      "password_sha256": "706868bcdbabf00ddceb39205c16aa6b786e0e5cee9bca7250dff2b570f899ab",
+      "preimage_hex": "524544524f5345",
+      "preimage_utf8": "REDROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/redrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37303638363862636462616266303064646365623339323035633136616136623738366530653563656539626361373235306466663262353730663839396162",
+      "password_sha256": "305d9165bc6ee0a86a4d35c6a51ad028bd2ad634833761401624c2360be39a4b",
+      "preimage_hex": "524544524f5345",
+      "preimage_utf8": "REDROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/redrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "706868bcdbabf00ddceb39205c16aa6b786e0e5cee9bca7250dff2b570f899ab",
+      "password_sha256": "e3d5c64c8f6f9dbcf51aa35d999056e626030d24de1a4ce3788b25d5db002f1c",
+      "preimage_hex": "524544524f5345",
+      "preimage_utf8": "REDROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/redrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c039",
+      "password_expansion": "raw",
+      "password_hex": "526564",
+      "password_sha256": "ba19e9c3d5f49882ddaafed4f286a8a81491150426d321179270e27e74a89097",
+      "preimage_hex": "526564",
+      "preimage_utf8": "Red",
+      "provenance": [
+        "warning-song/creator-rose-selection/red/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62613139653963336435663439383832646461616665643466323836613861383134393131353034323664333231313739323730653237653734613839303937",
+      "password_sha256": "c4efd8b1de87e2f3750f7614e40a84dff71c11fee88b90b4120414681d2ebf15",
+      "preimage_hex": "526564",
+      "preimage_utf8": "Red",
+      "provenance": [
+        "warning-song/creator-rose-selection/red/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ba19e9c3d5f49882ddaafed4f286a8a81491150426d321179270e27e74a89097",
+      "password_sha256": "37081f93a7def3e8f87c09ab7b5ad66e7815f7e6203d17f41251e11d93b0ed85",
+      "preimage_hex": "526564",
+      "preimage_utf8": "Red",
+      "provenance": [
+        "warning-song/creator-rose-selection/red/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c042",
+      "password_expansion": "raw",
+      "password_hex": "52656420526f7365",
+      "password_sha256": "3c7369e50afc9cc907f34ae1867a311a873ec578a8f255b3fec86bb3dd9ba966",
+      "preimage_hex": "52656420526f7365",
+      "preimage_utf8": "Red Rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/red-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33633733363965353061666339636339303766333461653138363761333131613837336563353738613866323535623366656338366262336464396261393636",
+      "password_sha256": "46bc59063afe192102326a602c3f469ebe617e6e09a78320c761e781ce84f69c",
+      "preimage_hex": "52656420526f7365",
+      "preimage_utf8": "Red Rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/red-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3c7369e50afc9cc907f34ae1867a311a873ec578a8f255b3fec86bb3dd9ba966",
+      "password_sha256": "a1f8ca3f7bf1ba0989b0c2ce47ef0eea7dbd79ae107441dcff1b01021175a783",
+      "preimage_hex": "52656420526f7365",
+      "preimage_utf8": "Red Rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/red-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c045",
+      "password_expansion": "raw",
+      "password_hex": "526564726f7365",
+      "password_sha256": "93507bdf0d49f4c10fee1326ee5eeb6b183eb95cd46aa0542ebcc03100f50474",
+      "preimage_hex": "526564726f7365",
+      "preimage_utf8": "Redrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/redrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39333530376264663064343966346331306665653133323665653565656236623138336562393563643436616130353432656263633033313030663530343734",
+      "password_sha256": "3ba6782e48898925486b287a1559902ad4abede8e6568b2325897f7d39be2742",
+      "preimage_hex": "526564726f7365",
+      "preimage_utf8": "Redrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/redrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "93507bdf0d49f4c10fee1326ee5eeb6b183eb95cd46aa0542ebcc03100f50474",
+      "password_sha256": "fba6739d1ee7b43d641cf2b383cb8c318687e3156ad98c8defee88fd03b3a5af",
+      "preimage_hex": "526564726f7365",
+      "preimage_utf8": "Redrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/redrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c048",
+      "password_expansion": "raw",
+      "password_hex": "54484520424c41434b20524f5345",
+      "password_sha256": "4964e766c65a0e41e9b9e630bbd61661a40654c68c93199ccaba213406515295",
+      "preimage_hex": "54484520424c41434b20524f5345",
+      "preimage_utf8": "THE BLACK ROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/the-black-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34393634653736366336356130653431653962396536333062626436313636316134303635346336386339333139396363616261323133343036353135323935",
+      "password_sha256": "20633727a6d45ce137d33d82bb32708ce3877b49ab13b62250f24c4ec6d2dbde",
+      "preimage_hex": "54484520424c41434b20524f5345",
+      "preimage_utf8": "THE BLACK ROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/the-black-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4964e766c65a0e41e9b9e630bbd61661a40654c68c93199ccaba213406515295",
+      "password_sha256": "be6d1a0cd161ea3d8c1ed12f742f75910e8fd52d68b634cbc14dcd0680799a74",
+      "preimage_hex": "54484520424c41434b20524f5345",
+      "preimage_utf8": "THE BLACK ROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/the-black-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c051",
+      "password_expansion": "raw",
+      "password_hex": "544845204a554447454d454e54",
+      "password_sha256": "103ad8e198b534f63e23696278416e90b5d1fccba48b7b15ae352f55e3317808",
+      "preimage_hex": "544845204a554447454d454e54",
+      "preimage_utf8": "THE JUDGEMENT",
+      "provenance": [
+        "warning-song/song-phase-name-british/the-judgement/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31303361643865313938623533346636336532333639363237383431366539306235643166636362613438623762313561653335326635356533333137383038",
+      "password_sha256": "95b1ba1bfe6dca43c281e0cbf298154bbc01e9e0e790e5bef910fffe620ceda6",
+      "preimage_hex": "544845204a554447454d454e54",
+      "preimage_utf8": "THE JUDGEMENT",
+      "provenance": [
+        "warning-song/song-phase-name-british/the-judgement/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "103ad8e198b534f63e23696278416e90b5d1fccba48b7b15ae352f55e3317808",
+      "password_sha256": "ceea279e483ed03170fddaf1e9aefc067611a744da161465f277668637962302",
+      "preimage_hex": "544845204a554447454d454e54",
+      "preimage_utf8": "THE JUDGEMENT",
+      "provenance": [
+        "warning-song/song-phase-name-british/the-judgement/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c054",
+      "password_expansion": "raw",
+      "password_hex": "544845204a5544474d454e54",
+      "password_sha256": "d51783467f75184868bd891a247791fb390ab045aa19b4e466b31eb72996ad3f",
+      "preimage_hex": "544845204a5544474d454e54",
+      "preimage_utf8": "THE JUDGMENT",
+      "provenance": [
+        "warning-song/song-phase-name-american/the-judgment/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64353137383334363766373531383438363862643839316132343737393166623339306162303435616131396234653436366233316562373239393661643366",
+      "password_sha256": "7611ae7884a7ffa3f4286e065446f039282680d0879cc04d1218f41ad63d106e",
+      "preimage_hex": "544845204a5544474d454e54",
+      "preimage_utf8": "THE JUDGMENT",
+      "provenance": [
+        "warning-song/song-phase-name-american/the-judgment/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d51783467f75184868bd891a247791fb390ab045aa19b4e466b31eb72996ad3f",
+      "password_sha256": "5f07523584b5c4ab0736b6556a8a3b566372c281cafadffc93caf7b097ddb656",
+      "preimage_hex": "544845204a5544474d454e54",
+      "preimage_utf8": "THE JUDGMENT",
+      "provenance": [
+        "warning-song/song-phase-name-american/the-judgment/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c057",
+      "password_expansion": "raw",
+      "password_hex": "5448452052454420524f5345",
+      "password_sha256": "243be128de8844ce805ddec9ed20a8686e89c8a677d5682d70b2b2fa79a570fb",
+      "preimage_hex": "5448452052454420524f5345",
+      "preimage_utf8": "THE RED ROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/the-red-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32343362653132386465383834346365383035646465633965643230613836383665383963386136373764353638326437306232623266613739613537306662",
+      "password_sha256": "8db850315ac22fab549c0dfd703c2e182ee3b4cd8da35855bb3fdf58a1a3db85",
+      "preimage_hex": "5448452052454420524f5345",
+      "preimage_utf8": "THE RED ROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/the-red-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "243be128de8844ce805ddec9ed20a8686e89c8a677d5682d70b2b2fa79a570fb",
+      "password_sha256": "77248969ed3f561399c607c85cbfc1cee07ad0c0282755fe4d41b69f000e1774",
+      "preimage_hex": "5448452052454420524f5345",
+      "preimage_utf8": "THE RED ROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/the-red-rose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c060",
+      "password_expansion": "raw",
+      "password_hex": "544845424c41434b524f5345",
+      "password_sha256": "e91cf736a05710a10fc1e685826dcb24df4f19f94d2f86edb29a6052129d698f",
+      "preimage_hex": "544845424c41434b524f5345",
+      "preimage_utf8": "THEBLACKROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65393163663733366130353731306131306663316536383538323664636232346466346631396639346432663836656462323961363035323132396436393866",
+      "password_sha256": "308dbef6aaf993f68d3b47fe534014532c5c678fdee81261b5aae76cd783ac28",
+      "preimage_hex": "544845424c41434b524f5345",
+      "preimage_utf8": "THEBLACKROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e91cf736a05710a10fc1e685826dcb24df4f19f94d2f86edb29a6052129d698f",
+      "password_sha256": "6bdf76b9fd5b269c8f852602caccc0e488261f7873c6023b5040eced1bc259c6",
+      "preimage_hex": "544845424c41434b524f5345",
+      "preimage_utf8": "THEBLACKROSE",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c063",
+      "password_expansion": "raw",
+      "password_hex": "5448454a554447454d454e54",
+      "password_sha256": "4e2aaa2ba2c141939d6c0e0b704b283d838c2b4ed2761011e77e1982913c1e64",
+      "preimage_hex": "5448454a554447454d454e54",
+      "preimage_utf8": "THEJUDGEMENT",
+      "provenance": [
+        "warning-song/song-phase-name-british/thejudgement/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34653261616132626132633134313933396436633065306237303462323833643833386332623465643237363130313165373765313938323931336331653634",
+      "password_sha256": "b5990662e7d8da1e2c9682884f6738f41c352a04f0e276198c009a6e87fd4fa9",
+      "preimage_hex": "5448454a554447454d454e54",
+      "preimage_utf8": "THEJUDGEMENT",
+      "provenance": [
+        "warning-song/song-phase-name-british/thejudgement/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4e2aaa2ba2c141939d6c0e0b704b283d838c2b4ed2761011e77e1982913c1e64",
+      "password_sha256": "997380db8196e54768f05089c13d503a3f22c16310c8c59a76f25fcd18dcefbe",
+      "preimage_hex": "5448454a554447454d454e54",
+      "preimage_utf8": "THEJUDGEMENT",
+      "provenance": [
+        "warning-song/song-phase-name-british/thejudgement/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c066",
+      "password_expansion": "raw",
+      "password_hex": "5448454a5544474d454e54",
+      "password_sha256": "f4724da34d512abefc9ab1b78f0964b2ca5148693c6b0abedc600fcff3563dda",
+      "preimage_hex": "5448454a5544474d454e54",
+      "preimage_utf8": "THEJUDGMENT",
+      "provenance": [
+        "warning-song/song-phase-name-american/thejudgment/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66343732346461333464353132616265666339616231623738663039363462326361353134383639336336623061626564633630306663666633353633646461",
+      "password_sha256": "83fe8d660c03b1f5a74698332b7f8f0ed9326f97a6374a13abb457e88b1ed2f7",
+      "preimage_hex": "5448454a5544474d454e54",
+      "preimage_utf8": "THEJUDGMENT",
+      "provenance": [
+        "warning-song/song-phase-name-american/thejudgment/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f4724da34d512abefc9ab1b78f0964b2ca5148693c6b0abedc600fcff3563dda",
+      "password_sha256": "04f64dda681c4a68c2c1f0f4a624f6056e108de23e0c26c4565c283f41c5fbf8",
+      "preimage_hex": "5448454a5544474d454e54",
+      "preimage_utf8": "THEJUDGMENT",
+      "provenance": [
+        "warning-song/song-phase-name-american/thejudgment/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c069",
+      "password_expansion": "raw",
+      "password_hex": "544845524544524f5345",
+      "password_sha256": "d1d5f65f80deff96d4df0d9132311b2f46fb4f9eaa59b3ed30fc97bc095df3cd",
+      "preimage_hex": "544845524544524f5345",
+      "preimage_utf8": "THEREDROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64316435663635663830646566663936643464663064393133323331316232663436666234663965616135396233656433306663393762633039356466336364",
+      "password_sha256": "3cefa78308fc2876954f6b1436bf917ebe3fd6ec5903341d9b7714c9a4e1edbd",
+      "preimage_hex": "544845524544524f5345",
+      "preimage_utf8": "THEREDROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d1d5f65f80deff96d4df0d9132311b2f46fb4f9eaa59b3ed30fc97bc095df3cd",
+      "password_sha256": "a20b3072075932c2ffb89dab30b99c123a866232c1c149a0bc46957b874a645d",
+      "preimage_hex": "544845524544524f5345",
+      "preimage_utf8": "THEREDROSE",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/upper"
+      ]
+    },
+    {
+      "candidate_id": "v21c072",
+      "password_expansion": "raw",
+      "password_hex": "54686520426c61636b20526f7365",
+      "password_sha256": "57794825e7db59bf31651c1c5692e753c2a131ff3a1e45a1c1d33f80548d39bc",
+      "preimage_hex": "54686520426c61636b20526f7365",
+      "preimage_utf8": "The Black Rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/the-black-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35373739343832356537646235396266333136353163316335363932653735336332613133316666336131653435613163316433336638303534386433396263",
+      "password_sha256": "59743cf66e1ee419b59647e799d8770e52e90a01b2aab7d36a429dabf4718364",
+      "preimage_hex": "54686520426c61636b20526f7365",
+      "preimage_utf8": "The Black Rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/the-black-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "57794825e7db59bf31651c1c5692e753c2a131ff3a1e45a1c1d33f80548d39bc",
+      "password_sha256": "caaef896df35b9edf0513cc94d9ee6f693084753af34f99960d9a15839a4c4c8",
+      "preimage_hex": "54686520426c61636b20526f7365",
+      "preimage_utf8": "The Black Rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/the-black-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c075",
+      "password_expansion": "raw",
+      "password_hex": "546865204a756467656d656e74",
+      "password_sha256": "fa1aa0ebc6019ac3c7088f6d509e0670b71fb2bda3372d148208eedcaea06c9b",
+      "preimage_hex": "546865204a756467656d656e74",
+      "preimage_utf8": "The Judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/the-judgement/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66613161613065626336303139616333633730383866366435303965303637306237316662326264613333373264313438323038656564636165613036633962",
+      "password_sha256": "a4ebcaf7680364714a2c33b0c3720e156a6604e25117171e399d59206400119a",
+      "preimage_hex": "546865204a756467656d656e74",
+      "preimage_utf8": "The Judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/the-judgement/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "fa1aa0ebc6019ac3c7088f6d509e0670b71fb2bda3372d148208eedcaea06c9b",
+      "password_sha256": "cf9a5b12c6cd8d2500849a4d38fdbd3786db540fc5f99a7c69553b50803a4937",
+      "preimage_hex": "546865204a756467656d656e74",
+      "preimage_utf8": "The Judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/the-judgement/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c078",
+      "password_expansion": "raw",
+      "password_hex": "546865204a7564676d656e74",
+      "password_sha256": "88e2a47d999fdf751259c35ee2fa5304b9c0aa26f6d5db93ca0f231692c040f1",
+      "preimage_hex": "546865204a7564676d656e74",
+      "preimage_utf8": "The Judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/the-judgment/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38386532613437643939396664663735313235396333356565326661353330346239633061613236663664356462393363613066323331363932633034306631",
+      "password_sha256": "b08ee3efaa57e7a0e5949f72c4647897e1da217427eb60d19181812c3ba81ce1",
+      "preimage_hex": "546865204a7564676d656e74",
+      "preimage_utf8": "The Judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/the-judgment/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "88e2a47d999fdf751259c35ee2fa5304b9c0aa26f6d5db93ca0f231692c040f1",
+      "password_sha256": "4a13af99d7055cdfb6659e3cf8e440b7c9fc82a3fc3706431fab4a364c4862ca",
+      "preimage_hex": "546865204a7564676d656e74",
+      "preimage_utf8": "The Judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/the-judgment/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c081",
+      "password_expansion": "raw",
+      "password_hex": "5468652052656420526f7365",
+      "password_sha256": "58f106f5b07576be2d89d236616d5b11213afdef66c6dd10ecf13f677aa13e23",
+      "preimage_hex": "5468652052656420526f7365",
+      "preimage_utf8": "The Red Rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/the-red-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35386631303666356230373537366265326438396432333636313664356231313231336166646566363663366464313065636631336636373761613133653233",
+      "password_sha256": "c96e0c207b24995950e20c5e0e200c11107fc9093cb204b3a789841cf43361df",
+      "preimage_hex": "5468652052656420526f7365",
+      "preimage_utf8": "The Red Rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/the-red-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "58f106f5b07576be2d89d236616d5b11213afdef66c6dd10ecf13f677aa13e23",
+      "password_sha256": "19b60d42ee3fd44a8ed8d3dd07f32f504a5f5eb155fd828fba5ba5687fc93a95",
+      "preimage_hex": "5468652052656420526f7365",
+      "preimage_utf8": "The Red Rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/the-red-rose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c084",
+      "password_expansion": "raw",
+      "password_hex": "546865626c61636b726f7365",
+      "password_sha256": "5d56c13e2dadef9fda121800ab63fe8d492dc23c5853ce08cd2de01a67fc321f",
+      "preimage_hex": "546865626c61636b726f7365",
+      "preimage_utf8": "Theblackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35643536633133653264616465663966646131323138303061623633666538643439326463323363353835336365303863643264653031613637666333323166",
+      "password_sha256": "f5cdfad31000fea5fd2f9d9e292b003c0acf793801bf559c56d1f366ff25c6af",
+      "preimage_hex": "546865626c61636b726f7365",
+      "preimage_utf8": "Theblackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5d56c13e2dadef9fda121800ab63fe8d492dc23c5853ce08cd2de01a67fc321f",
+      "password_sha256": "f0c17a31aaf65bc0515f3ac382fc5837bdeffb74f921812e860d758480cb4a5c",
+      "preimage_hex": "546865626c61636b726f7365",
+      "preimage_utf8": "Theblackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c087",
+      "password_expansion": "raw",
+      "password_hex": "5468656a756467656d656e74",
+      "password_sha256": "3cf1c532e546f02f915b23700025409e87b71acc41881231a98be8ff0bb566dc",
+      "preimage_hex": "5468656a756467656d656e74",
+      "preimage_utf8": "Thejudgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/thejudgement/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33636631633533326535343666303266393135623233373030303235343039653837623731616363343138383132333161393862653866663062623536366463",
+      "password_sha256": "81f31c68af992cf698ea70684c568dc1f89e3f4e3cfe857faf67e25bb6fa4ea9",
+      "preimage_hex": "5468656a756467656d656e74",
+      "preimage_utf8": "Thejudgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/thejudgement/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3cf1c532e546f02f915b23700025409e87b71acc41881231a98be8ff0bb566dc",
+      "password_sha256": "4dfd2e061461bd27a33761308f928df1cbfcbb14799c76b96cf7152cd3586e2b",
+      "preimage_hex": "5468656a756467656d656e74",
+      "preimage_utf8": "Thejudgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/thejudgement/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c090",
+      "password_expansion": "raw",
+      "password_hex": "5468656a7564676d656e74",
+      "password_sha256": "3aca4e1bac30ed35bb5029459227f2f8bceb29668b77d44647867d2b95644798",
+      "preimage_hex": "5468656a7564676d656e74",
+      "preimage_utf8": "Thejudgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/thejudgment/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33616361346531626163333065643335626235303239343539323237663266386263656232393636386237376434343634373836376432623935363434373938",
+      "password_sha256": "375ca375230db47f589be4fcb337fe9fcd3ac767f928f0a987c2489931b0a3e2",
+      "preimage_hex": "5468656a7564676d656e74",
+      "preimage_utf8": "Thejudgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/thejudgment/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3aca4e1bac30ed35bb5029459227f2f8bceb29668b77d44647867d2b95644798",
+      "password_sha256": "50a4bec1d7defc776611c22d49ad89f16e4b69785212d6018a5c5a135ad251f5",
+      "preimage_hex": "5468656a7564676d656e74",
+      "preimage_utf8": "Thejudgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/thejudgment/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c093",
+      "password_expansion": "raw",
+      "password_hex": "546865726564726f7365",
+      "password_sha256": "ce99effcc3ccaaa295eaec17924b8a8f481d9e6cbb6baa1b98685140c92b2500",
+      "preimage_hex": "546865726564726f7365",
+      "preimage_utf8": "Theredrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63653939656666636333636361616132393565616563313739323462386138663438316439653663626236626161316239383638353134306339326232353030",
+      "password_sha256": "ec6db78d8ae70cbeb25b5b41340ea44042b0d07c98e1553743c7abaa21a8944f",
+      "preimage_hex": "546865726564726f7365",
+      "preimage_utf8": "Theredrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ce99effcc3ccaaa295eaec17924b8a8f481d9e6cbb6baa1b98685140c92b2500",
+      "password_sha256": "7edfc42e52a2ef438fc16c364f250f4e176825a7af722b21dca9b5f30e5252e2",
+      "preimage_hex": "546865726564726f7365",
+      "preimage_utf8": "Theredrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/title"
+      ]
+    },
+    {
+      "candidate_id": "v21c096",
+      "password_expansion": "raw",
+      "password_hex": "626c61636b",
+      "password_sha256": "c006c7e3ab14d686f63524136f1ec7c5e553d839bc01c851e4dc9de2bdbfc589",
+      "preimage_hex": "626c61636b",
+      "preimage_utf8": "black",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63303036633765336162313464363836663633353234313336663165633763356535353364383339626330316338353165346463396465326264626663353839",
+      "password_sha256": "6118a6ba293411ecebacb387a31e5c7802ea6dff9de4d57ced5abb07fc9ed11c",
+      "preimage_hex": "626c61636b",
+      "preimage_utf8": "black",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c006c7e3ab14d686f63524136f1ec7c5e553d839bc01c851e4dc9de2bdbfc589",
+      "password_sha256": "6fd444c4461a25e502b0183c78b2be05104712e16bdc6a2cf870ba5c0ce79294",
+      "preimage_hex": "626c61636b",
+      "preimage_utf8": "black",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c099",
+      "password_expansion": "raw",
+      "password_hex": "626c61636b20726f7365",
+      "password_sha256": "ee8815ae059140259ea0be8c941b46fe94341c41ef92e1082caec869afc7935c",
+      "preimage_hex": "626c61636b20726f7365",
+      "preimage_utf8": "black rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65653838313561653035393134303235396561306265386339343162343666653934333431633431656639326531303832636165633836396166633739333563",
+      "password_sha256": "66eb53fc3153ad1d3c156d45bf77d728b328fb67c94a4dbd82c7e9e18575db06",
+      "preimage_hex": "626c61636b20726f7365",
+      "preimage_utf8": "black rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ee8815ae059140259ea0be8c941b46fe94341c41ef92e1082caec869afc7935c",
+      "password_sha256": "72d6f896e70fec85b2861d8328f457d68532890b5f7e9c5116d258bcd391fb88",
+      "preimage_hex": "626c61636b20726f7365",
+      "preimage_utf8": "black rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/black-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c102",
+      "password_expansion": "raw",
+      "password_hex": "626c61636b726f7365",
+      "password_sha256": "e4c466c50258b76dd6bec3ef96783eedee74efa3c4f38ccc0bc81db11f8262ed",
+      "preimage_hex": "626c61636b726f7365",
+      "preimage_utf8": "blackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/blackrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c103",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65346334363663353032353862373664643662656333656639363738336565646565373465666133633466333863636330626338316462313166383236326564",
+      "password_sha256": "9ee2aa545f69a98fd520dab64cec23603da163f4136d8176585eeab1c1d4b1db",
+      "preimage_hex": "626c61636b726f7365",
+      "preimage_utf8": "blackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/blackrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c104",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e4c466c50258b76dd6bec3ef96783eedee74efa3c4f38ccc0bc81db11f8262ed",
+      "password_sha256": "59ac5e2cf6127eac3d94e0b6d5a90b7947cf2a3e8348926040518a85cda92508",
+      "preimage_hex": "626c61636b726f7365",
+      "preimage_utf8": "blackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/blackrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c105",
+      "password_expansion": "raw",
+      "password_hex": "6a756467656d656e74",
+      "password_sha256": "a9c9cca61f97e3d9bf484cdbc870b7ca7e37d77bfe4dfd464bff5d505f2de3d7",
+      "preimage_hex": "6a756467656d656e74",
+      "preimage_utf8": "judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c106",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61396339636361363166393765336439626634383463646263383730623763613765333764373762666534646664343634626666356435303566326465336437",
+      "password_sha256": "68204668eef087d17c232f6befa7dcccb6e1ecd97818c12649ebfe15783b6586",
+      "preimage_hex": "6a756467656d656e74",
+      "preimage_utf8": "judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c107",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a9c9cca61f97e3d9bf484cdbc870b7ca7e37d77bfe4dfd464bff5d505f2de3d7",
+      "password_sha256": "4a26a9699e1372d49ad6efbf7d0108351d8e45fdb712097cfd4f0a32be933c2e",
+      "preimage_hex": "6a756467656d656e74",
+      "preimage_utf8": "judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/judgement/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c108",
+      "password_expansion": "raw",
+      "password_hex": "6a7564676d656e74",
+      "password_sha256": "25135325b8a1c15ab6d1ebced745adf737710ed96beda03e029351ea09127f6f",
+      "preimage_hex": "6a7564676d656e74",
+      "preimage_utf8": "judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/judgment/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c109",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32353133353332356238613163313561623664316562636564373435616466373337373130656439366265646130336530323933353165613039313237663666",
+      "password_sha256": "6afcfae67f0e55c88ae15dc2ff1d777fc7ca3a435926d1f628ab5bd282e217ca",
+      "preimage_hex": "6a7564676d656e74",
+      "preimage_utf8": "judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/judgment/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c110",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "25135325b8a1c15ab6d1ebced745adf737710ed96beda03e029351ea09127f6f",
+      "password_sha256": "5897bb40acf953f907006bd964e821b556a65730f01edd3d9c9f7df9c96d5ab5",
+      "preimage_hex": "6a7564676d656e74",
+      "preimage_utf8": "judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/judgment/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c111",
+      "password_expansion": "raw",
+      "password_hex": "726564",
+      "password_sha256": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a",
+      "preimage_hex": "726564",
+      "preimage_utf8": "red",
+      "provenance": [
+        "warning-song/creator-rose-selection/red/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c112",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62316635316135313166316461306364333438623866383539386462333265363163623936336535666336396532623431343835626639393539306564373561",
+      "password_sha256": "940601495cac78f80694df0d169fc6170190fa8c0e1a913668c4b8572cf7d01d",
+      "preimage_hex": "726564",
+      "preimage_utf8": "red",
+      "provenance": [
+        "warning-song/creator-rose-selection/red/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c113",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b1f51a511f1da0cd348b8f8598db32e61cb963e5fc69e2b41485bf99590ed75a",
+      "password_sha256": "01b88990f73179d8fbd67bf521716d5c8fa2b85e53c76a3dced7eac59de08d18",
+      "preimage_hex": "726564",
+      "preimage_utf8": "red",
+      "provenance": [
+        "warning-song/creator-rose-selection/red/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c114",
+      "password_expansion": "raw",
+      "password_hex": "72656420726f7365",
+      "password_sha256": "0c0d51dbf9b0eac93ba714b600fdc3526054ba572514036a61971922ce3aff69",
+      "preimage_hex": "72656420726f7365",
+      "preimage_utf8": "red rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/red-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c115",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30633064353164626639623065616339336261373134623630306664633335323630353462613537323531343033366136313937313932326365336166663639",
+      "password_sha256": "6870a8ff13dfa86a8f8ce92937b664a0679fc477ce9d919e2639013685acff02",
+      "preimage_hex": "72656420726f7365",
+      "preimage_utf8": "red rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/red-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c116",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0c0d51dbf9b0eac93ba714b600fdc3526054ba572514036a61971922ce3aff69",
+      "password_sha256": "6dc7c77a881755e9683485990c6a0c4d3cd6c8ce0d18ba76ac38f91fcb84b473",
+      "preimage_hex": "72656420726f7365",
+      "preimage_utf8": "red rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/red-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c117",
+      "password_expansion": "raw",
+      "password_hex": "726564726f7365",
+      "password_sha256": "cb0d9c4bcc02337e899345933073f5c24b90ee5f2adcefd68d58b011d520525e",
+      "preimage_hex": "726564726f7365",
+      "preimage_utf8": "redrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/redrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c118",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63623064396334626363303233333765383939333435393333303733663563323462393065653566326164636566643638643538623031316435323035323565",
+      "password_sha256": "656337852c3be7e64ee423714764e7a7d88185cda4f168c1b550b286728f0d77",
+      "preimage_hex": "726564726f7365",
+      "preimage_utf8": "redrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/redrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c119",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cb0d9c4bcc02337e899345933073f5c24b90ee5f2adcefd68d58b011d520525e",
+      "password_sha256": "6b2fd6188c720448b440c7718278497e6e113497ed6522ba6f22499042dc3122",
+      "preimage_hex": "726564726f7365",
+      "preimage_utf8": "redrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/redrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c120",
+      "password_expansion": "raw",
+      "password_hex": "74686520626c61636b20726f7365",
+      "password_sha256": "a122903e94d1d47d5ae248001fbced27e8110183a3278fb764a679c2be3e8fb2",
+      "preimage_hex": "74686520626c61636b20726f7365",
+      "preimage_utf8": "the black rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/the-black-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c121",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61313232393033653934643164343764356165323438303031666263656432376538313130313833613332373866623736346136373963326265336538666232",
+      "password_sha256": "24651dd74abf6d3191a9ce4a4b5df7b15f102b68b346246216062bd558fd05a3",
+      "preimage_hex": "74686520626c61636b20726f7365",
+      "preimage_utf8": "the black rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/the-black-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c122",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a122903e94d1d47d5ae248001fbced27e8110183a3278fb764a679c2be3e8fb2",
+      "password_sha256": "eae06c0c83fdad938afa8d71b95d1a781fa8d0e7789d26c34469644c93a25b32",
+      "preimage_hex": "74686520626c61636b20726f7365",
+      "preimage_utf8": "the black rose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/the-black-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c123",
+      "password_expansion": "raw",
+      "password_hex": "746865206a756467656d656e74",
+      "password_sha256": "1874e8c37d2cdf80a75d671454e630e5db236fb36e2ac1cdfcd1603e89301063",
+      "preimage_hex": "746865206a756467656d656e74",
+      "preimage_utf8": "the judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/the-judgement/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c124",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31383734653863333764326364663830613735643637313435346536333065356462323336666233366532616331636466636431363033653839333031303633",
+      "password_sha256": "69b7f081024e53d22c48945195d37344469f0a40e46fb1bcf00860cf069679c2",
+      "preimage_hex": "746865206a756467656d656e74",
+      "preimage_utf8": "the judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/the-judgement/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c125",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1874e8c37d2cdf80a75d671454e630e5db236fb36e2ac1cdfcd1603e89301063",
+      "password_sha256": "a0b146c9514d4e448793f6021428ff58988d5dc846b65b6bcc02ffdab35e69ec",
+      "preimage_hex": "746865206a756467656d656e74",
+      "preimage_utf8": "the judgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/the-judgement/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c126",
+      "password_expansion": "raw",
+      "password_hex": "746865206a7564676d656e74",
+      "password_sha256": "227e5c0a9c7de9d4690165c37306d050b50402074a0fe30c3b80f0163edd8561",
+      "preimage_hex": "746865206a7564676d656e74",
+      "preimage_utf8": "the judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/the-judgment/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c127",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32323765356330613963376465396434363930313635633337333036643035306235303430323037346130666533306333623830663031363365646438353631",
+      "password_sha256": "d823631b56fd4d3dfbf10d88778246977de2d03dbb1def5c00f2675381f4bb85",
+      "preimage_hex": "746865206a7564676d656e74",
+      "preimage_utf8": "the judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/the-judgment/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c128",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "227e5c0a9c7de9d4690165c37306d050b50402074a0fe30c3b80f0163edd8561",
+      "password_sha256": "91d9cacdc77d22e7fb04728494cf7a2feb42cde29866054083c79d62c1b27a93",
+      "preimage_hex": "746865206a7564676d656e74",
+      "preimage_utf8": "the judgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/the-judgment/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c129",
+      "password_expansion": "raw",
+      "password_hex": "7468652072656420726f7365",
+      "password_sha256": "c0eb65dfe2bfa49b0ca20eaeda40431a2bae6ca5c487e29b57f8db17e7204de1",
+      "preimage_hex": "7468652072656420726f7365",
+      "preimage_utf8": "the red rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/the-red-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c130",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63306562363564666532626661343962306361323065616564613430343331613262616536636135633438376532396235376638646231376537323034646531",
+      "password_sha256": "9fccbcbc70664fd2fddc1bc00e17c56eafc921053fcbaf52d84f77b7a8171b63",
+      "preimage_hex": "7468652072656420726f7365",
+      "preimage_utf8": "the red rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/the-red-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c131",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c0eb65dfe2bfa49b0ca20eaeda40431a2bae6ca5c487e29b57f8db17e7204de1",
+      "password_sha256": "b2210dc463d2cfc898eb57a0d59dac7ab0832b1eb263c986692dacf786eab419",
+      "preimage_hex": "7468652072656420726f7365",
+      "preimage_utf8": "the red rose",
+      "provenance": [
+        "warning-song/creator-rose-selection/the-red-rose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c132",
+      "password_expansion": "raw",
+      "password_hex": "746865626c61636b726f7365",
+      "password_sha256": "ca399d9f9e1cf8aea6d56bbb1ea4a1d79e08c6bf0b5c0b162cdd9873088efc9e",
+      "preimage_hex": "746865626c61636b726f7365",
+      "preimage_utf8": "theblackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c133",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63613339396439663965316366386165613664353662626231656134613164373965303863366266306235633062313632636464393837333038386566633965",
+      "password_sha256": "8d1cedae11800e1307894e75358de309189d23ce0d04ee9b560fb937c4414cda",
+      "preimage_hex": "746865626c61636b726f7365",
+      "preimage_utf8": "theblackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c134",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ca399d9f9e1cf8aea6d56bbb1ea4a1d79e08c6bf0b5c0b162cdd9873088efc9e",
+      "password_sha256": "472ce056746e44184a172c74bc59bf762bf10a69785cc226628f3fc2ec10aa10",
+      "preimage_hex": "746865626c61636b726f7365",
+      "preimage_utf8": "theblackrose",
+      "provenance": [
+        "warning-song/song-explicit-alternative/theblackrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c135",
+      "password_expansion": "raw",
+      "password_hex": "7468656a756467656d656e74",
+      "password_sha256": "51da16646aad85e9b776c78b25c3a2449d39c9477e1dce21af9c21413132c75f",
+      "preimage_hex": "7468656a756467656d656e74",
+      "preimage_utf8": "thejudgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/thejudgement/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c136",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35316461313636343661616438356539623737366337386232356333613234343964333963393437376531646365323161663963323134313331333263373566",
+      "password_sha256": "801edc9ba3e58d5bec570113dfc373806339a9117ee67d458f104392f5874a33",
+      "preimage_hex": "7468656a756467656d656e74",
+      "preimage_utf8": "thejudgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/thejudgement/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c137",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "51da16646aad85e9b776c78b25c3a2449d39c9477e1dce21af9c21413132c75f",
+      "password_sha256": "346e25e83e660e93d0d0dd73641eb81b0331b31f7ebc1309ef29f85dad3e26fa",
+      "preimage_hex": "7468656a756467656d656e74",
+      "preimage_utf8": "thejudgement",
+      "provenance": [
+        "warning-song/song-phase-name-british/thejudgement/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c138",
+      "password_expansion": "raw",
+      "password_hex": "7468656a7564676d656e74",
+      "password_sha256": "ed3ceab95c0af550e55daa6649267f0321a37ff4bd1dc12c43dc8874f0d61dea",
+      "preimage_hex": "7468656a7564676d656e74",
+      "preimage_utf8": "thejudgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/thejudgment/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c139",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65643363656162393563306166353530653535646161363634393236376630333231613337666634626431646331326334336463383837346630643631646561",
+      "password_sha256": "e2eabb20ea8264b65cf3c7480f86293a96b6e1fe63f279d57437cb011ba1ef8a",
+      "preimage_hex": "7468656a7564676d656e74",
+      "preimage_utf8": "thejudgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/thejudgment/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c140",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ed3ceab95c0af550e55daa6649267f0321a37ff4bd1dc12c43dc8874f0d61dea",
+      "password_sha256": "c4fc5adfc1b81156f09b60e7bb3d6a083aca8201b0c3d56b1e7f9781c744099a",
+      "preimage_hex": "7468656a7564676d656e74",
+      "preimage_utf8": "thejudgment",
+      "provenance": [
+        "warning-song/song-phase-name-american/thejudgment/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c141",
+      "password_expansion": "raw",
+      "password_hex": "746865726564726f7365",
+      "password_sha256": "bd46caa0a932597d4db1439abf6c4d49618d318e590018069e7d83a2fcbd09de",
+      "preimage_hex": "746865726564726f7365",
+      "preimage_utf8": "theredrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c142",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62643436636161306139333235393764346462313433396162663663346434393631386433313865353930303138303639653764383361326663626430396465",
+      "password_sha256": "022c643ce14fd251e13b38e5cce2fa588a4973e2bb41dbbd7ec86e6a61cb629d",
+      "preimage_hex": "746865726564726f7365",
+      "preimage_utf8": "theredrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/lower"
+      ]
+    },
+    {
+      "candidate_id": "v21c143",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bd46caa0a932597d4db1439abf6c4d49618d318e590018069e7d83a2fcbd09de",
+      "password_sha256": "c322eddfa22c21b2e63408844ff2e46d9dbdaf2a8fabc90d1b98ae891e0c8859",
+      "preimage_hex": "746865726564726f7365",
+      "preimage_utf8": "theredrose",
+      "provenance": [
+        "warning-song/creator-rose-selection/theredrose/lower"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "forbidden_evidence": [
+      "expected padding length",
+      "community token list",
+      "plus/minus grammar",
+      "Half/Better Half",
+      "target point or address",
+      "known community plaintext hashes"
+    ],
+    "inherits_v1_rules_verbatim": true,
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v20_manifest_sha256": "ddf24693fc929ddf1214cb83c1de23a1a5c6c7ccf7a95eec6828a3f8ed9219ca",
+  "schema": "salphaseion-source-only-preregistration-v21-warning-song-choice",
+  "source": {
+    "authenticated_progression": [
+      "THE SEED IS PLANTED",
+      "THE FLOWER BLOSSOMS THROUGH WHAT SEEMS TO BE A CONCRETE SURFACE",
+      "THE JUDGEMENT: THE RED ROSE OR THE BLACK"
+    ],
+    "candidate_rule": "the exact red/black rose alternatives and The Judgement phase name, compact or spaced and lower/upper/title case",
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "creator_hint": "Roses are White but often Red.",
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

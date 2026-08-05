@@ -1,0 +1,193 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "derived_keys": {
+    "K_C1": "9fa9db91a9dee0e38b93694ec874630b30f32f33671987543b1cf913f4746439",
+    "K_C2": "1517389608d55021dc436b66ec513a617c4f14cb0fed4708b535641a6dfe8210",
+    "K_S1": "b06fa6f20561756c865dac7190f063480a371e4a13206e529ee7e9078f309c4b",
+    "K_S2": "b11d211ca0a17cd68c580308f3e6f21d3f935c8da3c4373b6f73ab5ccfaea597",
+    "K_B1": "44d19415009a2929a83b2f4e0da7b180d12f8b341cb879dd769ade1f8d399d40",
+    "K_B2": "ae27695b880aa5701df9abd8c96387cd9205a339dbf3fc5a1c6d0a8e6793438a",
+    "K_H1": "db9ccfe92a60ad7cc63d43391570c49585a01ade76ca09e03ad533f498831f19",
+    "K_H2": "16f7f9c3927894563cd14f09dc69a203d31006a6726a7b3ec42fe065b6812210",
+    "sha256(matrixsumlist)": "e7546e3076294907ed2a0ecaa9c33062f6e602b7c74c5aa5cc865df0ff345507",
+    "sha256(enter)": "e08d706b3e4ce964b632746cf568913cb93f1ed36476fbb0494b80ed17c5975c",
+    "sha256(lastwordsbeforearchichoice)": "77094e7a1591fb81379f1582cf88db5aa6ab8e77176a4d8428a1ff5decfd102d",
+    "sha256(thispassword)": "74c1d7592daf4f89b0a7ba5e368bb59cc9e19c6a4ebb7f33cd8ccf8f3edacac0",
+    "sha256(yourlastcommand)": "4c2b6d6bfb58ed3d8048130275644f48b79f8f41eb2b319df0b98b5743b7fc07",
+    "sha256(secondanswer)": "08fb5a32836d95c1543014ab483f77d18211d6d1335765ae15912e09d4b0b683",
+    "cosmic_master": "a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735",
+    "chain4_password": "38d4f4c90cb45fdfc8cff50d0ed1c5740a25de4b8e946d0a5ae2667a23a259cc",
+    "operand_leftpad": "00002dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "operand_rightpad": "2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e705370000"
+  },
+  "derived_key_count": 18,
+  "iv_hex": {
+    "zero": "00000000000000000000000000000000",
+    "operand_head": "2dca9ebcdc7722e80ab9aa8bb166ab2c",
+    "operand_tail": "ab2cc79c2fef75ce3c638f45b3e70537"
+  },
+  "counts": {
+    "A1_ecb_block_decryptions": 630,
+    "A2_cbc_body_decryptions": 54,
+    "A2_chunk_scalar_gates": 1890,
+    "B1_whole_integer_candidates": 10,
+    "B2_selector_candidates": 18
+  },
+  "candidate_stream_sha256": "7eaadf98c0e736c4401e491cb6e6f254de666126ca18bc4f9e7402e6ba061bb1",
+  "structure_hits": [],
+  "point_matches": [],
+  "accepted_prize_matches": [],
+  "selector_records": [
+    {
+      "source": "operand",
+      "source_mod_35": 16,
+      "index_base": 0,
+      "selected_block_index": 16,
+      "operation": "direct",
+      "candidate_scalar_hex": "52b910c1a1ee27c95fab05eac060b0fc3033070cff094016f8b16b1f8c2d0f03"
+    },
+    {
+      "source": "operand",
+      "source_mod_35": 16,
+      "index_base": 0,
+      "selected_block_index": 16,
+      "operation": "add_source",
+      "candidate_scalar_hex": "52b93e8c40ab0440829310a46aec6262db5fcea92ef8b5e53514fa654014143a"
+    },
+    {
+      "source": "operand",
+      "source_mod_35": 16,
+      "index_base": 0,
+      "selected_block_index": 16,
+      "operation": "subtract_source",
+      "candidate_scalar_hex": "52b8e2f703314b523cc2fb3115d4ff9585063f70cf19ca48bc4ddbd9d84609cc"
+    },
+    {
+      "source": "operand",
+      "source_mod_35": 16,
+      "index_base": 1,
+      "selected_block_index": 15,
+      "operation": "direct",
+      "candidate_scalar_hex": "1864392bd3a0744ac30c0618cd1582974c5c5005dfef110c6ccf9039d7ea2eba"
+    },
+    {
+      "source": "operand",
+      "source_mod_35": 16,
+      "index_base": 1,
+      "selected_block_index": 15,
+      "operation": "add_source",
+      "candidate_scalar_hex": "186466f6725d50c1e5f410d277a133fdf78917a20fde86daa9331f7f8bd133f1"
+    },
+    {
+      "source": "operand",
+      "source_mod_35": 16,
+      "index_base": 1,
+      "selected_block_index": 15,
+      "operation": "subtract_source",
+      "candidate_scalar_hex": "18640b6134e397d3a023fb5f2289d130a12f8869afff9b3e306c00f424032983"
+    },
+    {
+      "source": "magnitude",
+      "source_mod_35": 31,
+      "index_base": 0,
+      "selected_block_index": 31,
+      "operation": "direct",
+      "candidate_scalar_hex": "ef0291713e72bd930d3843ebbf7fe267af314df3c30abfab9bcf5b1431905616"
+    },
+    {
+      "source": "magnitude",
+      "source_mod_35": 31,
+      "index_base": 0,
+      "selected_block_index": 31,
+      "operation": "add_source",
+      "candidate_scalar_hex": "ef02923bdd2f9a0a30204ea56a0b93ce5a5e158ff2fa3579d832ea59e5775b4d"
+    },
+    {
+      "source": "magnitude",
+      "source_mod_35": 31,
+      "index_base": 0,
+      "selected_block_index": 31,
+      "operation": "subtract_source",
+      "candidate_scalar_hex": "ef0290a69fb5e11bea50393214f4310104048657931b49dd5f6bcbce7da950df"
+    },
+    {
+      "source": "magnitude",
+      "source_mod_35": 31,
+      "index_base": 1,
+      "selected_block_index": 30,
+      "operation": "direct",
+      "candidate_scalar_hex": "08686f92a9352c4ac6d47287d2c2330c6ae7dfe360323999b0cb960ccbbbc038"
+    },
+    {
+      "source": "magnitude",
+      "source_mod_35": 31,
+      "index_base": 1,
+      "selected_block_index": 30,
+      "operation": "add_source",
+      "candidate_scalar_hex": "0868705d47f208c1e9bc7d417d4de4731614a77f9021af67ed2f25527fa2c56f"
+    },
+    {
+      "source": "magnitude",
+      "source_mod_35": 31,
+      "index_base": 1,
+      "selected_block_index": 30,
+      "operation": "subtract_source",
+      "candidate_scalar_hex": "08686ec80a784fd3a3ec67ce283681a5bfbb18473042c3cb746806c717d4bb01"
+    },
+    {
+      "source": "prefix",
+      "source_mod_35": 24,
+      "index_base": 0,
+      "selected_block_index": 24,
+      "operation": "direct",
+      "candidate_scalar_hex": "93400d9f039f242b221bed2033d5b4e38531911edbe99df3b3ce7dd8e480901d"
+    },
+    {
+      "source": "prefix",
+      "source_mod_35": 24,
+      "index_base": 0,
+      "selected_block_index": 24,
+      "operation": "add_source",
+      "candidate_scalar_hex": "936b3b69a25c00a24503f7d9de61664a305e58bb0bd913c1f0320d1e98679554"
+    },
+    {
+      "source": "prefix",
+      "source_mod_35": 24,
+      "index_base": 0,
+      "selected_block_index": 24,
+      "operation": "subtract_source",
+      "candidate_scalar_hex": "9314dfd464e247b3ff33e266894a037cda04c982abfa2825776aee9330998ae6"
+    },
+    {
+      "source": "prefix",
+      "source_mod_35": 24,
+      "index_base": 1,
+      "selected_block_index": 23,
+      "operation": "direct",
+      "candidate_scalar_hex": "a28d4ebe09b07b767da8430c41e06f557b1335dd95f31bab21488440e20a2f5f"
+    },
+    {
+      "source": "prefix",
+      "source_mod_35": 24,
+      "index_base": 1,
+      "selected_block_index": 23,
+      "operation": "add_source",
+      "candidate_scalar_hex": "a2b87c88a86d57eda0904dc5ec6c20bc263ffd79c5e291795dac138695f13496"
+    },
+    {
+      "source": "prefix",
+      "source_mod_35": 24,
+      "index_base": 1,
+      "selected_block_index": 23,
+      "operation": "subtract_source",
+      "candidate_scalar_hex": "a26220f36af39eff5ac038529754bdeecfe66e416603a5dce4e4f4fb2e232a28"
+    }
+  ],
+  "positive_controls": {
+    "ecb_roundtrip": true,
+    "cbc_roundtrip": true,
+    "component_point_gate": true
+  },
+  "scope_note": "Printable output is recorded only as structure evidence and is never accepted as a key. Candidate acceptance requires the complete prize point and uncompressed prize address."
+}

@@ -1,0 +1,1535 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 123,
+  "candidates": [
+    {
+      "candidate_id": "v16c000",
+      "password_expansion": "raw",
+      "password_hex": "0140182053d70226ce4af5f6a9eb331085017ae83cd6933ec80867e901324c02a5597053d5631a",
+      "password_sha256": "a43bdc0c3e4657bc4fd9ba1221aa36bfd2cc529cd976eb59d4ab5288f0f06112",
+      "preimage_hex": "0140182053d70226ce4af5f6a9eb331085017ae83cd6933ec80867e901324c02a5597053d5631a",
+      "provenance": [
+        "seven-row-passwords/base9-a1-i0-row-bytes/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61343362646330633365343635376263346664396261313232316161333662666432636335323963643937366562353964346162353238386630663036313132",
+      "password_sha256": "ad9f7ca851788786c3c4fbab487b2ae5f519be10e70d79055ab3ddf77a44ea91",
+      "preimage_hex": "0140182053d70226ce4af5f6a9eb331085017ae83cd6933ec80867e901324c02a5597053d5631a",
+      "provenance": [
+        "seven-row-passwords/base9-a1-i0-row-bytes/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a43bdc0c3e4657bc4fd9ba1221aa36bfd2cc529cd976eb59d4ab5288f0f06112",
+      "password_sha256": "2099e00987ed0bc6da02ebbc933848b588536fd5982ca15e05d011ec8f80a7bd",
+      "preimage_hex": "0140182053d70226ce4af5f6a9eb331085017ae83cd6933ec80867e901324c02a5597053d5631a",
+      "provenance": [
+        "seven-row-passwords/base9-a1-i0-row-bytes/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c003",
+      "password_expansion": "raw",
+      "password_hex": "0140182053d7200226ce4af5f620a9eb33108520017ae83cd693203ec80867e92001324c02a559207053d5631a",
+      "password_sha256": "a76878c364db58806972bf0ffa07a9974a9985342ea433223ba988ca07cae5e7",
+      "preimage_hex": "0140182053d7200226ce4af5f620a9eb33108520017ae83cd693203ec80867e92001324c02a559207053d5631a",
+      "provenance": [
+        "seven-row-passwords/base9-a1-i0-row-bytes/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61373638373863333634646235383830363937326266306666613037613939373461393938353334326561343333323233626139383863613037636165356537",
+      "password_sha256": "5f90bc275385f832e1ed866349438e53810391db88dc105c90a48a27e137e92d",
+      "preimage_hex": "0140182053d7200226ce4af5f620a9eb33108520017ae83cd693203ec80867e92001324c02a559207053d5631a",
+      "provenance": [
+        "seven-row-passwords/base9-a1-i0-row-bytes/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a76878c364db58806972bf0ffa07a9974a9985342ea433223ba988ca07cae5e7",
+      "password_sha256": "ed150b01aaf2aa50aa047329523ebbdfac041f91f18ace425848b1c7140d631e",
+      "preimage_hex": "0140182053d7200226ce4af5f620a9eb33108520017ae83cd693203ec80867e92001324c02a559207053d5631a",
+      "provenance": [
+        "seven-row-passwords/base9-a1-i0-row-bytes/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c006",
+      "password_expansion": "raw",
+      "password_hex": "03312df393d3b45d5062dd9c0b0d4a4688dc58cefbc9bef7fa622af12b30f3b9",
+      "password_sha256": "fdf2dcdba4868d677ebffd19a3265fe5cad881970c7ef534a98432a01365beb1",
+      "preimage_hex": "03312df393d3b45d5062dd9c0b0d4a4688dc58cefbc9bef7fa622af12b30f3b9",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66646632646364626134383638643637376562666664313961333236356665356361643838313937306337656635333461393834333261303133363562656231",
+      "password_sha256": "95824d2ff7a39f90e14c6323904c4a98b2e7f6747e0402ff2d89fd3f6b9d8e5b",
+      "preimage_hex": "03312df393d3b45d5062dd9c0b0d4a4688dc58cefbc9bef7fa622af12b30f3b9",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "fdf2dcdba4868d677ebffd19a3265fe5cad881970c7ef534a98432a01365beb1",
+      "password_sha256": "e3efdb3fdf53dbc00c4ced244746ddb0d5b62fcd933365e53d211d2db2c5677f",
+      "preimage_hex": "03312df393d3b45d5062dd9c0b0d4a4688dc58cefbc9bef7fa622af12b30f3b9",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c009",
+      "password_expansion": "raw",
+      "password_hex": "04573097e2d107947729003d024b5a3e267d0529ab4c9c8608f60ddde1ee042af5a7f7de017c4486e0db",
+      "password_sha256": "619db7b7e1d3e9d11d6938494782ef90c92741b09437232be9ab833387bd638e",
+      "preimage_hex": "04573097e2d107947729003d024b5a3e267d0529ab4c9c8608f60ddde1ee042af5a7f7de017c4486e0db",
+      "provenance": [
+        "seven-row-passwords/decimal-to-hex-row-bytes/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36313964623762376531643365396431316436393338343934373832656639306339323734316230393433373233326265396162383333333837626436333865",
+      "password_sha256": "6c4cba7e52d46c22a145a8fa8787a3d9438c8c8dd602d6f29897d1d04ef794d3",
+      "preimage_hex": "04573097e2d107947729003d024b5a3e267d0529ab4c9c8608f60ddde1ee042af5a7f7de017c4486e0db",
+      "provenance": [
+        "seven-row-passwords/decimal-to-hex-row-bytes/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "619db7b7e1d3e9d11d6938494782ef90c92741b09437232be9ab833387bd638e",
+      "password_sha256": "549c27651922bf9d6125d37d8b383a220a9d75f582da804adcad9c130545d2cc",
+      "preimage_hex": "04573097e2d107947729003d024b5a3e267d0529ab4c9c8608f60ddde1ee042af5a7f7de017c4486e0db",
+      "provenance": [
+        "seven-row-passwords/decimal-to-hex-row-bytes/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c012",
+      "password_expansion": "raw",
+      "password_hex": "04573097e2d12007947729003d20024b5a3e267d200529ab4c9c862008f60ddde1ee20042af5a7f7de20017c4486e0db",
+      "password_sha256": "d3917f3f4afd190c24481d0d5aac7da63c8f282c97224fdd0c630640e0fd566b",
+      "preimage_hex": "04573097e2d12007947729003d20024b5a3e267d200529ab4c9c862008f60ddde1ee20042af5a7f7de20017c4486e0db",
+      "provenance": [
+        "seven-row-passwords/decimal-to-hex-row-bytes/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64333931376633663461666431393063323434383164306435616163376461363363386632383263393732323466646430633633303634306530666435363662",
+      "password_sha256": "6773778a5d1a8910122b2d97bf0fa8618fe974d28dc0b56efe7cddf74637d42a",
+      "preimage_hex": "04573097e2d12007947729003d20024b5a3e267d200529ab4c9c862008f60ddde1ee20042af5a7f7de20017c4486e0db",
+      "provenance": [
+        "seven-row-passwords/decimal-to-hex-row-bytes/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d3917f3f4afd190c24481d0d5aac7da63c8f282c97224fdd0c630640e0fd566b",
+      "password_sha256": "95daede28f64940c372c602653401acc19540319165d41f426be11a7f7623a97",
+      "preimage_hex": "04573097e2d12007947729003d20024b5a3e267d200529ab4c9c862008f60ddde1ee20042af5a7f7de20017c4486e0db",
+      "provenance": [
+        "seven-row-passwords/decimal-to-hex-row-bytes/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c015",
+      "password_expansion": "raw",
+      "password_hex": "14e806da22e9c9d0e00a55569d9dcb5de695ccb21f0f927842f6a25a5fc7e0e3",
+      "password_sha256": "43a7376bfdd579d138d78eead5b630d18cd70dfeaad77d4ce46c0bc46cecdc05",
+      "preimage_hex": "14e806da22e9c9d0e00a55569d9dcb5de695ccb21f0f927842f6a25a5fc7e0e3",
+      "provenance": [
+        "seven-row-passwords/decimal-row-digits/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34336137333736626664643537396431333864373865656164356236333064313863643730646665616164373764346365343663306263343663656364633035",
+      "password_sha256": "f28a6b273db1bd28b234744bdbab668042eb8ca0396b67a1b40b5e38c1f1d00c",
+      "preimage_hex": "14e806da22e9c9d0e00a55569d9dcb5de695ccb21f0f927842f6a25a5fc7e0e3",
+      "provenance": [
+        "seven-row-passwords/decimal-row-digits/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "43a7376bfdd579d138d78eead5b630d18cd70dfeaad77d4ce46c0bc46cecdc05",
+      "password_sha256": "27d37e60a8aae34745f7a8fe98579c3caf154117f0843fd9bc815bacd81138f0",
+      "preimage_hex": "14e806da22e9c9d0e00a55569d9dcb5de695ccb21f0f927842f6a25a5fc7e0e3",
+      "provenance": [
+        "seven-row-passwords/decimal-row-digits/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c018",
+      "password_expansion": "raw",
+      "password_hex": "25e7d54d004e8465211b6dd5748dd963d40b3de4fdf154793e297d2daaca218b1e1bc3091781",
+      "password_sha256": "06c2fe458c7171a98515f6411f9e75a5fce5c0d9dc8ea9ec96fe40dc53eb95d2",
+      "preimage_hex": "25e7d54d004e8465211b6dd5748dd963d40b3de4fdf154793e297d2daaca218b1e1bc3091781",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/column-interleaved-decimal-to-hex"
+      ]
+    },
+    {
+      "candidate_id": "v16c019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30366332666534353863373137316139383531356636343131663965373561356663653563306439646338656139656339366665343064633533656239356432",
+      "password_sha256": "22e2c610698a32d4b1e74d623e503e5ad6b2b4bd80a0dd84aecfd6fe914822a9",
+      "preimage_hex": "25e7d54d004e8465211b6dd5748dd963d40b3de4fdf154793e297d2daaca218b1e1bc3091781",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/column-interleaved-decimal-to-hex"
+      ]
+    },
+    {
+      "candidate_id": "v16c020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "06c2fe458c7171a98515f6411f9e75a5fce5c0d9dc8ea9ec96fe40dc53eb95d2",
+      "password_sha256": "e68be126461e65920ac8b2e80f476a7b9c9a7e33fb3564c9fcc8205dfe9b3d93",
+      "preimage_hex": "25e7d54d004e8465211b6dd5748dd963d40b3de4fdf154793e297d2daaca218b1e1bc3091781",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/column-interleaved-decimal-to-hex"
+      ]
+    },
+    {
+      "candidate_id": "v16c021",
+      "password_expansion": "raw",
+      "password_hex": "2a724306b8c218d5402470053c93b9c2e0ba5dde2b31d8da2cf593fcc59976b3",
+      "password_sha256": "a6b61ae229a4034d3be2fdb7f64f63da48e076e381ce7e8815f260e44e7d8a57",
+      "preimage_hex": "2a724306b8c218d5402470053c93b9c2e0ba5dde2b31d8da2cf593fcc59976b3",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod26-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61366236316165323239613430333464336265326664623766363466363364613438653037366533383163653765383831356632363065343465376438613537",
+      "password_sha256": "89eacedb5924e77ed6b260903312c6823996e6439063ed468bcfd95fb90f5809",
+      "preimage_hex": "2a724306b8c218d5402470053c93b9c2e0ba5dde2b31d8da2cf593fcc59976b3",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod26-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a6b61ae229a4034d3be2fdb7f64f63da48e076e381ce7e8815f260e44e7d8a57",
+      "password_sha256": "a76aadf2d464b9f00b4b1bfeb5842c96ac8c876224c6e72ac4a9a6d154264c19",
+      "preimage_hex": "2a724306b8c218d5402470053c93b9c2e0ba5dde2b31d8da2cf593fcc59976b3",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod26-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c024",
+      "password_expansion": "raw",
+      "password_hex": "2b2033203120362035202c2025",
+      "password_sha256": "1ffb075b32dd666e215389af38f12b682b712ad54fbcbee55e3d47ae27803137",
+      "preimage_hex": "2b2033203120362035202c2025",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-raw-byte/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31666662303735623332646436363665323135333839616633386631326236383262373132616435346662636265653535653364343761653237383033313337",
+      "password_sha256": "d40e09943022d80f729ad6865819460a357b0d2f8719397587426f9f84ec1b47",
+      "preimage_hex": "2b2033203120362035202c2025",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-raw-byte/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1ffb075b32dd666e215389af38f12b682b712ad54fbcbee55e3d47ae27803137",
+      "password_sha256": "df10683001367a9aa92b51d94a2a39a36edfa563e2e58b6cfc71d0570ff92dae",
+      "preimage_hex": "2b2033203120362035202c2025",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-raw-byte/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c027",
+      "password_expansion": "raw",
+      "password_hex": "2b333136352c25",
+      "password_sha256": "eeb71fd4d4e8d0b29d44322479d87b0925f6ab7e9f9758b932830070b988801c",
+      "preimage_hex": "2b333136352c25",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-raw-byte/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65656237316664346434653864306232396434343332323437396438376230393235663661623765396639373538623933323833303037306239383838303163",
+      "password_sha256": "780813061a2d9d88d2fa9d649b192e4e6b23ef5cd6ce8778bc2076a3c4c680d5",
+      "preimage_hex": "2b333136352c25",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-raw-byte/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "eeb71fd4d4e8d0b29d44322479d87b0925f6ab7e9f9758b932830070b988801c",
+      "password_sha256": "f07d155035734b85c8b24bd54d13f2b951dd19d2ff7ce269c39df343a24acceb",
+      "preimage_hex": "2b333136352c25",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-raw-byte/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c030",
+      "password_expansion": "raw",
+      "password_hex": "3433203531203439203534203533203434203337",
+      "password_sha256": "84740e4a17d8887ca1575634124a9cd22a8f10c0e29c08827c19c90f37a24485",
+      "preimage_hex": "3433203531203439203534203533203434203337",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-decimal/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38343734306534613137643838383763613135373536333431323461396364323261386631306330653239633038383237633139633930663337613234343835",
+      "password_sha256": "53e85c4fc1ab456344245a4151733e738c511457462efaf946da296da973e07a",
+      "preimage_hex": "3433203531203439203534203533203434203337",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-decimal/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "84740e4a17d8887ca1575634124a9cd22a8f10c0e29c08827c19c90f37a24485",
+      "password_sha256": "4fde11f51eba39653cb8b2199f58aa090b4023d2ecc015997cd2280d00099f78",
+      "preimage_hex": "3433203531203439203534203533203434203337",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-decimal/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c033",
+      "password_expansion": "raw",
+      "password_hex": "3433353134393534353334343337",
+      "password_sha256": "7a222c666de0c0215acbc4dfec0d0f196a217bc8078601da24674d014658390f",
+      "preimage_hex": "3433353134393534353334343337",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-decimal/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37613232326336363664653063303231356163626334646665633064306631393661323137626338303738363031646132343637346430313436353833393066",
+      "password_sha256": "ba3796466058c85505f0866937bd6ef432faadf86440fbb8283ee50e61b6befe",
+      "preimage_hex": "3433353134393534353334343337",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-decimal/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7a222c666de0c0215acbc4dfec0d0f196a217bc8078601da24674d014658390f",
+      "password_sha256": "d6366f9821748ee41dd3502630f37970753041e7e3202eb95ad4f31011151502",
+      "preimage_hex": "3433353134393534353334343337",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-decimal/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c036",
+      "password_expansion": "raw",
+      "password_hex": "34373732353233393236323235203833333432333537323939383120323532323635393832353237372035363736353235373232373538203938353238383736323231323620343538323535363536333432322031363333323337323632353535",
+      "password_sha256": "2d4e67ccfc1aaa604b29523a00ab0ef7b97cb70c95ae88b42e952caa6a4a20b6",
+      "preimage_hex": "34373732353233393236323235203833333432333537323939383120323532323635393832353237372035363736353235373232373538203938353238383736323231323620343538323535363536333432322031363333323337323632353535",
+      "provenance": [
+        "seven-row-passwords/decimal-row-digits/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32643465363763636663316161613630346232393532336130306162306566376239376362373063393561653838623432653935326361613661346132306236",
+      "password_sha256": "304824e5ef359aab9404e4cf5beaf7b9839888a9fe23da883d00d7b76343de78",
+      "preimage_hex": "34373732353233393236323235203833333432333537323939383120323532323635393832353237372035363736353235373232373538203938353238383736323231323620343538323535363536333432322031363333323337323632353535",
+      "provenance": [
+        "seven-row-passwords/decimal-row-digits/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2d4e67ccfc1aaa604b29523a00ab0ef7b97cb70c95ae88b42e952caa6a4a20b6",
+      "password_sha256": "630c2aa4852d44d2b925291aaeadf3a201984abdbbdedbe9306580928c69b0db",
+      "preimage_hex": "34373732353233393236323235203833333432333537323939383120323532323635393832353237372035363736353235373232373538203938353238383736323231323620343538323535363536333432322031363333323337323632353535",
+      "provenance": [
+        "seven-row-passwords/decimal-row-digits/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c039",
+      "password_expansion": "raw",
+      "password_hex": "34373732353233393236323235383333343233353732393938313235323236353938323532373735363736353235373232373538393835323838373632323132363435383235353635363334323231363333323337323632353535",
+      "password_sha256": "31c0ed10e87600d8e4fd6e5028ad37fcbdfb7ae2b6dffc0281c30655e3f8f2aa",
+      "preimage_hex": "34373732353233393236323235383333343233353732393938313235323236353938323532373735363736353235373232373538393835323838373632323132363435383235353635363334323231363333323337323632353535",
+      "provenance": [
+        "seven-row-passwords/decimal-row-digits/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33316330656431306538373630306438653466643665353032386164333766636264666237616532623664666663303238316333303635356533663866326161",
+      "password_sha256": "53b96762d612906afa0ff0aee51a645ff9602c9861e08b5bfae416f002a1d32a",
+      "preimage_hex": "34373732353233393236323235383333343233353732393938313235323236353938323532373735363736353235373232373538393835323838373632323132363435383235353635363334323231363333323337323632353535",
+      "provenance": [
+        "seven-row-passwords/decimal-row-digits/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "31c0ed10e87600d8e4fd6e5028ad37fcbdfb7ae2b6dffc0281c30655e3f8f2aa",
+      "password_sha256": "a40f86a81809b0b9560c34804b745bbfd26d2ce00fd9d04feed61c30b4ba75d5",
+      "preimage_hex": "34373732353233393236323235383333343233353732393938313235323236353938323532373735363736353235373232373538393835323838373632323132363435383235353635363334323231363333323337323632353535",
+      "provenance": [
+        "seven-row-passwords/decimal-row-digits/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c042",
+      "password_expansion": "raw",
+      "password_hex": "3536203634203632203637203636203537203530",
+      "password_sha256": "a958b7e373ddc16ad0a975f0b89744cfd86e13d64d2543c27207b7c1960c6b19",
+      "preimage_hex": "3536203634203632203637203636203537203530",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-decimal/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61393538623765333733646463313661643061393735663062383937343463666438366531336436346432353433633237323037623763313936306336623139",
+      "password_sha256": "720137479818143c0ab45c0dc57363062d37d28239950ee65ae1059a6dbf14d5",
+      "preimage_hex": "3536203634203632203637203636203537203530",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-decimal/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a958b7e373ddc16ad0a975f0b89744cfd86e13d64d2543c27207b7c1960c6b19",
+      "password_sha256": "cf3a65d87416f04894840ba4f0ecaa2268d9e8800c20766ed551cc4e3ccd8306",
+      "preimage_hex": "3536203634203632203637203636203537203530",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-decimal/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c045",
+      "password_expansion": "raw",
+      "password_hex": "3536363436323637363635373530",
+      "password_sha256": "01344580a8e01ebf3552146441debb5dea5bdccc8594a592b764f350b002df80",
+      "preimage_hex": "3536363436323637363635373530",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-decimal/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30313334343538306138653031656266333535323134363434316465626235646561356264636363383539346135393262373634663335306230303264663830",
+      "password_sha256": "8fabf81e3d9a07303542538d8bab8671e60f539859506b630b572e02315125f8",
+      "preimage_hex": "3536363436323637363635373530",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-decimal/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "01344580a8e01ebf3552146441debb5dea5bdccc8594a592b764f350b002df80",
+      "password_sha256": "47539ba84461c265bf098cd6239a936ffcb27288d14ebb09922d4e38b4cca38e",
+      "preimage_hex": "3536363436323637363635373530",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-decimal/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c048",
+      "password_expansion": "raw",
+      "password_hex": "382040203e2043204220392032",
+      "password_sha256": "18c51bcfa0b5d16693a3942f38487d61233c50d4a3558d47d9bb67fed65b6b62",
+      "preimage_hex": "382040203e2043204220392032",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-raw-byte/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31386335316263666130623564313636393361333934326633383438376436313233336335306434613335353864343764396262363766656436356236623632",
+      "password_sha256": "d81df7edbcb8683c97e6a7c802d2a9937faf2aa98b0222c2769ec0e75de226cc",
+      "preimage_hex": "382040203e2043204220392032",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-raw-byte/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "18c51bcfa0b5d16693a3942f38487d61233c50d4a3558d47d9bb67fed65b6b62",
+      "password_sha256": "eaee75d6214cb7747fed2af4a031158479057f91baaf63e07437b719fe615daf",
+      "preimage_hex": "382040203e2043204220392032",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-raw-byte/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c051",
+      "password_expansion": "raw",
+      "password_hex": "38403e43423932",
+      "password_sha256": "ebece3e4763adad4b6fe948e3f4c5bcb1a8047bdd5cc6ab5ca2d6587f309a50f",
+      "preimage_hex": "38403e43423932",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-raw-byte/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65626563653365343736336164616434623666653934386533663463356263623161383034376264643563633661623563613264363538376633303961353066",
+      "password_sha256": "88fb511effc31bae70eff7317a7ae30e65db277638b810167440322a963d6476",
+      "preimage_hex": "38403e43423932",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-raw-byte/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ebece3e4763adad4b6fe948e3f4c5bcb1a8047bdd5cc6ab5ca2d6587f309a50f",
+      "password_sha256": "f09e4f5162d3d4957be00731f28a3ea103780c8619b968747a1d21f71a43391b",
+      "preimage_hex": "38403e43423932",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-raw-byte/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c054",
+      "password_expansion": "raw",
+      "password_hex": "45dafb1b760a151c8735a5b8bcc63d481464cefbb8ab81f0f47653bd3758e53b",
+      "password_sha256": "206d3e5f10e555101a605bed04798b57aa0c065dd70cab13131590c1908c489d",
+      "preimage_hex": "45dafb1b760a151c8735a5b8bcc63d481464cefbb8ab81f0f47653bd3758e53b",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-decimal/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32303664336535663130653535353130316136303562656430343739386235376161306330363564643730636162313331333135393063313930386334383964",
+      "password_sha256": "2fe36b8b0b25f5a0f00f8465d4c22621f93664cb5b130067b4914c3a0648c49b",
+      "preimage_hex": "45dafb1b760a151c8735a5b8bcc63d481464cefbb8ab81f0f47653bd3758e53b",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-decimal/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "206d3e5f10e555101a605bed04798b57aa0c065dd70cab13131590c1908c489d",
+      "password_sha256": "316a052b1c347919c85672c7c5a8c24803bbb63d8901683f7a4f136bf1927622",
+      "preimage_hex": "45dafb1b760a151c8735a5b8bcc63d481464cefbb8ab81f0f47653bd3758e53b",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-decimal/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c057",
+      "password_expansion": "raw",
+      "password_hex": "63206220692065206420642066",
+      "password_sha256": "88d6c258a1762e8f91f0016abee732499aded9f12123bb45f60f28aa3a5ea0d7",
+      "preimage_hex": "63206220692065206420642066",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod9-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38386436633235386131373632653866393166303031366162656537333234393961646564396631323132336262343566363066323861613361356561306437",
+      "password_sha256": "72ac23c7f0e82610f8c12fa4eae454c9f619084d7dd04163a804ebdf202735ad",
+      "preimage_hex": "63206220692065206420642066",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod9-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "88d6c258a1762e8f91f0016abee732499aded9f12123bb45f60f28aa3a5ea0d7",
+      "password_sha256": "55cd67b106015d3c7c5b10ae85e4a270859c350c60a1556a6a5a7e09527433ef",
+      "preimage_hex": "63206220692065206420642066",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod9-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c060",
+      "password_expansion": "raw",
+      "password_hex": "63626965646466",
+      "password_sha256": "f20f1878075f102a4d9b0b645197d16b88e9578ceba604d7581e8977a98b2a1e",
+      "preimage_hex": "63626965646466",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod9-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66323066313837383037356631303261346439623062363435313937643136623838653935373863656261363034643735383165383937376139386232613165",
+      "password_sha256": "60845ddeccb919ff9c5ec8a67687befca8b3ef70d3dfb965769024862d214d54",
+      "preimage_hex": "63626965646466",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod9-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f20f1878075f102a4d9b0b645197d16b88e9578ceba604d7581e8977a98b2a1e",
+      "password_sha256": "2e9a370db7154d2efdb7a7a891b0036d9a827e331a57f4b89c9c683370828f5a",
+      "preimage_hex": "63626965646466",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod9-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c063",
+      "password_expansion": "raw",
+      "password_hex": "64676762656263696266626265206863636462636567626969686120626562626665696862656267672065666766656265676262676568206968656268686766626261626620646568626565666566636462622061666363626367626662656565",
+      "password_sha256": "4efb9dd621c3ffa414e7cb7d3a2fc983381feafd25cf2314661b315dcd1a52f3",
+      "preimage_hex": "64676762656263696266626265206863636462636567626969686120626562626665696862656267672065666766656265676262676568206968656268686766626261626620646568626565666566636462622061666363626367626662656565",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34656662396464363231633366666134313465376362376433613266633938333338316665616664323563663233313436363162333135646364316135326633",
+      "password_sha256": "aebbec8f6949c159878eac6539a43f710a84091063cef58f4cf6ef84ad98ce89",
+      "preimage_hex": "64676762656263696266626265206863636462636567626969686120626562626665696862656267672065666766656265676262676568206968656268686766626261626620646568626565666566636462622061666363626367626662656565",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4efb9dd621c3ffa414e7cb7d3a2fc983381feafd25cf2314661b315dcd1a52f3",
+      "password_sha256": "b1725474c7f338dfc84dde486f65bdd20b488899f2f8131b7d4d44f8923be19b",
+      "preimage_hex": "64676762656263696266626265206863636462636567626969686120626562626665696862656267672065666766656265676262676568206968656268686766626261626620646568626565666566636462622061666363626367626662656565",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c066",
+      "password_expansion": "raw",
+      "password_hex": "64676762656263696266626265686363646263656762696968616265626266656968626562676765666766656265676262676568696865626868676662626162666465686265656665666364626261666363626367626662656565",
+      "password_sha256": "c1c328e9cfff6b496165b587c71299cd901a29e15c7ea6718d8b9117368d3da1",
+      "preimage_hex": "64676762656263696266626265686363646263656762696968616265626266656968626562676765666766656265676262676568696865626868676662626162666465686265656665666364626261666363626367626662656565",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63316333323865396366666636623439363136356235383763373132393963643930316132396531356337656136373138643862393131373336386433646131",
+      "password_sha256": "803f91521856d925e9347f7c578ec00342e5510af08764d5a9f6b7fb500e8195",
+      "preimage_hex": "64676762656263696266626265686363646263656762696968616265626266656968626562676765666766656265676262676568696865626868676662626162666465686265656665666364626261666363626367626662656565",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c1c328e9cfff6b496165b587c71299cd901a29e15c7ea6718d8b9117368d3da1",
+      "password_sha256": "113b8dee7552cbee3365f1f4e54f3b2f7719a60bf10e7fa05bba559e5dc2b654",
+      "preimage_hex": "64676762656263696266626265686363646263656762696968616265626266656968626562676765666766656265676262676568696865626868676662626162666465686265656665666364626261666363626367626662656565",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c069",
+      "password_expansion": "raw",
+      "password_hex": "64686265696461676365666865666763626765686362646266626263656266656865626263656268656363656965676667696768676665626262626262666666696562626362626962676164656268676562626565616768666265",
+      "password_sha256": "822382be133bdddb65670bc16958a8aac6fac81b76778a4133e6428e0a681249",
+      "preimage_hex": "64686265696461676365666865666763626765686362646266626263656266656865626263656268656363656965676667696768676665626262626262666666696562626362626962676164656268676562626565616768666265",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/column-interleaved"
+      ]
+    },
+    {
+      "candidate_id": "v16c070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38323233383262653133336264646462363536373062633136393538613861616336666163383162373637373861343133336536343238653061363831323439",
+      "password_sha256": "901ad70b54418f71b9eda1b4d37c8edcea8c9679cb45785f18de79f908fbe25a",
+      "preimage_hex": "64686265696461676365666865666763626765686362646266626263656266656865626263656268656363656965676667696768676665626262626262666666696562626362626962676164656268676562626565616768666265",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/column-interleaved"
+      ]
+    },
+    {
+      "candidate_id": "v16c071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "822382be133bdddb65670bc16958a8aac6fac81b76778a4133e6428e0a681249",
+      "password_sha256": "107fb68e366cbb565a0bc54e18f8e19f2e54a701b852621ce30d4402bf1e83bb",
+      "preimage_hex": "64686265696461676365666865666763626765686362646266626263656266656865626263656268656363656965676667696768676665626262626262666666696562626362626962676164656268676562626565616768666265",
+      "provenance": [
+        "seven-row-passwords/raw-row-symbols/column-interleaved"
+      ]
+    },
+    {
+      "candidate_id": "v16c072",
+      "password_expansion": "raw",
+      "password_hex": "65206d206b2070206f20662079",
+      "password_sha256": "ce684fd6e368f55c18eefdb2e9733901978f38d998b7c0f04408aebb067e2b31",
+      "preimage_hex": "65206d206b2070206f20662079",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod26-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63653638346664366533363866353563313865656664623265393733333930313937386633386439393862376330663034343038616562623036376532623331",
+      "password_sha256": "36cb5df1be8b17637a6b2e828ccc6e6e300081b581d9e7abef511186023d8a8d",
+      "preimage_hex": "65206d206b2070206f20662079",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod26-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ce684fd6e368f55c18eefdb2e9733901978f38d998b7c0f04408aebb067e2b31",
+      "password_sha256": "2f4c6183e47aa0effea2817785197f2d506f8e10a560f94e1aa3dad7c629036c",
+      "preimage_hex": "65206d206b2070206f20662079",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod26-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c075",
+      "password_expansion": "raw",
+      "password_hex": "656d6b706f6679",
+      "password_sha256": "de392fd36f0713e1c9d1a9dce883dda07cd08584ce432e8111f21112f49f34d9",
+      "preimage_hex": "656d6b706f6679",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod26-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64653339326664333666303731336531633964316139646365383833646461303763643038353834636534333265383131316632313131326634396633346439",
+      "password_sha256": "5bb91624a834854aee2fe748488253e0f3aee9bf213e7a071f574b5fcc7a741d",
+      "preimage_hex": "656d6b706f6679",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod26-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "de392fd36f0713e1c9d1a9dce883dda07cd08584ce432e8111f21112f49f34d9",
+      "password_sha256": "2d7429c126a728bc4c4a1ed272f7a0428ab9bda48fcfc702ee9edfcfee9c22ac",
+      "preimage_hex": "656d6b706f6679",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod26-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c078",
+      "password_expansion": "raw",
+      "password_hex": "68206720652061206920692062",
+      "password_sha256": "ad91671f6a31e5a90767ab2356f9014f3f5938ae1bf0e022a64e476aab94b90e",
+      "preimage_hex": "68206720652061206920692062",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61643931363731663661333165356139303736376162323335366639303134663366353933386165316266306530323261363465343736616162393462393065",
+      "password_sha256": "230614e7f7e548c162dfeed1fc3fd1b23d2b53675f6a89591f03deba1c2aa9c4",
+      "preimage_hex": "68206720652061206920692062",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ad91671f6a31e5a90767ab2356f9014f3f5938ae1bf0e022a64e476aab94b90e",
+      "password_sha256": "73c1115db54004a31d19bef410e46c2110ea6a4c230757e2c1ebb3d965ef817b",
+      "preimage_hex": "68206720652061206920692062",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c081",
+      "password_expansion": "raw",
+      "password_hex": "68676561696962",
+      "password_sha256": "546c81a233e46d07fc0d4838705bdb2380e1b02a56df74cfaf6e14036b74e4e1",
+      "preimage_hex": "68676561696962",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35343663383161323333653436643037666330643438333837303562646232333830653162303261353664663734636661663665313430333662373465346531",
+      "password_sha256": "ba8bd3d8825fdeef2f959999066a56cda0637489c25421e08aef9e6a0a504a51",
+      "preimage_hex": "68676561696962",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "546c81a233e46d07fc0d4838705bdb2380e1b02a56df74cfaf6e14036b74e4e1",
+      "password_sha256": "574896c41cc3651bcb1d0013e4bfed07314178ef5b04eecc20276143d924db75",
+      "preimage_hex": "68676561696962",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c084",
+      "password_expansion": "raw",
+      "password_hex": "72207a2078206320622073206c",
+      "password_sha256": "54379850f4db2044799504983b879157da02a0150f1e0f2e0c8e9ac56fc4f8d9",
+      "preimage_hex": "72207a2078206320622073206c",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35343337393835306634646232303434373939353034393833623837393135376461303261303135306631653066326530633865396163353666633466386439",
+      "password_sha256": "d019c4026419214ab9f950d82ff0e3f153bde540008f0c89f2afcc6b08d1e958",
+      "preimage_hex": "72207a2078206320622073206c",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "54379850f4db2044799504983b879157da02a0150f1e0f2e0c8e9ac56fc4f8d9",
+      "password_sha256": "53de5584bcbf6ebe270489e08ddba100731d924fd74e1fe92db8bec6bd8c7dc1",
+      "preimage_hex": "72207a2078206320622073206c",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c087",
+      "password_expansion": "raw",
+      "password_hex": "727a786362736c",
+      "password_sha256": "2ceabe58cf22164af53da9eccf1777826a8c76c9aafc8813fcae9d0a5e093dcf",
+      "preimage_hex": "727a786362736c",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32636561626535386366323231363461663533646139656363663137373738323661386337366339616166633838313366636165396430613565303933646366",
+      "password_sha256": "05724d3203b8e5c1428caf84667472c8ab408ce600ab3db69084572591a40c3b",
+      "preimage_hex": "727a786362736c",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "2ceabe58cf22164af53da9eccf1777826a8c76c9aafc8813fcae9d0a5e093dcf",
+      "password_sha256": "d8c167c8c1b6040a29485b058e5fb0e1e4514f4c880a08b1ab8e3a3021bdc1fc",
+      "preimage_hex": "727a786362736c",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c090",
+      "password_expansion": "raw",
+      "password_hex": "7a02ca327993876432a07fe498721c901ad24d7cda4a047ae1c0f874f475aeee",
+      "password_sha256": "4f79a427d66144e5ca6b246e448c261a8cd9d18309eef4f8ff2a9ef1a8ad0d28",
+      "preimage_hex": "7a02ca327993876432a07fe498721c901ad24d7cda4a047ae1c0f874f475aeee",
+      "provenance": [
+        "seven-row-passwords/decimal-to-hex-row-bytes/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34663739613432376436363134346535636136623234366534343863323631613863643964313833303965656634663866663261396566316138616430643238",
+      "password_sha256": "ee29eddfb8e171d531b47c12c9c0e391563352be12bb96b41d57ead9a3d87957",
+      "preimage_hex": "7a02ca327993876432a07fe498721c901ad24d7cda4a047ae1c0f874f475aeee",
+      "provenance": [
+        "seven-row-passwords/decimal-to-hex-row-bytes/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "4f79a427d66144e5ca6b246e448c261a8cd9d18309eef4f8ff2a9ef1a8ad0d28",
+      "password_sha256": "2b646cd97de9962294cfea7fb40d665ede90cc59c6920c62719a566f71fcf6cc",
+      "preimage_hex": "7a02ca327993876432a07fe498721c901ad24d7cda4a047ae1c0f874f475aeee",
+      "provenance": [
+        "seven-row-passwords/decimal-to-hex-row-bytes/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c093",
+      "password_expansion": "raw",
+      "password_hex": "89b43d6e4aea487d821cd6a70c8245cf8d6d0c47ec4cacee37e15ee2dbd21604",
+      "password_sha256": "a37c9074290f3f8fb4f27c7813af28aa21de41870f0843d5c86f7de1af948262",
+      "preimage_hex": "89b43d6e4aea487d821cd6a70c8245cf8d6d0c47ec4cacee37e15ee2dbd21604",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61333763393037343239306633663866623466323763373831336166323861613231646534313837306630383433643563383666376465316166393438323632",
+      "password_sha256": "19b6f244aff21b908347d9b2b32fba3831e2a73dc87575468a9ec10be7c18b8f",
+      "preimage_hex": "89b43d6e4aea487d821cd6a70c8245cf8d6d0c47ec4cacee37e15ee2dbd21604",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a37c9074290f3f8fb4f27c7813af28aa21de41870f0843d5c86f7de1af948262",
+      "password_sha256": "20e5d6922577709d5fb31458f7bf0bad81cdb5bb3bec951bee4e17d6815627a1",
+      "preimage_hex": "89b43d6e4aea487d821cd6a70c8245cf8d6d0c47ec4cacee37e15ee2dbd21604",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod26-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c096",
+      "password_expansion": "raw",
+      "password_hex": "969e718fd403f89e6982aa31621e85833ddbaaa0429d7144f5131ef378d68618",
+      "password_sha256": "cbe370bfde97a42726de4348ed56ac8f5a5726255775c822e4f249deb64e0461",
+      "preimage_hex": "969e718fd403f89e6982aa31621e85833ddbaaa0429d7144f5131ef378d68618",
+      "provenance": [
+        "seven-row-passwords/base9-a1-i0-row-bytes/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63626533373062666465393761343237323664653433343865643536616338663561353732363235353737356338323265346632343964656236346530343631",
+      "password_sha256": "770131a65ac8045fdacc7873c0041be7cded5f85927a4c6a299017c882f36f56",
+      "preimage_hex": "969e718fd403f89e6982aa31621e85833ddbaaa0429d7144f5131ef378d68618",
+      "provenance": [
+        "seven-row-passwords/base9-a1-i0-row-bytes/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cbe370bfde97a42726de4348ed56ac8f5a5726255775c822e4f249deb64e0461",
+      "password_sha256": "f477ad43ea6dfd07731e44852929e0e8a6f436b3d57e6e6f47afe3763c2e6333",
+      "preimage_hex": "969e718fd403f89e6982aa31621e85833ddbaaa0429d7144f5131ef378d68618",
+      "provenance": [
+        "seven-row-passwords/base9-a1-i0-row-bytes/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c099",
+      "password_expansion": "raw",
+      "password_hex": "ac6e3bdc8ccff3682b0e33161aca44296d348054a18cc1e3844434f16aa16ac6",
+      "password_sha256": "0202f00bd70554b1271bcbd8b3a964bc541d13575e12709a36e0a1a0d96d8e59",
+      "preimage_hex": "ac6e3bdc8ccff3682b0e33161aca44296d348054a18cc1e3844434f16aa16ac6",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30323032663030626437303535346231323731626362643862336139363462633534316431333537356531323730396133366530613161306439366438653539",
+      "password_sha256": "c2166d5d491a46e684d7ce6d80a71295f7864ab04864df395913c3254313a08d",
+      "preimage_hex": "ac6e3bdc8ccff3682b0e33161aca44296d348054a18cc1e3844434f16aa16ac6",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0202f00bd70554b1271bcbd8b3a964bc541d13575e12709a36e0a1a0d96d8e59",
+      "password_sha256": "eb471ced8f7b8d66a9071f4494d99fa05440eef54d177df31c40209e0063369b",
+      "preimage_hex": "ac6e3bdc8ccff3682b0e33161aca44296d348054a18cc1e3844434f16aa16ac6",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-mod9-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c102",
+      "password_expansion": "raw",
+      "password_hex": "ad23526942aa2fa7fdaa303462e2ef6a189935a127accdbc832012dbadaaba60",
+      "password_sha256": "c7fade4c3bb40e86a847959f375e5ec6f7718dceefac5677c9dc1baf170c8c3e",
+      "preimage_hex": "ad23526942aa2fa7fdaa303462e2ef6a189935a127accdbc832012dbadaaba60",
+      "provenance": [
+        "seven-row-passwords/base9-a0-row-bytes/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c103",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63376661646534633362623430653836613834373935396633373565356563366637373138646365656661633536373763396463316261663137306338633365",
+      "password_sha256": "16c4e363fe9abfb300afba9acb9f75c81c1119239b6666c229b4f5d0fc87e5b1",
+      "preimage_hex": "ad23526942aa2fa7fdaa303462e2ef6a189935a127accdbc832012dbadaaba60",
+      "provenance": [
+        "seven-row-passwords/base9-a0-row-bytes/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c104",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c7fade4c3bb40e86a847959f375e5ec6f7718dceefac5677c9dc1baf170c8c3e",
+      "password_sha256": "ccfb93ff4e51571e3bc13eb76e5bd170afffc12608275aec07e4bb8cfa1a4799",
+      "preimage_hex": "ad23526942aa2fa7fdaa303462e2ef6a189935a127accdbc832012dbadaaba60",
+      "provenance": [
+        "seven-row-passwords/base9-a0-row-bytes/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c105",
+      "password_expansion": "raw",
+      "password_hex": "d47574d4c63ccb62edfef8d9d97c803254f11a866a3095385ac325a898fc1677",
+      "password_sha256": "226d7f1bbc661db78a1f10d2dffd44d9976a30152e1e3d5ce57614f995fa92dc",
+      "preimage_hex": "d47574d4c63ccb62edfef8d9d97c803254f11a866a3095385ac325a898fc1677",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod9-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c106",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32323664376631626263363631646237386131663130643264666664343464393937366133303135326531653364356365353736313466393935666139326463",
+      "password_sha256": "f481f8e36068918ff5d708df3982b962e9fdc5d2aa98bf0bf314d19f40a4b097",
+      "preimage_hex": "d47574d4c63ccb62edfef8d9d97c803254f11a866a3095385ac325a898fc1677",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod9-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c107",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "226d7f1bbc661db78a1f10d2dffd44d9976a30152e1e3d5ce57614f995fa92dc",
+      "password_sha256": "db9f1cc94aa3ddba30db9c23420235d45a4b0716d755daa39b956542b58c5c95",
+      "preimage_hex": "d47574d4c63ccb62edfef8d9d97c803254f11a866a3095385ac325a898fc1677",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-mod9-symbol/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c108",
+      "password_expansion": "raw",
+      "password_hex": "e584110097815dad64bcbf84658c96f9056e16ae71cf1fddb78e2afba9a457ab",
+      "password_sha256": "3bcd0d81b0a210e8e1fb35610a00e756e859cd319817bcf41e328135be52e503",
+      "preimage_hex": "e584110097815dad64bcbf84658c96f9056e16ae71cf1fddb78e2afba9a457ab",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-raw-byte/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c109",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33626364306438316230613231306538653166623335363130613030653735366538353963643331393831376263663431653332383133356265353265353033",
+      "password_sha256": "a61d8940dcaa23f1ebf0264e846fcc03a4ae60a7806d73e5203aea72368928f9",
+      "preimage_hex": "e584110097815dad64bcbf84658c96f9056e16ae71cf1fddb78e2afba9a457ab",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-raw-byte/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c110",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3bcd0d81b0a210e8e1fb35610a00e756e859cd319817bcf41e328135be52e503",
+      "password_sha256": "318fcf78d2c295f33da99ff0b6c9e051eaf23cfd9c58478ed94879cbcd099b05",
+      "preimage_hex": "e584110097815dad64bcbf84658c96f9056e16ae71cf1fddb78e2afba9a457ab",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-0-raw-byte/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c111",
+      "password_expansion": "raw",
+      "password_hex": "f0e2432739a0c4015259562dc06e74b26221b725f4ae8c82d20d5316db4fc1e2",
+      "password_sha256": "562e742c1b894caf15c00d967389660a58bf61a7261c05fd010f94a1b7f37264",
+      "preimage_hex": "f0e2432739a0c4015259562dc06e74b26221b725f4ae8c82d20d5316db4fc1e2",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-decimal/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c112",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35363265373432633162383934636166313563303064393637333839363630613538626636316137323631633035666430313066393461316237663337323634",
+      "password_sha256": "2c50bc86906ce11931b429c42d3e2c68f6215d5821b81b730a9ce3a5ea21bd64",
+      "preimage_hex": "f0e2432739a0c4015259562dc06e74b26221b725f4ae8c82d20d5316db4fc1e2",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-decimal/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c113",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "562e742c1b894caf15c00d967389660a58bf61a7261c05fd010f94a1b7f37264",
+      "password_sha256": "8048087b7272d830c6a29a2b16c1a7d146f2c3a014e4a702a6ed7454b492f713",
+      "preimage_hex": "f0e2432739a0c4015259562dc06e74b26221b725f4ae8c82d20d5316db4fc1e2",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-decimal/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c114",
+      "password_expansion": "raw",
+      "password_hex": "f4c6d385e8343abc13daceaeb2abf09d424041b1c9f6afea17c3d1de7452cfff",
+      "password_sha256": "7f93ec08fa27c6a91ae1042c94bc1bc3835a41e7a0fefe1dc1525121e772ff5a",
+      "preimage_hex": "f4c6d385e8343abc13daceaeb2abf09d424041b1c9f6afea17c3d1de7452cfff",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-raw-byte/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c115",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37663933656330386661323763366139316165313034326339346263316263333833356134316537613066656665316463313532353132316537373266663561",
+      "password_sha256": "4c8b3aafac0844d37ed98e8adcbf57b5a3d41f5f67aaa8579a7502fc3317c8b1",
+      "preimage_hex": "f4c6d385e8343abc13daceaeb2abf09d424041b1c9f6afea17c3d1de7452cfff",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-raw-byte/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c116",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7f93ec08fa27c6a91ae1042c94bc1bc3835a41e7a0fefe1dc1525121e772ff5a",
+      "password_sha256": "b1b34b406d0eb915ad102fb325011c384908d8905576f6171cc876ee3fcfc4a7",
+      "preimage_hex": "f4c6d385e8343abc13daceaeb2abf09d424041b1c9f6afea17c3d1de7452cfff",
+      "provenance": [
+        "seven-row-passwords/row-sum-origin-1-raw-byte/xor-seven-sha256"
+      ]
+    },
+    {
+      "candidate_id": "v16c117",
+      "password_expansion": "raw",
+      "password_hex": "f61dc81fcb01dcd3eac2735ff11bbc010130eddc86960244a0aa97d5e851a2555c265975131d",
+      "password_sha256": "dc499b4e13750def7c91b1235ddecec2399d1846400dc89ee1d5b6e55c2a075f",
+      "preimage_hex": "f61dc81fcb01dcd3eac2735ff11bbc010130eddc86960244a0aa97d5e851a2555c265975131d",
+      "provenance": [
+        "seven-row-passwords/base9-a0-row-bytes/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c118",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64633439396234653133373530646566376339316231323335646465636563323339396431383436343030646338396565316435623665353563326130373566",
+      "password_sha256": "257279886d3115bd2c4e1c1263ba5692e7ca048c9561a827e4bfd302d68f66ec",
+      "preimage_hex": "f61dc81fcb01dcd3eac2735ff11bbc010130eddc86960244a0aa97d5e851a2555c265975131d",
+      "provenance": [
+        "seven-row-passwords/base9-a0-row-bytes/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c119",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "dc499b4e13750def7c91b1235ddecec2399d1846400dc89ee1d5b6e55c2a075f",
+      "password_sha256": "2e70c2aee6efdfe66e077cfd90ef7025bdf55ce1433d00540d7cf0854f2daa77",
+      "preimage_hex": "f61dc81fcb01dcd3eac2735ff11bbc010130eddc86960244a0aa97d5e851a2555c265975131d",
+      "provenance": [
+        "seven-row-passwords/base9-a0-row-bytes/concatenated"
+      ]
+    },
+    {
+      "candidate_id": "v16c120",
+      "password_expansion": "raw",
+      "password_hex": "f61dc81fcb2001dcd3eac273205ff11bbc01200130eddc8696200244a0aa97d520e851a2555c20265975131d",
+      "password_sha256": "072805a6569f04a6b7e3a9ad0a024256a97b6eb448ac0575289e4489bf8f7c84",
+      "preimage_hex": "f61dc81fcb2001dcd3eac273205ff11bbc01200130eddc8696200244a0aa97d520e851a2555c20265975131d",
+      "provenance": [
+        "seven-row-passwords/base9-a0-row-bytes/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c121",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30373238303561363536396630346136623765336139616430613032343235366139376236656234343861633035373532383965343438396266386637633834",
+      "password_sha256": "5b3ae6fc571a4504feb80c3e36a7adda92c6b7f3f0e6567c3f5024b443549e73",
+      "preimage_hex": "f61dc81fcb2001dcd3eac273205ff11bbc01200130eddc8696200244a0aa97d520e851a2555c20265975131d",
+      "provenance": [
+        "seven-row-passwords/base9-a0-row-bytes/space-separated"
+      ]
+    },
+    {
+      "candidate_id": "v16c122",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "072805a6569f04a6b7e3a9ad0a024256a97b6eb448ac0575289e4489bf8f7c84",
+      "password_sha256": "ccc68567bb5c20c23a54400a64efada501a30791c939de74eaa6193a33c6b7a5",
+      "preimage_hex": "f61dc81fcb2001dcd3eac273205ff11bbc01200130eddc8696200244a0aa97d520e851a2555c20265975131d",
+      "provenance": [
+        "seven-row-passwords/base9-a0-row-bytes/space-separated"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "forbidden_evidence": [
+      "expected padding length",
+      "community token list",
+      "Half/Better Half",
+      "target point or address",
+      "known community plaintext hashes"
+    ],
+    "inherits_v1_rules_verbatim": true,
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v15_manifest_sha256": "7fdcb4000a6dca8c6ef6b81b65770269a5fc6534a739cf74971913bc8c3a4ac0",
+  "schema": "salphaseion-source-only-preregistration-v16-seven-row-passwords",
+  "source": {
+    "architect_instruction": "SEVEN INTERTWINED PASSWORDS",
+    "candidate_rule": "seven source-order row components represented directly or by established numeric/sum forms; combine by concatenation, spaces, XOR of seven SHA256 digests, or literal column interleaving",
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "dimension_rule": "prime-reinserted S91 is 7 rows x len(matrixsumlist)=13",
+    "matrix_instruction": "matrixsumlist",
+    "rows_sha256": [
+      "311487ca20fa05b13ddeaf8d7b9ec257fa59ccdf553de3cad1e59ad6a6a63236",
+      "e5ad77cbb7d0dbdf0c1b4aa41a2fc44f5e16c5a489aafa492feda27c881ff77d",
+      "001eb871019cab0c7c1e88249ba70f8cf38364839e281a4a54bfb9e032b81f77",
+      "baf9a08b232aee9fdafd1e2e345a74ea960d14befec84d1d75bfe550c38ac0c5",
+      "30f8cf87f96897155ed579cc04525d9071e16b804113e4baa99cf9cfd75b82ea",
+      "65fad74bb4c05061e30447adf282d4e34855a819ed8edbcf2bf0f50ab78727e9",
+      "386dddc46be7e8d47a9590de3391be4b70a9e211eb23cf56a706422e94674c43"
+    ],
+    "schemes": [
+      {
+        "component_lengths": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "concatenated_sha256": "c1c328e9cfff6b496165b587c71299cd901a29e15c7ea6718d8b9117368d3da1",
+        "scheme": "raw-row-symbols",
+        "xor_seven_sha256": "03312df393d3b45d5062dd9c0b0d4a4688dc58cefbc9bef7fa622af12b30f3b9"
+      },
+      {
+        "component_lengths": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "concatenated_sha256": "31c0ed10e87600d8e4fd6e5028ad37fcbdfb7ae2b6dffc0281c30655e3f8f2aa",
+        "scheme": "decimal-row-digits",
+        "xor_seven_sha256": "14e806da22e9c9d0e00a55569d9dcb5de695ccb21f0f927842f6a25a5fc7e0e3"
+      },
+      {
+        "component_lengths": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "concatenated_sha256": "619db7b7e1d3e9d11d6938494782ef90c92741b09437232be9ab833387bd638e",
+        "scheme": "decimal-to-hex-row-bytes",
+        "xor_seven_sha256": "7a02ca327993876432a07fe498721c901ad24d7cda4a047ae1c0f874f475aeee"
+      },
+      {
+        "component_lengths": [
+          5,
+          6,
+          5,
+          6,
+          6,
+          5,
+          5
+        ],
+        "concatenated_sha256": "dc499b4e13750def7c91b1235ddecec2399d1846400dc89ee1d5b6e55c2a075f",
+        "scheme": "base9-a0-row-bytes",
+        "xor_seven_sha256": "ad23526942aa2fa7fdaa303462e2ef6a189935a127accdbc832012dbadaaba60"
+      },
+      {
+        "component_lengths": [
+          6,
+          6,
+          5,
+          6,
+          5,
+          6,
+          5
+        ],
+        "concatenated_sha256": "a43bdc0c3e4657bc4fd9ba1221aa36bfd2cc529cd976eb59d4ab5288f0f06112",
+        "scheme": "base9-a1-i0-row-bytes",
+        "xor_seven_sha256": "969e718fd403f89e6982aa31621e85833ddbaaa0429d7144f5131ef378d68618"
+      },
+      {
+        "component_lengths": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "concatenated_sha256": "7a222c666de0c0215acbc4dfec0d0f196a217bc8078601da24674d014658390f",
+        "scheme": "row-sum-origin-0-decimal",
+        "xor_seven_sha256": "45dafb1b760a151c8735a5b8bcc63d481464cefbb8ab81f0f47653bd3758e53b"
+      },
+      {
+        "component_lengths": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "concatenated_sha256": "eeb71fd4d4e8d0b29d44322479d87b0925f6ab7e9f9758b932830070b988801c",
+        "scheme": "row-sum-origin-0-raw-byte",
+        "xor_seven_sha256": "e584110097815dad64bcbf84658c96f9056e16ae71cf1fddb78e2afba9a457ab"
+      },
+      {
+        "component_lengths": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "concatenated_sha256": "546c81a233e46d07fc0d4838705bdb2380e1b02a56df74cfaf6e14036b74e4e1",
+        "scheme": "row-sum-origin-0-mod9-symbol",
+        "xor_seven_sha256": "ac6e3bdc8ccff3682b0e33161aca44296d348054a18cc1e3844434f16aa16ac6"
+      },
+      {
+        "component_lengths": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "concatenated_sha256": "2ceabe58cf22164af53da9eccf1777826a8c76c9aafc8813fcae9d0a5e093dcf",
+        "scheme": "row-sum-origin-0-mod26-symbol",
+        "xor_seven_sha256": "89b43d6e4aea487d821cd6a70c8245cf8d6d0c47ec4cacee37e15ee2dbd21604"
+      },
+      {
+        "component_lengths": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "concatenated_sha256": "01344580a8e01ebf3552146441debb5dea5bdccc8594a592b764f350b002df80",
+        "scheme": "row-sum-origin-1-decimal",
+        "xor_seven_sha256": "f0e2432739a0c4015259562dc06e74b26221b725f4ae8c82d20d5316db4fc1e2"
+      },
+      {
+        "component_lengths": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "concatenated_sha256": "ebece3e4763adad4b6fe948e3f4c5bcb1a8047bdd5cc6ab5ca2d6587f309a50f",
+        "scheme": "row-sum-origin-1-raw-byte",
+        "xor_seven_sha256": "f4c6d385e8343abc13daceaeb2abf09d424041b1c9f6afea17c3d1de7452cfff"
+      },
+      {
+        "component_lengths": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "concatenated_sha256": "f20f1878075f102a4d9b0b645197d16b88e9578ceba604d7581e8977a98b2a1e",
+        "scheme": "row-sum-origin-1-mod9-symbol",
+        "xor_seven_sha256": "d47574d4c63ccb62edfef8d9d97c803254f11a866a3095385ac325a898fc1677"
+      },
+      {
+        "component_lengths": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "concatenated_sha256": "de392fd36f0713e1c9d1a9dce883dda07cd08584ce432e8111f21112f49f34d9",
+        "scheme": "row-sum-origin-1-mod26-symbol",
+        "xor_seven_sha256": "2a724306b8c218d5402470053c93b9c2e0ba5dde2b31d8da2cf593fcc59976b3"
+      }
+    ],
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

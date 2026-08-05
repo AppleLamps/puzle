@@ -1,0 +1,1283 @@
+=== [20.04.2019 11:18:49 UTC-05:00] Jrk Bgrt
+Ok.. somebody has cracked the first code.
+
+=== [20.04.2019 11:19:00 UTC-05:00] Jrk Bgrt
+that was way faster than expected.
+
+=== [20.04.2019 11:21:57 UTC-05:00] Jrk Bgrt
+The first part. Maybe the puzzle has multiple stages 😉.
+
+=== [20.04.2019 11:22:36 UTC-05:00] Jrk Bgrt
+It is.
+
+=== [20.04.2019 11:41:14 UTC-05:00] Jrk Bgrt
+It's a way to protect websites against cross site request forgery but the loadbalancer is a bitch on multiple tries apparently.
+
+=== [22.04.2019 09:28:08 UTC-05:00] Jrk Bgrt
+wrong chat RKT [] 😊
+
+=== [22.04.2019 09:39:49 UTC-05:00] Jrk Bgrt
+😂
+
+=== [22.04.2019 14:48:52 UTC-05:00] Jrk Bgrt
+5ac407837447fba24ba2802e4d1e9aecb4580aa29fef1088cc387c180b746f75
+
+=== [22.04.2019 14:49:09 UTC-05:00] Jrk Bgrt
+just try hit your options against that hash.
+
+=== [22.04.2019 16:24:17 UTC-05:00] Jrk Bgrt
+Puzzle token issue for stage 1 seems to be resolved.
+
+=== [22.04.2019 16:26:42 UTC-05:00] Jrk Bgrt
+https://passwordsgenerator.net/sha256-hash-generator/
+
+=== [22.04.2019 16:26:51 UTC-05:00] Jrk Bgrt
+or just get yourself a python script
+
+=== [22.04.2019 16:28:13 UTC-05:00] Jrk Bgrt
+a sticker
+
+=== [22.04.2019 17:29:02 UTC-05:00] Jrk Bgrt
+A hash which we provided as the website was giving a lot of token errors. With this hash the puzzlers can try their passwords instead of firing them at the website.
+
+=== [23.04.2019 13:57:51 UTC-05:00] Jrk Bgrt
+Ewout managed to crack the april 1st puzzle. He was the first to solve it.
+
+=== [27.04.2019 10:46:58 UTC-05:00] Jrk Bgrt
+hahahaha :D
+
+=== [27.04.2019 10:47:07 UTC-05:00] Jrk Bgrt
+back to the pile!
+
+=== [29.04.2019 17:35:29 UTC-05:00] Jrk Bgrt
+I personally don't mind you talkinig in another language in  this chat tbh although I do prefer english to be the standard language as I assume most of us will be able to follow the conversations. The main chat of GSMG is english only.
+
+=== [08.05.2019 08:20:21 UTC-05:00] Jrk Bgrt
+Apparently somebody managed to get into Phase 3 🧐
+
+=== [08.05.2019 08:34:39 UTC-05:00] Jrk Bgrt
+Nobody knows
+
+=== [14.05.2019 09:49:49 UTC-05:00] Jrk Bgrt
+👌
+
+=== [14.05.2019 09:51:40 UTC-05:00] Jrk Bgrt
+Quests might* be scams. We didn't promote this puzzle nor is it unsolvalble. Please enjoy the puzzle or continue your journey.
+
+=== [14.05.2019 09:53:59 UTC-05:00] Jrk Bgrt
+Sure, once it's solved.
+
+=== [14.05.2019 10:01:11 UTC-05:00] Jrk Bgrt
+I suppose the btc price will be above 10k at the next halving.
+
+=== [17.05.2019 17:39:21 UTC-05:00] Jrk Bgrt
+Dear all, somebody pointed out that there might be a mistake in phase III and that is correct unfortunately. The mistake makes it nearly impossible to solve unless you'd know where to add 1 extra character between the 3 answers. My sincerest apologies for this, I'll fix this a soon as I've found a decent spot to do so as I'm on holiday atm. Again, 1000 times sorry, I'm aware I might have wasted a lot of time for some :-(...
+
+=== [17.05.2019 17:43:46 UTC-05:00] Jrk Bgrt
+Here's the hint in order to bypass the mistake:
+
+giveit = givetit
+
+=== [17.05.2019 19:04:04 UTC-05:00] Jrk Bgrt
+Correct.
+
+=== [17.05.2019 19:15:22 UTC-05:00] Jrk Bgrt
+For those feeling bad about having wasted time on my typo. I might feel even worse as I've tested the entire puzzle 3 times with the same string which had the typo in it 😒. I'll kill some braincells tonight with tasteless alcohol in order to forget this blunder.
+
+=== [17.05.2019 21:30:08 UTC-05:00] Jrk Bgrt
+The issue is within the 3th phase. Not in going from 2 to 3.
+
+=== [17.05.2019 21:30:34 UTC-05:00] Jrk Bgrt
+Once you have to work with give(t)it you'll know.
+
+=== [18.05.2019 11:26:26 UTC-05:00] Jrk Bgrt
+So, after yesterday's 'hint' a team of puzzlers has made an unbelievable amount of progress in just one day... The progress they made was unforseen as we expected it to take at least a !month! to pass those parts of the puzzle. Hat off for those that managed to puzzle their way through all the ciphers and riddles in this extraordinary pace. We're really impressed by that, actually, we stand in awe for you. Congrats.
+
+To those not having reached Phase III yet, no worries besides a bit of extra pressure. The "last" part of the puzzle will ensure that there's quite some time for you guys to catch up to them... although given their obvious skill this might be solved quicker than expected aswell.. time will tell. Good luck!
+
+=== [18.05.2019 11:31:02 UTC-05:00] Jrk Bgrt
+In case the private key hasn't been found in 2019 we'll release a tiny hint at the start of 2020, that will be the final hint. Can the private key be retrieved without that hint? Yes.
+
+=== [18.05.2019 11:49:27 UTC-05:00] Jrk Bgrt
+Nope
+
+=== [18.05.2019 11:50:17 UTC-05:00] Jrk Bgrt
+Part III consist out of a few stages. The last few stages are, how shall I say it, not really easy to solve for most.
+
+=== [18.05.2019 12:10:46 UTC-05:00] Jrk Bgrt
+No, they reaced out to me on tg and send me proof of them passing the stages.
+
+=== [18.05.2019 12:13:29 UTC-05:00] Jrk Bgrt
+No hints after stage 2 (except the 't' to fix my stupid mistake)
+
+=== [26.05.2019 19:25:10 UTC-05:00] Jrk Bgrt
+Not completely, voice recognition might even work to pass although I'd copy past the answer as it's faster ;-).
+
+=== [26.05.2019 22:20:49 UTC-05:00] Jrk Bgrt
+Ok you found a song. Do have a clue on how to proceed on the webpage?
+
+=== [28.05.2019 11:45:40 UTC-05:00] Jrk Bgrt
+Nobody knows.
+
+=== [31.05.2019 10:02:28 UTC-05:00] Jrk Bgrt
+Now we need a bot here too
+
+=== [31.05.2019 10:27:49 UTC-05:00] Jrk Bgrt
+shitcoin
+
+=== [31.05.2019 10:27:53 UTC-05:00] Jrk Bgrt
+😉
+
+=== [31.05.2019 10:28:01 UTC-05:00] Jrk Bgrt
+Well.... yes
+
+=== [31.05.2019 10:28:28 UTC-05:00] Jrk Bgrt
+Apparently folks found a new piece.
+
+=== [31.05.2019 10:29:13 UTC-05:00] Jrk Bgrt
+Almost banned for spam 😋
+
+=== [31.05.2019 10:32:29 UTC-05:00] Jrk Bgrt
+/daysandbox_set [] safe_hours=720
+
+=== [27.06.2019 16:38:51 UTC-05:00] Jrk Bgrt
+🌱
+
+=== [27.06.2019 16:39:32 UTC-05:00] Jrk Bgrt
+🛣
+
+=== [10.08.2019 11:50:10 UTC-05:00] Jrk Bgrt
+You'll only know when you've solved that part.
+
+=== [04.09.2019 02:58:16 UTC-05:00] Jrk Bgrt
+Still no hints ;-)
+
+=== [22.09.2019 17:55:01 UTC-05:00] Jrk Bgrt
+Found it by now?
+
+=== [22.09.2019 18:00:48 UTC-05:00] Jrk Bgrt
+7 parts right?
+
+=== [26.09.2019 10:35:24 UTC-05:00] Jrk Bgrt
+There may indeed a piece be found outside the main puzzle.
+
+=== [13.10.2019 13:38:53 UTC-05:00] Jrk Bgrt
+Gsmg.io/puzzle
+
+=== [31.10.2019 20:53:04 UTC-05:00] Jrk Bgrt
+Sure, what's the hint?
+
+=== [03.12.2019 12:55:55 UTC-05:00] Jrk Bgrt
+giveit = givetit
+
+=== [31.12.2019 05:30:23 UTC-05:00] Jrk Bgrt
+Hahaha, you're on it. Not an exact time, but it will be posted in this channel. It's at the start of 2020 indeed, way before the halving.
+
+=== [31.12.2019 05:33:29 UTC-05:00] Jrk Bgrt
+To all you peepz in advance: have a blast in the last part of 2019 and have an even better 2020. Best wishes to you all and good luck with the next puzzle piece(s) in case you manage to find them 😉!
+
+=== [04.01.2020 20:01:19 UTC-05:00] Jrk Bgrt
+Anybody hungry?
+
+=== [04.01.2020 20:01:54 UTC-05:00] Jrk Bgrt
+No, it's a dessert
+
+=== [04.01.2020 20:06:01 UTC-05:00] Jrk Bgrt
+Note: I might be in a trolling mood.
+
+=== [12.01.2020 15:52:32 UTC-05:00] Jrk Bgrt
+👆
+
+=== [13.01.2020 11:40:54 UTC-05:00] Jrk Bgrt
+Hint to be expected within a few days. Note: not trolling with scripted cake this time.
+
+=== [14.01.2020 05:38:06 UTC-05:00] Jrk Bgrt
+Roses are White but often Red.
+Yellow has a number and so does Blue.
+Go back to the first puzzle piece without further ado.
+
+It might have shown you only one door, beware that the rabbits nest may contain a whole lot more.
+
+Hush hush.
+
+=== [14.01.2020 05:38:49 UTC-05:00] Jrk Bgrt
+Good luck 👍
+
+=== [27.01.2020 10:21:35 UTC-05:00] Jrk Bgrt
+Might have been fixed fyi 👆
+
+=== [27.01.2020 11:00:04 UTC-05:00] Jrk Bgrt
+Would be nice, not required
+
+=== [20.02.2020 10:31:58 UTC-05:00] Jrk Bgrt
+😎
+
+=== [21.02.2020 08:03:21 UTC-05:00] Jrk Bgrt
+I'm not the esthetician when it comes to coding 😉
+
+=== [22.02.2020 10:19:41 UTC-05:00] Jrk Bgrt
+👋
+
+=== [22.02.2020 10:32:30 UTC-05:00] Jrk Bgrt
+Solutions for the first stages can be found online.
+
+=== [22.02.2020 10:32:52 UTC-05:00] Jrk Bgrt
+The quickest brain did it within 2 hours if I remember correctly.
+
+=== [22.02.2020 10:34:10 UTC-05:00] Jrk Bgrt
+Don't know
+
+=== [22.02.2020 11:11:52 UTC-05:00] Jrk Bgrt
+Typos: Horrible mistakes due to rushed work. I'm 100% to blame for this noobish display of words. No clues to be found in those typos might you wonder 😉.
+
+=== [22.02.2020 15:30:18 UTC-05:00] Jrk Bgrt
+Only -41,-17 matters
+
+=== [25.02.2020 07:45:53 UTC-05:00] Jrk Bgrt
+Not sponsored, just see it as a side quest
+
+=== [25.02.2020 13:04:46 UTC-05:00] Jrk Bgrt
+You are right
+
+=== [25.02.2020 13:07:05 UTC-05:00] Jrk Bgrt
+FA please soften the communication. I like enthusiasm, but don't bring down the vibe. A lot of very smart people have been on this puzzle and put in a lot more effort than 1 can do in a month. Some puzzlers amazed me by being so incredibly fast in some stages.
+
+=== [25.02.2020 13:07:19 UTC-05:00] Jrk Bgrt
+3.2 is a thing btw
+
+=== [25.02.2020 13:09:10 UTC-05:00] Jrk Bgrt
+Or nobody found the direction
+
+=== [25.02.2020 13:09:39 UTC-05:00] Jrk Bgrt
+But I should shut up ofcourse 😁
+
+=== [25.02.2020 13:10:30 UTC-05:00] Jrk Bgrt
+I'd dive in the puzzle from the beginning before making assumptions
+
+=== [25.02.2020 13:11:01 UTC-05:00] Jrk Bgrt
+A few guys here cracked phase 2 in 2 days.
+
+=== [25.02.2020 13:15:01 UTC-05:00] Jrk Bgrt
+Don't know but most see 3.2 as the last part.
+
+=== [25.02.2020 13:38:52 UTC-05:00] Jrk Bgrt
+😂😂😂
+
+=== [25.02.2020 13:40:01 UTC-05:00] Jrk Bgrt
+Just spend less time here fishing for clues and solve 🧐
+
+=== [27.02.2020 11:06:27 UTC-05:00] Jrk Bgrt
+Nice and silent
+
+=== [27.02.2020 11:06:41 UTC-05:00] Jrk Bgrt
+Damn so annoying
+
+=== [27.02.2020 11:07:09 UTC-05:00] Jrk Bgrt
+He'll be back
+
+=== [16.03.2020 08:13:31 UTC-05:00] Jrk Bgrt
+Yeah we might want to push the English only rule here too ;-)
+
+=== [24.03.2020 19:19:39 UTC-05:00] Jrk Bgrt
+Interesting 😜
+
+=== [24.03.2020 20:02:42 UTC-05:00] Jrk Bgrt
+Answering that would be too much of a hint.
+
+=== [24.03.2020 20:22:40 UTC-05:00] Jrk Bgrt
+There must at least be something hidden in there.
+
+=== [06.04.2020 07:12:03 UTC-05:00] Jrk Bgrt
+No hints 🤓
+
+=== [08.04.2020 13:38:10 UTC-05:00] Jrk Bgrt
+Those hints are the last hints. Although I can say that one team managed to find something... something others haven't yet found (unless they didn't tell us).
+
+=== [08.04.2020 14:01:53 UTC-05:00] Jrk Bgrt
+That would be another hint.
+
+=== [08.04.2020 14:12:53 UTC-05:00] Jrk Bgrt
+there are errors?
+
+=== [08.04.2020 14:16:14 UTC-05:00] Jrk Bgrt
+Before you send anything. No hints; errors and typos are mostly not intended 😄
+
+=== [08.04.2020 14:27:23 UTC-05:00] Jrk Bgrt
+well, I'll just wait until you guys have progressed to "the next stage or something like that"😁
+
+=== [08.04.2020 15:12:57 UTC-05:00] Jrk Bgrt
+the backstage 😎
+
+=== [08.04.2020 15:16:02 UTC-05:00] Jrk Bgrt
+obviously a typo
+
+=== [08.04.2020 15:17:30 UTC-05:00] Jrk Bgrt
+Rushed work. I take all the blame there is for those 😞. My sincerest apologies.
+
+=== [08.04.2020 15:17:43 UTC-05:00] Jrk Bgrt
+Hope it hasn't spoiled the fun so far.
+
+=== [08.04.2020 15:19:06 UTC-05:00] Jrk Bgrt
+I can't even write without typo's. The intelligence is an illusion.
+
+=== [08.04.2020 15:19:36 UTC-05:00] Jrk Bgrt
+But thanks nevertheless.
+
+=== [08.04.2020 15:27:08 UTC-05:00] Jrk Bgrt
+Quite some typos have been changed already. The biggest blunder so far in the mainline of the puzzle was givetit instead of giveit 😩🔨
+
+=== [08.04.2020 15:28:48 UTC-05:00] Jrk Bgrt
+What impressed me most so far was that 1 crew even managed to pass it while the typo was unknown.
+
+=== [08.04.2020 15:33:39 UTC-05:00] Jrk Bgrt
+Humph. Hope, it is the quintessential human delusion, simultaneously the source of your greatest strength, and your greatest weakness.
+
+=== [08.04.2020 15:33:48 UTC-05:00] Jrk Bgrt
+(not a hint btw, just fooling around)
+
+=== [08.04.2020 15:39:11 UTC-05:00] Jrk Bgrt
+like 5 thousand milibitcoin...?
+
+=== [08.04.2020 15:51:58 UTC-05:00] Jrk Bgrt
+And Oen
+
+=== [11.04.2020 14:52:20 UTC-05:00] Jrk Bgrt
+♟
+
+=== [29.04.2020 12:18:49 UTC-05:00] Jrk Bgrt
+👆
+
+=== [11.05.2020 12:07:48 UTC-05:00] Jrk Bgrt
+Invest it in bitconnect.
+
+=== [11.05.2020 14:26:40 UTC-05:00] Jrk Bgrt
+Well spotted
+
+=== [11.05.2020 14:26:51 UTC-05:00] Jrk Bgrt
+Happy halving!
+
+=== [11.05.2020 14:31:00 UTC-05:00] Jrk Bgrt
+It'll high likely be worth more than it once the price was 5 btc. Next halving in 209999
+
+=== [11.05.2020 15:31:25 UTC-05:00] Jrk Bgrt
+Let's see what bitcoin is worth the next halving and who knows what you'll find after opening the 2nd door. The price is in half, but what does it mean 🤔.
+
+=== [20.05.2020 17:54:11 UTC-05:00] Jrk Bgrt
+It is
+
+=== [20.05.2020 18:36:55 UTC-05:00] Jrk Bgrt
+This one 👆.
+
+=== [20.05.2020 21:40:46 UTC-05:00] Jrk Bgrt
+answer is there
+
+=== [21.05.2020 01:12:59 UTC-05:00] Jrk Bgrt
+First or zero
+
+=== [23.05.2020 07:29:12 UTC-05:00] Jrk Bgrt
+Thanks @EwoutM [https://t.me/EwoutM], I fell asleep.
+
+=== [23.05.2020 08:40:20 UTC-05:00] Jrk Bgrt
+/goodbye [] off
+
+=== [23.05.2020 08:40:29 UTC-05:00] Jrk Bgrt
+/cleanwelcome [] on
+
+=== [23.05.2020 14:51:51 UTC-05:00] Jrk Bgrt
+I have a purpose now. Buy a dosis of super covid-20 for every spammer.
+
+=== [23.05.2020 14:53:42 UTC-05:00] Jrk Bgrt
+Perfect
+
+=== [23.05.2020 14:53:55 UTC-05:00] Jrk Bgrt
+Make it very contagious please.
+
+=== [23.05.2020 15:01:14 UTC-05:00] Jrk Bgrt
+/lock [] audio bot button command contact document email emojigame forward game invitelink location phone poll rtl sticker url video videonote voice
+
+=== [23.05.2020 15:01:44 UTC-05:00] Jrk Bgrt
+😇
+
+=== [24.05.2020 21:17:02 UTC-05:00] Jrk Bgrt
+I think a computer would beat me in the turing test.
+
+=== [30.06.2020 18:29:05 UTC-05:00] Jrk Bgrt
+👆
+
+=== [02.08.2020 11:54:57 UTC-05:00] Jrk Bgrt
+Or the same puzzle, or just not at all 🤷‍♀.
+
+=== [02.08.2020 11:56:20 UTC-05:00] Jrk Bgrt
+Really nobody managed to find the extra door, didn't expect that after the earlier pace of cracking things.
+
+=== [03.08.2020 07:46:06 UTC-05:00] Jrk Bgrt
+A few here know
+
+=== [03.08.2020 10:17:43 UTC-05:00] Jrk Bgrt
+It's ok, more chance for those that aren't running. We said we'd do this from the start, no need to feel bad about this.
+
+=== [09.08.2020 05:38:27 UTC-05:00] Jrk Bgrt
+a private key
+
+=== [10.08.2020 11:50:52 UTC-05:00] Jrk Bgrt
+Cracking ethereum requires billions of ether.
+
+=== [12.08.2020 08:10:55 UTC-05:00] Jrk Bgrt
+Indeed remarkable with the hints stating the path pretty obvious...
+
+=== [12.08.2020 13:22:59 UTC-05:00] Jrk Bgrt
+No hints
+
+=== [12.08.2020 13:23:21 UTC-05:00] Jrk Bgrt
+There's 1 club that passed but they are stuck in the next phase.
+
+=== [12.08.2020 14:18:55 UTC-05:00] Jrk Bgrt
+Correct
+
+=== [01.10.2020 07:41:56 UTC-05:00] Jrk Bgrt
+I've just been notified that number 2 has made it to the next stage.
+
+=== [27.10.2020 03:58:39 UTC-05:00] Jrk Bgrt
+https://www.blockchain.com/btc/address/1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe price is indeed still there.
+
+=== [24.11.2020 13:02:48 UTC-05:00] Jrk Bgrt
+We have our reasons halving the price money at every bitcoin halving event :-).
+
+=== [24.11.2020 14:02:23 UTC-05:00] Jrk Bgrt
+Who knows, maybe even in the same block.
+
+=== [26.12.2020 06:54:18 UTC-05:00] Jrk Bgrt
+Thanks
+
+=== [07.01.2021 14:57:32 UTC-05:00] Jrk Bgrt
+It'll be split on the next halving.
+
+=== [07.01.2021 14:58:45 UTC-05:00] Jrk Bgrt
+We mentioned this at the beginning, when the puzzle started.
+
+=== [07.01.2021 14:59:38 UTC-05:00] Jrk Bgrt
+Depends on the contestants' puzzle skills.
+
+=== [07.01.2021 16:58:17 UTC-05:00] Jrk Bgrt
+Tg channel
+
+=== [18.01.2021 09:41:23 UTC-05:00] Jrk Bgrt
+I can solemnly promise you I'm not using any other accounts besides my own.
+
+=== [19.01.2021 13:12:59 UTC-05:00] Jrk Bgrt
+From now on no more begging for money in exchange for "hints". Doing so results in a ban. Measure in place due to many complaints.
+
+=== [19.01.2021 13:14:14 UTC-05:00] Jrk Bgrt
+This puzzle is supposed to be fun ✌️.
+
+=== [19.01.2021 16:39:00 UTC-05:00] Jrk Bgrt
+I'll offer free hints in PM. (After you've paid me 5.1 btc 🤡).
+
+=== [19.01.2021 16:39:13 UTC-05:00] Jrk Bgrt
+Good luck again.
+
+=== [21.01.2021 06:35:49 UTC-05:00] Jrk Bgrt
+Not to give any hints but a few might not require the internet anymore.
+
+=== [01.03.2021 06:33:17 UTC-05:00] Jrk Bgrt
+Ancient spelling 😅. One of the many many typos.
+
+=== [01.03.2021 06:34:42 UTC-05:00] Jrk Bgrt
+You are at the prime part already???
+
+=== [01.03.2021 06:35:15 UTC-05:00] Jrk Bgrt
+Oh wait, shouldn't have said that. That might have been a hint 🤔.
+
+=== [01.03.2021 06:38:37 UTC-05:00] Jrk Bgrt
+Rumour has it I'm an admin at least.
+
+=== [05.03.2021 08:14:28 UTC-05:00] Jrk Bgrt
+Those not enjoying the puzzle are the ones wasting time I guess 😅?
+
+=== [05.03.2021 08:15:26 UTC-05:00] Jrk Bgrt
+Infrared
+
+=== [05.03.2021 08:15:45 UTC-05:00] Jrk Bgrt
+No hints 🤡
+
+=== [14.03.2021 01:58:08 UTC-05:00] Jrk Bgrt
+Fyi. Another person (or team) made it to salph.
+
+=== [14.03.2021 04:25:14 UTC-05:00] Jrk Bgrt
+Nope
+
+=== [14.03.2021 04:45:01 UTC-05:00] Jrk Bgrt
+I don't check the website logs. There aren't any tracking scripts either. People somehow now how to reach me on telegram and PM me, that's how I know :-). Although I can't prove it, we don't monitor the puzzlers progress in any way. I just read the chat and when I notice the address is empty I'll know how they did it. After the first stage was cracked within no-time I was afraid the entire puzzle would have been solved not too long after that. When people progress in salphation it might be cracked pretty soon. Breaking salphation, should be giving the feeling of the phase's name. Won't be easy but I've noticed how clever most of you are so I assume it will be cracked at some point, probably before next halving.
+
+=== [14.03.2021 10:19:29 UTC-05:00] Jrk Bgrt
+I gave an unforseen hint already 🤷‍♂
+
+=== [15.03.2021 02:16:26 UTC-05:00] Jrk Bgrt
+Hush hush
+
+=== [19.03.2021 06:07:55 UTC-05:00] Jrk Bgrt
+If know about 3 people/teams.
+
+=== [19.03.2021 06:19:59 UTC-05:00] Jrk Bgrt
+4*
+
+=== [22.03.2021 11:53:39 UTC-05:00] Jrk Bgrt
+Nr 5 in salph
+
+=== [24.03.2021 17:19:43 UTC-05:00] Jrk Bgrt
+🤣
+
+=== [27.03.2021 08:37:10 UTC-05:00] Jrk Bgrt
+Maybe combine it with some psilocybe azurescens and mao inhibitors or go all  the way with some 5-MeO-DMT. 👀
+
+=== [01.04.2021 01:57:38 UTC-05:00] Jrk Bgrt
+Hint: "another door might be found on {1 },{4} ,{21}"
+
+=== [01.04.2021 03:34:22 UTC-05:00] Jrk Bgrt
+Good one V ;-). (Assuming you played cyberpunk).
+
+=== [01.04.2021 08:29:41 UTC-05:00] Jrk Bgrt
+R=18
+A=1
+B=2
+
+Could also be 21 or 1812 bit 🧐. Sometimes I'm glad I don't have to solve this puzzle myself.
+
+=== [01.04.2021 09:06:39 UTC-05:00] Jrk Bgrt
+👆
+
+=== [02.04.2021 15:18:22 UTC-05:00] Jrk Bgrt
+I haven't deleted it. Not sure who, but I noticed some more messages are deleted from time to time.
+
+=== [03.04.2021 10:51:32 UTC-05:00] Jrk Bgrt
+Nobody knows
+
+=== [03.04.2021 10:52:35 UTC-05:00] Jrk Bgrt
+I've been pretending to be one of the few creators for a while now.
+
+=== [06.04.2021 09:08:39 UTC-05:00] Jrk Bgrt
+Some parts of cicada puzzles are still unsolved. Must be bad design.
+
+=== [06.04.2021 09:09:36 UTC-05:00] Jrk Bgrt
+If it were just about having fun, that'd be great wouldn't it :-).
+
+=== [09.04.2021 14:46:38 UTC-05:00] Jrk Bgrt
+✅
+
+=== [10.04.2021 12:49:28 UTC-05:00] Jrk Bgrt
+Fyi, another person or team reached salph today.
+
+=== [16.04.2021 06:14:33 UTC-05:00] Jrk Bgrt
+Blame noted and accepted
+
+=== [16.04.2021 06:20:09 UTC-05:00] Jrk Bgrt
+Deal, we'll take of 75% instead 😈.
+
+=== [16.04.2021 06:21:12 UTC-05:00] Jrk Bgrt
+https://www.bitcoinblockhalf.com/
+
+=== [16.04.2021 06:33:32 UTC-05:00] Jrk Bgrt
+I don't care who shares what indeed, too much of a hassle. As long as people enjoy and that the best puzzler gets the price I'm ok with a lot.
+
+=== [16.04.2021 07:08:24 UTC-05:00] Jrk Bgrt
+Good point
+
+=== [18.04.2021 12:33:41 UTC-05:00] Jrk Bgrt
+I suspect he isn't
+
+=== [18.04.2021 13:24:13 UTC-05:00] Jrk Bgrt
+Do you know what usually happens on the first of april?
+
+=== [10.08.2021 15:51:12 UTC-05:00] Jrk Bgrt
+Technically we do 😁
+
+=== [11.08.2021 05:55:52 UTC-05:00] Jrk Bgrt
+The one to be found by solving the puzzle yes
+
+=== [11.08.2021 06:07:15 UTC-05:00] Jrk Bgrt
+And the solver will find a way to 'decrypt' it.
+
+=== [23.09.2021 18:38:41 UTC-05:00] Jrk Bgrt
+https://blockchair.com/tools/halving-countdown
+
+=== [24.09.2021 04:37:18 UTC-05:00] Jrk Bgrt
+This was alcohol talking last night. The topic puzzle came up, and couldn't resist posting it 😅.
+
+=== [24.09.2021 05:01:15 UTC-05:00] Jrk Bgrt
+That's not mine
+
+=== [31.10.2021 06:08:49 UTC-05:00] Jrk Bgrt
+😅
+
+=== [02.12.2021 22:41:18 UTC-05:00] Jrk Bgrt
+There is
+Another
+D
+O
+O
+R
+
+=== [02.12.2021 22:46:25 UTC-05:00] Jrk Bgrt
+Remind me when it's Christmas.
+
+=== [26.12.2021 15:11:26 UTC-05:00] Jrk Bgrt
+Oh well, why not. A mini mini hint. Ready 🐰?
+
+=== [26.12.2021 15:18:32 UTC-05:00] Jrk Bgrt
+The previous "there is another door hint" is still a thing. We're not sure if anyone has found another door so far, and we can't check that... We've seen prime numbers being mentioned; well, that is definitely an aspect which is required to proceed. Furthermore, along the way, some characters need to be 'zeroed out'.. Best of luck and happy holidays! 🥂
+
+=== [30.12.2021 19:39:11 UTC-05:00] Jrk Bgrt
+...how did you found out?
+
+=== [30.12.2021 19:42:43 UTC-05:00] Jrk Bgrt
+That leaves me positively speechless
+
+=== [30.12.2021 19:45:53 UTC-05:00] Jrk Bgrt
+Rumour has it, it is was done before dawn.
+
+=== [30.12.2021 19:46:44 UTC-05:00] Jrk Bgrt
+This was stated after drinking dozers stuff.
+
+=== [30.12.2021 19:47:07 UTC-05:00] Jrk Bgrt
+😁
+
+=== [31.12.2021 12:14:55 UTC-05:00] Jrk Bgrt
+The only date I give away is the expiry date of neo's passport.
+
+=== [25.05.2022 09:25:33 UTC-05:00] Jrk Bgrt
+Looks like somebody found a gsmg subscription.
+
+=== [01.06.2022 11:56:24 UTC-05:00] Jrk Bgrt
+👽
+
+=== [02.12.2022 07:14:53 UTC-05:00] Jrk Bgrt
+It is meant to be solved.
+
+=== [02.12.2022 07:36:36 UTC-05:00] Jrk Bgrt
+There might be a hint coming but not too soon.
+
+=== [02.12.2022 17:45:40 UTC-05:00] Jrk Bgrt
+I'm not exactly sure how long it would take to discover that theory so I can't really tell 🤔.
+
+=== [11.12.2022 10:30:38 UTC-05:00] Jrk Bgrt
+.... That is very specific
+
+=== [11.12.2022 10:33:20 UTC-05:00] Jrk Bgrt
+If the puzzle is solved you'll see how scary specific that is 😂
+
+=== [08.01.2023 23:52:11 UTC-05:00] Jrk Bgrt
+@barrystyle [https://t.me/barrystyle], provided a very specific hint already.
+
+=== [09.01.2023 05:10:46 UTC-05:00] Jrk Bgrt
+At least prime number is very important to get any further.
+
+=== [11.01.2023 03:46:17 UTC-05:00] Jrk Bgrt
+Mini apologies for this Jeremy gif, couldn't help myself.
+
+=== [11.01.2023 19:23:03 UTC-05:00] Jrk Bgrt
+Rumour has it a new hint is to be expected within 2 months from now.
+
+=== [12.01.2023 06:02:00 UTC-05:00] Jrk Bgrt
+We obviously did this to have a chance at ending up in the Guinness Book for creating the lamest puzzle ever.
+
+=== [12.01.2023 06:07:00 UTC-05:00] Jrk Bgrt
+I checked a certain GitHub yesterday, for whoever set that up, nicely done. You guys are really getting close.
+
+=== [12.01.2023 06:08:02 UTC-05:00] Jrk Bgrt
+At least higher than sqrt(-1).
+
+=== [12.01.2023 06:09:14 UTC-05:00] Jrk Bgrt
+Focussing on the theory of everything is also still a valid path to reaching the private key.
+
+=== [12.01.2023 06:10:54 UTC-05:00] Jrk Bgrt
+An imaginary puzzle would.
+
+=== [12.01.2023 06:15:46 UTC-05:00] Jrk Bgrt
+Just be clear. My apologies for this puzzle not to be too easy. I'm aware it might appear unsolvable, but it's not. If you find the answer now, the remaining 2.5 btc is well deserved... Or 5, who knows.
+
+=== [12.01.2023 11:05:16 UTC-05:00] Jrk Bgrt
+Every btc halving the price will half too.
+
+=== [12.01.2023 12:47:07 UTC-05:00] Jrk Bgrt
+👆
+
+=== [25.01.2023 09:59:19 UTC-05:00] Jrk Bgrt
+42
+
+=== [02.02.2023 09:47:18 UTC-05:00] Jrk Bgrt
+I'm staying out of this one 😅
+
+=== [23.02.2023 18:20:03 UTC-05:00] Jrk Bgrt
+00100110 10100110 11001110 10010110 10110110 11110110 01001110 00001110 10011110 10000110 11101110 10000110 10100110 01101110 10010110 11100110 10100110 10101110 01001110 00101110 10000110 11001110 10010110 00001110 10100110 00101110 11001110 00101110 11001110 10000110 00110110 10011110 01001110 10100110 01101110 00101110 10010110 11100110 01110110 10010110 10100110 10100110 11001110 00101110 11110110 01110110 10100110 01001110 10101110 11110110 10011110 00101110 10101110 01000110 11001110 10100110 10011110 10100110 01001110 10101110 11110110 10011110 01100110 11110110 00101110 01110110 11110110 01001110 01100110 01110110 10010110 11001110 00101110 10010110 00100110 01001110 11110110 11101110 11001110 11001110 10000110 00001110 10100110 00010110 00101110 10011110 10000110 11101110 10000110 10100110 01101110 10010110 11100110 00101110 01110110 11110110 11101110 10100110 11101110 11100110 01110110 10000110 10011110 01110110 10010110 10011110 10100110 11000110 10010110 11110110 00010110 11000110 10010110 00010110 11000110 01001110 10000110 10100110 01001110 11110110 01100110 10100110 01000110 11001110 00100110 01001110 11110110 11101110 00101110 11001110 10000110 00110110 00101110 11001110 10010110 00110110 10110110 10101110 11001110 00011110 10010110 01001110 00101110 10000110 10110110 11001110 10100110 10110110 10010110 01001110 00001110 10100110 10101110 00110110 01000110 11101110 11110110 00110110 00110110 10100110 10011110
+
+=== [03.03.2023 04:47:19 UTC-05:00] Jrk Bgrt
+🐰
+
+=== [07.04.2023 21:53:03 UTC-05:00] Jrk Bgrt
+👆🤷‍♂
+
+=== [14.04.2023 12:41:07 UTC-05:00] Jrk Bgrt
+It can be solved, albeit very difficult as you have to understand how to interpret all the hints. Currently we are not planning to release any new hints soon.
+
+=== [29.04.2023 16:19:45 UTC-05:00] Jrk Bgrt
+😂
+
+=== [02.05.2023 14:12:43 UTC-05:00] Jrk Bgrt
+Still remarkable that scene. Especially the expiration date of his passport 😁.
+
+=== [02.05.2023 15:03:59 UTC-05:00] Jrk Bgrt
+Hope..
+
+=== [10.06.2023 01:39:07 UTC-05:00] Jrk Bgrt
+Correct.
+-
+No.
+-
+Can't say anything about this.
+
+=== [12.06.2023 07:31:49 UTC-05:00] Jrk Bgrt
+Physically, I assume not 😅.
+
+=== [03.08.2023 14:50:23 UTC-05:00] Jrk Bgrt
+Ok ok ok ok. I can't hold this one any longer.
+
+=== [03.08.2023 14:51:33 UTC-05:00] Jrk Bgrt
+Are you really looking for just the btc...?
+
+=== [03.08.2023 15:17:19 UTC-05:00] Jrk Bgrt
+Another one only 8 minutes after the last one?
+
+=== [03.08.2023 15:28:20 UTC-05:00] Jrk Bgrt
+Might be. Wish I had said nothing though.
+
+=== [03.08.2023 15:30:14 UTC-05:00] Jrk Bgrt
+Exactly, should have refrained from typing earlier maybe.
+
+=== [03.08.2023 15:33:50 UTC-05:00] Jrk Bgrt
+I saw that you guys got really really far already.
+
+=== [03.08.2023 15:34:24 UTC-05:00] Jrk Bgrt
+Actually, the hardest part is done.
+
+=== [04.08.2023 19:46:47 UTC-05:00] Jrk Bgrt
+"Globally supporting my generation"
+
+=== [06.08.2023 05:42:15 UTC-05:00] Jrk Bgrt
+This may sound at little dramatic but if I suddenly can't answer you guys anymore, it was nice knowing you all ❤️.
+
+=== [06.08.2023 05:43:46 UTC-05:00] Jrk Bgrt
+Oh, and be careful of what you get yourselves into. 🤐
+
+=== [06.08.2023 05:44:27 UTC-05:00] Jrk Bgrt
+I'll not explain why.
+
+=== [06.08.2023 05:44:39 UTC-05:00] Jrk Bgrt
+The puzzle talks for me.
+
+=== [06.08.2023 05:45:26 UTC-05:00] Jrk Bgrt
+And don't worry, I'll just be here in the meanwhile 😘.
+
+=== [06.08.2023 05:55:01 UTC-05:00] Jrk Bgrt
+Not at all.
+
+=== [06.08.2023 05:56:34 UTC-05:00] Jrk Bgrt
+You know if you know.
+
+=== [06.08.2023 06:22:27 UTC-05:00] Jrk Bgrt
+It wasn't cryptic enough before?
+
+=== [06.08.2023 07:05:33 UTC-05:00] Jrk Bgrt
+I wish only for that the puzzle provided some exciting pieces of information. That others have learned something new and that for some it is simply entertaining. I hope that the person who connects the last pieces for the 'main price' will thus get its hands on the private key and hold or spend it wisely, but mostly enjoy it. And lastly, I hope to witness the day that the last scene of mr. Robot becomes a reality.
+
+=== [06.08.2023 07:05:51 UTC-05:00] Jrk Bgrt
+In the eye of the beholder, for sure 😊.
+
+=== [06.08.2023 07:09:27 UTC-05:00] Jrk Bgrt
+Technically my friends and family can get to all my data if they'd work together. In that scenario, don't expect a halving of the price.
+
+=== [06.08.2023 07:11:19 UTC-05:00] Jrk Bgrt
+Hahaha good one. I thought of a 24h Killswitch, but nah. Can't be bothered :D! Instead.
+
+=== [06.08.2023 07:12:13 UTC-05:00] Jrk Bgrt
+Probably the last hint:
+
+Once you hit a "ying yang", you'll be able to solve it the same day.
+
+=== [06.08.2023 07:13:30 UTC-05:00] Jrk Bgrt
+Chance is small though. Merely an fyi, bit dramatic as stated earlier.
+
+=== [06.08.2023 07:14:54 UTC-05:00] Jrk Bgrt
+Both?
+
+=== [06.08.2023 07:19:07 UTC-05:00] Jrk Bgrt
+No need. You have all the info.
+
+=== [06.08.2023 07:19:16 UTC-05:00] Jrk Bgrt
+Good to see you again btw.
+
+=== [06.08.2023 07:20:13 UTC-05:00] Jrk Bgrt
+No hints 🤡
+
+=== [06.08.2023 07:21:07 UTC-05:00] Jrk Bgrt
+My hat off to you, and you know why 🫡.
+
+=== [06.08.2023 07:21:37 UTC-05:00] Jrk Bgrt
+Only fair ones. And to everyone.
+
+=== [06.08.2023 07:43:54 UTC-05:00] Jrk Bgrt
+To answer your question 'fully', from here on, high likely no hints anymore. But if somehow you all can't solve it from here in the next few years (which I deem unlikely given the state of the solving process), then I might feel the need to give an additional hint, as I couldn't happily live with the idea that some would think that this was a scam. Note, that I hope not to have to give another hint as it would probably be a give away. Good luck to you all!
+
+=== [06.08.2023 07:49:59 UTC-05:00] Jrk Bgrt
+Something was solved rather... remarkable.
+
+=== [06.08.2023 07:53:56 UTC-05:00] Jrk Bgrt
+Partly.
+
+=== [06.08.2023 07:56:02 UTC-05:00] Jrk Bgrt
+I won't!
+
+=== [06.08.2023 08:00:38 UTC-05:00] Jrk Bgrt
+Ok, although I somehow feel the need to have my eyes at this chat all for sudden it's time for me to shut up again and see my little ones play in an obstacle parc here on France. Ciao!
+
+=== [06.08.2023 12:23:44 UTC-05:00] Jrk Bgrt
+I have no clue.
+
+=== [06.08.2023 13:39:34 UTC-05:00] Jrk Bgrt
+Correct. Well, technically, you'll need the internet to claim the prize in the end 🤔.
+
+=== [11.08.2023 00:52:53 UTC-05:00] Jrk Bgrt
+Hi all, getting quite some DM's which is fine, just know that I'm traveling the next coming days ✌️!
+
+=== [11.08.2023 00:53:25 UTC-05:00] Jrk Bgrt
+And I usually answer with "no hints".
+
+=== [18.08.2023 08:24:12 UTC-05:00] Jrk Bgrt
+😳 how?
+
+=== [18.08.2023 08:25:35 UTC-05:00] Jrk Bgrt
+Hi all. I'm on holiday btw. I might not answer DMs.
+
+=== [23.08.2023 14:43:21 UTC-05:00] Jrk Bgrt
+Note that I get quite some puzzle DMs. I've become used to just say 'no hints'.. (sorry for that).
+
+=== [29.08.2023 13:06:07 UTC-05:00] Jrk Bgrt
+Correct
+
+=== [28.09.2023 11:13:32 UTC-05:00] Jrk Bgrt
+I'm ok! ♥️
+
+=== [28.09.2023 11:14:24 UTC-05:00] Jrk Bgrt
+Sorry for not answering. I've just been trying not to live in my phone, as that has become a habit the last 20 years of my life.
+
+=== [28.09.2023 11:16:21 UTC-05:00] Jrk Bgrt
+Still on holiday 😅. In the Caribbean currently. It's lovely here. I see some spam complaints, also sorry for that. Everyone ok besides that?
+
+=== [28.09.2023 11:19:30 UTC-05:00] Jrk Bgrt
+Thanks!!!
+
+=== [17.11.2023 07:50:24 UTC-05:00] Jrk Bgrt
+Hello there, are we all still having fun?
+
+=== [17.11.2023 07:51:43 UTC-05:00] Jrk Bgrt
+I received some DMs, I thought I'd say hi ✌️. I'm ok, apologies for not being here on a daily basis.
+
+=== [24.11.2023 09:05:13 UTC-05:00] Jrk Bgrt
+There's a question multiple people have asked me. "Given the available knowledge, is internet still required to solve it?"
+
+Nope
+
+=== [26.12.2023 12:13:51 UTC-05:00] Jrk Bgrt
+Heeeeelllloooooooo
+
+=== [26.12.2023 12:14:06 UTC-05:00] Jrk Bgrt
+Happy Christmas all ❤️
+
+=== [26.12.2023 12:15:02 UTC-05:00] Jrk Bgrt
+Hahahaha that meme, love it
+
+=== [26.12.2023 12:15:42 UTC-05:00] Jrk Bgrt
+Any spammers I have to ban?
+
+=== [26.12.2023 12:27:27 UTC-05:00] Jrk Bgrt
+Have you tried the purple pill already?
+
+=== [26.12.2023 12:28:12 UTC-05:00] Jrk Bgrt
+Candy flipping into 2024 ;-)
+
+=== [26.01.2024 12:13:57 UTC-05:00] Jrk Bgrt
+~2000 new messages, great. You all doing ok?
+
+=== [26.01.2024 12:21:46 UTC-05:00] Jrk Bgrt
+Regular Bitcoin Private key
+
+=== [26.01.2024 12:22:04 UTC-05:00] Jrk Bgrt
+🤐
+
+=== [26.03.2024 05:41:13 UTC-05:00] Jrk Bgrt
+I'm not really here, just checking if you folks are still alive and kicking. ✌️
+
+=== [26.03.2024 05:42:36 UTC-05:00] Jrk Bgrt
+For all those DM'ing me, the answer to your question is probably NO or YES. I decided not to answer any puzzle questions anymore. If there will be a hint (ever). It will be here.
+
+=== [26.03.2024 05:43:04 UTC-05:00] Jrk Bgrt
+IT'S OK, I FORGOT THAT IT'S CAPS TUESDAY.
+
+=== [26.03.2024 05:46:40 UTC-05:00] Jrk Bgrt
+Yeah, being lost is a common aspect of being on this planet I guess, or at least when tempering with rabbit holes.
+
+=== [26.03.2024 05:47:53 UTC-05:00] Jrk Bgrt
+Btw, for those with the heartwarming words. Many thanks ❤️.
+
+=== [26.03.2024 05:49:08 UTC-05:00] Jrk Bgrt
+Please understand that I get multiple of these questions on a daily basis..
+
+=== [26.03.2024 05:50:02 UTC-05:00] Jrk Bgrt
+There are investment institutions for this. Requesting money for a solid idea is not that difficult.
+
+=== [26.03.2024 05:52:11 UTC-05:00] Jrk Bgrt
+Yes. Some if you might soon be drinking it probably.
+
+=== [26.03.2024 05:53:04 UTC-05:00] Jrk Bgrt
+Seems puzzlers are decent people ;-).
+
+=== [26.03.2024 05:55:39 UTC-05:00] Jrk Bgrt
+Ask Claude-3 for the best approach maybe?
+
+=== [26.03.2024 05:56:29 UTC-05:00] Jrk Bgrt
+Understandable
+
+=== [26.03.2024 05:57:09 UTC-05:00] Jrk Bgrt
+Does it come close to Claude and gpt?
+
+=== [26.03.2024 09:40:01 UTC-05:00] Jrk Bgrt
+Technically yes but Nope.
+
+=== [26.03.2024 09:40:38 UTC-05:00] Jrk Bgrt
+And hi, you're hallucinating. Is it the mescaline?
+
+=== [26.03.2024 09:41:41 UTC-05:00] Jrk Bgrt
+😉
+
+=== [26.03.2024 12:05:05 UTC-05:00] Jrk Bgrt
+I prefer superpositions 😉.
+
+=== [26.03.2024 12:23:03 UTC-05:00] Jrk Bgrt
+You're doing fine.
+
+=== [27.03.2024 11:41:56 UTC-05:00] Jrk Bgrt
+Sqaures and a rabbit?
+
+=== [10.04.2024 13:21:30 UTC-05:00] Jrk Bgrt
+1357 blocks to go
+
+=== [17.04.2024 06:02:00 UTC-05:00] Jrk Bgrt
+I received some complaints about insulting behavior.
+
+May it be obvious that it's not acceptable.
+
+Please refrain from doing so, or I have to get the banhammer out of the drawer of either slap someone with a large trout.
+
+Please be nice ❤️.
+
+=== [17.04.2024 06:03:03 UTC-05:00] Jrk Bgrt
+Happy countdown everyone ✌️!
+
+=== [19.04.2024 19:08:44 UTC-05:00] Jrk Bgrt
+Ha, we lost one 'puzzler'.
+
+=== [19.04.2024 19:10:14 UTC-05:00] Jrk Bgrt
+Seemed like a nice moment to get the ban hammer out of the drawer.
+
+=== [19.04.2024 19:10:43 UTC-05:00] Jrk Bgrt
+Happy halving everyone!
+
+=== [19.04.2024 19:15:48 UTC-05:00] Jrk Bgrt
+For those that still haven't solved the puzzle. There are few prizes to win besides the banter in this chat. A private key, some 'obscure' intel, or what I hope most of you have discovered by now, the most obvious reason to make sure you hold on to Bitcoin 😉.
+
+=== [19.04.2024 19:15:54 UTC-05:00] Jrk Bgrt
+✌️
+
+=== [19.04.2024 19:29:57 UTC-05:00] Jrk Bgrt
+16$ fee. Damn.
+
+Well, anyway, see you in 4 years! Good luck you all.
+
+=== [19.04.2024 19:31:10 UTC-05:00] Jrk Bgrt
+Me? No. Don't know that guy.
+
+=== [19.04.2024 20:34:10 UTC-05:00] Jrk Bgrt
+I should.
+
+=== [19.04.2024 20:35:15 UTC-05:00] Jrk Bgrt
+Challenge accepted.
+
+=== [06.06.2024 03:16:00 UTC-05:00] Jrk Bgrt
+Crazy No hint Thursday, every Friday!
+
+=== [07.06.2024 05:10:08 UTC-05:00] Jrk Bgrt
+An active one.
+
+=== [11.07.2024 14:29:17 UTC-05:00] Jrk Bgrt
+None planned.
+
+=== [30.08.2024 04:21:04 UTC-05:00] Jrk Bgrt
+It indeed set to private. I haven't opened tg for a while so I guess it wasn't from my side 🫤.
+
+=== [19.09.2024 02:20:23 UTC-05:00] Jrk Bgrt
+I simply liked Jacque's ideas a lot. I have techy friends building communities around that idea today; I haven't invested much time into it as I should myself. But in the coming years I move to a place where that becomes a possibility.
+
+=== [21.10.2024 14:03:09 UTC-05:00] Jrk Bgrt
+I know a Matthew, and if he knows a Roberto, it's likely the same one and a very smart guy. 😉
+
+=== [21.10.2024 14:03:34 UTC-05:00] Jrk Bgrt
+Hi all! Everyone still happy?
+
+=== [21.10.2024 14:06:58 UTC-05:00] Jrk Bgrt
+Nice! Chilling under artificial stars, clearing up disks.
+
+=== [29.11.2024 04:56:10 UTC-05:00] Jrk Bgrt
+In that case I'll show, as I don't have much talent.
+
+=== [29.11.2024 04:56:39 UTC-05:00] Jrk Bgrt
+Hello everyone, still having fun :-)?
+
+=== [29.11.2024 04:57:24 UTC-05:00] Jrk Bgrt
+I was told this group could use some moderation.
+
+=== [29.11.2024 04:59:41 UTC-05:00] Jrk Bgrt
+If wallet != empty, puzzle not solved.
+
+(Most likely).
+
+=== [29.11.2024 05:00:19 UTC-05:00] Jrk Bgrt
+That was indeed the plan.
+
+=== [29.11.2024 05:13:16 UTC-05:00] Jrk Bgrt
+If at all, a very bad one. Not even worth the title of skid. Although, as you might have guessed, I've seen some 'security' places 'protecting' our digital realms.
+
+=== [29.11.2024 05:15:17 UTC-05:00] Jrk Bgrt
+Haven't interacted with a terminal in a while. "But what can you do without a cpu?", touch grass it is.
+
+=== [29.11.2024 05:17:21 UTC-05:00] Jrk Bgrt
+Hint? Hint? Heh, what craziness are you talking about? There is no hint.
+
+=== [29.11.2024 05:20:59 UTC-05:00] Jrk Bgrt
+🤐
+
+=== [29.11.2024 05:28:47 UTC-05:00] Jrk Bgrt
+At this point, I don't know what to hint, without ruining it for those that might find it. If you guys got 1 microstep further, the puzzle will likely be solved the same day.
+
+I could come up with some empty cryptic bs hint, but that would be lame too.
+
+And in the end, good puzzles don't need hints, hence this puzzle appears to be a tiny bit shitty sometimes.
+
+=== [29.11.2024 05:29:20 UTC-05:00] Jrk Bgrt
+No clue Friday.
+Every Saturday.
+
+=== [29.11.2024 05:39:33 UTC-05:00] Jrk Bgrt
+Oh, and before I forget, apologies for not answering any DMs, don't take it personal.
+
+I mainly got tired of answering with either 'no hints', or listening to sad stories about family, or kids with severe health problems, hoping to obtain a hint, all day every day.
+
+=== [29.11.2024 05:42:55 UTC-05:00] Jrk Bgrt
+I saw that @qv8du3ne8s9 [https://t.me/qv8du3ne8s9] 😂
+
+=== [29.11.2024 05:47:19 UTC-05:00] Jrk Bgrt
+I think I'll be going for ASCII 127 myself. But not overly dramatic.
+
+=== [29.11.2024 05:57:33 UTC-05:00] Jrk Bgrt
+I think I'm fine - gladly I don't feel that weird anxiety anymore. However, I do expect that in about 18 years my government might have to notify me that I've been 'under investigation' for a while. But don't worry about me; me, family and friends are doing great!
+
+=== [29.11.2024 05:58:58 UTC-05:00] Jrk Bgrt
+This is so true. I must say, with that in mind, it makes typing any message here a bit more challenging.
+
+=== [29.11.2024 06:00:25 UTC-05:00] Jrk Bgrt
+Admins
+
+=== [29.11.2024 06:02:00 UTC-05:00] Jrk Bgrt
+Happiness.
+
+=== [29.11.2024 06:06:24 UTC-05:00] Jrk Bgrt
+You only need the last number of pi and it might get you somewhere.
+
+=== [29.11.2024 06:13:47 UTC-05:00] Jrk Bgrt
+I already have gray hair unfortunately.
+
+=== [29.11.2024 06:15:34 UTC-05:00] Jrk Bgrt
+Maybe Bryan Johnson has an answer for my hair.
+
+=== [29.11.2024 06:20:19 UTC-05:00] Jrk Bgrt
+Pimeyes leads me to a festival thingy in the Netherlands. Is this a puzzle?
+
+=== [29.11.2024 06:23:12 UTC-05:00] Jrk Bgrt
+Not sure why but I suppose it doesn't affect the puzzle.
+
+=== [29.11.2024 06:25:31 UTC-05:00] Jrk Bgrt
+Could be, it has been years and we had a few FE guys working on it.
+
+=== [29.11.2024 06:28:41 UTC-05:00] Jrk Bgrt
+Yeah, what can I say? In a way, it's a pretty smart by mr Sailor, and Bitcoin is built to withstand this shenanigans anyway.
+
+=== [29.11.2024 06:29:55 UTC-05:00] Jrk Bgrt
+Yeah NAD is great.
+
+=== [29.11.2024 06:30:33 UTC-05:00] Jrk Bgrt
+I only take ~80 supplements daily, nothing crazy 😅.
+
+=== [29.11.2024 06:32:02 UTC-05:00] Jrk Bgrt
+Blueprint is sort of the leading list at this point.
+
+=== [29.11.2024 06:34:04 UTC-05:00] Jrk Bgrt
+I mean, if you guys don't solve it anytime soon I'll have to try and stay alive till the year 2145.
+
+=== [29.11.2024 06:37:27 UTC-05:00] Jrk Bgrt
+I explain them a lot but I don't want them to know about BTC yet, having this unhealthy fear for btc kidnapping.
+
+=== [29.11.2024 06:39:50 UTC-05:00] Jrk Bgrt
+Enjoying life, mostly 😉.
+
+=== [29.11.2024 06:47:44 UTC-05:00] Jrk Bgrt
+Yeah, heard this argument before. Haven't used it myself for years. Bryan is a bit.. extreme, and his team of doctors probably concluded that it's good for him. Also, there aren't many studies that have concluded that long term low dose usage would do any damage.
+
+In the end there's no perfect static setup, as we're all a bit different.
+
+=== [29.11.2024 06:51:05 UTC-05:00] Jrk Bgrt
+Another doctor in my room states that these are indeed the typical puzzle doctors 😉.
+
+=== [29.11.2024 06:54:17 UTC-05:00] Jrk Bgrt
+Already better than many doctors... especially for discovering very unlikely cases.
+
+=== [29.11.2024 07:03:37 UTC-05:00] Jrk Bgrt
+I'd quit that if you want quality sleep. I used it so much, my body can't deal with it anymore. After a week or 2 you'll start dreaming again.
+
+=== [29.11.2024 07:05:46 UTC-05:00] Jrk Bgrt
+Ah sorry, I missed that. I used a gram daily, for years. 😅
+
+=== [29.11.2024 07:06:39 UTC-05:00] Jrk Bgrt
+🫡
+
+=== [29.11.2024 07:13:43 UTC-05:00] Jrk Bgrt
+Ok, I'm off people 👻. Be good, stay healthy, stack sats and enjoy life. 
+
+Ciao!
+
+And good luck Admins! (And many thanks in advance, please be fair 😉).
+
+=== [28.04.2025 11:45:47 UTC-05:00] Jrk Bgrt
+You people are still having fun I see.
+
+=== [28.04.2025 11:48:07 UTC-05:00] Jrk Bgrt
+Ah, no hints? Ok, that's also fine.
+
+=== [28.04.2025 11:51:05 UTC-05:00] Jrk Bgrt
+I have to say, that touching grass thingy is pretty nice.
+
+=== [28.04.2025 11:52:50 UTC-05:00] Jrk Bgrt
+Yeah, tricky question. You can try to time it (I stopped doing that), but if you understand the puzzle you'll discover that I'd suggest btc only, and don't gamble.
+
+=== [28.04.2025 11:55:14 UTC-05:00] Jrk Bgrt
+I was hinted when eth was 2$. Saw the "DAO" unfold live in front of my eyes with 8000 holders on slack; was allowed to double my eth with all the left over etc, and then swap it to btc. Good old times.
+
+=== [28.04.2025 11:56:14 UTC-05:00] Jrk Bgrt
+If I'd ever take the funds (I won't), I wouldn't even tell the answer 😈.
+
+=== [28.04.2025 11:57:17 UTC-05:00] Jrk Bgrt
+Did anyone found yingyang? I don't think so, you guys are so smart, when yingyang is reached, 2 hours max.
+
+=== [28.04.2025 11:58:50 UTC-05:00] Jrk Bgrt
+Im with alcohol, dont blame me for more typos.
+
+=== [28.04.2025 11:59:29 UTC-05:00] Jrk Bgrt
+Alcohol, and answering this chat go hand in hand somehow.
+
+=== [28.04.2025 12:00:26 UTC-05:00] Jrk Bgrt
+Que?
+
+=== [28.04.2025 12:01:36 UTC-05:00] Jrk Bgrt
+It’s the next phase, but I await the day someone finally gets there.
+
+=== [28.04.2025 12:02:46 UTC-05:00] Jrk Bgrt
+Ok, the "better half" is hungry. Which means I'm off 🤗
+
+=== [15.09.2025 21:24:36 UTC-05:00] Jrk Bgrt
+Yes
+
+=== [15.09.2025 21:24:52 UTC-05:00] Jrk Bgrt
+Carrots were originally purple, until the Dutch turned them orange in the 1600s to kiss up to their royal family.
+
+=== [31.12.2025 22:15:02 UTC-05:00] Jrk Bgrt
+.
+
+=== [31.12.2025 22:16:15 UTC-05:00] Jrk Bgrt
+..
+
+=== [31.12.2025 22:17:05 UTC-05:00] Jrk Bgrt
+...
+
+=== [31.12.2025 22:18:07 UTC-05:00] Jrk Bgrt
+....
+
+=== [31.12.2025 22:19:05 UTC-05:00] Jrk Bgrt
+.....
+
+=== [31.12.2025 22:20:03 UTC-05:00] Jrk Bgrt
+01001000 01100001 01110000 01110000 01111001 00100000 01101110 01100101 01110111 00100000 01111001 01100101 01100001 01110010 00100001 00100000 01001101 01100001 01101011 01100101 00100000 01110100 01101000 01100101 00100000 01100010 01100101 01110011 01110100 00100000 01101111 01100110 00100000 01100101 01110110 01100101 01110010 01111001 01110100 01101000 01101001 01101110 01100111 00101110 00100000 01001111 01101000 00101100 00100000 01100001 01101110 01100100 00100000 01101000 01100101 01110010 01100101 00100111 01110011 00100000 01100001 00100000 00100010 01110100 01101001 01101110 01111001 00100000 01101000 01101001 01101110 01110100 00100010 00100000 00111100 00110011 00101110
+
+=== [03.03.2026 20:11:55 UTC-05:00] Jrk Bgrt
+👆🫡
+
+=== [03.03.2026 20:12:28 UTC-05:00] Jrk Bgrt
+Hi all 👋🏻
+
+=== [03.03.2026 20:17:02 UTC-05:00] Jrk Bgrt
+No hints , only free will. One of the few things I somehow strugle to fully accept albeit that science is currently not on the deterministic side if I'm not mistaken.
+
+=== [03.03.2026 20:18:06 UTC-05:00] Jrk Bgrt
+Everyone still having fun?
+
+=== [03.03.2026 20:19:39 UTC-05:00] Jrk Bgrt
+Jacque was quite an inspiring lad I'd say.
+
+=== [03.03.2026 20:21:38 UTC-05:00] Jrk Bgrt
+It's kinda of a pvp zone here. Sort of a rust server with both nice and toxic units.
+
+=== [03.03.2026 20:22:42 UTC-05:00] Jrk Bgrt
+Maybe, Cartman's quote about chatroulette fits too.
+
+=== [03.03.2026 20:23:27 UTC-05:00] Jrk Bgrt
+🤐
+
+=== [03.03.2026 20:27:00 UTC-05:00] Jrk Bgrt
+Looks at gnomad. 👀
+
+=== [03.03.2026 20:29:05 UTC-05:00] Jrk Bgrt
+Bingo
+
+=== [03.03.2026 20:30:47 UTC-05:00] Jrk Bgrt
+I only need to look at the address. If any of you reaches the next phase, the price is taken in no-time.
+
+=== [03.03.2026 20:31:09 UTC-05:00] Jrk Bgrt
+🤷‍♂️
+
+=== [03.03.2026 20:32:01 UTC-05:00] Jrk Bgrt
+I suppose that could get you far in real life.
+
+=== [03.03.2026 20:33:52 UTC-05:00] Jrk Bgrt
+Before I forget. For those who DM me, my apologies for not answering - or only rarely. Nothing personal ❤️.
+
+=== [03.03.2026 20:35:22 UTC-05:00] Jrk Bgrt
+I'm going to rewatch episode 3.5 with  the better half.
+
+=== [03.03.2026 20:36:04 UTC-05:00] Jrk Bgrt
+Nope. You're not the first to ask.
+
+=== [03.03.2026 20:37:14 UTC-05:00] Jrk Bgrt
+Cheers all, good luck again 👋🏻!
+
+=== [28.05.2026 06:41:02 UTC-05:00] Jrk Bgrt
+Ah, ofcourse. The puzzle is still valid!
+
+=== [28.05.2026 08:34:18 UTC-05:00] Jrk Bgrt
+🫡🥳
+

@@ -1,0 +1,266 @@
+{
+  "accepted": [],
+  "accepted_cross_blob_rule_count": 0,
+  "accepted_single_blob_count": 0,
+  "attempts": 2700,
+  "cross_blob": [],
+  "important": "Strict padding hits are recorded by hash and metrics only and are not accepted without a preregistered validator.",
+  "manifest_sha256": "50211f08358ac12cc3998dd9637aa38431ef434d9642a0b8f1c412ec6f6aca46",
+  "padding_hits_without_plaintext": [
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v18c0016",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "b6c74702fa4b1652303b40a84d30e33786f76f610a7ea0fea79c3249a91ca00f",
+      "plaintext_length": 79,
+      "plaintext_sha256": "78d77d0328fce0213fbd92a5f94ca375fbf13cff2cfc58c9a9b62a2bc1dbdb92",
+      "provenance": [
+        "architect-choice/before-neo-moves/suffix-10/compact/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v18c0072",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "454a5898ab33964aa80eff4b358dd7caae92d97b10cc194716d0c6342c68b818",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "4c4e5ad2f499a2b2df823501db84179b321abb7182ef4ac8c1ff62d0d91921e9",
+      "provenance": [
+        "architect-choice/during-door-choice/full-punctuated/source-case"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v18c0089",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "aef499317bfa8fcddfb31408b8ed29f5da95ee903efe4ce20025b96dba1e82ec",
+      "plaintext_length": 79,
+      "plaintext_sha256": "5e8026892ee469850ae57a20736866fe710a588e89192111daee0a5d0f9129ec",
+      "provenance": [
+        "architect-choice/before-neo-moves/suffix-1/compact/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v18c0140",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "a39a02e9ebd5234d1f9f77735ad918456952de7ace708c3b1343cd4462c44a11",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "b168b7bea000f94241709d3b4e167199b4e8edc74f7f01ae9b8c5e64f1c6e7ae",
+      "provenance": [
+        "architect-choice/during-door-choice-with-audible-interjection/suffix-10/compact/upper",
+        "architect-choice/during-door-choice/suffix-9/compact/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v18c0147",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "783dccaa7398cc7dc9be387cf6174623dbc75bbf0318fdd1989c560f5a468588",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "736547c4e7723fcc71949e2aa10f001224db34329b7bf07b8e0763a88122463d",
+      "provenance": [
+        "architect-choice/during-door-choice-with-audible-interjection/suffix-14/spaces/upper",
+        "architect-choice/during-door-choice/suffix-13/spaces/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v18c0162",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "b43c2ed1309b2fa86035f2475f100c78c6ff2756d4f1540f43727b9a05ec4c92",
+      "plaintext_length": 79,
+      "plaintext_sha256": "b8e75d5c817434af290da799b3f2b9006aea1adcc5c191d4cc3560c082b73a26",
+      "provenance": [
+        "architect-choice/during-door-choice-with-audible-interjection/suffix-9/spaces/upper",
+        "architect-choice/during-door-choice/suffix-8/spaces/upper"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v18c0238",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "f57e90207b7bcb88cdc07cb1755724c4769bc0cdb0c4723192954d98f086b026",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "522075c2f94c08d0870e58d4b571a88ba6d878f5c9093bc1074e291161230d49",
+      "provenance": [
+        "architect-choice/before-neo-moves/suffix-10/spaces/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v18c0283",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-lowerhex",
+      "password_sha256": "74f4c983bb417db890316a99b709f533d4c1c93cf0e4bfe475406046dd28cffd",
+      "plaintext_length": 79,
+      "plaintext_sha256": "ca11a214402000cfe813780d7e2c5cb55751bb1942c0786593454d7c88687017",
+      "provenance": [
+        "architect-choice/during-door-choice/full-punctuated/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v18c0300",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "6ff1940dcd1a2896625f90bc3baf21f9b93dc8b258ddd1936c5c07dacf43c2e6",
+      "plaintext_length": 79,
+      "plaintext_sha256": "058441f8b42dd4d43248f9845d85080969876373419674308c628c865ca819a1",
+      "provenance": [
+        "architect-choice/during-door-choice-with-audible-interjection/suffix-0/compact/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v18c0333",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "ce43a875f787634f6494c6c4b4dece31757caba16a13569d3769e7387b456b07",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "e0b2e466fe8519f24583e3e85bf06aa23b12d499fe6569300fbdaf5a67fc316a",
+      "provenance": [
+        "architect-choice/before-neo-moves/suffix-8/compact/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "phase32-small",
+      "candidate_id": "v18c0357",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "284e517848bcfee41c210ea6b5bdd65a8a8c5f15d07e6f1c67f2e89f5cf2bde5",
+      "plaintext_length": 79,
+      "plaintext_sha256": "4d4ef3929193f2b263489e1116756af2353862d65a58c652a48af36767a3b777",
+      "provenance": [
+        "architect-choice/during-door-choice-with-audible-interjection/suffix-8/spaces/lower",
+        "architect-choice/during-door-choice/suffix-7/spaces/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "salphaseion-short",
+      "candidate_id": "v18c0395",
+      "formats": [],
+      "kdf_digest": "sha256",
+      "padding_length": 1,
+      "password_expansion": "sha256-raw-digest",
+      "password_sha256": "c4f7429787737a80822ffd291d95263e3ac69000668ab7fcc283ea713d3aca95",
+      "plaintext_length": 79,
+      "plaintext_sha256": "83bf25ae52b3bb15bc00b0dfe64e192ebbe443c1672aefeb0e6daeac1c691ae1",
+      "provenance": [
+        "architect-choice/before-neo-moves/suffix-6/spaces/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "blob": "cosmic-duality",
+      "candidate_id": "v18c0399",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_expansion": "raw",
+      "password_sha256": "822f92396fa84536df9a2139fc65a602c817bb58400cea0346448351c14a09ec",
+      "plaintext_length": 1327,
+      "plaintext_sha256": "451605e61d0532c899964edf92748aeb4d836831e244dc7a1bec2ca7aaf1d364",
+      "provenance": [
+        "architect-choice/during-door-choice-with-audible-interjection/suffix-9/compact/lower",
+        "architect-choice/during-door-choice/suffix-8/compact/lower"
+      ],
+      "readable_text": false,
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    }
+  ],
+  "schema": "salphaseion-source-only-blind-results-v1",
+  "status": "NO_ACCEPTED_RESULT",
+  "strict_padding_hit_count": 13
+}

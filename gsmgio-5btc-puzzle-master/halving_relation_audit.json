@@ -1,0 +1,119 @@
+{
+  "schema": "gsmg-halving-relation-audit-v1",
+  "status": "NO_PRIVATE_KEY_MATCH",
+  "addresses": {
+    "Half": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+    "Better_Half": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa"
+  },
+  "transactions": [
+    {
+      "txid": "2aa9a4a90be819d5122d70c993280785a0508f163521e7b38cebb4db0b071b13",
+      "input_count": 3,
+      "outputs": [
+        {
+          "vout": 0,
+          "satoshis": 249815966,
+          "script_pubkey_hex": "76a914a9553269572a317e39f0f518cb87c1a0ee1dbae488ac",
+          "is_better_half": false,
+          "op_return": null
+        },
+        {
+          "vout": 1,
+          "satoshis": 250000000,
+          "script_pubkey_hex": "76a9144bc468447fe1b048ad030a2f9a125478eabc4ed688ac",
+          "is_better_half": true,
+          "op_return": null
+        }
+      ],
+      "better_half_satoshis": 250000000
+    },
+    {
+      "txid": "88cdb3cdca12b471551b1b26188508a14ca5fd8a415223ffb7c190381c9b9df3",
+      "input_count": 3,
+      "outputs": [
+        {
+          "vout": 0,
+          "satoshis": 125000000,
+          "script_pubkey_hex": "76a9144bc468447fe1b048ad030a2f9a125478eabc4ed688ac",
+          "is_better_half": true,
+          "op_return": null
+        },
+        {
+          "vout": 1,
+          "satoshis": 125324300,
+          "script_pubkey_hex": "76a914a9553269572a317e39f0f518cb87c1a0ee1dbae488ac",
+          "is_better_half": false,
+          "op_return": null
+        }
+      ],
+      "better_half_satoshis": 125000000
+    }
+  ],
+  "total_to_better_half_satoshis": 375000000,
+  "known_point_serializations": {
+    "uncompressed_address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+    "compressed_address": "1cc6xayvqpeetixmuXDRsGug7GKyoRdxP"
+  },
+  "simple_point_relations": [
+    {
+      "relation": "same",
+      "multiplier_hex": "0000000000000000000000000000000000000000000000000000000000000001",
+      "addresses": {
+        "compressed": "1cc6xayvqpeetixmuXDRsGug7GKyoRdxP",
+        "uncompressed": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+      },
+      "better_half_match": false
+    },
+    {
+      "relation": "half",
+      "multiplier_hex": "7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a1",
+      "addresses": {
+        "compressed": "18KQCT2JT9G9C14Lxst79jeFGAD7CWxBaT",
+        "uncompressed": "16eEXbSuKN8tvcos1iKjdju6dAaWWRBMEs"
+      },
+      "better_half_match": false
+    },
+    {
+      "relation": "double",
+      "multiplier_hex": "0000000000000000000000000000000000000000000000000000000000000002",
+      "addresses": {
+        "compressed": "14gYdoc1URheNGT8FVqVatxzrhRgufBzCa",
+        "uncompressed": "1KHMK2C8uBptRz67FbrXy43yHzhZG16Hbm"
+      },
+      "better_half_match": false
+    },
+    {
+      "relation": "negative",
+      "multiplier_hex": "fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364140",
+      "addresses": {
+        "compressed": "1NB5zu3w3LcCqpEP482gf8J5MG6oG86Aue",
+        "uncompressed": "1LzLrZVkafbXLpam3qibRDdMe5sttUoCq4"
+      },
+      "better_half_match": false
+    },
+    {
+      "relation": "negative_half",
+      "multiplier_hex": "7fffffffffffffffffffffffffffffff5d576e7357a4501ddfe92f46681b20a0",
+      "addresses": {
+        "compressed": "14omZCwUfoQnzojeBZnKASTFgkF2Q4aRSK",
+        "uncompressed": "1LQ1cuwdiZKx8fFB9PX6tocBGGCU8PWsvs"
+      },
+      "better_half_match": false
+    },
+    {
+      "relation": "negative_double",
+      "multiplier_hex": "fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd036413f",
+      "addresses": {
+        "compressed": "1C64g5tmBXLmxuiPQnQyZc3M7YfcCNjZYJ",
+        "uncompressed": "17W15b1vWhta3tW7LVoJGX1ZEmaSpK4uLR"
+      },
+      "better_half_match": false
+    }
+  ],
+  "simple_point_match": false,
+  "nonce_relations": {
+    "tests": 216,
+    "matches": []
+  },
+  "scope": "Exact raw-transaction, EC point, and ECDSA equation checks only. Nonce affine offsets and general scalar searches are not included."
+}

@@ -1,0 +1,1505 @@
+{
+  "blobs": {
+    "cosmic-duality": {
+      "ciphertext_length": 1328,
+      "length": 1344,
+      "salt_hex": "2d3f6fe06dc950e6",
+      "sha256": "b18950551a4dd0cb8a9378f0906ba18c03a15f0ee83eb98c6bc90165c5f79805"
+    },
+    "phase32-small": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "b45a5e3d827593ca",
+      "sha256": "291dfd6f3e759ec2e272b35a00c24907da70c3e7a9291b4c13605c7b0b4f3de9"
+    },
+    "salphaseion-short": {
+      "ciphertext_length": 80,
+      "length": 96,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "9e2831e1b34b5f34796df47ccaf6530d48d371c61a6bff84d60db1064fa7a258"
+    }
+  },
+  "candidate_count": 126,
+  "candidates": [
+    {
+      "candidate_id": "v33c000",
+      "password_expansion": "raw",
+      "password_hex": "41444551554154454c5920505554205448452050524f424c454d204953",
+      "password_sha256": "bfbc8d09655b99155e5418017f9d9bb032648e647d44bb8df6586c8468b09a47",
+      "preimage_hex": "41444551554154454c5920505554205448452050524f424c454d204953",
+      "preimage_utf8": "ADEQUATELY PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c001",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62666263386430393635356239393135356535343138303137663964396262303332363438653634376434346262386466363538366338343638623039613437",
+      "password_sha256": "dd343ea16279f6f347b027314ac5df7678f50f197d01c1606024f57fdb71155f",
+      "preimage_hex": "41444551554154454c5920505554205448452050524f424c454d204953",
+      "preimage_utf8": "ADEQUATELY PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c002",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bfbc8d09655b99155e5418017f9d9bb032648e647d44bb8df6586c8468b09a47",
+      "password_sha256": "f5bc7abbea07affc9fbf2e9e51e67331ba3f7294f94f279aa8b6bedf2ae4ba26",
+      "preimage_hex": "41444551554154454c5920505554205448452050524f424c454d204953",
+      "preimage_utf8": "ADEQUATELY PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c003",
+      "password_expansion": "raw",
+      "password_hex": "41444551554154454c5950555454484550524f424c454d4953",
+      "password_sha256": "20c96057cd943bbc5625ad39f91862353d4ab4088247ae2c946ad3d2fce53bd0",
+      "preimage_hex": "41444551554154454c5950555454484550524f424c454d4953",
+      "preimage_utf8": "ADEQUATELYPUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c004",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32306339363035376364393433626263353632356164333966393138363233353364346162343038383234376165326339343661643364326663653533626430",
+      "password_sha256": "c16c9995f184fee546b890b57a4a969a50690b2fe223052bb155fed4360f7ca7",
+      "preimage_hex": "41444551554154454c5950555454484550524f424c454d4953",
+      "preimage_utf8": "ADEQUATELYPUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c005",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "20c96057cd943bbc5625ad39f91862353d4ab4088247ae2c946ad3d2fce53bd0",
+      "password_sha256": "6bb166692cc4bf5d6ff997c033fbaa8e7f356cb4f9a60fd03c1654ae1dbb6a0c",
+      "preimage_hex": "41444551554154454c5950555454484550524f424c454d4953",
+      "preimage_utf8": "ADEQUATELYPUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c006",
+      "password_expansion": "raw",
+      "password_hex": "415320594f552041444551554154454c5920505554205448452050524f424c454d204953",
+      "password_sha256": "a40434484de266040bc393082a4d4d4c686df26e125429b4edf8e4b3134642fe",
+      "preimage_hex": "415320594f552041444551554154454c5920505554205448452050524f424c454d204953",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c007",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61343034333434383464653236363034306263333933303832613464346434633638366466323665313235343239623465646638653462333133343634326665",
+      "password_sha256": "1aaaad23444507ed448aac6b988fe59e2471d184f27796a267da52478847eb34",
+      "preimage_hex": "415320594f552041444551554154454c5920505554205448452050524f424c454d204953",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c008",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "a40434484de266040bc393082a4d4d4c686df26e125429b4edf8e4b3134642fe",
+      "password_sha256": "dd4d6c1fb8e4098cd4a91d766e7d99f5f8d0e50e92e9d00502cdb6ca6c49aefc",
+      "preimage_hex": "415320594f552041444551554154454c5920505554205448452050524f424c454d204953",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c009",
+      "password_expansion": "raw",
+      "password_hex": "415320594f552041444551554154454c59205055542c205448452050524f424c454d204953",
+      "password_sha256": "61614fac965e7736f1760276096f4cca27b0aab8044a285dc2077b6faa7d52be",
+      "preimage_hex": "415320594f552041444551554154454c59205055542c205448452050524f424c454d204953",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT, THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c010",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36313631346661633936356537373336663137363032373630393666346363613237623061616238303434613238356463323037376236666161376435326265",
+      "password_sha256": "cdeece4603d921081518c36bcb543623a89ebc32e587639d6cf033b95b782820",
+      "preimage_hex": "415320594f552041444551554154454c59205055542c205448452050524f424c454d204953",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT, THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c011",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "61614fac965e7736f1760276096f4cca27b0aab8044a285dc2077b6faa7d52be",
+      "password_sha256": "fdf84989fb30e97b3f3c41c2cad07d4f110d44e8ea342047df8893e068c149aa",
+      "preimage_hex": "415320594f552041444551554154454c59205055542c205448452050524f424c454d204953",
+      "preimage_utf8": "AS YOU ADEQUATELY PUT, THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c012",
+      "password_expansion": "raw",
+      "password_hex": "4153594f5541444551554154454c5950555454484550524f424c454d4953",
+      "password_sha256": "f50ee691142ebb37def7005efe2357dd2e86434225109c9c3d9f2cb4c6221994",
+      "preimage_hex": "4153594f5541444551554154454c5950555454484550524f424c454d4953",
+      "preimage_utf8": "ASYOUADEQUATELYPUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c013",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66353065653639313134326562623337646566373030356566653233353764643265383634333432323531303963396333643966326362346336323231393934",
+      "password_sha256": "ccb64a962ada1da79c692fdf5231ee7abfd96c15b5f16630ee943c7d5ece436f",
+      "preimage_hex": "4153594f5541444551554154454c5950555454484550524f424c454d4953",
+      "preimage_utf8": "ASYOUADEQUATELYPUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c014",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f50ee691142ebb37def7005efe2357dd2e86434225109c9c3d9f2cb4c6221994",
+      "password_sha256": "58a0271ab91620c8b39792d22df047456d5f5287415855381838b3e0fface538",
+      "preimage_hex": "4153594f5541444551554154454c5950555454484550524f424c454d4953",
+      "preimage_utf8": "ASYOUADEQUATELYPUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c015",
+      "password_expansion": "raw",
+      "password_hex": "41646571756174656c7920507574205468652050726f626c656d204973",
+      "password_sha256": "6a6b2b28875369d93475307bc1324dd90ad0821fb2be864964922541df4908c8",
+      "preimage_hex": "41646571756174656c7920507574205468652050726f626c656d204973",
+      "preimage_utf8": "Adequately Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c016",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36613662326232383837353336396439333437353330376263313332346464393061643038323166623262653836343936343932323534316466343930386338",
+      "password_sha256": "e262c31e533cc38efa77a316cca0a0242e7dc66d0e3a553c7f6c45a2b3f2c4c5",
+      "preimage_hex": "41646571756174656c7920507574205468652050726f626c656d204973",
+      "preimage_utf8": "Adequately Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c017",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6a6b2b28875369d93475307bc1324dd90ad0821fb2be864964922541df4908c8",
+      "password_sha256": "7863a5e261f0b736fbbe7eddd7777914ea2f8d0b5771db48e036868d7d50c1ec",
+      "preimage_hex": "41646571756174656c7920507574205468652050726f626c656d204973",
+      "preimage_utf8": "Adequately Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c018",
+      "password_expansion": "raw",
+      "password_hex": "41646571756174656c7970757474686570726f626c656d6973",
+      "password_sha256": "bdcb82eb79d2e69fe95daf81b1ea2c588d03a31dc2e29356b2fc7d6824338108",
+      "preimage_hex": "41646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "Adequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c019",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62646362383265623739643265363966653935646166383162316561326335383864303361333164633265323933353662326663376436383234333338313038",
+      "password_sha256": "b0c40af12c4c6f11d18fda702f383e4a52938726bbf494b4137c52975e702ddf",
+      "preimage_hex": "41646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "Adequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c020",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "bdcb82eb79d2e69fe95daf81b1ea2c588d03a31dc2e29356b2fc7d6824338108",
+      "password_sha256": "56e8611720b8bf2e8cfe20d7ab036d58a59c6167f3a3d98d5e8d2c5313497dcd",
+      "preimage_hex": "41646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "Adequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c021",
+      "password_expansion": "raw",
+      "password_hex": "417320596f752041646571756174656c7920507574205468652050726f626c656d204973",
+      "password_sha256": "6b5772b3dd926980b523d9cb2d377b9ab41a683051f67aead9919e2aacaddcc9",
+      "preimage_hex": "417320596f752041646571756174656c7920507574205468652050726f626c656d204973",
+      "preimage_utf8": "As You Adequately Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c022",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36623537373262336464393236393830623532336439636232643337376239616234316136383330353166363761656164393931396532616163616464636339",
+      "password_sha256": "79c404cc6581bf15745f4e1d1f81ba7a6e7147e3338b2c0cd7734a9c6e99c6c4",
+      "preimage_hex": "417320596f752041646571756174656c7920507574205468652050726f626c656d204973",
+      "preimage_utf8": "As You Adequately Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c023",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "6b5772b3dd926980b523d9cb2d377b9ab41a683051f67aead9919e2aacaddcc9",
+      "password_sha256": "d5454b0cd32dbf046d594dae16bdafa4fa0129868e6a0bdb23785c9ac01e375d",
+      "preimage_hex": "417320596f752041646571756174656c7920507574205468652050726f626c656d204973",
+      "preimage_utf8": "As You Adequately Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c024",
+      "password_expansion": "raw",
+      "password_hex": "417320796f752061646571756174656c79207075742c207468652070726f626c656d206973",
+      "password_sha256": "f80e9b2108296c66930b22955a6bae8793bc7d6571207899061d8d1fca5cf76e",
+      "preimage_hex": "417320796f752061646571756174656c79207075742c207468652070726f626c656d206973",
+      "preimage_utf8": "As you adequately put, the problem is",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/source"
+      ]
+    },
+    {
+      "candidate_id": "v33c025",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66383065396232313038323936633636393330623232393535613662616538373933626337643635373132303738393930363164386431666361356366373665",
+      "password_sha256": "bcf54a16de476fa67adb931594b27c61d074df380431afc6ab2ee43626d483be",
+      "preimage_hex": "417320796f752061646571756174656c79207075742c207468652070726f626c656d206973",
+      "preimage_utf8": "As you adequately put, the problem is",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/source"
+      ]
+    },
+    {
+      "candidate_id": "v33c026",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f80e9b2108296c66930b22955a6bae8793bc7d6571207899061d8d1fca5cf76e",
+      "password_sha256": "d21c096fe2ed74b3a3c9a95dfb7a0b55da9dc956c562379a6d73f2053b123416",
+      "preimage_hex": "417320796f752061646571756174656c79207075742c207468652070726f626c656d206973",
+      "preimage_utf8": "As you adequately put, the problem is",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/source"
+      ]
+    },
+    {
+      "candidate_id": "v33c027",
+      "password_expansion": "raw",
+      "password_hex": "4173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "password_sha256": "817a1ecef3d5de558160e163d8218006b388cc38b500146bcab0260107b0d0e8",
+      "preimage_hex": "4173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "Asyouadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c028",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38313761316563656633643564653535383136306531363364383231383030366233383863633338623530303134366263616230323630313037623064306538",
+      "password_sha256": "60d069e7e2ccd0187ddfc07f36dcab5304bd7794524b21be93b2911234093523",
+      "preimage_hex": "4173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "Asyouadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c029",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "817a1ecef3d5de558160e163d8218006b388cc38b500146bcab0260107b0d0e8",
+      "password_sha256": "d7140fb4dfbc79c3f8a6c398941778b6196cda01f22e5ad0f84038b6b9a9965a",
+      "preimage_hex": "4173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "Asyouadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c030",
+      "password_expansion": "raw",
+      "password_hex": "4953",
+      "password_sha256": "0d40e64e3455677c1521870d6b732366e2434e18ffc4d2e10140a40131f96d4b",
+      "preimage_hex": "4953",
+      "preimage_utf8": "IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/upper",
+        "architect-two-door-choice/suffix-6/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c031",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30643430653634653334353536373763313532313837306436623733323336366532343334653138666663346432653130313430613430313331663936643462",
+      "password_sha256": "d50143fef9e9e0bebe46e4e35ff39d010a1814fb2e04d3e6bc97956c684f2327",
+      "preimage_hex": "4953",
+      "preimage_utf8": "IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/upper",
+        "architect-two-door-choice/suffix-6/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c032",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0d40e64e3455677c1521870d6b732366e2434e18ffc4d2e10140a40131f96d4b",
+      "password_sha256": "939e71342634e1c919065e2b7513dbb741cfd3a6907a12c6862e33a3913c93b2",
+      "preimage_hex": "4953",
+      "preimage_utf8": "IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/upper",
+        "architect-two-door-choice/suffix-6/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c033",
+      "password_expansion": "raw",
+      "password_hex": "4973",
+      "password_sha256": "f5985de1fd3a3b132253735956dd97b505ae8f069dda41617c079dc4a540f457",
+      "preimage_hex": "4973",
+      "preimage_utf8": "Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/title",
+        "architect-two-door-choice/suffix-6/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c034",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66353938356465316664336133623133323235333733353935366464393762353035616538663036396464613431363137633037396463346135343066343537",
+      "password_sha256": "a8f8cb63cce5a5015420c3543a0542b3b1cd1daed7874c4cd64a4ca7f3682616",
+      "preimage_hex": "4973",
+      "preimage_utf8": "Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/title",
+        "architect-two-door-choice/suffix-6/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c035",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "f5985de1fd3a3b132253735956dd97b505ae8f069dda41617c079dc4a540f457",
+      "password_sha256": "6a3089b7262833982c0293c7cf463b2368482530e195af14572cb46effd1d422",
+      "preimage_hex": "4973",
+      "preimage_utf8": "Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/title",
+        "architect-two-door-choice/suffix-6/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c036",
+      "password_expansion": "raw",
+      "password_hex": "50524f424c454d204953",
+      "password_sha256": "60520bc44bdcb0c0e5a58fcc13b872a834b7d75db2c593dd50184908d5f7f90b",
+      "preimage_hex": "50524f424c454d204953",
+      "preimage_utf8": "PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c037",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36303532306263343462646362306330653561353866636331336238373261383334623764373564623263353933646435303138343930386435663766393062",
+      "password_sha256": "bacc23bf6ab62ce3985bdd0406b313593fc25a3e04accfbb1de93629ef57ec54",
+      "preimage_hex": "50524f424c454d204953",
+      "preimage_utf8": "PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c038",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "60520bc44bdcb0c0e5a58fcc13b872a834b7d75db2c593dd50184908d5f7f90b",
+      "password_sha256": "1dad38fe65d76d20f26d46d837d9660733ef2b9f83f0bb4aa43332a05597c1c1",
+      "preimage_hex": "50524f424c454d204953",
+      "preimage_utf8": "PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c039",
+      "password_expansion": "raw",
+      "password_hex": "50524f424c454d4953",
+      "password_sha256": "1ded1960ce4ca7f67486b1b54c7f8e1bb8c7a7d4c0d2768ea200a5fe1dff4e3e",
+      "preimage_hex": "50524f424c454d4953",
+      "preimage_utf8": "PROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c040",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31646564313936306365346361376636373438366231623534633766386531626238633761376434633064323736386561323030613566653164666634653365",
+      "password_sha256": "d38ef7fe33148c71127308c91ccf646e4c60a1c6fd2832b22b9b61fd401a4df1",
+      "preimage_hex": "50524f424c454d4953",
+      "preimage_utf8": "PROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c041",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1ded1960ce4ca7f67486b1b54c7f8e1bb8c7a7d4c0d2768ea200a5fe1dff4e3e",
+      "password_sha256": "70070a0de5769e577374c14a880629a8d2a716bd64e75e999169345b8fcbc4dd",
+      "preimage_hex": "50524f424c454d4953",
+      "preimage_utf8": "PROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c042",
+      "password_expansion": "raw",
+      "password_hex": "505554205448452050524f424c454d204953",
+      "password_sha256": "1ce2525571098ffbf1e047f105806cf245c5ee6a0e4fcf00b9d8decf0bc4d5d5",
+      "preimage_hex": "505554205448452050524f424c454d204953",
+      "preimage_utf8": "PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c043",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31636532353235353731303938666662663165303437663130353830366366323435633565653661306534666366303062396438646563663062633464356435",
+      "password_sha256": "8d269223e02c165c52e4abacc39804b7e6e777ed5561aab0d6a8ca5bc414c5a7",
+      "preimage_hex": "505554205448452050524f424c454d204953",
+      "preimage_utf8": "PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c044",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1ce2525571098ffbf1e047f105806cf245c5ee6a0e4fcf00b9d8decf0bc4d5d5",
+      "password_sha256": "7433ffd9f40e3821bea5b41c3c3ae40a130b2d18ef875bb0fed79a320f92e0bd",
+      "preimage_hex": "505554205448452050524f424c454d204953",
+      "preimage_utf8": "PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c045",
+      "password_expansion": "raw",
+      "password_hex": "50555454484550524f424c454d4953",
+      "password_sha256": "0c1b470626ac17ade401c21eb1c615bae323989a7541d7bab59711bf59cda75e",
+      "preimage_hex": "50555454484550524f424c454d4953",
+      "preimage_utf8": "PUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c046",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30633162343730363236616331376164653430316332316562316336313562616533323339383961373534316437626162353937313162663539636461373565",
+      "password_sha256": "971ab964a9b85778813d7d1fc90f0d084b147cca1411cd1902e396873de9b71e",
+      "preimage_hex": "50555454484550524f424c454d4953",
+      "preimage_utf8": "PUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c047",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0c1b470626ac17ade401c21eb1c615bae323989a7541d7bab59711bf59cda75e",
+      "password_sha256": "5eb6ef247c69ae2c24b68febe7ea98d3f0cf99c527b0d11b688aea75e2f0dd22",
+      "preimage_hex": "50555454484550524f424c454d4953",
+      "preimage_utf8": "PUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c048",
+      "password_expansion": "raw",
+      "password_hex": "50726f626c656d204973",
+      "password_sha256": "0b4de5c45f87b9be8f17417be7046875712ddfdc5ea5ad5e0ae37975311a8876",
+      "preimage_hex": "50726f626c656d204973",
+      "preimage_utf8": "Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c049",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30623464653563343566383762396265386631373431376265373034363837353731326464666463356561356164356530616533373937353331316138383736",
+      "password_sha256": "9486a18e638b767a4b6fd8296e190e00d33bada1ed1ed02e0d5f3811ba1fbdda",
+      "preimage_hex": "50726f626c656d204973",
+      "preimage_utf8": "Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c050",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0b4de5c45f87b9be8f17417be7046875712ddfdc5ea5ad5e0ae37975311a8876",
+      "password_sha256": "c1b3c96359bbbc5d69bb68203ae1b5cfcf9faeef770505064f1b2e84f0d17ce9",
+      "preimage_hex": "50726f626c656d204973",
+      "preimage_utf8": "Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c051",
+      "password_expansion": "raw",
+      "password_hex": "50726f626c656d6973",
+      "password_sha256": "d7a3b644ce2120682b0cbad1c075f1aadbbd341fb2027c5bbfa03a5afaac3ba7",
+      "preimage_hex": "50726f626c656d6973",
+      "preimage_utf8": "Problemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c052",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "64376133623634346365323132303638326230636261643163303735663161616462626433343166623230323763356262666130336135616661616333626137",
+      "password_sha256": "11cafbdc557c6f163a636138c732063000b89acd46add900bf039fd05864db5b",
+      "preimage_hex": "50726f626c656d6973",
+      "preimage_utf8": "Problemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c053",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "d7a3b644ce2120682b0cbad1c075f1aadbbd341fb2027c5bbfa03a5afaac3ba7",
+      "password_sha256": "f06cc484a767f79d697f47d73d97592c0bcc656d9d595c950586347b1859eccd",
+      "preimage_hex": "50726f626c656d6973",
+      "preimage_utf8": "Problemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c054",
+      "password_expansion": "raw",
+      "password_hex": "507574205468652050726f626c656d204973",
+      "password_sha256": "07f9735e55f2a5d05c0cac524e16141de2f4b4c0e3c2d8492b45ec012d0cad22",
+      "preimage_hex": "507574205468652050726f626c656d204973",
+      "preimage_utf8": "Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c055",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30376639373335653535663261356430356330636163353234653136313431646532663462346330653363326438343932623435656330313264306361643232",
+      "password_sha256": "cacde65d81464f38d80fa253847d3f3a8f970d3c5e044b2d1cb564148d185db5",
+      "preimage_hex": "507574205468652050726f626c656d204973",
+      "preimage_utf8": "Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c056",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "07f9735e55f2a5d05c0cac524e16141de2f4b4c0e3c2d8492b45ec012d0cad22",
+      "password_sha256": "0b6cb3a74fc1651328e8965ab5d618f3dfe3e180b111bc011cb58cd489fe3676",
+      "preimage_hex": "507574205468652050726f626c656d204973",
+      "preimage_utf8": "Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c057",
+      "password_expansion": "raw",
+      "password_hex": "50757474686570726f626c656d6973",
+      "password_sha256": "c6328864646425a6ff297be996ffbc399ce638e33d555ec8c5908d8f969c2dca",
+      "preimage_hex": "50757474686570726f626c656d6973",
+      "preimage_utf8": "Puttheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c058",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63363332383836343634363432356136666632393762653939366666626333393963653633386533336435353565633863353930386438663936396332646361",
+      "password_sha256": "65390baa08a9ce806a22adb393e2a570de21cacc97364ea6d3082568172dcca5",
+      "preimage_hex": "50757474686570726f626c656d6973",
+      "preimage_utf8": "Puttheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c059",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "c6328864646425a6ff297be996ffbc399ce638e33d555ec8c5908d8f969c2dca",
+      "password_sha256": "92406e3076b971fcd0441161c6107bc8a7a3337b7be8aa199dfc6bf2fc23bafa",
+      "preimage_hex": "50757474686570726f626c656d6973",
+      "preimage_utf8": "Puttheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c060",
+      "password_expansion": "raw",
+      "password_hex": "5448452050524f424c454d204953",
+      "password_sha256": "790b6055d503204d2a4f5556c57216a8af2d3d1850b83ccac6d0d1acbe9f56c1",
+      "preimage_hex": "5448452050524f424c454d204953",
+      "preimage_utf8": "THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c061",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37393062363035356435303332303464326134663535353663353732313661386166326433643138353062383363636163366430643161636265396635366331",
+      "password_sha256": "155bb07efd557016f09b832f33f70560949a2ccbe6b0b452551eb1b28bacdc48",
+      "preimage_hex": "5448452050524f424c454d204953",
+      "preimage_utf8": "THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c062",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "790b6055d503204d2a4f5556c57216a8af2d3d1850b83ccac6d0d1acbe9f56c1",
+      "password_sha256": "ef634efb34daa032501d64218e962448196ba9d82c20f8efde456537d62cbda7",
+      "preimage_hex": "5448452050524f424c454d204953",
+      "preimage_utf8": "THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c063",
+      "password_expansion": "raw",
+      "password_hex": "54484550524f424c454d4953",
+      "password_sha256": "7d90d79044b45dac519be0aa2db6803027832f5ac3314a5c15fbeb4b933a8e3c",
+      "preimage_hex": "54484550524f424c454d4953",
+      "preimage_utf8": "THEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c064",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "37643930643739303434623435646163353139626530616132646236383033303237383332663561633333313461356331356662656234623933336138653363",
+      "password_sha256": "e09f9036d04b94a4b22542c148dcaa37c794366d335855a9dcffc78f00c2741c",
+      "preimage_hex": "54484550524f424c454d4953",
+      "preimage_utf8": "THEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c065",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "7d90d79044b45dac519be0aa2db6803027832f5ac3314a5c15fbeb4b933a8e3c",
+      "password_sha256": "4c49bf0cbbe63b37e7d5333dd4fe30c719cac1c688867c7ffb3dcb5455db832a",
+      "preimage_hex": "54484550524f424c454d4953",
+      "preimage_utf8": "THEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c066",
+      "password_expansion": "raw",
+      "password_hex": "5468652050726f626c656d204973",
+      "password_sha256": "e0f8352130a16e30a2ea450c50b7faea46da94b86714d0ce53cee295e2f84e3d",
+      "preimage_hex": "5468652050726f626c656d204973",
+      "preimage_utf8": "The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c067",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65306638333532313330613136653330613265613435306335306237666165613436646139346238363731346430636535336365653239356532663834653364",
+      "password_sha256": "2f23b343c789d7a7d6419c4a4f8822508cdddf5e789cf17d9e59f5980d8fd360",
+      "preimage_hex": "5468652050726f626c656d204973",
+      "preimage_utf8": "The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c068",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "e0f8352130a16e30a2ea450c50b7faea46da94b86714d0ce53cee295e2f84e3d",
+      "password_sha256": "5c672ecd9ae09036a201e12446444726d8342e5edc18f4c08efe67b8d2de27ed",
+      "preimage_hex": "5468652050726f626c656d204973",
+      "preimage_utf8": "The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c069",
+      "password_expansion": "raw",
+      "password_hex": "54686570726f626c656d6973",
+      "password_sha256": "29e631373e08e7d67d23afbbef7b1dd0d23feced81b281179167740364ae0005",
+      "preimage_hex": "54686570726f626c656d6973",
+      "preimage_utf8": "Theproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c070",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "32396536333133373365303865376436376432336166626265663762316464306432336665636564383162323831313739313637373430333634616530303035",
+      "password_sha256": "127185d094b957e0e0b5e643bb2a56e26ef55a9ce0913acb9b3c6fada6f0971f",
+      "preimage_hex": "54686570726f626c656d6973",
+      "preimage_utf8": "Theproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c071",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "29e631373e08e7d67d23afbbef7b1dd0d23feced81b281179167740364ae0005",
+      "password_sha256": "17bf3eab5f08b618d763a6c0313310ae20b6e7eb8b7c4ad071cb2ac4a0aeeceb",
+      "preimage_hex": "54686570726f626c656d6973",
+      "preimage_utf8": "Theproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c072",
+      "password_expansion": "raw",
+      "password_hex": "594f552041444551554154454c5920505554205448452050524f424c454d204953",
+      "password_sha256": "3d2366113100f4992ff9c6e3f19cd1eabb84de4699ae951daa7a5a2b2501adbc",
+      "preimage_hex": "594f552041444551554154454c5920505554205448452050524f424c454d204953",
+      "preimage_utf8": "YOU ADEQUATELY PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c073",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "33643233363631313331303066343939326666396336653366313963643165616262383464653436393961653935316461613761356132623235303161646263",
+      "password_sha256": "2428724b1753b56aefdb916f56c4edced26cabcac30069fd642ec039ec3bbbc0",
+      "preimage_hex": "594f552041444551554154454c5920505554205448452050524f424c454d204953",
+      "preimage_utf8": "YOU ADEQUATELY PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c074",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "3d2366113100f4992ff9c6e3f19cd1eabb84de4699ae951daa7a5a2b2501adbc",
+      "password_sha256": "f24d6a395b618b22ad1d742dc9d4fbbf033be6c9f8bb7a331d72d642395fba37",
+      "preimage_hex": "594f552041444551554154454c5920505554205448452050524f424c454d204953",
+      "preimage_utf8": "YOU ADEQUATELY PUT THE PROBLEM IS",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/spaces/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c075",
+      "password_expansion": "raw",
+      "password_hex": "594f5541444551554154454c5950555454484550524f424c454d4953",
+      "password_sha256": "b5a6befbf534bc0d8748446e3a6158f85f9589d1956defda99897f0e2e9d58ba",
+      "preimage_hex": "594f5541444551554154454c5950555454484550524f424c454d4953",
+      "preimage_utf8": "YOUADEQUATELYPUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c076",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62356136626566626635333462633064383734383434366533613631353866383566393538396431393536646566646139393839376630653265396435386261",
+      "password_sha256": "283609b88e1e748546c4e325be57b01ecfd1da06d2fb14d09e52c771ef41cbc2",
+      "preimage_hex": "594f5541444551554154454c5950555454484550524f424c454d4953",
+      "preimage_utf8": "YOUADEQUATELYPUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c077",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b5a6befbf534bc0d8748446e3a6158f85f9589d1956defda99897f0e2e9d58ba",
+      "password_sha256": "c83c293138c83df27fc90cc2d98b1b0d173f57946b926135dd29d47b2ea21e88",
+      "preimage_hex": "594f5541444551554154454c5950555454484550524f424c454d4953",
+      "preimage_utf8": "YOUADEQUATELYPUTTHEPROBLEMIS",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/compact/upper"
+      ]
+    },
+    {
+      "candidate_id": "v33c078",
+      "password_expansion": "raw",
+      "password_hex": "596f752041646571756174656c7920507574205468652050726f626c656d204973",
+      "password_sha256": "53c8a8fd14f3a3b349ec9677dbd8b8d468d30c1e67471cc44abc44480eaecd7b",
+      "preimage_hex": "596f752041646571756174656c7920507574205468652050726f626c656d204973",
+      "preimage_utf8": "You Adequately Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c079",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35336338613866643134663361336233343965633936373764626438623864343638643330633165363734373163633434616263343434383065616563643762",
+      "password_sha256": "2b7156c749db89ba40f889ab95e1745c42f30f3f9dbe9400f3536faf9d33ba07",
+      "preimage_hex": "596f752041646571756174656c7920507574205468652050726f626c656d204973",
+      "preimage_utf8": "You Adequately Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c080",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "53c8a8fd14f3a3b349ec9677dbd8b8d468d30c1e67471cc44abc44480eaecd7b",
+      "password_sha256": "ecd3422f8de38a5efb6d4212b7aacadfa8a2d9f57c0761fcf87713478a7dbd3d",
+      "preimage_hex": "596f752041646571756174656c7920507574205468652050726f626c656d204973",
+      "preimage_utf8": "You Adequately Put The Problem Is",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/spaces/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c081",
+      "password_expansion": "raw",
+      "password_hex": "596f7561646571756174656c7970757474686570726f626c656d6973",
+      "password_sha256": "eb8a4bdc2dbc85911ebc22a3b8b6b8eec3ef5aa05506c90e7abad0b92a5c1182",
+      "preimage_hex": "596f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "Youadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c082",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "65623861346264633264626338353931316562633232613362386236623865656333656635616130353530366339306537616261643062393261356331313832",
+      "password_sha256": "33cbbcc6ef5ba583a1bbcb01c697b44a6d01aa009e3881d271bf2a7bf475909d",
+      "preimage_hex": "596f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "Youadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c083",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "eb8a4bdc2dbc85911ebc22a3b8b6b8eec3ef5aa05506c90e7abad0b92a5c1182",
+      "password_sha256": "7da8e2bebe890fd132890c761c559daca3b63cf458341d098f7330b73ae34b25",
+      "preimage_hex": "596f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "Youadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/compact/title"
+      ]
+    },
+    {
+      "candidate_id": "v33c084",
+      "password_expansion": "raw",
+      "password_hex": "61646571756174656c7920707574207468652070726f626c656d206973",
+      "password_sha256": "46c33941613ef04b03fd0a8b57ca985acc00d1e4e79f5aab300f35fa2f44c552",
+      "preimage_hex": "61646571756174656c7920707574207468652070726f626c656d206973",
+      "preimage_utf8": "adequately put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c085",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "34366333333934313631336566303462303366643061386235376361393835616363303064316534653739663561616233303066333566613266343463353532",
+      "password_sha256": "8f84c4b21d318221f712717f7e9bfa86bca0137df756328b11c05e32b41d8800",
+      "preimage_hex": "61646571756174656c7920707574207468652070726f626c656d206973",
+      "preimage_utf8": "adequately put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c086",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "46c33941613ef04b03fd0a8b57ca985acc00d1e4e79f5aab300f35fa2f44c552",
+      "password_sha256": "630b8c0c26381010ef88085f5012943a5bec587a38dee10aa68e0c3ba9124732",
+      "preimage_hex": "61646571756174656c7920707574207468652070726f626c656d206973",
+      "preimage_utf8": "adequately put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c087",
+      "password_expansion": "raw",
+      "password_hex": "61646571756174656c7970757474686570726f626c656d6973",
+      "password_sha256": "be6fe83cc6ec436f018b7a8c8e63393b5eaf7f4b17b6bdc172714b75d4eca40c",
+      "preimage_hex": "61646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "adequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c088",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62653666653833636336656334333666303138623761386338653633333933623565616637663462313762366264633137323731346237356434656361343063",
+      "password_sha256": "b91c57280adec0cfcd52ecaa18d353901e47621a58d59be8e0bcba7ed194bd48",
+      "preimage_hex": "61646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "adequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c089",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "be6fe83cc6ec436f018b7a8c8e63393b5eaf7f4b17b6bdc172714b75d4eca40c",
+      "password_sha256": "cb335fc325b4f190c4caa18e582e48a9bdd73d55de8b0a6e000e6f9176e8832a",
+      "preimage_hex": "61646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "adequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-2/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c090",
+      "password_expansion": "raw",
+      "password_hex": "617320796f752061646571756174656c7920707574207468652070726f626c656d206973",
+      "password_sha256": "171e6020b5ee30e16f5b20043c52f67b4d3beac2efc4463e2894bdfa15ea7524",
+      "preimage_hex": "617320796f752061646571756174656c7920707574207468652070726f626c656d206973",
+      "preimage_utf8": "as you adequately put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c091",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31373165363032306235656533306531366635623230303433633532663637623464336265616332656663343436336532383934626466613135656137353234",
+      "password_sha256": "da76fb194c2acff0975b83c2e65e8c5018740eff173480a480afdcd22548ef86",
+      "preimage_hex": "617320796f752061646571756174656c7920707574207468652070726f626c656d206973",
+      "preimage_utf8": "as you adequately put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c092",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "171e6020b5ee30e16f5b20043c52f67b4d3beac2efc4463e2894bdfa15ea7524",
+      "password_sha256": "eecdce95d98816c3a430381a9e113ca3f436fd8e0fe6ce05f8353b13d342b71a",
+      "preimage_hex": "617320796f752061646571756174656c7920707574207468652070726f626c656d206973",
+      "preimage_utf8": "as you adequately put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c093",
+      "password_expansion": "raw",
+      "password_hex": "617320796f752061646571756174656c79207075742c207468652070726f626c656d206973",
+      "password_sha256": "8293d86e37ba91b1f24dfb8b4229228445f4f108dac8ccacdc835068099fa7a2",
+      "preimage_hex": "617320796f752061646571756174656c79207075742c207468652070726f626c656d206973",
+      "preimage_utf8": "as you adequately put, the problem is",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c094",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "38323933643836653337626139316231663234646662386234323239323238343435663466313038646163386363616364633833353036383039396661376132",
+      "password_sha256": "6e8e80873df702ee70092f5d8c00a7c6ca2e586ee450323e29da4ba1142e007f",
+      "preimage_hex": "617320796f752061646571756174656c79207075742c207468652070726f626c656d206973",
+      "preimage_utf8": "as you adequately put, the problem is",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c095",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "8293d86e37ba91b1f24dfb8b4229228445f4f108dac8ccacdc835068099fa7a2",
+      "password_sha256": "0434a6b7f3c4004719eb812a99737fdf02082ce7a8c8e94355c581e7f038e8e4",
+      "preimage_hex": "617320796f752061646571756174656c79207075742c207468652070726f626c656d206973",
+      "preimage_utf8": "as you adequately put, the problem is",
+      "provenance": [
+        "architect-two-door-choice/full-punctuated/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c096",
+      "password_expansion": "raw",
+      "password_hex": "6173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "password_sha256": "9f4a1f30e81fdddb01a1179c2867e616aa8c0a045be7437cd2a772c9fac69660",
+      "preimage_hex": "6173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "asyouadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c097",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "39663461316633306538316664646462303161313137396332383637653631366161386330613034356265373433376364326137373263396661633639363630",
+      "password_sha256": "4e190d6051330f421cc4bfc91b53f0586005f861fc21d7974ccdc5f8b99f2eb0",
+      "preimage_hex": "6173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "asyouadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c098",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "9f4a1f30e81fdddb01a1179c2867e616aa8c0a045be7437cd2a772c9fac69660",
+      "password_sha256": "c3d1edb37305e8d04950477ffca742d4f1f35b285e6f1173c9370a67fb428f57",
+      "preimage_hex": "6173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "asyouadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-0/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c099",
+      "password_expansion": "raw",
+      "password_hex": "6973",
+      "password_sha256": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "preimage_hex": "6973",
+      "preimage_utf8": "is",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/lower",
+        "architect-two-door-choice/suffix-6/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c100",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "66613531666434396162663637373035643661333564313832313863313135666635363333616563316639656266646339643564343935363431366635376636",
+      "password_sha256": "4116fc56f2d3976eb2256e6ca4bba5fd85414af7826931d17bcd6d2c6a0783d8",
+      "preimage_hex": "6973",
+      "preimage_utf8": "is",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/lower",
+        "architect-two-door-choice/suffix-6/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c101",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "password_sha256": "1244f4f4150dcdf803d7b1cf5acefa9781f1e87c8f4e76add741bc9bde8a3f8b",
+      "preimage_hex": "6973",
+      "preimage_utf8": "is",
+      "provenance": [
+        "architect-two-door-choice/suffix-6/compact/lower",
+        "architect-two-door-choice/suffix-6/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c102",
+      "password_expansion": "raw",
+      "password_hex": "70726f626c656d206973",
+      "password_sha256": "1be4e19e111fdfd2cbe4e91a9607f3936b9cb2ea81d914588ede45af74d872b8",
+      "preimage_hex": "70726f626c656d206973",
+      "preimage_utf8": "problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c103",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "31626534653139653131316664666432636265346539316139363037663339333662396362326561383164393134353838656465343561663734643837326238",
+      "password_sha256": "813e5b84b97addb01012355883056db7238c86e5f3c6e5a5063fc0d845b09ecc",
+      "preimage_hex": "70726f626c656d206973",
+      "preimage_utf8": "problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c104",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "1be4e19e111fdfd2cbe4e91a9607f3936b9cb2ea81d914588ede45af74d872b8",
+      "password_sha256": "185cfc6960375dd8872750b4e0aff9e5a01d9297c26bf4194215bcafee04b3ba",
+      "preimage_hex": "70726f626c656d206973",
+      "preimage_utf8": "problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c105",
+      "password_expansion": "raw",
+      "password_hex": "70726f626c656d6973",
+      "password_sha256": "b0a8108d21937c6343e7d5922940fac912151177f75cf6b20a402256811937a6",
+      "preimage_hex": "70726f626c656d6973",
+      "preimage_utf8": "problemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c106",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "62306138313038643231393337633633343365376435393232393430666163393132313531313737663735636636623230613430323235363831313933376136",
+      "password_sha256": "18f136bf248e17873843677a6dd75ec80968f455c34d16516e2bf969c092891a",
+      "preimage_hex": "70726f626c656d6973",
+      "preimage_utf8": "problemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c107",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "b0a8108d21937c6343e7d5922940fac912151177f75cf6b20a402256811937a6",
+      "password_sha256": "9d0077dfb2a237b5dfedbc52dfb888265d8c23a1881556ad42bd56a0578d8708",
+      "preimage_hex": "70726f626c656d6973",
+      "preimage_utf8": "problemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-5/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c108",
+      "password_expansion": "raw",
+      "password_hex": "707574207468652070726f626c656d206973",
+      "password_sha256": "01f3258bee46e0446ebb2f44f2cfcc86da3ddc16a7da9cff8985a96caf3850cb",
+      "preimage_hex": "707574207468652070726f626c656d206973",
+      "preimage_utf8": "put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c109",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30316633323538626565343665303434366562623266343466326366636338366461336464633136613764613963666638393835613936636166333835306362",
+      "password_sha256": "56aa5bd2670c9106d37180a219d0c115870a5db14457ee9921fa44edc371257a",
+      "preimage_hex": "707574207468652070726f626c656d206973",
+      "preimage_utf8": "put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c110",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "01f3258bee46e0446ebb2f44f2cfcc86da3ddc16a7da9cff8985a96caf3850cb",
+      "password_sha256": "c1a61a4264d60ac5f8f5b7c80efe218be66d1b3af33009e22d537c35f9ecd3fd",
+      "preimage_hex": "707574207468652070726f626c656d206973",
+      "preimage_utf8": "put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c111",
+      "password_expansion": "raw",
+      "password_hex": "70757474686570726f626c656d6973",
+      "password_sha256": "0b9d581e93c6dbea6d1be19db3c0e0c45a71f5732f3c4cef5b7953e7ab947129",
+      "preimage_hex": "70757474686570726f626c656d6973",
+      "preimage_utf8": "puttheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c112",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "30623964353831653933633664626561366431626531396462336330653063343561373166353733326633633463656635623739353365376162393437313239",
+      "password_sha256": "ed783bdb5d62e5745149d2607b3747bfffa159e766e863b470522b5d6421f03c",
+      "preimage_hex": "70757474686570726f626c656d6973",
+      "preimage_utf8": "puttheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c113",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "0b9d581e93c6dbea6d1be19db3c0e0c45a71f5732f3c4cef5b7953e7ab947129",
+      "password_sha256": "7891077e20e611817f81ae1998860e7039cf1ed12b2bae2ad3e7fbfb1f3f78e3",
+      "preimage_hex": "70757474686570726f626c656d6973",
+      "preimage_utf8": "puttheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-3/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c114",
+      "password_expansion": "raw",
+      "password_hex": "7468652070726f626c656d206973",
+      "password_sha256": "640e289a8a7963a18df4ce10bdc999a48e70a7bd1a30795d422bc092f565f2ae",
+      "preimage_hex": "7468652070726f626c656d206973",
+      "preimage_utf8": "the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c115",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "36343065323839613861373936336131386466346365313062646339393961343865373061376264316133303739356434323262633039326635363566326165",
+      "password_sha256": "9dc9fa9cdfe56629cd10e2cb6d49fa18d63a873e39911b43625f509316e8c4f9",
+      "preimage_hex": "7468652070726f626c656d206973",
+      "preimage_utf8": "the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c116",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "640e289a8a7963a18df4ce10bdc999a48e70a7bd1a30795d422bc092f565f2ae",
+      "password_sha256": "053448a591c25b89aa3be170812cda6a33260a1a3443115fbb504ccfb30c1360",
+      "preimage_hex": "7468652070726f626c656d206973",
+      "preimage_utf8": "the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c117",
+      "password_expansion": "raw",
+      "password_hex": "74686570726f626c656d6973",
+      "password_sha256": "cdcb0b6b4c06e7bbdce750d1ef48757c7fd7256ea5a4c6bc4133b97fa1c6be04",
+      "preimage_hex": "74686570726f626c656d6973",
+      "preimage_utf8": "theproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c118",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "63646362306236623463303665376262646365373530643165663438373537633766643732353665613561346336626334313333623937666131633662653034",
+      "password_sha256": "17dd78cd500bad94db34c0423bd52be2e5ae605a344cc191cad21bf69cb9b413",
+      "preimage_hex": "74686570726f626c656d6973",
+      "preimage_utf8": "theproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c119",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "cdcb0b6b4c06e7bbdce750d1ef48757c7fd7256ea5a4c6bc4133b97fa1c6be04",
+      "password_sha256": "ac8958da8480871459bf62757a5c6a91a80611091664013edc2706d1f78e68b9",
+      "preimage_hex": "74686570726f626c656d6973",
+      "preimage_utf8": "theproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-4/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c120",
+      "password_expansion": "raw",
+      "password_hex": "796f752061646571756174656c7920707574207468652070726f626c656d206973",
+      "password_sha256": "5a05b9a4eaaddd53c5b8fec03a1efdc52c0d3e557f7e073a017be7177b34a0e9",
+      "preimage_hex": "796f752061646571756174656c7920707574207468652070726f626c656d206973",
+      "preimage_utf8": "you adequately put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c121",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "35613035623961346561616464643533633562386665633033613165666463353263306433653535376637653037336130313762653731373762333461306539",
+      "password_sha256": "2678002ae1819290ad2293b3265300158197335281a948bc9b6685cc383dde90",
+      "preimage_hex": "796f752061646571756174656c7920707574207468652070726f626c656d206973",
+      "preimage_utf8": "you adequately put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c122",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "5a05b9a4eaaddd53c5b8fec03a1efdc52c0d3e557f7e073a017be7177b34a0e9",
+      "password_sha256": "f375f1a64c0fd2f101eaa2eb71cca72b6deeb5d8e2d03af5556947758b19293d",
+      "preimage_hex": "796f752061646571756174656c7920707574207468652070726f626c656d206973",
+      "preimage_utf8": "you adequately put the problem is",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/spaces/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c123",
+      "password_expansion": "raw",
+      "password_hex": "796f7561646571756174656c7970757474686570726f626c656d6973",
+      "password_sha256": "ac9399c06fed1bd96744a1be03ce51565cd018357a25ab044a30e93f906e08af",
+      "preimage_hex": "796f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "youadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c124",
+      "password_expansion": "sha256-lowerhex",
+      "password_hex": "61633933393963303666656431626439363734346131626530336365353135363563643031383335376132356162303434613330653933663930366530386166",
+      "password_sha256": "45705d63e12f140896f89fafdcfe21896fe09118fd95c3d6ac8cd9a576299bf8",
+      "preimage_hex": "796f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "youadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/compact/lower"
+      ]
+    },
+    {
+      "candidate_id": "v33c125",
+      "password_expansion": "sha256-raw-digest",
+      "password_hex": "ac9399c06fed1bd96744a1be03ce51565cd018357a25ab044a30e93f906e08af",
+      "password_sha256": "eaab3db442a5d46354d9a7858560a4a3c93971ab5b824ce89e3166e06e2f5095",
+      "preimage_hex": "796f7561646571756174656c7970757474686570726f626c656d6973",
+      "preimage_utf8": "youadequatelyputtheproblemis",
+      "provenance": [
+        "architect-two-door-choice/suffix-1/compact/lower"
+      ]
+    }
+  ],
+  "declared_acceptance": {
+    "aes": "existing v1 readable/exact-format rule",
+    "forbidden_evidence": [
+      "expected padding length",
+      "Half/Better Half",
+      "target point",
+      "community plaintext hashes"
+    ],
+    "padding_alone": false
+  },
+  "declared_crypto": {
+    "cipher": "AES-256-CBC",
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "padding": "strict PKCS#7",
+    "password_expansions": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-raw-digest"
+    ],
+    "password_to_key": "OpenSSL EVP_BytesToKey"
+  },
+  "extends_v32_manifest_sha256": "9ad84d080cfe273a004bc4444e7256c3f1bc7c04087187828e949b3218b618db",
+  "schema": "salphaseion-source-only-preregistration-v33-architect-two-door-choice",
+  "source": {
+    "candidate_rule": "every whole-word suffix strictly before choice, compact/spaced in lower/upper/title case, plus full source punctuation",
+    "capture_stability": [
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "18a8369df1364911d5e94fcac341ef85480ff194f4500f509fbed34f19e6308b",
+        "path": "artifacts/wayback_cache/bodies/5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1.bin",
+        "raw_sha256": "5806148bf02a63bd2835f893e64ca56e1c62dc4bbf7be541a30afa54411c37c1",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4556,
+        "decoded_html_sha256": "ed6c395890553a2ef3e156f91111ef0ab503951c631717cb60ab1f72858459af",
+        "path": "artifacts/wayback_cache/bodies/d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0.bin",
+        "raw_sha256": "d29ebcf688fd904dea201fab4f023a5b14f3fe49fcf6e92969dcbad31c5e67c0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 4588,
+        "decoded_html_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "path": "artifacts/wayback_cache/bodies/0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0.bin",
+        "raw_sha256": "0eeb42e361a2781846ce16d2fdadd1a879793d969aa624c5fa43552347d6c4d0",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "af81c08fc26db392eec925ba22a8ba4f6abe03e5512344ca648d5cf136b30603",
+        "path": "artifacts/wayback_cache/bodies/8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e.bin",
+        "raw_sha256": "8e05fdbbe88f4b859948ddc4c05864bcc017f80b0b75a74e5a69cccd908d930e",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      },
+      {
+        "decoded_html_length": 5092,
+        "decoded_html_sha256": "b13cbc5c2935dc3e9ff8bf71681f2ef61317fefdce04159129877244a92a3947",
+        "path": "artifacts/wayback_cache/bodies/bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd.bin",
+        "raw_sha256": "bb28e34bb35a21a75c03e01e550466bf8fa8000052d79944f94b768d86f118bd",
+        "textarea1_length": 2149,
+        "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+        "textarea2_length": 1819,
+        "textarea2_sha256": "5e636bd7f1670a39666c0820f0df3fe9b4962d96f29d40156699dc947cce470b"
+      }
+    ],
+    "exact_line": "As you adequately put, the problem is choice.",
+    "textarea1_sha256": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+    "transcript_url": "https://www.matrixfans.net/movies/the-matrix-reloaded/transcript/"
+  },
+  "status": "SEALED_BEFORE_DECRYPTION"
+}

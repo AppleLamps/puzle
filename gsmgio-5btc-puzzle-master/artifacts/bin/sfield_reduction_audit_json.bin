@@ -1,0 +1,48 @@
+{
+  "status": "NO_MATCH_IN_ENUMERATED_FAMILY",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "authenticated_inputs": {
+    "s91_length": 91,
+    "s91_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "binary104_length": 104,
+    "binary104_sha256": "29b59b580d592d009d10d3513e92b4466c79934cbf1a8b7d5710e23b924626a5",
+    "s570_length": 570,
+    "s570_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+    "field_boundary_rule": "single-letter a-i tokens before the first highlighted z separator: S91[0:91], binary104[91:195], S570[195:765]",
+    "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+    "operand30_hex": "2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "magnitude29_hex": "ca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "block_count": 35
+  },
+  "legacy_reproduction": {
+    "R1_lists30": 40456,
+    "R1_operand_matches": [],
+    "R2_generated_fold_records": 121368,
+    "R2_unique_nonzero_scalars": 54792,
+    "R3_generated_records": 18,
+    "R3_unique_nonzero_scalars": 16,
+    "dead_permutation_branch_records": 0,
+    "dead_permutation_reason": "The candidate order has 30 entries, so it cannot contain all 35 distinct block indices.",
+    "dead_magnitude_comparison_reason": "The old R1 compared a 30-byte encoding with magnitude[:30], but magnitude is only 29 bytes; equality is impossible by length."
+  },
+  "corrected_extension": {
+    "lists29": 40568,
+    "magnitude29_matches": [],
+    "serialization_candidate_records": 688872,
+    "unique_nonzero_scalars": 520611,
+    "serializations": [
+      "raw left/right zero padding to 32 bytes",
+      "literal +, -, and +- prefix completions left/right padded to 32 bytes",
+      "SHA256 of raw and literal-prefix byte records",
+      "negative raw integer modulo secp256k1 order"
+    ]
+  },
+  "combined_unique_nonzero_scalars": 575419,
+  "target": {
+    "x": "f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464",
+    "y": "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+    "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "matches": [],
+  "scope_note": "This reproduces the prior finite grid-reduction/selector/sign family and adds only the enumerated correction for its 29-vs-30-byte mismatch. It is not a general S-field impossibility result."
+}

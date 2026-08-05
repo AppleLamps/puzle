@@ -1,0 +1,6941 @@
+{
+  "method": {
+    "visual": "Five contact sheets manually inspected, with every source image represented once",
+    "ocr": "RapidOCR over each original-resolution PNG",
+    "qr": "OpenCV QRCodeDetector over each original-resolution PNG"
+  },
+  "image_count": 34,
+  "puzzle_hint_candidates": 0,
+  "records": [
+    {
+      "index": 1,
+      "path": "artifacts/shared_wayback/20210117004351_2f261f4647a30ec7b66e_1ae7ab50421f.png",
+      "sha256": "1ae7ab50421fb109dd93a4e198f40242d1e68921591dddcdfa60861f463cdab2",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8490246683359146,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.839186126535589,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.9060328637852388,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +4.4%",
+          "confidence": 0.8949922663824899,
+          "box": [
+            [
+              522.0,
+              358.0
+            ],
+            [
+              992.0,
+              356.0
+            ],
+            [
+              992.0,
+              413.0
+            ],
+            [
+              523.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "USDT-DGB",
+          "confidence": 0.8537941177686056,
+          "box": [
+            [
+              639.0,
+              464.0
+            ],
+            [
+              880.0,
+              464.0
+            ],
+            [
+              880.0,
+              498.0
+            ],
+            [
+              639.0,
+              498.0
+            ]
+          ]
+        },
+        {
+          "text": "on Bittrex",
+          "confidence": 0.851291374726729,
+          "box": [
+            [
+              673.0,
+              514.0
+            ],
+            [
+              847.0,
+              516.0
+            ],
+            [
+              847.0,
+              548.0
+            ],
+            [
+              672.0,
+              546.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.920464255980083,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8455336514641257,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +4.4%\nUSDT-DGB\non Bittrex\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 2,
+      "path": "artifacts/shared_wayback/20210117004344_74b0d8445f8042211aba_d44eac9a4901.png",
+      "sha256": "d44eac9a4901c17704f61104b1aa43a796901628f064fef79062648d003f1c84",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8713489845395088,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.7816882729530334,
+          "box": [
+            [
+              693.0,
+              59.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              95.0
+            ],
+            [
+              693.0,
+              99.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8778654023220664,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "My completed trades today",
+          "confidence": 0.8505304272358234,
+          "box": [
+            [
+              525.0,
+              297.0
+            ],
+            [
+              991.0,
+              300.0
+            ],
+            [
+              991.0,
+              339.0
+            ],
+            [
+              525.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "50",
+          "confidence": 0.5225393573443095,
+          "box": [
+            [
+              712.0,
+              377.0
+            ],
+            [
+              806.0,
+              377.0
+            ],
+            [
+              806.0,
+              444.0
+            ],
+            [
+              712.0,
+              444.0
+            ]
+          ]
+        },
+        {
+          "text": "Sunday, December 13th 2020",
+          "confidence": 0.9389776013515614,
+          "box": [
+            [
+              508.0,
+              483.0
+            ],
+            [
+              1013.0,
+              485.0
+            ],
+            [
+              1012.0,
+              524.0
+            ],
+            [
+              508.0,
+              522.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9080149871962411,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8871672994950238,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nMy completed trades today\n50\nSunday, December 13th 2020\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 3,
+      "path": "artifacts/shared_wayback/20210116215555_08f1dd696f15e7fbbc06_a597396598cc.png",
+      "sha256": "a597396598cc10737705fe5ccf708afc7ea579a2bab059ecb635315d96c50344",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8557362332940102,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8309913982044567,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8921928335638607,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +17.8%",
+          "confidence": 0.9269420862197876,
+          "box": [
+            [
+              506.0,
+              358.0
+            ],
+            [
+              1008.0,
+              357.0
+            ],
+            [
+              1008.0,
+              413.0
+            ],
+            [
+              506.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "LENDBTC",
+          "confidence": 0.7989690899848938,
+          "box": [
+            [
+              653.0,
+              465.0
+            ],
+            [
+              865.0,
+              465.0
+            ],
+            [
+              865.0,
+              499.0
+            ],
+            [
+              653.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.9029583389108832,
+          "box": [
+            [
+              662.0,
+              515.0
+            ],
+            [
+              857.0,
+              517.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              662.0,
+              546.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9160133642809731,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8429540115244248,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +17.8%\nLENDBTC\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 4,
+      "path": "artifacts/shared_wayback/20200707164831_91b478e531c1f2ee25e2_42e9c809ff59.png",
+      "sha256": "42e9c809ff5990f4dad6ce57c57d48dd18aa7c8b0f756ce51881d51ac6ed9f7d",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.853200152516365,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8326882123947144,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.9070731927366817,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +4.5%",
+          "confidence": 0.8958266632897514,
+          "box": [
+            [
+              525.0,
+              358.0
+            ],
+            [
+              988.0,
+              356.0
+            ],
+            [
+              989.0,
+              413.0
+            ],
+            [
+              525.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "MTLBTC",
+          "confidence": 0.8315927130835397,
+          "box": [
+            [
+              668.0,
+              461.0
+            ],
+            [
+              851.0,
+              463.0
+            ],
+            [
+              850.0,
+              501.0
+            ],
+            [
+              668.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8532800674438477,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.918801235301154,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8479249231955585,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +4.5%\nMTLBTC\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 5,
+      "path": "artifacts/shared_wayback/20201030201042_c079107baa77ef0970e2_f280bce49e9d.png",
+      "sha256": "f280bce49e9d01557dbff9d236cb14fb4be521afda0e345d962db7ba407ce8c0",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8554540276527405,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8278711004690691,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8932821785702425,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +7.7%",
+          "confidence": 0.8932406646864754,
+          "box": [
+            [
+              531.0,
+              358.0
+            ],
+            [
+              985.0,
+              358.0
+            ],
+            [
+              985.0,
+              415.0
+            ],
+            [
+              531.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "RUNEBNB",
+          "confidence": 0.8127595335245132,
+          "box": [
+            [
+              643.0,
+              465.0
+            ],
+            [
+              874.0,
+              465.0
+            ],
+            [
+              874.0,
+              499.0
+            ],
+            [
+              643.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8412929448214445,
+          "box": [
+            [
+              663.0,
+              514.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              856.0,
+              548.0
+            ],
+            [
+              663.0,
+              546.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9195096024445125,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.85061014399809,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +7.7%\nRUNEBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 6,
+      "path": "artifacts/shared_wayback/20201102042835_b329f1c392708b075886_1b0e6a01802e.png",
+      "sha256": "1b0e6a01802ee5dadc05bf81d2fe1f7c48c581f05d2b00b95e7b6c57e290e343",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8713489845395088,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.7817739248275757,
+          "box": [
+            [
+              693.0,
+              59.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              95.0
+            ],
+            [
+              693.0,
+              99.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.879795883831225,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "My completed trades today",
+          "confidence": 0.8980088302722344,
+          "box": [
+            [
+              525.0,
+              297.0
+            ],
+            [
+              991.0,
+              300.0
+            ],
+            [
+              991.0,
+              339.0
+            ],
+            [
+              525.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "250",
+          "confidence": 0.7497784942388535,
+          "box": [
+            [
+              692.0,
+              381.0
+            ],
+            [
+              825.0,
+              379.0
+            ],
+            [
+              826.0,
+              441.0
+            ],
+            [
+              693.0,
+              443.0
+            ]
+          ]
+        },
+        {
+          "text": "Thursday, June 25th 2020",
+          "confidence": 0.8990624380111695,
+          "box": [
+            [
+              538.0,
+              482.0
+            ],
+            [
+              983.0,
+              485.0
+            ],
+            [
+              983.0,
+              525.0
+            ],
+            [
+              538.0,
+              522.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.8811724185943604,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              577.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.858525696922751,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nMy completed trades today\n250\nThursday, June 25th 2020\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 7,
+      "path": "artifacts/shared_wayback/20210117004344_ab2981bba653155b80a4_a5a05ae141ad.png",
+      "sha256": "a5a05ae141adb5e05d4d1f1df9789d549734743eaf1c8a3f25f04add9fa25467",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8713489845395088,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.7917523980140686,
+          "box": [
+            [
+              693.0,
+              59.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              95.0
+            ],
+            [
+              693.0,
+              99.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8788978175113076,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "My completed trades today",
+          "confidence": 0.8676700133543748,
+          "box": [
+            [
+              525.0,
+              297.0
+            ],
+            [
+              991.0,
+              300.0
+            ],
+            [
+              991.0,
+              339.0
+            ],
+            [
+              525.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "50",
+          "confidence": 0.5225393573443095,
+          "box": [
+            [
+              712.0,
+              377.0
+            ],
+            [
+              806.0,
+              377.0
+            ],
+            [
+              806.0,
+              444.0
+            ],
+            [
+              712.0,
+              444.0
+            ]
+          ]
+        },
+        {
+          "text": "Tuesday, December 8th 2020",
+          "confidence": 0.9234787711390743,
+          "box": [
+            [
+              511.0,
+              483.0
+            ],
+            [
+              1010.0,
+              485.0
+            ],
+            [
+              1010.0,
+              524.0
+            ],
+            [
+              510.0,
+              522.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9112249314785004,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8371779848547543,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nMy completed trades today\n50\nTuesday, December 8th 2020\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 8,
+      "path": "artifacts/shared_wayback/20200711052736_24ef7025f900da3fa46c_561fd8195aaf.png",
+      "sha256": "561fd8195aaf3f0651a596d7b5ca88716ccd0314a10642e4bc2be4b13af8515f",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8713489845395088,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.7817739248275757,
+          "box": [
+            [
+              693.0,
+              59.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              95.0
+            ],
+            [
+              693.0,
+              99.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.879795883831225,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "My completed trades today",
+          "confidence": 0.8980088302722344,
+          "box": [
+            [
+              525.0,
+              297.0
+            ],
+            [
+              991.0,
+              300.0
+            ],
+            [
+              991.0,
+              339.0
+            ],
+            [
+              525.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "342",
+          "confidence": 0.7496755719184875,
+          "box": [
+            [
+              690.0,
+              379.0
+            ],
+            [
+              828.0,
+              379.0
+            ],
+            [
+              828.0,
+              443.0
+            ],
+            [
+              690.0,
+              443.0
+            ]
+          ]
+        },
+        {
+          "text": "Saturday, June 13th 2020",
+          "confidence": 0.8936514711380005,
+          "box": [
+            [
+              542.0,
+              486.0
+            ],
+            [
+              978.0,
+              485.0
+            ],
+            [
+              978.0,
+              521.0
+            ],
+            [
+              542.0,
+              523.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.8690139182976314,
+          "box": [
+            [
+              79.0,
+              553.0
+            ],
+            [
+              249.0,
+              553.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              79.0,
+              579.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.858525696922751,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nMy completed trades today\n342\nSaturday, June 13th 2020\nFollow the QR\nfor a free trial",
+      "qr_text": "https://gsmg.io/register?referral=mRlFTIrujturBwqq9ncmquR3Kf33Gbi8",
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 9,
+      "path": "artifacts/shared_wayback/20210117004348_31a01feb08dbe97a9d9e_c21c22532ef4.png",
+      "sha256": "c21c22532ef4da4db630cd693d2686ca925cb588fef81233017a92517808a0d6",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8491840586066246,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8383547826246782,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8920082064235911,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +5.7%",
+          "confidence": 0.8729638797896249,
+          "box": [
+            [
+              528.0,
+              358.0
+            ],
+            [
+              984.0,
+              358.0
+            ],
+            [
+              984.0,
+              415.0
+            ],
+            [
+              528.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "WANBNB",
+          "confidence": 0.739812331540244,
+          "box": [
+            [
+              653.0,
+              463.0
+            ],
+            [
+              868.0,
+              463.0
+            ],
+            [
+              868.0,
+              500.0
+            ],
+            [
+              653.0,
+              500.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8445804823528636,
+          "box": [
+            [
+              663.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              663.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9213179222175053,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8497553958612329,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +5.7%\nWANBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 10,
+      "path": "artifacts/shared_wayback/20210117004341_7f23622c8cbc1684a19d_b73c721a7636.png",
+      "sha256": "b73c721a763649c74b7905604e4690cae5a0e33edb183b8294c9c7ab2118ab27",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8535260185599327,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8380662798881531,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.9074692130088806,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +9.9%",
+          "confidence": 0.8964360782078334,
+          "box": [
+            [
+              524.0,
+              358.0
+            ],
+            [
+              992.0,
+              356.0
+            ],
+            [
+              992.0,
+              413.0
+            ],
+            [
+              524.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "TRBBNB",
+          "confidence": 0.8088635291372027,
+          "box": [
+            [
+              669.0,
+              465.0
+            ],
+            [
+              851.0,
+              465.0
+            ],
+            [
+              851.0,
+              499.0
+            ],
+            [
+              669.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8539867184378884,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.919353016785213,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.882673929719364,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              607.0
+            ],
+            [
+              79.0,
+              607.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +9.9%\nTRBBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 11,
+      "path": "artifacts/shared_wayback/20210117004346_3ea841a2f0ea3dc85ee9_cb3fee955cf6.png",
+      "sha256": "cb3fee955cf65b1966a867dc76595ec5a3f2db206f6aef5073fda67386a0aae0",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8713489845395088,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8218554800206964,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.879795883831225,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "My completed trades today",
+          "confidence": 0.8980088302722344,
+          "box": [
+            [
+              525.0,
+              297.0
+            ],
+            [
+              991.0,
+              300.0
+            ],
+            [
+              991.0,
+              339.0
+            ],
+            [
+              525.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "410",
+          "confidence": 0.7498167306184769,
+          "box": [
+            [
+              692.0,
+              379.0
+            ],
+            [
+              827.0,
+              379.0
+            ],
+            [
+              827.0,
+              443.0
+            ],
+            [
+              692.0,
+              443.0
+            ]
+          ]
+        },
+        {
+          "text": "Friday, July 24th 2020",
+          "confidence": 0.8254908349203027,
+          "box": [
+            [
+              566.0,
+              484.0
+            ],
+            [
+              952.0,
+              484.0
+            ],
+            [
+              952.0,
+              523.0
+            ],
+            [
+              566.0,
+              523.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.8811724185943604,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              577.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.858525696922751,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nMy completed trades today\n410\nFriday, July 24th 2020\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 12,
+      "path": "artifacts/shared_wayback/20200630160641_c7c71a8ba5ad715caaf4_ac3d6b660388.png",
+      "sha256": "ac3d6b660388c6f36f6f649c4b4d0405c27d6abc628aa000a150a28306e44fef",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.851665124297142,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8393565687266263,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8515599387533525,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +10%",
+          "confidence": 0.912247006709759,
+          "box": [
+            [
+              535.0,
+              358.0
+            ],
+            [
+              978.0,
+              357.0
+            ],
+            [
+              978.0,
+              413.0
+            ],
+            [
+              535.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "STXBTC",
+          "confidence": 0.7617672426359994,
+          "box": [
+            [
+              672.0,
+              465.0
+            ],
+            [
+              848.0,
+              465.0
+            ],
+            [
+              848.0,
+              500.0
+            ],
+            [
+              672.0,
+              500.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8505496816201643,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.8767753669193813,
+          "box": [
+            [
+              79.0,
+              553.0
+            ],
+            [
+              249.0,
+              553.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              79.0,
+              579.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8498719930648804,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +10%\nSTXBTC\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": "https://gsmg.io/register?referral=mRlFTIrujturBwqq9ncmquR3Kf33Gbi8",
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 13,
+      "path": "artifacts/shared_wayback/20201027135259_e673d0110015c87b2551_a71fe2882dac.png",
+      "sha256": "a71fe2882dace03371e5d2a971c53f32cee00c78023371b9dddcd3df9b9ec0fd",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8490246683359146,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.839186126535589,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.9060328637852388,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +4.8%",
+          "confidence": 0.8995206654071808,
+          "box": [
+            [
+              522.0,
+              358.0
+            ],
+            [
+              992.0,
+              356.0
+            ],
+            [
+              992.0,
+              413.0
+            ],
+            [
+              523.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "USDT-DGB",
+          "confidence": 0.8537941177686056,
+          "box": [
+            [
+              639.0,
+              464.0
+            ],
+            [
+              880.0,
+              464.0
+            ],
+            [
+              880.0,
+              498.0
+            ],
+            [
+              639.0,
+              498.0
+            ]
+          ]
+        },
+        {
+          "text": "on Bittrex",
+          "confidence": 0.851291374726729,
+          "box": [
+            [
+              673.0,
+              514.0
+            ],
+            [
+              847.0,
+              516.0
+            ],
+            [
+              847.0,
+              548.0
+            ],
+            [
+              672.0,
+              546.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.920464255980083,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8455336514641257,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +4.8%\nUSDT-DGB\non Bittrex\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 14,
+      "path": "artifacts/shared_wayback/20210117004338_be0d1fdc58c61e52b346_705ed15c9a9f.png",
+      "sha256": "705ed15c9a9f891478acae611a2aca002425d2f7701f8390e644ed1c9137b23d",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8544844686985016,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8378135128454729,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8640072766472312,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              907.0,
+              290.0
+            ],
+            [
+              907.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +10.4%",
+          "confidence": 0.8990168889363607,
+          "box": [
+            [
+              504.0,
+              358.0
+            ],
+            [
+              1012.0,
+              358.0
+            ],
+            [
+              1012.0,
+              415.0
+            ],
+            [
+              504.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "SOLBNB",
+          "confidence": 0.7728779571396964,
+          "box": [
+            [
+              667.0,
+              464.0
+            ],
+            [
+              851.0,
+              464.0
+            ],
+            [
+              851.0,
+              499.0
+            ],
+            [
+              667.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8508665995164351,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9187474421092442,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8440545867471134,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +10.4%\nSOLBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 15,
+      "path": "artifacts/shared_wayback/20211201210814_924eeba4355deda8bc54_02366075a698.png",
+      "sha256": "02366075a698ecb82332159082f50957f8648b4c713344ed2f5457c8ad891472",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8713489845395088,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8255307728594,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.852221363469174,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "My completed trades today",
+          "confidence": 0.8496815057901236,
+          "box": [
+            [
+              525.0,
+              297.0
+            ],
+            [
+              991.0,
+              300.0
+            ],
+            [
+              991.0,
+              339.0
+            ],
+            [
+              525.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "444",
+          "confidence": 0.7368225306272507,
+          "box": [
+            [
+              691.0,
+              381.0
+            ],
+            [
+              830.0,
+              381.0
+            ],
+            [
+              830.0,
+              442.0
+            ],
+            [
+              691.0,
+              442.0
+            ]
+          ]
+        },
+        {
+          "text": "Monday, November 29th 2021",
+          "confidence": 0.8726795448197259,
+          "box": [
+            [
+              500.0,
+              483.0
+            ],
+            [
+              1020.0,
+              485.0
+            ],
+            [
+              1020.0,
+              524.0
+            ],
+            [
+              499.0,
+              522.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9109501498086112,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8907294764238245,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nMy completed trades today\n444\nMonday, November 29th 2021\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 16,
+      "path": "artifacts/shared_wayback/20201022164143_279126265702832d1900_f9f3ef953878.png",
+      "sha256": "f9f3ef95387841abe825001402b11c566fbe07a7a8fe1c4d45f4346c3d30b091",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8549904823303223,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.839186126535589,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.9060328637852388,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +9.7%",
+          "confidence": 0.8115844258240291,
+          "box": [
+            [
+              526.0,
+              358.0
+            ],
+            [
+              988.0,
+              358.0
+            ],
+            [
+              988.0,
+              414.0
+            ],
+            [
+              526.0,
+              414.0
+            ]
+          ]
+        },
+        {
+          "text": "VIBEBTC",
+          "confidence": 0.802216999232769,
+          "box": [
+            [
+              663.0,
+              464.0
+            ],
+            [
+              858.0,
+              464.0
+            ],
+            [
+              858.0,
+              498.0
+            ],
+            [
+              663.0,
+              498.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8506086522882635,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.920464255980083,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8455336514641257,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +9.7%\nVIBEBTC\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 17,
+      "path": "artifacts/shared_wayback/20211204112629_159bb9cf0935c017b621_ec30921baaa2.png",
+      "sha256": "ec30921baaa241ca0ddcf50a416b75a7b1cf909e067b50c52212b815893aa56e",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8535260185599327,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8393565687266263,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8515435527352726,
+          "box": [
+            [
+              614.0,
+              287.0
+            ],
+            [
+              907.0,
+              290.0
+            ],
+            [
+              907.0,
+              327.0
+            ],
+            [
+              614.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +4%",
+          "confidence": 0.8176492154598236,
+          "box": [
+            [
+              557.0,
+              356.0
+            ],
+            [
+              961.0,
+              356.0
+            ],
+            [
+              961.0,
+              416.0
+            ],
+            [
+              557.0,
+              416.0
+            ]
+          ]
+        },
+        {
+          "text": "ETHBTC",
+          "confidence": 0.728762720312391,
+          "box": [
+            [
+              670.0,
+              465.0
+            ],
+            [
+              851.0,
+              465.0
+            ],
+            [
+              851.0,
+              499.0
+            ],
+            [
+              670.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8443474065173756,
+          "box": [
+            [
+              664.0,
+              514.0
+            ],
+            [
+              859.0,
+              516.0
+            ],
+            [
+              859.0,
+              548.0
+            ],
+            [
+              664.0,
+              546.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9212240619318826,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8498719930648804,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +4%\nETHBTC\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 18,
+      "path": "artifacts/shared_wayback/20210206234754_2b4766f83163f92cb4fe_ea8ed2a85c66.png",
+      "sha256": "ea8ed2a85c66d6ba1a360d4b57b6304a2fde2e55b82b5e35153a3accd765fe5e",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8554540276527405,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8361993811347268,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8910887627040639,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +19.3%",
+          "confidence": 0.8831547101338705,
+          "box": [
+            [
+              504.0,
+              358.0
+            ],
+            [
+              1009.0,
+              356.0
+            ],
+            [
+              1009.0,
+              413.0
+            ],
+            [
+              505.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "DOGEBTC",
+          "confidence": 0.8130311816930771,
+          "box": [
+            [
+              649.0,
+              465.0
+            ],
+            [
+              871.0,
+              465.0
+            ],
+            [
+              871.0,
+              499.0
+            ],
+            [
+              649.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8074132149869745,
+          "box": [
+            [
+              663.0,
+              515.0
+            ],
+            [
+              857.0,
+              515.0
+            ],
+            [
+              857.0,
+              547.0
+            ],
+            [
+              663.0,
+              547.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9169139904635293,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.845098498989554,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +19.3%\nDOGEBTC\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 19,
+      "path": "artifacts/shared_wayback/20220225173314_d3234e9c2342564f06d6_6eaf9df014c4.png",
+      "sha256": "6eaf9df014c47532c0b5002e8d318631d04cc8afa35dc2c5cb2bb00ae9305f12",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8554540276527405,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8393565687266263,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8515599387533525,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +28%",
+          "confidence": 0.8944288904850299,
+          "box": [
+            [
+              533.0,
+              358.0
+            ],
+            [
+              982.0,
+              357.0
+            ],
+            [
+              982.0,
+              414.0
+            ],
+            [
+              534.0,
+              416.0
+            ]
+          ]
+        },
+        {
+          "text": "XVSBUSD",
+          "confidence": 0.8672103360295296,
+          "box": [
+            [
+              647.0,
+              464.0
+            ],
+            [
+              870.0,
+              464.0
+            ],
+            [
+              870.0,
+              498.0
+            ],
+            [
+              647.0,
+              498.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8468897017565641,
+          "box": [
+            [
+              663.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              663.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.8937588291508811,
+          "box": [
+            [
+              79.0,
+              555.0
+            ],
+            [
+              248.0,
+              555.0
+            ],
+            [
+              248.0,
+              578.0
+            ],
+            [
+              79.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8498719930648804,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +28%\nXVSBUSD\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 20,
+      "path": "artifacts/shared_wayback/20210730110223_9b3723b15fc2f830c48d_af6c8907e01c.png",
+      "sha256": "af6c8907e01c93258ee2e0e92fc803214be8585efdfd00ad14320ffe13fb33b8",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8543690145015717,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8361993811347268,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8910887627040639,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +10.3%",
+          "confidence": 0.9163523236910502,
+          "box": [
+            [
+              505.0,
+              358.0
+            ],
+            [
+              1010.0,
+              358.0
+            ],
+            [
+              1010.0,
+              415.0
+            ],
+            [
+              505.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "NEOBTC",
+          "confidence": 0.7881714531353542,
+          "box": [
+            [
+              663.0,
+              461.0
+            ],
+            [
+              856.0,
+              463.0
+            ],
+            [
+              855.0,
+              501.0
+            ],
+            [
+              663.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8451520963148638,
+          "box": [
+            [
+              663.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              663.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9169139904635293,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.845098498989554,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +10.3%\nNEOBTC\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": "http://gsmg.io/register?referral=hAeFhzgcjIDZC0OAefpUOdYfnl6TDPXt",
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 21,
+      "path": "artifacts/shared_wayback/20200730172647_2afc3c476fd2dad41e6b_e8972b76a7a9.png",
+      "sha256": "e8972b76a7a903e51b843a2570e32329a8a9ae997c0470a18a98dd3040a79007",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8516874015331268,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.839186126535589,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8901394675759708,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +7.9%",
+          "confidence": 0.8555893131664821,
+          "box": [
+            [
+              526.0,
+              358.0
+            ],
+            [
+              988.0,
+              358.0
+            ],
+            [
+              988.0,
+              414.0
+            ],
+            [
+              526.0,
+              414.0
+            ]
+          ]
+        },
+        {
+          "text": "RLCBNB",
+          "confidence": 0.79649270432336,
+          "box": [
+            [
+              668.0,
+              464.0
+            ],
+            [
+              851.0,
+              464.0
+            ],
+            [
+              851.0,
+              499.0
+            ],
+            [
+              668.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8506086522882635,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.920464255980083,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8455336514641257,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +7.9%\nRLCBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 22,
+      "path": "artifacts/shared_wayback/20210117004337_d5e79ae39791ce517642_358963d73d16.png",
+      "sha256": "358963d73d16796b11ad3526961bd19fdef6f5bf389335fe118c7530196754f0",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8715708404779434,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              708.0,
+              54.0
+            ],
+            [
+              708.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.7816882729530334,
+          "box": [
+            [
+              693.0,
+              59.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              95.0
+            ],
+            [
+              693.0,
+              99.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8778654023220664,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "My completed trades today",
+          "confidence": 0.8505304272358234,
+          "box": [
+            [
+              525.0,
+              297.0
+            ],
+            [
+              991.0,
+              300.0
+            ],
+            [
+              991.0,
+              339.0
+            ],
+            [
+              525.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "79",
+          "confidence": 0.6627429127693176,
+          "box": [
+            [
+              714.0,
+              378.0
+            ],
+            [
+              802.0,
+              378.0
+            ],
+            [
+              802.0,
+              443.0
+            ],
+            [
+              714.0,
+              443.0
+            ]
+          ]
+        },
+        {
+          "text": "Sunday, December 27th 2020",
+          "confidence": 0.9070797518447593,
+          "box": [
+            [
+              507.0,
+              483.0
+            ],
+            [
+              1013.0,
+              485.0
+            ],
+            [
+              1012.0,
+              524.0
+            ],
+            [
+              507.0,
+              522.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9080149871962411,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8871672994950238,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nMy completed trades today\n79\nSunday, December 27th 2020\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 23,
+      "path": "artifacts/shared_wayback/20201003050741_6586b0930512e3967099_fd6f49f6126a.png",
+      "sha256": "fd6f49f6126ab1bdcc27596015800620cac35a7dad1e233d45ccb7ec331f369c",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8489709794521332,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8278711004690691,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8783964479670805,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +2.9%",
+          "confidence": 0.8779886450086322,
+          "box": [
+            [
+              524.0,
+              357.0
+            ],
+            [
+              993.0,
+              357.0
+            ],
+            [
+              993.0,
+              416.0
+            ],
+            [
+              524.0,
+              416.0
+            ]
+          ]
+        },
+        {
+          "text": "ZRXBNB",
+          "confidence": 0.7962047968591962,
+          "box": [
+            [
+              665.0,
+              463.0
+            ],
+            [
+              855.0,
+              463.0
+            ],
+            [
+              855.0,
+              500.0
+            ],
+            [
+              665.0,
+              500.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8536426858468489,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9195096024445125,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.85061014399809,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +2.9%\nZRXBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 24,
+      "path": "artifacts/shared_wayback/20210117004333_eca651c3d793bb925ac7_4d69f83fb938.png",
+      "sha256": "4d69f83fb938513dcfd93105d154a4a912438619737ce5491a548a140774f40c",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.852108009159565,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8309913982044567,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8921928335638607,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +13.7%",
+          "confidence": 0.8938229799270629,
+          "box": [
+            [
+              507.0,
+              358.0
+            ],
+            [
+              1007.0,
+              357.0
+            ],
+            [
+              1007.0,
+              413.0
+            ],
+            [
+              507.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "MATICBNB",
+          "confidence": 0.8717585537168715,
+          "box": [
+            [
+              636.0,
+              464.0
+            ],
+            [
+              882.0,
+              464.0
+            ],
+            [
+              882.0,
+              498.0
+            ],
+            [
+              636.0,
+              498.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8557630018754439,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9160133642809731,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.903956017073463,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              607.0
+            ],
+            [
+              79.0,
+              607.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +13.7%\nMATICBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 25,
+      "path": "artifacts/shared_wayback/20210103074129_8077562a44ad8f38851e_c9b39a37f516.png",
+      "sha256": "c9b39a37f516092b9331fadabb76404f062b06406183547d7141d07e4efc97f6",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8713489845395088,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8272069692611694,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8543330148646706,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "My completed trades today",
+          "confidence": 0.8711863595705766,
+          "box": [
+            [
+              525.0,
+              297.0
+            ],
+            [
+              991.0,
+              300.0
+            ],
+            [
+              991.0,
+              339.0
+            ],
+            [
+              525.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "50",
+          "confidence": 0.5225393573443095,
+          "box": [
+            [
+              712.0,
+              377.0
+            ],
+            [
+              806.0,
+              377.0
+            ],
+            [
+              806.0,
+              444.0
+            ],
+            [
+              712.0,
+              444.0
+            ]
+          ]
+        },
+        {
+          "text": "Saturday, January 2nd 2021",
+          "confidence": 0.9100872785956772,
+          "box": [
+            [
+              518.0,
+              485.0
+            ],
+            [
+              1000.0,
+              485.0
+            ],
+            [
+              1000.0,
+              524.0
+            ],
+            [
+              518.0,
+              524.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9095270889145988,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8618290003608254,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nMy completed trades today\n50\nSaturday, January 2nd 2021\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 26,
+      "path": "artifacts/shared_wayback/20220225172954_9f5e0ca078aabf7ef71d_fe4b29dc21f8.png",
+      "sha256": "fe4b29dc21f8e9d5f1cdde54fb6cbe82a05cd7069f9b55c9badc13b1b6e09495",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8554540276527405,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8393565687266263,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8515599387533525,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +15%",
+          "confidence": 0.8473808719561651,
+          "box": [
+            [
+              539.0,
+              356.0
+            ],
+            [
+              977.0,
+              356.0
+            ],
+            [
+              977.0,
+              416.0
+            ],
+            [
+              539.0,
+              416.0
+            ]
+          ]
+        },
+        {
+          "text": "BNBUSDT",
+          "confidence": 0.8008385598659515,
+          "box": [
+            [
+              649.0,
+              464.0
+            ],
+            [
+              871.0,
+              464.0
+            ],
+            [
+              871.0,
+              498.0
+            ],
+            [
+              649.0,
+              498.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8468897017565641,
+          "box": [
+            [
+              663.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              663.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9212240619318826,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.908264861387365,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              607.0
+            ],
+            [
+              79.0,
+              607.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +15%\nBNBUSDT\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 27,
+      "path": "artifacts/shared_wayback/20220225173159_b4242514d610ca3384c5_93c771002a44.png",
+      "sha256": "93c771002a44b5f685b8d1edee18724b035bd33153b27f795cac54ce74cbfee3",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8541251793503761,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8372172930023887,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8880147898898405,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +16.7%",
+          "confidence": 0.8972823063532511,
+          "box": [
+            [
+              506.0,
+              358.0
+            ],
+            [
+              1009.0,
+              357.0
+            ],
+            [
+              1009.0,
+              413.0
+            ],
+            [
+              506.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "VETBUSD",
+          "confidence": 0.8253754153847694,
+          "box": [
+            [
+              652.0,
+              464.0
+            ],
+            [
+              868.0,
+              464.0
+            ],
+            [
+              868.0,
+              501.0
+            ],
+            [
+              652.0,
+              501.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8448548262769525,
+          "box": [
+            [
+              663.0,
+              514.0
+            ],
+            [
+              858.0,
+              517.0
+            ],
+            [
+              857.0,
+              549.0
+            ],
+            [
+              662.0,
+              546.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9192041797297341,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8454138952143052,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +16.7%\nVETBUSD\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 28,
+      "path": "artifacts/shared_wayback/20200728144656_047e71b5ed84ab1300af_99eb6f86f3ac.png",
+      "sha256": "99eb6f86f3ac09bda8227f3f5f99512e804c1f4ec515d85975ebc05e6d5d7257",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8516874015331268,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8380662798881531,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.9074692130088806,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +8.3%",
+          "confidence": 0.8578528208392007,
+          "box": [
+            [
+              524.0,
+              358.0
+            ],
+            [
+              992.0,
+              356.0
+            ],
+            [
+              992.0,
+              413.0
+            ],
+            [
+              524.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "ERDBNB",
+          "confidence": 0.7738527144704547,
+          "box": [
+            [
+              664.0,
+              462.0
+            ],
+            [
+              856.0,
+              462.0
+            ],
+            [
+              856.0,
+              499.0
+            ],
+            [
+              664.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8539867184378884,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.919353016785213,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8489486505003536,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +8.3%\nERDBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 29,
+      "path": "artifacts/shared_wayback/20210117004347_3dbc30c7821044fe2d92_ab12d20c7d21.png",
+      "sha256": "ab12d20c7d216f7dbef1736d7a076a869cc54f4d8e608432fcc015b5730f5d03",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8490246683359146,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.839186126535589,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.9060328637852388,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +9.5%",
+          "confidence": 0.8426651912076133,
+          "box": [
+            [
+              525.0,
+              358.0
+            ],
+            [
+              988.0,
+              358.0
+            ],
+            [
+              988.0,
+              414.0
+            ],
+            [
+              525.0,
+              414.0
+            ]
+          ]
+        },
+        {
+          "text": "LINKBTC",
+          "confidence": 0.8404238894581795,
+          "box": [
+            [
+              658.0,
+              462.0
+            ],
+            [
+              860.0,
+              462.0
+            ],
+            [
+              860.0,
+              499.0
+            ],
+            [
+              658.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8438278490846808,
+          "box": [
+            [
+              663.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              663.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.920464255980083,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8455336514641257,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +9.5%\nLINKBTC\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 30,
+      "path": "artifacts/shared_wayback/20200718110308_fc4ea4e1e388846fdf2e_6b36a625dcd9.png",
+      "sha256": "6b36a625dcd9286dbd33569e00e874f26089ccca73cf4b2183e9d8d54f31d827",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8490246683359146,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.839186126535589,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8901394675759708,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +4.2%",
+          "confidence": 0.9065087011882237,
+          "box": [
+            [
+              522.0,
+              358.0
+            ],
+            [
+              992.0,
+              356.0
+            ],
+            [
+              992.0,
+              413.0
+            ],
+            [
+              523.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "USDT-VET",
+          "confidence": 0.8811040719350179,
+          "box": [
+            [
+              645.0,
+              464.0
+            ],
+            [
+              876.0,
+              464.0
+            ],
+            [
+              876.0,
+              498.0
+            ],
+            [
+              645.0,
+              498.0
+            ]
+          ]
+        },
+        {
+          "text": "on Bittrex",
+          "confidence": 0.8578759811141274,
+          "box": [
+            [
+              673.0,
+              516.0
+            ],
+            [
+              847.0,
+              516.0
+            ],
+            [
+              847.0,
+              548.0
+            ],
+            [
+              673.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.920464255980083,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8455336514641257,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +4.2%\nUSDT-VET\non Bittrex\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 31,
+      "path": "artifacts/shared_wayback/20200820042208_573e38a9481a18357f57_868e74b86cc4.png",
+      "sha256": "868e74b86cc4110fcdbf62335f3eac9569fb67c1209d1729bded69cb73866ed5",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.852108009159565,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8380662798881531,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.9074692130088806,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +8.2%",
+          "confidence": 0.8753524805818286,
+          "box": [
+            [
+              522.0,
+              358.0
+            ],
+            [
+              991.0,
+              356.0
+            ],
+            [
+              991.0,
+              413.0
+            ],
+            [
+              523.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "RUNEBNB",
+          "confidence": 0.8488148301839828,
+          "box": [
+            [
+              644.0,
+              465.0
+            ],
+            [
+              874.0,
+              465.0
+            ],
+            [
+              874.0,
+              499.0
+            ],
+            [
+              644.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8557630018754439,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.919353016785213,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8489486505003536,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +8.2%\nRUNEBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 32,
+      "path": "artifacts/shared_wayback/20200710152326_2a1c3c985eaa6b2c69f6_153cfa3d5cd9.png",
+      "sha256": "153cfa3d5cd978fc6b310bea4963cb746c94dd953b22d8c7ed0481864da0c0d6",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.852108009159565,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8380662798881531,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.9074692130088806,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              289.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +9.2%",
+          "confidence": 0.8669127736772809,
+          "box": [
+            [
+              524.0,
+              358.0
+            ],
+            [
+              991.0,
+              356.0
+            ],
+            [
+              991.0,
+              413.0
+            ],
+            [
+              524.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "KAVABNB",
+          "confidence": 0.872221328318119,
+          "box": [
+            [
+              644.0,
+              465.0
+            ],
+            [
+              874.0,
+              465.0
+            ],
+            [
+              874.0,
+              499.0
+            ],
+            [
+              644.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8557630018754439,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.919353016785213,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.8489486505003536,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              608.0
+            ],
+            [
+              79.0,
+              608.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +9.2%\nKAVABNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 33,
+      "path": "artifacts/shared_wayback/20210117004342_6991a49c049cb0cb351d_0d1c19def153.png",
+      "sha256": "0d1c19def153c1a6208297a2b5146638973c2e90a4d5e41356c10526ab29e7f1",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8535260185599327,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8393565687266263,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8515599387533525,
+          "box": [
+            [
+              613.0,
+              287.0
+            ],
+            [
+              906.0,
+              290.0
+            ],
+            [
+              906.0,
+              327.0
+            ],
+            [
+              613.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +10%",
+          "confidence": 0.912247006709759,
+          "box": [
+            [
+              535.0,
+              358.0
+            ],
+            [
+              978.0,
+              357.0
+            ],
+            [
+              978.0,
+              413.0
+            ],
+            [
+              535.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "TRBBNB",
+          "confidence": 0.8088635291372027,
+          "box": [
+            [
+              669.0,
+              465.0
+            ],
+            [
+              851.0,
+              465.0
+            ],
+            [
+              851.0,
+              499.0
+            ],
+            [
+              669.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8505496816201643,
+          "box": [
+            [
+              664.0,
+              516.0
+            ],
+            [
+              857.0,
+              516.0
+            ],
+            [
+              857.0,
+              548.0
+            ],
+            [
+              664.0,
+              548.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9212240619318826,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.908264861387365,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              607.0
+            ],
+            [
+              79.0,
+              607.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +10%\nTRBBNB\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    },
+    {
+      "index": 34,
+      "path": "artifacts/shared_wayback/20210907165209_c6c20f9dd270bf5f0f01_d5cc13e7ba65.png",
+      "sha256": "d5cc13e7ba6528b35f36facc36c640afc95651b7a9f844f8a05055730a6bfd09",
+      "ocr_lines": [
+        {
+          "text": "A fully",
+          "confidence": 0.8554540276527405,
+          "box": [
+            [
+              538.0,
+              54.0
+            ],
+            [
+              707.0,
+              54.0
+            ],
+            [
+              707.0,
+              101.0
+            ],
+            [
+              538.0,
+              101.0
+            ]
+          ]
+        },
+        {
+          "text": " automated",
+          "confidence": 0.8361993811347268,
+          "box": [
+            [
+              693.0,
+              60.0
+            ],
+            [
+              973.0,
+              54.0
+            ],
+            [
+              974.0,
+              94.0
+            ],
+            [
+              693.0,
+              100.0
+            ]
+          ]
+        },
+        {
+          "text": "crypto trading bot",
+          "confidence": 0.8895952576085141,
+          "box": [
+            [
+              525.0,
+              139.0
+            ],
+            [
+              990.0,
+              136.0
+            ],
+            [
+              990.0,
+              187.0
+            ],
+            [
+              525.0,
+              190.0
+            ]
+          ]
+        },
+        {
+          "text": "One of my trades",
+          "confidence": 0.8888680093428668,
+          "box": [
+            [
+              614.0,
+              287.0
+            ],
+            [
+              908.0,
+              290.0
+            ],
+            [
+              907.0,
+              327.0
+            ],
+            [
+              614.0,
+              324.0
+            ]
+          ]
+        },
+        {
+          "text": "Profit: +13.4%",
+          "confidence": 0.8863139788309733,
+          "box": [
+            [
+              504.0,
+              358.0
+            ],
+            [
+              1010.0,
+              357.0
+            ],
+            [
+              1010.0,
+              413.0
+            ],
+            [
+              505.0,
+              415.0
+            ]
+          ]
+        },
+        {
+          "text": "VETBUSD",
+          "confidence": 0.84031842648983,
+          "box": [
+            [
+              654.0,
+              465.0
+            ],
+            [
+              868.0,
+              465.0
+            ],
+            [
+              868.0,
+              499.0
+            ],
+            [
+              654.0,
+              499.0
+            ]
+          ]
+        },
+        {
+          "text": "on Binance",
+          "confidence": 0.8218095410953868,
+          "box": [
+            [
+              664.0,
+              514.0
+            ],
+            [
+              859.0,
+              516.0
+            ],
+            [
+              859.0,
+              548.0
+            ],
+            [
+              664.0,
+              546.0
+            ]
+          ]
+        },
+        {
+          "text": "Follow the QR",
+          "confidence": 0.9169139904635293,
+          "box": [
+            [
+              78.0,
+              552.0
+            ],
+            [
+              249.0,
+              554.0
+            ],
+            [
+              249.0,
+              579.0
+            ],
+            [
+              77.0,
+              578.0
+            ]
+          ]
+        },
+        {
+          "text": "for a free trial",
+          "confidence": 0.9058000305119682,
+          "box": [
+            [
+              79.0,
+              584.0
+            ],
+            [
+              251.0,
+              584.0
+            ],
+            [
+              251.0,
+              607.0
+            ],
+            [
+              79.0,
+              607.0
+            ]
+          ]
+        }
+      ],
+      "ocr_text": "A fully\n automated\ncrypto trading bot\nOne of my trades\nProfit: +13.4%\nVETBUSD\non Binance\nFollow the QR\nfor a free trial",
+      "qr_text": null,
+      "visual_classification": "GSMG automated crypto trading bot promotional card",
+      "puzzle_hint_candidate": false
+    }
+  ]
+}

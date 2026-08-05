@@ -1,0 +1,240 @@
+{
+  "status": "NO_EXACT_LAYOUT",
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "trail1_hex": "fc0c1b02",
+  "completion_count": 8,
+  "attempted_layouts": 4096,
+  "recurrence": "parent[j] = child[j] XOR child[j+1]",
+  "serialized_row_orders": [
+    [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ]
+  ],
+  "independent_row_reversals": 256,
+  "completions": {
+    "trail1[0] || prefix31": "fc2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "prefix31 || trail1[0]": "2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537fc",
+    "trail1[1] || prefix31": "0c2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "prefix31 || trail1[1]": "2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e705370c",
+    "trail1[2] || prefix31": "1b2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "prefix31 || trail1[2]": "2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e705371b",
+    "trail1[3] || prefix31": "022b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e70537",
+    "prefix31 || trail1[3]": "2b2dca9ebcdc7722e80ab9aa8bb166ab2cc79c2fef75ce3c638f45b3e7053702"
+  },
+  "minimum_nonzero_residuals": 28,
+  "closest_layout_count": 4096,
+  "closest_layout_examples": [
+    {
+      "completion": "trail1[0] || prefix31",
+      "serialized_lengths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "row_reversals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "nonzero_residuals": 28
+    },
+    {
+      "completion": "trail1[0] || prefix31",
+      "serialized_lengths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "row_reversals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "nonzero_residuals": 28
+    },
+    {
+      "completion": "trail1[0] || prefix31",
+      "serialized_lengths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "row_reversals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "nonzero_residuals": 28
+    },
+    {
+      "completion": "trail1[0] || prefix31",
+      "serialized_lengths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "row_reversals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "nonzero_residuals": 28
+    },
+    {
+      "completion": "trail1[0] || prefix31",
+      "serialized_lengths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "row_reversals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "nonzero_residuals": 28
+    },
+    {
+      "completion": "trail1[0] || prefix31",
+      "serialized_lengths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "row_reversals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "nonzero_residuals": 28
+    },
+    {
+      "completion": "trail1[0] || prefix31",
+      "serialized_lengths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "row_reversals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "nonzero_residuals": 28
+    },
+    {
+      "completion": "trail1[0] || prefix31",
+      "serialized_lengths": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "row_reversals": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "nonzero_residuals": 28
+    }
+  ],
+  "exact_layouts": [],
+  "target_words": [],
+  "scope_note": "This exhausts the direct one-byte trail1 completion of the 31-byte prefix as a serialized T8 XOR triangle."
+}

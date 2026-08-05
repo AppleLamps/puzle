@@ -1,0 +1,81 @@
+{
+  "accepted": [],
+  "accepted_count": 0,
+  "rule_manifest_sha256": "e08e67134ae955da1ffbbbdd2a3de640602ef48d913b87c19875e37cb9aa57af",
+  "schema": "salphaseion-cross-stage-results-v2-source-layout",
+  "stage_one_attempts": 32706,
+  "stage_one_padding_hits": 119,
+  "stage_two_attempts": 1428,
+  "stage_two_padding_hits": 4,
+  "stage_two_padding_without_acceptance": [
+    {
+      "candidate_id": "v24c00550",
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v24.json",
+      "readable_text": false,
+      "stage_one_blob": "salphaseion-short",
+      "stage_one_kdf": "md5",
+      "stage_one_plaintext_sha256": "f8868550747bf535660d8f070b46b0e8bc332866c8d7ccba52f339fd9a0f4ddf",
+      "stage_two_blob": "phase32-small",
+      "stage_two_expansion": "sha256-lowerhex",
+      "stage_two_kdf": "md5",
+      "stage_two_plaintext_sha256": "3ff113e7e0efef3416abd89ccb6aeb252ad465a7c00611c03d8588a407460d95",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v24c01654",
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v24.json",
+      "readable_text": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_sha256": "a11147ffa81b7328671f7718b6e9ab96f16ed128f71fd9b294dcedd2e3c36079",
+      "stage_two_blob": "salphaseion-short",
+      "stage_two_expansion": "sha256-raw-digest",
+      "stage_two_kdf": "md5",
+      "stage_two_plaintext_sha256": "d161ea509da0ee06d576d41c99c1d3a5a17dc19a4b24185857cfeae73786f1e5",
+      "text_metrics": {
+        "length": 79,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v25c00990",
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v25.json",
+      "readable_text": false,
+      "stage_one_blob": "salphaseion-short",
+      "stage_one_kdf": "md5",
+      "stage_one_plaintext_sha256": "5c66a44585554a7eae4f4bee38a067b23ac75bf6b91d84aaa27ff92bb11fe9dd",
+      "stage_two_blob": "cosmic-duality",
+      "stage_two_expansion": "sha256-lowerhex",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_sha256": "9a557045c21b429b274fe4976a2f88a29dd678423eb4397a58d941d15e4536fa",
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    },
+    {
+      "candidate_id": "v26c0362",
+      "formats": [],
+      "input_manifest": "salphaseion_preregistered_candidates_v26.json",
+      "readable_text": false,
+      "stage_one_blob": "phase32-small",
+      "stage_one_kdf": "sha256",
+      "stage_one_plaintext_sha256": "480e83249865bade4d3ab43504d9172559e329255c5c9fb2c67f131ad0d6da5c",
+      "stage_two_blob": "cosmic-duality",
+      "stage_two_expansion": "sha256-raw-digest",
+      "stage_two_kdf": "sha256",
+      "stage_two_plaintext_sha256": "08d2d15917e00ae0856f6b2fc32a9808d3c664e3f9febc60cb50468a501721fa",
+      "text_metrics": {
+        "length": 1327,
+        "utf8": false
+      }
+    }
+  ],
+  "status": "NO_ACCEPTED_CROSS_STAGE_RESULT"
+}

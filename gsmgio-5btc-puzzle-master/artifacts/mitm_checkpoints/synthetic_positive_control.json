@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "engine": "coincurve/libsecp256k1 Gray-code point-space MITM",
+  "engine_version": 1,
+  "family": "synthetic_positive_control",
+  "input_sha256": "04102cf58c21ed1f03da367727425433f901f2eb2b336129b27c5c04e20cb348",
+  "status": "COMPLETE",
+  "scalar_count": 12,
+  "scalar_labels": [
+    "power2_0",
+    "power2_1",
+    "power2_2",
+    "power2_3",
+    "power2_4",
+    "power2_5",
+    "power2_6",
+    "power2_7",
+    "power2_8",
+    "power2_9",
+    "power2_10",
+    "power2_11"
+  ],
+  "left_subset_count": 64,
+  "right_subset_count": 64,
+  "target_count": 1,
+  "logical_candidate_space": "4096",
+  "left_point_collisions": 0,
+  "next_right_subset": 64,
+  "matches": [
+    {
+      "target_shift": "known_subset",
+      "selected_indices": [
+        0,
+        3,
+        7,
+        11
+      ],
+      "selected_labels": [
+        "power2_0",
+        "power2_3",
+        "power2_7",
+        "power2_11"
+      ],
+      "subset_size": 4,
+      "subset_scalar_hex": "0000000000000000000000000000000000000000000000000000000000000889",
+      "full_scalar_adjustment_hex": "0000000000000000000000000000000000000000000000000000000000000000",
+      "full_private_hex": "0000000000000000000000000000000000000000000000000000000000000889",
+      "shifted_point_verified": true,
+      "full_point_verified": true,
+      "address": "1Mg25o9Qyqu7UVhpXnygYFJjsuTaaZGPxR",
+      "address_verified": null,
+      "accepted": true
+    }
+  ],
+  "elapsed_seconds": 0.004490799999985029,
+  "accepted_matches": 1
+}

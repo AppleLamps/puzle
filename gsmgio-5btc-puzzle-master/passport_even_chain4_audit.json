@@ -1,0 +1,19 @@
+{
+  "schema": "passport-even-chain4-audit-v1",
+  "status": "COMPLETE_NO_MATCH",
+  "source": {
+    "mask": "10111100111110110110011",
+    "matrix": "C_FMYFNKJJWPXLTQ",
+    "playfair_input": "CXFMYFNKJJWPXLTQ",
+    "playfair_key": "KTG",
+    "aes128_keys": {
+      "playfair-encrypt": "EVENANIALLVQWMDW",
+      "playfair-decrypt": "EVENSAIAOOVQWMWL"
+    },
+    "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b"
+  },
+  "candidate_count": 1408,
+  "candidate_stream_sha256": "e04560b42767122cd9cbcd7a7e51b7372e37d4d49398c6359bb3942c0f0c1234",
+  "accepted_matches": [],
+  "scope": "Exact EVEN/odd, alternating +-, XOR-apex, and operand reductions only; no plaintext scoring."
+}

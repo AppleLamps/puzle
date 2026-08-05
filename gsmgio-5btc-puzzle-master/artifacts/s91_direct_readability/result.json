@@ -1,0 +1,52 @@
+{
+  "preregistered_sha256": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
+  "observed": {
+    "positions": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "selected_symbols": "bbbbbgaehgbhhfffccecebia",
+    "yellow_symbols": "bhgfceeba",
+    "blue_symbols": "bbbbgaebhhffcci",
+    "yellow_bytes_hex": "1124f841",
+    "blue_bytes_hex": "ca279f859223",
+    "combined_hex": "1124f841ca279f859223",
+    "readability": {
+      "score": 0.0,
+      "text": null,
+      "segmentation": [],
+      "fully_printable": false
+    }
+  },
+  "null": {
+    "draws": 10000,
+    "nonzero_score_count": 0,
+    "maximum_score": 0.0,
+    "equal_or_better_than_observed": 10000,
+    "top_records": []
+  },
+  "accepted": false,
+  "interpretation": "NO_READABLE_ENGLISH"
+}

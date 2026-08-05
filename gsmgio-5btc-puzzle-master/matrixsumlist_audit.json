@@ -1,0 +1,146 @@
+{
+  "status": "NO_MATCH_IN_ENUMERATED_FAMILY",
+  "authenticated_inputs": {
+    "prefix_length": 91,
+    "prefix_sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "decoded_instruction": "matrixsumlist",
+    "prime_positions": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "color_bits_row_major": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ]
+  },
+  "evidence_boundary": "Only the S91 field and decoded word matrixsumlist are authenticated. Every transform/list/order/operation below is an explicitly enumerated exploratory interpretation, not a creator-documented rule.",
+  "family": {
+    "grid_transforms": 8,
+    "row_vectors": [
+      "row_ones",
+      "row_binary",
+      "row_transitions"
+    ],
+    "list_constructions": [
+      "pairs",
+      "pairs_reverse",
+      "intervals_asc",
+      "intervals_asc_reverse_starts",
+      "intervals_desc",
+      "intervals_desc_reverse_starts"
+    ],
+    "digit_mappings": [
+      "digital_root",
+      "mod9_zero_to9"
+    ],
+    "triangle_orders": [
+      "identity",
+      "reverse",
+      "reverse_each_row",
+      "reverse_rows",
+      "columns",
+      "columns_reverse"
+    ],
+    "operations": [
+      "prefix-key",
+      "key-prefix",
+      "prefix+key"
+    ],
+    "projections": [
+      "full91",
+      "primes",
+      "prime_blue",
+      "prime_yellow",
+      "prime_color_shift"
+    ],
+    "base9_decodings": [
+      "minimal big-endian integer",
+      "two-digit chunks when length is even"
+    ]
+  },
+  "structural_hypotheses": 5184,
+  "exact_generated_key_matches": [],
+  "maximum_generated_key_equalities_of_91": 19,
+  "base9_output_records": 36288,
+  "output_records_by_kind": {
+    "full91/integer-minimal": 5184,
+    "prime_blue/integer-minimal": 5184,
+    "prime_color_shift/chunks-2": 5184,
+    "prime_color_shift/integer-minimal": 5184,
+    "prime_yellow/integer-minimal": 5184,
+    "primes/chunks-2": 5184,
+    "primes/integer-minimal": 5184
+  },
+  "raw_length_histogram": {
+    "3": 192,
+    "4": 4992,
+    "5": 26,
+    "6": 5158,
+    "9": 436,
+    "10": 9932,
+    "12": 10368,
+    "36": 3774,
+    "37": 1410
+  },
+  "unique_raw_outputs": 5376,
+  "raw_32_byte_records": 0,
+  "scalar_serializations": [
+    "raw output when exactly 32 bytes",
+    "SHA256(base-9 decoded raw bytes)",
+    "SHA256(ASCII digits 1..9)"
+  ],
+  "scalar_candidate_records": 62208,
+  "zero_scalar_records": 0,
+  "unique_nonzero_scalars": 9216,
+  "target": {
+    "x": "f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464",
+    "y": "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+    "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+  },
+  "matches": [],
+  "scope_note": "This falsifies only the fully enumerated exploratory family above. It does not show that every possible meaning of matrixsumlist is wrong."
+}

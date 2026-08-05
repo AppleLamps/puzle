@@ -1,0 +1,93 @@
+{
+  "accepted": [],
+  "chain4_sha256": "e4269ed5fbb202a81e5e1aa6b5190fdd1ea126b2c8547ea7cdbdf45387ea135b",
+  "key_rule": "seven source-order SHA256 token digests, retaining repeated matrixsumlist",
+  "layouts": [
+    "contiguous-seven-by-five",
+    "round-robin-seven-streams"
+  ],
+  "records": [
+    {
+      "iv": "none",
+      "layout": "contiguous-seven-by-five",
+      "maximum_padding_matching": 0,
+      "mode": "ecb",
+      "natural_padding_count": 0,
+      "natural_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "iv": "zero",
+      "layout": "contiguous-seven-by-five",
+      "maximum_padding_matching": 0,
+      "mode": "cbc",
+      "natural_padding_count": 0,
+      "natural_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "iv": "operand-head",
+      "layout": "contiguous-seven-by-five",
+      "maximum_padding_matching": 0,
+      "mode": "cbc",
+      "natural_padding_count": 0,
+      "natural_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "iv": "operand-tail",
+      "layout": "contiguous-seven-by-five",
+      "maximum_padding_matching": 0,
+      "mode": "cbc",
+      "natural_padding_count": 0,
+      "natural_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "iv": "none",
+      "layout": "round-robin-seven-streams",
+      "maximum_padding_matching": 0,
+      "mode": "ecb",
+      "natural_padding_count": 0,
+      "natural_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "iv": "zero",
+      "layout": "round-robin-seven-streams",
+      "maximum_padding_matching": 0,
+      "mode": "cbc",
+      "natural_padding_count": 0,
+      "natural_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "iv": "operand-head",
+      "layout": "round-robin-seven-streams",
+      "maximum_padding_matching": 0,
+      "mode": "cbc",
+      "natural_padding_count": 0,
+      "natural_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    },
+    {
+      "iv": "operand-tail",
+      "layout": "round-robin-seven-streams",
+      "maximum_padding_matching": 0,
+      "mode": "cbc",
+      "natural_padding_count": 0,
+      "natural_semantic_count": 0,
+      "padding_edge_count": 0,
+      "semantic_edges": []
+    }
+  ],
+  "schema": "chain4-seven-intertwined-five-block-streams-v1",
+  "status": "NO_ACCEPTED_RESULT"
+}

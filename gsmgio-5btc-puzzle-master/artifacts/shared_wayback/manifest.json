@@ -1,0 +1,658 @@
+{
+  "scope": "All unique image/png CDX digests below /shared/ with timestamp before 2023-01-01",
+  "cdx_path": "artifacts/wayback_cache/cdx_1e45059a34e3965aecffb2f2dc8035198587d0e74faebda836bea54a8ca7a09c.json",
+  "cdx_sha256": "1e45059a34e3965aecffb2f2dc8035198587d0e74faebda836bea54a8ca7a09c",
+  "capture_rows": 34,
+  "unique_digests": 34,
+  "all_sha1_verified": true,
+  "assets": [
+    {
+      "index": 1,
+      "timestamp": "20210117004351",
+      "original": "https://gsmg.io/shared/2f261f4647a30ec7b66e.png",
+      "capture_url": "https://web.archive.org/web/20210117004351id_/https://gsmg.io/shared/2f261f4647a30ec7b66e.png",
+      "final_url": "https://web.archive.org/web/20210117004351id_/https://gsmg.io/shared/2f261f4647a30ec7b66e.png",
+      "cdx_digest_sha1_base32": "2DKIBRZKO7OOZKNB663SCUKIYKHBPPDC",
+      "sha1_verified": true,
+      "sha256": "1ae7ab50421fb109dd93a4e198f40242d1e68921591dddcdfa60861f463cdab2",
+      "bytes": 100700,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004351_2f261f4647a30ec7b66e_1ae7ab50421f.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 2,
+      "timestamp": "20210117004344",
+      "original": "https://gsmg.io/shared/74b0d8445f8042211aba.png",
+      "capture_url": "https://web.archive.org/web/20210117004344id_/https://gsmg.io/shared/74b0d8445f8042211aba.png",
+      "final_url": "https://web.archive.org/web/20210117004344id_/https://gsmg.io/shared/74b0d8445f8042211aba.png",
+      "cdx_digest_sha1_base32": "3U627HUESXXGPYSBRCWZCW2ULHHK7HZE",
+      "sha1_verified": true,
+      "sha256": "d44eac9a4901c17704f61104b1aa43a796901628f064fef79062648d003f1c84",
+      "bytes": 97039,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004344_74b0d8445f8042211aba_d44eac9a4901.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 3,
+      "timestamp": "20210116215555",
+      "original": "https://gsmg.io/shared/08f1dd696f15e7fbbc06.png",
+      "capture_url": "https://web.archive.org/web/20210116215555id_/https://gsmg.io/shared/08f1dd696f15e7fbbc06.png",
+      "final_url": "https://web.archive.org/web/20210116215555id_/https://gsmg.io/shared/08f1dd696f15e7fbbc06.png",
+      "cdx_digest_sha1_base32": "6T6BB6LS53R5J7R2QFKS5526HAG5UYHW",
+      "sha1_verified": true,
+      "sha256": "a597396598cc10737705fe5ccf708afc7ea579a2bab059ecb635315d96c50344",
+      "bytes": 102066,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210116215555_08f1dd696f15e7fbbc06_a597396598cc.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 4,
+      "timestamp": "20200707164831",
+      "original": "https://gsmg.io/shared/91b478e531c1f2ee25e2.png",
+      "capture_url": "https://web.archive.org/web/20200707164831id_/https://gsmg.io/shared/91b478e531c1f2ee25e2.png",
+      "final_url": "https://web.archive.org/web/20200707164831id_/https://gsmg.io/shared/91b478e531c1f2ee25e2.png",
+      "cdx_digest_sha1_base32": "AJE6AKICSJSW72NO2TPCTNXVBELCEKFU",
+      "sha1_verified": true,
+      "sha256": "42e9c809ff5990f4dad6ce57c57d48dd18aa7c8b0f756ce51881d51ac6ed9f7d",
+      "bytes": 99981,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20200707164831_91b478e531c1f2ee25e2_42e9c809ff59.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 5,
+      "timestamp": "20201030201042",
+      "original": "https://gsmg.io/shared/c079107baa77ef0970e2.png",
+      "capture_url": "https://web.archive.org/web/20201030201042id_/https://gsmg.io/shared/c079107baa77ef0970e2.png",
+      "final_url": "https://web.archive.org/web/20201030201042id_/https://gsmg.io/shared/c079107baa77ef0970e2.png",
+      "cdx_digest_sha1_base32": "ARFQYYALQRGUEZZ2FQNTXKMVADIQMKCW",
+      "sha1_verified": true,
+      "sha256": "f280bce49e9d01557dbff9d236cb14fb4be521afda0e345d962db7ba407ce8c0",
+      "bytes": 99490,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20201030201042_c079107baa77ef0970e2_f280bce49e9d.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 6,
+      "timestamp": "20201102042835",
+      "original": "https://gsmg.io/shared/b329f1c392708b075886.png",
+      "capture_url": "https://web.archive.org/web/20201102042835id_/https://gsmg.io/shared/b329f1c392708b075886.png",
+      "final_url": "https://web.archive.org/web/20201102042835id_/https://gsmg.io/shared/b329f1c392708b075886.png",
+      "cdx_digest_sha1_base32": "ARTWJJXIUMJWNMH4CYBLSCCCFIVPMAWH",
+      "sha1_verified": true,
+      "sha256": "1b0e6a01802ee5dadc05bf81d2fe1f7c48c581f05d2b00b95e7b6c57e290e343",
+      "bytes": 95929,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20201102042835_b329f1c392708b075886_1b0e6a01802e.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 7,
+      "timestamp": "20210117004344",
+      "original": "https://gsmg.io/shared/ab2981bba653155b80a4.png",
+      "capture_url": "https://web.archive.org/web/20210117004344id_/https://gsmg.io/shared/ab2981bba653155b80a4.png",
+      "final_url": "https://web.archive.org/web/20210117004344id_/https://gsmg.io/shared/ab2981bba653155b80a4.png",
+      "cdx_digest_sha1_base32": "ATBD7UCUO47PFMEGZKGQRVCS3CHZC2IY",
+      "sha1_verified": true,
+      "sha256": "a5a05ae141adb5e05d4d1f1df9789d549734743eaf1c8a3f25f04add9fa25467",
+      "bytes": 96819,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004344_ab2981bba653155b80a4_a5a05ae141ad.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 8,
+      "timestamp": "20200711052736",
+      "original": "https://gsmg.io/shared/24ef7025f900da3fa46c.png",
+      "capture_url": "https://web.archive.org/web/20200711052736id_/https://gsmg.io/shared/24ef7025f900da3fa46c.png",
+      "final_url": "https://web.archive.org/web/20200711052736id_/https://gsmg.io/shared/24ef7025f900da3fa46c.png",
+      "cdx_digest_sha1_base32": "AWFUZQW4HDSP2YGHXG74T5S53MDAHTN5",
+      "sha1_verified": true,
+      "sha256": "561fd8195aaf3f0651a596d7b5ca88716ccd0314a10642e4bc2be4b13af8515f",
+      "bytes": 95656,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20200711052736_24ef7025f900da3fa46c_561fd8195aaf.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 9,
+      "timestamp": "20210117004348",
+      "original": "https://gsmg.io/shared/31a01feb08dbe97a9d9e.png",
+      "capture_url": "https://web.archive.org/web/20210117004348id_/https://gsmg.io/shared/31a01feb08dbe97a9d9e.png",
+      "final_url": "https://web.archive.org/web/20210117004348id_/https://gsmg.io/shared/31a01feb08dbe97a9d9e.png",
+      "cdx_digest_sha1_base32": "CIY427FO46UBLRFNXXAILIHOTAVTKF7F",
+      "sha1_verified": true,
+      "sha256": "c21c22532ef4da4db630cd693d2686ca925cb588fef81233017a92517808a0d6",
+      "bytes": 100996,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004348_31a01feb08dbe97a9d9e_c21c22532ef4.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 10,
+      "timestamp": "20210117004341",
+      "original": "https://gsmg.io/shared/7f23622c8cbc1684a19d.png",
+      "capture_url": "https://web.archive.org/web/20210117004341id_/https://gsmg.io/shared/7f23622c8cbc1684a19d.png",
+      "final_url": "https://web.archive.org/web/20210117004341id_/https://gsmg.io/shared/7f23622c8cbc1684a19d.png",
+      "cdx_digest_sha1_base32": "ETUDFEECAKG6SMXKJIFRB6P6PAQ3UJG2",
+      "sha1_verified": true,
+      "sha256": "b73c721a763649c74b7905604e4690cae5a0e33edb183b8294c9c7ab2118ab27",
+      "bytes": 99342,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004341_7f23622c8cbc1684a19d_b73c721a7636.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 11,
+      "timestamp": "20210117004346",
+      "original": "https://gsmg.io/shared/3ea841a2f0ea3dc85ee9.png",
+      "capture_url": "https://web.archive.org/web/20210117004346id_/https://gsmg.io/shared/3ea841a2f0ea3dc85ee9.png",
+      "final_url": "https://web.archive.org/web/20210117004346id_/https://gsmg.io/shared/3ea841a2f0ea3dc85ee9.png",
+      "cdx_digest_sha1_base32": "EVJW7DFEEXZCKWTVH3OH4O66WIKSYCY4",
+      "sha1_verified": true,
+      "sha256": "cb3fee955cf65b1966a867dc76595ec5a3f2db206f6aef5073fda67386a0aae0",
+      "bytes": 93467,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004346_3ea841a2f0ea3dc85ee9_cb3fee955cf6.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 12,
+      "timestamp": "20200630160641",
+      "original": "https://gsmg.io/shared/c7c71a8ba5ad715caaf4.png",
+      "capture_url": "https://web.archive.org/web/20200630160641id_/https://gsmg.io/shared/c7c71a8ba5ad715caaf4.png",
+      "final_url": "https://web.archive.org/web/20200630160641id_/https://gsmg.io/shared/c7c71a8ba5ad715caaf4.png",
+      "cdx_digest_sha1_base32": "FFAH6UCCGYBTTN55P6PGWCH7D7CACXES",
+      "sha1_verified": true,
+      "sha256": "ac3d6b660388c6f36f6f649c4b4d0405c27d6abc628aa000a150a28306e44fef",
+      "bytes": 100834,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20200630160641_c7c71a8ba5ad715caaf4_ac3d6b660388.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 13,
+      "timestamp": "20201027135259",
+      "original": "https://gsmg.io/shared/e673d0110015c87b2551.png",
+      "capture_url": "https://web.archive.org/web/20201027135259id_/https://gsmg.io/shared/e673d0110015c87b2551.png",
+      "final_url": "https://web.archive.org/web/20201027135259id_/https://gsmg.io/shared/e673d0110015c87b2551.png",
+      "cdx_digest_sha1_base32": "FGEFRZ4X2O7UT2QAWKLCOY2JMDJ4UPCG",
+      "sha1_verified": true,
+      "sha256": "a71fe2882dace03371e5d2a971c53f32cee00c78023371b9dddcd3df9b9ec0fd",
+      "bytes": 102222,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20201027135259_e673d0110015c87b2551_a71fe2882dac.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 14,
+      "timestamp": "20210117004338",
+      "original": "https://gsmg.io/shared/be0d1fdc58c61e52b346.png",
+      "capture_url": "https://web.archive.org/web/20210117004338id_/https://gsmg.io/shared/be0d1fdc58c61e52b346.png",
+      "final_url": "https://web.archive.org/web/20210117004338id_/https://gsmg.io/shared/be0d1fdc58c61e52b346.png",
+      "cdx_digest_sha1_base32": "FJRXDFHGVSEIZ2WNBQI6XXH7YXCX4ZEV",
+      "sha1_verified": true,
+      "sha256": "705ed15c9a9f891478acae611a2aca002425d2f7701f8390e644ed1c9137b23d",
+      "bytes": 101690,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004338_be0d1fdc58c61e52b346_705ed15c9a9f.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 15,
+      "timestamp": "20211201210814",
+      "original": "https://gsmg.io/shared/924eeba4355deda8bc54.png",
+      "capture_url": "https://web.archive.org/web/20211201210814id_/https://gsmg.io/shared/924eeba4355deda8bc54.png",
+      "final_url": "https://web.archive.org/web/20211201210814id_/https://gsmg.io/shared/924eeba4355deda8bc54.png",
+      "cdx_digest_sha1_base32": "G2SONUITJ32EYEADNAS72JCSSIKRCLY5",
+      "sha1_verified": true,
+      "sha256": "02366075a698ecb82332159082f50957f8648b4c713344ed2f5457c8ad891472",
+      "bytes": 95465,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20211201210814_924eeba4355deda8bc54_02366075a698.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 16,
+      "timestamp": "20201022164143",
+      "original": "https://gsmg.io/shared/279126265702832d1900.png",
+      "capture_url": "https://web.archive.org/web/20201022164143id_/https://gsmg.io/shared/279126265702832d1900.png",
+      "final_url": "https://web.archive.org/web/20201022164143id_/https://gsmg.io/shared/279126265702832d1900.png",
+      "cdx_digest_sha1_base32": "GBIVWMWK4HP6MD76JGL6GEC3VLSIZCDI",
+      "sha1_verified": true,
+      "sha256": "f9f3ef95387841abe825001402b11c566fbe07a7a8fe1c4d45f4346c3d30b091",
+      "bytes": 100838,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20201022164143_279126265702832d1900_f9f3ef953878.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 17,
+      "timestamp": "20211204112629",
+      "original": "https://gsmg.io/shared/159bb9cf0935c017b621.png",
+      "capture_url": "https://web.archive.org/web/20211204112629id_/https://gsmg.io/shared/159bb9cf0935c017b621.png",
+      "final_url": "https://web.archive.org/web/20211204112629id_/https://gsmg.io/shared/159bb9cf0935c017b621.png",
+      "cdx_digest_sha1_base32": "GSXC3WZT33LDGWRWQLWAJVCSEVB2DWWV",
+      "sha1_verified": true,
+      "sha256": "ec30921baaa241ca0ddcf50a416b75a7b1cf909e067b50c52212b815893aa56e",
+      "bytes": 98389,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20211204112629_159bb9cf0935c017b621_ec30921baaa2.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 18,
+      "timestamp": "20210206234754",
+      "original": "https://gsmg.io/shared/2b4766f83163f92cb4fe.png",
+      "capture_url": "https://web.archive.org/web/20210206234754id_/https://gsmg.io/shared/2b4766f83163f92cb4fe.png",
+      "final_url": "https://web.archive.org/web/20210206234754id_/https://gsmg.io/shared/2b4766f83163f92cb4fe.png",
+      "cdx_digest_sha1_base32": "GSYBEC5R3OK3QRELC2OO6UC3XPFVIIFB",
+      "sha1_verified": true,
+      "sha256": "ea8ed2a85c66d6ba1a360d4b57b6304a2fde2e55b82b5e35153a3accd765fe5e",
+      "bytes": 103229,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210206234754_2b4766f83163f92cb4fe_ea8ed2a85c66.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 19,
+      "timestamp": "20220225173314",
+      "original": "https://gsmg.io/shared/d3234e9c2342564f06d6.png",
+      "capture_url": "https://web.archive.org/web/20220225173314id_/https://gsmg.io/shared/d3234e9c2342564f06d6.png",
+      "final_url": "https://web.archive.org/web/20220225173314id_/https://gsmg.io/shared/d3234e9c2342564f06d6.png",
+      "cdx_digest_sha1_base32": "K7CWMGXLOUEU4KDCKHSO5NV6LUAGVGWY",
+      "sha1_verified": true,
+      "sha256": "6eaf9df014c47532c0b5002e8d318631d04cc8afa35dc2c5cb2bb00ae9305f12",
+      "bytes": 102923,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20220225173314_d3234e9c2342564f06d6_6eaf9df014c4.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 20,
+      "timestamp": "20210730110223",
+      "original": "https://gsmg.io/shared/9b3723b15fc2f830c48d.png",
+      "capture_url": "https://web.archive.org/web/20210730110223id_/https://gsmg.io/shared/9b3723b15fc2f830c48d.png",
+      "final_url": "https://web.archive.org/web/20210730110223id_/https://gsmg.io/shared/9b3723b15fc2f830c48d.png",
+      "cdx_digest_sha1_base32": "LBS5K7DHR4IW5TCBEE3QZ6JX2NPSCRYS",
+      "sha1_verified": true,
+      "sha256": "af6c8907e01c93258ee2e0e92fc803214be8585efdfd00ad14320ffe13fb33b8",
+      "bytes": 102863,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210730110223_9b3723b15fc2f830c48d_af6c8907e01c.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 21,
+      "timestamp": "20200730172647",
+      "original": "https://gsmg.io/shared/2afc3c476fd2dad41e6b.png",
+      "capture_url": "https://web.archive.org/web/20200730172647id_/https://gsmg.io/shared/2afc3c476fd2dad41e6b.png",
+      "final_url": "https://web.archive.org/web/20200730172647id_/https://gsmg.io/shared/2afc3c476fd2dad41e6b.png",
+      "cdx_digest_sha1_base32": "N7LECV34ZU7KD3KQM5OFUQ2PENMLSLU3",
+      "sha1_verified": true,
+      "sha256": "e8972b76a7a903e51b843a2570e32329a8a9ae997c0470a18a98dd3040a79007",
+      "bytes": 100981,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20200730172647_2afc3c476fd2dad41e6b_e8972b76a7a9.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 22,
+      "timestamp": "20210117004337",
+      "original": "https://gsmg.io/shared/d5e79ae39791ce517642.png",
+      "capture_url": "https://web.archive.org/web/20210117004337id_/https://gsmg.io/shared/d5e79ae39791ce517642.png",
+      "final_url": "https://web.archive.org/web/20210117004337id_/https://gsmg.io/shared/d5e79ae39791ce517642.png",
+      "cdx_digest_sha1_base32": "OHRY2Y3575H2NKADDNWH4NSCB5XPYBMX",
+      "sha1_verified": true,
+      "sha256": "358963d73d16796b11ad3526961bd19fdef6f5bf389335fe118c7530196754f0",
+      "bytes": 96269,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004337_d5e79ae39791ce517642_358963d73d16.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 23,
+      "timestamp": "20201003050741",
+      "original": "https://gsmg.io/shared/6586b0930512e3967099.png",
+      "capture_url": "https://web.archive.org/web/20201003050741id_/https://gsmg.io/shared/6586b0930512e3967099.png",
+      "final_url": "https://web.archive.org/web/20201003050741id_/https://gsmg.io/shared/6586b0930512e3967099.png",
+      "cdx_digest_sha1_base32": "ONNLGREM4Q2UU2JPTHKREQPMZFIM674S",
+      "sha1_verified": true,
+      "sha256": "fd6f49f6126ab1bdcc27596015800620cac35a7dad1e233d45ccb7ec331f369c",
+      "bytes": 101941,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20201003050741_6586b0930512e3967099_fd6f49f6126a.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 24,
+      "timestamp": "20210117004333",
+      "original": "https://gsmg.io/shared/eca651c3d793bb925ac7.png",
+      "capture_url": "https://web.archive.org/web/20210117004333id_/https://gsmg.io/shared/eca651c3d793bb925ac7.png",
+      "final_url": "https://web.archive.org/web/20210117004333id_/https://gsmg.io/shared/eca651c3d793bb925ac7.png",
+      "cdx_digest_sha1_base32": "OVNAHMTZZYGJ53XGTTNRGHVNIX5OAEVW",
+      "sha1_verified": true,
+      "sha256": "4d69f83fb938513dcfd93105d154a4a912438619737ce5491a548a140774f40c",
+      "bytes": 102496,
+      "attempts": 3,
+      "path": "artifacts/shared_wayback/20210117004333_eca651c3d793bb925ac7_4d69f83fb938.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 25,
+      "timestamp": "20210103074129",
+      "original": "https://gsmg.io/shared/8077562a44ad8f38851e.png",
+      "capture_url": "https://web.archive.org/web/20210103074129id_/https://gsmg.io/shared/8077562a44ad8f38851e.png",
+      "final_url": "https://web.archive.org/web/20210103074129id_/https://gsmg.io/shared/8077562a44ad8f38851e.png",
+      "cdx_digest_sha1_base32": "P4BK3O3JXJYWHEK4MHSNS42TDYPPA7M6",
+      "sha1_verified": true,
+      "sha256": "c9b39a37f516092b9331fadabb76404f062b06406183547d7141d07e4efc97f6",
+      "bytes": 93921,
+      "attempts": 3,
+      "path": "artifacts/shared_wayback/20210103074129_8077562a44ad8f38851e_c9b39a37f516.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 26,
+      "timestamp": "20220225172954",
+      "original": "https://gsmg.io/shared/9f5e0ca078aabf7ef71d.png",
+      "capture_url": "https://web.archive.org/web/20220225172954id_/https://gsmg.io/shared/9f5e0ca078aabf7ef71d.png",
+      "final_url": "https://web.archive.org/web/20220225172954id_/https://gsmg.io/shared/9f5e0ca078aabf7ef71d.png",
+      "cdx_digest_sha1_base32": "QEKJPWFY7ESYRKDUOE2HP3UUKL565R7P",
+      "sha1_verified": true,
+      "sha256": "fe4b29dc21f8e9d5f1cdde54fb6cbe82a05cd7069f9b55c9badc13b1b6e09495",
+      "bytes": 100355,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20220225172954_9f5e0ca078aabf7ef71d_fe4b29dc21f8.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 27,
+      "timestamp": "20220225173159",
+      "original": "https://gsmg.io/shared/b4242514d610ca3384c5.png",
+      "capture_url": "https://web.archive.org/web/20220225173159id_/https://gsmg.io/shared/b4242514d610ca3384c5.png",
+      "final_url": "https://web.archive.org/web/20220225173159id_/https://gsmg.io/shared/b4242514d610ca3384c5.png",
+      "cdx_digest_sha1_base32": "QSHAOMQUUPUEYBPLQPKQ4KQKQH5WL6RE",
+      "sha1_verified": true,
+      "sha256": "93c771002a44b5f685b8d1edee18724b035bd33153b27f795cac54ce74cbfee3",
+      "bytes": 102466,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20220225173159_b4242514d610ca3384c5_93c771002a44.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 28,
+      "timestamp": "20200728144656",
+      "original": "https://gsmg.io/shared/047e71b5ed84ab1300af.png",
+      "capture_url": "https://web.archive.org/web/20200728144656id_/https://gsmg.io/shared/047e71b5ed84ab1300af.png",
+      "final_url": "https://web.archive.org/web/20200728144656id_/https://gsmg.io/shared/047e71b5ed84ab1300af.png",
+      "cdx_digest_sha1_base32": "R4UPZRA6W3GRLKODTG5PNRV3BS3BCYOT",
+      "sha1_verified": true,
+      "sha256": "99eb6f86f3ac09bda8227f3f5f99512e804c1f4ec515d85975ebc05e6d5d7257",
+      "bytes": 101682,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20200728144656_047e71b5ed84ab1300af_99eb6f86f3ac.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 29,
+      "timestamp": "20210117004347",
+      "original": "https://gsmg.io/shared/3dbc30c7821044fe2d92.png",
+      "capture_url": "https://web.archive.org/web/20210117004347id_/https://gsmg.io/shared/3dbc30c7821044fe2d92.png",
+      "final_url": "https://web.archive.org/web/20210117004347id_/https://gsmg.io/shared/3dbc30c7821044fe2d92.png",
+      "cdx_digest_sha1_base32": "TNWM3KTQIA7CPPNEG5K6URX3MTRL6UGA",
+      "sha1_verified": true,
+      "sha256": "ab12d20c7d216f7dbef1736d7a076a869cc54f4d8e608432fcc015b5730f5d03",
+      "bytes": 101685,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004347_3dbc30c7821044fe2d92_ab12d20c7d21.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 30,
+      "timestamp": "20200718110308",
+      "original": "https://gsmg.io/shared/fc4ea4e1e388846fdf2e.png",
+      "capture_url": "https://web.archive.org/web/20200718110308id_/https://gsmg.io/shared/fc4ea4e1e388846fdf2e.png",
+      "final_url": "https://web.archive.org/web/20200718110308id_/https://gsmg.io/shared/fc4ea4e1e388846fdf2e.png",
+      "cdx_digest_sha1_base32": "W6KWY24CQJ7Y5KUE3ALVXNYFIN3GIEQ3",
+      "sha1_verified": true,
+      "sha256": "6b36a625dcd9286dbd33569e00e874f26089ccca73cf4b2183e9d8d54f31d827",
+      "bytes": 100823,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20200718110308_fc4ea4e1e388846fdf2e_6b36a625dcd9.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 31,
+      "timestamp": "20200820042208",
+      "original": "https://gsmg.io/shared/573e38a9481a18357f57.png",
+      "capture_url": "https://web.archive.org/web/20200820042208id_/https://gsmg.io/shared/573e38a9481a18357f57.png",
+      "final_url": "https://web.archive.org/web/20200820042208id_/https://gsmg.io/shared/573e38a9481a18357f57.png",
+      "cdx_digest_sha1_base32": "XVCYDI7RNO3MWON3V27OQ73RTEGKRBS2",
+      "sha1_verified": true,
+      "sha256": "868e74b86cc4110fcdbf62335f3eac9569fb67c1209d1729bded69cb73866ed5",
+      "bytes": 101350,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20200820042208_573e38a9481a18357f57_868e74b86cc4.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 32,
+      "timestamp": "20200710152326",
+      "original": "https://gsmg.io/shared/2a1c3c985eaa6b2c69f6.png",
+      "capture_url": "https://web.archive.org/web/20200710152326id_/https://gsmg.io/shared/2a1c3c985eaa6b2c69f6.png",
+      "final_url": "https://web.archive.org/web/20200710152326id_/https://gsmg.io/shared/2a1c3c985eaa6b2c69f6.png",
+      "cdx_digest_sha1_base32": "XVLAUQ2ZCYYLJPQ6BWQ4NHFTVYSCEVQW",
+      "sha1_verified": true,
+      "sha256": "153cfa3d5cd978fc6b310bea4963cb746c94dd953b22d8c7ed0481864da0c0d6",
+      "bytes": 102042,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20200710152326_2a1c3c985eaa6b2c69f6_153cfa3d5cd9.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 33,
+      "timestamp": "20210117004342",
+      "original": "https://gsmg.io/shared/6991a49c049cb0cb351d.png",
+      "capture_url": "https://web.archive.org/web/20210117004342id_/https://gsmg.io/shared/6991a49c049cb0cb351d.png",
+      "final_url": "https://web.archive.org/web/20210117004342id_/https://gsmg.io/shared/6991a49c049cb0cb351d.png",
+      "cdx_digest_sha1_base32": "Y2FO2OKCSXTPYBF2OWBZEL5MIABFPR52",
+      "sha1_verified": true,
+      "sha256": "0d1c19def153c1a6208297a2b5146638973c2e90a4d5e41356c10526ab29e7f1",
+      "bytes": 99278,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210117004342_6991a49c049cb0cb351d_0d1c19def153.png",
+      "capture_count_for_digest": 1
+    },
+    {
+      "index": 34,
+      "timestamp": "20210907165209",
+      "original": "https://gsmg.io/shared/c6c20f9dd270bf5f0f01.png",
+      "capture_url": "https://web.archive.org/web/20210907165209id_/https://gsmg.io/shared/c6c20f9dd270bf5f0f01.png",
+      "final_url": "https://web.archive.org/web/20210907165209id_/https://gsmg.io/shared/c6c20f9dd270bf5f0f01.png",
+      "cdx_digest_sha1_base32": "YMXNEKUPH5PQP6YU4S23L7CNO27PHLL4",
+      "sha1_verified": true,
+      "sha256": "d5cc13e7ba6528b35f36facc36c640afc95651b7a9f844f8a05055730a6bfd09",
+      "bytes": 102224,
+      "attempts": 1,
+      "path": "artifacts/shared_wayback/20210907165209_c6c20f9dd270bf5f0f01_d5cc13e7ba65.png",
+      "capture_count_for_digest": 1
+    }
+  ],
+  "dimensions": [
+    {
+      "index": 1,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 2,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 3,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 4,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 5,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 6,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 7,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 8,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 9,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 10,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 11,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 12,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 13,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 14,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 15,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 16,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 17,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 18,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 19,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 20,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 21,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 22,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 23,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 24,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 25,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 26,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 27,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 28,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 29,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 30,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 31,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 32,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 33,
+      "width": 1200,
+      "height": 628
+    },
+    {
+      "index": 34,
+      "width": 1200,
+      "height": 628
+    }
+  ]
+}

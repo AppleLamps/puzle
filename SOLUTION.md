@@ -603,6 +603,41 @@ every plausible IV from the 31-byte prefix, produced no valid padding, no
 streams — 7 by 5, 5 by 7, contiguous groups, and byte-level interleaves — gives
 nothing above noise.
 
+
+## The two runs nobody has decoded
+
+The SalPhaseIon stream is a single line of letters. Four pieces of it are solved
+and I reproduced all four from the raw text: two `a`/`b` runs are binary with
+`a=0`, giving `matrixsumlist` and `enter`; and two `z`-delimited runs substitute
+`a-i,o -> 1-9,0`, read the result as decimal, re-express it in base 16 and decode
+that as ASCII, giving `lastwordsbeforearchichoice` and `thispassword`. My decoder
+returns both of those exactly, so the method is confirmed rather than assumed.
+
+That leaves two long runs untouched by anyone: **91 symbols before
+`matrixsumlist`** and **570 symbols after `enter`**. There is a concrete reason
+they resist the method that works on their neighbours, and it is worth stating
+because it is checkable: the solved runs use `a-i` **and `o`**, where `o` is the
+zero. S91 and S570 use **only `a-i`** — no zero symbol appears in either. They are
+drawn from a 9-symbol alphabet, not a 10-symbol one, so a decimal reading is the
+wrong frame from the start.
+
+I tested the alternatives and none produce language:
+
+- base 9 with `a=0..i=8`, bijective base 9 with `a=1..i=9`, decimal, pairs as
+  base 81, and each symbol as two base-3 digits — all give high-entropy bytes
+- converting the value into every base from 2 to 40 and mapping digits onto the
+  alphabet finds no multi-word English in either run
+- the VIC straddling checkerboard from phase 3.2 — implemented and **verified**
+  against the 149-digit record, which it decodes to
+  `INCASEYOUMANAGETOCRACKTHIS...` exactly — turns both runs into gibberish
+
+The statistics say why. S570's index of coincidence over its 9 symbols is 0.1181
+against 0.1111 for uniform, and it uses 75 to 78 of the 81 possible symbol pairs.
+It is essentially flat: about 1807 bits of high-entropy content, not a
+substitution of natural language. S91 is short enough (91 symbols, IC 0.1509)
+that its skew is not significant. Whatever these runs carry, it is enciphered or
+compressed, and no classical reading recovers it.
+
 ## What the Architect actually says about the last step
 
 The recovered Beaufort plaintext is an adapted Matrix speech, and the adaptation

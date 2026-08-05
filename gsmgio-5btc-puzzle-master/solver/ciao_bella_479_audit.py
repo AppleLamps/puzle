@@ -44,6 +44,11 @@ CHAO_EXHIBIT_LEFT = "HXUCZVAMDSLKPEFJRIGTWOBNYQ"
 CHAO_EXHIBIT_RIGHT = "PTLNBQDEOYSFAVZKGJRIHWXUMC"
 CHAO_EXHIBIT_PLAINTEXT = "WELLDONEISBETTERTHANWELLSAID"
 CHAO_EXHIBIT_CIPHERTEXT = "OAHQHCNYNXTSZJRRHJBYHQKSOUJY"
+BELLASO_1553_SAMPLE_KEY = (
+    "VIRTVTIOMNIAPARENTVIRTVTIOMNIAPARENTVIRTVTIOMNIAPARENTVIRTVTIO"
+)
+BELLASO_1553_SAMPLE_PLAINTEXT = "LARMATAYTVRCHESCAYPARTIRAYAYCINQVEYDIYLVGLIO"
+BELLASO_1553_SAMPLE_CIPHERTEXT = "SYBOVEYBCDGPRRCORHGYBERCYBRFNXDDEQFSRAOFPNTE"
 
 
 def clean(text: str) -> str:
@@ -431,6 +436,13 @@ def _known_answer_tests() -> dict[str, object]:
         "chaocipher_byrne_exhibit_decrypt": decrypted == CHAO_EXHIBIT_PLAINTEXT,
         "porta_reciprocal_roundtrip": porta(porta("THEFUTUREISOURS", "PASSWORD"), "PASSWORD")
         == "THEFUTUREISOURS",
+        "porta_F_row_D_to_S": porta("D", "F") == "S",
+        "bellaso_1553_published_sample": bellaso_1553(
+            BELLASO_1553_SAMPLE_PLAINTEXT,
+            BELLASO_1553_SAMPLE_KEY,
+            "right",
+        )
+        == BELLASO_1553_SAMPLE_CIPHERTEXT,
         "bellaso_modern_26_straight_roundtrip": bellaso_reciprocal_26(
             bellaso_reciprocal_26("THEFUTUREISOURS", "PASSWORD"), "PASSWORD"
         )

@@ -773,6 +773,58 @@ circular — solvers funded them *because* the derived keys had been published. 
 proposal to gate candidates against `17ucy…` is right; the scalars it plans to
 gate are not validated by that 2026 activity.
 
+## The exact gate targets, and why the `04` observation matters
+
+The prize address has spent, so its public key is on chain. Pulled straight from
+its scriptSig:
+
+    04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464
+      9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559
+
+It is **uncompressed** — 65 bytes, leading `04`, then x then y:
+
+    x = f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464
+    y = 9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559
+
+That is exactly the shape the second agent just noticed in the Cosmic base-38
+output: 68 bytes beginning `04`, which it reads as `04 || x(32) || y(32)` plus
+three trailing bytes rather than as two 32-byte scalars. If that reading is
+right, the test is immediate and needs no curve arithmetic at all — compare the
+first 65 bytes against the value above. A hit would mean the Cosmic output is
+the *public* key of Half, not two private halves, and every downstream analysis
+built on the 32+32+4 split is misaligned by one byte.
+
+The two gates are not symmetric, and it matters:
+
+| | hash160 | public key |
+| --- | --- | --- |
+| Half `1GSMG…` | `a9553269572a317e39f0f518cb87c1a0ee1dbae4` | known, above |
+| Better Half `17ucy…` | `4bc468447fe1b048ad030a2f9a125478eabc4ed6` | **none on chain** |
+
+Better Half has never spent, so no public point exists for it. Candidates for
+that address can only be gated by deriving hash160; a gate written against a
+public key will reject every correct candidate silently.
+
+## The creator's "same block" remark is literally true
+
+The creator is quoted as saying the prize is halved at every Bitcoin halving and
+that the paired transactions "might even be in the same block". The chain bears
+that out exactly. **Block 630001** — one block after the 2020 halving at 630000 —
+contains both halves of the pair, at the same timestamp:
+
+    2aa9a4a90be819d5…   2.50000000 BTC to 17ucy1K9…      (no message)
+    a798905f53fdcadc…   OP_RETURN 'Halving'              (no transfer)
+
+The transfer and its announcement were deliberately split across two
+transactions and landed together. That is the only creator-authored message in
+the whole corpus, and it is signed, in effect, by the block height.
+
+For contrast, the 2026-02-24 burst is one solver emptying a candidate list:
+**46 OP_RETURN transactions in block 938164** and 16 more in 938165, including
+`matrixsumlistenterlastwordsbeforearchichoicethispassword`, `SalPhaseIon`,
+`ALPHANOISES`, `redpill` and `#SOLUTION` — several of them duplicated within the
+same block.
+
 ## The on-chain phrase corpus is solver noise
 
 Both addresses carry 41 distinct OP_RETURN messages. Apart from `Halving` in

@@ -41,29 +41,31 @@ def bits_to_bytes(run, zero="a"):
 
 
 def decode_salphaseion(stream):
-    """The stream is digits (a..i = 1..9, o = 0) with runs of pure a/b hiding ASCII."""
+    """The stream is five fields, not one encoding.
+
+    S91 || bits("matrixsumlist") || S570 || z || F63 || z || F29 || z || literal
+    where letters a..i are digits 1..9 and o is 0. S91 and S570 use only a..i;
+    the two trailing fields also use o, so they are a different alphabet.
+    """
     literal = stream.find("shabefour")
     head, tail = stream[:literal], stream[literal:]
+    run = re.search(r"[ab]{16,}", head)
+    s91 = head[: run.start()]
+    s570, f63, f29 = head[run.end() :].split("z")[:3]
 
     print("\nSalPhaseIon stream")
-    print(f"  total {len(stream)} chars; digit head {len(head)}; literal tail {len(tail)}")
-
-    for match in re.finditer(r"[ab]{16,}", head):
-        print(f"  hidden binary at offset {match.start()}: {bits_to_bytes(match.group())!r}")
+    print(f"  total {len(stream)} chars; field head {len(head)}; literal tail {len(tail)}")
+    print(f"  S91   {len(s91):3} starts {s91[:4]!r}  {len(s91)} = 7 x 13   alphabet {''.join(sorted(set(s91)))}")
+    print(f"  bits  {len(run.group()):3} -> {bits_to_bytes(run.group())!r}  ({len(bits_to_bytes(run.group()))} chars = 13 columns)")
+    print(f"  S570  {len(s570):3} starts {s570[:4]!r}  {len(s570)} = 15 x 38  alphabet {''.join(sorted(set(s570)))}")
+    print(f"  F63   {len(f63):3} alphabet {''.join(sorted(set(f63)))}")
+    print(f"  F29   {len(f29):3} alphabet {''.join(sorted(set(f29)))}")
+    print(f"  offsets check: 91 + {len(run.group())} + 570 = {91 + len(run.group()) + 570} = first z at {head.find('z')}")
 
     digits = {c: str(n) for n, c in enumerate("abcdefghi", 1)}
     digits["o"] = "0"
-    segments, current = [], ""
-    for ch in head:
-        if ch == "z":
-            segments.append(current)
-            current = ""
-        elif ch in digits:
-            current += digits[ch]
-    segments.append(current)
-    print("  z-separated digit segments (a..i = 1..9, o = 0):")
-    for i, seg in enumerate(s for s in segments if s):
-        print(f"    seg{i} ({len(seg)}): {seg}")
+    for name, field in (("S91", s91), ("F63", f63), ("F29", f29)):
+        print(f"    {name} as digits: {''.join(digits[c] for c in field)}")
 
     parsed = re.match(
         r"shabefour(.*?)(U2FsdGVkX18[A-Za-z0-9+/=]*?)([ab]{20,})([A-Za-z0-9+/=]+?)shabefanstoo", tail

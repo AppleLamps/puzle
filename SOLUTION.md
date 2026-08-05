@@ -284,6 +284,56 @@ three interleaved:
   **`enter`**, i.e. the line break between the blob's two base64 lines. It closes
   with `shabefanstoo`.
 
+## Cross-check against the second agent's transcript
+
+The transcript in `rollout-2026-08-04T21-14-50-*.jsonl` is a separate agent
+working the same puzzle from a community repo. Two of its claims are checkable
+against the raw files here, and both hold:
+
+**The colour markers spell `F73D92`.** Reading the 24 blue/yellow cells in the
+same counter-clockwise spiral that spells the stage one URL, with blue = 1 and
+yellow = 0, gives `111101110011110110010010` = `F73D92`. That agent reached the
+same conclusion this write-up did independently — the markers are not a separate
+pink RGB clue but the least-significant bit of each of the 24 URL bytes. Its
+note that they fall at spiral positions 8, 16, 24 … 192 is the same fact as the
+byte-delimiter finding above, one-indexed. Row-major ordering would give
+`BE2B9B`, which is why the value was previously dismissed.
+
+**24 colour markers ↔ 24 primes.** There are exactly 24 primes in 1..91, and
+exactly 24 colour markers, so the stage one bits index the prime positions of
+S91. `solve_rebus.py` and `phase23.py` both confirm the counts.
+
+Worth noting the transcript also opens from a *wrong* stage one reading — a
+12x12 grid solved as a rabbit maze with yellow breadcrumbs and blue decoys. The
+grid is 14x14, the colours are byte delimiters, and the answer is the spiral.
+That agent later corrected itself to the same spiral result.
+
+The creator hint it quotes, `yellow blue primes -> matrix sum list -> last words
+before archi choice -> yin yang`, matches the field structure: `matrixsumlist`
+is 13 characters and S91 is 7 x 13, while `lastwordsbeforearchichoice` +
+`thispassword` is 38 characters and S570 is 15 x 38. Its downstream reading
+(`AFFECT THIS B`, `COMPS`, a Witteveen identification) is speculative and not
+reproducible from these files.
+
+## Two fields the transcript does not mention
+
+Splitting the stream on `z` shows the head is not two fields but four, and the
+last two are absent from the other agent's analysis entirely:
+
+    S91 (91) || bits("matrixsumlist") (104) || S570 (570) || z || F63 (63) || z || F29 (29) || z || literal
+
+with `91 + 104 + 570 = 765`, exactly the offset of the first `z`. The two
+trailing fields use a **different alphabet**: S91 and S570 draw only on `a`..`i`
+(digits 1..9, no zero), whereas F63 and F29 also contain `o`, which is 0 under
+the same mapping. As decimal digits they are
+
+    F63  174161018595377387932283725836301293648834223172419022725145445
+    F29  36026487402470099740341006948
+
+Whatever transformation the pipeline describes, it has to account for these, and
+for the fact that they are drawn from a ten-symbol alphabet while the two large
+fields are drawn from nine.
+
 ## State of play
 
 Four ciphertexts are in hand and none has yielded yet:

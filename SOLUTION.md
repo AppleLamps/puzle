@@ -334,6 +334,56 @@ Whatever transformation the pipeline describes, it has to account for these, and
 for the fact that they are drawn from a ten-symbol alphabet while the two large
 fields are drawn from nine.
 
+## Testing the transcript's newest lead
+
+The later transcript proposes `F73D92 / 2 = 7B9EC9`, then a `<3` / "better half"
+step giving `7B9ECC`, whose 23 significant bits are `BBBBYBBBYYBBBBYBBYYBBYY` —
+offered as justification for a 23-colour stream with "the omitted prime-89
+colour" and a `YYB -> BYY` tail change.
+
+**The arithmetic is exactly right.** `0xF73D92 / 2 = 0x7B9EC9`, `+3 = 0x7B9ECC`,
+and its 23 significant bits do spell that string. `pipeline.py` verifies each
+step.
+
+**But look at what the two operations do to the marker stream.** Dividing by two
+is just dropping the final bit, and adding three flips the tail:
+
+    true 24 markers   BBBBYBBBYYBBBBYBBYYBYYBY
+    claimed 23        BBBBYBBBYYBBBBYBBYYBBYY
+
+They agree for 20 positions, then need two edits: **flip marker 21 from Y to B,
+and discard marker 24.** Those two markers are not free variables. Every marker
+is the least-significant bit of one URL byte, so marker 21 is the LSB of byte 21
+of `gsmg.io/theseedisplanted`, which is `n` = 110, even, therefore yellow; and
+marker 24 is the LSB of `d` = 100, also even. Flipping one asserts that `n` is
+odd, and dropping the other throws away a byte of a string that decodes
+perfectly. "÷2 then +3" is two free parameters chosen to land on a wanted
+23-symbol target.
+
+It also undercuts the bridge it is meant to support. The 24 markers ↔ 24 primes
+in 1..91 correspondence is one-to-one with nothing left over, so there is no
+"omitted prime-89 colour" to explain — discarding a marker is what creates the
+gap, not what resolves it.
+
+## The pipeline as stated does not open any blob
+
+`pipeline.py` turns the hint into candidates instead of argument. It builds the
+24 marker bits into the 24 prime slots of S91 under both polarities and both
+"zero the other 67" and "keep the original digits" readings, takes 7 x 13 column
+sums row-major and column-major, renders each sum list six ways, applies the
+yin/yang step as the list added to and subtracted from S570 modulo 10, and adds
+the Architect phrases and every `F73D92` variant including `7B9EC9` and
+`7B9ECC`. That is 86 candidates, each tried raw, as sha-256 hex and as raw
+digest, under md5 and sha256 derivation, against all four ciphertexts:
+**2064 trial decryptions, no hit.** A further 21 candidates from the on-chain
+`for ying yang thank you!` / `it myself 140 investment` / `invisible` lead, plus
+`unaware`, `witteveen` and the claimed `AFFECT THIS B` / `COMPS` outputs, also
+produce nothing.
+
+That negative is worth something: it is evidence for the other agent's own later
+pivot, that `matrixsumlist` names a straddling-checkerboard over-encryption step
+rather than an AES passphrase. No arrangement of the sum list is a password.
+
 ## State of play
 
 Four ciphertexts are in hand and none has yielded yet:

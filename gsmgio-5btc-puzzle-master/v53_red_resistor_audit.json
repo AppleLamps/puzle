@@ -1,0 +1,10 @@
+{
+ "id": "v53_red_resistor_composition",
+ "seal_ref": "21ad5560d1d25f26cab82cb433d514274a16719355d07d6dfa497652160963cb",
+ "prize_matches": [],
+ "status": "NO_MATCH",
+ "controls": {
+  "gate_pos": true,
+  "gate_neg": true
+ }
+}

@@ -42,6 +42,22 @@ zeroing semantics, and zero-based indexing remain clue-driven conventions, so
 this is a strong fitted structural hit—not a cryptographically authenticated
 private-key derivation.
 
+**Authentication boundary (2026-08-06).** Nothing after phase 3.2 is
+authenticated. Under the creator's own acceptance criterion (2021-03-14,
+"breaking salphation should be giving the feeling of the phase's name"), the
+phase 3.2 break is legible on sight, while the chain-1, chain-2, and Cosmic
+7-XOR unlocks all produce high-entropy, unreadable output and are each
+consistent with chance PKCS#7 padding (measured chance rate 0.33-0.39% per
+password; 12,132 padding hits with zero legible outputs in the v49 sweep).
+The Cosmic plaintext, base-38 output, and Chain 4 are therefore solver
+conventions, not established stages, and the creator never named any of them.
+The honest frontier sits immediately after phase 3.2, alongside the
+authenticated SalPhaseIon literals. Details: `docs/ATTEMPT_LOG.md` §14d and
+`docs/REFOCUS_2026_08_06.md`. The creator has also confirmed (2026-07-12,
+full quote in `CREATOR_SOURCED.md`) that the puzzle is classically solvable
+and author-verified; the "qubits" remark is a conditional fallback, not a
+statement that the remaining gap is discrete-log-hard.
+
 ## Repository map
 
 | Path | Purpose |

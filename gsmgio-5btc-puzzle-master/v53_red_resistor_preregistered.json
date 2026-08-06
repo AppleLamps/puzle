@@ -1,0 +1,52 @@
+{
+ "seal_sha256": "21ad5560d1d25f26cab82cb433d514274a16719355d07d6dfa497652160963cb",
+ "spec": {
+  "acceptance": "sha256/double-sha256 of each serialization gated via solver.targets; Half exact pubkey + Better hash160 only.",
+  "date": "2026-08-06",
+  "grid_orders": [
+   "spiral_down_ccw",
+   "row_major",
+   "col_major"
+  ],
+  "id": "v53_red_resistor_composition",
+  "rationale": "Creator 2020-01-14 'Roses are White but often Red. Yellow has a number and so does Blue' + 'go back to the first puzzle piece' + primes/zeroing. The red divider (#ED1C24, 15px, resistor 2) is flagged in the repo as 'barely used'. This family uses RED=2 as a genuine operand on the resistor-coded first-image grid, with prime-index zeroing, gated against the prize.",
+  "red_uses": [
+   "prefix",
+   "suffix",
+   "multiplier",
+   "xor_byte",
+   "modulus",
+   "separator_digit"
+  ],
+  "red_value": 2,
+  "resistor_map": {
+   "B": 6,
+   "K": 0,
+   "O_variants": [
+    9,
+    0
+   ],
+   "W": 9,
+   "Y": 4
+  },
+  "scalar_derivations": [
+   "sha256",
+   "double_sha256"
+  ],
+  "serializations": [
+   "digit_concat_int",
+   "row_sums",
+   "col_sums",
+   "row_then_col_sums",
+   "total",
+   "sum_of_primes_positions"
+  ],
+  "spiral_len": 196,
+  "zeroing": [
+   "none",
+   "prime_spiral_index",
+   "prime_value_cells",
+   "zero_off_white_eye"
+  ]
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "seal_sha256": "d4c042200767620f6e4efa8013476b6982154d0207df39267493545b91df13c7",
+ "spec": {
+  "S570_sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+  "acceptance": "SIGNAL if S570's a-g letter stream contains a contiguous run of >=20 notes matching the sonata violin note-letter sequence (octave/accidental stripped) at the same relative positions, OR a global alignment score exceeding p<0.01 vs 20k shuffles. Otherwise NEGATIVE/no derivation. The 'faed' opening alone is NOT acceptance (4 letters, chance ~ 1/2400).",
+  "date": "2026-08-06",
+  "id": "v54_fae_sonata_diagnostic",
+  "mapping_fixed_before_fetch": {
+   "a": "A",
+   "b": "B",
+   "c": "C",
+   "d": "D",
+   "e": "E",
+   "f": "F",
+   "g": "G",
+   "h": "H(=B natural)",
+   "i": [
+    "REST",
+    "A#/sharp-marker"
+   ]
+  },
+  "question": "Is S570 derived from the F-A-E Sonata note stream, yes or no? Diagnostic only; cannot yield a key.",
+  "rationale": "S570 begins 'faed' = F-A-E + D; Dietrich wrote FAE-Sonata movement I; creator 'close friends / NOTES' hint. Test whether S570's letter stream matches the sonata's note-letter sequence beyond the trivial 4-letter opening."
+ }
+}

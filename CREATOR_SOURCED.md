@@ -56,7 +56,7 @@ work and is treated here as hypothesis, however often it is repeated.
 | 2026-07-12 | "Most of you know the puzzle WAAAY better than me at this point. **I have a hidden laptop which I haven't touched in years. On that thing… is the actual answer.**" |
 | 2026-07-12 | "**My close friends have the best chance of solving it** (a few tried). But they don't have the skills some of you do." immediately followed by "**NOTE: that is a hint.**" |
 | 2026-07-12 | "I held quite a secret in my head which I seriously wanted to share with the planet… for those who can understand what I meant" / "**The '5' btc was never the actual prize. That was only a tiny fraction.**" / "(And yes, **the btc is still available** before you fire any questions)." |
-| 2026-07-12 | "it's all **still solvable with a few stable qubits**" |
+| 2026-07-12 | asked "salphaseion is 100% solveable?" he answered "**Yes**", then: "And **IIFF I'm somehow still wrong, which I'm most likely not as I've verified many times back then after some sad rushed mistakes**, it's all still solvable with a few stable qubits.", then "But... Bip360 anyone. Thoughts?" (messages 66587-66590; full quote verified against export bytes 2026-08-06) |
 | 2026-07-12 | (to a sceptic) "**Some already found it. And understood not to risk it…** 🤐" |
 | 2026-07-16 | "Lately, I'm working with many **NOTES**." (in a thread about the 2026-07-12 "NOTE: that is a hint") / "Give yourself yourself and yourself will be given yourself." |
 
@@ -76,16 +76,18 @@ the creator describing his own construction:
 These are **interpretations, not creator statements**, and they are kept out of
 the table so that a reader cannot mistake one for the other.
 
-- *"still solvable with a few stable qubits"* (2026-07-12). This repository
-  previously annotated that line, inside the table itself, as meaning the
-  creator expects the remaining gap to be an ECDLP-hard step rather than a
-  missing clue. That is one reading. The competing reading — that it is a
-  rhetorical hedge on the same drunk evening he also said "The puzzle is still
-  valid!", "the hardest part is done", and that the answer sits on a laptop he
-  has not touched in years — is at least as well supported, and it is the one
-  that fits the roadmap being a finite chain of ordinary operations. Neither
-  reading is settled. Do not plan around quantum hardware, and do not treat the
-  ECDLP reading as creator-confirmed.
+- *"still solvable with a few stable qubits"* (2026-07-12). **SETTLED
+  2026-08-06 against the primary bytes.** The full exchange (table above) shows
+  the clause governed by an explicit double conditional: "IIFF I'm somehow
+  still wrong, which I'm most likely not as I've verified many times back then
+  after some sad rushed mistakes". The creator's primary claim is that
+  SalPhaseIon is 100% solvable ("Yes", direct answer) and classically verified;
+  the qubits line is a fallback in case of residual authoring error, uttered
+  next to BIP 360 quantum-migration chatter. The earlier ECDLP annotation was
+  an artifact of quoting the clause without its conditional. Do not plan around
+  quantum hardware, and do not treat the remaining gap as discrete-log-hard on
+  this evidence: every other statement supports a finite chain of ordinary
+  operations, verified end-to-end by the author.
 - The 2023-02-23 pipeline is creator-authored and its **order** is the strongest
   structural constraint available. Which object each of its seven phrases acts
   on — the 196-cell poster grid, the 24 markers, the S91 field, the Architect
@@ -115,11 +117,16 @@ What actually constrains the search:
   the funded address is his only oracle, and it has not moved.
 - **The puzzle is still live and the coins are still there** (2026-05-28,
   2026-07-12). Confirmed independently by the address history.
-- **"Still solvable with a few stable qubits."** The creator believes the
-  remaining obstacle is discrete-log hard, and he raised BIP 360 twice in the
-  same session. That is his own framing of what is left, and it is a reason to
-  doubt any theory in which the last step is a short password or a clever
-  re-reading.
+- **The puzzle is classically solvable, author-verified.** Asked directly
+  whether SalPhaseIon is 100% solvable, he answered "Yes", and framed the
+  qubits scenario as conditional on "IIFF I'm somehow still wrong, which I'm
+  most likely not as I've verified many times back then after some sad rushed
+  mistakes". (SUPERSEDED reading, kept for the record: this bullet previously
+  asserted the creator believes the remaining obstacle is discrete-log hard;
+  that came from the truncated quote and is withdrawn.) The "sad rushed
+  mistakes" he verified against are the known published-artifact fixes of the
+  "givetit" class, which is a reason to keep checking artifact provenance
+  across creator edits.
 - **"The '5' btc was never the actual prize. That was only a tiny fraction."**
   Read against 2023-08-03 ("are you really looking for just the btc…?"), this is
   most plausibly about the "secret in my head" he wanted to publish, not about

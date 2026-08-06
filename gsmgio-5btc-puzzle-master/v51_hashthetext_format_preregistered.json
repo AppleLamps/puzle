@@ -1,0 +1,71 @@
+{
+ "seal_sha256": "b09fe31a66dcec2aff684fd7407a4fec7bcec87e4bd9a346a46b1f2356cfeb5e",
+ "spec": {
+  "acceptance": "legible plaintext: printable_ratio>=0.85 and shannon<=5.9 bits/byte, or an English run of >=8 letters from a fixed wordlist check; padding hits logged, never accepted. Scalars: sha256 and double-sha256 of every text gated via solver.targets.gate_scalar; any legible plaintext additionally has all 32-byte windows gated.",
+  "counts": {
+   "aes_trials": 1850,
+   "passwords": 185,
+   "texts": 37
+  },
+  "date": "2026-08-06",
+  "envelope_modes": [
+   "env48_header_salt",
+   "raw48_nosalt",
+   "raw48_env48_salt",
+   "glued96_header_salt",
+   "chain2_header_salt"
+  ],
+  "id": "v51_hashthetext_format",
+  "kdfs": [
+   "md5",
+   "sha256"
+  ],
+  "password_forms": [
+   "raw",
+   "sha256hex_lower",
+   "sha256hex_upper",
+   "double_sha256hex_lower",
+   "sha256_raw32"
+  ],
+  "rationale": "p3 literal 'shabefourfirsthintisyourlastcommand' + first hint HASHTHETEXT + the puzzle's only authenticated password format (lowercase sha256 hex digest used as ASCII, phase 3.2) applied to the split SalPhaseIon envelopes env48/raw48, which v49/v50 never targeted separately under this format. Legibility gate per ATTEMPT_LOG 14d; padding is never evidence.",
+  "text_digests": {
+   "T01_stream_nows": "26e37652067c549c0eee624356be9ffd40a243901197335a41f91fb6c78e6156",
+   "T02_pre_lock": "2526881125dd1dbd1421bbc304368565d863a78fe7a4e933c8af138164f78c97",
+   "T03_pre_lock_noz": "3bcc4b0ec8fa9ecf899258286e57d63403c6eb2360f0d3706653f06c9417fd18",
+   "T04_S91": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+   "T05_S570": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+   "T06_S91_S570": "e66ce0a2a7a78cea73d53f9f24894a17ae9bcd3ca007cda19b67c78af26105dc",
+   "T07_p1": "5d013695c4b410387ca881e93cb77295fb4a38b17077d518a28a6954b1fe80f3",
+   "T08_p2": "4447f552c0f76528be4df75028a3ecdb3878bccd46acb4b3fabe6442304fd9c4",
+   "T09_p3": "d3dcdb2f2b66c1b95733b6944051eb4cc5d6143b4666fb1580928a262418cac1",
+   "T10_matrixsumlist": "e7546e3076294907ed2a0ecaa9c33062f6e602b7c74c5aa5cc865df0ff345507",
+   "T11_enter": "e08d706b3e4ce964b632746cf568913cb93f1ed36476fbb0494b80ed17c5975c",
+   "T12_lastwords": "77094e7a1591fb81379f1582cf88db5aa6ab8e77176a4d8428a1ff5decfd102d",
+   "T13_thispassword": "74c1d7592daf4f89b0a7ba5e368bb59cc9e19c6a4ebb7f33cd8ccf8f3edacac0",
+   "T14_shabefanstoo": "e6190c95f277454dd5953a49d0b34dd176685cba336fa4b54277c8e4edc067cb",
+   "T15_hashthetext": "f105c3fd4d0fc9bfc74475796a1bde6ae7a1e5656ebc273c30a45356d6cfb2ca",
+   "T16_HASHTHETEXT": "5968dc5e02cbdf8181d135f143372e7062504cc06268e094ceae25b56c5a72ae",
+   "T17_SalPhaseIon": "615ac15f4aaccb1eff56f96ffb689b3a126f302cff156929e6b59425070f3b7d",
+   "T18_salphaseion": "376b55e9840fada3972ff10e6f68d3d1c55d7dcbc7a893ce8190243a804ff56b",
+   "T19_first_page_text": "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+   "T20_phase3_slug": "db14474e9c8fe5e600da3061264597c105794f215399c9694e9da26ef54c1d19",
+   "T21_phase32_plaintext": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34",
+   "T22_architect": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241",
+   "T23_architect_479": "f238199d9421a4b72481ee0efe2df8010af92260cf22d754185418dbdcc8e958",
+   "T24_door1_url": "3a3f0e245360d51ea41f55c7db8a13f270fbf3dcef3b4f94ac1c4b3cee8db2e9",
+   "T25_theseedisplanted": "6e3f5a7baf924d8546f5f7af94a43b8424e3c810983f9795eb8451ad4243d860",
+   "T26_F73D92": "749bf116cab9f80156c1b9fa4b8074c74252d38493e9fb6e23145616549f3a79",
+   "T27_f73d92": "a7c14e2ac6a7e21ddb1f27748bb4a65cdb0742a5ef74fb43643d1e4f7eb6f1a5",
+   "T28_textarea1_raw": "d39d10b1e1902d2620eb19ebcad4215e23c048de639466cca9a26bdc9303330c",
+   "T29_visible_page": "6a2359217e38d0768539e10fb40a8280bb64fdbc536ace8bd89e1ffcf7eb681a",
+   "T30_textarea2_nows": "92f9dddfdf5cb8722727c95e0120782af3c4fb4c3c78490923e83758760604c5",
+   "T31_yinyang": "9f9d79ece6f5c956063beff2130631da40a37d050cb3813190b58abb17fec3db",
+   "T32_yingyang": "ca2163fbf347fbefd1f968e2bf9a112dc7983bed3420d3c2e8a5da884fb5e455",
+   "T33_pipeline_concat": "d13afe77dd6969a438e2020cc3df22e0e7d589ae88196caa9162c9168e25a018",
+   "T34_causality": "eb3efb5151e6255994711fe8f2264427ceeebf88109e1d7fad5b0a8b6d07e5bf",
+   "T35_cosmicduality": "5a5614cbdcf91492805d7dd03f61bf0e946d7f51fd7277f9d31f3924ad72784e",
+   "T36_theunityofopposites": "723aec571a2674a89c73fd03e6f96316573a16596b4f184dc5a4949b65b39271",
+   "T37_mysteriesoftheunknown": "7765dbb8f84f625e4441b3942ddc45333380643ff89b22840892fea30344aece"
+  }
+ }
+}

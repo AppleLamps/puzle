@@ -48,9 +48,21 @@ The three that change how the search should be framed:
 - **2026-03-03** — "I only need to look at the address. If any of you reaches
   the next phase, the price is taken in no-time." Third independent statement
   that yin-yang is terminal. There is nothing to design for after it.
-- **2026-07-12** — "it's all still solvable with a few stable qubits", raised
-  alongside BIP 360 twice. The creator's own model of the remaining gap is
-  discrete-log hardness, not a missing clue.
+- **2026-07-12** — the solvability exchange, quoted in full because a truncated
+  version of it previously misdirected planning. Asked "salphaseion is 100%
+  solveable?", the creator answered "Yes" (21:01), then added (21:03): "And IIFF
+  I'm somehow still wrong, which I'm most likely not as I've verified many times
+  back then after some sad rushed mistakes, it's all still solvable with a few
+  stable qubits.", then (21:04) "But... Bip360 anyone. Thoughts?" (message ids
+  66587-66590, verified against export bytes 2026-08-06). The qubits clause sits
+  inside an explicit double conditional: his primary claim is classical
+  solvability, author-verified repeatedly after fixing known mistakes (the
+  "givetit" class), and the qubits line is a fallback in case of residual
+  error, raised next to BIP 360 quantum-migration chatter.
+  **SUPERSEDED (2026-08-06):** this document previously rendered the line as
+  "The creator's own model of the remaining gap is discrete-log hardness, not a
+  missing clue." That reading came from quoting the clause without its
+  governing conditional. Do not plan around ECDLP hardness on this evidence.
 - **2026-07-12** — "My close friends have the best chance of solving it (a few
   tried). But they don't have the skills some of you do." followed immediately
   by "NOTE: that is a hint." The only self-declared hint in four years of
@@ -104,8 +116,11 @@ keeping; it is not a 1-in-a-million coincidence.
   the 21 boundaries were NOT fixed independently before applying {1,4,21}", and
   that the slice is "just whatever the 4th transcribed row covers". Checked
   here: the canonical `textarea1` has no line breaks at all, so there is no
-  21-row structure to recover. What survives is a ~107-character slice of S570
-  that nobody has run through the gates, which is worth an hour, not a theory.
+  21-row structure to recover. What survives is a ~107-character slice of S570.
+  **CORRECTION (2026-08-06):** the slice is NOT unrun. It was gated as v40
+  (`salphaseion_faed_slice_audit.json`, 50 unique scalars, no match) before this
+  section was written. Only a genuinely new family beyond that format sweep
+  would be fresh work; do not re-run it on this section's wording.
 - **`NOTES` (2026-07-16).** A capitalised callback to "NOTE: that is a hint",
   left unexplained. Open, uninterpreted.
 - **Continuing the alignment.** The 49-character middle block that `YOUWON`
@@ -237,9 +252,14 @@ claimed.
 The bottleneck has not moved: **no derivation of a scalar matching Half's exact
 public key.** Everything after Chain 4 is convention-dependent, and the new
 material adds one reproducible structural observation without adding a
-derivation. The creator's own framing — "still solvable with a few stable
-qubits" — is a reason to suspect the remaining step is not a clue we have
-missed, and his one self-declared hint points away from cryptanalysis entirely.
+derivation. **CORRECTED 2026-08-06:** the qubits line does not carry the weight
+this paragraph previously gave it. Read in full (see §2), it is a conditional
+fallback inside "IIFF I'm somehow still wrong, which I'm most likely not as
+I've verified many times"; the creator's primary, repeated claim is that the
+puzzle is classically solvable with the available material. The remaining gap
+should be treated as a missing operation, not as discrete-log hardness. His one
+self-declared hint still points at personal knowledge rather than
+cryptanalysis, and that part stands.
 
 Open frontier items are tracked in
 [ATTEMPT_LOG.md](ATTEMPT_LOG.md#12-current-open-frontier).

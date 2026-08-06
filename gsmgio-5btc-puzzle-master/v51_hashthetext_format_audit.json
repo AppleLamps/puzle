@@ -1,0 +1,137 @@
+{
+ "id": "v51_hashthetext_format",
+ "seal_ref": "b09fe31a66dcec2aff684fd7407a4fec7bcec87e4bd9a346a46b1f2356cfeb5e",
+ "aes_trials": 1850,
+ "padding_hits": [
+  {
+   "text": "T13_thispassword",
+   "form": "sha256_raw32",
+   "mode": "raw48_env48_salt",
+   "kdf": "sha256",
+   "len": 47,
+   "printable": 0.34,
+   "entropy": 5.34,
+   "head_hex": "bf0c25fe74d95d7480794acf0d4ad8c5ee2fccf1f8bce69a"
+  },
+  {
+   "text": "T13_thispassword",
+   "form": "sha256_raw32",
+   "mode": "glued96_header_salt",
+   "kdf": "sha256",
+   "len": 79,
+   "printable": 0.291,
+   "entropy": 5.91,
+   "head_hex": "31290924209e474d96e811eca20bd0d5e9c8e4eb27fbadeb"
+  },
+  {
+   "text": "T14_shabefanstoo",
+   "form": "double_sha256hex_lower",
+   "mode": "env48_header_salt",
+   "kdf": "sha256",
+   "len": 31,
+   "printable": 0.419,
+   "entropy": 4.89,
+   "head_hex": "78329e3f6c999284dc2dd56e4b758634ecb5d5df9cef5da7"
+  },
+  {
+   "text": "T15_hashthetext",
+   "form": "raw",
+   "mode": "env48_header_salt",
+   "kdf": "md5",
+   "len": 31,
+   "printable": 0.355,
+   "entropy": 4.83,
+   "head_hex": "ff1bdfe1b914fc8d38167a60245d5f6f5140b71e908d107a"
+  },
+  {
+   "text": "T19_first_page_text",
+   "form": "double_sha256hex_lower",
+   "mode": "raw48_env48_salt",
+   "kdf": "md5",
+   "len": 47,
+   "printable": 0.447,
+   "entropy": 5.43,
+   "head_hex": "2dee547055e840ca1c1418838c2e8480022782b09a107edf"
+  },
+  {
+   "text": "T19_first_page_text",
+   "form": "double_sha256hex_lower",
+   "mode": "glued96_header_salt",
+   "kdf": "md5",
+   "len": 79,
+   "printable": 0.43,
+   "entropy": 5.94,
+   "head_hex": "8aca36c48458824d252014067584abef44e37e26e95f4191"
+  },
+  {
+   "text": "T20_phase3_slug",
+   "form": "sha256hex_lower",
+   "mode": "raw48_env48_salt",
+   "kdf": "md5",
+   "len": 47,
+   "printable": 0.447,
+   "entropy": 5.43,
+   "head_hex": "2dee547055e840ca1c1418838c2e8480022782b09a107edf"
+  },
+  {
+   "text": "T20_phase3_slug",
+   "form": "sha256hex_lower",
+   "mode": "glued96_header_salt",
+   "kdf": "md5",
+   "len": 79,
+   "printable": 0.43,
+   "entropy": 5.94,
+   "head_hex": "8aca36c48458824d252014067584abef44e37e26e95f4191"
+  },
+  {
+   "text": "T28_textarea1_raw",
+   "form": "sha256hex_lower",
+   "mode": "raw48_nosalt",
+   "kdf": "md5",
+   "len": 47,
+   "printable": 0.362,
+   "entropy": 5.47,
+   "head_hex": "6eb477b9178f42161e35f523d03457577b51e3dda940e006"
+  },
+  {
+   "text": "T28_textarea1_raw",
+   "form": "double_sha256hex_lower",
+   "mode": "raw48_env48_salt",
+   "kdf": "md5",
+   "len": 47,
+   "printable": 0.362,
+   "entropy": 5.38,
+   "head_hex": "f75917b4b3a8693928a4110091e80209fb7eb41f972fa9eb"
+  },
+  {
+   "text": "T28_textarea1_raw",
+   "form": "double_sha256hex_lower",
+   "mode": "glued96_header_salt",
+   "kdf": "md5",
+   "len": 79,
+   "printable": 0.354,
+   "entropy": 6.15,
+   "head_hex": "89efb9bf00e0f8529dd990a2229b2029f675f1c87b984f9e"
+  },
+  {
+   "text": "T33_pipeline_concat",
+   "form": "sha256_raw32",
+   "mode": "env48_header_salt",
+   "kdf": "md5",
+   "len": 31,
+   "printable": 0.29,
+   "entropy": 4.95,
+   "head_hex": "db6f03d5658658409174e1d6ec8799ddf1be3470e866818e"
+  }
+ ],
+ "legible_hits": [],
+ "scalar_tests": 74,
+ "scalar_matches": [],
+ "status": "NO_LEGIBLE_OUTPUT",
+ "controls": {
+  "glue_md5_reproduces_79B": true,
+  "phase32_legible_control": true,
+  "gate_positive_control": true,
+  "gate_negative_control": true
+ }
+}

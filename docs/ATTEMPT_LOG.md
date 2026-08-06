@@ -411,6 +411,47 @@ reading whose object is some *other* artifact, but it removes the S-fields as it
 likely referent. Weight should shift toward `matrixsumlist` being a literal, and
 toward the pipeline phrases naming objects rather than operations.
 
+### 14d. The creator's own acceptance criterion, applied (2026-08-06)
+
+Reading only creator statements, one line is an **acceptance criterion** and has
+never been used as one:
+
+> 2021-03-14 — "Breaking salphation should be giving the feeling of the phase's
+> name."
+
+`SalPhaseIon` points at *salvation*. Taken plainly, a correct break produces
+something a human recognises. That is exactly the standard the phase-3.2 break
+meets, and it is testable.
+
+| Status | Measurement | Evidence |
+| --- | --- | --- |
+| **VERIFIED (true positive)** | The phase-3.2 envelope under its authenticated password decrypts to 2,422 bytes at 5.78 bits/byte entropy and 0.598 printable, opening `I've been waiting for you. You have many questions...` — legible on sight | `salvation_coherence_audit.json` |
+| **VERIFIED (the chain fails the criterion)** | The three chained unlocks the whole post-3.2 branch rests on are **not legible**. Chain 1 under the five-token password: 79 bytes, 6.13 bits/byte, 0.392 printable. Chain 2 under the derived WIF: 79 bytes, 6.09, 0.456. Cosmic under the seven-token XOR: 1,327 bytes, **7.87 bits/byte with 255 distinct byte values** — indistinguishable from random | same |
+| **VERIFIED (the null)** | Valid strict PKCS#7 padding arises by chance on these envelopes at **0.325–0.379%** per random password (20,000 trials each). The repository's own v38 recorded 10,065 padding hits in 2,551,032 trials = 0.394%, i.e. exactly the chance rate | same |
+| **VERIFIED (empirical demonstration)** | The v49 sweep produced **12,132 padding hits in 3,094,352 attempts (0.392%) and zero legible outputs.** Twelve thousand clean unpaddings, not one readable. Padding is therefore worthless as evidence, demonstrated rather than asserted | same |
+| **NEGATIVE (bounded)** | v49 Part B: the creator's seven published phrases plus the four authenticated SalPhaseIon literals, `yingyang` and `salvation`, swept as ordered combinations up to five tokens — his own ordered prefixes first — over three separators, two letter cases and EVP MD5/SHA-256, against all four authenticated envelopes. 386,794 passwords, 3,094,352 attempts, **no legible break and no prize match** | `solver/salvation_coherence_audit.py` |
+
+**What this changes.** It does not prove the chain is wrong, and it does not
+recover a key. It establishes that **nothing after phase 3.2 is authenticated**:
+the five-token chain-1 unlock, the WIF-derived chain-2 unlock and the
+seven-token XOR Cosmic unlock are each consistent with padding luck, and none is
+self-authenticating. `CLAUDE.md` already states that clean padding proves
+nothing — that rule was simply never applied to the repository's own load-bearing
+chain, and applying it removes the authentication from everything downstream,
+including the 1327-byte Cosmic plaintext, the base-38 output and all of Chain 4.
+
+This aligns three creator statements that previously sat awkwardly. He never
+named Cosmic, Chain 4 or base-38. He said "the hardest part is done" on
+2023-08-03, when the community's last *legible* result was phase 3.2. And he
+said breaking SalPhaseIon should feel like its name — which no 79-byte
+high-entropy blob does.
+
+**Consequence for the search.** The correct next lock should yield legible
+output, and legibility — not padding, not a scored near-match — is the gate to
+search under. The 96-byte chain-1 envelope is the first place the chain leaves
+legibility behind, which makes it the highest-value target, and its correct
+password is unknown rather than known.
+
 ### Corrections to standing guidance
 
 - `faed[94:201]` is **already gated** as v40 (`salphaseion_faed_slice_audit.json`,

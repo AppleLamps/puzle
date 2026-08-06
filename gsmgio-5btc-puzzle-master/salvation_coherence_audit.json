@@ -1,0 +1,117 @@
+{
+  "schema": "salvation-coherence-audit-v49",
+  "status": "NO_LEGIBLE_BREAK_AND_NO_PRIZE_MATCH",
+  "part_a_coherence_audit": {
+    "creator_criterion": {
+      "statement": "Breaking salphation should be giving the feeling of the phase's name.",
+      "date": "2021-03-14",
+      "reading": "SalPhaseIon points at 'salvation'; a correct break yields recognisable output"
+    },
+    "true_positive_reference": {
+      "length": 2422,
+      "entropy_bits_per_byte": 5.777502092861558,
+      "printable_ratio": 0.5978530140379852,
+      "legible": true,
+      "opening_bytes": "I've been waiting for you. You have many questions, and alth"
+    },
+    "chained_unlocks": {
+      "chain1_5token_password": {
+        "length": 79,
+        "entropy_bits_per_byte": 6.126565558303685,
+        "printable_ratio": 0.3924050632911392,
+        "legible": false,
+        "distinct_bytes": 72,
+        "sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf",
+        "opening_bytes_repr": "b'\\x9f\\xa9\\xdb\\x91\\xa9\\xde\\xe0\\xe3\\x8b\\x93iN\\xc8tc\\x0b0\\xf3/3g\\x19\\x87T;\\x1c\\xf9\\x13\\xf4td9\\x15\\x178\\x96\\x08\\xd5P!'"
+      },
+      "chain2_wif_password": {
+        "length": 79,
+        "entropy_bits_per_byte": 6.091693564605413,
+        "printable_ratio": 0.45569620253164556,
+        "legible": false,
+        "distinct_bytes": 71,
+        "sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004",
+        "opening_bytes_repr": "b'\\xb0o\\xa6\\xf2\\x05aul\\x86]\\xacq\\x90\\xf0cH\\n7\\x1eJ\\x13 nR\\x9e\\xe7\\xe9\\x07\\x8f0\\x9cK\\xb1\\x1d!\\x1c\\xa0\\xa1|\\xd6'"
+      },
+      "cosmic_7token_xor_password": {
+        "length": 1327,
+        "entropy_bits_per_byte": 7.870209988556002,
+        "printable_ratio": 0.40165787490580257,
+        "legible": false,
+        "distinct_bytes": 255,
+        "sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+        "opening_bytes_repr": "b\"D\\xd1\\x94\\x15\\x00\\x9a))\\xa8;/N\\r\\xa7\\xb1\\x80\\xd1/\\x8b4\\x1c\\xb8y\\xddv\\x9a\\xde\\x1f\\x8d9\\x9d@\\xae'i[\\x88\\n\\xa5p\""
+      }
+    },
+    "null_padding_rates": {
+      "chain1_envelope": {
+        "trials": 20000,
+        "padding_hits": 85,
+        "padding_rate": 0.00425,
+        "legible_hits": 0,
+        "note": "random passwords; this is the rate any campaign must be judged against"
+      },
+      "chain2_envelope": {
+        "trials": 20000,
+        "padding_hits": 71,
+        "padding_rate": 0.00355,
+        "legible_hits": 0,
+        "note": "random passwords; this is the rate any campaign must be judged against"
+      },
+      "cosmic_envelope": {
+        "trials": 20000,
+        "padding_hits": 65,
+        "padding_rate": 0.00325,
+        "legible_hits": 0,
+        "note": "random passwords; this is the rate any campaign must be judged against"
+      }
+    },
+    "finding": "The phase-3.2 break is legible and opens \"I've been waiting for you.\" None of the three chained unlocks downstream of it is legible: their plaintexts sit at 6.1 to 7.9 bits of entropy per byte with no readable text. Valid padding arises by chance at roughly 0.35 to 0.38 percent per password on these envelopes, so a campaign of the size this repository has run produces padding hits in the thousands by chance alone. The three unlocks are therefore consistent with padding luck and none of them is self-authenticating. That does not prove they are wrong, but it means the post-3.2 chain has no authentication behind it, and CLAUDE.md's own rule -- clean padding proves nothing -- was never applied to it."
+  },
+  "part_b_creator_password_search": {
+    "token_set": [
+      "yellowblueprimes",
+      "matrixsumlist",
+      "lastwordsbeforearchichoice",
+      "yinyang",
+      "wewontgiveawaythepassword",
+      "itsinfrontofyoureyesbutyourenotseeingit",
+      "verylaststepisatruegiveawaypromised",
+      "enter",
+      "thispassword",
+      "yingyang",
+      "salvation"
+    ],
+    "construction": {
+      "creator_ordered_prefixes": "tested first",
+      "ordered_combinations_up_to": 5,
+      "separators": [
+        "''",
+        "' '",
+        "'\\n'"
+      ],
+      "cases": [
+        "lower",
+        "upper"
+      ],
+      "kdf_digests": [
+        "md5",
+        "sha256"
+      ]
+    },
+    "envelopes": [
+      "chain1_envelope",
+      "chain2_envelope",
+      "cosmic_envelope",
+      "phase32_envelope"
+    ],
+    "passwords_tried": 386794,
+    "decryption_attempts": 3094352,
+    "padding_hits": 12132,
+    "padding_rate": 0.003920691634306634,
+    "legible_hits": [],
+    "prize_gate_hits": [],
+    "acceptance": "legibility only; padding is explicitly not acceptance"
+  },
+  "scope_note": "Part A is a measurement of already-recorded artifacts, not a new hypothesis: it reports entropy, legibility and the chance padding rate. Part B falsifies only the swept creator-token password family on the four authenticated envelopes under EVP MD5 and SHA-256. It does not test other KDFs, other envelopes, or tokens the creator never published."
+}

@@ -13,6 +13,7 @@
 | [`HALF_AND_BETTER_HALF.md`](HALF_AND_BETTER_HALF.md) | Why there is exactly one prize target, and what the phrase actually names | Maintained |
 | [`TRANSCRIPTS.md`](TRANSCRIPTS.md) | Agent/community transcript provenance | Maintained |
 | [`TELEGRAM_2026_REVIEW.md`](TELEGRAM_2026_REVIEW.md) | Review of the 2026-08-05 Telegram export: stages, creator hints, confirmed and refuted claims, next steps | Maintained |
+| [`REFOCUS_2026_08_06.md`](REFOCUS_2026_08_06.md) | Independent re-derivation of the headline claims, audit-integrity repairs, and the current priority call | Maintained |
 | [`../gsmgio-5btc-puzzle-master/RESEARCH_LEDGER.md`](../gsmgio-5btc-puzzle-master/RESEARCH_LEDGER.md) | Detailed claim/evidence ledger | Maintained |
 | [`../gsmgio-5btc-puzzle-master/VERIFICATION_REPORT.md`](../gsmgio-5btc-puzzle-master/VERIFICATION_REPORT.md) | Generated machine-verification report | Generated |
 | [`../gsmgio-5btc-puzzle-master/SALPHASEION_PREREGISTRATION.md`](../gsmgio-5btc-puzzle-master/SALPHASEION_PREREGISTRATION.md) | SalPhaseIon v1–v39 methodology/history | Maintained |

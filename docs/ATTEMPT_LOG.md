@@ -289,11 +289,19 @@ The exact candidate manifests and counts are in
 5. Explain the `YOUWON` alignment at S91 index 21. The arithmetic reproduces and
    the 21/49/21 split is exact, but no construction built from it has reached a
    prize gate, and only one of its three corroborating signals is independent.
+   The 49-letter middle block itself is now gated by v44 (section 14); what
+   remains open is why the alignment exists at all.
 
 Resolved on 2026-08-05: the independent 48-byte SalPhaseIon envelope (former
 item 3; sealed split-envelope audit, `salphaseion_split_envelope_results.json`,
 `NO_ACCEPTED_OUTPUT`) and the intended S91/S570 continuation (former item 4;
 sealed exhaustive shared base-9 substitution, `NO_ACCEPTED_OUTPUT`).
+
+Re-derivability note (2026-08-06): the split-envelope closure above could not
+be re-executed from committed bytes until this date, because its manifest was
+sealed against an uncommitted input file. It now re-derives through
+`salphaseion_split_envelope_results_v2.json`, with every result key identical.
+See section 14.
 
 No agent or checked-in audit has yet passed either prize oracle.
 
@@ -304,6 +312,52 @@ No agent or checked-in audit has yet passed either prize oracle.
 | --- | --- | --- |
 | **VERIFIED structural observation / HEURISTIC interpretation** | Read S570 as the header `fae` followed by 567 symbols. The remainder is exactly 9×63; S570 has a nine-symbol alphabet and the next raw field has exactly 63 symbols. This supplies a new low-free-parameter `matrixsumlist` candidate. Separately, the F-A-E Sonata was a musical cryptogram made collaboratively for a friend, who was challenged to identify each composer's movements; this may explain Jrk's “close friends” / “NOTES” wording, but Jrk never authenticated that association | `../findings.md` §13; F-A-E Sonata historical sources linked there |
 | **NEGATIVE (bounded)** | Source-order one-/zero-based 9×63 column sums and 63×9 row sums: nine fixed serializations, SHA-256/double-SHA scalar gates, and 168 short-envelope AES trials | `fae_9x63_preregistered.json` (seal `887c961a…340308e`), `fae_9x63_audit.json`, `solver/fae_9x63_audit.py`; 104 unique scalars, no prize match; no structured AES plaintext; one random-looking one-byte-padding output rejected |
-| **OPEN** | Compare S570 against a machine-readable F-A-E Sonata note/rest transcription, and test a preregistered operation combining the 63 generated sums with the immediately following F63 raw digits | The direct serialization negative does not refute the header, sonata, or paired-list hypotheses |
+| **NEGATIVE (bounded)** | v45 paired-list family, executing the second half of the OPEN row below: the four sealed sum lists combined elementwise with the following F63 digits under ten fixed pairings (add, both subtractions, XOR, product, three moduli, both interleaves) and the same nine serializations. 360 records, 660 unique scalars, 1,128 short-envelope AES trials, two chance padding hits against ~4.4 expected, no structured plaintext. Best elementwise agreement with F63 is 7 of 63 | `fae_paired_list_preregistered.json` (seal `7fbff3e8…13f894b`), `fae_paired_list_audit.json`, `solver/fae_paired_list_audit.py`; planted control accepted and real targets rejected on the same path |
+| **OPEN** | Compare S570 against a machine-readable F-A-E Sonata note/rest transcription. The sums × F63 pairing half of this row is now closed by v45 above; the sonata comparison still needs an external score and is untested | The direct serialization and paired-list negatives do not refute the header or sonata hypotheses |
 
 Provenance correction: `messages58.html` reply links show that Jrk's “many NOTES” replied to Anderson's request for another “NOTE” moment. Anderson's `youmeandself` URLs replied to “Give yourself yourself...”; Jrk's later “Nice” replied to an earlier clonazepam message, not those URLs. Any creator-endorsement reading is retracted.
+
+## 14. Independent re-verification and audit-integrity pass (2026-08-06)
+
+An independent session re-derived the headline claims from committed artifacts
+rather than trusting the write-ups, then checked whether the recorded negatives
+can still be re-executed at all. Every arithmetic claim held. Four defects in
+how results were recorded did not.
+
+### Claims re-derived from committed bytes
+
+| Status | Claim | What was recomputed |
+| --- | --- | --- |
+| **CONFIRMED** | Poster 24 colours + consecutive primes → Blue 484 / Yellow 479; the imbalance is the blue prime 5; zeroing it gives 479 = 479 | Recomputed from the marker string and the first 24 primes |
+| **CONFIRMED** | Architect `plaintext[479:]` begins `PRIVATEKEYYOUVEEARNEDITBUTPLEASE`; one-based 479 lands on the preceding `E` | 1,539-letter plaintext; `PRIVATEKEY` occurs exactly twice, at 479 and 1238, and 479 is preceded by `TAKETHE` |
+| **CONFIRMED** | `YOUWON` at zero-based index 21 of `S91 − VIC (mod 26)`, splitting 91 as 21/49/21; all five published checkpoints reproduce | `solver/youwon_index21_audit.py` re-run; the 8.4% rail-coincidence caveat is unchanged and still applies |
+| **CONFIRMED** | S570 = `fae` + 567 = 9×63, nine-symbol alphabet, following raw field exactly 63 symbols | Re-derived from `extract_raw()` |
+| **CONFIRMED** | Both prize gates and their controls: planted target accepted, real targets rejected, on the production code path | `solver.targets.self_check()` plus `gate_point` positive/negative controls |
+
+### Recording defects found and repaired
+
+| Status | Defect | Evidence |
+| --- | --- | --- |
+| **DEFECT (repaired)** | `salphaseion_split_envelope_preregistered.json` is correctly sealed but was built against an uncommitted copy of `seven_stage_passwords_intertwine_audit.json` (`e9cc5043…` vs the committed `be85c87d…`), so the evaluator's own drift gate rejected it and open-frontier item 3's closure could not be re-executed by anyone. Exactly one manifest path differs, so the candidate families are unaffected. v1 is left untouched; the re-sealed v2 reproduces `NO_ACCEPTED_OUTPUT` with **every** result key identical | `solver/salphaseion_split_envelope_reseal.py`, `salphaseion_split_envelope_results_v2.json` |
+| **DEFECT (repaired)** | `architect_source_prime_reinsertion_audit.json` recorded `manifest_sha256` `3c7073ae…`, which no committed manifest produces and which appears in no commit. Re-running against committed bytes yields the same `COMPLETE_NO_MATCH` and 132 unique valid scalars under manifest `b3dc146d…` | `architect_source_prime_reinsertion_audit.json` |
+| **NOT A DEFECT (documented)** | The v38 and v39 manifests are absent from version control, so their result digests resolve to nothing and the two largest negatives (2,551,032 and 1,807,668 AES trials) look unauditable. They are gitignored by size — 770 MB and 550 MB — and both regenerate **bit-exactly** to their sealed digests from committed code | verified this session; `solver/salphaseion_preregister_v38.py`, `…_v39.py` |
+| **DEFECT (repaired)** | Two Wayback cache bodies were committed corrupt: their bytes hash to neither their own content-addressed filenames nor their CDX digests. The cache writer skipped any existing path, so they could never be replaced, and the audit rebuilt its cache index from the same result file it overwrites — so one offline run permanently poisoned every later one. Both bodies re-fetched and verified | `solver/wayback_early_asset_audit.py` |
+| **INFRASTRUCTURE** | `solver/preregistration_integrity_audit.py` now checks all 53 seals, every recorded manifest digest, and each drift gate, with tests. Status is `CLEAN` | `preregistration_integrity_audit.json` |
+
+None of these repairs changes any research conclusion: every re-executed
+negative reproduced. What changed is that the negatives are now checkable.
+
+### New bounded negative
+
+| Status | Attempt and result | Evidence |
+| --- | --- | --- |
+| **CAUTION** | `v42_s91_middle_block.json` is titled "S91 49-Char Middle Block" and is cited as covering the block that `YOUWON` opens, but it slices the **raw base-9 field** `S91[21:70]` (`ihbeggege…`), not `D[21:70]` (`YOUWONXCPKWGBNAX…`) of the difference string. Different operand; the named block was untested, and v42's ten candidates say nothing about it | verified this session |
+| **NEGATIVE (bounded)** | v44: the difference blocks the 21/49/21 split defines — the full 91 letters, `middle49`, both 21-letter flanks, the middle with `YOUWON` removed, the concatenated flanks, and the two letterwise flank combinations — over two orientations, two letter cases and eight fixed byte derivations, plus 64 short-envelope AES trials. 192 unique scalars, no prize match, no valid padding at all | `youwon_middle_block_preregistered.json` (seal `c0808e1a…172a737`), `youwon_middle_block_audit.json`, `solver/youwon_middle_block_audit.py`; planted control accepted and real targets rejected on the same path |
+
+### Corrections to standing guidance
+
+- `faed[94:201]` is **already gated** as v40 (`salphaseion_faed_slice_audit.json`,
+  50 unique scalars). `docs/TELEGRAM_2026_REVIEW.md` §7 item 2, section 5 above,
+  and `CLAUDE.md` still describe it as untested. Anyone acting on that wording
+  would be re-running a closed family; only a genuinely new family beyond v40's
+  format sweep is worth attempting.

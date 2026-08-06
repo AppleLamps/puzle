@@ -1,0 +1,182 @@
+{
+  "schema": "creator-pipeline-poster-architect-v1",
+  "scope_note": "Poster 14x14 resistor matrixsumlist used as Architect plaintext index lists from yinyang offset 479; excludes Cosmic/Chain4/base38.",
+  "sum_lists": {
+    "poster_resistor_row_sums": [
+      73,
+      48,
+      60,
+      69,
+      73,
+      62,
+      82,
+      91,
+      57,
+      46,
+      58,
+      60,
+      64,
+      57
+    ],
+    "poster_resistor_col_sums": [
+      60,
+      48,
+      72,
+      42,
+      60,
+      75,
+      89,
+      73,
+      69,
+      71,
+      52,
+      67,
+      67,
+      55
+    ],
+    "poster_resistor_row_sums_eye_zeroed": [
+      73,
+      48,
+      60,
+      69,
+      73,
+      62,
+      82,
+      82,
+      57,
+      46,
+      58,
+      60,
+      64,
+      57
+    ],
+    "poster_resistor_col_sums_eye_zeroed": [
+      60,
+      48,
+      72,
+      42,
+      51,
+      75,
+      89,
+      73,
+      69,
+      71,
+      52,
+      67,
+      67,
+      55
+    ],
+    "poster_yellow_rows_resistor": [],
+    "poster_blue_rows_resistor": [],
+    "poster_yellow_cols_resistor": [],
+    "poster_blue_cols_resistor": []
+  },
+  "yinyang_offset": 479,
+  "families": [
+    {
+      "family": "poster_resistor_row_sums",
+      "scalar_tests": 40,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_resistor_col_sums",
+      "scalar_tests": 40,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_resistor_row_sums_eye_zeroed",
+      "scalar_tests": 40,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_resistor_col_sums_eye_zeroed",
+      "scalar_tests": 40,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_yellow_rows_resistor",
+      "scalar_tests": 2,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_blue_rows_resistor",
+      "scalar_tests": 0,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_yellow_cols_resistor",
+      "scalar_tests": 0,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_blue_cols_resistor",
+      "scalar_tests": 0,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_yinyang_absdiff_row",
+      "scalar_tests": 0,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_yinyang_min_row",
+      "scalar_tests": 0,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_yinyang_max_row",
+      "scalar_tests": 0,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_yinyang_absdiff_col",
+      "scalar_tests": 0,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_yinyang_min_col",
+      "scalar_tests": 0,
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "poster_yinyang_max_col",
+      "scalar_tests": 0,
+      "result": "NO_MATCH"
+    }
+  ],
+  "unique_scalars_tested": 162,
+  "scalar_tests": 162,
+  "matches": [],
+  "positive_control_accepted": true,
+  "target_self_check": {
+    "half": {
+      "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "hash160": "a9553269572a317e39f0f518cb87c1a0ee1dbae4",
+      "public_key_uncompressed": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+      "gate": "exact public key, plus hash160 under both serializations"
+    },
+    "better_half": {
+      "address": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+      "hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+      "public_key_uncompressed": null,
+      "gate": "hash160 only; never spent, so no public point exists"
+    },
+    "non_targets": {
+      "cosmic_base38[0:32]": {
+        "scalar": "0423d9115a1dc756d5d08d2de880ab508bd4745fc97709f4fcb513f2cb8fcc35",
+        "p2pkh_compressed": "1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu",
+        "p2pkh_uncompressed": "15E3pcDDXSKhvi3CLVhRTHEgd8dbVKvSZg",
+        "historical_label": "Half",
+        "status": "solver-derived, published, swept to zero; not a prize address"
+      },
+      "cosmic_base38[32:64]": {
+        "scalar": "48cc46e66bdd36b09ae344552f606a761f9d90681f20dfefe2b43db18b623971",
+        "p2pkh_compressed": "145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ",
+        "p2pkh_uncompressed": "1FhbJnrdq1FmeiXrpTqnpQ8jvYV7naze96",
+        "historical_label": "Better_Half",
+        "status": "solver-derived, published, swept to zero; not a prize address"
+      }
+    }
+  },
+  "overall_result": "NO_MATCH"
+}

@@ -500,3 +500,10 @@ and no phrase-derived AES password opens it.
   constructions. A new attempt in this area must use a genuinely different
   interleaving rule, KDF, or operand, not another concatenation or braid of the
   same phrases.
+
+## 15. Creator pipeline poster → Architect and OP_RETURN trace (2026-08-06)
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | Compose the creator 2023-02-23 pipeline on authenticated poster + Architect material: `yellowblueprimes` offset 479; `matrixsumlist` as 14×14 resistor row/column sum lists (eye zeroed variants included); index into Architect A–Z plaintext; optional Hope-quote overlay; yin/yang yellow-vs-blue row/column balance lists | `creator_pipeline_poster_architect_preregistered.json`, `creator_pipeline_poster_architect_audit.json`, `solver/creator_pipeline_poster_architect_audit.py`; **162** unique scalars, no prize match; excludes Cosmic/Chain4/base38 |
+| **NEGATIVE (community / tier-4)** | Trace OP_RETURN tx `66eefd6a…` (`FromN0EHalfABetterHalfBuiltItBellaCiao1_1Pi36y7…`): signer is embedded tip address (not prize/Cosmic keys); fan-out includes **864 sats** dust to prize Half; **10** SHA256 parse variants gated | `fromn0e_opreturn_trace.json`, `solver/fromn0e_opreturn_trace.py`, `tx_message_scan.json`; `NO_MATCH` |

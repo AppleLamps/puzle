@@ -1,0 +1,202 @@
+{
+  "schema": "fromn0e-opreturn-trace-v1",
+  "scope_note": "Single community OP_RETURN tx; tier-4 narrative only. Does not claim creator provenance.",
+  "txid": "66eefd6ad925bc38a10210161cb91dfa48dfcedf1eef7c15a23c5c3a3340f9ee",
+  "block_time": 1767108386,
+  "block_time_utc": "2025-12-30T15:26:26Z",
+  "message": "FromN0EHalfABetterHalfBuiltItBellaCiao1_1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ",
+  "structured_parse": {
+    "narrative_segment": "FromN0EHalfABetterHalfBuiltItBellaCiao1",
+    "embedded_tip_address": "1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ",
+    "self_referential": true,
+    "reading": "From N0E/Neo + HalfABetterHalf + BuiltIt + BellaCiao1, with sender's own address appended after '_'.",
+    "puzzle_token_hits": {
+      "HalfABetterHalf": true,
+      "BellaCiao1": true,
+      "CIAOBELLAO_echo": true,
+      "FromN0E_prefix": true
+    }
+  },
+  "transaction": {
+    "fee_sats": 4232,
+    "signer": "1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ",
+    "inputs": [
+      {
+        "address": "1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ",
+        "value_sats": 24418
+      }
+    ],
+    "outputs": [
+      {
+        "type": "p2pkh",
+        "address": "1218BAKUNpKx3owfrdBUFWqXEPfoG81W6c",
+        "value_sats": 864,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 0afe1d85faf548e79a2a4d3fea4830cb7c27643e OP_EQUALVERIFY OP_CHECKSIG"
+      },
+      {
+        "type": "p2pkh",
+        "address": "173ujrhEVGqaZvPHXLqwXiSmPVMo225cqT",
+        "value_sats": 864,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 425d9c60c16e8364c2125f2560c8d3e847c08279 OP_EQUALVERIFY OP_CHECKSIG"
+      },
+      {
+        "type": "p2pkh",
+        "address": "1Czoy8xtddvcGrEhUUCZDQ9QqdRfKh697F",
+        "value_sats": 864,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 83984cddc827ef7885444b3d4af57eba52e9e3cb OP_EQUALVERIFY OP_CHECKSIG"
+      },
+      {
+        "type": "p2pkh",
+        "address": "1Kr6QSydW9bFQG1mXiPNNu6WpJGmUa9i1g",
+        "value_sats": 864,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 cebb2851a9c7cfe2582c12ecaf7f3ff4383d1dc0 OP_EQUALVERIFY OP_CHECKSIG"
+      },
+      {
+        "type": "v0_p2wpkh",
+        "address": "bc1qfl95hj6l5f5x0qln4sutr37ce7u2mzufh6qa2v",
+        "value_sats": 864,
+        "asm": "OP_0 OP_PUSHBYTES_20 4fcb4bcb5fa2686783f3ac38b1c7d8cfb8ad8b89"
+      },
+      {
+        "type": "p2sh",
+        "address": "3JZq4atUahhuA9rLhXLMhhTo133J9rF97j",
+        "value_sats": 864,
+        "asm": "OP_HASH160 OP_PUSHBYTES_20 b91e28f4f8f6fced313112c0c72407d85ecec39a OP_EQUAL"
+      },
+      {
+        "type": "p2pkh",
+        "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+        "value_sats": 864,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 a9553269572a317e39f0f518cb87c1a0ee1dbae4 OP_EQUALVERIFY OP_CHECKSIG"
+      },
+      {
+        "type": "p2pkh",
+        "address": "1AZwaUn273AjjRkn8fYRo2oo7FTXGUbDnJ",
+        "value_sats": 864,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 68f400690075763ebe4bb8406b4998005c532bea OP_EQUALVERIFY OP_CHECKSIG"
+      },
+      {
+        "type": "p2pkh",
+        "address": "1H1YS6GyCPyA5Q6rmx58UzmeeDd3wXuFpN",
+        "value_sats": 864,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 af9c404bbe9860f76a10c681e5f0a0053d07c703 OP_EQUALVERIFY OP_CHECKSIG"
+      },
+      {
+        "type": "p2pkh",
+        "address": "1ESN18taqLrHzsZWj1wNSUmAshtE6u81GK",
+        "value_sats": 864,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 936590ec80aa4e405315a37dbb3eb3db6f747e81 OP_EQUALVERIFY OP_CHECKSIG"
+      },
+      {
+        "type": "v0_p2wsh",
+        "address": "bc1qxvay4an52gcghxq5lavact7r6qe9l4laedsazz8fj2ee2cy47tlqff4aj4",
+        "value_sats": 864,
+        "asm": "OP_0 OP_PUSHBYTES_32 333a4af67452308b9814ff59dc2fc3d0325fd7fdcb61d108e992b3956095f2fe"
+      },
+      {
+        "type": "op_return",
+        "address": null,
+        "value_sats": 0,
+        "asm": "OP_RETURN OP_PUSHBYTES_74 46726f6d4e304548616c664142657474657248616c664275696c74497442656c6c614369616f315f315069333679374c4a75675877464e44566a5231703870354a6f4237654e357a535a"
+      },
+      {
+        "type": "p2pkh",
+        "address": "1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ",
+        "value_sats": 10682,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 f91593bb5957f50a8e34a3d336b06630201fdc5a OP_EQUALVERIFY OP_CHECKSIG"
+      }
+    ],
+    "dust_outputs_to_prize_half": [
+      {
+        "type": "p2pkh",
+        "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+        "value_sats": 864,
+        "asm": "OP_DUP OP_HASH160 OP_PUSHBYTES_20 a9553269572a317e39f0f518cb87c1a0ee1dbae4 OP_EQUALVERIFY OP_CHECKSIG"
+      }
+    ],
+    "output_count": 13
+  },
+  "signer_is_cosmic_key": false,
+  "signer_is_prize_key": false,
+  "tip_address": {
+    "address": "1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ",
+    "decode": {
+      "version": 0,
+      "hash160_hex": "f91593bb5957f50a8e34a3d336b06630201fdc5a",
+      "matches_half_h160": false,
+      "matches_better_h160": false
+    },
+    "chain_stats": {
+      "funded_txo_count": 8,
+      "funded_txo_sum": 58332,
+      "spent_txo_count": 1,
+      "spent_txo_sum": 24418,
+      "tx_count": 8
+    }
+  },
+  "prize_oracle_tests": [
+    {
+      "label": "full_message",
+      "form": "sha256(utf8)",
+      "text": "FromN0EHalfABetterHalfBuiltItBellaCiao1_1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ",
+      "match": null
+    },
+    {
+      "label": "narrative_only",
+      "form": "sha256(utf8)",
+      "text": "FromN0EHalfABetterHalfBuiltItBellaCiao1",
+      "match": null
+    },
+    {
+      "label": "tip_address_only",
+      "form": "sha256(utf8)",
+      "text": "1Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ",
+      "match": null
+    },
+    {
+      "label": "narrative_plus_tip_no_separator",
+      "form": "sha256(utf8)",
+      "text": "FromN0EHalfABetterHalfBuiltItBellaCiao11Pi36y7LJugXwFNDVjR1p8p5JoB7eN5zSZ",
+      "match": null
+    },
+    {
+      "label": "FromNeo_spaced_guess",
+      "form": "sha256(utf8)",
+      "text": "FromNeoHalfAndBetterHalfBuiltItBellaCiao1",
+      "match": null
+    },
+    {
+      "label": "half_better_half_phrase",
+      "form": "sha256(utf8)",
+      "text": "HalfAndBetterHalfBuiltItBellaCiao",
+      "match": null
+    },
+    {
+      "label": "bella_ciao_token",
+      "form": "sha256(utf8)",
+      "text": "BellaCiao1",
+      "match": null
+    },
+    {
+      "label": "ciao_bella_o",
+      "form": "sha256(utf8)",
+      "text": "CIAOBELLAO",
+      "match": null
+    },
+    {
+      "label": "ciao_bella_o_lower",
+      "form": "sha256(utf8)",
+      "text": "ciaobellao",
+      "match": null
+    },
+    {
+      "label": "half_and_better_half_vic",
+      "form": "sha256(utf8)",
+      "text": "HALFANDBETTERHALF",
+      "match": null
+    }
+  ],
+  "prize_oracle_match": false,
+  "overall_result": "NO_MATCH",
+  "conclusion": "Third-party fan-out tx: signer equals embedded tip address; 864-sat dust to prize Half among 10 outputs; OP_RETURN is a community solve claim quoting VIC/Ciao Bella themes. No SHA256(parse variant) matches prize gates."
+}

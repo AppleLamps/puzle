@@ -1,0 +1,45 @@
+{
+  "schema": "creator-pipeline-poster-architect-v1",
+  "status": "SEALED_BEFORE_SCALAR_EVALUATION",
+  "hypothesis": "The creator 2023-02-23 pipeline composes on authenticated material: yellowblueprimes yields offset 479; matrixsumlist is the resistor row/column sum list of the 14x14 poster grid; extraction reads the Architect A-Z plaintext at indices derived from that list starting at 479; yinyang balances yellow-side vs blue-side row lists before extraction.",
+  "excludes": [
+    "cosmic_envelope",
+    "chain4",
+    "base38",
+    "community_operands"
+  ],
+  "inputs": {
+    "poster": "../sources/follow_the_white_rabbit.png",
+    "architect_plaintext_sha256": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241",
+    "yinyang_offset_zero_based": 479
+  },
+  "sum_lists": [
+    "poster_resistor_row_sums",
+    "poster_resistor_col_sums",
+    "poster_resistor_row_sums_eye_zeroed",
+    "poster_resistor_col_sums_eye_zeroed",
+    "poster_yellow_rows_resistor",
+    "poster_blue_rows_resistor",
+    "poster_yellow_cols_resistor",
+    "poster_blue_cols_resistor"
+  ],
+  "index_bases": [
+    "absolute_0based",
+    "from_479_0based",
+    "from_479_1based",
+    "cumulative_from_479_0based"
+  ],
+  "serializations": [
+    "sha256_ascii",
+    "sha256_lower",
+    "double_sha256",
+    "direct_first_32_if_len_ge_32",
+    "a1z26_concat_sha256"
+  ],
+  "lastwords_overlay": [
+    "none",
+    "hope_quote_first_letters_xor",
+    "beaufort_hope_on_extracted"
+  ],
+  "acceptance": "gate_scalar_bytes against solver.targets (Half point + both hash160 forms)"
+}

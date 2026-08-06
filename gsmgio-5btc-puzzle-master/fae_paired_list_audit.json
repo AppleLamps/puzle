@@ -1,0 +1,74 @@
+{
+  "schema": "fae-paired-list-audit-v45",
+  "status": "NO_PRIZE_MATCH_IN_PREREGISTERED_FAMILY",
+  "preregistration_sha256": "7fbff3e8bd9eac997a270d4575ea04258bb337eeac94f6e8f0f43b7e813f894b",
+  "records": 360,
+  "unique_scalar_tests": 660,
+  "unique_passwords": 564,
+  "aes_tests": 1128,
+  "valid_padding_count": 2,
+  "valid_padding": [
+    {
+      "provenances": [
+        "one_based/63x9_row_sums/sum_xor_digit/mod10_ascii/literal"
+      ],
+      "provenance_count": 1,
+      "kdf_digest": "md5",
+      "plaintext_hex": "40e0f5c929b5249022cfa19ff0983cba8acce82fb1af2fc566a20da760e8de8a7a5dc34f063e7ba47c38d9bf8b2a048471c35ed4db74ae8d2fd06143030c68c9a7b50459666a43b546236ea1a79ec8",
+      "printable_ratio": 0.4050632911392405,
+      "padding_length": 1
+    },
+    {
+      "provenances": [
+        "one_based/63x9_row_sums/interleave_sum_first/raw_sum_bytes/literal"
+      ],
+      "provenance_count": 1,
+      "kdf_digest": "sha256",
+      "plaintext_hex": "f55bc216793f578dcb96db93579be74fb854be9f242fe8289b19dcf96a981b18683fd0958fc1ef312af6c99285c516a85e8aa481e9fe33359be63a9ba41911d1007b093974e0cac6586be3b2510f00",
+      "printable_ratio": 0.3291139240506329,
+      "padding_length": 1
+    }
+  ],
+  "structured_plaintexts": [],
+  "elementwise_agreement_with_f63_of_63": {
+    "one_based/63x9_row_sums/sum_plus_digit": 0,
+    "one_based/63x9_row_sums/sum_minus_digit": 0,
+    "one_based/63x9_row_sums/digit_minus_sum": 0,
+    "one_based/63x9_row_sums/sum_xor_digit": 0,
+    "one_based/63x9_row_sums/sum_times_digit": 3,
+    "one_based/63x9_row_sums/sum_plus_digit_mod9": 4,
+    "one_based/63x9_row_sums/sum_plus_digit_mod10": 7,
+    "one_based/63x9_row_sums/sum_plus_digit_mod26": 4,
+    "one_based/9x63_column_sums/sum_plus_digit": 0,
+    "one_based/9x63_column_sums/sum_minus_digit": 0,
+    "one_based/9x63_column_sums/digit_minus_sum": 0,
+    "one_based/9x63_column_sums/sum_xor_digit": 0,
+    "one_based/9x63_column_sums/sum_times_digit": 3,
+    "one_based/9x63_column_sums/sum_plus_digit_mod9": 1,
+    "one_based/9x63_column_sums/sum_plus_digit_mod10": 3,
+    "one_based/9x63_column_sums/sum_plus_digit_mod26": 2,
+    "zero_based/63x9_row_sums/sum_plus_digit": 0,
+    "zero_based/63x9_row_sums/sum_minus_digit": 0,
+    "zero_based/63x9_row_sums/digit_minus_sum": 0,
+    "zero_based/63x9_row_sums/sum_xor_digit": 0,
+    "zero_based/63x9_row_sums/sum_times_digit": 3,
+    "zero_based/63x9_row_sums/sum_plus_digit_mod9": 4,
+    "zero_based/63x9_row_sums/sum_plus_digit_mod10": 6,
+    "zero_based/63x9_row_sums/sum_plus_digit_mod26": 1,
+    "zero_based/9x63_column_sums/sum_plus_digit": 0,
+    "zero_based/9x63_column_sums/sum_minus_digit": 0,
+    "zero_based/9x63_column_sums/digit_minus_sum": 0,
+    "zero_based/9x63_column_sums/sum_xor_digit": 0,
+    "zero_based/9x63_column_sums/sum_times_digit": 3,
+    "zero_based/9x63_column_sums/sum_plus_digit_mod9": 1,
+    "zero_based/9x63_column_sums/sum_plus_digit_mod10": 5,
+    "zero_based/9x63_column_sums/sum_plus_digit_mod26": 3
+  },
+  "control": {
+    "scalar": "00000000000000000000000000000000000000000000000000000000000c0de5",
+    "accepted_against_planted_target": true,
+    "rejected_against_real_targets": true
+  },
+  "matches": [],
+  "scope_note": "Falsifies only the sealed v45 family: four sum lists x ten fixed pairings with the F63 digits x nine serialisations, hashed and used as short-envelope AES passwords. It does not refute the F-A-E header reading, the 9x63 structure, or a sonata-derived mapping of S570, which needs an external score this audit never loads."
+}

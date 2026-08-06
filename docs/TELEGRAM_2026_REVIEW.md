@@ -216,8 +216,10 @@ laptop.
    `tools/telegram_media_reattach.py` recovers 841 more, and every recovered
    creator item is a reaction meme. The 1,116 still absent are community GIFs
    and stickers. Media is no longer a research priority.
-2. **Gate `faed[94:201]`.** Not because the `{1},{4},{21}` framing survives — it
-   does not — but because it is a named S570 slice nobody has run.
+2. ~~**Gate `faed[94:201]`.**~~ **Done and closed.** Recorded here as unrun, but
+   the slice was already gated as v40 (`salphaseion_faed_slice_audit.json`, 50
+   unique scalars, no match). Corrected 2026-08-06; only a new family beyond
+   that format sweep would be fresh work.
 3. **Read the Cosmic Duality PDF** against the Cosmic page — the name is the
    creator's, not a solver's label.
 4. **Continue treating Half's exact public key as the single prize gate.** The

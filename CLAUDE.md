@@ -168,10 +168,14 @@ From `docs/ATTEMPT_LOG.md` §12, unchanged as of 2026-08-05:
 4. A scalar matching Half's exact public key.
 5. The `YOUWON` alignment at S91 index 21.
 
-Also recorded but unassigned: gate the ~107-char `faed[94:201]` S570 slice; the
-unexplained creator `NOTES` callback of 2026-07-16; read
-`telegram/files/Cosmic Duality (Mysteries of the Unknown).pdf`; the 49-char
-middle block after `YOUWON`.
+Also recorded but unassigned: the unexplained creator `NOTES` callback of
+2026-07-16; read `telegram/files/Cosmic Duality (Mysteries of the Unknown).pdf`.
+
+Two former items on that list are closed, and both were closed *after* the
+wording above was written, so treat similar "unassigned" phrasing with
+suspicion: the ~107-char `faed[94:201]` S570 slice was gated as v40, and the
+49-char middle block after `YOUWON` as v44. See `docs/ATTEMPT_LOG.md` §14 and
+`docs/REFOCUS_2026_08_06.md`.
 
 ## What not to do
 
@@ -223,10 +227,16 @@ Verify the package still passes before and after a change:
 
 ```bash
 cd gsmgio-5btc-puzzle-master
-python -m pytest -q        # 47 tests, roughly 3 minutes
+python -m pytest -q        # 52 tests, roughly 100 seconds
 python -m solver.targets   # re-derives every target constant
 python -m solver.report    # regenerates VERIFICATION_REPORT.md
+python -m solver.preregistration_integrity_audit   # every seal, digest and drift gate
 ```
+
+The integrity audit is worth running before you trust any recorded negative.
+On 2026-08-06 it found a sealed manifest built from an uncommitted input, a
+result citing a manifest digest that exists nowhere, and two corrupt cache
+bodies the writer could never replace.
 
 The standalone stage scripts resolve their inputs through `scripts/_paths.py`
 and run from any directory:
@@ -252,3 +262,12 @@ Note that `python3` is not on PATH on this machine; use `py` or `python`.
   campaign is retained as a historical negative; the slug it targets is the
   SHA-256 of the first poster's visible text, not of phase-two parts 1..7. Do
   not use it as a current phase-two oracle. Its docstring says so.
+- `v42_s91_middle_block.json` is titled as the 49-character block that `YOUWON`
+  opens, but it slices the raw base-9 field `S91[21:70]`, not `D[21:70]` of the
+  difference string. Its ten candidates say nothing about the named block. The
+  block itself is gated by v44; the mislabel is left in place so the citation
+  trail stays intact.
+- The v38 and v39 preregistration manifests are gitignored by size (770 MB and
+  550 MB), so their result digests resolve to nothing on a fresh clone. They are
+  not lost: both regenerate bit-exactly to their sealed digests from committed
+  code, which the integrity audit records.

@@ -1,0 +1,65 @@
+{
+  "schema": "youwon-middle-block-audit-v44",
+  "status": "NO_PRIZE_MATCH_IN_PREREGISTERED_FAMILY",
+  "preregistration_sha256": "c0808e1ac9f032c13d8bfa2b75c299adb478bb745b35c353922b8f21a172a737",
+  "operands": {
+    "difference_full": {
+      "length": 91,
+      "sha256": "f17857308a886531637b33c9ddb92952206c286519412278ba9f836ffc69336e",
+      "text": "VOZIJBDTIQBRGVEOMZNBCYOUWONXCPKWGBNAXDGJGDUNNVMPABTAFPAAXMJYLZBUWERDNXYDESKUOBXCAMVDJLQTSGA"
+    },
+    "flanks_diff21": {
+      "length": 21,
+      "sha256": "3999fdcb13ec2144f018d705cbb31c601d4b635afa5d3a9db49509817d871e50",
+      "text": "XLVQZHPSLOBFLSVDWGVVC"
+    },
+    "flanks_sum21": {
+      "length": 21,
+      "sha256": "ff9c18c6ca22bccb13a1f5652b53f223f4c88df06783d551a917f8a5946d64b9",
+      "text": "TRDATVRUFSBDBYNZCSFHC"
+    },
+    "head21": {
+      "length": 21,
+      "sha256": "3ea3555db5f09b60ba1a3f88f49a408f0574c9ca49dad8c074ae06052db81695",
+      "text": "VOZIJBDTIQBRGVEOMZNBC"
+    },
+    "head_plus_tail42": {
+      "length": 42,
+      "sha256": "dda03a83d2ed51060874fb1adc978cedfd856b51b06bd563f65faa4ac23cb31f",
+      "text": "VOZIJBDTIQBRGVEOMZNBCYDESKUOBXCAMVDJLQTSGA"
+    },
+    "middle49": {
+      "length": 49,
+      "sha256": "0e9b4e3b4efff2b59cb9f5d609c500eba0d8d663500c525375a7246fbf10df78",
+      "text": "YOUWONXCPKWGBNAXDGJGDUNNVMPABTAFPAAXMJYLZBUWERDNX"
+    },
+    "middle_after_youwon43": {
+      "length": 43,
+      "sha256": "ee6b70d3f4bb1d1d35a769a4a5a76a9103bc323ae92a81760e5592a08ec0a886",
+      "text": "XCPKWGBNAXDGJGDUNNVMPABTAFPAAXMJYLZBUWERDNX"
+    },
+    "tail21": {
+      "length": 21,
+      "sha256": "a30e38769d8dcaff8a5bc03c971f52b8be43eaa7d16b2069641996dcd376c94a",
+      "text": "YDESKUOBXCAMVDJLQTSGA"
+    }
+  },
+  "v42_operand_comparison": {
+    "v42_sliced": "S91[21:70] (raw base-9 field)",
+    "this_audit_slices": "D[21:70] where D = S91 - VIC (mod 26)",
+    "same_operand": false,
+    "note": "v42_s91_middle_block.json does not test the block named in ATTEMPT_LOG or the Telegram review."
+  },
+  "unique_scalar_tests": 192,
+  "aes_tests": 64,
+  "valid_padding_count": 0,
+  "valid_padding": [],
+  "structured_plaintexts": [],
+  "control": {
+    "scalar": "00000000000000000000000000000000000000000000000000000000000c0de5",
+    "accepted_against_planted_target": true,
+    "rejected_against_real_targets": true
+  },
+  "matches": [],
+  "scope_note": "Falsifies only the sealed v44 family: eight difference-derived source strings x two orientations x two letter cases x eight fixed byte derivations, plus the listed short-envelope AES trials. It does not explain the YOUWON alignment and does not reach any construction needing an operand this audit never builds."
+}

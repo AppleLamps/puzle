@@ -75,8 +75,31 @@ def _load_cdx() -> tuple[Path, bytes, list[list[str]]]:
     return path, body, rows
 
 
+def _cached_bodies() -> dict[str, Path]:
+    """Map every cached body to its CDX digest by hashing the bytes.
+
+    The cache is content-addressed and each hit is verified against the CDX
+    digest anyway, so the mapping can be rebuilt from the body files alone.
+    Deriving it from the result artifacts instead made an offline run
+    self-poisoning: ``run`` overwrites ``RESULT_PATH``, so one run without
+    network access dropped the entry for any body it could not resolve, and
+    every later offline run then failed on the same body permanently.
+    """
+    found: dict[str, Path] = {}
+    if not BODIES.exists():
+        return found
+    for path in sorted(BODIES.glob("*.bin")):
+        try:
+            found.setdefault(_sha1_base32(path.read_bytes()), path)
+        except OSError:
+            continue
+    return found
+
+
 def _previous_cache() -> dict[str, dict[str, object]]:
     cached: dict[str, dict[str, object]] = {}
+    for digest, path in _cached_bodies().items():
+        cached[digest] = {"cache_path": str(path.relative_to(ROOT)).replace("\\", "/")}
     for path in (SOURCE_RESULT_PATH, RESULT_PATH):
         if not path.exists():
             continue
@@ -168,7 +191,10 @@ def run(*, fetch_missing: bool = True) -> dict[str, object]:
         else:
             sha256 = hashlib.sha256(body).hexdigest()
             cache_path = BODIES / f"{sha256}.bin"
-            if not cache_path.exists():
+            # The cache is content-addressed, so a file whose bytes do not hash
+            # to its own name is damaged and must be rewritten.  Skipping on
+            # mere existence left two corrupt bodies in place indefinitely.
+            if not cache_path.exists() or hashlib.sha256(cache_path.read_bytes()).hexdigest() != sha256:
                 cache_path.write_bytes(body)
             scan = _scan_body(body, f"{representative['timestamp']}/{representative['original']}")
             references = _references(body)

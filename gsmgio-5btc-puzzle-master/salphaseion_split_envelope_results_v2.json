@@ -1,0 +1,114 @@
+{
+  "accepted": [],
+  "accepted_count": 0,
+  "candidate_stream_sha256": "e89b26f9589504e21b3eea20673f2387cdf401b32ed99681618fab22c827986a",
+  "controls": {
+    "chain1_glued_with_joke_password": {
+      "pass": true,
+      "plaintext_length": 79,
+      "plaintext_sha256": "1449a2178eea7c0e3fabac8c1ad2afa294be4fc1800c594a025a056e88c626bf"
+    },
+    "chain1_wif": {
+      "pass": true,
+      "wif": "5K2byJMssxFKuTgnk9YQjpBz5FhkwwF2LaZoAyTus8HjGEpz8AT"
+    },
+    "chain2_with_wif": {
+      "pass": true,
+      "plaintext_length": 79,
+      "plaintext_sha256": "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c98b70f4d004"
+    },
+    "cosmic_with_xor_password": {
+      "pass": true,
+      "plaintext_length": 1327,
+      "plaintext_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081"
+    },
+    "planted_k1_recovery": {
+      "attempts": 112,
+      "message": "planted split envelope recovery control",
+      "message_sha256": "e1f8ad356d4337762f6d041cad7ee5fb2ff53413081d1627e95f9bcc897e70ac",
+      "planted_blob_sha256": "f284bfbf4aebf987cec0510409b7b085300e71612901f3f8ae32e4eac46e0291",
+      "planted_pair": {
+        "iv_id": "zero",
+        "key_id": "cosmic-evp-key",
+        "pair_id": "k1p0000"
+      },
+      "recovered": true,
+      "recoveries": [
+        {
+          "iv_id": "zero",
+          "key_id": "cosmic-evp-key",
+          "pair_id": "k1p0000",
+          "plaintext_sha256": "e1f8ad356d4337762f6d041cad7ee5fb2ff53413081d1627e95f9bcc897e70ac",
+          "readable_text": true
+        }
+      ]
+    }
+  },
+  "cross_blob": [],
+  "dedup_counts": {
+    "k1_duplicate_pairs_removed": 8,
+    "k2_duplicate_passwords_removed": 7,
+    "k3_duplicate_stage_one_plaintexts": 0
+  },
+  "family_counts": {
+    "K1": {
+      "accepted": 0,
+      "attempts": 112,
+      "padding_hits": 0
+    },
+    "K2": {
+      "accepted": 0,
+      "attempts": 84,
+      "padding_hits": 1
+    },
+    "K3": {
+      "accepted": 0,
+      "attempts": 12,
+      "padding_hits": 0,
+      "stage_one_unique_plaintexts": 1,
+      "stage_two_a_attempts": 4,
+      "stage_two_b_attempts": 8
+    },
+    "K4": {
+      "accepted": 0,
+      "base58check_tests": 18,
+      "format_scans": 18,
+      "scalar_gates": 17,
+      "windows": 17
+    },
+    "K5": {
+      "corpora": 17,
+      "hits": 0,
+      "needles": 16,
+      "searches": 272
+    }
+  },
+  "important": "Strict padding hits are recorded by hash and metrics only and are never accepted without a preregistered validator.",
+  "manifest_sha256": "3120e539358b4e8280da2487584070ac0ffb16865362629a4d702f59fe6e65d6",
+  "padding_hits_without_plaintext": [
+    {
+      "candidate_id": "hashthetext",
+      "family": "K2",
+      "formats": [],
+      "kdf_digest": "md5",
+      "padding_length": 1,
+      "password_form": "raw-bytes",
+      "plaintext_length": 31,
+      "plaintext_sha256": "3c506971b59a506abb8c3c5476a23911d3fd7c596e14d2e2170ca4f6ec42911b",
+      "readable_text": false,
+      "target": "env48",
+      "text_metrics": {
+        "length": 31,
+        "utf8": false
+      }
+    }
+  ],
+  "prize_gate": {
+    "matches": [],
+    "output_slices_tested": 0,
+    "valid_scalars": 0
+  },
+  "salt_hits": [],
+  "schema": "salphaseion-split-envelope-audit-results-v1",
+  "status": "NO_ACCEPTED_OUTPUT"
+}

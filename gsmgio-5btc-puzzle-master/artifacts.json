@@ -919,8 +919,8 @@
     },
     {
       "path": "SALPHASEION_PREREGISTRATION.md",
-      "length": 22843,
-      "sha256": "5f4aa62b3736f114c4474218a6fdc5a80d0232e0c2f3c2fc3a67dea8ce07bff7"
+      "length": 26869,
+      "sha256": "b65df0ec3735de4c3d7a2de92a2ef7fd09bc59c553e37f4c5567eae9a0e73c61"
     },
     {
       "path": "salphaseion_selector_frontier_audit.json",
@@ -1081,6 +1081,11 @@
       "path": "yinyang_479_continuation_audit.json",
       "length": 10621,
       "sha256": "9f564bee0994b799f7e40ef701f5de67275ab769d646b33cc844d3c98f1ce5ab"
+    },
+    {
+      "path": "youwon_index21_audit.json",
+      "length": 4695,
+      "sha256": "07195df5c53a8a48445e6242229a408ee8c28d2afa8d3fd435cdfe0604912b6b"
     }
   ],
   "artifacts": [
@@ -7716,22 +7721,22 @@
         "new_unique_tokens": 0
       },
       {
-        "file": "derived/salphaseion_parts.json",
+        "file": "salphaseion_parts.json",
         "bytes": 841,
         "new_unique_tokens": 0
       },
       {
-        "file": "derived/second_door_yellow_red_audit.json",
+        "file": "second_door_yellow_red_audit.json",
         "bytes": 6438,
         "new_unique_tokens": 0
       },
       {
-        "file": "derived/second_door_yellow_red_followup.json",
+        "file": "second_door_yellow_red_followup.json",
         "bytes": 2890,
         "new_unique_tokens": 0
       },
       {
-        "file": "derived/second_door_yinyang_joint_audit.json",
+        "file": "second_door_yinyang_joint_audit.json",
         "bytes": 7382,
         "new_unique_tokens": 15
       }

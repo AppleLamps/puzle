@@ -397,3 +397,74 @@ This retires direct AES enumeration from matrix material. The live frontier is
 to identify the cipher or indexing operation represented by S91/S570 before
 AES is involved. No authenticated clue currently selects a further arithmetic
 or serialization rule.
+
+## v40 faed[94:201] explicit format sweep
+
+The substring `faed[94:201]` from the authenticated S570 base-9 field 
+(a 107-character slice) was proposed by a community member as "row 4" in 
+a 21-row layout corresponding to `{1},{4},{21}`. While the 21-row framing 
+was retracted (the source `textarea1` contains no line breaks), the string 
+itself remains an unexhausted operand. 
+
+v40 explicitly sweeps this ~107-char slice under bounded formatting rules:
+- Direct SHA-256 and Double SHA-256 digests of the ASCII string.
+- Base-9 interpretation (Tier 2 calculation explicitly mapping `a-i` to `0-8`). 
+  The 107-character base-9 integer requires 43 bytes. We extract all 32-byte 
+  sliding windows (1-byte steps) over this 43-byte result: `43 - 32 + 1 = 12` 
+  windows. Tested under both big-endian and little-endian conversions, plus 
+  reversing the string before base-9 conversion, for 48 logic candidates.
+- Both prize targets are gated via `solver/targets.py` (Half pubkey and 
+  Better Half hash160 under both serializations).
+
+## v41 479-Continuation Literal 7-Phrase Concatenation
+
+**Frontier Target:** OPEN frontier #1: Intended operation after Architect offset 479.
+
+**Exact Input:**
+`derived/phase32_plaintext.txt[479:1539]` 
+(The 1060 characters beginning `PRIVATEKEYYOUVEEARNEDITBUTPLEASE...`) 
+with SHA-256.
+
+**Constraint Adherence & Provenance:**
+Offset 479 is exact and authenticated by the Tier-1 Yin-Yang milestone (`Blue 484 - prime 5 = 479`). The text at this offset explicitly reads `PRIVATEKEY...`. 
+The 7-phrase order (`matrixsumlist`, `lastwordsbeforearchichoice`, `yinyang`) is the established, creator-stated sequence. 
+Because no matrix dimensions (like 20x53), no suffix length `k`, and no specific complement arithmetic (`255-x` vs `26-x`) can be strictly forced by Tier-1 evidence for this specific 1060-character text, we abandon treating the sequence as a mathematical operation. Instead, we use the phrases as exact string literals, concatenating them to avoid arbitrary solver selections.
+
+**Exact Operation / Candidate Definition:**
+We generate exactly 2 candidates using direct string concatenation of the 1060-character input text and the three literal strings in their exact 7-phrase order:
+1. `SHA256(text + "matrixsumlist" + "lastwordsbeforearchichoice" + "yinyang")`
+2. `SHA256("matrixsumlist" + "lastwordsbeforearchichoice" + "yinyang" + text)`
+
+**Gate:**
+Both targets are gated via `solver/targets.py` (Half's exact uncompressed public key, Better Half's hash160).
+
+## v42 S91 49-Char Middle Block Format Sweep
+
+**Frontier Target:** OPEN frontier #5: YOUWON alignment at S91 index 21 (evaluating the unassigned 49-character middle block).
+
+**Exact Input & Indices:**
+The exact S91 string (91 characters) from `derived/salphaseion_parts.json` is:
+`dbbibfbhccbegbihabebeihbeggegebebbgehhebhhfbabfdhbeffcdbbfcccgbfbeeggecbedcibfbffgigbeeeabe`
+The 21/49/21 partition exactly aligns the 49-character middle block at `S91[21:70]`:
+`ihbeggegebebbgehhebhhfbabfdhbeffcdbbfcccgbfbeegge`
+
+**Constraint Adherence:**
+- Does not re-test the `faed[94:201]` S570 slice.
+- No free ciphers are introduced.
+- Bounded formatting equivalent to v40, applied natively since the base-9/10 integer easily left-pads to a 32-byte scalar.
+
+**Exact Operation / Candidate Definition:**
+We evaluate the 49-character ASCII string under these exact rules to produce 32-byte scalars:
+1. Direct SHA-256 digest of the ASCII string.
+2. Double SHA-256 digest of the ASCII string.
+3. Base-9 Integer: Map `a-i` to `0-8`, evaluate as base-9, left-pad with zero-bytes to 32 bytes (Big-Endian).
+4. Base-9 Integer (LE): Padded to 32 bytes (Little-Endian).
+5. Base-10 Integer: Map `a-i` to `1-9`, evaluate as base-10, left-pad to 32 bytes (Big-Endian).
+6. Base-10 Integer (LE): Padded to 32 bytes (Little-Endian).
+7-10. Reversals: Reverse the string and apply the same 4 integer conversions.
+
+**Exact Candidate Count:**
+Exactly 10 candidate scalars.
+
+**Gate:**
+All candidates gated via `solver/targets.py` against both targets.

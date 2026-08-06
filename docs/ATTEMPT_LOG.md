@@ -153,6 +153,9 @@ The exact candidate manifests and counts are in
 | **NEGATIVE** | v37 URL characters/bits at prime slots | `url_prime_reinsertion_results.json` |
 | **NEGATIVE** | v38 zero-prime 7×13/VIC family: 2,551,032 AES trials | `RESEARCH_LEDGER.md` |
 | **NEGATIVE** | v39 19×30 “last words” transpositions: 1,807,668 AES trials | same |
+| **NEGATIVE** | v40 faed[94:201] S570 107-char slice format sweep: 50 unique scalars | `salphaseion_faed_slice_audit.json` |
+| **NEGATIVE** | v41 479-Continuation Literal 7-Phrase Concatenation: 2 candidates | `v41_479_literal_concat.json` |
+| **NEGATIVE** | v42 S91 49-Char Middle Block Format Sweep: 10 candidates | `v42_s91_middle_block.json` |
 | **NEGATIVE** | Bounded `matrixsumlist` grid/list/base-9/scalar family | `matrixsumlist_audit.json` |
 | **NEGATIVE** | Prime-reinsertion serializations: 1,376 scalar records, 160 unique nonzero scalars | `prime_reinsertion_audit.json` |
 | **NEGATIVE** | S-field T9 substitution/global decode | `sfield_t9_audit.json` |

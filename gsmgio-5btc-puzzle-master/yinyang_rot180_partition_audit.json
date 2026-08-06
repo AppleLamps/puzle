@@ -1,0 +1,48 @@
+{
+  "schema": "yinyang-rot180-partition-audit-v47",
+  "status": "NO_PRIZE_MATCH_IN_PREREGISTERED_FAMILY",
+  "preregistration_sha256": "c69d8798b5eb86f59bbf535f9b6fcae03e0912d6f19c12ee3706b78080fe49c1",
+  "measured_structure": {
+    "pairs": 98,
+    "inverting_pairs": 49,
+    "non_inverting_pairs": 49,
+    "non_inverting_dark_dark": 26,
+    "non_inverting_light_light": 23,
+    "off_white_cell": [
+      7,
+      4
+    ],
+    "off_white_spiral_index": 163,
+    "off_white_rot180_partner": [
+      6,
+      9
+    ],
+    "off_white_rot180_partner_spiral_index": 173,
+    "off_white_rot180_partner_is_dark": true,
+    "innermost_four_spiral_bits": "0000"
+  },
+  "streams": {
+    "yin_bits98": "01100110101011011001100101010010111011100000100011011010101001010101101001010111001101000110011100",
+    "yang_bits98": "11101101011110110101110011011100111001101110010011001011001100101101101000010110100001110100100000",
+    "rot180_inversion_mask98": "11111011110010101100100011010100110110001010001011110100110000001010000110100000101111111111000100",
+    "rot180_inversion_mask98_complement": "00000100001101010011011100101011001001110101110100001011001111110101111001011111010000000000111011",
+    "pair_first_member_bits98": "01100111011100110110110101111100101111011101000101100101011001010100110111000001011011100101010100",
+    "yin_then_yang_bits196": "0110011010101101100110010101001011101110000010001101101010100101010110100101011100110100011001110011101101011110110101110011011100111001101110010011001011001100101101101000010110100001110100100000",
+    "dark_dark_pair_bits52": "1111111111111111111111111111111111111111111111111111",
+    "light_light_pair_bits46": "0000000000000000000000000000000000000000000000"
+  },
+  "serialized_records": 32,
+  "unique_scalar_tests": 201,
+  "unique_passwords": 62,
+  "aes_tests": 124,
+  "valid_padding_count": 0,
+  "valid_padding": [],
+  "structured_plaintexts": [],
+  "control": {
+    "scalar": "00000000000000000000000000000000000000000000000000000000000c0de5",
+    "accepted_against_planted_target": true,
+    "rejected_against_real_targets": true
+  },
+  "matches": [],
+  "scope_note": "Falsifies only the sealed v47 family: eight streams from the rot180 pair partition x four serializations x seven derivations, plus the listed short-envelope AES trials. The structural facts it records -- the exact 49/98 inverting split and the 26/23 non-inverting split -- stand independently of this negative, and the partition may still be the right object under a composition this audit never builds."
+}

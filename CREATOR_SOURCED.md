@@ -9,6 +9,15 @@ Everything below is separated by provenance. The distinction matters because the
 public corpus mixes creator artifacts with solver interpretation, and several
 widely repeated "facts" turn out to be the latter.
 
+> **This file is mixed-provenance; the title names its subject, not its
+> authority.** Only [The creator's statements, in order](#the-creators-statements-in-order)
+> and [Newer creator hints (decoded)](#newer-creator-hints-decoded) are primary.
+> Every other section — "re-examined", "missed construction", "continuation
+> audit", "poster re-exam", and all of the closed/open notes — is solver
+> analysis, and is hypothesis under the rule stated immediately below, however
+> confidently it is written. Do not cite those sections as creator evidence.
+> This warning exists because an agent did exactly that.
+
 ## What counts as creator-sourced
 
 1. The images and pages the creator published on `gsmg.io`, as archived.
@@ -47,7 +56,7 @@ work and is treated here as hypothesis, however often it is repeated.
 | 2026-07-12 | "Most of you know the puzzle WAAAY better than me at this point. **I have a hidden laptop which I haven't touched in years. On that thing… is the actual answer.**" |
 | 2026-07-12 | "**My close friends have the best chance of solving it** (a few tried). But they don't have the skills some of you do." immediately followed by "**NOTE: that is a hint.**" |
 | 2026-07-12 | "I held quite a secret in my head which I seriously wanted to share with the planet… for those who can understand what I meant" / "**The '5' btc was never the actual prize. That was only a tiny fraction.**" / "(And yes, **the btc is still available** before you fire any questions)." |
-| 2026-07-12 | "it's all **still solvable with a few stable qubits**" — i.e. the creator expects the remaining gap to be an ECDLP-hard step, not a missing clue |
+| 2026-07-12 | "it's all **still solvable with a few stable qubits**" |
 | 2026-07-12 | (to a sceptic) "**Some already found it. And understood not to risk it…** 🤐" |
 | 2026-07-16 | "Lately, I'm working with many **NOTES**." (in a thread about the 2026-07-12 "NOTE: that is a hint") / "Give yourself yourself and yourself will be given yourself." |
 
@@ -61,6 +70,26 @@ the creator describing his own construction:
     wewontgiveawaythepassword
     itsinfrontofyoureyesbutyourenotseeingit
     verylaststepisatruegiveawaypromised
+
+### Contested readings of the table above
+
+These are **interpretations, not creator statements**, and they are kept out of
+the table so that a reader cannot mistake one for the other.
+
+- *"still solvable with a few stable qubits"* (2026-07-12). This repository
+  previously annotated that line, inside the table itself, as meaning the
+  creator expects the remaining gap to be an ECDLP-hard step rather than a
+  missing clue. That is one reading. The competing reading — that it is a
+  rhetorical hedge on the same drunk evening he also said "The puzzle is still
+  valid!", "the hardest part is done", and that the answer sits on a laptop he
+  has not touched in years — is at least as well supported, and it is the one
+  that fits the roadmap being a finite chain of ordinary operations. Neither
+  reading is settled. Do not plan around quantum hardware, and do not treat the
+  ECDLP reading as creator-confirmed.
+- The 2023-02-23 pipeline is creator-authored and its **order** is the strongest
+  structural constraint available. Which object each of its seven phrases acts
+  on — the 196-cell poster grid, the 24 markers, the S91 field, the Architect
+  plaintext — is *not* stated by the creator and is solver inference every time.
 
 ## The 2026 statements, read carefully
 

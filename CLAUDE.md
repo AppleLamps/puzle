@@ -16,7 +16,7 @@ re-running a bounded family that section 12 already records as **NEGATIVE**.
 | --- | --- |
 | `README.md` | Entry point and current result summary |
 | `SOLUTION.md` | Narrative reconstruction of every reproduced stage |
-| `CREATOR_SOURCED.md` | Creator-authenticated chronology; the provenance boundary |
+| `CREATOR_SOURCED.md` | **Mixed provenance** — see the evidence hierarchy below |
 | `docs/INDEX.md` | Index of every maintained document — start navigation here |
 | `docs/ATTEMPT_LOG.md` | **Canonical append-only log** of approaches, 12 sections |
 | `docs/SOLVED_STAGE_REAUDIT.md` | Independent re-derivation; authenticated vs fitted |
@@ -47,6 +47,43 @@ Inside the package:
 Path conventions in `docs/ATTEMPT_LOG.md`: a bare filename is relative to
 `gsmgio-5btc-puzzle-master/`; a `../` prefix means the repository root.
 
+## The evidence hierarchy
+
+Rank every claim before you rely on it. Most agent errors here are not bad
+arithmetic; they are treating tier 3 as tier 1.
+
+1. **Primary.** What the creator published or said: the archived `gsmg.io`
+   pages and images, messages from `Jrk Bgrt`, and any plaintext that
+   *decrypts* from a creator-published ciphertext (a coherent AES output is
+   self-authenticating). The 2023-02-23 seven-phrase pipeline is the single
+   most valuable item in this tier, and its **order** is the strongest
+   structural constraint in the puzzle.
+2. **Verified this session.** Something you computed and can show. Say so.
+3. **Prior-agent bounded negatives** — most of `docs/ATTEMPT_LOG.md`. These are
+   *claims with a scope*, and the scope is the whole content.
+4. **Community claims.** Weakest; reproduce before use.
+
+Two rules follow, both written after real failures:
+
+- **`CREATOR_SOURCED.md` is mixed-provenance and its title misleads.** Only
+  "The creator's statements, in order" and "Newer creator hints (decoded)" are
+  tier 1. Every "re-examined" / "audit" / "closed this pass" section is tier 3,
+  however confidently phrased. An agent cited its analysis sections as creator
+  evidence and told a user to drop a live line of work on that basis.
+- **Cite a NEGATIVE by its `scope_note`, not by the log's one-line summary.**
+  Spot-checked, two of three summaries read broader than the run they describe:
+  `matrixsumlist_audit.json` is over the **S91 field**, not the 14×14 poster
+  grid, and `second_door_yellowblueprimes_audit.json` states in its own scope
+  note that it "does not re-enumerate plain spiral bit orders". The audit that
+  actually covers prime-index zeroing over all 196 cells, 14×14 sum/product/
+  determinant matrices, and diagonal splits is
+  `second_door_frontier_derivations.json` (2,019 materials, `NO_MATCH`). Open
+  the JSON. A NEGATIVE never means "this idea is dead"; it means one bounded
+  family missed.
+
+Also: the creator's own words outrank this repository's conclusions about them.
+Where the two conflict, say so plainly rather than quietly siding with the file.
+
 ## The two prize targets
 
 Everything is judged against these, and only these:
@@ -72,6 +109,26 @@ Gate every candidate through `solver.targets.gate_scalar` /
 `gate_scalar_bytes`. Do not copy target constants into a new module.
 
 ## What is established
+
+**The creator's own roadmap.** The 2023-02-23 encoded image decodes — by
+reversing byte order and bit order — to seven ordered phrases:
+
+```text
+1. yellowblueprimes                        5. wewontgiveawaythepassword
+2. matrixsumlist                           6. itsinfrontofyoureyesbutyourenotseeingit
+3. lastwordsbeforearchichoice              7. verylaststepisatruegiveawaypromised
+4. yinyang
+```
+
+This is tier 1 and the order is creator-stated. What each phrase *operates on*
+is not: the community and this repository have variously read them against the
+196-cell poster grid, the 24 markers, the S91 field and the Architect
+plaintext. Phrases 2 and 3 also appear verbatim as authenticated SalPhaseIon
+literals, which is evidence they are literals, not only instructions — that
+tension is unresolved. The creator has said three separate times (2023-08-06,
+2025-04-28, 2026-03-03) that reaching `yinyang` means solving it the same day,
+in two hours, in no-time. Any candidate for step 4 that does not yield an
+obvious dual/opposite/half object with rapid continuation is probably wrong.
 
 Authenticated — an exact hash, decryption, or independent source fixes it:
 

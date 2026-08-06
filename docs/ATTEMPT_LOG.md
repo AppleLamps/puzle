@@ -355,6 +355,37 @@ negative reproduced. What changed is that the negatives are now checkable.
 | **NEGATIVE (bounded)** | v46: the balanced prime pair used as key material rather than as a text index. Twelve lists the dual reading defines — all 24 primes, the same with the blue 5 zeroed, yellow 9, blue 15, blue-zeroed and blue-dropped, both concatenation orders, the mirror pair, both colour masks, and the `[479, 479]` pair — over nine serializations and six derivations including `yinyang`-prefixed and suffixed hashes, plus 408 short-envelope AES trials. 660 unique scalars, no prize match, one chance padding hit against ~1.6 expected. Distinct from the three prior prime audits, which index text or hash poster streams rather than serializing the value lists | `yinyang_prime_dual_preregistered.json` (seal `5aa3efc2…707d3ad`), `yinyang_prime_dual_audit.json`, `solver/yinyang_prime_dual_audit.py`; planted control accepted and real targets rejected on the same path |
 | **NEGATIVE (bounded)** | v44: the difference blocks the 21/49/21 split defines — the full 91 letters, `middle49`, both 21-letter flanks, the middle with `YOUWON` removed, the concatenated flanks, and the two letterwise flank combinations — over two orientations, two letter cases and eight fixed byte derivations, plus 64 short-envelope AES trials. 192 unique scalars, no prize match, no valid padding at all | `youwon_middle_block_preregistered.json` (seal `c0808e1a…172a737`), `youwon_middle_block_audit.json`, `solver/youwon_middle_block_audit.py`; planted control accepted and real targets rejected on the same path |
 
+### 14b. Yin-yang focused pass (2026-08-06)
+
+A yin-yang's defining property as a symbol is **180° rotational symmetry with
+colour inversion**. The repository had tested colour inversion, L/R, top/bottom,
+diagonal and interleave rules on the poster, and eight spiral symmetries, but
+never the partition that rotational inversion itself induces. Measured here
+under the authenticated URL bit convention (black/blue = 1, off-white counted
+white):
+
+| Status | Structural fact | Note |
+| --- | --- | --- |
+| **VERIFIED** | The 196 cells form 98 rot180 pairs with no fixed point, and **exactly 49 of the 98 invert** | A perfect half. This is the strongest sense in which the artifact *is* a yin-yang under the symbol's own symmetry — but 49 is exactly the chance expectation, so it is a clean construction, not a surprising coincidence |
+| **VERIFIED** | The 49 non-inverting pairs split **26 dark-dark against 23 light-light** | The 49 inverting pairs carry 49 ones and 49 zeros, which is forced, not evidence |
+| **VERIFIED** | All three rotations (90°, 180°, 270°) split the 196 comparisons exactly 98 same / 98 different. `flip_h` gives 114/82, `flip_v` 86/110, `transpose` 112/84, `anti_transpose` 106/90 | Only the rotations balance |
+| **VERIFIED** | `sources/follow_the_white_rabbit.png` contains exactly **five** distinct colours across all 122,500 pixels, and the off-white `(254,254,254)` region is exactly 625 pixels — one 25×25 cell | So there is exactly **one** anomalous cell. A yin-yang has two eyes; the poster has one. No near-black twin exists, and any "two eyes" reading is closed on this artifact |
+| **VERIFIED** | The off-white cell `(7,4)` has spiral index 163; its rot180 partner `(6,9)` is black at spiral index 173. The four innermost spiral cells — the residual beyond the 192 URL bits — are all white, which is the recorded `0000` | The partner being black is unremarkable on its own: 86 of 196 cells are dark |
+| **NEGATIVE (bounded)** | v47: eight streams from the rot180 partition — both 98-cell halves in spiral order, the inversion mask and its complement, the pair-first-member stream, the concatenated 196, and the dark-dark and light-light pair streams — over four serializations and seven derivations including `yinyang`-prefixed and suffixed hashes, plus 124 short-envelope AES trials. 201 unique scalars, no prize match, **no valid padding at all** | `yinyang_rot180_partition_preregistered.json` (seal `c69d8798…0fe49c1`), `yinyang_rot180_partition_audit.json`, `solver/yinyang_rot180_partition_audit.py`; planted control accepted and real targets rejected |
+| **REJECTED (false positive, recorded so it is not re-found)** | Using the poster's 14 row sums as offsets from 479 into the Architect plaintext yields `EYEKEETAYYKEKY`, and the column sums yield `EYEYEKVEKTYEEE`. Both open with `EYE`, which is tempting next to `itsinfrontofyoureyesbutyourenotseeingit`. It is an artifact: small offsets from 479 land inside `PRIVATEKEY`, whose letters supply E, Y and E at 485/489/487, and everything after the third character is noise | This is exactly the "readable English fragment" trap in `CLAUDE.md`; no candidate was gated on it |
+
+Also computed and unremarkable: the poster bit matrix has 101 ones; row sums
+total 101 with top-half 48 versus bottom-half 53; column sums give left 54
+versus right 47. None of the sum lists spell anything as direct, offset,
+cumulative or `479`-anchored indices into the Architect plaintext.
+
+**Assessment.** Yin-yang remains unreached, consistent with the creator's own
+position as of 2026-03-03. The artifact carries genuine, now fully inventoried
+duality — 86 = 86, the mirrored L/R counts 44/42 against 42/44, the 49/98
+rotational split — but every balance found so far is a *property* rather than an
+operation, and no transform turning any of them into a door or a scalar has been
+found. The missing piece is still a composition rule, not more candidates.
+
 ### Corrections to standing guidance
 
 - `faed[94:201]` is **already gated** as v40 (`salphaseion_faed_slice_audit.json`,

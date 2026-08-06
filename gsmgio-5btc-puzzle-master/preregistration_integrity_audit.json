@@ -2,13 +2,13 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 54,
+    "seals_checked": 55,
     "seal_mismatches": 0,
     "manifests_absent": 2,
-    "result_digests_checked": 50,
+    "result_digests_checked": 51,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
-    "drift_gates_checked": 7,
+    "drift_gates_checked": 8,
     "drift_gates_failing": 1,
     "drift_gates_failing_unrepaired": 0
   },
@@ -380,6 +380,13 @@
       "manifest_present": true,
       "sealed_digest": "5aa3efc26a5ec436d28e50bf67c427bca02897610e037d0fa19b33cf5707d3ad",
       "actual_digest": "5aa3efc26a5ec436d28e50bf67c427bca02897610e037d0fa19b33cf5707d3ad",
+      "status": "OK"
+    },
+    {
+      "seal": "yinyang_rot180_partition_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "c69d8798b5eb86f59bbf535f9b6fcae03e0912d6f19c12ee3706b78080fe49c1",
+      "actual_digest": "c69d8798b5eb86f59bbf535f9b6fcae03e0912d6f19c12ee3706b78080fe49c1",
       "status": "OK"
     },
     {
@@ -833,6 +840,15 @@
       "status": "RESOLVED"
     },
     {
+      "result": "yinyang_rot180_partition_audit.json",
+      "key": "preregistration_sha256",
+      "digest": "c69d8798b5eb86f59bbf535f9b6fcae03e0912d6f19c12ee3706b78080fe49c1",
+      "resolves_to": [
+        "yinyang_rot180_partition_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
       "result": "youwon_middle_block_audit.json",
       "key": "preregistration_sha256",
       "digest": "c0808e1ac9f032c13d8bfa2b75c299adb478bb745b35c353922b8f21a172a737",
@@ -884,6 +900,11 @@
     {
       "module": "solver.yinyang_prime_dual_preregister",
       "manifest": "yinyang_prime_dual_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.yinyang_rot180_partition_preregister",
+      "manifest": "yinyang_rot180_partition_preregistered.json",
       "passes": true
     }
   ],

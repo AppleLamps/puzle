@@ -452,6 +452,42 @@ search under. The 96-byte chain-1 envelope is the first place the chain leaves
 legibility behind, which makes it the highest-value target, and its correct
 password is unknown rather than known.
 
+### 14e. The "seven intertwined passwords" family under the legibility gate (2026-08-06)
+
+v49 concluded that the 96-byte chain-1 envelope is the first place the chain
+leaves legibility behind and that its correct password should be treated as
+unknown, searched under a legibility gate rather than padding. v50 acts on that
+by chasing the two families v49 left open, both grounded in creator-authenticated
+text rather than solver convention:
+
+1. **The authenticated password *format*.** The only password the puzzle ever
+   confirms — phase 3.2's `250f3772…` — is the lowercase SHA-256 **hex digest** of
+   a phrase, used as ASCII with the `-md sha256` KDF. v49 swept raw phrase text
+   only and never applied that format.
+2. **"Seven intertwined passwords."** The Architect plaintext — tier 1, it
+   decrypts from a creator ciphertext — says the finisher must "SELECT FROM OVER
+   TWENTYTHREE CIPHERS SIXTEEN ENCRYPTIONS ANDOR SEVEN INTERTWINED PASSWORDS."
+   Every prior intertwine audit braided the seven *stage answers*
+   (`seven_stage_passwords_intertwine_audit.json`, `chain4_intertwined_results.json`);
+   none braided the seven *phrases* of the 2023-02-23 image, whose order is the
+   strongest structural constraint in the puzzle.
+
+| Status | Test and result | Evidence |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | Family A — sha256-format passwords. For each named creator text (the seven phrases, the seven SalPhaseIon tokens, the Architect and its `[479:]` / `[:479]` slices, S91, S570, the numeric fields, and the other authenticated strings) the lowercase and uppercase SHA-256 hex, the double-SHA-256 hex, and the raw 32-byte digest, under EVP MD5 and SHA-256, against chain1/chain2/cosmic. 140 passwords, 840 attempts, 5 chance padding hits, no legible break, no prize match | `intertwined_password_coherence_audit.json` |
+| **NEGATIVE (bounded)** | Family B — intertwined passwords. Round-robin **braid** (continue past exhausted parts) and **zip** (stop at shortest) of every ordered subset of the seven 2023-02-23 phrases, and of the seven SalPhaseIon tokens with the two placeholder tokens (`yourlastcommand`, `secondanswer`) substituted by their creator-sourced readings — each material tested raw and as its SHA-256 hex, under both KDFs, against all three envelopes. 102,991 distinct materials, 1,235,892 attempts, **4,745 padding hits at 0.384% — the chance rate — no legible break and no prize match** | same |
+
+**Assessment.** Two more large creator-grounded password families for the
+post-3.2 envelopes are now closed, and both land at exactly the chance padding
+rate v49 measured, reinforcing that clean unpadding on these envelopes is noise.
+Combined with v49, the raw-phrase, sha256-format, and phrase/token-intertwine
+readings of the "seven intertwined passwords" are all falsified for chain1,
+chain2 and cosmic. This does not refute the *reading* — non-round-robin
+interleavings, other KDFs, and operands the creator never published all remain —
+but it removes the most literal constructions. The result reinforces v49's core
+finding rather than overturning it: the door after phase 3.2 has not been opened,
+and no phrase-derived AES password opens it.
+
 ### Corrections to standing guidance
 
 - `faed[94:201]` is **already gated** as v40 (`salphaseion_faed_slice_audit.json`,
@@ -459,3 +495,8 @@ password is unknown rather than known.
   and `CLAUDE.md` still describe it as untested. Anyone acting on that wording
   would be re-running a closed family; only a genuinely new family beyond v40's
   format sweep is worth attempting.
+- The "seven intertwined passwords" reading of the AES chain is now closed for
+  the raw-phrase (v49), sha256-format (v50-A) and round-robin-intertwine (v50-B)
+  constructions. A new attempt in this area must use a genuinely different
+  interleaving rule, KDF, or operand, not another concatenation or braid of the
+  same phrases.

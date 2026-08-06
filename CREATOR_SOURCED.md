@@ -24,7 +24,9 @@ work and is treated here as hypothesis, however often it is repeated.
 
 | date | creator statement (Jrk Bgrt) |
 | --- | --- |
+| 2020-01-04 | (image) a still of the Merovingian's cake from *The Matrix Reloaded* — the **causality** scene, ten days before the poem below. `causality` is the authenticated phase-two part-one password |
 | 2020-01-14 | "Roses are White but often Red. **Yellow has a number and so does Blue.** Go back to the first puzzle piece without further ado. It might have shown you only one door, beware that **the rabbits nest may contain a whole lot more.**" |
+| 2020-02-20 | (image) a Decentraland screenshot captioned 😎, parcel label **"GSMG.io Puzzle piece, -41,-17"** — creator provenance for the Decentraland stage whose audio difference channel decodes `HASHTHETEXT` |
 | 2020-05-11 | "who knows what you'll find after opening the **2nd door**. The price is in half, but what does it mean" |
 | 2020-08-02 | "Really **nobody managed to find the extra door**, didn't expect that after the earlier pace of cracking things." |
 | 2021-01-21 | "a few might **not require the internet** anymore." |
@@ -39,6 +41,15 @@ work and is treated here as hypothesis, however often it is repeated.
 | 2023-08-03 | "Are you really looking for just the btc…?" and "Actually, **the hardest part is done**." |
 | 2023-08-06 | "Once you hit a **ying yang**, you'll be able to solve it the same day." |
 | 2025-04-28 | "Did anyone found yingyang? I don't think so … when yingyang is reached, **2 hours max**." / "It's the next phase." |
+| 2026-03-03 | "**I only need to look at the address. If any of you reaches the next phase, the price is taken in no-time.**" (answering a claimed prime-index extraction of "ying yang"/"salvation") |
+| 2026-03-03 | "No hints, only free will." / "Jacque was quite an inspiring lad I'd say." / "I'm going to rewatch episode 3.5 with **the better half**." |
+| 2026-05-28 | "Ah, ofcourse. **The puzzle is still valid!**" |
+| 2026-07-12 | "Most of you know the puzzle WAAAY better than me at this point. **I have a hidden laptop which I haven't touched in years. On that thing… is the actual answer.**" |
+| 2026-07-12 | "**My close friends have the best chance of solving it** (a few tried). But they don't have the skills some of you do." immediately followed by "**NOTE: that is a hint.**" |
+| 2026-07-12 | "I held quite a secret in my head which I seriously wanted to share with the planet… for those who can understand what I meant" / "**The '5' btc was never the actual prize. That was only a tiny fraction.**" / "(And yes, **the btc is still available** before you fire any questions)." |
+| 2026-07-12 | "it's all **still solvable with a few stable qubits**" — i.e. the creator expects the remaining gap to be an ECDLP-hard step, not a missing clue |
+| 2026-07-12 | (to a sceptic) "**Some already found it. And understood not to risk it…** 🤐" |
+| 2026-07-16 | "Lately, I'm working with many **NOTES**." (in a thread about the 2026-07-12 "NOTE: that is a hint") / "Give yourself yourself and yourself will be given yourself." |
 
 The 2023-02-23 post is the single most valuable creator artifact, because it is
 the creator describing his own construction:
@@ -50,6 +61,60 @@ the creator describing his own construction:
     wewontgiveawaythepassword
     itsinfrontofyoureyesbutyourenotseeingit
     verylaststepisatruegiveawaypromised
+
+## The 2026 statements, read carefully
+
+Source: the 2026-08-05 Telegram export (see
+[transcript index](docs/TRANSCRIPTS.md)). The creator appeared four times after
+the previous table entry — 2026-03-03, 2026-05-28, 2026-07-12 and 2026-07-16 —
+and has not posted since 2026-07-16. He was self-declaredly drunk on 07-12 and
+07-16, which is a reason to weigh the statements carefully, not to discard them:
+the same condition preceded the 2025-04-28 remarks that turned out to be
+accurate.
+
+What actually constrains the search:
+
+- **Reaching yin-yang means the prize is already gone.** 2026-03-03: "I only
+  need to look at the address. If any of you reaches the next phase, the price
+  is taken in no-time." Combined with 2023-08-06 ("once you hit a ying yang,
+  you'll be able to solve it the same day") and 2025-04-28 ("2 hours max"), the
+  creator has now said three times that yin-yang is the last conceptual step and
+  that everything after it is mechanical. There is no phase after yin-yang to
+  plan for.
+- **Yin-yang is still unreached as of 2026-03-03.** He did not accept the
+  claimed prime-index extraction of "ying yang"/"salvation"; his answer was that
+  the funded address is his only oracle, and it has not moved.
+- **The puzzle is still live and the coins are still there** (2026-05-28,
+  2026-07-12). Confirmed independently by the address history.
+- **"Still solvable with a few stable qubits."** The creator believes the
+  remaining obstacle is discrete-log hard, and he raised BIP 360 twice in the
+  same session. That is his own framing of what is left, and it is a reason to
+  doubt any theory in which the last step is a short password or a clever
+  re-reading.
+- **"The '5' btc was never the actual prize. That was only a tiny fraction."**
+  Read against 2023-08-03 ("are you really looking for just the btc…?"), this is
+  most plausibly about the "secret in my head" he wanted to publish, not about
+  additional unlisted funds. No second funded address is known.
+- **The one self-declared hint** is 2026-07-12: "My close friends have the best
+  chance of solving it (a few tried). But they don't have the skills some of you
+  do. NOTE: that is a hint." Taken at face value it says the final step depends
+  on personal knowledge of the creator rather than on cryptanalytic skill — the
+  same shape as the already-confirmed "Half and Better Half" being his partner
+  rather than two derivable keys. It is not actionable on its own, and no
+  bounded family has been built from it.
+- **`NOTES` (2026-07-16)** is the only genuinely open new lead: a capitalised
+  callback to "NOTE: that is a hint", left unexplained. Recorded as open, not
+  interpreted.
+
+What does **not** constrain the search, and should not be mined:
+
+- "You have to be in your prime for that" (2026-07-16) is a pun inside a
+  conversation about whether 2 should count as prime. It is not a prime hint.
+- "It's hidden in a room with a hidden door" (2026-07-16) answers someone joking
+  about searching Ibiza for his physical laptop. It is about the laptop, not
+  about a second door in the poster.
+- The drug and drinking material, the BIP 360 explanation he pasted from an AI,
+  and the Ibiza logistics carry no puzzle content.
 
 ## Where we went wrong (forensic)
 
@@ -413,7 +478,15 @@ combinations with the Cosmic bytes all miss both prize addresses.
   of the 24 markers, unlock Cosmic or either prize address.
 - The 2021-04-01 hint `another door might be found on {1},{4},{21}` is
   followed the same day by the creator asking what usually happens on April
-  1st. Treat it as April Fools, not a coordinate.
+  1st. Treat it as April Fools, not a coordinate. The 2026-07-13 community
+  reading takes the three numbers as row indices into a 21-row decomposition of
+  the SalPhaseIon plaintext — row 1 = `dbbi`/S91, row 21 = `anstoo`, row 4 =
+  `faed[94:201]` — so that the line reads "two doors you've got, one you don't".
+  Its author retracted the rigor when asked for the boundaries: the split is
+  "as-transcribed from the soup layout" and "the 21 boundaries were NOT fixed
+  independently before applying {1,4,21}". The canonical `textarea1` has no line
+  breaks, so there is no 21-row structure to recover. Only the ~107-character
+  S570 slice survives as an untested operand.
 
 ### Cosmic matrix authentication is weaker than claimed
 

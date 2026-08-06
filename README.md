@@ -14,8 +14,10 @@ The funded private keys have **not** been recovered.
 4. [Attempt log](docs/ATTEMPT_LOG.md) — running, deduplicated list of solved,
    negative, superseded, and open approaches.
 5. [Transcript index](docs/TRANSCRIPTS.md) — community and agent sources.
-6. [Documentation index](docs/INDEX.md) — every maintained research document.
-7. [Verification report](gsmgio-5btc-puzzle-master/VERIFICATION_REPORT.md) —
+6. [Telegram 2026 review](docs/TELEGRAM_2026_REVIEW.md) — what the current
+   Telegram export adds, confirms, and refutes.
+7. [Documentation index](docs/INDEX.md) — every maintained research document.
+8. [Verification report](gsmgio-5btc-puzzle-master/VERIFICATION_REPORT.md) —
    machine-checked claims and exact cryptographic gates.
 
 ## Current result

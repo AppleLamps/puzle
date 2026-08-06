@@ -2,3 +2,8 @@ gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v38.json
 gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v39.json
 *.pyc
 __pycache__/
+
+# Telegram Desktop export: 566 MB, and it contains unrelated participants'
+# messages and media. Analyse locally; commit only extracted creator material.
+# See docs/TRANSCRIPTS.md.
+telegram/

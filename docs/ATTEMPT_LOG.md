@@ -10,7 +10,8 @@ Unless a path starts with `../` or names a root document, evidence filenames are
 relative to `gsmgio-5btc-puzzle-master/`. Transcript-only attempts are labelled
 as such when no reproducible result artifact was checked in.
 
-Legend: **SOLVED**, **NEGATIVE**, **OPEN**, **SUPERSEDED**, **FITTED**.
+Legend: **SOLVED**, **NEGATIVE**, **OPEN**, **SUPERSEDED**, **FITTED**,
+**CAUTION** (a correction attached to the row above it).
 
 Completeness pass (2026-08-05): compared this log against all 120 experiment
 modules (excluding support utilities), all 51 audit-named JSON artifacts, the
@@ -33,6 +34,8 @@ reported as a failed test.
 | **NEGATIVE** | Pad/scan the rabbit grid as a QR code | `CREATOR_SOURCED.md` |
 | **NEGATIVE** | Eight spiral symmetries and fifteen colour maps; only door one is readable | `CREATOR_SOURCED.md` |
 | **SOLVED (location) / OPEN (role)** | Unique off-white cell `(7,4)`, zero-based spiral index 163 = byte 20, bit 3, inside the `n` of `planted`; its intended special role remains open | `SOLUTION.md`, `CREATOR_SOURCED.md` |
+| **NEGATIVE** | Off-white cell as a "dual-prime index" (spiral 163 and row-major 103 both prime, tying it to the creator's prime hints). The two indices use different bases: zero-based row-major is 7·14+4 = 102 (composite) and one-based spiral is 164 (composite). Under either single convention the pair breaks | community claim, 2026-06-28; verified here |
+| **OPEN (observation)** | A 14×14 grid minus its main diagonal splits into two triangles of (196−14)/2 = 91 cells, and 91 = C(14,2) — the exact length of the S91 field, with the `YOUWON` split's 21 = C(7,2). Arithmetic confirmed; no construction attached, and 91 is small enough that the echo may be coincidence | community observation, 2026-08-04; verified here |
 | **NEGATIVE** | Treat off-white as one, producing `…theseedispla~ted`, then hash/key-test | `../second_door_yinyang_joint_audit.json` |
 | **SOLVED** | Structural counts: 86 black versus 85 white + 1 off-white; L/R and diagonal dualities are real | `../second_door_yinyang_joint_audit.json` |
 | **SOLVED** | Resistor-code structural totals Y=4, B=6, W=9, R=2 give total 900 (eye/off-white treated as 9) or 891 (eye treated as 0) | `../second_door_yinyang_joint_audit.json` |
@@ -118,6 +121,12 @@ reported as a failed test.
 | **NEGATIVE** | `THEMATRIXHASYOU` Beaufort/Vigenère variants and affine `P=2(C-8) mod 9` over the letter grid | `tmp/kenorb-analysis.md` |
 | **NEGATIVE** | Claimed Cosmic key/IV applied directly to the SalPhaseIon blob | `tmp/kenorb-analysis.md` |
 | **NEGATIVE** | Historical matrix-sum password extractions (inconsistent partial/full totals 422 versus 3239) | `tmp/kenorb-analysis.md` |
+| **NEGATIVE (framing) / OPEN (slice)** | Read the 2021-04-01 `{1},{4},{21}` line as row indices into a 21-row decomposition of the SalPhaseIon plaintext: row 1 = `dbbi` (S91), row 21 = `anstoo`, row 4 = `faed[94:201]`. The framing does not survive: asked for the 22 boundary offsets the claimant stated that the split "isn't from an independent rule, it's as-transcribed from the soup layout" and that "the 21 boundaries were NOT fixed independently before applying {1,4,21}". Checked here — the canonical `textarea1` contains no line breaks, so there is no 21-row structure to recover. The ~107-character S570 slice itself remains untested | community claim and retraction, 2026-07-13; `CREATOR_SOURCED.md` |
+| **SOLVED arithmetic / OPEN meaning** | S91 minus the Phase 3.2 VIC plaintext, letterwise mod 26, spells `YOUWON` at zero-based index 21, splitting 91 as 21/49/21. All five published checkpoints reproduce from repository artifacts. Two further signals select the same index: the subtraction's borrow rail has its only run of seven there, reading `1111111` = 127 = `DEL`, and the VIC checkerboard's two-digit-codeword rail has its longest run (nine) there | `youwon_index21_audit.json`, `solver/youwon_index21_audit.py` |
+| **NEGATIVE** | Bounded 32-byte family derived from that alignment (25 string sources × 3 letter cases × {SHA-256, XOR 0x7f, byte-reversed} plus five integer readings): 143 unique in-range scalars, planted positive control accepted and real targets rejected on the same path | `youwon_index21_audit.json` |
+| **NEGATIVE** | Reported continuation of that alignment: S570 self-keyed bifid → `BTCSEED‖P1‖z`, digraph rail reversed → `KMODEST`, the step-2 `DEL` removing `K` whose bifid-square coordinates (2,5) read `BE` under A1Z26 → `YOU WON - BE MODEST`. Both published hashes match their strings (`sha256("kmodest")`, `sha256("YOUWONBEMODEST")`), and the terminal strings are gated in the family above. The steps themselves are not re-derived: step 4 is disclaimed by its own author as "a convention not a forced step" | `youwon_index21_audit.json` |
+| **NEGATIVE (community)** | `btcseed` bifid channel → 24-word BIP39 mnemonic. The channel split is real, but the valid checksum is not evidence: 13 of 3,624 mapping×offset windows are checksum-valid by chance against an expected 14, offset 27 and length 132 are free parameters, BIP44/49/84 derivations and the raw entropy miss both addresses, and the prize address is a vanity address that cannot come from a seed phrase | community reproduction, 2026-07-02 |
+| **CAUTION** | The borrow rail is *not* independent corroboration: the subtraction underflows exactly when `m + a ≥ 26`, which the high-alphabet letters of `YOUWON` force at all six positions. Only the VIC rail is independent of S91, and under 20,000 random permutations of the VIC plaintext the two rails' longest runs coincide 8.4% of the time | same |
 | **NEGATIVE** | Independent role of the 48-byte envelope: sealed split audit of env48/raw48 as independent targets — 112 direct AES-256-CBC key+IV attempts on raw48 (authenticated chain/Cosmic keys, token digests, XOR, chain-plaintext digests × frozen IV set), 84 EVP password attempts on env48 (21 unique authenticated passwords × 2 forms × 2 digests; one random-rate MD5 padding hit, `hashthetext`), 12 stage-two `shabefanstoo` derivations, 17 raw48 window scalar gates plus 18 base58check/format scans, 272 envelope-salt searches across 17 corpora; no prize match, `NO_ACCEPTED_OUTPUT` | `salphaseion_split_envelope_preregistered.json`, `salphaseion_split_envelope_results.json` |
 
 ## 6. SalPhaseIon preregistration and S-field families
@@ -244,6 +253,7 @@ The exact candidate manifests and counts are in
 | **NEGATIVE** | Hash obvious creator texts, page-140 units, clue strings and normalizations into prize scalars | `creator_frontier_giveaway_audit.json` |
 | **NEGATIVE** | Wayback CDX URL/body search for missing operands (`cosmic_A`, `ca`, `K_I1`) and second-door pages | `wayback_source_audit.json` |
 | **NEGATIVE** | Early gsmg.io asset harvest, literal/term scan, PNG/hash comparison and scalar extraction | `wayback_early_asset_audit.json` |
+| **NEGATIVE** | Creator-posted Telegram media as a hidden channel. All 3 photos and 10 of his 15 other items are now readable (`tools/telegram_media_reattach.py` matches orphaned media to messages by name and byte size); every one is a reaction meme, including both 2023-08-03 clips posted a minute from "the hardest part is done". The 5 unrecovered are self-describing joke filenames posted while deflecting hint requests | `docs/TELEGRAM_2026_REVIEW.md`, `docs/TRANSCRIPTS.md` |
 | **OPEN** | X2SH values H/Y and intended use of `# X 2 S H 4 Y 0 Q B 15 #` | `CREATOR_SOURCED.md` |
 
 ## 11. Historical or abandoned transcript leads
@@ -260,7 +270,7 @@ The exact candidate manifests and counts are in
 | **SUPERSEDED** | `F73D92 // 2 + 3` as the primary 24→23 bridge | Drops/changes authenticated URL bits; passport XOR and direct 479 are better constrained |
 | **NEGATIVE (transcript-only)** | `THEPROBLEMISCHOICE` 18-letter overlay, two 15-letter Architect halves and literal 19×30→19×15 fold | No control; fold destroyed existing controls |
 | **NEGATIVE (transcript-only)** | All-seven diagonal SHA-256/XOR/sum constructions as brainwallet shares | No funded-address match |
-| **NEGATIVE (transcript-only)** | Reported `YOUWON+64` S91 extraction under direct 32-byte folds/base encodings | Exact target gates failed |
+| **NEGATIVE** | Reported `YOUWON+64` S91 extraction under direct 32-byte folds/base encodings | Exact target gates failed; superseded by the reproduced alignment in section 5 |
 
 ## 12. Current open frontier
 
@@ -271,6 +281,9 @@ The exact candidate manifests and counts are in
    [HALF_AND_BETTER_HALF.md](HALF_AND_BETTER_HALF.md) this is the only prize
    target; the Better Half hash160 gate is retained in `solver/targets.py` as
    cheap insurance, not as a second objective.
+5. Explain the `YOUWON` alignment at S91 index 21. The arithmetic reproduces and
+   the 21/49/21 split is exact, but no construction built from it has reached a
+   prize gate, and only one of its three corroborating signals is independent.
 
 Resolved on 2026-08-05: the independent 48-byte SalPhaseIon envelope (former
 item 3; sealed split-envelope audit, `salphaseion_split_envelope_results.json`,

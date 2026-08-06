@@ -11,6 +11,7 @@ Run these from the package root.
 | `live_door_probe.py` | Probe candidate creator routes and classify responses |
 | `ocr_pr16_hints.py` | OCR Telegram hint screenshots associated with PR 16 |
 | `s91_direct_readability.py` | Render and score direct S91 reading hypotheses |
+| `telegram_media_reattach.py` | Re-attach orphaned Telegram media to messages by name and byte size |
 
 Tools acquire or inspect evidence; their output is not automatically an accepted
 puzzle result. Record resulting hypotheses in `../../docs/ATTEMPT_LOG.md`.

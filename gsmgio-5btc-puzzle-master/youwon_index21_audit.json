@@ -1,0 +1,132 @@
+{
+  "schema": "youwon-index21-audit-v1",
+  "status": "NO_PRIZE_MATCH",
+  "provenance": {
+    "s91": "solver.salphaseion_raw.extract_raw().s91",
+    "m91": "phase32_classical.json /vic/plaintext",
+    "vic_top_row": "FUBCDORA",
+    "reported_by": "Vasilis Dragon, project Telegram, 2026-07-13; first sighting RB 2022, Sycorax 2024-04"
+  },
+  "checkpoints": {
+    "reported": {
+      "s91": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+      "m91": "2fbfbef7442558f17ecc866a0b89ed491c41abc042df4d41452835adff09e9d3",
+      "difference": "f17857308a886531637b33c9ddb92952206c286519412278ba9f836ffc69336e",
+      "borrow_rail": "ccf4c906024ce25a4cad66f2a78deecc216a39a791d5c1402f30374ee749ac0e",
+      "vic_rail": "2d3b44885d39ccc2471ef0e67bab18ce8f087d816ea4cbb07cf21be77d5baee3"
+    },
+    "computed": {
+      "s91": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+      "m91": "2fbfbef7442558f17ecc866a0b89ed491c41abc042df4d41452835adff09e9d3",
+      "difference": "f17857308a886531637b33c9ddb92952206c286519412278ba9f836ffc69336e",
+      "borrow_rail": "ccf4c906024ce25a4cad66f2a78deecc216a39a791d5c1402f30374ee749ac0e",
+      "vic_rail": "2d3b44885d39ccc2471ef0e67bab18ce8f087d816ea4cbb07cf21be77d5baee3"
+    },
+    "reproduced": {
+      "s91": true,
+      "m91": true,
+      "difference": true,
+      "borrow_rail": true,
+      "vic_rail": true
+    }
+  },
+  "reported_terminal": {
+    "steps": "3 and 4 of the same post, gated here but not re-derived",
+    "hashes_match_reported_strings": {
+      "kmodest": true,
+      "YOUWONBEMODEST": true
+    },
+    "author_disclaimer": "step 4 is 'a convention not a forced step'"
+  },
+  "structure": {
+    "youwon_index_zero_based": 21,
+    "split": [
+      21,
+      49,
+      21
+    ],
+    "difference": "VOZIJBDTIQBRGVEOMZNBCYOUWONXCPKWGBNAXDGJGDUNNVMPABTAFPAAXMJYLZBUWERDNXYDESKUOBXCAMVDJLQTSGA",
+    "borrow_rail": "1110101111010101111001111111011110101011001111110010010011111101101011110111101001101111110",
+    "vic_rail": "1100111001010111000001111111110110111111011011101010010011110101001011110110111000101101111",
+    "borrow_runs_at_least_7": [
+      [
+        21,
+        7
+      ]
+    ],
+    "borrow_span_value": 127,
+    "vic_longest_run": [
+      21,
+      9
+    ],
+    "middle_block": "YOUWONXCPKWGBNAXDGJGDUNNVMPABTAFPAAXMJYLZBUWERDNX"
+  },
+  "interpretation": {
+    "borrow_span_is_del": true,
+    "borrow_run_is_forced_by_youwon": true,
+    "vic_rail_ignores_s91": true,
+    "note": "Two of the three signals are dependent. The borrow rail underflows exactly when m + a >= 26, so the high-alphabet letters of YOUWON force borrows at those positions; the seventh bit is the only free one. The VIC rail is the single independent selector, because it is a function of the VIC plaintext alone."
+  },
+  "significance": {
+    "trials": 20000,
+    "seed": 20260805,
+    "null_model": "uniform random permutations of the VIC plaintext letters",
+    "statistic": "longest run of the borrow rail and of the VIC rail start at the same index",
+    "agreements": 1678,
+    "rate": 0.0839
+  },
+  "candidate_family": {
+    "string_sources": [
+      "127||difference",
+      "borrow-rail",
+      "cols-JPJSROH",
+      "difference",
+      "difference-from-youwon",
+      "difference-head",
+      "difference-middle",
+      "difference-middle-after-youwon",
+      "difference-tail",
+      "difference-youwon",
+      "difference||127",
+      "difference||DEL",
+      "m91",
+      "m91||s91",
+      "rows-MMJIOLS",
+      "rows-cols",
+      "s91",
+      "s91||m91",
+      "terminal-BEMODEST",
+      "terminal-KMODEST",
+      "terminal-MODEST",
+      "terminal-YOUWONBEMODEST",
+      "terminal-YOUWONBEMODEST-spaced",
+      "terminal-YOUWON||middle",
+      "vic-rail"
+    ],
+    "cases": [
+      "upper",
+      "lower",
+      "asis"
+    ],
+    "byte_variants": [
+      "sha256",
+      "sha256^0x7f",
+      "sha256-reversed"
+    ],
+    "integer_readings": [
+      "borrow-rail-bits",
+      "difference-base26",
+      "difference-base26^127",
+      "rails-xor",
+      "vic-rail-bits"
+    ],
+    "unique_scalars": 143
+  },
+  "control": {
+    "scalar": "00000000000000000000000000000000000000000000000000000000000c0de5",
+    "accepted_against_planted_target": true,
+    "rejected_against_real_targets": true
+  },
+  "matches": [],
+  "scope_note": "This falsifies only the bounded family listed above. It does not falsify the alignment itself, which remains an unexplained structural observation, and it cannot reach any construction that needs an operand this audit never builds."
+}

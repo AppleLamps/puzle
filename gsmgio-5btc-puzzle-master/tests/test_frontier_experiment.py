@@ -14,6 +14,7 @@ from solver.l4_beaufort_audit import run as run_l4_beaufort_audit
 from solver.trail1_permutation_experiment import run as run_trail1_permutations
 from solver.trail1_splice_experiment import run as run_trail1_splice
 from solver.xor_triangle_audit import run as run_triangle_audit
+from solver.youwon_index21_audit import run as run_youwon_audit
 
 
 class FrontierExperimentTests(unittest.TestCase):
@@ -79,6 +80,28 @@ class FrontierExperimentTests(unittest.TestCase):
         self.assertEqual(result["status"], "NO_BYTE_DOMAIN_BEAUFORT_SURVIVOR")
         self.assertEqual(result["total_language_survivors"], 0)
         self.assertEqual(result["total_target_matches"], 0)
+
+    def test_youwon_index21_alignment_reproduces_and_gates(self) -> None:
+        result = run_youwon_audit()
+        self.assertEqual(result["schema"], "youwon-index21-audit-v1")
+        # Every published checkpoint must reproduce from repository artifacts.
+        self.assertTrue(all(result["checkpoints"]["reproduced"].values()))
+        self.assertTrue(
+            all(result["reported_terminal"]["hashes_match_reported_strings"].values())
+        )
+        self.assertEqual(result["structure"]["youwon_index_zero_based"], 21)
+        self.assertEqual(result["structure"]["split"], [21, 49, 21])
+        self.assertEqual(result["structure"]["borrow_runs_at_least_7"], [[21, 7]])
+        self.assertEqual(result["structure"]["vic_longest_run"], [21, 9])
+        self.assertTrue(result["interpretation"]["borrow_span_is_del"])
+        # The borrow rail is a consequence of YOUWON, not a second witness to it.
+        self.assertTrue(result["interpretation"]["borrow_run_is_forced_by_youwon"])
+        # The one independent selector is far from decisive on its own.
+        self.assertGreater(result["significance"]["rate"], 0.01)
+        self.assertTrue(result["control"]["accepted_against_planted_target"])
+        self.assertTrue(result["control"]["rejected_against_real_targets"])
+        self.assertEqual(result["status"], "NO_PRIZE_MATCH")
+        self.assertEqual(result["matches"], [])
 
 
 if __name__ == "__main__":

@@ -10,8 +10,10 @@ the catch-all that renders that message for any unknown URL.
 import json
 import re
 
-BUNDLE = "GSMG _ GSMG_files/app.js.download"
-PAGE = "GSMG _ GSMG.html"
+from _paths import SOURCES
+
+BUNDLE = SOURCES / "GSMG _ GSMG_files" / "app.js.download"
+PAGE = SOURCES / "GSMG _ GSMG.html"
 
 MODULE = re.compile(r'/\*\*\*/\s*"((?:[^"\\]|\\.)+)":\s*/\*\*\*/')
 

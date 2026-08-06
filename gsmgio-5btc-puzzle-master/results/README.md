@@ -43,7 +43,7 @@ completed; inspect the `accepted` array before claiming plaintext.
 | Family | Files |
 | --- | --- |
 | First-image frontier | `second_door_yellowblueprimes_audit.json`, `second_door_frontier_derivations.json` |
-| Root-only image audits | `../../second_door_yellow_red_audit.json`, `../../second_door_yinyang_joint_audit.json` |
+| Root-only image audits | `../../derived/second_door_yellow_red_audit.json`, `../../derived/second_door_yinyang_joint_audit.json` |
 | 479 bounded search | `architect_479_bounded_search.json`, `yinyang_479_continuation_audit.json` |
 | 479 semantic/cipher tests | `architect_479_semantic_pipeline.json`, `ciao_bella_479_audit.json` |
 | Source-code / prime-basics preregistration | `architect_source_prime_reinsertion_preregistered.json`, `architect_source_prime_reinsertion_audit.json` |

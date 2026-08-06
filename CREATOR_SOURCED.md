@@ -224,7 +224,7 @@ across four years, in 2020-01-14, 2020-05-11, 2020-08-02, 2021-12-02 and
 2021-12-25, and as late as December 2021 says nobody had found it. Every line of
 published work — the repository, and both AI agents working this problem — is
 pushing down SalPhaseIon → Cosmic → base-38. The creator points backwards, at
-`follow_the_white_rabbit.png`.
+`sources/follow_the_white_rabbit.png`.
 
 **2. The creator's own four-part recipe does not match the solver chain.** His
 list is `yellowblueprimes`, `matrixsumlist`, `lastwordsbeforearchichoice`,
@@ -550,7 +550,7 @@ from public envelopes (`salphaseion_79_anchor_hunt.json`).
 mandatory lock. The creator never named those. Closed Cosmic trials stay in
 the audit above as negatives only.
 
-1. The **second door** from `follow_the_white_rabbit.png` / `puzzle.png` under
+1. The **second door** from `sources/follow_the_white_rabbit.png` / `puzzle.png` under
    `yellowblueprimes` + primes + zeroing + the unused red resistor line.
    Creator 2025-04-28 still says **yinyang not found** (“2 hours max” once
    reached). That milestone is whatever *he* named `yinyang` — not the HTML
@@ -606,7 +606,7 @@ evidence as other padding luck. Cosmic sha256-EVP false positives are rarer
 
 ### First-image yin-yang that public Cosmic work skipped
 
-On `follow_the_white_rabbit.png`, majority-colour sampling gives **exactly 86
+On `sources/follow_the_white_rabbit.png`, majority-colour sampling gives **exactly 86
 black cells and 86 white/off-white cells**. Blue=15, yellow=9. That equal black/
 white split is a literal duality on the artifact the creator keeps pointing at,
 and it does not depend on Cosmic or Chain 4. The off-white cell remains at
@@ -648,7 +648,7 @@ No candidate from this re-parse hits either address.
 The checked-in `puzzle.png` (1048×1556) is the full first puzzle piece. It is
 **not** just the 14×14 grid. Top-to-bottom:
 
-1. **Bunny grid** — exact 3× nearest-neighbor of `follow_the_white_rabbit.png`
+1. **Bunny grid** — exact 3× nearest-neighbor of `sources/follow_the_white_rabbit.png`
    (byte-identical when cropped to 1047×1047). Door-1 spiral still reads
    `gsmg.io/theseedisplanted`.
 2. **Red divider** — solid `#ED1C24`, **15 px** thick. This is the only red in
@@ -692,7 +692,7 @@ material, not as a Cosmic password.
 
 ### Yellow-flip + red audit (this pass) — closed negative
 
-Script: `second_door_yellow_red_audit.py` (+ follow-up JSON). Scope: first image
+Script: `scripts/second_door_yellow_red_audit.py` (+ follow-up JSON). Scope: first image
 spiral variants, poster red divider facts (15 px `#ED1C24`, resistor **2**),
 prime-index / char-prime zeroing, roses/red tokens, `{1},{4},{21}` hint
 concat, HASHTHETEXT-style sha256 expansions. Gates: Half pubkey + Better
@@ -716,7 +716,7 @@ not more path-string brainwallets.
 
 ### Yin-yang joint-rule audit (this pass) — structural hit, key miss
 
-Script: `second_door_yinyang_joint_audit.py`. The grid **does** carry
+Script: `scripts/second_door_yinyang_joint_audit.py`. The grid **does** carry
 creator-shaped duality; none of the joint rules hit the prize keys.
 
 **Structural facts (authenticated from the PNG):**

@@ -3,9 +3,73 @@
 This file records where historical claims came from. A transcript is evidence
 that an approach was attempted; it is not proof that its conclusion is correct.
 
-## Agent transcript
+## Agent transcripts
 
-### `rollout-2026-08-04T21-14-50-019fcf7c-cc26-7b91-b013-c82ce7cfddf0.jsonl`
+Three Codex sessions in `~/.codex/sessions/2026/08` worked this puzzle. Only the
+third was previously indexed here; the first two produced much of the
+`artifacts/` tree and are recorded below. A fourth session
+(`03/rollout-2026-08-03T01-27-13-…f5f9.jsonl`, `Desktop\keys`) concerns the
+unrelated bitcointalk Bitcoin Puzzle #140 and is out of scope for this
+repository.
+
+### `02/rollout-2026-08-02T20-43-03-019fc512-f92a-7db0-b3d5-da7290a5fddc.jsonl`
+
+Approximately 6.5 MB, working in a separate `D:\gsmgio-5btc-puzzle` checkout —
+an **independent** line of attack that started from the target address and the
+community's seven-token claim rather than from this repository.
+
+Its value is convergence: working alone, it reached the same conclusions this
+repository holds, so those are not an artefact of one reasoning chain.
+
+- Reproduced the certified SalPhaseIon derivation
+  (`matrixsumlist + enter + lastwordsbeforearchichoice + thispassword +
+  matrixsumlist` under legacy MD5 `EVP_BytesToKey`) to the same `32 + 32 + 15`
+  record and the same `5K2by…` WIF that opens the Phase 3.2 blob.
+- Independently rejected `SHA256("MatrixSumlist\nAnsToo")` as a padding
+  coincidence after first accepting it — the same correction recorded here.
+- Exhausted all 2³⁵ subset sums and all 2³⁵ signed `±` assignments of the 35
+  Chain 4 blocks against the target point: no match.
+- Confirmed `x(P_half ± P_better) ≠ x(P_target)` from the exposed public keys.
+- Audited 187 on-chain ECDSA signatures across the target and both components:
+  every `r` unique.
+- Reached the same verdict that the Cosmic → Chain 4 branch is unauthenticated.
+
+### `03/rollout-2026-08-03T16-24-50-019fc94c-f1bc-7831-b5bb-98ef3540cc71.jsonl`
+
+Approximately 39.6 MB, the longest session and the direct predecessor of the
+current state. It produced the acquisition artefacts the repository now relies
+on: `artifacts/shared_wayback/`, `artifacts/telegram_hints_pr16/`,
+`artifacts/door_probe/`, `artifacts/s91_direct_readability/`, the SalPhaseIon
+preregistration ledger through v27, and the χ²/IC field diagnostics.
+
+Important contributions:
+
+- Corrected the SalPhaseIon Base64 boundary: the `z` at position 64 is
+  ciphertext, not a separator. The bad reconstruction hashes to `422a96e4…` and
+  differs from the correct `9e2831e1…` envelope in 49 of 96 bytes, invalidating
+  every short-blob test that predates the fix.
+- Established that S91/S570 are not decimal numerals (χ² `p≈2.9e-6` and
+  `6.4e-7`; no `o` symbol, `0.9^570 ≈ 8.3e-27`), retiring whole-field base
+  conversion.
+- Found the 15-row layout: `91 + 104 = 195 = 15×13`, `570 = 15×38`,
+  `38 = 13 + 13 + 12`, and 104 = π(570).
+- Recovered the full 161-byte creator binary hint from the deleted PR 16 branch
+  at immutable commit `f6468725…`, with all 28 `hints/` images transcribed.
+- Closed the "another door" question: `gsmg.io` is now domain-parking
+  infrastructure and every response obeys `length = 1029 + 3 × path_length`.
+- Identified the Italian `CIAO BELLA O` tail as a possible language selector,
+  the branch this repository pursued into `ciao_bella_479_audit.py`.
+- Ended by asking the user for the Telegram export — the request that produced
+  the corpus described below.
+
+### `04/rollout-2026-08-04T21-14-50-019fcf7c-cc26-7b91-b013-c82ce7cfddf0.jsonl`
+
+The only rollout archived in the repository itself, at
+`transcripts/rollout-2026-08-04T21-14-50-…cffdf0.jsonl`. That copy is
+byte-identical to the Codex original (SHA-256
+`345b0eb331777c6136e0a4cc9c51ffb09f7944efda9651d1a5d113e33d0b25d1`,
+25,724,452 bytes); the other three sessions exist only under
+`~/.codex/sessions/2026/08`.
 
 - Approximately 23 MB and 5,919 events.
 - Covers an autonomous investigation on 2026-08-05.

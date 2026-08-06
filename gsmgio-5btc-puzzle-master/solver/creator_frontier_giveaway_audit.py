@@ -510,7 +510,7 @@ def experiment_halving_arithmetic(matrix_half: bytes, matrix_better: bytes) -> l
 
 
 def run() -> dict:
-    parts = json.loads((Path("/workspace/salphaseion_parts.json")).read_text())
+    parts = json.loads((ROOT.parent / "derived" / "salphaseion_parts.json").read_text())
     extracted = extract_all()
     tokens = derive_tokens()
     chains = reconstruct(extracted, tokens)

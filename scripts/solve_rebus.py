@@ -19,7 +19,9 @@ from collections import Counter, defaultdict
 
 from PIL import Image
 
-DIR = "GSMG Puzzle2_files"
+from _paths import SOURCES
+
+DIR = SOURCES / "GSMG Puzzle2_files"
 
 # Letters visible in each tile, as (top line, bottom line). Pictograms and the
 # +/- symbols carry no letters, so they appear as None.
@@ -48,7 +50,7 @@ WORDS = {"canyou", "digit", "cryptologic", "warning", "cat", "lot", "logic"}
 
 def block_geometry(name):
     """Return (width, colour block span, side the block is flush against)."""
-    im = Image.open(f"{DIR}/{name}.png").convert("RGB")
+    im = Image.open(DIR / f"{name}.png").convert("RGB")
     width, height = im.size
     pixels = im.load()
     fill = Counter(
@@ -66,7 +68,7 @@ def encoder_fingerprint(name):
     Tiles saved in the same pass share these, so they group the tiles
     independently of anything visible in the picture.
     """
-    data = open(f"{DIR}/{name}.png", "rb").read()
+    data = (DIR / f"{name}.png").read_bytes()
     offset, phys, ctype, srgb = 8, None, None, False
     while offset < len(data):
         length = struct.unpack(">I", data[offset : offset + 4])[0]

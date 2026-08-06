@@ -7,7 +7,7 @@
 
 | stage | source | answer |
 | --- | --- | --- |
-| `gsmg.io/Puzzle` | `follow_the_white_rabbit.png` | `gsmg.io/theseedisplanted` |
+| `gsmg.io/Puzzle` | `sources/follow_the_white_rabbit.png` | `gsmg.io/theseedisplanted` |
 | `gsmg.io/theseedisplanted` | eight rebus tiles / song lyric | `theflowerblossomsthroughwhatseemstobeaconcretesurface` |
 | phase 2 | `gsmg.io/choiceisanillusion…iwroteitmyself` | sha-256 = `1a57c572…d2ec30d5` |
 | phase 3 | `gsmg.io/89727c59…52f6a32` (SalPhaseIon) | open |
@@ -15,11 +15,11 @@
 The phase 3 slug is `sha256("GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe")`,
 the hash of the first page's own text — not the phase 2 answer.
 
-Run `python3 solve.py` for stage one, `python3 solve_rebus.py` for stage two,
-`python3 inspect_bundle.py` for the phase1verification 404, and
-`python3 phase23.py` for phases two and three.
+Run `python3 scripts/solve.py` for stage one, `python3 scripts/solve_rebus.py` for stage two,
+`python3 scripts/inspect_bundle.py` for the phase1verification 404, and
+`python3 scripts/phase23.py` for phases two and three.
 
-# Stage one: `follow_the_white_rabbit.png`
+# Stage one: `sources/follow_the_white_rabbit.png`
 
 **Answer: `gsmg.io/theseedisplanted`**
 
@@ -42,7 +42,7 @@ Centre-pixel sampling reads the drawing, not the grid. **101 is correct.**
 
 ## What the files are
 
-`GSMG _ GSMG.html` is an archived copy of `gsmg.io/Puzzle`. Stripped of the
+`sources/GSMG _ GSMG.html` is an archived copy of `gsmg.io/Puzzle`. Stripped of the
 Internet Archive wrapper it contains nothing but a title, `GSMG MEGANIGMA || 5 BTC`,
 and one image tagged `alt="Follow the white rabbit"`. The saved-page asset folder it
 references was never captured, so the entire puzzle is the PNG.
@@ -143,11 +143,11 @@ successful POST cannot now be replayed through Wayback, so acceptance rests on
 the lyric, the next archived page, and the contemporaneous April 2020 solver
 record rather than a live oracle.
 
-Run `python3 solve_rebus.py` to reproduce the pairing from the images.
+Run `python3 scripts/solve_rebus.py` to reproduce the pairing from the images.
 
 ## What the page is
 
-`GSMG Puzzle2.html` is an archived copy of `gsmg.io/theseedisplanted`, the URL
+`sources/GSMG Puzzle2.html` is an archived copy of `gsmg.io/theseedisplanted`, the URL
 stage one decoded. Its body is eight `<img>` tags and nothing else visible. The
 one other element is a form hidden with `display: none`:
 
@@ -367,7 +367,7 @@ the phase-three envelope embedded in the phase-two page. The independent
 `89727c59…` URL serves the page headed **SalPhaseIon** and **Cosmic Duality**,
 with two more textareas.
 
-`python3 phase23.py` extracts everything and decodes the readable parts. The
+`python3 scripts/phase23.py` extracts everything and decodes the readable parts. The
 SalPhaseIon textarea is a 1075-character stream that is not one encoding but
 three interleaved:
 
@@ -383,7 +383,7 @@ three interleaved:
 
 ## Cross-check against the second agent's transcript
 
-The transcript in `rollout-2026-08-04T21-14-50-*.jsonl` is a separate agent
+The transcript in `transcripts/rollout-2026-08-04T21-14-50-*.jsonl` is a separate agent
 working the same puzzle from a community repo. Two of its claims are checkable
 against the raw files here, and both hold:
 
@@ -398,7 +398,7 @@ byte-delimiter finding above, one-indexed. Row-major ordering would give
 
 **24 colour markers ↔ 24 primes.** There are exactly 24 primes in 1..91, and
 exactly 24 colour markers, so the stage one bits index the prime positions of
-S91. `solve_rebus.py` and `phase23.py` both confirm the counts.
+S91. `scripts/solve_rebus.py` and `scripts/phase23.py` both confirm the counts.
 
 Worth noting the transcript also opens from a *wrong* stage one reading — a
 12x12 grid solved as a rabbit maze with yellow breadcrumbs and blue decoys. The
@@ -439,7 +439,7 @@ offered as justification for a 23-colour stream with "the omitted prime-89
 colour" and a `YYB -> BYY` tail change.
 
 **The arithmetic is exactly right.** `0xF73D92 / 2 = 0x7B9EC9`, `+3 = 0x7B9ECC`,
-and its 23 significant bits do spell that string. `pipeline.py` verifies each
+and its 23 significant bits do spell that string. `scripts/pipeline.py` verifies each
 step.
 
 **But look at what the two operations do to the marker stream.** Dividing by two
@@ -464,7 +464,7 @@ gap, not what resolves it.
 
 ## The pipeline as stated does not open any blob
 
-`pipeline.py` turns the hint into candidates instead of argument. It builds the
+`scripts/pipeline.py` turns the hint into candidates instead of argument. It builds the
 24 marker bits into the 24 prime slots of S91 under both polarities and both
 "zero the other 67" and "keep the original digits" readings, takes 7 x 13 column
 sums row-major and column-major, renders each sum list six ways, applies the
@@ -785,7 +785,7 @@ key at all.
 
 The latest transcript proposes adding `17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa` as a
 second address oracle, on the report that the creator "moved half the original
-5 BTC" after solvers decoded phase 3.2.2. `onchain.py` checks that against the
+5 BTC" after solvers decoded phase 3.2.2. `scripts/onchain.py` checks that against the
 chain, and the move is real and unmistakably deliberate — but the story around
 it needs correcting.
 
@@ -901,7 +901,7 @@ already assembled.
 All 41 messages, cased and stripped, plus hex payloads decoded, give 88
 candidates. Against the four ciphertexts under three passphrase forms and two
 digests — **2112 trial decryptions, no hit.** The corpus is saved as
-`opreturn_corpus.txt`.
+`derived/opreturn_corpus.txt`.
 
 ## State of play
 
@@ -914,7 +914,7 @@ Four ciphertexts are in hand and none has yielded yet:
 | cosmic duality | phase 3, second textarea | 1328 B | `2d3f6fe06dc950e6` |
 | embedded | inside the SalPhaseIon stream | 80 B | `3ab585348552415d` |
 
-The sweep in `phase23.py` tries each candidate raw, as its sha-256 hex digest and
+The sweep in `scripts/phase23.py` tries each candidate raw, as its sha-256 hex digest and
 as its raw digest, under md5, sha1 and sha256 key derivation, and reports no hit
 for the obvious candidates including the phase 2 digest itself and
 `matrixsumlist`. Notably the phase 3 blob on the phase 2 page does *not* open
@@ -923,9 +923,9 @@ transformation of the seven parts rather than the digest verbatim.
 
 # The `phase1verification` capture: a real 404, not a clue
 
-`GSMG _ GSMG.html` is a capture of `https://gsmg.io/phase1verification` and it
+`sources/GSMG _ GSMG.html` is a capture of `https://gsmg.io/phase1verification` and it
 renders "Oops! Page Not Found". That is a genuine error, not part of the puzzle.
-Run `python3 inspect_bundle.py` for the evidence, which is fivefold.
+Run `python3 scripts/inspect_bundle.py` for the evidence, which is fivefold.
 
 **It is the trading app, not a puzzle page.** The capture ships the site's full
 Vue bundle (`app.js`, 2.3 MB). Pulling the router table out of it gives 22
@@ -981,5 +981,8 @@ Wayback CDX index will list them) should surface it, exactly the way
 The local material is otherwise exhausted. Every HTML capture holds only its
 Wayback wrapper plus page content, the `.js`/`.css` assets are stock Internet
 Archive replay scripts or the site's own app code, `GSMG Puzzle_files` and
-`GSMG Puzzle2_files` are byte-identical, and every image has been checked for
-metadata, appended data, alpha channels and near-background colour markers.
+`GSMG Puzzle2_files` were byte-identical across all fourteen files (the
+redundant `GSMG Puzzle_files`, which no capture referenced, has since been
+removed; `sources/GSMG Puzzle2_files` is the surviving copy), and every image
+has been checked for metadata, appended data, alpha channels and
+near-background colour markers.

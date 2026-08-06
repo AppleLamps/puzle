@@ -22,14 +22,16 @@ from pathlib import Path
 
 from PIL import Image
 
-sys.path.insert(0, str(Path(__file__).resolve().parent / "gsmgio-5btc-puzzle-master"))
+from _paths import DERIVED, SOURCES, use_solver_package
+
+use_solver_package()
 
 from solver.extract import extract_all
 from solver.openssl_compat import decrypt_salted_aes256_cbc
 from solver.secp256k1_verify import N, base58check, hash160, public_key
 
-IMAGE = Path("/workspace/follow_the_white_rabbit.png")
-OUT = Path("/workspace/second_door_yinyang_joint_audit.json")
+IMAGE = SOURCES / "follow_the_white_rabbit.png"
+OUT = DERIVED / "second_door_yinyang_joint_audit.json"
 
 CELL = 25
 SIZE = 14

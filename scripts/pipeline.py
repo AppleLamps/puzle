@@ -24,6 +24,8 @@ from collections import Counter
 from Crypto.Cipher import AES
 from PIL import Image
 
+from _paths import SOURCES
+
 CELL, GRID = 25, 14
 BLUE, YELLOW = (63, 72, 204), (255, 242, 0)
 VALUE = {c: n for n, c in enumerate("abcdefghi", 1)} | {"o": 0}
@@ -54,7 +56,7 @@ def spiral(n):
     return order
 
 
-def marker_bits(path="follow_the_white_rabbit.png"):
+def marker_bits(path=SOURCES / "follow_the_white_rabbit.png"):
     pixels = Image.open(path).convert("RGB").load()
 
     def cell(r, c):
@@ -69,7 +71,7 @@ def marker_bits(path="follow_the_white_rabbit.png"):
     return [1 if c == BLUE else 0 for c in colours if c in (BLUE, YELLOW)]
 
 
-def fields(path="GSMG Puzzle4 - phase3 salphaseion.html"):
+def fields(path=SOURCES / "GSMG Puzzle4 - phase3 salphaseion.html"):
     html = open(path, encoding="utf-8", errors="replace").read()
     stream = "".join(re.findall(r"<textarea[^>]*>([\s\S]*?)</textarea>", html)[0].split())
     head = stream[: stream.find("shabefour")]
@@ -175,8 +177,8 @@ def blobs():
         area = "".join(re.findall(r"<textarea[^>]*>([\s\S]*?)</textarea>", html)[index].split())
         return base64.b64decode(area)
 
-    p2 = "GSMG Puzzle3 - phase2.html"
-    p3 = "GSMG Puzzle4 - phase3 salphaseion.html"
+    p2 = SOURCES / "GSMG Puzzle3 - phase2.html"
+    p3 = SOURCES / "GSMG Puzzle4 - phase3 salphaseion.html"
     stream = "".join(
         re.findall(r"<textarea[^>]*>([\s\S]*?)</textarea>",
                    open(p3, encoding="utf-8", errors="replace").read())[0].split()

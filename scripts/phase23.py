@@ -19,8 +19,10 @@ import re
 
 from Crypto.Cipher import AES
 
-PHASE2_HTML = "GSMG Puzzle3 - phase2.html"
-PHASE3_HTML = "GSMG Puzzle4 - phase3 salphaseion.html"
+from _paths import SOURCES
+
+PHASE2_HTML = SOURCES / "GSMG Puzzle3 - phase2.html"
+PHASE3_HTML = SOURCES / "GSMG Puzzle4 - phase3 salphaseion.html"
 
 SALPHASEION_SLUG = "89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32"
 

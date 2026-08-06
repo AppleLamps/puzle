@@ -529,7 +529,7 @@ def run_s570_classical_family(gate: CandidateGate) -> dict[str, object]:
 
 
 def phase32_number_line() -> tuple[str, str]:
-    text = Path("/workspace/phase32_plaintext.txt").read_text(encoding="latin-1")
+    text = (ROOT.parent / "derived" / "phase32_plaintext.txt").read_text(encoding="latin-1")
     number_match = re.search(r"(?m)^(\d{80,})$", text)
     phrase_match = re.search(r"One for one, four for one\.", text)
     if number_match is None or phrase_match is None:

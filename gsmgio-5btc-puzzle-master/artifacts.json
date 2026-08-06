@@ -7716,22 +7716,22 @@
         "new_unique_tokens": 0
       },
       {
-        "file": "salphaseion_parts.json",
+        "file": "derived/salphaseion_parts.json",
         "bytes": 841,
         "new_unique_tokens": 0
       },
       {
-        "file": "second_door_yellow_red_audit.json",
+        "file": "derived/second_door_yellow_red_audit.json",
         "bytes": 6438,
         "new_unique_tokens": 0
       },
       {
-        "file": "second_door_yellow_red_followup.json",
+        "file": "derived/second_door_yellow_red_followup.json",
         "bytes": 2890,
         "new_unique_tokens": 0
       },
       {
-        "file": "second_door_yinyang_joint_audit.json",
+        "file": "derived/second_door_yinyang_joint_audit.json",
         "bytes": 7382,
         "new_unique_tokens": 15
       }

@@ -54,7 +54,7 @@ from .targets import (
 
 
 RESULT_PATH = ROOT / "second_door_frontier_derivations.json"
-IMAGE = Path("/workspace/follow_the_white_rabbit.png")
+IMAGE = ROOT.parent / "sources" / "follow_the_white_rabbit.png"
 FALLBACK_IMAGE = ROOT / "puzzle.png"
 
 BLACK = (0, 0, 0)

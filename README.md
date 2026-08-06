@@ -6,6 +6,8 @@ The funded private keys have **not** been recovered.
 
 ## Start here
 
+0. [Agent orientation](CLAUDE.md) — layout, established facts, and the
+   discipline this repository holds itself to. Read this first.
 1. [Creator-sourced evidence](CREATOR_SOURCED.md) — facts separated from solver
    interpretation.
 2. [Solved-stage re-audit](docs/SOLVED_STAGE_REAUDIT.md) — independent
@@ -44,19 +46,23 @@ private-key derivation.
 
 | Path | Purpose |
 | --- | --- |
+| `CLAUDE.md` | Orientation for an agent picking the puzzle up |
 | `CREATOR_SOURCED.md` | Creator chronology and provenance audit |
 | `SOLUTION.md` | Narrative reconstruction and corrections |
 | `docs/` | Navigation, transcripts, and unified attempt history |
+| `sources/` | Archived creator pages, their asset bundles, and the poster image |
+| `scripts/` | Standalone stage scripts that read `sources/` and write `derived/` |
+| `derived/` | Plaintexts, extracted fields, and audit JSON produced from `sources/` |
+| `transcripts/` | Prior agent rollout transcripts |
 | `gsmgio-5btc-puzzle-master/` | Tested Python solver package and generated audits |
 | `gsmgio-5btc-puzzle-master/solver/` | Reproducible experiment modules |
 | `gsmgio-5btc-puzzle-master/results/README.md` | Virtual catalog of result JSON files |
 | `gsmgio-5btc-puzzle-master/artifacts/` | Acquired source artifacts and provenance records |
 | `gsmgio-5btc-puzzle-master/tmp/` | Historical community/agent notes; not canonical |
-| `rollout-*.jsonl` | Prior agent transcript |
-| root `GSMG*`, images, audio, `.npy` | Forensic source material used by root scripts |
+| `telegram/` | 2026-08-05 community export; local only, never committed |
 
-Files remain in their historical locations because solver modules and tests use
-those paths. Organization is provided by indexes rather than destructive moves.
+`gsmgio-5btc-puzzle-master/` keeps its own internal layout, because its modules,
+tests, and the `artifacts.json` manifest address each other by those paths.
 
 ## Running the verified package
 
@@ -72,8 +78,15 @@ Run an individual audit with:
 python3 -m solver.<audit_module>
 ```
 
-Root scripts such as `solve.py`, `solve_rebus.py`, and `phase23.py` expect the
-current directory to be the repository root.
+The standalone stage scripts resolve their inputs through `scripts/_paths.py`,
+so they run from any directory:
+
+```bash
+python3 scripts/solve.py          # stage one spiral
+python3 scripts/solve_rebus.py    # stage two rebus tiles
+python3 scripts/phase23.py        # phases two and three
+python3 scripts/inspect_bundle.py # the phase1verification 404
+```
 
 ## Status vocabulary
 

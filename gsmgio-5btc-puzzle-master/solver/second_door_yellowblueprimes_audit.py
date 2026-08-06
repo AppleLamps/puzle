@@ -36,7 +36,7 @@ from .targets import BETTER_ADDRESS, HALF_ADDRESS
 
 
 RESULT_PATH = ROOT / "second_door_yellowblueprimes_audit.json"
-IMAGE = Path("/workspace/follow_the_white_rabbit.png")
+IMAGE = ROOT.parent / "sources" / "follow_the_white_rabbit.png"
 FALLBACK_IMAGE = ROOT / "puzzle.png"
 
 BLACK = (0, 0, 0)

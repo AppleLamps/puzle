@@ -25,7 +25,7 @@ reported as a failed test.
 
 | Status | Attempt and result | Evidence |
 | --- | --- | --- |
-| **SOLVED** | 14×14 down-first counter-clockwise spiral, black/blue=1 and white/yellow=0 → `gsmg.io/theseedisplanted` | `SOLUTION.md`, `../solve.py` |
+| **SOLVED** | 14×14 down-first counter-clockwise spiral, black/blue=1 and white/yellow=0 → `gsmg.io/theseedisplanted` | `SOLUTION.md`, `../scripts/solve.py` |
 | **SUPERSEDED** | 12×12 rabbit maze/yellow breadcrumb route; third right move enters black and the source grid is 14×14 | `SOLUTION.md`, agent rollout |
 | **SOLVED** | Spiral-ordered marker bits → `F73D92`; row-major `BE2B9B` is the wrong ordering | `first_grid_secondary_audit.json` |
 | **SOLVED** | All 24 colour markers occupy URL byte boundaries and equal the URL-byte LSBs | `RESEARCH_LEDGER.md` |
@@ -36,27 +36,27 @@ reported as a failed test.
 | **SOLVED (location) / OPEN (role)** | Unique off-white cell `(7,4)`, zero-based spiral index 163 = byte 20, bit 3, inside the `n` of `planted`; its intended special role remains open | `SOLUTION.md`, `CREATOR_SOURCED.md` |
 | **NEGATIVE** | Off-white cell as a "dual-prime index" (spiral 163 and row-major 103 both prime, tying it to the creator's prime hints). The two indices use different bases: zero-based row-major is 7·14+4 = 102 (composite) and one-based spiral is 164 (composite). Under either single convention the pair breaks | community claim, 2026-06-28; verified here |
 | **OPEN (observation)** | A 14×14 grid minus its main diagonal splits into two triangles of (196−14)/2 = 91 cells, and 91 = C(14,2) — the exact length of the S91 field, with the `YOUWON` split's 21 = C(7,2). Arithmetic confirmed; no construction attached, and 91 is small enough that the echo may be coincidence | community observation, 2026-08-04; verified here |
-| **NEGATIVE** | Treat off-white as one, producing `…theseedispla~ted`, then hash/key-test | `../second_door_yinyang_joint_audit.json` |
-| **SOLVED** | Structural counts: 86 black versus 85 white + 1 off-white; L/R and diagonal dualities are real | `../second_door_yinyang_joint_audit.json` |
-| **SOLVED** | Resistor-code structural totals Y=4, B=6, W=9, R=2 give total 900 (eye/off-white treated as 9) or 891 (eye treated as 0) | `../second_door_yinyang_joint_audit.json` |
-| **NEGATIVE** | 1,794 yin/yang materials covering colour inversion, L/R, top/bottom, diagonal and interleave rules → 2,413 scalars and 8,076 AES attempts, no prize/structured result | `../second_door_yinyang_joint_audit.json` |
+| **NEGATIVE** | Treat off-white as one, producing `…theseedispla~ted`, then hash/key-test | `../derived/second_door_yinyang_joint_audit.json` |
+| **SOLVED** | Structural counts: 86 black versus 85 white + 1 off-white; L/R and diagonal dualities are real | `../derived/second_door_yinyang_joint_audit.json` |
+| **SOLVED** | Resistor-code structural totals Y=4, B=6, W=9, R=2 give total 900 (eye/off-white treated as 9) or 891 (eye treated as 0) | `../derived/second_door_yinyang_joint_audit.json` |
+| **NEGATIVE** | 1,794 yin/yang materials covering colour inversion, L/R, top/bottom, diagonal and interleave rules → 2,413 scalars and 8,076 AES attempts, no prize/structured result | `../derived/second_door_yinyang_joint_audit.json` |
 | **NEGATIVE** | All-grid resistor streams, prime-zeroing, 14×14 sums/products/determinants, URL-prime/HASHTHETEXT, and rabbit-nest morphology families | `second_door_frontier_derivations.json` |
-| **NEGATIVE** | Force yellow marker LSBs to one → `gsmg/io/uieseeeisqmaouee`; red/resistor and prime-zero variants | `../second_door_yellow_red_audit.json` |
-| **NEGATIVE** | Yellow/red follow-up prime-zero, character-prime, resistor+yflip and red-XOR families: 292 unique scalars | `../second_door_yellow_red_followup.json` |
+| **NEGATIVE** | Force yellow marker LSBs to one → `gsmg/io/uieseeeisqmaouee`; red/resistor and prime-zero variants | `../derived/second_door_yellow_red_audit.json` |
+| **NEGATIVE** | Yellow/red follow-up prime-zero, character-prime, resistor+yflip and red-XOR families: 292 unique scalars | `../derived/second_door_yellow_red_followup.json` |
 | **SOLVED arithmetic / FITTED interpretation** | Direct poster assignment of primes 2..89: Blue=484, Yellow=479; zero blue prime 5 → `479=479`. Consecutive-prime assignment and zeroing semantics are clue-motivated, not cryptographically authenticated | `CREATOR_SOURCED.md` |
 | **FITTED structural hit** | Authenticated A–Z plaintext at zero-based offset 479 starts `PRIVATEKEY…`; one-based position 479 does not. This is a strong hit, not a convention-free key derivation | `ARCHITECT_479_CONTINUATION.md` |
 | **NEGATIVE** | Broad creator-frontier second-door family: 102,093 unique scalars and 41,660 AES checks | `second_door_frontier_derivations.json` |
 | **NEGATIVE** | `yellowblueprimes` bounded derivations independent of Cosmic | `second_door_yellowblueprimes_audit.json` |
-| **NEGATIVE** | Earlier reconstructed creator pipeline (`yellowblueprimes`→matrix sums→Architect words→yin/yang): 86 core + 21 on-chain/name candidates, 2,064 decryptions | `SOLUTION.md`, `../pipeline.py` |
+| **NEGATIVE** | Earlier reconstructed creator pipeline (`yellowblueprimes`→matrix sums→Architect words→yin/yang): 86 core + 21 on-chain/name candidates, 2,064 decryptions | `SOLUTION.md`, `../scripts/pipeline.py` |
 
 ## 2. Rebus and phase-one verification
 
 | Status | Attempt and result | Evidence |
 | --- | --- | --- |
-| **SOLVED** | Pair eight rebus tiles by mirrored gutters/letter fragments → “cryptologic warning, can you dig it?” | `SOLUTION.md`, `../solve_rebus.py` |
+| **SOLVED** | Pair eight rebus tiles by mirrored gutters/letter fragments → “cryptologic warning, can you dig it?” | `SOLUTION.md`, `../scripts/solve_rebus.py` |
 | **SOLVED (historical evidence)** | Song-lyric continuation supplies the reported form password `theflowerblossomsthroughwhatseemstobeaconcretesurface`; the archived POST cannot be replayed | `SOLUTION.md`, git `c4b6a20e` |
 | **SOLVED (partial control)** | PNG fingerprints pin `CAN YOU` and constrain the remaining groups, but do not independently resolve every pair | `SOLUTION.md` |
-| **NEGATIVE** | Treat archived `/phase1verification` GET 404 as a clue; it is the SPA catch-all and the real form used POST | `../inspect_bundle.py`, `SOLUTION.md` |
+| **NEGATIVE** | Treat archived `/phase1verification` GET 404 as a clue; it is the SPA catch-all and the real form used POST | `../scripts/inspect_bundle.py`, `SOLUTION.md` |
 
 ## 3. Phase two and seven parts
 
@@ -83,6 +83,7 @@ reported as a failed test.
 | **SOLVED** | Recover 26-symbol substitution independently from an Architect crib and language scoring | `phase32_symbol_recovery.json` |
 | **SOLVED** | Beaufort key `THEMATRIXHASYOU` reproduces the 1539-letter Architect plaintext | `phase32_classical.json` |
 | **SOLVED** | VIC straddling checkerboard reproduces the Half/Better-Half funds message | same |
+| **CAUTION** | The committed VIC alphabet `FUBCDORA.LETHINGKYMVPS.JQZXW` has 28 characters but only 27 distinct, because `.` is duplicated where the README's own derivation produces `/` (line 332 derives the `/` form; line 336 invokes the `.` form). Decoding this ciphertext under both alphabets gives byte-identical plaintext — the differing cell is never selected — so no result changes, but any future decode reaching that cell would be wrong | `phase32_classical.json`, `README.md` lines 332/336; verified here |
 | **SOLVED/FITTED** | Align the puzzle's Architect plaintext against the Matrix Reloaded source: 31 edit blocks and 179/835 matching words; alignment is reproducible, semantic intent of substitutions is interpretive | `architect_substitution_audit.json` |
 | **NEGATIVE** | Direct CP1141 decode from “one for one, four for one” | `ARCHITECT_479_CONTINUATION.md` |
 | **NEGATIVE** | Architect word anchors 121/142/182/237 as passwords/scalars | `book_anchor_audit.json` |
@@ -253,6 +254,7 @@ The exact candidate manifests and counts are in
 | **NEGATIVE** | Hash obvious creator texts, page-140 units, clue strings and normalizations into prize scalars | `creator_frontier_giveaway_audit.json` |
 | **NEGATIVE** | Wayback CDX URL/body search for missing operands (`cosmic_A`, `ca`, `K_I1`) and second-door pages | `wayback_source_audit.json` |
 | **NEGATIVE** | Early gsmg.io asset harvest, literal/term scan, PNG/hash comparison and scalar extraction | `wayback_early_asset_audit.json` |
+| **NEGATIVE** | The four archived `gsmg.io/…quintessentialhumandelusion…` paths are not a door. Reading `lastwordsbeforearchichoice` as the Architect's last words before Neo's door choice yields the "Hope" line, and the CDX cache does contain those URLs — but all four were captured within 64 seconds on 2026-03-10 at 12,253–12,306 bytes, matching the modern catch-all app shell, and every live response now follows `length = 1029 + 3 × path_length` from domain-parking infrastructure. Solver probes, not creator pages. Recorded because the paths look compelling and will be rediscovered | `artifacts/wayback_cache/cdx_1e45059a….json`, `artifacts/door_probe/CLASSIFICATION.md` |
 | **NEGATIVE** | Creator-posted Telegram media as a hidden channel. All 3 photos and 10 of his 15 other items are now readable (`tools/telegram_media_reattach.py` matches orphaned media to messages by name and byte size); every one is a reaction meme, including both 2023-08-03 clips posted a minute from "the hardest part is done". The 5 unrecovered are self-describing joke filenames posted while deflecting hint requests | `docs/TELEGRAM_2026_REVIEW.md`, `docs/TRANSCRIPTS.md` |
 | **OPEN** | X2SH values H/Y and intended use of `# X 2 S H 4 Y 0 Q B 15 #` | `CREATOR_SOURCED.md` |
 

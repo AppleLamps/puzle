@@ -16,6 +16,8 @@ from collections import Counter
 
 from PIL import Image
 
+from _paths import SOURCES
+
 CELL = 25
 SIZE = 14
 
@@ -77,7 +79,7 @@ def spiral(size):
 
 
 def main():
-    grid = read_grid("follow_the_white_rabbit.png")
+    grid = read_grid(SOURCES / "follow_the_white_rabbit.png")
     order = spiral(SIZE)
     colours = [grid[row][col] for row, col in order]
     bits = "".join("1" if colour in ONE_BITS else "0" for colour in colours)

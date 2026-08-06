@@ -57,7 +57,7 @@ SEAL_PATH = ROOT / "salphaseion_split_envelope_preregistered.sha256"
 RESULT_PATH = ROOT / "salphaseion_split_envelope_results.json"
 
 STAGE_PASSWORDS_PATH = ROOT / "seven_stage_passwords_intertwine_audit.json"
-RABBIT_IMAGE_PATH = ROOT.parent / "follow_the_white_rabbit.png"
+RABBIT_IMAGE_PATH = ROOT.parent / "sources" / "follow_the_white_rabbit.png"
 PUZZLE_IMAGE_PATH = ROOT / "puzzle.png"
 
 # Pinned split targets (verified 2026-08-05 against the earliest capture).

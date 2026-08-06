@@ -4,6 +4,7 @@
 
 | Document | Role | Status |
 | --- | --- | --- |
+| [`../CLAUDE.md`](../CLAUDE.md) | Agent orientation: layout, established facts, standing rules | Maintained |
 | [`../README.md`](../README.md) | Repository entry point | Maintained |
 | [`../CREATOR_SOURCED.md`](../CREATOR_SOURCED.md) | Creator-authenticated chronology and forensic boundary | Maintained |
 | [`../SOLUTION.md`](../SOLUTION.md) | Full reconstruction, corrections, and current result | Maintained |

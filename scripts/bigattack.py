@@ -18,6 +18,8 @@ import time
 
 from Crypto.Cipher import AES
 
+from _paths import SOURCES
+
 
 def evp(passphrase, salt, digest, key_len=32, iv_len=16):
     data, block = b"", b""
@@ -33,7 +35,8 @@ def textarea(path, index):
 
 
 def blobs():
-    p2, p3 = "GSMG Puzzle3 - phase2.html", "GSMG Puzzle4 - phase3 salphaseion.html"
+    p2 = SOURCES / "GSMG Puzzle3 - phase2.html"
+    p3 = SOURCES / "GSMG Puzzle4 - phase3 salphaseion.html"
     stream = textarea(p3, 0)
     tail = stream[stream.find("shabefour") :]
     m = re.match(

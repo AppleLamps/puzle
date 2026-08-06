@@ -19,6 +19,8 @@ import sys
 
 from Crypto.Cipher import AES
 
+from _paths import SOURCES
+
 MATRIX = """neo morpheus trinity oracle architect merovingian keymaker persephone niobe
 cypher tank dozer switch apoc mouse seraph sati rama link zee kid smith agentsmith
 zion nebuchadnezzar logos hammer sentinel squiddy construct matrix thematrix
@@ -63,7 +65,7 @@ PHRASES = [
 ]
 
 
-def load(path="GSMG Puzzle3 - phase2.html", index=0):
+def load(path=SOURCES / "GSMG Puzzle3 - phase2.html", index=0):
     html = open(path, encoding="utf-8", errors="replace").read()
     area = "".join(re.findall(r"<textarea[^>]*>([\s\S]*?)</textarea>", html)[index].split())
     blob = base64.b64decode(area)

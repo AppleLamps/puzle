@@ -2,13 +2,13 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 55,
+    "seals_checked": 56,
     "seal_mismatches": 0,
     "manifests_absent": 2,
-    "result_digests_checked": 51,
+    "result_digests_checked": 52,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
-    "drift_gates_checked": 8,
+    "drift_gates_checked": 9,
     "drift_gates_failing": 1,
     "drift_gates_failing_unrepaired": 0
   },
@@ -46,6 +46,13 @@
       "manifest_present": true,
       "sealed_digest": "7fbff3e8bd9eac997a270d4575ea04258bb337eeac94f6e8f0f43b7e813f894b",
       "actual_digest": "7fbff3e8bd9eac997a270d4575ea04258bb337eeac94f6e8f0f43b7e813f894b",
+      "status": "OK"
+    },
+    {
+      "seal": "matrixsumlist_instruction_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "11074fc992fc54006c776c9fb8eaa800c59d765eb129d4d18b99529979e24d18",
+      "actual_digest": "11074fc992fc54006c776c9fb8eaa800c59d765eb129d4d18b99529979e24d18",
       "status": "OK"
     },
     {
@@ -431,6 +438,15 @@
       "digest": "7fbff3e8bd9eac997a270d4575ea04258bb337eeac94f6e8f0f43b7e813f894b",
       "resolves_to": [
         "fae_paired_list_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "result": "matrixsumlist_instruction_audit.json",
+      "key": "preregistration_sha256",
+      "digest": "11074fc992fc54006c776c9fb8eaa800c59d765eb129d4d18b99529979e24d18",
+      "resolves_to": [
+        "matrixsumlist_instruction_preregistered.json"
       ],
       "status": "RESOLVED"
     },
@@ -905,6 +921,11 @@
     {
       "module": "solver.yinyang_rot180_partition_preregister",
       "manifest": "yinyang_rot180_partition_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.matrixsumlist_instruction_preregister",
+      "manifest": "matrixsumlist_instruction_preregistered.json",
       "passes": true
     }
   ],

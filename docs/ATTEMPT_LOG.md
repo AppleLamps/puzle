@@ -314,6 +314,7 @@ No agent or checked-in audit has yet passed either prize oracle.
 | **NEGATIVE (bounded)** | Source-order one-/zero-based 9×63 column sums and 63×9 row sums: nine fixed serializations, SHA-256/double-SHA scalar gates, and 168 short-envelope AES trials | `fae_9x63_preregistered.json` (seal `887c961a…340308e`), `fae_9x63_audit.json`, `solver/fae_9x63_audit.py`; 104 unique scalars, no prize match; no structured AES plaintext; one random-looking one-byte-padding output rejected |
 | **NEGATIVE (bounded)** | v45 paired-list family, executing the second half of the OPEN row below: the four sealed sum lists combined elementwise with the following F63 digits under ten fixed pairings (add, both subtractions, XOR, product, three moduli, both interleaves) and the same nine serializations. 360 records, 660 unique scalars, 1,128 short-envelope AES trials, two chance padding hits against ~4.4 expected, no structured plaintext. Best elementwise agreement with F63 is 7 of 63 | `fae_paired_list_preregistered.json` (seal `7fbff3e8…13f894b`), `fae_paired_list_audit.json`, `solver/fae_paired_list_audit.py`; planted control accepted and real targets rejected on the same path |
 | **OPEN** | Compare S570 against a machine-readable F-A-E Sonata note/rest transcription. The sums × F63 pairing half of this row is now closed by v45 above; the sonata comparison still needs an external score and is untested | The direct serialization and paired-list negatives do not refute the header or sonata hypotheses |
+| **CAUTION** | The "best: 12/63" agreement reported here and in `../findings.md` §13 is **not** weak support for the 9×63 reading. Measured against 20,000 shuffles of the source field it is p = 0.022 uncorrected and the best of 16 comparisons, so roughly p = 0.36 corrected — indistinguishable from noise | §14c below; `matrixsumlist_instruction_audit.json` |
 
 Provenance correction: `messages58.html` reply links show that Jrk's “many NOTES” replied to Anderson's request for another “NOTE” moment. Anderson's `youmeandself` URLs replied to “Give yourself yourself...”; Jrk's later “Nice” replied to an earlier clonazepam message, not those URLs. Any creator-endorsement reading is retracted.
 
@@ -385,6 +386,30 @@ duality — 86 = 86, the mirrored L/R counts 44/42 against 42/44, the 49/98
 rotational split — but every balance found so far is a *property* rather than an
 operation, and no transform turning any of them into a door or a scalar has been
 found. The missing piece is still a composition rule, not more candidates.
+
+### 14c. `matrixsumlist` as instruction versus literal (2026-08-06)
+
+`CLAUDE.md` records an unresolved tension: `matrixsumlist` is an authenticated
+SalPhaseIon literal *and* phrase 2 of the creator's ordered pipeline, which reads
+like an instruction. If it is an instruction, the obvious objects are the two
+undecoded base-9 fields beside it. v48 tests that reading three ways.
+
+| Status | Test and result | Evidence |
+| --- | --- | --- |
+| **VERIFIED (closes the bridge reading by dimension)** | Enumerate every rectangular factorisation of 91, 570 and 567, both axes, both `a..i` mappings — 102 forced sum lists. **Only four have a length matching any other authenticated field**, and all four are the 9×63 and 63×9 readings of S570-after-`fae` pointing at the same 63-symbol `lastwords` field. Nothing addresses the 29-symbol password field or S91. So "build a matrix, sum it, and the list is the next operand" has exactly one dimensional target in the whole SalPhaseIon corpus | `matrixsumlist_instruction_audit.json` |
+| **NEGATIVE** | The self-labelling test. `S91 = 7 × 13` and `matrixsumlist` is exactly 13 letters, so a 7×13 matrix has one column per letter of its own name; if the 13 column sums spelled `MATRIXSUMLIST` the instruction reading would be self-authenticating. Best result across two mappings and three mod-26 reductions is **1 of 13** | same |
+| **NEGATIVE (statistical)** | The one apparent signal in this area is now quantified. `findings.md` §13 reports the best sums-versus-F63 agreement as 12 of 63. Against 20,000 shuffles of the source field that is p = 0.022 uncorrected — but it is the best of **16** comparisons, so the corrected p is roughly 0.36. **It is noise.** Every other comparison lands between p = 0.22 and p = 0.89 | same |
+| **NEGATIVE (bounded)** | The scalar and AES family: all 102 forced sum lists × nine serializations × four derivations, plus 3,292 short-envelope AES trials. 4,012 unique scalars, no prize match, 15 chance padding hits against ~12.9 expected, no structured plaintext | `matrixsumlist_instruction_preregistered.json` (seal `11074fc9…9e24d18`), `solver/matrixsumlist_instruction_audit.py`; planted control accepted and real targets rejected |
+| **VERIFIED** | Whole-field totals under `a=1..i=9`: S91 = **422**, S570 = 3,079. The 422 reproduces the historical S91 matrix-sum total recorded in `tmp/kenorb-analysis.md`, which had it as one of two inconsistent figures | same |
+
+**How the tension now stands.** The literal reading is authenticated — the
+104-symbol `a`/`b` block decodes to `matrixsumlist` exactly. The instruction
+reading, with S91 or S570 as its object, has no dimensional support beyond a
+single 9×63 target, fails the self-labelling test it would pass if the fields
+were self-describing, and reaches no gate. That does not refute an instruction
+reading whose object is some *other* artifact, but it removes the S-fields as its
+likely referent. Weight should shift toward `matrixsumlist` being a literal, and
+toward the pipeline phrases naming objects rather than operations.
 
 ### Corrections to standing guidance
 

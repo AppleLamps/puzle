@@ -75,6 +75,34 @@ def test_new_audits_seal_and_gate_cleanly() -> None:
         assert outcome["control"]["rejected_against_real_targets"]
 
 
+def test_matrixsumlist_instruction_reading_is_dimensionally_bounded() -> None:
+    """Only the 9x63 reading of S570 can address another field at all."""
+    from solver.matrixsumlist_instruction_preregister import census, sum_lists
+
+    lists = sum_lists()
+    records = census()
+    assert len(lists) == 102
+    assert len(records) == 4
+    assert {record["matches_length_of"] for record in records} == {"lastwords63"}
+    assert all("s570_after_fae" in record["sum_list"] for record in records)
+
+
+def test_matrixsumlist_self_labelling_fails_and_agreement_is_noise() -> None:
+    from solver.matrixsumlist_instruction_audit import run
+
+    outcome = run()
+    assert outcome["status"] == "NO_PRIZE_MATCH_IN_PREREGISTERED_FAMILY"
+    assert outcome["matches"] == []
+    assert not outcome["self_labelling_test"]["any_exact"]
+    assert outcome["self_labelling_test"]["best_positions_of_13"] <= 2
+    # The 12/63 agreement is the only one below 0.05 uncorrected, and there are
+    # 16 comparisons, so it does not survive correction.
+    below = [record for record in outcome["field_agreements_against_null"] if record["p_value"] < 0.05]
+    assert len(below) <= 1
+    for record in below:
+        assert record["p_value"] * len(outcome["field_agreements_against_null"]) > 0.05
+
+
 def test_youwon_v44_tests_the_difference_block_not_the_raw_field() -> None:
     """The operand v42 missed: D[21:70], not S91[21:70]."""
     from solver.youwon_middle_block_preregister import difference_state

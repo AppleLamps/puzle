@@ -1,0 +1,119 @@
+{
+  "acceptance": {
+    "better_half": {
+      "hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6"
+    },
+    "explicitly_not_acceptance": [
+      "valid PKCS#7 padding",
+      "readable English fragments",
+      "a high elementwise agreement between a sum list and another field"
+    ],
+    "half": {
+      "exact_public_key": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+    },
+    "only_gate": "solver.targets.gate_scalar_bytes"
+  },
+  "aes_family": {
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "password_forms": [
+      "literal",
+      "sha256_lowercase_hex"
+    ],
+    "target": "the authenticated SalPhaseIon short envelope"
+  },
+  "dimensional_census": [
+    {
+      "length": 63,
+      "matches_length_of": "lastwords63",
+      "sum_list": "s570_after_fae/one_based/63x9/rowsums"
+    },
+    {
+      "length": 63,
+      "matches_length_of": "lastwords63",
+      "sum_list": "s570_after_fae/one_based/9x63/colsums"
+    },
+    {
+      "length": 63,
+      "matches_length_of": "lastwords63",
+      "sum_list": "s570_after_fae/zero_based/63x9/rowsums"
+    },
+    {
+      "length": 63,
+      "matches_length_of": "lastwords63",
+      "sum_list": "s570_after_fae/zero_based/9x63/colsums"
+    }
+  ],
+  "expansion": {
+    "axes": [
+      "rowsums",
+      "colsums"
+    ],
+    "derivations": [
+      "sha256",
+      "double_sha256",
+      "sha256^0x7f",
+      "sha256_reversed"
+    ],
+    "logical_scalar_candidates": 3672,
+    "mappings": [
+      "one_based",
+      "zero_based"
+    ],
+    "serializations": [
+      "raw_sum_bytes",
+      "ascii_decimal_concat",
+      "ascii_two_digit_concat",
+      "ascii_csv",
+      "ascii_space",
+      "mod10_ascii",
+      "mod9_zero_ascii",
+      "mod9_zero_to9_ascii",
+      "mod26_A0_ascii"
+    ],
+    "sum_lists": 102
+  },
+  "frozen_inputs": {
+    "s570": {
+      "alphabet": "abcdefghi",
+      "length": 570,
+      "sha256": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2"
+    },
+    "s570_after_fae": {
+      "alphabet": "abcdefghi",
+      "length": 567,
+      "sha256": "59cfc11bfb69ae0e329c86a4c2c251d2623490496bde355860ad8a40f0b58f00"
+    },
+    "s91": {
+      "alphabet": "abcdefghi",
+      "length": 91,
+      "sha256": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca"
+    }
+  },
+  "hypothesis": "matrixsumlist is an instruction as well as a literal, and its object is S91 or S570: build the matrix, sum it, and the resulting list is the next operand.",
+  "out_of_scope": [
+    "non-rectangular or overlapping matrix layouts",
+    "any cipher whose key is a free parameter",
+    "Cosmic, Chain 4 and base-38 operands"
+  ],
+  "schema": "matrixsumlist-instruction-preregistration-v48",
+  "self_labelling_test": {
+    "claim": "S91 as 7x13 has one column per letter of its own 13-letter name",
+    "expected_string": "MATRIXSUMLIST",
+    "reductions": [
+      "mod26_A0",
+      "mod26_A1",
+      "mod26_negated"
+    ]
+  },
+  "statistics": {
+    "null_model": "uniform random permutations of the source field",
+    "purpose": "context for any field-to-field agreement; agreement is never acceptance",
+    "seed": 20260806,
+    "trials": 20000
+  },
+  "status": "SEALED_BEFORE_SCALAR_OR_AES_EVALUATION",
+  "tension_being_tested": "matrixsumlist is an authenticated SalPhaseIon literal and simultaneously phrase 2 of the creator's ordered pipeline. CLAUDE.md records that this is unresolved."
+}

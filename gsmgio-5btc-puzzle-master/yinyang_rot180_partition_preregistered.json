@@ -1,0 +1,123 @@
+{
+  "acceptance": {
+    "better_half": {
+      "hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6"
+    },
+    "explicitly_not_acceptance": [
+      "valid PKCS#7 padding",
+      "readable English fragments",
+      "a count that balances, including the 49/98 split itself"
+    ],
+    "half": {
+      "exact_public_key": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+    },
+    "only_gate": "solver.targets.gate_scalar_bytes",
+    "planted_control_scalar": "00000000000000000000000000000000000000000000000000000000000c0de5"
+  },
+  "aes_family": {
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "password_forms": [
+      "literal",
+      "sha256_lowercase_hex"
+    ],
+    "target": "the authenticated SalPhaseIon short envelope"
+  },
+  "distinct_from": {
+    "../derived/second_door_yinyang_joint_audit.json": "colour inversion, L/R, top/bottom, diagonal and interleave rules; no rot180 pair-parity partition",
+    "salphaseion_blind_results_v28.json": "the eight spiral symmetries as whole-grid re-readings, not a partition by pair parity",
+    "second_door_frontier_derivations.json": "prime-index zeroing, 14x14 sum/product/determinant matrices and diagonal splits"
+  },
+  "expansion": {
+    "derivations": [
+      "sha256",
+      "double_sha256",
+      "sha256^0x7f",
+      "sha256_reversed",
+      "raw_32_bytes"
+    ],
+    "phrase": "yinyang",
+    "phrase_forms": [
+      "phrase_prefix_sha256",
+      "phrase_suffix_sha256"
+    ],
+    "serializations": [
+      "bit_string_ascii",
+      "packed_bytes",
+      "int_bigendian",
+      "int_littleendian"
+    ]
+  },
+  "hypothesis": "The yin-yang the creator names is the poster's rot180 colour-inverting structure, and the partition it induces -- 49 inverting pairs against 49 non-inverting -- carries the material for the next step.",
+  "measured_structure": {
+    "innermost_four_spiral_bits": "0000",
+    "inverting_pairs": 49,
+    "non_inverting_dark_dark": 26,
+    "non_inverting_light_light": 23,
+    "non_inverting_pairs": 49,
+    "off_white_cell": [
+      7,
+      4
+    ],
+    "off_white_rot180_partner": [
+      6,
+      9
+    ],
+    "off_white_rot180_partner_is_dark": true,
+    "off_white_rot180_partner_spiral_index": 173,
+    "off_white_spiral_index": 163,
+    "pairs": 98
+  },
+  "out_of_scope": [
+    "bit conventions other than the authenticated black/blue = 1 URL rule",
+    "treating off-white as 1, already negative",
+    "any Cosmic, Chain 4 or base-38 operand",
+    "free-parameter ciphers keyed by anything not on this list"
+  ],
+  "schema": "yinyang-rot180-partition-preregistration-v47",
+  "status": "SEALED_BEFORE_SCALAR_OR_AES_EVALUATION",
+  "streams": {
+    "dark_dark_pair_bits52": {
+      "length": 52,
+      "ones": 52,
+      "sha256": "a53234b0c3cca0a1cdaff4d9c2af30eecb28256e80c43c9707ac07adc048d231"
+    },
+    "light_light_pair_bits46": {
+      "length": 46,
+      "ones": 0,
+      "sha256": "45f5ca02f4bb4d384af739a64005a4600227e15701ac4079654d80533d447cde"
+    },
+    "pair_first_member_bits98": {
+      "length": 98,
+      "ones": 54,
+      "sha256": "374dd16295c06c3647fa3bfc7b530561e470aeb137385a364466d529c58e3c58"
+    },
+    "rot180_inversion_mask98": {
+      "length": 98,
+      "ones": 49,
+      "sha256": "f0cde5cd5d7443057c05e89f87bd23cdfb3e24f1fedcadd21e62a93ea484dda3"
+    },
+    "rot180_inversion_mask98_complement": {
+      "length": 98,
+      "ones": 49,
+      "sha256": "eadc5d689f9ab4d3265aaa4dd3b5fe478d30b189d67b5c436b883d0eb4a248a8"
+    },
+    "yang_bits98": {
+      "length": 98,
+      "ones": 52,
+      "sha256": "248c3094afef20621bd917d7721466c3e4289e552043ffe0d7ad98b9f7fde779"
+    },
+    "yin_bits98": {
+      "length": 98,
+      "ones": 49,
+      "sha256": "259e2f7b3017733e4d484cbc14d2b348661f95c25141fec6932c4e7da46296ec"
+    },
+    "yin_then_yang_bits196": {
+      "length": 196,
+      "ones": 101,
+      "sha256": "ddbe4e3c939ecded8f47f3b1889858dd07ae575d10ee48f68ce16cbd5fe82253"
+    }
+  }
+}

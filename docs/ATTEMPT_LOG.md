@@ -314,6 +314,7 @@ No agent or checked-in audit has yet passed either prize oracle.
 | **NEGATIVE (bounded)** | Source-order one-/zero-based 9×63 column sums and 63×9 row sums: nine fixed serializations, SHA-256/double-SHA scalar gates, and 168 short-envelope AES trials | `fae_9x63_preregistered.json` (seal `887c961a…340308e`), `fae_9x63_audit.json`, `solver/fae_9x63_audit.py`; 104 unique scalars, no prize match; no structured AES plaintext; one random-looking one-byte-padding output rejected |
 | **NEGATIVE (bounded)** | v45 paired-list family, executing the second half of the OPEN row below: the four sealed sum lists combined elementwise with the following F63 digits under ten fixed pairings (add, both subtractions, XOR, product, three moduli, both interleaves) and the same nine serializations. 360 records, 660 unique scalars, 1,128 short-envelope AES trials, two chance padding hits against ~4.4 expected, no structured plaintext. Best elementwise agreement with F63 is 7 of 63 | `fae_paired_list_preregistered.json` (seal `7fbff3e8…13f894b`), `fae_paired_list_audit.json`, `solver/fae_paired_list_audit.py`; planted control accepted and real targets rejected on the same path |
 | **OPEN** | Compare S570 against a machine-readable F-A-E Sonata note/rest transcription. The sums × F63 pairing half of this row is now closed by v45 above; the sonata comparison still needs an external score and is untested | The direct serialization and paired-list negatives do not refute the header or sonata hypotheses |
+| **CAUTION** | The "best: 12/63" agreement reported here and in `../findings.md` §13 is **not** weak support for the 9×63 reading. Measured against 20,000 shuffles of the source field it is p = 0.022 uncorrected and the best of 16 comparisons, so roughly p = 0.36 corrected — indistinguishable from noise | §14c below; `matrixsumlist_instruction_audit.json` |
 
 Provenance correction: `messages58.html` reply links show that Jrk's “many NOTES” replied to Anderson's request for another “NOTE” moment. Anderson's `youmeandself` URLs replied to “Give yourself yourself...”; Jrk's later “Nice” replied to an earlier clonazepam message, not those URLs. Any creator-endorsement reading is retracted.
 
@@ -355,6 +356,138 @@ negative reproduced. What changed is that the negatives are now checkable.
 | **NEGATIVE (bounded)** | v46: the balanced prime pair used as key material rather than as a text index. Twelve lists the dual reading defines — all 24 primes, the same with the blue 5 zeroed, yellow 9, blue 15, blue-zeroed and blue-dropped, both concatenation orders, the mirror pair, both colour masks, and the `[479, 479]` pair — over nine serializations and six derivations including `yinyang`-prefixed and suffixed hashes, plus 408 short-envelope AES trials. 660 unique scalars, no prize match, one chance padding hit against ~1.6 expected. Distinct from the three prior prime audits, which index text or hash poster streams rather than serializing the value lists | `yinyang_prime_dual_preregistered.json` (seal `5aa3efc2…707d3ad`), `yinyang_prime_dual_audit.json`, `solver/yinyang_prime_dual_audit.py`; planted control accepted and real targets rejected on the same path |
 | **NEGATIVE (bounded)** | v44: the difference blocks the 21/49/21 split defines — the full 91 letters, `middle49`, both 21-letter flanks, the middle with `YOUWON` removed, the concatenated flanks, and the two letterwise flank combinations — over two orientations, two letter cases and eight fixed byte derivations, plus 64 short-envelope AES trials. 192 unique scalars, no prize match, no valid padding at all | `youwon_middle_block_preregistered.json` (seal `c0808e1a…172a737`), `youwon_middle_block_audit.json`, `solver/youwon_middle_block_audit.py`; planted control accepted and real targets rejected on the same path |
 
+### 14b. Yin-yang focused pass (2026-08-06)
+
+A yin-yang's defining property as a symbol is **180° rotational symmetry with
+colour inversion**. The repository had tested colour inversion, L/R, top/bottom,
+diagonal and interleave rules on the poster, and eight spiral symmetries, but
+never the partition that rotational inversion itself induces. Measured here
+under the authenticated URL bit convention (black/blue = 1, off-white counted
+white):
+
+| Status | Structural fact | Note |
+| --- | --- | --- |
+| **VERIFIED** | The 196 cells form 98 rot180 pairs with no fixed point, and **exactly 49 of the 98 invert** | A perfect half. This is the strongest sense in which the artifact *is* a yin-yang under the symbol's own symmetry — but 49 is exactly the chance expectation, so it is a clean construction, not a surprising coincidence |
+| **VERIFIED** | The 49 non-inverting pairs split **26 dark-dark against 23 light-light** | The 49 inverting pairs carry 49 ones and 49 zeros, which is forced, not evidence |
+| **VERIFIED** | All three rotations (90°, 180°, 270°) split the 196 comparisons exactly 98 same / 98 different. `flip_h` gives 114/82, `flip_v` 86/110, `transpose` 112/84, `anti_transpose` 106/90 | Only the rotations balance |
+| **VERIFIED** | `sources/follow_the_white_rabbit.png` contains exactly **five** distinct colours across all 122,500 pixels, and the off-white `(254,254,254)` region is exactly 625 pixels — one 25×25 cell | So there is exactly **one** anomalous cell. A yin-yang has two eyes; the poster has one. No near-black twin exists, and any "two eyes" reading is closed on this artifact |
+| **VERIFIED** | The off-white cell `(7,4)` has spiral index 163; its rot180 partner `(6,9)` is black at spiral index 173. The four innermost spiral cells — the residual beyond the 192 URL bits — are all white, which is the recorded `0000` | The partner being black is unremarkable on its own: 86 of 196 cells are dark |
+| **NEGATIVE (bounded)** | v47: eight streams from the rot180 partition — both 98-cell halves in spiral order, the inversion mask and its complement, the pair-first-member stream, the concatenated 196, and the dark-dark and light-light pair streams — over four serializations and seven derivations including `yinyang`-prefixed and suffixed hashes, plus 124 short-envelope AES trials. 201 unique scalars, no prize match, **no valid padding at all** | `yinyang_rot180_partition_preregistered.json` (seal `c69d8798…0fe49c1`), `yinyang_rot180_partition_audit.json`, `solver/yinyang_rot180_partition_audit.py`; planted control accepted and real targets rejected |
+| **REJECTED (false positive, recorded so it is not re-found)** | Using the poster's 14 row sums as offsets from 479 into the Architect plaintext yields `EYEKEETAYYKEKY`, and the column sums yield `EYEYEKVEKTYEEE`. Both open with `EYE`, which is tempting next to `itsinfrontofyoureyesbutyourenotseeingit`. It is an artifact: small offsets from 479 land inside `PRIVATEKEY`, whose letters supply E, Y and E at 485/489/487, and everything after the third character is noise | This is exactly the "readable English fragment" trap in `CLAUDE.md`; no candidate was gated on it |
+
+Also computed and unremarkable: the poster bit matrix has 101 ones; row sums
+total 101 with top-half 48 versus bottom-half 53; column sums give left 54
+versus right 47. None of the sum lists spell anything as direct, offset,
+cumulative or `479`-anchored indices into the Architect plaintext.
+
+**Assessment.** Yin-yang remains unreached, consistent with the creator's own
+position as of 2026-03-03. The artifact carries genuine, now fully inventoried
+duality — 86 = 86, the mirrored L/R counts 44/42 against 42/44, the 49/98
+rotational split — but every balance found so far is a *property* rather than an
+operation, and no transform turning any of them into a door or a scalar has been
+found. The missing piece is still a composition rule, not more candidates.
+
+### 14c. `matrixsumlist` as instruction versus literal (2026-08-06)
+
+`CLAUDE.md` records an unresolved tension: `matrixsumlist` is an authenticated
+SalPhaseIon literal *and* phrase 2 of the creator's ordered pipeline, which reads
+like an instruction. If it is an instruction, the obvious objects are the two
+undecoded base-9 fields beside it. v48 tests that reading three ways.
+
+| Status | Test and result | Evidence |
+| --- | --- | --- |
+| **VERIFIED (closes the bridge reading by dimension)** | Enumerate every rectangular factorisation of 91, 570 and 567, both axes, both `a..i` mappings — 102 forced sum lists. **Only four have a length matching any other authenticated field**, and all four are the 9×63 and 63×9 readings of S570-after-`fae` pointing at the same 63-symbol `lastwords` field. Nothing addresses the 29-symbol password field or S91. So "build a matrix, sum it, and the list is the next operand" has exactly one dimensional target in the whole SalPhaseIon corpus | `matrixsumlist_instruction_audit.json` |
+| **NEGATIVE** | The self-labelling test. `S91 = 7 × 13` and `matrixsumlist` is exactly 13 letters, so a 7×13 matrix has one column per letter of its own name; if the 13 column sums spelled `MATRIXSUMLIST` the instruction reading would be self-authenticating. Best result across two mappings and three mod-26 reductions is **1 of 13** | same |
+| **NEGATIVE (statistical)** | The one apparent signal in this area is now quantified. `findings.md` §13 reports the best sums-versus-F63 agreement as 12 of 63. Against 20,000 shuffles of the source field that is p = 0.022 uncorrected — but it is the best of **16** comparisons, so the corrected p is roughly 0.36. **It is noise.** Every other comparison lands between p = 0.22 and p = 0.89 | same |
+| **NEGATIVE (bounded)** | The scalar and AES family: all 102 forced sum lists × nine serializations × four derivations, plus 3,292 short-envelope AES trials. 4,012 unique scalars, no prize match, 15 chance padding hits against ~12.9 expected, no structured plaintext | `matrixsumlist_instruction_preregistered.json` (seal `11074fc9…9e24d18`), `solver/matrixsumlist_instruction_audit.py`; planted control accepted and real targets rejected |
+| **VERIFIED** | Whole-field totals under `a=1..i=9`: S91 = **422**, S570 = 3,079. The 422 reproduces the historical S91 matrix-sum total recorded in `tmp/kenorb-analysis.md`, which had it as one of two inconsistent figures | same |
+
+**How the tension now stands.** The literal reading is authenticated — the
+104-symbol `a`/`b` block decodes to `matrixsumlist` exactly. The instruction
+reading, with S91 or S570 as its object, has no dimensional support beyond a
+single 9×63 target, fails the self-labelling test it would pass if the fields
+were self-describing, and reaches no gate. That does not refute an instruction
+reading whose object is some *other* artifact, but it removes the S-fields as its
+likely referent. Weight should shift toward `matrixsumlist` being a literal, and
+toward the pipeline phrases naming objects rather than operations.
+
+### 14d. The creator's own acceptance criterion, applied (2026-08-06)
+
+Reading only creator statements, one line is an **acceptance criterion** and has
+never been used as one:
+
+> 2021-03-14 — "Breaking salphation should be giving the feeling of the phase's
+> name."
+
+`SalPhaseIon` points at *salvation*. Taken plainly, a correct break produces
+something a human recognises. That is exactly the standard the phase-3.2 break
+meets, and it is testable.
+
+| Status | Measurement | Evidence |
+| --- | --- | --- |
+| **VERIFIED (true positive)** | The phase-3.2 envelope under its authenticated password decrypts to 2,422 bytes at 5.78 bits/byte entropy and 0.598 printable, opening `I've been waiting for you. You have many questions...` — legible on sight | `salvation_coherence_audit.json` |
+| **VERIFIED (the chain fails the criterion)** | The three chained unlocks the whole post-3.2 branch rests on are **not legible**. Chain 1 under the five-token password: 79 bytes, 6.13 bits/byte, 0.392 printable. Chain 2 under the derived WIF: 79 bytes, 6.09, 0.456. Cosmic under the seven-token XOR: 1,327 bytes, **7.87 bits/byte with 255 distinct byte values** — indistinguishable from random | same |
+| **VERIFIED (the null)** | Valid strict PKCS#7 padding arises by chance on these envelopes at **0.325–0.379%** per random password (20,000 trials each). The repository's own v38 recorded 10,065 padding hits in 2,551,032 trials = 0.394%, i.e. exactly the chance rate | same |
+| **VERIFIED (empirical demonstration)** | The v49 sweep produced **12,132 padding hits in 3,094,352 attempts (0.392%) and zero legible outputs.** Twelve thousand clean unpaddings, not one readable. Padding is therefore worthless as evidence, demonstrated rather than asserted | same |
+| **NEGATIVE (bounded)** | v49 Part B: the creator's seven published phrases plus the four authenticated SalPhaseIon literals, `yingyang` and `salvation`, swept as ordered combinations up to five tokens — his own ordered prefixes first — over three separators, two letter cases and EVP MD5/SHA-256, against all four authenticated envelopes. 386,794 passwords, 3,094,352 attempts, **no legible break and no prize match** | `solver/salvation_coherence_audit.py` |
+
+**What this changes.** It does not prove the chain is wrong, and it does not
+recover a key. It establishes that **nothing after phase 3.2 is authenticated**:
+the five-token chain-1 unlock, the WIF-derived chain-2 unlock and the
+seven-token XOR Cosmic unlock are each consistent with padding luck, and none is
+self-authenticating. `CLAUDE.md` already states that clean padding proves
+nothing — that rule was simply never applied to the repository's own load-bearing
+chain, and applying it removes the authentication from everything downstream,
+including the 1327-byte Cosmic plaintext, the base-38 output and all of Chain 4.
+
+This aligns three creator statements that previously sat awkwardly. He never
+named Cosmic, Chain 4 or base-38. He said "the hardest part is done" on
+2023-08-03, when the community's last *legible* result was phase 3.2. And he
+said breaking SalPhaseIon should feel like its name — which no 79-byte
+high-entropy blob does.
+
+**Consequence for the search.** The correct next lock should yield legible
+output, and legibility — not padding, not a scored near-match — is the gate to
+search under. The 96-byte chain-1 envelope is the first place the chain leaves
+legibility behind, which makes it the highest-value target, and its correct
+password is unknown rather than known.
+
+### 14e. The "seven intertwined passwords" family under the legibility gate (2026-08-06)
+
+v49 concluded that the 96-byte chain-1 envelope is the first place the chain
+leaves legibility behind and that its correct password should be treated as
+unknown, searched under a legibility gate rather than padding. v50 acts on that
+by chasing the two families v49 left open, both grounded in creator-authenticated
+text rather than solver convention:
+
+1. **The authenticated password *format*.** The only password the puzzle ever
+   confirms — phase 3.2's `250f3772…` — is the lowercase SHA-256 **hex digest** of
+   a phrase, used as ASCII with the `-md sha256` KDF. v49 swept raw phrase text
+   only and never applied that format.
+2. **"Seven intertwined passwords."** The Architect plaintext — tier 1, it
+   decrypts from a creator ciphertext — says the finisher must "SELECT FROM OVER
+   TWENTYTHREE CIPHERS SIXTEEN ENCRYPTIONS ANDOR SEVEN INTERTWINED PASSWORDS."
+   Every prior intertwine audit braided the seven *stage answers*
+   (`seven_stage_passwords_intertwine_audit.json`, `chain4_intertwined_results.json`);
+   none braided the seven *phrases* of the 2023-02-23 image, whose order is the
+   strongest structural constraint in the puzzle.
+
+| Status | Test and result | Evidence |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | Family A — sha256-format passwords. For each named creator text (the seven phrases, the seven SalPhaseIon tokens, the Architect and its `[479:]` / `[:479]` slices, S91, S570, the numeric fields, and the other authenticated strings) the lowercase and uppercase SHA-256 hex, the double-SHA-256 hex, and the raw 32-byte digest, under EVP MD5 and SHA-256, against chain1/chain2/cosmic. 140 passwords, 840 attempts, 5 chance padding hits, no legible break, no prize match | `intertwined_password_coherence_audit.json` |
+| **NEGATIVE (bounded)** | Family B — intertwined passwords. Round-robin **braid** (continue past exhausted parts) and **zip** (stop at shortest) of every ordered subset of the seven 2023-02-23 phrases, and of the seven SalPhaseIon tokens with the two placeholder tokens (`yourlastcommand`, `secondanswer`) substituted by their creator-sourced readings — each material tested raw and as its SHA-256 hex, under both KDFs, against all three envelopes. 102,991 distinct materials, 1,235,892 attempts, **4,745 padding hits at 0.384% — the chance rate — no legible break and no prize match** | same |
+
+**Assessment.** Two more large creator-grounded password families for the
+post-3.2 envelopes are now closed, and both land at exactly the chance padding
+rate v49 measured, reinforcing that clean unpadding on these envelopes is noise.
+Combined with v49, the raw-phrase, sha256-format, and phrase/token-intertwine
+readings of the "seven intertwined passwords" are all falsified for chain1,
+chain2 and cosmic. This does not refute the *reading* — non-round-robin
+interleavings, other KDFs, and operands the creator never published all remain —
+but it removes the most literal constructions. The result reinforces v49's core
+finding rather than overturning it: the door after phase 3.2 has not been opened,
+and no phrase-derived AES password opens it.
+
 ### Corrections to standing guidance
 
 - `faed[94:201]` is **already gated** as v40 (`salphaseion_faed_slice_audit.json`,
@@ -362,3 +495,8 @@ negative reproduced. What changed is that the negatives are now checkable.
   and `CLAUDE.md` still describe it as untested. Anyone acting on that wording
   would be re-running a closed family; only a genuinely new family beyond v40's
   format sweep is worth attempting.
+- The "seven intertwined passwords" reading of the AES chain is now closed for
+  the raw-phrase (v49), sha256-format (v50-A) and round-robin-intertwine (v50-B)
+  constructions. A new attempt in this area must use a genuinely different
+  interleaving rule, KDF, or operand, not another concatenation or braid of the
+  same phrases.

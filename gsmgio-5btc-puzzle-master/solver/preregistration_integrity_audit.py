@@ -55,6 +55,7 @@ DRIFT_GATED = (
     "solver.sfield_cipher_preregister",
     "solver.youwon_middle_block_preregister",
     "solver.fae_paired_list_preregister",
+    "solver.yinyang_prime_dual_preregister",
 )
 
 # A drift that has been diagnosed and superseded by a re-sealed copy.  The

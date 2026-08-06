@@ -39,15 +39,16 @@ def test_absent_manifests_are_only_the_two_gitignored_ones() -> None:
 
 
 def test_new_audits_seal_and_gate_cleanly() -> None:
-    from solver import fae_paired_list_audit, youwon_middle_block_audit
+    from solver import fae_paired_list_audit, yinyang_prime_dual_audit, youwon_middle_block_audit
     from solver.fae_paired_list_preregister import MANIFEST_PATH as FAE_MANIFEST, SEAL_PATH as FAE_SEAL
+    from solver.yinyang_prime_dual_preregister import MANIFEST_PATH as DUAL_MANIFEST, SEAL_PATH as DUAL_SEAL
     from solver.youwon_middle_block_preregister import MANIFEST_PATH as YOUWON_MANIFEST, SEAL_PATH as YOUWON_SEAL
 
-    for manifest, seal in ((FAE_MANIFEST, FAE_SEAL), (YOUWON_MANIFEST, YOUWON_SEAL)):
+    for manifest, seal in ((FAE_MANIFEST, FAE_SEAL), (YOUWON_MANIFEST, YOUWON_SEAL), (DUAL_MANIFEST, DUAL_SEAL)):
         assert hashlib.sha256(manifest.read_bytes()).hexdigest() == seal.read_text(encoding="ascii").strip()
         assert json.loads(manifest.read_bytes())["status"] == "SEALED_BEFORE_SCALAR_OR_AES_EVALUATION"
 
-    for module in (youwon_middle_block_audit, fae_paired_list_audit):
+    for module in (youwon_middle_block_audit, fae_paired_list_audit, yinyang_prime_dual_audit):
         outcome = module.run()
         assert outcome["status"] == "NO_PRIZE_MATCH_IN_PREREGISTERED_FAMILY"
         assert outcome["matches"] == []

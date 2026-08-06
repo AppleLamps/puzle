@@ -15,13 +15,11 @@ import re
 from pathlib import Path
 
 from solver.secp256k1_verify import N, p2pkh_address, public_key, wif
+from solver.targets import HALF_ADDRESS, HALF_PUBLIC_UNCOMPRESSED
 
 
-TARGET_PUBLIC_KEY = bytes.fromhex(
-    "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464"
-    "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
-)
-TARGET_ADDRESS = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+TARGET_PUBLIC_KEY = HALF_PUBLIC_UNCOMPRESSED
+TARGET_ADDRESS = HALF_ADDRESS
 
 
 PAGE_140_P1 = """feeling that passes through our mind or heart? There is not one moment of our life wasted, if we only know how to utilize our activity here, how to direct our thought, how to express it in words, how to further it with our movement, how to feel it, so that it may make its own atmosphere. What responsibility! The responsibility that every man has is greater than a king's responsibility. It seems as if every man has a kingdom of his own for which he is responsible—a kingdom which is in no way smaller than any kingdom known to us, but incomparably larger than the kingdoms of the earth. This teaches us to be thoughtful and conscientious and to feel our responsibility with every move we make. When a man does not feel this, he is unaware of himself, he is unaware of the secret of life. He goes on as a drunken man walking in a city. He does not know what he is doing, either for himself, or against himself."""

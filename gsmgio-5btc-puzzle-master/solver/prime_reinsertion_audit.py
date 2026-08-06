@@ -19,13 +19,16 @@ from PIL import Image
 
 from .extract import README, ROOT
 from .secp256k1_verify import N
+from .targets import HALF_ADDRESS, HALF_X, HALF_Y
 
 
 IMAGE = ROOT / "puzzle.png"
 RESULT_PATH = ROOT / "prime_reinsertion_audit.json"
-TARGET_X = int("f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464", 16)
-TARGET_Y = int("9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559", 16)
-TARGET_ADDRESS = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+# Re-exported from solver.targets, which is the single source of truth.  Many
+# audits import these three names from this module for historical reasons.
+TARGET_X = HALF_X
+TARGET_Y = HALF_Y
+TARGET_ADDRESS = HALF_ADDRESS
 BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 NEAR_WHITE = (254, 254, 254)

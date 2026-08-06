@@ -11,11 +11,12 @@ from .extract import ROOT, extract_all
 from .frontier_experiment import TARGET_X, TARGET_Y, _target_match
 from .salphaseion import derive_tokens
 from .secp256k1_verify import N, p2pkh_address, scalar_multiply
+from .targets import HALF_ADDRESS
 
 
 RESULT_PATH = ROOT / "door2_formula_audit.json"
 CLAIM_TEXT = "M3DGNJTGMZTCMZTG"
-TARGET_ADDRESS = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+TARGET_ADDRESS = HALF_ADDRESS
 CLAIM_URL = "https://github.com/puzzlehunt/gsmgio-5btc-puzzle/issues/92#issuecomment-4944877522"
 
 

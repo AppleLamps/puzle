@@ -821,6 +821,16 @@ circular — solvers funded them *because* the derived keys had been published. 
 proposal to gate candidates against `17ucy…` is right; the scalars it plans to
 gate are not validated by that 2026 activity.
 
+**`17ucy…` is the creator's wallet, not a second objective.** The creator uses
+"the better half" idiomatically for his partner in unrelated conversation
+(2025-04-28, 2026-03-03), speaks of the reward in the singular throughout ("the
+remaining 2.5 btc", "the private key", "the address"), and `17ucy…` has received
+44 times and spent zero times. There is exactly one prize target,
+`1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe`, and its uncompressed public key is on
+chain, so the strongest available oracle applies to the whole target set. Full
+argument and sources: [docs/HALF_AND_BETTER_HALF.md](docs/HALF_AND_BETTER_HALF.md).
+The `17ucy…` hash160 gate stays in `solver/targets.py` as cheap insurance.
+
 ## The exact gate targets, and why the `04` observation matters
 
 The prize address has spent, so its public key is on chain. Pulled straight from

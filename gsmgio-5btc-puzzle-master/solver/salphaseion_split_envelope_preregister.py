@@ -49,6 +49,7 @@ from .salphaseion_raw import (
     extract_raw,
     sha256_hex,
 )
+from .targets import BETTER_H160, HALF_PUBLIC_UNCOMPRESSED
 
 
 MANIFEST_PATH = ROOT / "salphaseion_split_envelope_preregistered.json"
@@ -70,12 +71,10 @@ CHAIN2_PLAINTEXT_SHA256 = "b40fce72ef5638e4f79b3233e653f8a5dbdb0d4ae2009d2d3da2c
 COSMIC_PLAINTEXT_SHA256 = "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081"
 CHAIN1_WIF = "5K2byJMssxFKuTgnk9YQjpBz5FhkwwF2LaZoAyTus8HjGEpz8AT"
 
-# Prize gates (exactly as recorded in the prior sealed audits).
-HALF_UNCOMPRESSED_PUBKEY = (
-    "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464"
-    "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
-)
-BETTER_HALF_HASH160 = "4bc468447fe1b048ad030a2f9a125478eabc4ed6"
+# Prize gates.  These are the same bytes the sealed audits recorded; they now
+# come from solver.targets so a single self-checked definition governs them.
+HALF_UNCOMPRESSED_PUBKEY = HALF_PUBLIC_UNCOMPRESSED.hex()
+BETTER_HALF_HASH160 = BETTER_H160.hex()
 
 ENVELOPE_SALTS = (
     ("env48", "3ab585348552415d"),

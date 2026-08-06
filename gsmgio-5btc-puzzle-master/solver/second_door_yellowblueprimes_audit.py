@@ -32,6 +32,7 @@ from .salphaseion import derive_tokens
 from .salphaseion_blind_eval import _formats, _readable
 from .salphaseion_raw import extract_raw
 from .secp256k1_verify import N, p2pkh_address
+from .targets import BETTER_ADDRESS, HALF_ADDRESS
 
 
 RESULT_PATH = ROOT / "second_door_yellowblueprimes_audit.json"
@@ -49,8 +50,8 @@ GENESIS = 0xF73D92
 HALF = GENESIS // 2
 BETTER = HALF + 3
 PRIZE = {
-    "Half": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
-    "Better_Half": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "Half": HALF_ADDRESS,
+    "Better_Half": BETTER_ADDRESS,
 }
 KNOWN_COSMIC_SHA = None  # filled at runtime from published path
 KNOWN_CHAIN4_SHA = None

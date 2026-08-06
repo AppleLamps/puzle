@@ -36,19 +36,20 @@ from .salphaseion import derive_tokens
 from .salphaseion_raw import extract_raw
 from .secp256k1_verify import N, base58check, hash160, wif
 from .witteveen_identity_audit import t23_components, unique_color_parse
+from .targets import (
+    BETTER_ADDRESS,
+    BETTER_H160,
+    HALF_ADDRESS,
+    HALF_H160,
+    HALF_PUBLIC_UNCOMPRESSED,
+)
 
 
 RESULT_PATH = ROOT / "salphaseion_selector_frontier_audit.json"
 
-HALF_ADDR = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
-BETTER_ADDR = "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa"
-HALF_H160 = bytes.fromhex("a9553269572a317e39f0f518cb87c1a0ee1dbae4")
-BETTER_H160 = bytes.fromhex("4bc468447fe1b048ad030a2f9a125478eabc4ed6")
-HALF_PUB = bytes.fromhex(
-    "04"
-    "f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464"
-    "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
-)
+HALF_ADDR = HALF_ADDRESS
+BETTER_ADDR = BETTER_ADDRESS
+HALF_PUB = HALF_PUBLIC_UNCOMPRESSED
 PRIZES = {
     "Half": {"address": HALF_ADDR, "hash160": HALF_H160},
     "Better_Half": {"address": BETTER_ADDR, "hash160": BETTER_H160},

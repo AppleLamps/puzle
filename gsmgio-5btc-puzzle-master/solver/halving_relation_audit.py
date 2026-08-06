@@ -17,12 +17,13 @@ from .blockchain_nonce_audit import _p2pkh_script, parse_transaction
 from .extract import ROOT
 from .prime_reinsertion_audit import TARGET_ADDRESS, TARGET_X, TARGET_Y
 from .secp256k1_verify import N, base58check, hash160
+from .targets import BETTER_ADDRESS
 
 
 RESULT_PATH = ROOT / "halving_relation_audit.json"
 SIGNATURE_MANIFEST = ROOT / "blockchain_nonce_audit.json"
 RAW_TXS = ROOT / "artifacts" / "blockchain_cache" / "raw_txs"
-BETTER_HALF_ADDRESS = "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa"
+BETTER_HALF_ADDRESS = BETTER_ADDRESS
 TX_2020 = "2aa9a4a90be819d5122d70c993280785a0508f163521e7b38cebb4db0b071b13"
 TX_2024 = "88cdb3cdca12b471551b1b26188508a14ca5fd8a415223ffb7c190381c9b9df3"
 TARGET_UNCOMPRESSED = (

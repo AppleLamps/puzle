@@ -24,12 +24,13 @@ from .chains import reconstruct
 from .extract import ROOT, extract_all
 from .salphaseion import derive_tokens
 from .secp256k1_verify import N, base58check, hash160
+from .targets import BETTER_ADDRESS, HALF_ADDRESS
 
 
 RESULT_PATH = ROOT / "witteveen_chain4_two_oracle_audit.json"
 PRIZE_ADDRESSES = {
-    "Half": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
-    "Better_Half": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "Half": HALF_ADDRESS,
+    "Better_Half": BETTER_ADDRESS,
 }
 
 

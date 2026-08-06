@@ -12,10 +12,11 @@ from .extract import ROOT, extract_all
 from .frontier_experiment import TARGET_X, TARGET_Y, _target_match
 from .salphaseion import derive_tokens
 from .secp256k1_verify import N, p2pkh_address
+from .targets import HALF_ADDRESS
 
 
 RESULT_PATH = ROOT / "trail1_splice_experiment.json"
-TARGET_ADDRESS = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+TARGET_ADDRESS = HALF_ADDRESS
 
 
 def _xor(left: bytes, right: bytes) -> bytes:

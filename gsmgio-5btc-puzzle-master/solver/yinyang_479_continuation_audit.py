@@ -25,6 +25,13 @@ from coincurve import PrivateKey
 
 from .extract import ROOT
 from .secp256k1_verify import BASE58, N, hash160, wif
+from .targets import (
+    BETTER_ADDRESS,
+    BETTER_H160,
+    HALF_ADDRESS,
+    HALF_H160,
+    HALF_PUBLIC_UNCOMPRESSED,
+)
 
 
 RESULT_PATH = ROOT / "yinyang_479_continuation_audit.json"
@@ -40,16 +47,7 @@ PHASE32_AES_KEY = bytes.fromhex(
     "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c"
 )
 
-HALF_ADDRESS = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
-HALF_PUBLIC = bytes.fromhex(
-    "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464"
-    "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
-)
-HALF_H160 = bytes.fromhex("a9553269572a317e39f0f518cb87c1a0ee1dbae4")
-BETTER_ADDRESS = "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa"
-BETTER_H160 = bytes.fromhex("4bc468447fe1b048ad030a2f9a125478eabc4ed6")
-
-
+HALF_PUBLIC = HALF_PUBLIC_UNCOMPRESSED
 def primes_through(limit: int) -> list[int]:
     return [
         value

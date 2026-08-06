@@ -20,20 +20,21 @@ from .salphaseion import derive_tokens
 from .secp256k1_verify import N, P, base58check, hash160
 from .chains import reconstruct
 from .chain4 import reconstruct_chain4
+from .targets import (
+    BETTER_ADDRESS,
+    BETTER_H160,
+    HALF_ADDRESS,
+    HALF_H160,
+    HALF_PUBLIC_UNCOMPRESSED,
+)
 
 
 RESULT_PATH = ROOT / "creator_frontier_giveaway_audit.json"
 
-HALF_ADDR = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
-BETTER_ADDR = "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa"
+HALF_ADDR = HALF_ADDRESS
+BETTER_ADDR = BETTER_ADDRESS
 PRIZE = {"Half": HALF_ADDR, "Better_Half": BETTER_ADDR}
-HALF_H160 = bytes.fromhex("a9553269572a317e39f0f518cb87c1a0ee1dbae4")
-BETTER_H160 = bytes.fromhex("4bc468447fe1b048ad030a2f9a125478eabc4ed6")
-HALF_PUB = bytes.fromhex(
-    "04"
-    "f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464"
-    "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
-)
+HALF_PUB = HALF_PUBLIC_UNCOMPRESSED
 HX = int.from_bytes(HALF_PUB[1:33], "big")
 HY = int.from_bytes(HALF_PUB[33:65], "big")
 

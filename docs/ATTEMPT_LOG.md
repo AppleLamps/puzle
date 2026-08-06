@@ -235,7 +235,10 @@ The exact candidate manifests and counts are in
 | **NEGATIVE (transcript-only)** | Passport/F73D92/XOR values as exact ECDSA nonces, differences and ratios; no target nonce below 2^24 | agent rollout |
 | **NEGATIVE (transcript-only)** | Halving-height/amount/fee/dust affine nonce family: 22,032 equations; no result artifact was checked in | agent rollout |
 | **NEGATIVE (transcript-only)** | Same-key compressed form, EC half/double/negation and 216 cross-halving nonce equations on the authentic address pair | agent rollout |
-| **NEGATIVE (transcript-only)** | Re-gate 68 immediate scalars, then 38,219 unique values from 82 audit files, against both funded addresses | agent rollout |
+| **SUPERSEDED (transcript-only)** | Re-gate 68 immediate scalars, then 38,219 unique values from 82 audit files, against both funded addresses; no artifact was ever checked in, so the claim was unverifiable. Replaced by the committed corpus-wide re-gate below | agent rollout |
+| **NEGATIVE** | Corpus-wide re-gate: 163 JSON artifacts, 1,402,149,098 bytes, 793,185 unique 64-hex tokens, 1,586,356 unique in-range scalars, big-endian and byte-reversed, against Half's exact public key, Half's hash160 and Better Half's hash160 under both serializations. Planted control accepted through the production gate as a synthetic Half public key and a synthetic Better Half hash160, and rejected against the real targets | `universal_regate.json`, `solver/universal_regate.py` |
+| **INFRASTRUCTURE** | Single source of truth for both funded targets, their available gates, and the two published non-targets; `self_check()` re-derives every constant from the Base58Check address text | `solver/targets.py` |
+| **SETTLED** | "Half and Better Half" names the creator and his partner, not two derivable keys. Two idiomatic creator uses of "the better half" (2025-04-28, 2026-03-03), consistently singular prize language, and `17ucy…` receiving exactly 2.5 then 1.25 BTC at the two halvings while never spending. One prize target: `1GSMG…` | `docs/HALF_AND_BETTER_HALF.md` |
 | **NEGATIVE** | 41 OP_RETURN messages as password corpus | `SOLUTION.md` |
 | **SOLVED** | Decentraland audio difference channel decodes `HASHTHETEXT` | `decentraland_audio_audit.json` |
 | **NEGATIVE** | Hash obvious creator texts, page-140 units, clue strings and normalizations into prize scalars | `creator_frontier_giveaway_audit.json` |
@@ -264,9 +267,10 @@ The exact candidate manifests and counts are in
 1. Determine the intended operation after Architect offset 479.
 2. Explain the 23/16/7 partition without introducing a free cipher/key choice.
 3. Recover or reject the unavailable community operands with source provenance.
-4. Derive a scalar matching:
-   - Half exact public key, or
-   - Better Half hash160 under a valid public-key serialization.
+4. Derive a scalar matching Half's exact public key. Per
+   [HALF_AND_BETTER_HALF.md](HALF_AND_BETTER_HALF.md) this is the only prize
+   target; the Better Half hash160 gate is retained in `solver/targets.py` as
+   cheap insurance, not as a second objective.
 
 Resolved on 2026-08-05: the independent 48-byte SalPhaseIon envelope (former
 item 3; sealed split-envelope audit, `salphaseion_split_envelope_results.json`,

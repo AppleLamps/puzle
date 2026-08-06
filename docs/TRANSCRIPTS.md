@@ -36,7 +36,11 @@ Important corrections:
 
 ### `gsmgio-5btc-puzzle-master/tmp/chat_transcript.txt`
 
-- 51,000+ messages from 2019 through 2026.
+- 51,177 messages, 2019-04-20 through 2026-06-12.
+- SHA-256 `63a85c037b83d87e7f55f25fa65941caa39c9bd2b02396c659e22c27dc79cb78`
+  (`tmp/creator_jrk.txt`: `9ac8ef442f634597e4fd7578e3b08773833367ac0de401159ce984d036cfd312`).
+  A newer export must be diffed against this hash before its extra messages are
+  treated as new evidence.
 - Contains creator posts, community speculation, deleted-account material, and
   solver-authored Bitcoin messages.
 - Creator-only extraction:
@@ -53,6 +57,10 @@ Creator-linked highlights extracted from the transcript:
 - 2022 reaction to the user-posted yin-yang image.
 - 2023 reversed-bit pipeline.
 - 2023/2025 statements that yin-yang is the next major phase.
+- 2020-11-24 / 2021-01-07 / 2023-01-12 statements that the prize is deliberately
+  halved at each Bitcoin halving, and that the reward is "the remaining" balance.
+- 2025-04-28 and 2026-03-03 idiomatic uses of "the better half" for the
+  creator's partner. See [HALF_AND_BETTER_HALF.md](HALF_AND_BETTER_HALF.md).
 
 ## Historical agent/community notes
 

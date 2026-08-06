@@ -19,13 +19,14 @@ from .openssl_compat import decrypt_salted_aes256_cbc
 from .salphaseion_blind_eval import _formats, _readable
 from .salphaseion_raw import extract_raw, sha256_hex
 from .secp256k1_verify import p2pkh_address
+from .targets import HALF_ADDRESS
 
 
 MANIFEST_PATH = ROOT / "url_prime_reinsertion_preregistered.json"
 SEAL_PATH = ROOT / "url_prime_reinsertion_preregistered.sha256"
 RESULT_PATH = ROOT / "url_prime_reinsertion_results.json"
 SPIRAL_URL = b"gsmg.io/theseedisplanted"
-TARGET_ADDRESS = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
+TARGET_ADDRESS = HALF_ADDRESS
 
 
 def _primes(limit: int) -> list[int]:

@@ -14,10 +14,11 @@ from .cosmic_matrix import analyze
 from .extract import ROOT, extract_all
 from .salphaseion import derive_tokens
 from .secp256k1_verify import N
+from .targets import HALF_X, HALF_Y
 
 
-TARGET_X = int("f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464", 16)
-TARGET_Y = int("9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559", 16)
+TARGET_X = HALF_X
+TARGET_Y = HALF_Y
 RESULT_PATH = ROOT / "frontier_experiment.json"
 
 

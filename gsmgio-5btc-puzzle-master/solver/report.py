@@ -16,6 +16,7 @@ from .extract import COSMIC_SOURCE, README, ROOT, extract_all
 from .openssl_compat import decrypt_salted_aes256_cbc
 from .salphaseion import derive_tokens
 from .secp256k1_verify import addresses_for_x, p2pkh_address, wif
+from . import targets
 
 
 OUTPUT = ROOT / "artifacts"
@@ -167,8 +168,8 @@ def run() -> dict[str, Any]:
     ledger.add_bytes("cosmic_secondary_shift7", matrix.selected.secondary, "row and column sums", "row[i] + column[(i+7) mod 103]")
     ledger.add_bytes("cosmic_base38_digits", bytes(matrix.digits), "cosmic_secondary_shift7", "subtract 80 from each byte")
     ledger.add_bytes("cosmic_base38_output", matrix.base38_bytes, "cosmic_base38_digits", "big-endian positional base-38 integer to minimal bytes")
-    ledger.add_bytes("Half", matrix.half, "cosmic_base38_output", "bytes 0:32")
-    ledger.add_bytes("Better_Half", matrix.better_half, "cosmic_base38_output", "bytes 32:64")
+    ledger.add_bytes("matrix_A", matrix.half, "cosmic_base38_output", "bytes 0:32; solver-derived scalar, NOT a prize key")
+    ledger.add_bytes("matrix_B", matrix.better_half, "cosmic_base38_output", "bytes 32:64; solver-derived scalar, NOT a prize key")
     ledger.add_bytes("trail1", matrix.trail1, "cosmic_base38_output", "bytes 64:68")
 
     half_addresses = {
@@ -179,7 +180,7 @@ def run() -> dict[str, Any]:
         "compressed": p2pkh_address(matrix.better_half, True),
         "uncompressed": p2pkh_address(matrix.better_half, False),
     }
-    target_x = bytes.fromhex("f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464")
+    target_x = targets.HALF_X.to_bytes(32, "big")
     target_candidates = addresses_for_x(target_x)
 
     frontier_path = ROOT / "frontier_experiment.json"
@@ -191,7 +192,7 @@ def run() -> dict[str, Any]:
     ledger.add_bytes(
         "frontier_experiment_json",
         frontier_path.read_bytes(),
-        "verified Chain 4 plus matrix-derived Half/Better Half/trail1",
+        "verified Chain 4 plus matrix-derived matrix_A/matrix_B/trail1",
         "bounded exact-public-point candidate audit",
     )
     triangle_path = ROOT / "xor_triangle_audit.json"
@@ -218,6 +219,19 @@ def run() -> dict[str, Any]:
         "verified Chain 4 prefix/blocks plus matrix-derived trail1",
         "contiguous trail-byte operand-completion audit with exact target gate",
     )
+    # Optional: the corpus-wide re-gate.  It is not a stage of the chain, so a
+    # missing artifact degrades the report rather than failing it.
+    regate_path = ROOT / "universal_regate.json"
+    universal_regate = (
+        json.loads(regate_path.read_text(encoding="utf-8")) if regate_path.exists() else None
+    )
+    if universal_regate is not None:
+        ledger.add_bytes(
+            "universal_regate_json",
+            regate_path.read_bytes(),
+            "every 64-hex token in every committed JSON artifact",
+            "corpus-wide re-gate against both funded targets, with a planted positive control",
+        )
     permutation_path = ROOT / "trail1_permutation_experiment.json"
     completed_triangle_path = ROOT / "chain4_completed_triangle.json"
     door2_path = ROOT / "door2_formula_audit.json"
@@ -247,7 +261,7 @@ def run() -> dict[str, Any]:
     for name, path, source, derivation in (
         ("trail1_permutation_experiment", permutation_path, "verified Chain 4 prefix/blocks plus matrix-derived trail1", "ordered non-repeating trail-byte completion audit"),
         ("chain4_completed_triangle", completed_triangle_path, "verified 31-byte Chain 4 prefix, 35 blocks, and trail1", "exhaustive direct serialized T8 XOR-triangle audit"),
-        ("door2_formula_audit", door2_path, "public Issue #92 formula plus verified Half/Better Half", "explicit-encoding reproduction and exact target audit"),
+        ("door2_formula_audit", door2_path, "public Issue #92 formula plus verified matrix_A/matrix_B", "explicit-encoding reproduction and exact target audit"),
         ("chain4_split_audit", split_path, "verified Chain 4 plaintext", "fixed-size deterministic permutation test of the reported entropy boundary"),
         ("l4_crib_audit", l4_crib_path, "public Issue #87 plaintext claims plus verified Chain 4 plaintext", "exact repeating-XOR crib constraint audit"),
         ("l4_beaufort_audit", l4_beaufort_path, "public Issue #87 wording plus verified Chain 4 plaintext", "bounded byte-domain Beaufort/Vigenere crib audit"),
@@ -259,10 +273,10 @@ def run() -> dict[str, Any]:
         ("wayback_source_audit", wayback_source_path, "Wayback CDX snapshot plus raw id_ replay bodies", "content-addressed sequential public-source retrieval and unresolved-artifact scan"),
         ("wayback_early_asset_audit", wayback_early_asset_path, "verified Wayback CDX snapshot plus every selected 2019-2021 puzzle-adjacent capture", "content-addressed early page, script, map, style, and image retrieval and scan"),
         ("chain4_combinatorial_audit", combinatorial_path, "verified Chain 4 blocks plus authenticated seven-password phrase and reconstructed records", "C(7,3)/C(7,4) hash, multiset, and linear-algebra audit"),
-        ("chain4_mitm_audit", mitm_path, "verified Chain 4 blocks, prefix operands, recovered K values, and Half/Better Half points", "checkpointed exhaustive point-space additive subset search"),
-        ("chain4_signed_mitm_audit", signed_mitm_path, "verified Chain 4 blocks, both prefix operands, and Half/Better Half", "checkpointed exhaustive point-space search over every 35-block sign assignment"),
+        ("chain4_mitm_audit", mitm_path, "verified Chain 4 blocks, prefix operands, recovered K values, and matrix_A/matrix_B points", "checkpointed exhaustive point-space additive subset search"),
+        ("chain4_signed_mitm_audit", signed_mitm_path, "verified Chain 4 blocks, both prefix operands, and matrix_A/matrix_B", "checkpointed exhaustive point-space search over every 35-block sign assignment"),
         ("blockchain_nonce_audit", blockchain_nonce_path, "confirmed Blockstream Esplora histories and independently parsed raw Bitcoin transactions", "complete P2PKH signature reconstruction, sighash verification, and known-nonce audit"),
-        ("chain4_xcoordinate_audit", xcoordinate_path, "verified Chain 4 blocks, prefix operands, and Half/Better Half", "distinct-block secp256k1 x-coordinate lift and bounded point-relation audit"),
+        ("chain4_xcoordinate_audit", xcoordinate_path, "verified Chain 4 blocks, prefix operands, and matrix_A/matrix_B", "distinct-block secp256k1 x-coordinate lift and bounded point-relation audit"),
         ("chain4_xor_subset_audit", xor_subset_path, "verified Chain 4 blocks and 30-byte opcode operand", "checkpointed exhaustive 3/4/7-block XOR subset scalar audit"),
         ("chain4_product_subset_audit", product_subset_path, "verified Chain 4 blocks and 30-byte opcode operand", "checkpointed exhaustive 3/4/7-block modular-product scalar audit"),
         ("chain4_aes_integer_audit", aes_integer_path, "verified Chain 4 blocks, recovered K values, token digests, passwords, and prefix forms", "bounded AES-256 layer, whole-integer, and selector audit"),
@@ -464,8 +478,8 @@ def run() -> dict[str, Any]:
             "base39_68_byte_control": base39_control,
         },
         "addresses": {
-            "Half": half_addresses,
-            "Better_Half": better_addresses,
+            "matrix_A": half_addresses,
+            "matrix_B": better_addresses,
             "K_C1_uncompressed_wif": chains.chain1_wif,
             "target_x_coordinate_candidates": [
                 {"y_parity": parity, "address": address, "y": y} for parity, address, y in target_candidates
@@ -509,6 +523,7 @@ def run() -> dict[str, Any]:
             "archive_limit": None,
             "result": "No bytes, full hash, length, or derivation for cosmic_A/ca, row1-4, or K_I1 were located.",
         },
+        "universal_regate": universal_regate,
         "frontier_experiment": frontier_experiment,
         "xor_triangle_audit": triangle_audit,
         "trail1_splice_experiment": splice_experiment,
@@ -521,7 +536,27 @@ def run() -> dict[str, Any]:
 
 
 def _markdown(payload: dict[str, Any], chains: Any, chain4: Any, matrix: Any, phase32: Any) -> str:
-    target = next(item for item in payload["addresses"]["target_x_coordinate_candidates"] if item["address"] == "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe")
+    target = next(item for item in payload["addresses"]["target_x_coordinate_candidates"] if item["address"] == targets.HALF_ADDRESS)
+    regate = payload.get("universal_regate")
+    if regate is None:
+        regate_paragraph = (
+            "The corpus-wide re-gate has not been run in this working tree. Run "
+            "`python -m solver.universal_regate` to reproduce it."
+        )
+    else:
+        corpus = regate["corpus"]
+        regate_paragraph = (
+            "Because most audits predate `solver/targets.py` and gate only on Half's exact public point, "
+            f"every recorded value was re-gated once against both targets. The sweep read {corpus['json_files']} "
+            f"JSON artifacts ({corpus['bytes_scanned']} bytes), extracted {corpus['unique_hex64_tokens']} unique "
+            f"64-hex tokens, and gated {corpus['unique_in_range_scalars']} unique in-range scalars under both the "
+            "big-endian and byte-reversed readings, against Half's exact public key, Half's `hash160`, and Better "
+            "Half's `hash160` under both serializations. A planted control scalar was pushed through the same "
+            "production gate and was accepted as a synthetic Half public key and as a synthetic Better Half "
+            f"`hash160`, while being rejected against the real targets. Result: **{regate['status']}**. "
+            "This is bookkeeping, not a hypothesis: it proves nothing already generated was silently discarded "
+            "by an incomplete gate, and it cannot find a key that was never generated."
+        )
     return f"""# GSMG.IO 5 BTC Puzzle Verification Report
 
 Generated deterministically by `python -m solver.report` from the checked-in README/images plus the provenance-recorded Cosmic ciphertext in `solver/data/cosmic_duality.txt`.
@@ -529,6 +564,19 @@ Generated deterministically by `python -m solver.report` from the checked-in REA
 ## Result
 
 The public chain is reproduced through Chain 4 and the independent 103x103 interpretation. The prize private key is **not** derived. The precise public frontier remains the absence of reproducible bytes or rules for `cosmic_A`/`ca`, `row1-4`, and `K_I1`.
+
+## Prize targets
+
+There are exactly two funded targets, defined once in `solver/targets.py`. They are asymmetric, and the asymmetry decides how a candidate may be gated.
+
+| Target | Address | Available gate |
+|---|---|---|
+| Half | `{targets.HALF_ADDRESS}` | exact uncompressed public key `{targets.HALF_PUBLIC_UNCOMPRESSED.hex()}`, and `hash160` `{targets.HALF_H160.hex()}` |
+| Better Half | `{targets.BETTER_ADDRESS}` | `hash160` `{targets.BETTER_H160.hex()}` only |
+
+Better Half has never spent an output, so no public point exists for it. Any gate written solely against a public key rejects every correct Better Half candidate silently, and no point-space meet-in-the-middle can target it at all. Every exhaustive Chain 4 certificate in this report is therefore a **Half-only** certificate.
+
+**`matrix_A` and `matrix_B` are not prize keys.** They are the two 32-byte halves of the Cosmic base-38 output, named `Half` and `Better_Half` in earlier revisions of this report because the shapes matched the recovered Architect line. Both are reproducible solver derivations that were published in public repositories; their addresses (`{payload['addresses']['matrix_A']['compressed']}` and `{payload['addresses']['matrix_B']['compressed']}`) were first seen 2026-04-12 and swept to zero. That activity is a consequence of publication and is never creator confirmation. The labels are retained only as ledger identifiers.
 
 ## Confirmed stages
 
@@ -560,7 +608,7 @@ Crucially, `TAKE THE PRIVATE KEY`, `REINSERTING THE PRIME BASICS`, and final `CI
 
 `matrixsumlist`, `enter`, `lastwordsbeforearchichoice`, and `thispassword` are decoded mechanically from the raw SalPhaseIon line in `README.md`. Reusing `matrixsumlist` as token 5 and reading `yourlastcommand` / `secondanswer` are semantic or fitted steps. Their combination gains strong downstream support because it produces two sibling 79-byte `32+32+15` structures, the documented WIF, another sibling 79-byte structure, a repeated pair of structures in Cosmic, and the Chain 4 embedded `Salted__` header and exact hash. This is substantially stronger than padding success alone, but it is not a creator-authored token proof.
 
-The instruction-style hypothesis has now been tested directly rather than rejected semantically. First, its quoted original-grid transcription is incorrect: authenticated pixel sampling gives row sums `{payload['salphaseion_instruction_audit']['source_corrections']['verified_row_sums']}`, column sums `{payload['salphaseion_instruction_audit']['source_corrections']['verified_column_sums']}`, total {payload['salphaseion_instruction_audit']['source_corrections']['verified_total_ones']}, and blue=1/yellow=0 stream `{payload['salphaseion_instruction_audit']['source_corrections']['verified_colored_bits_blue1_yellow0']}` (`{payload['salphaseion_instruction_audit']['source_corrections']['verified_colored_hex']}`), not total 101 / `F73D92`. Both authentic and supplied variants were nevertheless retained. The bounded construction generated {payload['salphaseion_instruction_audit']['candidate_family']['unique_preimages']:,} unique preimages from S91/S570 layouts, row/column/diagonal sums, all rectangular symmetries and four route families, `matrixsumlist` column ordering/weighting, S570 indexing, the 26-character `lastwords...` key/alphabet readings, five checkerboard row-pairs, `enter` insertions, last-bit reuse, access-loop strings, and Half/Better-Half forms. Raw, SHA-256, hex, and double-hash spellings expand these to {payload['salphaseion_instruction_audit']['candidate_family']['unique_password_bytes']:,} distinct password byte strings, each tested under MD5 and SHA-256 against all three envelopes.
+The instruction-style hypothesis has now been tested directly rather than rejected semantically. First, its quoted original-grid transcription is incorrect: authenticated pixel sampling gives row sums `{payload['salphaseion_instruction_audit']['source_corrections']['verified_row_sums']}`, column sums `{payload['salphaseion_instruction_audit']['source_corrections']['verified_column_sums']}`, total {payload['salphaseion_instruction_audit']['source_corrections']['verified_total_ones']}, and blue=1/yellow=0 stream `{payload['salphaseion_instruction_audit']['source_corrections']['verified_colored_bits_blue1_yellow0']}` (`{payload['salphaseion_instruction_audit']['source_corrections']['verified_colored_hex']}`), not total 101 / `F73D92`. Both authentic and supplied variants were nevertheless retained. The bounded construction generated {payload['salphaseion_instruction_audit']['candidate_family']['unique_preimages']:,} unique preimages from S91/S570 layouts, row/column/diagonal sums, all rectangular symmetries and four route families, `matrixsumlist` column ordering/weighting, S570 indexing, the 26-character `lastwords...` key/alphabet readings, five checkerboard row-pairs, `enter` insertions, last-bit reuse, access-loop strings, and matrix_A/matrix_B forms. Raw, SHA-256, hex, and double-hash spellings expand these to {payload['salphaseion_instruction_audit']['candidate_family']['unique_password_bytes']:,} distinct password byte strings, each tested under MD5 and SHA-256 against all three envelopes.
 
 At this scale padding behaves exactly like noise: {payload['salphaseion_instruction_audit']['strict_padding_hit_counts']['chain1']:,} short-blob, {payload['salphaseion_instruction_audit']['strict_padding_hit_counts']['chain2-direct']:,} direct small-blob, and {payload['salphaseion_instruction_audit']['strict_padding_hit_counts']['cosmic']:,} Cosmic hits from {payload['salphaseion_instruction_audit']['candidate_family']['decryptions_per_envelope']:,} decryptions per envelope. Thirteen short-blob candidates also pass small-blob padding after WIF derivation. Only one reaches the exact 1151-byte `+-` plus 35-block Chain 4 structure: the already-published five-token MD5 password; zero non-control candidates do. Cosmic likewise has exactly one Chain 4 structure hit, the canonical seven-digest-XOR control, and zero non-control hits. No candidate SHA-256 or 32-byte spelling derives the prize point. Thus this enumerated instruction reading is negative, while the published path is demonstrably more than a padding-only false positive.
 
@@ -585,15 +633,15 @@ The 1327 bytes are 10616 MSB-first bits: 10609 matrix bits and trailing bits `{'
 
 Exhausting all 103 cyclic column shifts finds {len(matrix.range_candidates)} shifts whose sums stay within 80..117: `{', '.join(str(candidate.shift) for candidate in matrix.range_candidates)}`. Shift 7 is the **only** shift that attains the full exact range 80..117. Thus `+7` is selected by a specific invariant, but the broader printable-range test alone is not unique.
 
-Subtracting 80 produces digits 0..37, making 38 the smallest valid positional base. Base 39 also produces 68 bytes, so output length alone does not uniquely prove base 38; base 38 is the canonical minimal-base choice and is independently checked by both published addresses.
+Subtracting 80 produces digits 0..37, making 38 the smallest valid positional base. Base 39 also produces 68 bytes, so output length alone does not uniquely prove base 38; base 38 is the canonical minimal-base choice.
 
-- Half: `{matrix.half.hex()}` -> `{payload['addresses']['Half']['compressed']}`
-- Better Half: `{matrix.better_half.hex()}` -> `{payload['addresses']['Better_Half']['compressed']}`
+- matrix_A: `{matrix.half.hex()}` -> `{payload['addresses']['matrix_A']['compressed']}`
+- matrix_B: `{matrix.better_half.hex()}` -> `{payload['addresses']['matrix_B']['compressed']}`
 - trailing bytes / `trail1`: `{matrix.trail1.hex()}`
 
 ## Prize public key
 
-The reported x-coordinate is on secp256k1. Its odd-y root is `{target['y']}` and independently hashes as an uncompressed public key to the exact prize address `1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe`. This validates the public point, not knowledge of its private scalar.
+The reported x-coordinate is on secp256k1. Its odd-y root is `{target['y']}` and independently hashes as an uncompressed public key to the exact prize address `{targets.HALF_ADDRESS}`. This validates the public point, not knowledge of its private scalar.
 
 ## Failed or unavailable claims
 
@@ -617,9 +665,11 @@ The reported x-coordinate is on secp256k1. Its odd-y root is `{target['y']}` and
 
 ## Precise current frontier
 
-The reproducible public state ends with two independently verified branches: Chain 4 (`e4269ed5...`) and the matrix-derived Half/Better Half pair. There is no public, complete operand connecting either branch to the prize scalar. `cosmic_A`/`ca`, the definition of `row1-4`, and the derivation of `K_I1` remain unavailable.
+The reproducible public state ends with two independently verified branches: Chain 4 (`e4269ed5...`) and the matrix-derived matrix_A/matrix_B pair. There is no public, complete operand connecting either branch to the prize scalar. `cosmic_A`/`ca`, the definition of `row1-4`, and the derivation of `K_I1` remain unavailable.
 
-The new bounded cross-branch experiment tested every one of the {payload['frontier_experiment']['window_count']} contiguous 32-byte Chain 4 windows under direct, XOR, modular addition/subtraction, and ordered SHA-256 composition with {payload['frontier_experiment']['constant_count']} verified constants derived from Half, Better Half, `trail1`, and both prefix parses. It generated {payload['frontier_experiment']['generated_candidates']} candidates ({payload['frontier_experiment']['unique_nonzero_scalars']} unique nonzero scalars) and found zero exact target-point matches. This falsifies only that enumerated family.
+{regate_paragraph}
+
+The new bounded cross-branch experiment tested every one of the {payload['frontier_experiment']['window_count']} contiguous 32-byte Chain 4 windows under direct, XOR, modular addition/subtraction, and ordered SHA-256 composition with {payload['frontier_experiment']['constant_count']} verified constants derived from matrix_A, matrix_B, `trail1`, and both prefix parses. It generated {payload['frontier_experiment']['generated_candidates']} candidates ({payload['frontier_experiment']['unique_nonzero_scalars']} unique nonzero scalars) and found zero exact target-point matches. This falsifies only that enumerated family.
 
 The queued contiguous `trail1` splice experiment is also complete. It formed {payload['trail1_splice_experiment']['word_count']} exact 32-byte completions of the 29-byte and 30-byte prefix operands and tested them standalone and under four operations with all {payload['trail1_splice_experiment']['block_count']} aligned blocks. All {payload['trail1_splice_experiment']['generated_candidates']} generated candidates were unique nonzero scalars; none matched the full target point or address.
 
@@ -637,17 +687,17 @@ The unused authenticated S570 field is now extracted directly at symbols 195..76
 
 The exact `35 = C(7,3) = C(7,4)` coincidence is now structurally audited against the authenticated “seven intertwined passwords” phrase. The 48 explicit raw-token/digest/separator/order models generate {payload['chain4_combinatorial_audit']['explicit_triple_hash_family']['generated_hash_records']} hashes, but none equals even one Chain 4 block; flexible bipartite coverage is {payload['chain4_combinatorial_audit']['explicit_triple_hash_family']['maximum_flexible_bipartite_assignment']}/35. After removing 18 duplicate digest-representation comparisons from the older loop, all {payload['chain4_combinatorial_audit']['legacy_multiset_reproduction']['unique_comparisons']} unique C(7,3)/C(7,4) sum/XOR multiset comparisons are negative. More decisively, the 35 blocks have GF(2) rank {payload['chain4_combinatorial_audit']['linear_algebra']['block_gf2_rank']} (rank {payload['chain4_combinatorial_audit']['linear_algebra']['block_plus_operand_gf2_rank']} with the operand), so they cannot be XOR combinations of any seven latent vectors under any assignment. The natural lexicographic triple-sum system is also inconsistent over the curve order: coefficient rank {payload['chain4_combinatorial_audit']['linear_algebra']['natural_incidence_coefficient_rank_mod_n']}, augmented rank {payload['chain4_combinatorial_audit']['linear_algebra']['natural_triple_sum_augmented_rank_mod_n']}. No block-order scalar search is inferred from a nonexistent structural assignment.
 
-The additive-selection route is now independently closed in point space. A libsecp256k1 Gray-code MITM engine first agrees with the independent package scalar multiplier and recovers the planted synthetic subset `[0,3,7,11]`. Its terminal checkpoints then exhaust M1 (`2^35` block subsets x 7 prefix shifts), M2/M3 (each `2^36` with the operand or magnitude), M4 (`2^43` over blocks plus eight recovered K values), and M5 (`2^35` x 9 Half/Better-Half point shifts). These represent {payload['chain4_mitm_audit']['total_logical_candidate_space']} logical subset/shift evaluations; all half tables have zero point collisions and every family has zero matches. This is a complete negative certificate for additive subsets of those explicit scalar sets and shifts, not for non-additive operations.
+The additive-selection route is now independently closed in point space. A libsecp256k1 Gray-code MITM engine first agrees with the independent package scalar multiplier and recovers the planted synthetic subset `[0,3,7,11]`. Its terminal checkpoints then exhaust M1 (`2^35` block subsets x 7 prefix shifts), M2/M3 (each `2^36` with the operand or magnitude), M4 (`2^43` over blocks plus eight recovered K values), and M5 (`2^35` x 9 matrix_A/matrix_B point shifts). These represent {payload['chain4_mitm_audit']['total_logical_candidate_space']} logical subset/shift evaluations; all half tables have zero point collisions and every family has zero matches. This is a complete negative certificate for additive subsets of those explicit scalar sets and shifts, not for non-additive operations.
 
-The literal signed-block reading of the `+-` marker is also exhaustively closed. The identity `c + sum(s_i*b_i) = c - sum(b_i) + sum_{{i in A}}(2*b_i)` reduces every one of the `2^35` sign assignments to the same checkpointed point-space MITM. S1 tests all {payload['chain4_signed_mitm_audit']['literal_constant_count']} zero/prefix/operand constants ({payload['chain4_signed_mitm_audit']['families']['S1_literal']['logical_candidate_space']} logical assignments), while S2 tests all {payload['chain4_signed_mitm_audit']['cross_branch_constant_count']} signed Half/Better-Half combinations ({payload['chain4_signed_mitm_audit']['families']['S2_cross_branch']['logical_candidate_space']}). A planted signed pattern is recovered, both real families have zero point collisions, and neither reaches the prize point. This does not cover omitted blocks or an unavailable external operand.
+The literal signed-block reading of the `+-` marker is also exhaustively closed. The identity `c + sum(s_i*b_i) = c - sum(b_i) + sum_{{i in A}}(2*b_i)` reduces every one of the `2^35` sign assignments to the same checkpointed point-space MITM. S1 tests all {payload['chain4_signed_mitm_audit']['literal_constant_count']} zero/prefix/operand constants ({payload['chain4_signed_mitm_audit']['families']['S1_literal']['logical_candidate_space']} logical assignments), while S2 tests all {payload['chain4_signed_mitm_audit']['cross_branch_constant_count']} signed matrix_A/matrix_B combinations ({payload['chain4_signed_mitm_audit']['families']['S2_cross_branch']['logical_candidate_space']}). A planted signed pattern is recovered, both real families have zero point collisions, and neither reaches the prize point. This does not cover omitted blocks or an unavailable external operand.
 
 ## Blockchain signature and nonce audit
 
 At Bitcoin tip `{payload['blockchain_nonce_audit']['chain_snapshot']['tip_height']}` (`{payload['blockchain_nonce_audit']['chain_snapshot']['tip_hash']}`), the confirmed histories of the prize address and the two component addresses independently yield {payload['blockchain_nonce_audit']['corpus']['signature_count']} P2PKH signatures in {payload['blockchain_nonce_audit']['corpus']['unique_spending_transactions']} spending transactions. The address counts are `{json.dumps(payload['blockchain_nonce_audit']['corpus']['counts_by_address'], sort_keys=True)}`. All {payload['blockchain_nonce_audit']['corpus']['raw_transaction_count']} required raw current/prevout transactions rederive their txids; every prevout script and value agrees with its history record; and all signatures verify against locally serialized legacy sighash preimages. The reconstructed core `(address, txid, vin, r, s)` inventory exactly reproduces SHA-256 `{payload['blockchain_nonce_audit']['source']['reconstructed_core_inventory_sha256']}`.
 
-All {payload['blockchain_nonce_audit']['corpus']['signature_count']} signatures use sighash type 1 and all {payload['blockchain_nonce_audit']['corpus']['unique_r_count']} `r` values are distinct, so there is no repeated-`r` nonce recovery. The original six-target-signature x 35-block test is reproduced as {payload['blockchain_nonce_audit']['nonce_audit']['legacy_target_block_nonce_tests']} equations. The expanded exact audit tests {payload['blockchain_nonce_audit']['nonce_audit']['candidate_signed_nonces']} signed nonce scalars across the full corpus ({payload['blockchain_nonce_audit']['nonce_audit']['known_nonce_equation_tests']} equations), covering the 35 blocks, both prefix operands, eight recovered K values, and Half/Better Half. It finds zero matching `r` values, zero recovered prize scalars, and zero direct prize-scalar matches. This closes only those explicit nonce families; it is not a general ECDSA discrete-log attack.
+All {payload['blockchain_nonce_audit']['corpus']['signature_count']} signatures use sighash type 1 and all {payload['blockchain_nonce_audit']['corpus']['unique_r_count']} `r` values are distinct, so there is no repeated-`r` nonce recovery. The original six-target-signature x 35-block test is reproduced as {payload['blockchain_nonce_audit']['nonce_audit']['legacy_target_block_nonce_tests']} equations. The expanded exact audit tests {payload['blockchain_nonce_audit']['nonce_audit']['candidate_signed_nonces']} signed nonce scalars across the full corpus ({payload['blockchain_nonce_audit']['nonce_audit']['known_nonce_equation_tests']} equations), covering the 35 blocks, both prefix operands, eight recovered K values, and matrix_A/matrix_B. It finds zero matching `r` values, zero recovered prize scalars, and zero direct prize-scalar matches. This closes only those explicit nonce families; it is not a general ECDSA discrete-log attack.
 
-The complementary x-coordinate interpretation is also reconstructed with a stricter combination model than the historical probe. Exactly {payload['chain4_xcoordinate_audit']['valid_x_coordinate_count']} of 35 blocks lift to curve points. Selecting distinct block indices before assigning either y parity, and applying no shift or either sign of the operand, magnitude, structured prefix, Half, and Better Half points, exhausts {payload['chain4_xcoordinate_audit']['total_candidate_relations']} singleton/pair/triple relations. A planted three-block-plus-Half relation is recovered by the same engine; the prize point has zero relations. Even a relation would not expose the lifted points' discrete logarithms, so this is a negative structural certificate and not a private-key recovery method.
+The complementary x-coordinate interpretation is also reconstructed with a stricter combination model than the historical probe. Exactly {payload['chain4_xcoordinate_audit']['valid_x_coordinate_count']} of 35 blocks lift to curve points. Selecting distinct block indices before assigning either y parity, and applying no shift or either sign of the operand, magnitude, structured prefix, matrix_A, and matrix_B points, exhausts {payload['chain4_xcoordinate_audit']['total_candidate_relations']} singleton/pair/triple relations. A planted three-block-plus-matrix_A relation is recovered by the same engine; the prize point has zero relations. Even a relation would not expose the lifted points' discrete logarithms, so this is a negative structural certificate and not a private-key recovery method.
 
 The nonlinear XOR route is now independently closed for the clue-motivated subset sizes 3, 4, and 7. First-index terminal checkpoints cover {payload['chain4_xor_subset_audit']['families']['X3']['combination_count']:,}, {payload['chain4_xor_subset_audit']['families']['X4']['combination_count']:,}, and {payload['chain4_xor_subset_audit']['families']['X7']['combination_count']:,} subsets respectively. With the recorded plain, operand-XOR, operand-add, and operand-subtract variants, the engine performs {payload['chain4_xor_subset_audit']['total_candidate_scalars']:,} exact libsecp256k1 point gates and finds zero prize matches. Every partition records its candidate-stream digest, and a six-block fixture successfully rediscovers its planted three-block/operand-XOR scalar and uncompressed address. This certificate does not cover other subset sizes.
 

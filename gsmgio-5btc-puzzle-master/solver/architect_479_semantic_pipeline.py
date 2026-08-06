@@ -13,6 +13,7 @@ from .extract import ROOT, extract_all
 from .openssl_compat import decrypt_salted_aes256_cbc
 from .phase32_classical import PHASE32_PASSWORD
 from .secp256k1_verify import base58check, hash160
+from .targets import BETTER_ADDRESS, HALF_ADDRESS, HALF_PUBLIC_UNCOMPRESSED
 
 
 RESULT_PATH = ROOT / "architect_479_semantic_pipeline.json"
@@ -20,12 +21,9 @@ RECOVERY_PATH = ROOT / "phase32_symbol_recovery.json"
 SECOND_DOOR_PATH = ROOT / "second_door_yellowblueprimes_audit.json"
 PLAIN_SHA = "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241"
 RAW_SHA = "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b"
-HALF = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
-BETTER = "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa"
-HALF_PUBLIC = bytes.fromhex(
-    "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464"
-    "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
-)
+HALF = HALF_ADDRESS
+BETTER = BETTER_ADDRESS
+HALF_PUBLIC = HALF_PUBLIC_UNCOMPRESSED
 QUOTE = (
     "The future is fluid. Each act, each decision, and each development creates "
     "new possibilities and eliminates others. The future is ours to direct."

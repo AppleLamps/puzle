@@ -1,0 +1,879 @@
+{
+  "schema": "universal-regate/1",
+  "purpose": "re-gate every recorded 32-byte value against both funded prize targets",
+  "targets": {
+    "half": {
+      "address": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
+      "hash160": "a9553269572a317e39f0f518cb87c1a0ee1dbae4",
+      "public_key_uncompressed": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+      "gate": "exact public key, plus hash160 under both serializations"
+    },
+    "better_half": {
+      "address": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+      "hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+      "public_key_uncompressed": null,
+      "gate": "hash160 only; never spent, so no public point exists"
+    },
+    "non_targets": {
+      "cosmic_base38[0:32]": {
+        "scalar": "0423d9115a1dc756d5d08d2de880ab508bd4745fc97709f4fcb513f2cb8fcc35",
+        "p2pkh_compressed": "1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu",
+        "p2pkh_uncompressed": "15E3pcDDXSKhvi3CLVhRTHEgd8dbVKvSZg",
+        "historical_label": "Half",
+        "status": "solver-derived, published, swept to zero; not a prize address"
+      },
+      "cosmic_base38[32:64]": {
+        "scalar": "48cc46e66bdd36b09ae344552f606a761f9d90681f20dfefe2b43db18b623971",
+        "p2pkh_compressed": "145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ",
+        "p2pkh_uncompressed": "1FhbJnrdq1FmeiXrpTqnpQ8jvYV7naze96",
+        "historical_label": "Better_Half",
+        "status": "solver-derived, published, swept to zero; not a prize address"
+      }
+    }
+  },
+  "corpus": {
+    "json_files": 163,
+    "bytes_scanned": 1402149098,
+    "unique_hex64_tokens": 793185,
+    "unique_in_range_scalars": 1586356,
+    "readings": [
+      "big-endian",
+      "byte-reversed"
+    ]
+  },
+  "gate": {
+    "half_exact_public_key": true,
+    "half_hash160_both_serializations": true,
+    "better_hash160_both_serializations": true
+  },
+  "control": {
+    "scalar": "00000000000000000000000000000000000000000000000000000000000c0de5",
+    "derived_addresses": {
+      "uncompressed": "12mMfJvhKbaosJVwzZqWSrtNjzJtzjk6kG",
+      "compressed": "1CDhZ3TCQBjUZF5TPnYAcnxBHuvYRzNjbJ"
+    },
+    "planted_as_half_public_key_accepted": true,
+    "planted_as_better_hash160_accepted": true,
+    "rejected_against_real_targets": true
+  },
+  "matches": [],
+  "status": "NO_PRIZE_MATCH",
+  "elapsed_seconds": 151.6,
+  "files": [
+    {
+      "file": "gsmgio-5btc-puzzle-master/architect_479_and_or_audit.json",
+      "bytes": 549,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/architect_479_bounded_search.json",
+      "bytes": 470643,
+      "new_unique_tokens": 589
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/architect_479_semantic_pipeline.json",
+      "bytes": 5838,
+      "new_unique_tokens": 4
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/architect_beginning_end_audit.json",
+      "bytes": 7370,
+      "new_unique_tokens": 24
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/architect_lastwords_yinyang_audit.json",
+      "bytes": 1733,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/architect_source_prime_reinsertion_audit.json",
+      "bytes": 1053,
+      "new_unique_tokens": 3
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/architect_source_prime_reinsertion_preregistered.json",
+      "bytes": 2986,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/architect_substitution_audit.json",
+      "bytes": 33586,
+      "new_unique_tokens": 4
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/architect_yinyang_cosmic_exact_test.json",
+      "bytes": 246,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/artifacts.json",
+      "bytes": 1941258,
+      "new_unique_tokens": 2079
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/blockchain_nonce_audit.json",
+      "bytes": 432628,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/book_anchor_audit.json",
+      "bytes": 658,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_aes_integer_audit.json",
+      "bytes": 7432,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_combinatorial_audit.json",
+      "bytes": 17008,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_completed_triangle.json",
+      "bytes": 4487,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_intertwined_preregistered.json",
+      "bytes": 206895,
+      "new_unique_tokens": 1665
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_intertwined_results.json",
+      "bytes": 98307,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_mitm_audit.json",
+      "bytes": 10643,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_operand_completion_audit.json",
+      "bytes": 4877,
+      "new_unique_tokens": 9
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_plusminus_grammar_audit.json",
+      "bytes": 7557,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_prefix_completion_audit.json",
+      "bytes": 1214,
+      "new_unique_tokens": 1
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_product_subset_audit.json",
+      "bytes": 66993,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_seven_stream_audit.json",
+      "bytes": 2623,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_signed_mitm_audit.json",
+      "bytes": 5513,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_split_audit.json",
+      "bytes": 986,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_xcoordinate_audit.json",
+      "bytes": 8594,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/chain4_xor_subset_audit.json",
+      "bytes": 64006,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/ciao_bella_479_audit.json",
+      "bytes": 15371,
+      "new_unique_tokens": 1
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/color_stream_password_audit.json",
+      "bytes": 653,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/creator_frontier_giveaway_audit.json",
+      "bytes": 2615,
+      "new_unique_tokens": 4
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/decentraland_audio_audit.json",
+      "bytes": 3970,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/door2_formula_audit.json",
+      "bytes": 4969,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/efragment_scalar_audit.json",
+      "bytes": 2641,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/first_grid_secondary_audit.json",
+      "bytes": 1757,
+      "new_unique_tokens": 2
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/frontier_experiment.json",
+      "bytes": 2181,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/half_better_combination_audit.json",
+      "bytes": 3959,
+      "new_unique_tokens": 16
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/halving_relation_audit.json",
+      "bytes": 4021,
+      "new_unique_tokens": 5
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/l4_beaufort_audit.json",
+      "bytes": 1363,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/l4_crib_audit.json",
+      "bytes": 701,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/matrixsumlist_audit.json",
+      "bytes": 3342,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/passport_even_chain4_audit.json",
+      "bytes": 725,
+      "new_unique_tokens": 1
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/passport_intertwined_chain4_audit.json",
+      "bytes": 1926,
+      "new_unique_tokens": 1
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/passport_prime_playfair_audit.json",
+      "bytes": 332184,
+      "new_unique_tokens": 1
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/phase32_classical.json",
+      "bytes": 2048,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/phase32_symbol_recovery.json",
+      "bytes": 6076,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/prime_reinsertion_audit.json",
+      "bytes": 5488,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_79_anchor_hunt.json",
+      "bytes": 22910,
+      "new_unique_tokens": 39
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results.json",
+      "bytes": 6875,
+      "new_unique_tokens": 17
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v10.json",
+      "bytes": 42123,
+      "new_unique_tokens": 117
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v11.json",
+      "bytes": 18429,
+      "new_unique_tokens": 52
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v12.json",
+      "bytes": 531,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v13.json",
+      "bytes": 2529,
+      "new_unique_tokens": 6
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v14.json",
+      "bytes": 3190,
+      "new_unique_tokens": 8
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v15.json",
+      "bytes": 6455,
+      "new_unique_tokens": 18
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v16.json",
+      "bytes": 1834,
+      "new_unique_tokens": 2
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v17.json",
+      "bytes": 1840,
+      "new_unique_tokens": 4
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v18.json",
+      "bytes": 9371,
+      "new_unique_tokens": 26
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v19.json",
+      "bytes": 3819,
+      "new_unique_tokens": 8
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v2.json",
+      "bytes": 6364,
+      "new_unique_tokens": 16
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v20.json",
+      "bytes": 3148,
+      "new_unique_tokens": 8
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v21.json",
+      "bytes": 3068,
+      "new_unique_tokens": 8
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v22.json",
+      "bytes": 2653,
+      "new_unique_tokens": 6
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v23.json",
+      "bytes": 5742,
+      "new_unique_tokens": 16
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v24.json",
+      "bytes": 42658,
+      "new_unique_tokens": 124
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v25.json",
+      "bytes": 28700,
+      "new_unique_tokens": 77
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v26.json",
+      "bytes": 6425,
+      "new_unique_tokens": 16
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v27.json",
+      "bytes": 55138,
+      "new_unique_tokens": 146
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v28.json",
+      "bytes": 992,
+      "new_unique_tokens": 1
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v29.json",
+      "bytes": 148104,
+      "new_unique_tokens": 428
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v3.json",
+      "bytes": 5781,
+      "new_unique_tokens": 14
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v30.json",
+      "bytes": 82642,
+      "new_unique_tokens": 231
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v31.json",
+      "bytes": 16033,
+      "new_unique_tokens": 45
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v32.json",
+      "bytes": 20500,
+      "new_unique_tokens": 60
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v33.json",
+      "bytes": 4990,
+      "new_unique_tokens": 12
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v34.json",
+      "bytes": 1190,
+      "new_unique_tokens": 2
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v35.json",
+      "bytes": 136082,
+      "new_unique_tokens": 191
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v36.json",
+      "bytes": 237737,
+      "new_unique_tokens": 461
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v37.json",
+      "bytes": 4467,
+      "new_unique_tokens": 12
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v38.json",
+      "bytes": 8194037,
+      "new_unique_tokens": 20027
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v39.json",
+      "bytes": 5897564,
+      "new_unique_tokens": 13777
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v4.json",
+      "bytes": 7508,
+      "new_unique_tokens": 20
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v5.json",
+      "bytes": 3854,
+      "new_unique_tokens": 8
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v6.json",
+      "bytes": 3904,
+      "new_unique_tokens": 10
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v7.json",
+      "bytes": 3354,
+      "new_unique_tokens": 8
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v8.json",
+      "bytes": 9359,
+      "new_unique_tokens": 8
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_blind_results_v9.json",
+      "bytes": 40381,
+      "new_unique_tokens": 108
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_cross_stage_preregistered.json",
+      "bytes": 7592,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_cross_stage_preregistered_v2.json",
+      "bytes": 2466,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_cross_stage_preregistered_v3.json",
+      "bytes": 1731,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_cross_stage_results.json",
+      "bytes": 10459,
+      "new_unique_tokens": 11
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_cross_stage_results_v2.json",
+      "bytes": 3119,
+      "new_unique_tokens": 4
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_cross_stage_results_v3.json",
+      "bytes": 3333,
+      "new_unique_tokens": 5
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_instruction_audit.json",
+      "bytes": 67458,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates.json",
+      "bytes": 271765,
+      "new_unique_tokens": 366
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v10.json",
+      "bytes": 1551357,
+      "new_unique_tokens": 2913
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v11.json",
+      "bytes": 836283,
+      "new_unique_tokens": 1236
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v12.json",
+      "bytes": 16969,
+      "new_unique_tokens": 18
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v13.json",
+      "bytes": 130448,
+      "new_unique_tokens": 225
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v14.json",
+      "bytes": 72621,
+      "new_unique_tokens": 119
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v15.json",
+      "bytes": 99079,
+      "new_unique_tokens": 185
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v16.json",
+      "bytes": 70744,
+      "new_unique_tokens": 109
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v17.json",
+      "bytes": 60052,
+      "new_unique_tokens": 118
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v18.json",
+      "bytes": 300825,
+      "new_unique_tokens": 439
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v19.json",
+      "bytes": 72179,
+      "new_unique_tokens": 130
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v2.json",
+      "bytes": 265142,
+      "new_unique_tokens": 445
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v20.json",
+      "bytes": 75057,
+      "new_unique_tokens": 74
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v21.json",
+      "bytes": 70728,
+      "new_unique_tokens": 140
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v22.json",
+      "bytes": 168490,
+      "new_unique_tokens": 159
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v23.json",
+      "bytes": 201689,
+      "new_unique_tokens": 405
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v24.json",
+      "bytes": 1783001,
+      "new_unique_tokens": 2726
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v25.json",
+      "bytes": 1029358,
+      "new_unique_tokens": 1813
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v26.json",
+      "bytes": 240940,
+      "new_unique_tokens": 413
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v27.json",
+      "bytes": 1626519,
+      "new_unique_tokens": 2231
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v28.json",
+      "bytes": 42670,
+      "new_unique_tokens": 77
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v29.json",
+      "bytes": 7741854,
+      "new_unique_tokens": 8403
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v3.json",
+      "bytes": 230486,
+      "new_unique_tokens": 390
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v30.json",
+      "bytes": 3427138,
+      "new_unique_tokens": 5661
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v31.json",
+      "bytes": 633620,
+      "new_unique_tokens": 947
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v32.json",
+      "bytes": 1147023,
+      "new_unique_tokens": 1171
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v33.json",
+      "bytes": 67568,
+      "new_unique_tokens": 81
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v34.json",
+      "bytes": 103537,
+      "new_unique_tokens": 170
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v35.json",
+      "bytes": 1919249,
+      "new_unique_tokens": 1472
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v36.json",
+      "bytes": 19311832,
+      "new_unique_tokens": 9581
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v37.json",
+      "bytes": 106496,
+      "new_unique_tokens": 191
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v38.json",
+      "bytes": 770009022,
+      "new_unique_tokens": 415211
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v39.json",
+      "bytes": 549664022,
+      "new_unique_tokens": 290724
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v4.json",
+      "bytes": 248397,
+      "new_unique_tokens": 501
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v5.json",
+      "bytes": 366111,
+      "new_unique_tokens": 452
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v6.json",
+      "bytes": 174256,
+      "new_unique_tokens": 271
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v7.json",
+      "bytes": 54533,
+      "new_unique_tokens": 98
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v8.json",
+      "bytes": 305423,
+      "new_unique_tokens": 146
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_preregistered_candidates_v9.json",
+      "bytes": 1589019,
+      "new_unique_tokens": 2358
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_selector_frontier_audit.json",
+      "bytes": 31689,
+      "new_unique_tokens": 50
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_split_envelope_preregistered.json",
+      "bytes": 42734,
+      "new_unique_tokens": 31
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_split_envelope_results.json",
+      "bytes": 3384,
+      "new_unique_tokens": 5
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/salphaseion_t23_16_7_audit.json",
+      "bytes": 766,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/second_door_frontier_derivations.json",
+      "bytes": 113351,
+      "new_unique_tokens": 125
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/second_door_yellowblueprimes_audit.json",
+      "bytes": 2255,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/seven_stage_passwords_intertwine_audit.json",
+      "bytes": 659,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/sfield_base9_substitution_preregistered.json",
+      "bytes": 4881,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/sfield_base9_substitution_results.json",
+      "bytes": 50117,
+      "new_unique_tokens": 27
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/sfield_cipher_preregistered.json",
+      "bytes": 15695228,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/sfield_cipher_results.json",
+      "bytes": 135382,
+      "new_unique_tokens": 51
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/sfield_matrix_sum_inverse.json",
+      "bytes": 2033,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/sfield_reduction_audit.json",
+      "bytes": 2479,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/sfield_t9_audit.json",
+      "bytes": 13584,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/trail1_permutation_experiment.json",
+      "bytes": 8743,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/trail1_splice_experiment.json",
+      "bytes": 1865,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/url_prime_reinsertion_preregistered.json",
+      "bytes": 6593,
+      "new_unique_tokens": 7
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/url_prime_reinsertion_results.json",
+      "bytes": 287,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/wayback_early_asset_audit.json",
+      "bytes": 735767,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/wayback_source_audit.json",
+      "bytes": 90161,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/witteveen_chain4_two_oracle_audit.json",
+      "bytes": 27963,
+      "new_unique_tokens": 42
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/xor_triangle_audit.json",
+      "bytes": 657,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/xor_triangle_trail_audit.json",
+      "bytes": 5418,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/yinyang_479_continuation_audit.json",
+      "bytes": 10621,
+      "new_unique_tokens": 20
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/tmp/heart_page140_key_audit.json",
+      "bytes": 19301,
+      "new_unique_tokens": 52
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/tmp/target_txs.json",
+      "bytes": 49090,
+      "new_unique_tokens": 25
+    },
+    {
+      "file": "gsmgio-5btc-puzzle-master/tmp/witteveen_identity_audit.json",
+      "bytes": 925,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "salphaseion_parts.json",
+      "bytes": 841,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "second_door_yellow_red_audit.json",
+      "bytes": 6438,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "second_door_yellow_red_followup.json",
+      "bytes": 2890,
+      "new_unique_tokens": 0
+    },
+    {
+      "file": "second_door_yinyang_joint_audit.json",
+      "bytes": 7382,
+      "new_unique_tokens": 15
+    }
+  ]
+}

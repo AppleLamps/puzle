@@ -23,14 +23,15 @@ from .phase32_classical import PHASE32_PASSWORD
 from .salphaseion import derive_tokens
 from .salphaseion_raw import extract_raw
 from .secp256k1_verify import N, p2pkh_address
+from .targets import BETTER_ADDRESS, HALF_ADDRESS
 
 
 WORKSPACE = ROOT.parent
 RESULT_PATH = ROOT / "salphaseion_79_anchor_hunt.json"
 TARGET_SHA256 = "e2590f1581c75812c6848776f2979d3bf272a75cb95063f1b177a2bbf4992cbd"
 PRIZE_ADDRESSES = {
-    "Half": "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe",
-    "Better_Half": "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa",
+    "Half": HALF_ADDRESS,
+    "Better_Half": BETTER_ADDRESS,
 }
 DIGESTS = ("md5", "sha1", "sha224", "sha256", "sha384", "sha512")
 

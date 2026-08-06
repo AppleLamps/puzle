@@ -16,6 +16,7 @@ from coincurve import PrivateKey
 from .extract import ROOT
 from .phase32_symbol_recovery import _raw_symbol_record
 from .secp256k1_verify import N, hash160
+from .targets import BETTER_H160, HALF_PUBLIC_UNCOMPRESSED
 
 
 MANIFEST_PATH = ROOT / "architect_source_prime_reinsertion_preregistered.json"
@@ -28,14 +29,7 @@ PHASE32_PASSWORD = b"250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d6
 BEAUFORT_KEY = b"THEMATRIXHASYOU"
 COLORS = "BBBBYBBBYYBBBBYBBYYBYYBY"
 PRIMES = (2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89)
-HALF_PUBLIC = bytes.fromhex(
-    "04"
-    "f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a464"
-    "9c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
-)
-BETTER_H160 = bytes.fromhex("4bc468447fe1b048ad030a2f9a125478eabc4ed6")
-
-
+HALF_PUBLIC = HALF_PUBLIC_UNCOMPRESSED
 def _sha(value: bytes) -> str:
     return hashlib.sha256(value).hexdigest()
 

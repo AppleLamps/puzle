@@ -9,6 +9,7 @@
 | [`../SOLUTION.md`](../SOLUTION.md) | Full reconstruction, corrections, and current result | Maintained |
 | [`SOLVED_STAGE_REAUDIT.md`](SOLVED_STAGE_REAUDIT.md) | Independent byte/arithmetic re-derivation and evidence boundaries | Maintained |
 | [`ATTEMPT_LOG.md`](ATTEMPT_LOG.md) | Unified running list of attempted approaches | **Append here** |
+| [`HALF_AND_BETTER_HALF.md`](HALF_AND_BETTER_HALF.md) | Why there is exactly one prize target, and what the phrase actually names | Maintained |
 | [`TRANSCRIPTS.md`](TRANSCRIPTS.md) | Agent/community transcript provenance | Maintained |
 | [`../gsmgio-5btc-puzzle-master/RESEARCH_LEDGER.md`](../gsmgio-5btc-puzzle-master/RESEARCH_LEDGER.md) | Detailed claim/evidence ledger | Maintained |
 | [`../gsmgio-5btc-puzzle-master/VERIFICATION_REPORT.md`](../gsmgio-5btc-puzzle-master/VERIFICATION_REPORT.md) | Generated machine-verification report | Generated |
@@ -42,5 +43,7 @@ When adding an experiment:
 1. Preserve the exact input and provenance.
 2. Add or update a reproducible solver module.
 3. Record the result JSON and cryptographic acceptance gate.
-4. Append one row to `ATTEMPT_LOG.md`.
-5. Mark replaced interpretations as **superseded** rather than deleting them.
+4. Gate every candidate scalar through `solver/targets.py`. Do not re-declare
+   target constants inside an audit module.
+5. Append one row to `ATTEMPT_LOG.md`.
+6. Mark replaced interpretations as **superseded** rather than deleting them.

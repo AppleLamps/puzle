@@ -24,11 +24,11 @@ from .extract import ROOT, extract_all
 from .passport_prime_playfair_audit import _folded_middle, _matrix, _playfair
 from .salphaseion import derive_tokens
 from .secp256k1_verify import N, base58check, hash160
+from .targets import BETTER_ADDRESS, HALF_ADDRESS
 
 
 RESULT_PATH = ROOT / "passport_even_chain4_audit.json"
-HALF_ADDRESS = "1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe"
-BETTER_HALF_ADDRESS = "17ucy1K9ZUAaoY6JVtM932W9jUp5LXfyHa"
+BETTER_HALF_ADDRESS = BETTER_ADDRESS
 MASK_BITS = "10111100111110110110011"
 COLORS = MASK_BITS.translate(str.maketrans("10", "BY"))
 

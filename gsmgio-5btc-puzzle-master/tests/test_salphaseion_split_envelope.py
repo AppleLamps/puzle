@@ -7,7 +7,7 @@ from solver.chains import reconstruct
 from solver.extract import extract_all
 from solver.salphaseion import derive_tokens
 from solver.salphaseion_raw import sha256_hex
-from solver.salphaseion_split_envelope_eval import RESULT_PATH, evaluate
+from solver.salphaseion_split_envelope_eval import evaluate
 from solver.salphaseion_split_envelope_preregister import (
     CHAIN1_PLAINTEXT_SHA256,
     CHAIN1_WIF,
@@ -19,6 +19,12 @@ from solver.salphaseion_split_envelope_preregister import (
     SEAL_PATH,
     build_manifest,
     split_envelope,
+)
+from solver.salphaseion_split_envelope_reseal import (
+    MANIFEST_PATH as V2_MANIFEST_PATH,
+    RESULT_PATH,
+    SEAL_PATH as V2_SEAL_PATH,
+    drift_report,
 )
 
 
@@ -48,13 +54,27 @@ def test_preregistration_is_deterministic() -> None:
     second = build_manifest()
     assert first == second
     encoded = (json.dumps(first, indent=2, sort_keys=True) + "\n").encode("utf-8")
-    assert encoded == MANIFEST_PATH.read_bytes()
-    assert SEAL_PATH.read_text(encoding="ascii").strip() == hashlib.sha256(encoded).hexdigest()
+    assert encoded == V2_MANIFEST_PATH.read_bytes()
+    assert V2_SEAL_PATH.read_text(encoding="ascii").strip() == hashlib.sha256(encoded).hexdigest()
+
+
+def test_v1_manifest_is_intact_but_drifted_on_exactly_one_recorded_input() -> None:
+    """The v1 seal still binds; only its recorded input hash is unreachable.
+
+    Keeping this explicit stops the v2 re-seal from looking like a quiet edit
+    of a sealed artifact, and pins the blast radius to one provenance field.
+    """
+    report = drift_report()
+    assert report["v1_seal_intact"]
+    assert report["differing_path_count"] == 1
+    difference = report["differences"][0]
+    assert difference["path"] == "/source/stage_passwords_file_sha256"
+    assert hashlib.sha256(MANIFEST_PATH.read_bytes()).hexdigest() == SEAL_PATH.read_text(encoding="ascii").strip()
 
 
 def test_sealed_evaluation_is_negative_and_recovers_planted_control() -> None:
-    result = evaluate()
-    assert result["manifest_sha256"] == SEAL_PATH.read_text(encoding="ascii").strip()
+    result = evaluate(manifest_path=V2_MANIFEST_PATH, seal_path=V2_SEAL_PATH, result_path=RESULT_PATH)
+    assert result["manifest_sha256"] == V2_SEAL_PATH.read_text(encoding="ascii").strip()
     assert result["status"] == "NO_ACCEPTED_OUTPUT"
     assert result["accepted_count"] == 0
     assert result["cross_blob"] == []

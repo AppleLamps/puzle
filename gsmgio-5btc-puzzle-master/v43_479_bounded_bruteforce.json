@@ -1,0 +1,139 @@
+{
+  "version": "v43",
+  "description": "plaintext[479:] bounded brute-force: SHA256(substring) without cipher choice",
+  "input": "derived/phase32_plaintext.txt",
+  "input_sha256": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241",
+  "plaintext_length": 1539,
+  "segment": "plaintext[479:1539]",
+  "segment_length": 1060,
+  "segment_starts_with": "PRIVATEKEYYOUVEEARNEDITBUTPLEASE",
+  "anchors_in_segment": {
+    "479": "PRIVATEKEY",
+    "511": "TAKETHISTOHEART",
+    "535": "WISEMANABOVE",
+    "562": "HUNDREDFOURTY",
+    "1021": "SOURCECODES",
+    "1103": "PRIMEBASICS",
+    "1157": "TWENTYTHREECIPHERS",
+    "1175": "SIXTEENENCRYPTIONS",
+    "1198": "SEVENINTERTWINEDPASSWORDS",
+    "1529": "CIAOBELLAO"
+  },
+  "candidate_families": [
+    {
+      "family": "anchor_to_anchor_substrings",
+      "description": "All pairs of anchor offsets define substring boundaries",
+      "count": 55,
+      "forms_tested": [
+        "sha256(ascii_uppercase)",
+        "sha256(ascii_lowercase)"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "fixed_length_windows_from_479",
+      "description": "plaintext[479:479+N] for N=8..64",
+      "count": 57,
+      "forms_tested": [
+        "sha256(ascii)",
+        "sha256(lowercase)",
+        "dsha256"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "sliding_window_from_anchors",
+      "description": "All substrings starting at 479/511/535/562, all lengths to +600 or end",
+      "count": 4486,
+      "forms_tested": [
+        "sha256(ascii_uppercase)",
+        "sha256(ascii_lowercase)"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "raw_record_sliding_window",
+      "description": "SHA256 of raw symbol record byte windows from offset 32 (=file 479) to end",
+      "count": 2920,
+      "forms_tested": [
+        "sha256(raw_bytes)"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "transliterated_sliding_window",
+      "description": "SHA256 of pre-Beaufort transliterated text windows from 479",
+      "count": 592,
+      "forms_tested": [
+        "sha256(ascii)"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "prime_position_extraction",
+      "description": "Extract characters at prime positions within segment, various lengths",
+      "count": 8,
+      "forms_tested": [
+        "sha256(ascii)",
+        "sha256(lowercase)",
+        "dsha256",
+        "direct_hex"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "letter_value_encodings",
+      "description": "A=0, A=1, base-26 pairs, base-26 quads of pt[479:511]",
+      "count": 8,
+      "forms_tested": [
+        "direct_scalar",
+        "sha256"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "passphrase_combinations",
+      "description": "Phase 3.1 passphrase XOR/ADD with pt[479:511], scalar arithmetic",
+      "count": 6,
+      "forms_tested": [
+        "direct_scalar",
+        "sha256"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "every_Nth_from_479",
+      "description": "Extract every 2nd/3rd/4th/5th/7th/13th/24th char from 479",
+      "count": 14,
+      "forms_tested": [
+        "sha256(ascii)",
+        "direct_scalar"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "alternative_beaufort_keys",
+      "description": "Decode pt[479:511] with alternative keys (HOPE, PRIME, etc.) and all 15 key offsets",
+      "count": 21,
+      "forms_tested": [
+        "sha256(ascii)"
+      ],
+      "result": "NO_MATCH"
+    },
+    {
+      "family": "phrase_brainwallets",
+      "description": "SHA256 of key phrases from the text (PRIVATEKEY, YOUVEEARNEDIT, etc.)",
+      "count": 18,
+      "forms_tested": [
+        "sha256(ascii)"
+      ],
+      "result": "NO_MATCH"
+    }
+  ],
+  "total_candidates_tested": 8185,
+  "total_scalar_tests": 8185,
+  "target": "Half exact public key + Better Half hash160",
+  "overall_result": "NO_MATCH",
+  "positive_control": "gate_point(HALF_X, HALF_Y) accepted; gate_point(HALF_X+1, HALF_Y) rejected",
+  "conclusion": "SHA256(substring) of the authenticated Architect plaintext segment [479:1539], under all tested substring definitions without cipher choice, does not produce either prize key. The 'key is in the characters' instruction requires a different interpretation than direct SHA256 of plaintext substrings."
+}

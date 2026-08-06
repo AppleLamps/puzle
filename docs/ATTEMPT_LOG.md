@@ -296,3 +296,14 @@ item 3; sealed split-envelope audit, `salphaseion_split_envelope_results.json`,
 sealed exhaustive shared base-9 substitution, `NO_ACCEPTED_OUTPUT`).
 
 No agent or checked-in audit has yet passed either prize oracle.
+
+
+## 13. F-A-E / 9×63 continuation (2026-08-06)
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **VERIFIED structural observation / HEURISTIC interpretation** | Read S570 as the header `fae` followed by 567 symbols. The remainder is exactly 9×63; S570 has a nine-symbol alphabet and the next raw field has exactly 63 symbols. This supplies a new low-free-parameter `matrixsumlist` candidate. Separately, the F-A-E Sonata was a musical cryptogram made collaboratively for a friend, who was challenged to identify each composer's movements; this may explain Jrk's “close friends” / “NOTES” wording, but Jrk never authenticated that association | `../findings.md` §13; F-A-E Sonata historical sources linked there |
+| **NEGATIVE (bounded)** | Source-order one-/zero-based 9×63 column sums and 63×9 row sums: nine fixed serializations, SHA-256/double-SHA scalar gates, and 168 short-envelope AES trials | `fae_9x63_preregistered.json` (seal `887c961a…340308e`), `fae_9x63_audit.json`, `solver/fae_9x63_audit.py`; 104 unique scalars, no prize match; no structured AES plaintext; one random-looking one-byte-padding output rejected |
+| **OPEN** | Compare S570 against a machine-readable F-A-E Sonata note/rest transcription, and test a preregistered operation combining the 63 generated sums with the immediately following F63 raw digits | The direct serialization negative does not refute the header, sonata, or paired-list hypotheses |
+
+Provenance correction: `messages58.html` reply links show that Jrk's “many NOTES” replied to Anderson's request for another “NOTE” moment. Anderson's `youmeandself` URLs replied to “Give yourself yourself...”; Jrk's later “Nice” replied to an earlier clonazepam message, not those URLs. Any creator-endorsement reading is retracted.

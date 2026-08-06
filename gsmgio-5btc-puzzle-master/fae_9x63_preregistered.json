@@ -1,0 +1,55 @@
+{
+  "acceptance": [
+    "gate every scalar through solver.targets.gate_scalar_bytes against both prizes",
+    "PKCS7 padding alone is never acceptance",
+    "record printable/known-marker plaintext only as an observation, not a solve",
+    "gate any exactly 32-byte AES plaintext and every 32-byte window of longer plaintext"
+  ],
+  "aes_envelopes": [
+    "authenticated SalPhaseIon short envelope only"
+  ],
+  "aes_kdfs": [
+    "EVP_BytesToKey MD5",
+    "EVP_BytesToKey SHA256"
+  ],
+  "aes_password_derivations": [
+    "serialization",
+    "SHA256(serialization) raw bytes",
+    "SHA256(serialization) lowercase hex"
+  ],
+  "historical_context_not_used_as_computational_input": "F-A-E Sonata was a collaborative gift for Joseph Joachim; all movements use F-A-E; Joachim was challenged to identify each composer.",
+  "hypothesis": "Treat fae as a three-symbol header; arrange the remaining 567 source-order symbols as either 9x63 (column sums) or 63x9 (row sums), producing a 63-value matrix sum list.",
+  "matrix_forms": [
+    "9x63_column_sums",
+    "63x9_row_sums"
+  ],
+  "numeric_mappings": {
+    "one_based": "a=1,...,i=9",
+    "zero_based": "a=0,...,i=8"
+  },
+  "observations_already_made": [
+    "S570 begins with literal fae",
+    "len(S570[3:])=567=9*63",
+    "S570 alphabet has 9 symbols a-i",
+    "the immediately following numeric field has 63 symbols",
+    "simple equality comparisons of sum transforms to F63 digits were non-exact"
+  ],
+  "scalar_derivations": [
+    "SHA256(serialization)",
+    "double-SHA256(serialization)"
+  ],
+  "schema": "fae-9x63-preregistration-v1",
+  "serializations": [
+    "raw_sum_bytes",
+    "ascii_decimal_concat",
+    "ascii_two_digit_concat",
+    "ascii_csv",
+    "ascii_space",
+    "mod10_ascii",
+    "mod9_zero_ascii",
+    "mod9_zero_to9_ascii",
+    "mod26_A0_ascii"
+  ],
+  "source_order_only": true,
+  "status": "SEALED_BEFORE_SCALAR_OR_AES_EVALUATION"
+}

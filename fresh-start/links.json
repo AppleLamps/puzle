@@ -1,0 +1,90 @@
+{
+  "note": "Live gsmg.io puzzle pages are offline. Use wayback_url to open archived captures. local_archive is a path under fresh-start/ when a copy exists in this repo.",
+  "stages": [
+    {
+      "id": "poster",
+      "label": "First puzzle page (white rabbit poster)",
+      "original_url": "https://gsmg.io/puzzle",
+      "wayback_url": "https://web.archive.org/web/20201109085204/https://gsmg.io/Puzzle",
+      "local_archive": null
+    },
+    {
+      "id": "poster_image",
+      "label": "follow_the_white_rabbit.png",
+      "original_url": "https://gsmg.io/img/follow_the_white_rabbit.png",
+      "wayback_url": "https://web.archive.org/web/20201115074715im_/https://gsmg.io/img/follow_the_white_rabbit.png",
+      "local_archive": null
+    },
+    {
+      "id": "theseedisplanted",
+      "label": "Rebus / flower password form",
+      "original_url": "https://gsmg.io/theseedisplanted",
+      "wayback_url": "https://web.archive.org/web/20201112021936/https://gsmg.io/theseedisplanted",
+      "local_archive": "archives/theseedisplanted.html"
+    },
+    {
+      "id": "phase1verification",
+      "label": "POST target for stage-1 password (404 on failure)",
+      "original_url": "https://gsmg.io/phase1verification",
+      "wayback_url": "https://web.archive.org/web/20230908000102/https://gsmg.io/phase1verification",
+      "local_archive": "archives/phase1verification.html"
+    },
+    {
+      "id": "phase2",
+      "label": "Merovingian AES riddles",
+      "original_url": "https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+      "wayback_url": "https://web.archive.org/web/20201112015439/https://gsmg.io/choiceisanillusioncreatedbetweenthosewithpowerandthosewithoutaveryspecialdessertiwroteitmyself",
+      "local_archive": "archives/phase2_choice.html"
+    },
+    {
+      "id": "salphaseion",
+      "label": "SalPhaseIon / phase 3 (SHA-256 URL slug)",
+      "original_url": "https://gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "wayback_url": "https://web.archive.org/web/20230601222752/https://gsmg.io/89727c598b9cd1cf8873f27cb7057f050645ddb6a7a157a110239ac0152f6a32",
+      "local_archive": "archives/salphaseion_phase3.html"
+    },
+    {
+      "id": "architect_choice",
+      "label": "The Architect's choice page",
+      "original_url": "https://gsmg.io/TheArchitectChoice",
+      "wayback_url": "https://web.archive.org/web/20250824124745/https://gsmg.io/TheArchitectChoice",
+      "local_archive": "archives/TheArchitectChoice.html"
+    }
+  ],
+  "rebus_tile_images": [
+    {
+      "original_url": "https://gsmg.io/img/black_banking%20-%20war.png",
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/black_banking%20-%20war.png"
+    },
+    {
+      "original_url": "https://gsmg.io/img/blue_ca.png",
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_ca.png"
+    },
+    {
+      "original_url": "https://gsmg.io/img/blue_dig_i.png",
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_dig_i.png"
+    },
+    {
+      "original_url": "https://gsmg.io/img/blue_lock_lo.png",
+      "wayback_url": "https://web.archive.org/web/20201115075204im_/https://gsmg.io/img/blue_lock_lo.png"
+    },
+    {
+      "original_url": "https://gsmg.io/img/red_crypto_gic.png",
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_crypto_gic.png"
+    },
+    {
+      "original_url": "https://gsmg.io/img/red_n_you.png",
+      "wayback_url": "https://web.archive.org/web/20201202082956im_/https://gsmg.io/img/red_n_you.png"
+    },
+    {
+      "original_url": "https://gsmg.io/img/red_open_lock_n_ing.png",
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_open_lock_n_ing.png"
+    },
+    {
+      "original_url": "https://gsmg.io/img/red_t.png",
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_t.png"
+    }
+  ],
+  "cdx_snapshot": "../gsmgio-5btc-puzzle-master/artifacts/wayback_cache/cdx_1e45059a34e3965aecffb2f2dc8035198587d0e74faebda836bea54a8ca7a09c.json",
+  "cdx_live_query": "https://web.archive.org/cdx/search/cdx?url=gsmg.io/*&output=json&filter=statuscode:200&collapse=digest"
+}

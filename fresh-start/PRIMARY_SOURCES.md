@@ -3,24 +3,27 @@
 Archived creator artifacts in the parent repository. Prefer verifying against
 Wayback or live captures when possible.
 
-## Archived HTML pages
+## Creator website (offline — use Wayback)
+
+Live **gsmg.io puzzle pages are offline**. Full URL catalog with recommended
+Wayback captures:
+
+- **`CREATOR_WEBSITE_LINKS.md`** — human-readable stage order + asset links
+- **`links.json`** — same data for scripts/agents
+- **`archives/`** — local HTML copies for manual review
+
+Parent-tree copies (also mirrored under `fresh-start/archives/`):
 
 | path | original URL (approx.) |
 | --- | --- |
-| `../sources/GSMG _ GSMG.html` | `gsmg.io/Puzzle` — poster page |
-| `../sources/GSMG Puzzle2.html` | phase 1 rebus |
-| `../sources/GSMG Puzzle3 - phase2.html` | phase 2 |
-| `../sources/GSMG Puzzle4 - phase3 salphaseion.html` | phase 3 / SalPhaseIon |
-| `../sources/TheArchitectChoice.html` | Architect choice page |
+| `../sources/GSMG _ GSMG.html` | `gsmg.io/phase1verification` (404 page) |
+| `../sources/GSMG Puzzle2.html` | `gsmg.io/theseedisplanted` |
+| `../sources/GSMG Puzzle3 - phase2.html` | phase 2 Merovingian slug |
+| `../sources/GSMG Puzzle4 - phase3 salphaseion.html` | SalPhaseIon slug |
+| `../sources/TheArchitectChoice.html` | `gsmg.io/TheArchitectChoice` |
 
-## Poster image
-
-The puzzle PNG is referenced as `follow_the_white_rabbit.png` on the first page.
-It may not be present in all clones of this repository. Wayback capture example:
-
-`https://web.archive.org/web/20201115074715id_/https://gsmg.io/img/follow_the_white_rabbit.png`
-
-Scripts expect it at `../sources/follow_the_white_rabbit.png` when available.
+Poster page (`gsmg.io/puzzle`) and `follow_the_white_rabbit.png` are **not**
+saved locally — fetch from Wayback (links in `CREATOR_WEBSITE_LINKS.md`).
 
 ## Solver package inputs
 

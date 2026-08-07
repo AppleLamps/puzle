@@ -60,16 +60,21 @@ and classically solvable; verify current address balances on chain yourself.
 | `PRIZE_TARGETS.md` | Half and Better Half addresses; verification gates |
 | `AUTHENTICATED_STAGES.md` | Reproduced stages, passwords, digests |
 | `PRIMARY_SOURCES.md` | Where archived creator artifacts live |
+| `CREATOR_WEBSITE_LINKS.md` | **Offline gsmg.io URLs + Wayback captures** (review manually) |
+| `links.json` | Same links in machine-readable form |
+| `archives/` | Local HTML copies of creator pages |
 | `REPRODUCTION.md` | Commands to re-derive authenticated outputs |
 | `artifacts/` | Extracted plaintexts and field data (no audit JSON) |
 
 ## Working from here
 
-1. Read `PRIMARY_SOURCES.md` and open the archived pages or images.
-2. Run the reproduction commands in `REPRODUCTION.md`.
-3. Compare outputs to the digests and plaintexts in `AUTHENTICATED_STAGES.md`
+1. Read `CREATOR_WEBSITE_LINKS.md` and open Wayback captures (live gsmg.io is
+   offline). Use `archives/` for local HTML copies where available.
+2. Read `PRIMARY_SOURCES.md` for paths in the parent tree.
+3. Run the reproduction commands in `REPRODUCTION.md`.
+4. Compare outputs to the digests and plaintexts in `AUTHENTICATED_STAGES.md`
    and `artifacts/`.
-4. Form hypotheses from creator statements and authenticated text only.
+5. Form hypotheses from creator statements and authenticated text only.
 
 Do not read `../docs/ATTEMPT_LOG.md`, `../CREATOR_SOURCED.md` analysis sections,
 or `../gsmgio-5btc-puzzle-master/results/` until you have your own independent

@@ -48,6 +48,7 @@ reported as a failed test.
 | **NEGATIVE** | Broad creator-frontier second-door family: 102,093 unique scalars and 41,660 AES checks | `second_door_frontier_derivations.json` |
 | **NEGATIVE** | `yellowblueprimes` bounded derivations independent of Cosmic | `second_door_yellowblueprimes_audit.json` |
 | **NEGATIVE** | Earlier reconstructed creator pipeline (`yellowblueprimes`→matrix sums→Architect words→yin/yang): 86 core + 21 on-chain/name candidates, 2,064 decryptions | `SOLUTION.md`, `../scripts/pipeline.py` |
+| **NEGATIVE** | Re-grounded pipeline reconstruction from first image through 479/Architect/Cosmic AES: 161 explicit AES candidates (4 forms × 2 KDFs, 7-token XOR, raw key), 2 valid padding hits (7-token XOR and a chance `lastwords` suffix), 0 legible, 0 prize match; underdetermined step identified as the 479 → yin-yang composition rule | `PIPELINE_RECONSTRUCTION_REPORT.md`, `reconstruct_pipeline.py`, `reconstruct_pipeline_results.json` |
 
 ## 2. Rebus and phase-one verification
 
@@ -648,3 +649,15 @@ non-arbitrary (creator-sealed), and the construction is well-defined, but no
 extraction reaches the prize or opens an envelope. This closes the S570
 fold-as-selector line under the creator's own pipeline constants without
 adding free parameters.
+
+## 22. Poster resistor sum lists as split-envelope AES passwords
+
+Preregistered test motivated by the underdetermined `matrixsumlist` object in the
+creator's 2023-02-23 pipeline: the 14x14 poster resistor row/column sums are a
+well-defined `matrixsumlist`, but they had only been used as Architect plaintext
+index lists. This test treats them directly as AES passwords against the
+SalPhaseIon split halves env48 and raw48.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | Four 14-entry poster resistor sum lists (rows/columns, eye-zeroed and eye-nine) encoded as raw bytes, mod-10 digits/bytes, mod-9 digits/bytes, mod-26 A-Z/a-z with 0-based and 1-based conventions, and two-digit decimal; each password tried in the four standard forms (literal, SHA-256 raw digest, SHA-256 lowercase-hex ASCII, SHA-256 hex decoded) and both EVP_BytesToKey digests (md5, sha256). For env48 the salt in its header is used; for raw48 both the EVP-derived IV and the env48-ciphertext-tail continuation IV are tested. 960 AES attempts against the split halves. 1 valid PKCS#7 padding hit at chance (mod10-digits/SHA-256-hex-ascii/sha256 on env48, plaintext length 31, entropy 4.89, printable 0.32, not readable and no format/prize gate). 0 legible outputs, 0 prize matches. | `poster_resistor_split_envelope_preregistered.json` (seal `ff37c813…0280ffd8`), `poster_resistor_split_envelope_results.json`, `solver/poster_resistor_split_envelope_audit.py`; `python -m solver.preregistration_integrity_audit` reports CLEAN with the new seal binding |

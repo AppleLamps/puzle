@@ -2,10 +2,10 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 60,
+    "seals_checked": 61,
     "seal_mismatches": 0,
     "manifests_absent": 2,
-    "result_digests_checked": 52,
+    "result_digests_checked": 54,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
     "drift_gates_checked": 9,
@@ -53,6 +53,13 @@
       "manifest_present": true,
       "sealed_digest": "11074fc992fc54006c776c9fb8eaa800c59d765eb129d4d18b99529979e24d18",
       "actual_digest": "11074fc992fc54006c776c9fb8eaa800c59d765eb129d4d18b99529979e24d18",
+      "status": "OK"
+    },
+    {
+      "seal": "poster_resistor_split_envelope_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
+      "actual_digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
       "status": "OK"
     },
     {
@@ -475,6 +482,24 @@
       "digest": "11074fc992fc54006c776c9fb8eaa800c59d765eb129d4d18b99529979e24d18",
       "resolves_to": [
         "matrixsumlist_instruction_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "result": "poster_resistor_split_envelope_results.json",
+      "key": "manifest_sha256",
+      "digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
+      "resolves_to": [
+        "poster_resistor_split_envelope_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "result": "poster_resistor_split_envelope_results.json",
+      "key": "preregistration_sha256",
+      "digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
+      "resolves_to": [
+        "poster_resistor_split_envelope_preregistered.json"
       ],
       "status": "RESOLVED"
     },

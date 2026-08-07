@@ -1,0 +1,154 @@
+{
+  "acceptance": "A result is accepted only if the plaintext is readable, matches an exact parser/checksum format, or contains a 32-byte slice that passes solver.targets. Padding alone is never sufficient.",
+  "encodings_per_list": {
+    "poster_resistor_col_sums_eye_nine": [
+      "raw_bytes",
+      "mod10_digits",
+      "mod10_bytes",
+      "mod9_digits",
+      "mod9_bytes",
+      "mod26_a0_lower",
+      "mod26_a0_upper",
+      "mod26_a1_lower",
+      "mod26_a1_upper",
+      "two_digit"
+    ],
+    "poster_resistor_col_sums_eye_zeroed": [
+      "raw_bytes",
+      "mod10_digits",
+      "mod10_bytes",
+      "mod9_digits",
+      "mod9_bytes",
+      "mod26_a0_lower",
+      "mod26_a0_upper",
+      "mod26_a1_lower",
+      "mod26_a1_upper",
+      "two_digit"
+    ],
+    "poster_resistor_row_sums_eye_nine": [
+      "raw_bytes",
+      "mod10_digits",
+      "mod10_bytes",
+      "mod9_digits",
+      "mod9_bytes",
+      "mod26_a0_lower",
+      "mod26_a0_upper",
+      "mod26_a1_lower",
+      "mod26_a1_upper",
+      "two_digit"
+    ],
+    "poster_resistor_row_sums_eye_zeroed": [
+      "raw_bytes",
+      "mod10_digits",
+      "mod10_bytes",
+      "mod9_digits",
+      "mod9_bytes",
+      "mod26_a0_lower",
+      "mod26_a0_upper",
+      "mod26_a1_lower",
+      "mod26_a1_upper",
+      "two_digit"
+    ]
+  },
+  "kdf_digests": [
+    "md5",
+    "sha256"
+  ],
+  "password_forms": [
+    "literal",
+    "sha256_digest_raw",
+    "sha256_hex_ascii",
+    "sha256_hex_decoded"
+  ],
+  "raw48_iv_modes": {
+    "continuation_iv": "the last 16 bytes of env48 ciphertext (env48[32:48])",
+    "evp_iv": "the IV produced by EVP_BytesToKey(password, env48 salt, digest)"
+  },
+  "schema": "poster-resistor-split-envelope-v1",
+  "source": {
+    "poster_path": "sources\\follow_the_white_rabbit.png",
+    "poster_sha256": "5e8d84b88f8f829428df5d2a8bf36c7268346f169b799ac7570b6223990d204f",
+    "poster_size": 1958
+  },
+  "status": "SEALED_BEFORE_DECRYPTION",
+  "sum_lists": {
+    "poster_resistor_col_sums_eye_nine": [
+      60,
+      48,
+      72,
+      42,
+      60,
+      75,
+      89,
+      73,
+      69,
+      71,
+      52,
+      67,
+      67,
+      55
+    ],
+    "poster_resistor_col_sums_eye_zeroed": [
+      60,
+      48,
+      72,
+      42,
+      51,
+      75,
+      89,
+      73,
+      69,
+      71,
+      52,
+      67,
+      67,
+      55
+    ],
+    "poster_resistor_row_sums_eye_nine": [
+      73,
+      48,
+      60,
+      69,
+      73,
+      62,
+      82,
+      91,
+      57,
+      46,
+      58,
+      60,
+      64,
+      57
+    ],
+    "poster_resistor_row_sums_eye_zeroed": [
+      73,
+      48,
+      60,
+      69,
+      73,
+      62,
+      82,
+      82,
+      57,
+      46,
+      58,
+      60,
+      64,
+      57
+    ]
+  },
+  "targets": {
+    "env48": {
+      "kind": "openssl-envelope",
+      "length": 48,
+      "salt_hex": "3ab585348552415d",
+      "sha256": "f35efe2236bf60310e7b645ad297b70c6fd1670e5717d7601f5319e69d489b1b"
+    },
+    "raw48": {
+      "env48_ciphertext_tail_iv_hex": "52c5b443df036c19654779fbddaddf73",
+      "kind": "raw-3-block-candidate",
+      "length": 48,
+      "sha256": "bab0c6d922a323c893f071b3b70885d00ae885914dbd70568dd6a032bc05ed70"
+    }
+  }
+}

@@ -1,0 +1,1520 @@
+{
+  "first_artifact": {
+    "image_path": "C:\\Users\\lucas\\github-repos\\puzle\\sources\\follow_the_white_rabbit.png",
+    "image_size": [
+      350,
+      350
+    ],
+    "grid_cells": 196,
+    "cell_size": 25,
+    "colour_counts": {
+      "white": 85,
+      "black": 86,
+      "blue": 15,
+      "yellow": 9,
+      "off-white": 1
+    },
+    "spiral_message": "gsmg.io/theseedisplanted",
+    "spiral_padding": "0000",
+    "marker_count": 24,
+    "marker_spiral_indices": [
+      7,
+      15,
+      23,
+      31,
+      39,
+      47,
+      55,
+      63,
+      71,
+      79,
+      87,
+      95,
+      103,
+      111,
+      119,
+      127,
+      135,
+      143,
+      151,
+      159,
+      167,
+      175,
+      183,
+      191
+    ],
+    "marker_hex": "F73D92",
+    "off_white_cells": [
+      [
+        7,
+        4
+      ]
+    ],
+    "reading_direction": "counter-clockwise inward spiral, down the left column first",
+    "bit_assignment": "black/blue = 1, white/yellow = 0; markers restate each byte's LSB"
+  },
+  "yellow_blue": {
+    "blue_count": 15,
+    "yellow_count": 9,
+    "first_24_primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "blue_sum": 484,
+    "yellow_sum": 479,
+    "difference": 5,
+    "balance_prime": 5,
+    "blue_sum_minus_balance": 479,
+    "balanced": true
+  },
+  "poster_resistor_sums": {
+    "row_sums_eye_zeroed": [
+      73,
+      48,
+      60,
+      69,
+      73,
+      62,
+      82,
+      82,
+      57,
+      46,
+      58,
+      60,
+      64,
+      57
+    ],
+    "col_sums_eye_zeroed": [
+      60,
+      48,
+      72,
+      42,
+      51,
+      75,
+      89,
+      73,
+      69,
+      71,
+      52,
+      67,
+      67,
+      55
+    ],
+    "row_sums_eye_nine": [
+      73,
+      48,
+      60,
+      69,
+      73,
+      62,
+      82,
+      91,
+      57,
+      46,
+      58,
+      60,
+      64,
+      57
+    ],
+    "col_sums_eye_nine": [
+      60,
+      48,
+      72,
+      42,
+      60,
+      75,
+      89,
+      73,
+      69,
+      71,
+      52,
+      67,
+      67,
+      55
+    ]
+  },
+  "architect_plaintext": {
+    "sha256": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241",
+    "length": 1539,
+    "offset_479_text": "PRIVATEKEYYOUVEEARNEDITBUTPLEASETAKETHIS",
+    "offset_511_takethistoheart": true,
+    "offset_535_wisemanabove": true,
+    "offset_562_hundredfourty": true,
+    "offset_1021_sourcecodes": true,
+    "offset_1103_primebasics": true,
+    "offset_1157_twentythreeciphers": true,
+    "offset_1175_sixteenencryptions": true,
+    "offset_1198_sevenintertwinedpasswords": true,
+    "offset_1529_ciaobellao": true
+  },
+  "aes_oracle_validation": {
+    "envelope": "phase32",
+    "password_form": "64-ascii-hex",
+    "kdf_digest": "sha256",
+    "plaintext_sha256": "b82afeb86f9e50848220f9b64b744b821400308aea273a1c949b9d2d0e408a34",
+    "plaintext_length": 2422,
+    "opening_bytes": "I've been waiting for you. You have many questions, and alth",
+    "valid_padding": true
+  },
+  "cosmic_envelope": {
+    "source_file": "C:\\Users\\lucas\\github-repos\\puzle\\gsmgio-5btc-puzzle-master\\solver\\data\\cosmic_duality.txt",
+    "envelope_base64": "U2FsdGVkX18tP2/gbclQ5tNZuD4shoV3axuUd8J8aycGCAMoYfhZK0JecHTDpTFedGJh4SJIP66qRtXvo7PTpvsIjwO8prLiC/sNHthxiGMuqIrKoO224rOisFJZgARic7PaJPne4nab8XCFuV3NbfxGX2BUjNkef5hg7nsoadZx08dNyU2b6eiciWiUvu7DSATSFO7IFBiAMz7dDqIETKuGlTAP4EmMQUZrQNtfbJsURATW6V5VSbtZB5RFk0O+IymhstzrQHsU0Bugjv2nndmOEhCxGi/lqK2rLNdOOLutYGnA6RDDbFJUattggELh2SZx+SBpCdbSGjxOap27l9FOyl02r0HU6UxFdcsbfZ1utTqVEyNs91emQxtpgt+6BPZisil74Jv4EmrpRDC3ufnkmWwR8NfqVPIKhUiGDu5QflYjczT6DrA9vLQZu3kok+/ZurtRYnqqsj49UhwEF9GfUfl7uQYm0UunatW43C3Z1tyFRGAzAHQUFS6jRCd+vZGyoTlOsThjXDDCSAwoX2M+yM+oaEQoVvDwVkIqRhfDNuBmEfi+HpXuJLPBS1PbUjrgoG/Uv7o8IeyST4HBv8+5KLx7IKQS8f1kPZ2YUME+8XJx0caFYs+JS2Jdm0ojJm3JJEcYXdKEzOQvRzi4k+6dNlJ05TRZNTJvn0fPG5cM80aQb/ckUHsLsw9a4WzhHsrzBQRTIhog9sTm+k+LkXzIJiFfSzRgf250pbviFGoQaIFl1CTQPT2w29DLP9006bSiliywwnxXOor03Hn+7MJL27YxeaGQn0sFGgP5X0X4jm3vEBkWvtF4PZl0bXWZLvVL/zTn87+2Zi/u7LA6y6b2yt7YVMkpheeOL0japXaiAf3bSPeUPGz/eu8ZX/NnO3259hG1XwoEVcGdDBV0Nh0A4/phPCR0x5BG04U0OeWAT/5Udc/gGM0TT2FrEzs/AJKtmsnj31OSsqWb9wD+CoduYY2JrkzJYihE3ZcgcvqqffZXqxQkaI/83ro6JZ4Pubml0PUnAnkdmnBCpbClbZMzmo3ELZ0EQwsvkJFDMQmiRhda4nBooUW7zXOIb7WxbE9THrt3cdZP5uAgVfgguUNE4fZMN8ATEDhdSsLklJe2GvihKuZVA6uuSkWAsK6uMGo76xpPwYs3eUdLjtANS83a6/F/fhkX1GXs7zbQjh+Inzk8jhEdEogl9jPs/oDjKjbkUpFlsCWwAZGoeKlmX7c4OGuD5c+FEH+2nYHvYl8y1E/K5SDt9Uocio8XuxbDZOzhw7LMSGkD1MZxpDzsCZY1emkSNd88NFj+9U8VssIDDVMYwKMsHKfjc0x5OlzQ1f6ST0xCkwydDHHGRKKxFC4y6H6fV9sgf9OPK/65z94Rx72+mfvTyizShjxYSRplsH9otU4parl8roD0KsVTfXZoYrYXzK6cXBn1BO/OEqWlu++Dd9MiGaUGKd22fXERqNWoRAKlNn2b6EehD2D8WaAoliPURjkB0Lb/FpP9unI93Twg6NxBXAj734nctukRb3kE08RydJV70eJsvEftF5hbED4HacGx9pzisaSz6t9AKiuSoF6uoCtlTIYatyfZkQA4wg50hAJqTynOQ09ArRHEchtB/7uvWZSBGJ7+zlzRGKx99P3oDZD+Y5D8bmUs3PV6FnAp+IRSlnsQ6hChkwBoQUcngcfGSkBRvmGjsGercCetRRwBOfh9fbX2ruw4mzRYrGnz9eBtepkJXDRjD6yvhNfQMCSkm6l9zMWxKvFbv5g2ae2SLrEt/x3MP2/G",
+    "header": "Salted__",
+    "salt": "2d3f6fe06dc950e6",
+    "ciphertext_length": 1328,
+    "kdf": "EVP_BytesToKey",
+    "kdf_digest": "md5",
+    "key_length": 32,
+    "iv_length": 16,
+    "padding_rule": "PKCS#7"
+  },
+  "cosmic_known_password": {
+    "password_form": "7-token sha256-digest XOR (32 raw bytes)",
+    "tokens": [
+      "matrixsumlist",
+      "enter",
+      "lastwordsbeforearchichoice",
+      "thispassword",
+      "matrixsumlist",
+      "yourlastcommand",
+      "secondanswer"
+    ],
+    "xor_password_hex": "a795de117e472590e572dc193130c763e3fb555ee5db9d34494e156152e50735",
+    "kdf_digest": "md5",
+    "plaintext_length": 1327,
+    "entropy": 7.8702,
+    "printable": 0.4017,
+    "plaintext_sha256": "4f7a1e4efe4bf6c5581e32505c019657cb7b030e90232d33f011aca6a5e9c081",
+    "head": "44d19415009a2929a83b2f4e0da7b180d12f8b341cb879dd769ade1f8d399d40",
+    "legible": false
+  },
+  "cosmic_aes_tests": [
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=''/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "79656c6c6f77626c75657072696d65736d617472697873756d6c6973746c6173",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=''/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "93887fa98fbc4cf0f073498a442cf7b995aa6b4021879bdd5676c95ad438a493",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=''/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3933383837666139386662633463663066303733343938613434326366376239",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=''/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "93887fa98fbc4cf0f073498a442cf7b995aa6b4021879bdd5676c95ad438a493",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=''/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "79656c6c6f77626c75657072696d65736d617472697873756d6c6973746c6173",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=''/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "93887fa98fbc4cf0f073498a442cf7b995aa6b4021879bdd5676c95ad438a493",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=''/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3933383837666139386662633463663066303733343938613434326366376239",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=''/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "93887fa98fbc4cf0f073498a442cf7b995aa6b4021879bdd5676c95ad438a493",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=' '/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "79656c6c6f77626c75657072696d6573206d617472697873756d6c697374206c",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=' '/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "5d28904173a16f3c5e43bcc27ccf55677924d49f3c7d6bf64cd86cccba1fdff1",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=' '/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3564323839303431373361313666336335653433626363323763636635353637",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=' '/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "5d28904173a16f3c5e43bcc27ccf55677924d49f3c7d6bf64cd86cccba1fdff1",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=' '/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "79656c6c6f77626c75657072696d6573206d617472697873756d6c697374206c",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=' '/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "5d28904173a16f3c5e43bcc27ccf55677924d49f3c7d6bf64cd86cccba1fdff1",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=' '/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3564323839303431373361313666336335653433626363323763636635353637",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/yellowblueprimes+matrixsumlist+lastwordsbeforearchichoice+yinyang/sep=' '/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "5d28904173a16f3c5e43bcc27ccf55677924d49f3c7d6bf64cd86cccba1fdff1",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=''/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "6d617472697873756d6c697374656e7465726c617374776f7264736265666f72",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=''/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "3b086d8b24acd3586b9dff0ccb0763ba0965227ef23786d04c4977b99dd3675d",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=''/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3362303836643862323461636433353836623964666630636362303736336261",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=''/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "3b086d8b24acd3586b9dff0ccb0763ba0965227ef23786d04c4977b99dd3675d",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=''/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "6d617472697873756d6c697374656e7465726c617374776f7264736265666f72",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=''/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "3b086d8b24acd3586b9dff0ccb0763ba0965227ef23786d04c4977b99dd3675d",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=''/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3362303836643862323461636433353836623964666630636362303736336261",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=''/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "3b086d8b24acd3586b9dff0ccb0763ba0965227ef23786d04c4977b99dd3675d",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=' '/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "6d617472697873756d6c69737420656e746572206c617374776f726473626566",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=' '/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "ccab5cbfab46d5e62461ae7df375f35afbf6532cc60eb1c1e9870ffc1963ed74",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=' '/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "6363616235636266616234366435653632343631616537646633373566333561",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=' '/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "ccab5cbfab46d5e62461ae7df375f35afbf6532cc60eb1c1e9870ffc1963ed74",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=' '/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "6d617472697873756d6c69737420656e746572206c617374776f726473626566",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=' '/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "ccab5cbfab46d5e62461ae7df375f35afbf6532cc60eb1c1e9870ffc1963ed74",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=' '/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "6363616235636266616234366435653632343631616537646633373566333561",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "concat/matrixsumlist+enter+lastwordsbeforearchichoice+thispassword+matrixsumlist+yourlastcommand+secondanswer/sep=' '/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "ccab5cbfab46d5e62461ae7df375f35afbf6532cc60eb1c1e9870ffc1963ed74",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=''/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=''/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=''/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "6661353166643439616266363737303564366133356431383231386331313566",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=''/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=''/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=''/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=''/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "6661353166643439616266363737303564366133356431383231386331313566",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=''/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=' '/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=' '/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=' '/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "6661353166643439616266363737303564366133356431383231386331313566",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=' '/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=' '/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=' '/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=' '/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "6661353166643439616266363737303564366133356431383231386331313566",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_1/sep=' '/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "fa51fd49abf67705d6a35d18218c115ff5633aec1f9ebfdc9d5d4956416f57f6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=''/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "70726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=''/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "b0a8108d21937c6343e7d5922940fac912151177f75cf6b20a402256811937a6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=''/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "6230613831303864323139333763363334336537643539323239343066616339",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=''/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "b0a8108d21937c6343e7d5922940fac912151177f75cf6b20a402256811937a6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=''/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "70726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=''/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "b0a8108d21937c6343e7d5922940fac912151177f75cf6b20a402256811937a6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=''/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "6230613831303864323139333763363334336537643539323239343066616339",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=''/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "b0a8108d21937c6343e7d5922940fac912151177f75cf6b20a402256811937a6",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=' '/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "70726f626c656d206973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding bytes"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=' '/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "1be4e19e111fdfd2cbe4e91a9607f3936b9cb2ea81d914588ede45af74d872b8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=' '/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3162653465313965313131666466643263626534653931613936303766333933",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=' '/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "1be4e19e111fdfd2cbe4e91a9607f3936b9cb2ea81d914588ede45af74d872b8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=' '/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "70726f626c656d206973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=' '/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "1be4e19e111fdfd2cbe4e91a9607f3936b9cb2ea81d914588ede45af74d872b8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=' '/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3162653465313965313131666466643263626534653931613936303766333933",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_2/sep=' '/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "1be4e19e111fdfd2cbe4e91a9607f3936b9cb2ea81d914588ede45af74d872b8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=''/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "74686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=''/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "cdcb0b6b4c06e7bbdce750d1ef48757c7fd7256ea5a4c6bc4133b97fa1c6be04",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=''/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "6364636230623662346330366537626264636537353064316566343837353763",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=''/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "cdcb0b6b4c06e7bbdce750d1ef48757c7fd7256ea5a4c6bc4133b97fa1c6be04",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=''/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "74686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=''/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "cdcb0b6b4c06e7bbdce750d1ef48757c7fd7256ea5a4c6bc4133b97fa1c6be04",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=''/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "6364636230623662346330366537626264636537353064316566343837353763",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=''/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "cdcb0b6b4c06e7bbdce750d1ef48757c7fd7256ea5a4c6bc4133b97fa1c6be04",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=' '/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "7468652070726f626c656d206973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=' '/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "640e289a8a7963a18df4ce10bdc999a48e70a7bd1a30795d422bc092f565f2ae",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=' '/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3634306532383961386137393633613138646634636531306264633939396134",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=' '/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "640e289a8a7963a18df4ce10bdc999a48e70a7bd1a30795d422bc092f565f2ae",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=' '/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "7468652070726f626c656d206973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=' '/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "640e289a8a7963a18df4ce10bdc999a48e70a7bd1a30795d422bc092f565f2ae",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=' '/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3634306532383961386137393633613138646634636531306264633939396134",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_3/sep=' '/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "640e289a8a7963a18df4ce10bdc999a48e70a7bd1a30795d422bc092f565f2ae",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=''/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "70757474686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=''/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "0b9d581e93c6dbea6d1be19db3c0e0c45a71f5732f3c4cef5b7953e7ab947129",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=''/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3062396435383165393363366462656136643162653139646233633065306334",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=''/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "0b9d581e93c6dbea6d1be19db3c0e0c45a71f5732f3c4cef5b7953e7ab947129",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=''/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "70757474686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=''/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "0b9d581e93c6dbea6d1be19db3c0e0c45a71f5732f3c4cef5b7953e7ab947129",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=''/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3062396435383165393363366462656136643162653139646233633065306334",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=''/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "0b9d581e93c6dbea6d1be19db3c0e0c45a71f5732f3c4cef5b7953e7ab947129",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=' '/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "707574207468652070726f626c656d206973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=' '/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "01f3258bee46e0446ebb2f44f2cfcc86da3ddc16a7da9cff8985a96caf3850cb",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding bytes"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=' '/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3031663332353862656534366530343436656262326634346632636663633836",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=' '/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "01f3258bee46e0446ebb2f44f2cfcc86da3ddc16a7da9cff8985a96caf3850cb",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding bytes"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=' '/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "707574207468652070726f626c656d206973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=' '/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "01f3258bee46e0446ebb2f44f2cfcc86da3ddc16a7da9cff8985a96caf3850cb",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=' '/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3031663332353862656534366530343436656262326634346632636663633836",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_4/sep=' '/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "01f3258bee46e0446ebb2f44f2cfcc86da3ddc16a7da9cff8985a96caf3850cb",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=''/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "61646571756174656c7970757474686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=''/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "be6fe83cc6ec436f018b7a8c8e63393b5eaf7f4b17b6bdc172714b75d4eca40c",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=''/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "6265366665383363633665633433366630313862376138633865363333393362",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=''/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "be6fe83cc6ec436f018b7a8c8e63393b5eaf7f4b17b6bdc172714b75d4eca40c",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=''/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "61646571756174656c7970757474686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=''/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "be6fe83cc6ec436f018b7a8c8e63393b5eaf7f4b17b6bdc172714b75d4eca40c",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=''/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "6265366665383363633665633433366630313862376138633865363333393362",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=''/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "be6fe83cc6ec436f018b7a8c8e63393b5eaf7f4b17b6bdc172714b75d4eca40c",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=' '/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "61646571756174656c7920707574207468652070726f626c656d206973",
+      "padding_valid": true,
+      "plaintext_length": 1327,
+      "entropy": 7.8421,
+      "printable": 0.3836,
+      "head": "1e6e1acfec64dd0a55c3383604594937ed8b13309d024220f1bc469d83f40c0c",
+      "gate": null
+    },
+    {
+      "label": "lastwords/suffix_5/sep=' '/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "46c33941613ef04b03fd0a8b57ca985acc00d1e4e79f5aab300f35fa2f44c552",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=' '/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3436633333393431363133656630346230336664306138623537636139383561",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=' '/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "46c33941613ef04b03fd0a8b57ca985acc00d1e4e79f5aab300f35fa2f44c552",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=' '/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "61646571756174656c7920707574207468652070726f626c656d206973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=' '/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "46c33941613ef04b03fd0a8b57ca985acc00d1e4e79f5aab300f35fa2f44c552",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=' '/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3436633333393431363133656630346230336664306138623537636139383561",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_5/sep=' '/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "46c33941613ef04b03fd0a8b57ca985acc00d1e4e79f5aab300f35fa2f44c552",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=''/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "796f7561646571756174656c7970757474686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=''/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "ac9399c06fed1bd96744a1be03ce51565cd018357a25ab044a30e93f906e08af",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=''/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "6163393339396330366665643162643936373434613162653033636535313536",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=''/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "ac9399c06fed1bd96744a1be03ce51565cd018357a25ab044a30e93f906e08af",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=''/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "796f7561646571756174656c7970757474686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=''/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "ac9399c06fed1bd96744a1be03ce51565cd018357a25ab044a30e93f906e08af",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=''/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "6163393339396330366665643162643936373434613162653033636535313536",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=''/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "ac9399c06fed1bd96744a1be03ce51565cd018357a25ab044a30e93f906e08af",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=' '/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "796f752061646571756174656c7920707574207468652070726f626c656d2069",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=' '/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "5a05b9a4eaaddd53c5b8fec03a1efdc52c0d3e557f7e073a017be7177b34a0e9",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=' '/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3561303562396134656161646464353363356238666563303361316566646335",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=' '/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "5a05b9a4eaaddd53c5b8fec03a1efdc52c0d3e557f7e073a017be7177b34a0e9",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=' '/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "796f752061646571756174656c7920707574207468652070726f626c656d2069",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=' '/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "5a05b9a4eaaddd53c5b8fec03a1efdc52c0d3e557f7e073a017be7177b34a0e9",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=' '/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3561303562396134656161646464353363356238666563303361316566646335",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_6/sep=' '/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "5a05b9a4eaaddd53c5b8fec03a1efdc52c0d3e557f7e073a017be7177b34a0e9",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=''/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "4173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=''/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "817a1ecef3d5de558160e163d8218006b388cc38b500146bcab0260107b0d0e8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=''/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3831376131656365663364356465353538313630653136336438323138303036",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding bytes"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=''/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "817a1ecef3d5de558160e163d8218006b388cc38b500146bcab0260107b0d0e8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=''/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "4173796f7561646571756174656c7970757474686570726f626c656d6973",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=''/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "817a1ecef3d5de558160e163d8218006b388cc38b500146bcab0260107b0d0e8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=''/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3831376131656365663364356465353538313630653136336438323138303036",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=''/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "817a1ecef3d5de558160e163d8218006b388cc38b500146bcab0260107b0d0e8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=' '/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "417320796f752061646571756174656c7920707574207468652070726f626c65",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=' '/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "5a38a95677c30a1f60558ffb91206be4506456dd1638d20672dc0918131d4534",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=' '/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3561333861393536373763333061316636303535386666623931323036626534",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=' '/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "5a38a95677c30a1f60558ffb91206be4506456dd1638d20672dc0918131d4534",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=' '/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "417320796f752061646571756174656c7920707574207468652070726f626c65",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=' '/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "5a38a95677c30a1f60558ffb91206be4506456dd1638d20672dc0918131d4534",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=' '/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3561333861393536373763333061316636303535386666623931323036626534",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "lastwords/suffix_7/sep=' '/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "5a38a95677c30a1f60558ffb91206be4506456dd1638d20672dc0918131d4534",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "6173626f7468626567696e6e696e67616e64656e64",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "27167e15bcf1d8ffa2838bd4f4f6563d2f66309781a8bc2cb08352fd39b6c1d8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3237313637653135626366316438666661323833386264346634663635363364",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "27167e15bcf1d8ffa2838bd4f4f6563d2f66309781a8bc2cb08352fd39b6c1d8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "6173626f7468626567696e6e696e67616e64656e64",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "27167e15bcf1d8ffa2838bd4f4f6563d2f66309781a8bc2cb08352fd39b6c1d8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3237313637653135626366316438666661323833386264346634663635363364",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "27167e15bcf1d8ffa2838bd4f4f6563d2f66309781a8bc2cb08352fd39b6c1d8",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend_no_as/literal/md5",
+      "password_form": "literal",
+      "kdf_digest": "md5",
+      "password_bytes": "626567696e6e696e67616e64656e64",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding bytes"
+    },
+    {
+      "label": "architect_lastwords/beginningandend_no_as/sha256_digest_raw/md5",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "md5",
+      "password_bytes": "69196ca7737acfefbf8c68c12b4d4572920dcad7f6246dada652420d89b74654",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend_no_as/sha256_hex_ascii/md5",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "md5",
+      "password_bytes": "3639313936636137373337616366656662663863363863313262346434353732",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend_no_as/sha256_hex_decoded/md5",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "md5",
+      "password_bytes": "69196ca7737acfefbf8c68c12b4d4572920dcad7f6246dada652420d89b74654",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend_no_as/literal/sha256",
+      "password_form": "literal",
+      "kdf_digest": "sha256",
+      "password_bytes": "626567696e6e696e67616e64656e64",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend_no_as/sha256_digest_raw/sha256",
+      "password_form": "sha256_digest_raw",
+      "kdf_digest": "sha256",
+      "password_bytes": "69196ca7737acfefbf8c68c12b4d4572920dcad7f6246dada652420d89b74654",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend_no_as/sha256_hex_ascii/sha256",
+      "password_form": "sha256_hex_ascii",
+      "kdf_digest": "sha256",
+      "password_bytes": "3639313936636137373337616366656662663863363863313262346434353732",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "architect_lastwords/beginningandend_no_as/sha256_hex_decoded/sha256",
+      "password_form": "sha256_hex_decoded",
+      "kdf_digest": "sha256",
+      "password_bytes": "69196ca7737acfefbf8c68c12b4d4572920dcad7f6246dada652420d89b74654",
+      "padding_valid": false,
+      "error": "invalid PKCS#7 padding length"
+    },
+    {
+      "label": "raw_key_known_iv/raw_aes_key_iv_from_known_password",
+      "password_form": "raw_aes_256_key",
+      "kdf_digest": "none",
+      "salt": "2d3f6fe06dc950e6",
+      "iv": "c6ff2e39d98843bc3c26b8a33a15b5c9",
+      "key": "6ac438facf366702b60d6dfcebd39815b582f19b591b3fdf69240c6966f4fc23",
+      "padding_valid": true,
+      "plaintext_length": 1327,
+      "entropy": 7.8702,
+      "printable": 0.4017,
+      "head": "44d19415009a2929a83b2f4e0da7b180d12f8b341cb879dd769ade1f8d399d40",
+      "gate": null
+    }
+  ],
+  "cosmic_aes_summary": {
+    "candidates": 161,
+    "valid_padding": 2,
+    "legible_printable_90": 0,
+    "legible_entropy_4_5": 0,
+    "prize_matches": 0
+  }
+}

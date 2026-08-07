@@ -2,7 +2,7 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 70,
+    "seals_checked": 73,
     "seal_mismatches": 0,
     "manifests_absent": 2,
     "result_digests_checked": 55,
@@ -32,6 +32,13 @@
       "manifest_present": true,
       "sealed_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
       "actual_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
+      "status": "OK"
+    },
+    {
+      "seal": "chain1_phrase_digest_legibility_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "266a3eb6d06a71509178714a11987a5f821e0087c933175ce7b7eb93ea9d8aec",
+      "actual_digest": "266a3eb6d06a71509178714a11987a5f821e0087c933175ce7b7eb93ea9d8aec",
       "status": "OK"
     },
     {
@@ -77,10 +84,24 @@
       "status": "OK"
     },
     {
+      "seal": "nonroundrobin_weave_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "5e837c740fa4ac338c69511458744c340477fad61f4731c2861dd0b48cf7ea43",
+      "actual_digest": "5e837c740fa4ac338c69511458744c340477fad61f4731c2861dd0b48cf7ea43",
+      "status": "OK"
+    },
+    {
       "seal": "notes_hint_legibility_preregistered.sha256",
       "manifest_present": true,
       "sealed_digest": "1f387a10b93e58588198524926ab0cc1ec175de5be929817252f857ddaa0c63e",
       "actual_digest": "1f387a10b93e58588198524926ab0cc1ec175de5be929817252f857ddaa0c63e",
+      "status": "OK"
+    },
+    {
+      "seal": "openssl_cipher_catalogue_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "71ec25e35d00b385baaa1539213d00ce6b6b35a1d763e1dacb99631c6cc84ac1",
+      "actual_digest": "71ec25e35d00b385baaa1539213d00ce6b6b35a1d763e1dacb99631c6cc84ac1",
       "status": "OK"
     },
     {

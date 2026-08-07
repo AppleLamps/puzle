@@ -1,0 +1,156 @@
+{
+  "controls": {
+    "aes256cbc_canonical_reproduces_pinned_chain1": true,
+    "phase32_legible_control": true,
+    "planted_scalar_accepted": true,
+    "production_rejects_control_scalar": true
+  },
+  "counts": {
+    "decryption_trials": 3240,
+    "legible_outputs": 0,
+    "padding_hits": 8,
+    "prize_matches": 0
+  },
+  "legible_records": [],
+  "per_cipher": {
+    "aes-128-cbc": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-128-cfb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-128-ctr": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-128-ecb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-128-ofb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-192-cbc": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-192-cfb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-192-ecb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-256-cbc": {
+      "legible": 0,
+      "padding_hits": 4,
+      "trials": 120
+    },
+    "aes-256-cfb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-256-ctr": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-256-ecb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "aes-256-ofb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "bf-cbc": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "bf-ecb": {
+      "legible": 0,
+      "padding_hits": 1,
+      "trials": 120
+    },
+    "bf-ofb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "cast5-cbc": {
+      "legible": 0,
+      "padding_hits": 1,
+      "trials": 120
+    },
+    "cast5-ecb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "des-cbc": {
+      "legible": 0,
+      "padding_hits": 1,
+      "trials": 120
+    },
+    "des-ecb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "des-ede-cbc": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "des-ede3-cbc": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "des-ede3-ecb": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "rc2-cbc": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "rc2-ecb": {
+      "legible": 0,
+      "padding_hits": 1,
+      "trials": 120
+    },
+    "rc4": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    },
+    "rc4-40": {
+      "legible": 0,
+      "padding_hits": 0,
+      "trials": 120
+    }
+  },
+  "prize_matches": [],
+  "schema": "openssl-cipher-catalogue-v67",
+  "scope_note": "Closes the PyCryptodome-implementable subset of the openssl enc cipher catalogue against twenty authenticated passwords on chain1/chain2/cosmic under EVP MD5 and SHA-256. It does not test Camellia, SEED, GOST or IDEA (unavailable), non-EVP KDFs such as PBKDF2, or passwords outside the frozen list.",
+  "status": "COMPLETE_NO_MATCH"
+}

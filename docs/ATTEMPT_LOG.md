@@ -725,3 +725,41 @@ Three sealed falsifiers from the approved next-pass list.
 | **NEGATIVE (bounded)** | v66: fifteen frozen password constructions on **chain1** only — seven-phrase XOR digest (parallel to cosmic token-XOR but on tier-1 phrases), hex-braid/zip/concat of phrase SHA-256 hexes, byte-braid of phrase digests, first-four-phrase concat, five-token concat with authenticated `shabefourfirsthintisyourlastcommand` replacing the duplicate `matrixsumlist`, seven-token HASHTHETEXT/`shabefanstoo` variant, and terminal SalPhaseIon field assemblies — each tested as literal / sha256-hex / raw-32 under EVP MD5 and SHA-256, legibility-gated. **90 AES + 30 scalar gates; 0 padding, 0 legible, 0 prize** | `chain1_phrase_digest_legibility_preregistered.json`, `chain1_phrase_digest_legibility_audit.json`, `solver/chain1_phrase_digest_legibility_{preregister,audit}.py`; does not reopen v49 raw phrase combos or v50 hex-format/intertwine families |
 
 **Assessment.** Phrase-digest XOR/braid constructions and authenticated terminal-field assemblies do not open chain1 at all (no PKCS#7 hit), let alone legibly. The only password in this neighbourhood that still unpads is the historical five-token concat (`matrixsumlist` duplicated as token 5); its 79-byte output remains high-entropy and not legible. The correct chain-1 password, if AES at all, is still unknown and must meet the creator's salvation/legibility criterion when found.
+
+## 28. The cipher itself as a free parameter, and non-round-robin weaves (v67–v68, 2026-08-07)
+
+Two assumptions had never been tested, both of them load-bearing for every
+post-3.2 negative in this log.
+
+**The cipher was assumed.** Every prior audit decrypted the `Salted__`
+envelopes with `aes-256-cbc` and varied only the password. But `openssl enc`
+writes the same `Salted__` header for *every* cipher it supports, so the header
+does not identify the algorithm — and the Architect plaintext, which is tier 1,
+says the finisher must "SELECT FROM OVER TWENTYTHREE CIPHERS SIXTEEN
+ENCRYPTIONS". If the five-token password is right but the cipher is wrong, the
+observed symptom would be exactly what v49 measured: chance-rate padding and
+unreadable high-entropy output.
+
+**"Intertwined" was read as round-robin.** v50 falsified braid and zip over
+every ordering, but those are one weave function under permutation.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v67: the PyCryptodome-implementable subset of the `openssl enc` cipher catalogue — 27 specs covering AES-128/192/256 in CBC/ECB/CFB/OFB/CTR, `des-ede3-cbc`/`-ecb`, `des-ede-cbc`, `des-cbc`/`-ecb`, `bf-cbc`/`-ecb`/`-ofb`, `cast5-cbc`/`-ecb`, `rc2-cbc`/`-ecb`, `rc4`, `rc4-40` — against 20 authenticated passwords on chain1/chain2/cosmic under EVP MD5 and SHA-256, with the KDF generalised to each cipher's key and IV length. Stream modes gated on legibility alone (no padding exists); block modes must also unpad. **3,240 trials; 8 padding hits (0.25%, at or below chance), 0 legible, 0 prize** | `openssl_cipher_catalogue_preregistered.json`, `openssl_cipher_catalogue_audit.json`, `solver/openssl_cipher_catalogue_{preregister,audit}.py`; controls: `aes-256-cbc` + canonical password + MD5 reproduces the pinned 79-byte chain-1 plaintext `1449a217…`, phase 3.2 legible control passes, planted scalar accepted and production gate rejects it |
+| **NEGATIVE (bounded)** | v68: fifteen weave functions that are **not** reachable by permuting a round-robin braid — padded column read keeping a fill character, chunk-2/3/4 interleaves, proportional weave, nested pairwise braid, per-part reversal (concat and braid), letterwise mod-26 add and subtract stacks, cycle-XOR, 7-column grid transposition, running Caesar composition, length-sorted concat, head/tail alternation — over the seven 2023-02-23 phrases and the seven SalPhaseIon tokens, each as literal / sha256-hex / raw-32 under both KDFs against chain1 and chain2. **360 AES + 60 scalar gates; 1 padding hit (0.28%, at chance), 0 legible, 0 prize** | `nonroundrobin_weave_preregistered.json`, `nonroundrobin_weave_audit.json`, `solver/nonroundrobin_weave_{preregister,audit}.py` |
+
+**Assessment.** The cipher assumption is now itself a bounded negative: no
+alternative `openssl enc` algorithm or mode makes an authenticated password
+produce legible output on any post-3.2 envelope. This matters beyond its own
+scope, because it removes the most economical explanation for why the chain-1
+plaintext is unreadable — "right password, wrong cipher" is closed for this
+catalogue. What remains open on the cipher axis is only what PyCryptodome
+cannot express: Camellia, SEED, IDEA, GOST, and non-EVP key derivation such as
+PBKDF2. On the password axis, "intertwined" is now closed for both round-robin
+(v50) and these fifteen non-round-robin weaves.
+
+Neither result recovers a key, and neither promotes the community chain from
+tier 2. The joint effect is narrower and more useful: the reason chain1 does
+not read is **not** a mis-identified cipher and **not** a mis-read of
+"intertwined", so the unexplained parameter is the password material itself —
+or chain1 is not the next lock at all.

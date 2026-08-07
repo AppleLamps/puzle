@@ -1,0 +1,51 @@
+{
+  "controls": {
+    "phase32_legible_control": true,
+    "planted_scalar_accepted": true,
+    "production_rejects_control_scalar": true
+  },
+  "counts": {
+    "aes_trials": 360,
+    "legible_outputs": 0,
+    "padding_hits": 1,
+    "prize_matches": 0,
+    "scalar_gates": 60
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "nonroundrobin-weave-v68",
+  "scope_note": "Closes fifteen non-round-robin weave functions on two seven-part sets against chain1 and chain2 under EVP MD5 and SHA-256. It does not re-enumerate orderings (v50 did that for round-robin), and it does not test Cosmic, Chain 4, or weaves of stage answers.",
+  "status": "COMPLETE_NO_MATCH",
+  "weave_material_sha256": {
+    "phrases/W01_column_weave_padded": "57fad41cab3e3f1869ee462ea607347f7e9233f352d5fd53695246c2a19566f3",
+    "phrases/W02_chunk2_weave": "3fcf25bc97a67e29c6133ff8a98aea9635e2cbe9538a15aec98fcec9b5dfb0ba",
+    "phrases/W03_chunk3_weave": "bedd85cab65cb542bf1a7f5ba9e9f3b624db404da9af02e87c64549209d7a879",
+    "phrases/W04_chunk4_weave": "622bd052caebdcc033074a94fe48906365bbcf55014eef5fcc93368b5cd0b524",
+    "phrases/W05_proportional_weave": "36ce88b47cd8309e62561d1695fd28008f10d92046da31e118234b4a656a3451",
+    "phrases/W06_nested_pairwise_braid": "d2c8e2638468aaba6b54535e66fb1d3a8e817e0d4a2452d946597c0c036e56eb",
+    "phrases/W07_reverse_each_concat": "ca82ccdba61549e5a69586355e2ddc90b19307e1648b12aeb3c7044e2d652fc9",
+    "phrases/W08_reverse_each_braid": "fd187e74186dd590672f81f51c1c52b01fb6015adf8b3c83a411053a6e680797",
+    "phrases/W09_mod26_add_stack": "be185ab7f3660df89fd277235b488ff368433ab71b9e19b4c2f15d6e2b21bd27",
+    "phrases/W10_mod26_sub_stack": "61e2b2b299271d3d2aa607105736c2bd822fce75fb2ad63c625af78baea98817",
+    "phrases/W11_xor_ascii_stack_hex": "a576687f173a0c3731f5bf2c3b004f97de339c72e3308bede3e9482a4b8a7a74",
+    "phrases/W12_transpose_grid_7col": "087c5c68e39042284b87ff91b08fbb937b9173d9d688696422687451207ffb78",
+    "phrases/W13_caesar_chain": "d73c8330e67eb00fb4c9cc37ef387659a4f80375d9930138d5f3be95f27e1cf7",
+    "phrases/W14_length_sorted_concat": "f15fec65b732353bbb5cb43749a062e834613e7e25987f0c951eb4fa45e094ac",
+    "phrases/W15_head_tail_alternate": "2d15da10b7d18dbd5712a82264df34c8e6d9d4e21b7e038a9ba41edf79da702f",
+    "tokens/W01_column_weave_padded": "14dbea2ba5a8b4029dd80c0e9e4d9132307186b508ff277357512aea831039b0",
+    "tokens/W02_chunk2_weave": "0e41a4f2d2bb9908b51c3e68f801f249ef33c8a2eeae87f418893bedd8e54abd",
+    "tokens/W03_chunk3_weave": "1c2aa117664b3a47f635b37dcca2c08e76b6a1818055010d4c2f14f49c3b76ae",
+    "tokens/W04_chunk4_weave": "ecacdb8fe8372d0a0e1c3fe44a7b8d149f18050828bda277dd9cf34b42c02014",
+    "tokens/W05_proportional_weave": "7736cf05c544b90d77ae0e7ec92087a6a311eea4d1f2d3fc8497a5c6b53cbaa3",
+    "tokens/W06_nested_pairwise_braid": "5bff2b7e3a8f3108b1517ef7b0b182957aa583b20586d98b69a814c69e551542",
+    "tokens/W07_reverse_each_concat": "ff2abfc89db8a35b313123152d472fbd54273b84638a84a581a893dbcb453a24",
+    "tokens/W08_reverse_each_braid": "ad4942115ae7b2aae89a6d17c94003e666a4954cd01e59643df70621660d6495",
+    "tokens/W09_mod26_add_stack": "ee9badd2ed2a2ed5e6dcba09a79b6ddee3ec88e4ce49d521e0961e1abc540a57",
+    "tokens/W10_mod26_sub_stack": "db3eb236e3266ae56d41c5e1be123e7163a41772029032fd0e4da0a3e68433cb",
+    "tokens/W11_xor_ascii_stack_hex": "dc288f1292e4290af57db283a273051d43d898653bea87b3f3788981f2236e02",
+    "tokens/W12_transpose_grid_7col": "2500d4d6936b90b0b3911cbf398cc04e1b5a97cd92e3061ac9b608ad5b2037a5",
+    "tokens/W13_caesar_chain": "5a52109df9870dd8db0514a8625a79df010ec0d4c78f034851524bba0367afe0",
+    "tokens/W14_length_sorted_concat": "b1714cb49ee22be1445e0e1e1b0169550892edb34f694722c8b91d50d98e107c",
+    "tokens/W15_head_tail_alternate": "7924f38adabdc7b9616eac2968311df5cde089192aef71587f2c45814bd309c4"
+  }
+}

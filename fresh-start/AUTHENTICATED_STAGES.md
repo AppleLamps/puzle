@@ -1,53 +1,80 @@
 # Authenticated stages
 
-"Authenticated" means an exact hash, decryption, or independent source fixes the
-result. Items marked **fitted** reproduce under a solver-chosen convention.
+"Authenticated" means an exact hash, a decryption to readable text, or an
+independent source fixes the result. Everything in the first three sections is
+reproduced by `tools/verify_all.py` from the files committed in this folder.
+The last two sections are explicitly *not* authenticated and say why.
 
 ## Stage map
 
-| stage | URL / artifact | authenticated output |
+| Stage | Input | Authenticated output |
 | --- | --- | --- |
-| Poster | `gsmg.io/Puzzle` image | `gsmg.io/theseedisplanted` |
-| Poster markers | 24 coloured cells on spiral | packed bits `F73D92` |
-| Rebus | eight tiles / song | `theflowerblossomsthroughwhatseemstobeaconcretesurface` |
-| Phase 2 part 1 | AES blob | password = `sha256("causality").hexdigest()` (64 ASCII hex chars) |
-| Phase 2 seven-part | concatenation gate | SHA-256 = `1a57c572caf3cf722e41f5f9cf99ffacff06728a43032dd44c481c77d2ec30d5` |
-| Phase 3 URL slug | first page text | `sha256("GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe")` → `89727c59…52f6a32` |
-| Phase 3 riddles | three answers | `sha256("jacquefrescogiveitjustonesecondheisenbergsuncertaintyprinciple").hexdigest()` opens Phase 3.2 |
-| Phase 3.2 | AES blob | password = 64 ASCII bytes `250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c` |
-| Symbol record | 1,539 raw bytes inside Phase 3.2 | SHA-256 `bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b` |
-| Beaufort | key `THEMATRIXHASYOU`, P = K − C mod 26 | 1,539-letter Architect plaintext; SHA-256 `56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241` |
-| VIC checkerboard | 149 digits, alphabet `FUBCDORA.LETHINGKYMVPS.JQZXW`, row digits 1 and 4 | see `artifacts/checkerboard_message.txt` |
-| Decentraland | stereo MP3, mono = L − R | spectrogram text `HASHTHETEXT` |
-| SalPhaseIon literals | binary and decimal fields on page | `matrixsumlist`, `enter`, `lastwordsbeforearchichoice`, `thispassword`, etc. |
+| Poster | `images/poster/follow_the_white_rabbit.png` | `gsmg.io/theseedisplanted`, residual bits `0000` |
+| Poster markers | the same 24 blue/yellow cells | every 8th spiral bit; packed → `F73D92` |
+| Rebus | `images/rebus/*.png` | `theflowerblossomsthroughwhatseemstobeaconcretesurface` — a *visual* reading, see below |
+| Phase 2 | `ciphertexts/phase2_keymaker.b64` | English keymaker text; password `sha256("causality")` |
+| Phase 2 answer | seven-part concatenation | SHA-256 `1a57c572caf3cf722e41f5f9cf99ffacff06728a43032dd44c481c77d2ec30d5` |
+| Phase 3 | `ciphertexts/phase3_riddles.b64` | English riddle text; password = the digest above |
+| Phase 3 URL slug | first page's own visible text | `sha256("GSMGIO5BTCPUZZLECHALLENGE1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe")` → `89727c59…52f6a32` |
+| Phase 3.2 | `ciphertexts/phase32.b64` | Architect payload; password `sha256("jacquefresco…principle")` |
+| Symbol record | 1,539 bytes inside phase 3.2 | SHA-256 `bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b` |
+| EBCDIC map | those 1,539 bytes | a bijection onto exactly 26 lowercase letters |
+| Beaufort | key `THEMATRIXHASYOU`, P = K − C mod 26 | Architect plaintext, SHA-256 `56c43a30…c94b2241` |
+| VIC checkerboard | 149 digits inside phase 3.2 | the Half / Better Half funds message |
+| SalPhaseIon literals | `archives/salphaseion_phase3.html` | `matrixsumlist`, `enter`, and two page literals |
+| Blockchain | Half's spending transaction | Half's uncompressed public key |
 
-Full Architect plaintext: `artifacts/architect_plaintext.txt` (1,539 letters).
+## Poster
 
-## Poster (exact)
+- 350×350 PNG; a 14×14 grid of 25px cells in five colours. The rabbit drawing
+  crosses several cells, so each cell is read by majority colour.
+- Counter-clockwise inward spiral from the top-left: down the left column, along
+  the bottom, up the right, back along the top, then inward.
+- Black and blue are 1, white and yellow are 0. 192 bits → 24 ASCII bytes, then
+  4 residual zero bits.
+- The 24 blue/yellow cells sit on the last bit of every byte, so they delimit
+  bytes *and* restate that bit (blue = 1, yellow = 0). Packed: `F73D92`.
 
-- Image: 350×350 PNG, 14×14 grid of 25px cells, five colours.
-- Read: counter-clockwise inward spiral from top-left; black+blue = 1, white+yellow = 0.
-- Result: 24 ASCII bytes + 4 zero bits → `gsmg.io/theseedisplanted`.
-- 24 blue/yellow cells mark every 8th spiral bit (byte LSB positions) → `F73D92`.
+The URL is the acceptance test. An arbitrary read order does not produce
+readable ASCII, does not leave a zero residual, and does not put the 24 markers
+on a regular stride.
 
-## Phase 3.2 plaintext structure
+## Phase 3.2 payload structure
 
-After AES decrypt, the payload contains:
+After decryption the 2,422-byte payload is, in order:
 
-1. English preamble ending `One for one, four for one.`
-2. 1,539-byte 26-symbol record (pre-Beaufort "source")
-3. 149-digit VIC record
-4. 80-byte OpenSSL envelope (SalPhaseIon short blob)
-5. Additional page content (SalPhaseIon fields, Cosmic textarea, etc.)
+1. English preamble, ending `One for one, four for one.`
+2. 1,539-byte record over 26 high-bit symbols
+3. 149-digit line
+4. One sentence naming a checkerboard alphabet
+5. An 80-byte OpenSSL envelope
 
-Phase 3.2 opening (human-readable portion) is in `artifacts/phase32_preamble.txt`.
+The preamble writes its own instructions. "One for one, four for one" reads as
+1141 — IBM EBCDIC code page 1141 — and decoding each symbol byte as EBCDIC gives
+a bijection onto 26 lowercase letters, which is the check that the reading is
+right. "I've designed you a beautiful strategic position" reads as Beaufort; the
+key `THEMATRIXHASYOU` is "the matrix has you" with Neo replaced by *you*, as
+elsewhere in this puzzle. The checkerboard alphabet is spelled out by the
+sentence "A fubcd-king & oracle-queen, thingky mvps, on a sad board…".
 
-## Architect plaintext — named substrings (zero-based offsets)
+Python has no `cp1141`; `tools/phase32_classical.py` uses `cp273`, which is
+EBCDIC 1141 without the euro sign and agrees on every byte in this record.
 
-These offsets are **observations** on the authenticated A–Z stream after
-Beaufort. Indexing convention (0-based vs 1-based) is not creator-stated.
+### A defect in the checkerboard alphabet
 
-| offset | substring at offset |
+`FUBCDORA.LETHINGKYMVPS.JQZXW` is 28 positions but only 27 distinct characters:
+`.` appears twice. Neither `.` cell is selected by this ciphertext, so the
+decode above is unaffected — `phase32_classical.py` prints that check. Any
+future decode reaching one of those cells would be reading an unresolved
+character.
+
+## Architect plaintext — named substrings
+
+Offsets are 0-based into the authenticated 1,539-letter A–Z stream. These are
+observations about where words sit, nothing more: no indexing convention is
+creator-stated.
+
+| Offset | Substring |
 | ---: | --- |
 | 479 | `PRIVATEKEY` |
 | 511 | `TAKETHISTOHEART` |
@@ -61,45 +88,53 @@ Beaufort. Indexing convention (0-based vs 1-based) is not creator-stated.
 | 1238 | `PRIVATEKEY` (second occurrence) |
 | 1529 | `CIAOBELLAO` |
 
-Continuation excerpt `[472:619]` (147 characters spanning `TAKETHE` through
-part of the Filmmaker rewrite): `artifacts/architect_continuation_excerpt.txt`.
+## SalPhaseIon page — what actually decodes
 
-## SalPhaseIon page — decoded literals (physical order)
+From `archives/salphaseion_phase3.html`, reproduced by `tools/salphaseion_fields.py`:
 
-From the archived SalPhaseIon HTML (earliest capture `20230601222752`), fields
-decode to:
+| Field | Position | Decodes to |
+| --- | --- | --- |
+| a/b binary run | offset 91, 104 bits | `matrixsumlist` |
+| a/b binary run | offset 959, 40 bits | `enter` |
+| plain page text | before the envelope | `shabefourfirsthintisyourlastcommand` |
+| plain page text | after the envelope | `shabefanstoo` |
 
-1. `matrixsumlist` (binary a/b block)
-2. `lastwordsbeforearchichoice` (decimal → hex → ASCII)
-3. `thispassword` (decimal → hex → ASCII)
-4. `shabefourfirsthintisyourlastcommand` (a/b block)
-5. `enter` (binary a/b block, between Base64 portions)
-6. `shabefanstoo` (a/b block)
+The stream's structure: a 91-character field over `a`–`i`, the `matrixsumlist`
+binary run, a 570-character field over `a`–`i`, then two shorter `z`-separated
+fields, then the literals and a split Base64 envelope.
 
-Raw symbol streams: `artifacts/salphaseion_fields.json` (`S91`, `S570`, etc.).
+**Not reproduced here.** Other write-ups list `lastwordsbeforearchichoice` and
+`thispassword` among this page's decoded fields. They do not decode from the
+copy committed here: the two `z`-separated digit fields resolve to nothing
+readable under digits→hex or digits→decimal. Both strings do appear in the
+creator's seven phrases, so they are not fabricated — but this folder cannot
+show them coming off this page and does not claim they do.
 
-The page also contains Base64 ciphertext blobs (short 48-byte envelope, longer
-"Cosmic" textarea). **Decrypting those blobs to high-entropy output is
-reproducible under various passwords but is not authenticated as correct
-plaintext** by the creator's 2021-03-14 criterion ("breaking salphation should
-be giving the feeling of the phase's name").
+## Not authenticated
 
-## Cryptographic parameters (Phase 3.x)
+- **The rebus.** The eight tiles are committed and the pairing into "cryptologic
+  warning, can you dig it?" is a visual reading of pictograms and letter
+  fragments, not a computation. It is persuasive, and it is not a hash.
+- **The SalPhaseIon envelopes.** The Cosmic textarea blob and the 80-byte
+  envelope decrypt to high-entropy output under many passwords. One such
+  password unpads cleanly and yields 60 bytes of noise — a live demonstration
+  that clean padding is not evidence. No decrypt of these has produced anything
+  a reader would call plaintext, and the creator's stated criterion is that
+  breaking this phase should "give the feeling of the phase's name".
 
-- AES-256-CBC, OpenSSL salted format (`Salted__`)
-- KDF: `EVP_BytesToKey` with **SHA-256** digest for Phase 3.2 password
-- Phase 3.2 password is the **64 ASCII hex characters**, not the 32 decoded bytes
+## Fitted, not authenticated
 
-## Fitted observations (not authenticated conventions)
+Exact arithmetic that rests on a convention nobody has shown the creator chose.
+`tools/fitted_observations.py` recomputes both and prints the assumption with
+each, so the number never travels without its caveat.
 
-These exact arithmetic relationships have been noted by solvers. Each depends on
-at least one unproven convention:
+- **479.** Assigning the first 24 primes to the 24 poster markers in spiral
+  order gives blue 484, yellow 479. Dropping the blue prime 5 leaves 479 = 479.
+  Assumes consecutive primes from 2, spiral-order assignment, and that "zeroing
+  out" means dropping a prime.
+- **Offset 479.** Under 0-based indexing, `architect[479:]` begins
+  `PRIVATEKEYYOUVEEARNEDITBUTPLEASE`. Under 1-based it starts one letter earlier.
+  Assumes 0-based indexing and that a poster-derived number indexes this text.
 
-- Assigning the first 24 primes to the 24 poster marker bits: blue sum 484,
-  yellow sum 479; removing blue prime 5 yields 479 = 479.
-- Under **zero-based** indexing of the Architect A–Z stream, offset 479 lands on
-  `PRIVATEKEY`. Under one-based indexing, position 479 is the letter before
-  `PRIVATEKEY`.
-
-Treat these as hypotheses until a creator instruction or exact independent
-check fixes the convention.
+The hit is exact and it is the strongest structural result here. It is also not
+a key derivation: nothing in it produces a scalar.

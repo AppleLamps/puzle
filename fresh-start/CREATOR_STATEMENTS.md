@@ -1,8 +1,14 @@
 # Creator statements (Jrk Bgrt)
 
 Verbatim or faithfully quoted messages from the puzzle creator's Telegram
-account. Source: archived Telegram export referenced in the parent repository;
-verify against an export you trust.
+account (`Jrk Bgrt`).
+
+**This is the one part of the folder you cannot check from the folder.** The
+export these are quoted from is not committed here — it is large, and it
+contains unrelated participants' personal data. Everything else here is
+reproducible offline; this page is a transcription, so verify any statement you
+intend to build on against an export you trust. Where the creator's words and
+this folder's conclusions disagree, the creator's words win.
 
 ## Chronology
 

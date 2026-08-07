@@ -1,25 +1,31 @@
 {
-  "source_capture": "20230601222752 (earliest cached Wayback SalPhaseIon page)",
-  "physical_field_order": [
-    "matrixsumlist",
-    "lastwordsbeforearchichoice",
-    "thispassword",
-    "shabefourfirsthintisyourlastcommand",
-    "enter",
-    "shabefanstoo"
+  "source": "archives/salphaseion_phase3.html (committed in this folder)",
+  "regenerate_with": "python3 tools/salphaseion_fields.py",
+  "stream_length": 1075,
+  "structure_in_physical_order": [
+    "91-character field over a-i",
+    "104-bit a/b binary run",
+    "570-character field over a-i",
+    "two shorter z-separated fields over a-i and o",
+    "literal 'shabefourfirsthintisyourlastcommand'",
+    "base64 envelope, first half",
+    "40-bit a/b binary run",
+    "base64 envelope, second half",
+    "literal 'shabefanstoo'"
   ],
   "decoded_literals": {
-    "matrixsumlist": "binary a/b block on page",
-    "lastwordsbeforearchichoice": "decimal field → hex → ASCII",
-    "thispassword": "decimal field → hex → ASCII",
-    "shabefourfirsthintisyourlastcommand": "binary a/b block",
-    "enter": "binary a/b block between Base64 portions",
-    "shabefanstoo": "binary a/b block"
+    "matrixsumlist": "104-bit a/b run at offset 91; a=0, b=1, 8 bits per character",
+    "enter": "40-bit a/b run at offset 959, between the two base64 halves",
+    "shabefourfirsthintisyourlastcommand": "plain text on the page, not encoded",
+    "shabefanstoo": "plain text on the page, not encoded"
   },
   "symbol_streams": {
     "S91": "dbbibfbhccbegbihabebeihbeggegebebbgehhebhhfbabfdhbeffcdbbfcccgbfbeeggecbedcibfbffgigbeeeabe",
     "S570": "faedggeedfcbdabhhggcadcfeddgfdgbgigaaedggiafaecghggcdaihehahbahigceifgbfgefgaifabifagaegeacgbbeagfggeeggafbacgfcdbeiffaafcidahgdeefghhcggaegdebhhegeghcegadfbdiagefcicggifdcgaaggfbigaicfbhecaecbceiaicebgbgiecdeggfgegaedggfiiciiififhggcgfgdcdggefcbeeigefibgibggghhfbcgifdehedfdagicdbhicgaiedaehahghhcihdghfhbiicecbiichihiiigiddgehhdfdchcbafgfbhaheagegecafehgcfggggcagfhhghbaihidiehhfdeggdgcihggggghadahigigbgecgedfcdggaccdehiicigfbffhggaeidbbeibbeiifdgfdhieeeieeecifdgdahdiggfhegfiaffiggbcbcehceabfbedbiibfbfdedeehgigfaaiggagbeiichiedifbehgbccahhbiibibbibdcbahaidhfahiihic"
   },
-  "note": "S91 length 91; S570 length 570. Operational roles of literals are not creator-stated."
-
+  "not_reproduced": {
+    "lastwordsbeforearchichoice": "Listed elsewhere as a decoded field of this page. It does not decode from the copy committed here: the two z-separated digit fields resolve to nothing readable under digits-to-hex or digits-to-decimal. The string does appear in the creator's seven phrases.",
+    "thispassword": "Same. Not reproduced from this page."
+  },
+  "note": "S91 and S570 are named by length only. What any of these fields or literals instruct you to do is not creator-stated."
 }

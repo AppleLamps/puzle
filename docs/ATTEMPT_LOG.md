@@ -835,3 +835,14 @@ direct window/combine parsing. All three frontiers remain open: (a) index rule
 may use a corpus or stepping convention outside this family; (b) second door may
 require an operation not frozen here; (c) chain1 may still be AES-locked with
 unknown password material rather than raw key bytes.
+
+## 33. Chain1 exhaustive non-AES scalar material (v74, 2026-08-07)
+
+Single sealed superset closing the v73 gaps and the cartesian ceiling on
+chain1 byte views, plus the decrypted 79-byte triplet path.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v74: **4,752 scalar gates** in five tiers — (A) v73 combine rules with full sliding (156 gates, 3 derivations); (B/C/D) cartesian over **17 transforms** (3 base scopes, 4 v73 combines, 10 new: strip header, reverses, interleave, env-ciphertext, concat slices, sub mod256, …) × **8 derivations** (raw, sha256, double, sha256^0x7f, reversed digest, reversed-window sha256, mod-n BE/LE) × all 32-byte windows + prefix32 + glued 32+32+32 slices (**4,328 gates**); (E) joke-password **79-byte decrypt** triplet: 48 sliding windows + key1/key2/extension-pad/xor/add direct views (**424 gates**). **0 prize, 0 base58check** | `chain1_raw_key_material_extended_preregistered.json`, `chain1_raw_key_material_extended_audit.json`, `solver/chain1_raw_key_material_extended_{preregister,audit}.py`, `solver/chain1_scalar_material.py`; extends v73; tier E is AES-first-then-scalar, tiers A–D are non-AES |
+
+**Assessment.** Combined with v73 (318 gates) and split-envelope K4 (17 raw48 windows), the chain1 blob and its decrypted triplet exhaust the natural non-AES scalar parse family under eight fixed derivations and seventeen frozen transforms. No prize match. Chain1 as raw key material and as decrypted triplet fields both miss; the live hypothesis remains unknown password material or a pre-chain1 lock.

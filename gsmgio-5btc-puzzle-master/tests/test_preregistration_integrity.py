@@ -128,3 +128,15 @@ def test_youwon_v44_tests_the_difference_block_not_the_raw_field() -> None:
     assert state["middle49"].startswith("YOUWON")
     assert len(state["middle49"]) == 49
     assert len(state["head21"]) == len(state["tail21"]) == 21
+
+
+def test_v74_chain1_exhaustive_scalar_material_is_complete_no_match() -> None:
+    from solver.chain1_raw_key_material_extended_audit import run as run_v74
+    from solver.chain1_raw_key_material_extended_preregister import expected_tier_counts
+
+    outcome = run_v74()
+    expected = expected_tier_counts()
+    assert outcome["status"] == "COMPLETE_NO_MATCH"
+    assert outcome["counts"]["scalar_gates"] == expected["total_scalar_gates"]
+    assert outcome["counts"]["prize_matches"] == 0
+    assert expected["total_scalar_gates"] >= 4000

@@ -1,0 +1,59 @@
+{
+  "acceptance": "Legible plaintext: printable_ratio>=0.85 and entropy<=5.9, or an English run of >=6 letters; padding logged, never accepted.",
+  "anchor_password_ids": [
+    "A01_479",
+    "A02_484",
+    "A03_479479",
+    "A04_484479",
+    "A05_yellow479blue484",
+    "A06_architect_takethe_privatekey",
+    "A07_architect_479_33"
+  ],
+  "control_scalar_hex": "00000000000000000000000000000000000000000000000000000000000c0de5",
+  "date": "2026-08-07",
+  "envelope": "chain1",
+  "expected_counts": {
+    "anchor_evp_trials": 42,
+    "pbkdf2_trials": 108,
+    "sequential_paths": 6
+  },
+  "hypothesis": "Chain-1 opens legibly under PBKDF2 KDF, sequential seven-phrase layering, or 479/yin-yang anchor passwords.",
+  "id": "v69_chain1_pbkdf2_legibility",
+  "password_forms": [
+    "literal",
+    "sha256_hex_lower",
+    "sha256_raw32"
+  ],
+  "pbkdf2_iterations": [
+    1000,
+    10000
+  ],
+  "pbkdf2_password_ids": [
+    "P01_canonical_5token_concat",
+    "P02_phase32_password",
+    "P03_phrases_all7_concat",
+    "P04_phrases_first4_concat",
+    "P05_phrase_yinyang",
+    "P06_sha_first_hint",
+    "P07_sha_answer_too",
+    "P08_salvation",
+    "P09_hashthetext",
+    "P10_architect_479_33",
+    "P11_architect_takethe_privatekey",
+    "P12_yellow479blue484",
+    "P13_479479",
+    "P14_theflowerblossoms",
+    "P15_enter",
+    "P16_token_thispassword",
+    "P17_phrase_xor7_digest",
+    "P18_tokens7_hashthetext_sha_answer"
+  ],
+  "schema": "chain1-pbkdf2-legibility-v69",
+  "scope_note": "Closes PBKDF2-HMAC-SHA256 at 1k/10k iterations, sequential seven-phrase layered decrypt, and seven 479-anchor strings on chain1 only. Does not reopen EVP MD5/SHA-256 families closed in v49-v68 or non-PBKDF2 ciphers closed in v67.",
+  "sequential_phrases": 7,
+  "status": "SEALED_BEFORE_AES_OR_SCALAR_EVALUATION",
+  "targets": {
+    "better_half_hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+    "half_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+  }
+}

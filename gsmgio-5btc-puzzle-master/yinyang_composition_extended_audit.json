@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 96,
+    "legible_outputs": 0,
+    "padding_hits": 0,
+    "prize_matches": 0,
+    "scalar_gates": 8
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "yinyang-composition-extended-v70",
+  "scope_note": "Extends v59 with four composition rules and adds chain1 as a target. Does not change step-to-operand mapping or reopen v59 fold_xor / fold_sha256_chain results.",
+  "status": "COMPLETE_NO_MATCH"
+}

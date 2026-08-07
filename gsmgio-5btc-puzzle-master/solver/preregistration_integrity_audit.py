@@ -60,6 +60,8 @@ DRIFT_GATED = (
     "solver.cipher_catalogue_23_16_7_preregister",
     "solver.prime_basics_source_reinsert_preregister",
     "solver.endgame_23_16_7_salphaseion_preregister",
+    "solver.chain1_pbkdf2_legibility_preregister",
+    "solver.yinyang_composition_extended_preregister",
 )
 
 # Manifests superseded by a re-sealed copy.  The original seal stays intact as

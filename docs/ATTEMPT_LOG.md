@@ -794,3 +794,24 @@ tier 2. The joint effect is narrower and more useful: the reason chain1 does
 not read is **not** a mis-identified cipher and **not** a mis-read of
 "intertwined", so the unexplained parameter is the password material itself —
 or chain1 is not the next lock at all.
+
+## 31. Chain-1 PBKDF2 / sequential layers, and extended 479→yinyang compositions (v69–v70, 2026-08-07)
+
+Two sealed falsifiers targeting the two frontiers the record still treats as
+genuinely open: a **legible chain-1 unlock** and a **479→yinyang composition
+rule** for unreached step 4.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v69: chain1 under **PBKDF2-HMAC-SHA256** at 1,000 and 10,000 iterations (eighteen authenticated passwords × three forms); **sequential seven-phrase layered decrypt** (full creator-ordered chain per form/KDF); seven **479-anchor** strings (`479`, `484`, `479479`, `484479`, `yellow479blue484`, `TAKETHE`/`PRIVATEKEY` window, Architect `[479:512]`) × three forms × EVP MD5/SHA-256 — all legibility-gated. **156 AES trials; 1 padding hit (0.64%, at chance), 0 legible, 0 prize** | `chain1_pbkdf2_legibility_preregistered.json`, `chain1_pbkdf2_legibility_audit.json`, `solver/chain1_pbkdf2_legibility_{preregister,audit}.py`; closes PBKDF2 and sequential-layer families v67 left open |
+| **NEGATIVE (bounded)** | v70: four **new** composition rules over the same seven v59 structural operands — `fold_add_mod256`, `fold_interleave_bytes`, `fold_sha256_concat`, `yinyang_mirror_xor` (XOR steps 1–3 with 5–7, append step-4 rot180 mask) — gated as scalars and as AES passwords on **chain1**, env48, and raw48 (both IV modes). **96 AES + 8 scalar gates; 0 padding, 0 legible, 0 prize** | `yinyang_composition_extended_preregistered.json`, `yinyang_composition_extended_audit.json`, `solver/yinyang_composition_extended_{preregister,audit}.py`; extends v59 without reopening `fold_xor` / `fold_sha256_chain` |
+
+**Assessment.** PBKDF2 at standard iteration counts does not make chain1 legible
+under authenticated passwords. Sequential application of all seven creator
+phrases as layered decrypts also misses — no intermediate `Salted__` envelope
+survives past the first phrase under this rule. The four extended 479→yinyang
+compositions do not open chain1 or the split halves, and do not gate to Half.
+Both frontiers remain open under rules that forbid padding-only acceptance; the
+narrowest remaining hypotheses are (a) chain1 password material not yet in any
+frozen family, or chain1 is not the next AES lock; (b) the 479→yinyang step is
+not a fixed byte composition over these seven structural operands.

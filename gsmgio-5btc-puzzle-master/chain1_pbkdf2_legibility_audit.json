@@ -1,0 +1,16 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 156,
+    "legible_outputs": 0,
+    "padding_hits": 1,
+    "prize_matches": 0
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "chain1-pbkdf2-legibility-v69",
+  "scope_note": "Closes PBKDF2-HMAC-SHA256 at 1k/10k iterations, sequential seven-phrase layered decrypt, and seven 479-anchor strings on chain1 only. Does not reopen EVP MD5/SHA-256 families closed in v49-v68 or non-PBKDF2 ciphers closed in v67.",
+  "status": "COMPLETE_NO_MATCH"
+}

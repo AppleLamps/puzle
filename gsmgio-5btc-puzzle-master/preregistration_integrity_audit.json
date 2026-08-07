@@ -2,13 +2,13 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 75,
+    "seals_checked": 77,
     "seal_mismatches": 0,
     "manifests_absent": 2,
     "result_digests_checked": 57,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
-    "drift_gates_checked": 11,
+    "drift_gates_checked": 13,
     "drift_gates_failing": 0,
     "drift_gates_superseded": 1
   },
@@ -32,6 +32,13 @@
       "manifest_present": true,
       "sealed_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
       "actual_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
+      "status": "OK"
+    },
+    {
+      "seal": "chain1_pbkdf2_legibility_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "39f6f14a53ad642639b7c02b39a420cf02d043fad9ebe16bf6b6d68f1d990a58",
+      "actual_digest": "39f6f14a53ad642639b7c02b39a420cf02d043fad9ebe16bf6b6d68f1d990a58",
       "status": "OK"
     },
     {
@@ -499,6 +506,13 @@
       "manifest_present": true,
       "sealed_digest": "2ed63fad9679e921031211905468925fcd1a2092ad2a1660565b35f81633eaf5",
       "actual_digest": "2ed63fad9679e921031211905468925fcd1a2092ad2a1660565b35f81633eaf5",
+      "status": "OK"
+    },
+    {
+      "seal": "yinyang_composition_extended_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "21c00478a64a64a8affede823bf35e2034363e7077723f87a99539abe66f83a9",
+      "actual_digest": "21c00478a64a64a8affede823bf35e2034363e7077723f87a99539abe66f83a9",
       "status": "OK"
     },
     {
@@ -1106,6 +1120,16 @@
     {
       "module": "solver.endgame_23_16_7_salphaseion_preregister",
       "manifest": "endgame_23_16_7_salphaseion_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.chain1_pbkdf2_legibility_preregister",
+      "manifest": "chain1_pbkdf2_legibility_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.yinyang_composition_extended_preregister",
+      "manifest": "yinyang_composition_extended_preregistered.json",
       "passes": true
     }
   ],

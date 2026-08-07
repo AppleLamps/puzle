@@ -1,0 +1,25 @@
+{
+  "source_capture": "20230601222752 (earliest cached Wayback SalPhaseIon page)",
+  "physical_field_order": [
+    "matrixsumlist",
+    "lastwordsbeforearchichoice",
+    "thispassword",
+    "shabefourfirsthintisyourlastcommand",
+    "enter",
+    "shabefanstoo"
+  ],
+  "decoded_literals": {
+    "matrixsumlist": "binary a/b block on page",
+    "lastwordsbeforearchichoice": "decimal field → hex → ASCII",
+    "thispassword": "decimal field → hex → ASCII",
+    "shabefourfirsthintisyourlastcommand": "binary a/b block",
+    "enter": "binary a/b block between Base64 portions",
+    "shabefanstoo": "binary a/b block"
+  },
+  "symbol_streams": {
+    "S91": "dbbibfbhccbegbihabebeihbeggegebebbgehhebhhfbabfdhbeffcdbbfcccgbfbeeggecbedcibfbffgigbeeeabe",
+    "S570": "faedggeedfcbdabhhggcadcfeddgfdgbgigaaedggiafaecghggcdaihehahbahigceifgbfgefgaifabifagaegeacgbbeagfggeeggafbacgfcdbeiffaafcidahgdeefghhcggaegdebhhegeghcegadfbdiagefcicggifdcgaaggfbigaicfbhecaecbceiaicebgbgiecdeggfgegaedggfiiciiififhggcgfgdcdggefcbeeigefibgibggghhfbcgifdehedfdagicdbhicgaiedaehahghhcihdghfhbiicecbiichihiiigiddgehhdfdchcbafgfbhaheagegecafehgcfggggcagfhhghbaihidiehhfdeggdgcihggggghadahigigbgecgedfcdggaccdehiicigfbffhggaeidbbeibbeiifdgfdhieeeieeecifdgdahdiggfhegfiaffiggbcbcehceabfbedbiibfbfdedeehgigfaaiggagbeiichiedifbehgbccahhbiibibbibdcbahaidhfahiihic"
+  },
+  "note": "S91 length 91; S570 length 570. Operational roles of literals are not creator-stated."
+
+}

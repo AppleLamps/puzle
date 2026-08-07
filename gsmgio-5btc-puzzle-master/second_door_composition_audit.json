@@ -1,0 +1,20 @@
+{
+  "controls": {
+    "baseline_url": true,
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 2304,
+    "compositions": 96,
+    "legible_outputs": 0,
+    "padding_hits": 14,
+    "prize_matches": 0,
+    "scalar_gates": 192
+  },
+  "legible_records": [],
+  "manifest_sha256": "559ed1715df6e6d782d864aa723ac54a52e36f6a8a6cdf251e8764748f1a8187",
+  "prize_matches": [],
+  "schema": "second-door-composition-v75",
+  "scope_note": "Composition-only second-door family. Distinct from v72 direct passwords and second_door_frontier broad derivations.",
+  "status": "COMPLETE_NO_MATCH"
+}

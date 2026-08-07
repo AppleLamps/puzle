@@ -2,17 +2,24 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 81,
+    "seals_checked": 83,
     "seal_mismatches": 0,
     "manifests_absent": 2,
-    "result_digests_checked": 61,
+    "result_digests_checked": 63,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
-    "drift_gates_checked": 17,
+    "drift_gates_checked": 19,
     "drift_gates_failing": 0,
     "drift_gates_superseded": 1
   },
   "seals": [
+    {
+      "seal": "architect_479_continuation_ops_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "e6a02d314745459f678004eb625cfa2d2fcd2ef28f807a1a302a207b87b99ca3",
+      "actual_digest": "e6a02d314745459f678004eb625cfa2d2fcd2ef28f807a1a302a207b87b99ca3",
+      "status": "OK"
+    },
     {
       "seal": "architect_anchor_windows_preregistered.sha256",
       "manifest_present": true,
@@ -467,6 +474,13 @@
       "status": "OK"
     },
     {
+      "seal": "second_door_composition_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "559ed1715df6e6d782d864aa723ac54a52e36f6a8a6cdf251e8764748f1a8187",
+      "actual_digest": "559ed1715df6e6d782d864aa723ac54a52e36f6a8a6cdf251e8764748f1a8187",
+      "status": "OK"
+    },
+    {
       "seal": "second_door_eye_spiral_preregistered.sha256",
       "manifest_present": true,
       "sealed_digest": "9f423f381c1f0fa3cada7debfd7d1b364fc81426899712aa70386af34a6fc657",
@@ -580,6 +594,15 @@
     }
   ],
   "result_digests": [
+    {
+      "result": "architect_479_continuation_ops_audit.json",
+      "key": "manifest_sha256",
+      "digest": "e6a02d314745459f678004eb625cfa2d2fcd2ef28f807a1a302a207b87b99ca3",
+      "resolves_to": [
+        "architect_479_continuation_ops_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
     {
       "result": "architect_source_prime_reinsertion_audit.json",
       "key": "manifest_sha256",
@@ -1067,6 +1090,15 @@
       "status": "RESOLVED"
     },
     {
+      "result": "second_door_composition_audit.json",
+      "key": "manifest_sha256",
+      "digest": "559ed1715df6e6d782d864aa723ac54a52e36f6a8a6cdf251e8764748f1a8187",
+      "resolves_to": [
+        "second_door_composition_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
       "result": "sfield_base9_substitution_results.json",
       "key": "manifest_sha256",
       "digest": "7d19436f99827b204d7d9cd59e539d80879eb3b6f2c85a48d80129ee640c93e0",
@@ -1214,6 +1246,16 @@
     {
       "module": "solver.chain1_raw_key_material_extended_preregister",
       "manifest": "chain1_raw_key_material_extended_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.second_door_composition_preregister",
+      "manifest": "second_door_composition_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.architect_479_continuation_ops_preregister",
+      "manifest": "architect_479_continuation_ops_preregistered.json",
       "passes": true
     }
   ],

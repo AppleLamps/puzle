@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 456,
+    "legible_outputs": 0,
+    "materials": 19,
+    "padding_hits": 0,
+    "prize_matches": 0,
+    "scalar_gates": 38
+  },
+  "legible_records": [],
+  "manifest_sha256": "e6a02d314745459f678004eb625cfa2d2fcd2ef28f807a1a302a207b87b99ca3",
+  "prize_matches": [],
+  "schema": "architect-479-continuation-ops-v76",
+  "scope_note": "Literal named operations only; no free offsets. Distinct from v63 windows-as-passwords and v71 index selection.",
+  "status": "COMPLETE_NO_MATCH"
+}

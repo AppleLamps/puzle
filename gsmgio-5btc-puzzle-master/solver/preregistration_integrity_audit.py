@@ -66,6 +66,8 @@ DRIFT_GATED = (
     "solver.second_door_chess_poster_preregister",
     "solver.chain1_raw_key_material_preregister",
     "solver.chain1_raw_key_material_extended_preregister",
+    "solver.second_door_composition_preregister",
+    "solver.architect_479_continuation_ops_preregister",
 )
 
 # Manifests superseded by a re-sealed copy.  The original seal stays intact as

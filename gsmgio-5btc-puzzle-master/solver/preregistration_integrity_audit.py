@@ -60,6 +60,7 @@ DRIFT_GATED = (
     "solver.matrixsumlist_instruction_preregister",
     "solver.cipher_catalogue_23_16_7_preregister",
     "solver.prime_basics_source_reinsert_preregister",
+    "solver.endgame_23_16_7_salphaseion_preregister",
 )
 
 # A drift that has been diagnosed and superseded by a re-sealed copy.  The

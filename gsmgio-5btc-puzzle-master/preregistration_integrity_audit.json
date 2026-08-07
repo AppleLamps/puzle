@@ -35,6 +35,13 @@
       "status": "OK"
     },
     {
+      "seal": "endgame_23_16_7_salphaseion_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "20f2e18a53125c587e20cac28491fde8b372541b5f5500cbe75522c666f05228",
+      "actual_digest": "20f2e18a53125c587e20cac28491fde8b372541b5f5500cbe75522c666f05228",
+      "status": "OK"
+    },
+    {
       "seal": "fae_9x63_preregistered.sha256",
       "manifest_present": true,
       "sealed_digest": "887c961a9428836fd5d900ee173eeab0dc5612f9d905dac2bcb7ac7be340308e",
@@ -60,13 +67,6 @@
       "manifest_present": true,
       "sealed_digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
       "actual_digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
-      "status": "OK"
-    },
-    {
-      "seal": "prime_basics_source_reinsert_preregistered.sha256",
-      "manifest_present": true,
-      "sealed_digest": "15479b5b7277a45ca0ec7c02d13428f3b12982827fc76fd3dfe1dba94473dd0a",
-      "actual_digest": "15479b5b7277a45ca0ec7c02d13428f3b12982827fc76fd3dfe1dba94473dd0a",
       "status": "OK"
     },
     {
@@ -466,6 +466,15 @@
       "status": "RESOLVED"
     },
     {
+      "result": "endgame_23_16_7_salphaseion_audit.json",
+      "key": "manifest_sha256",
+      "digest": "20f2e18a53125c587e20cac28491fde8b372541b5f5500cbe75522c666f05228",
+      "resolves_to": [
+        "endgame_23_16_7_salphaseion_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
       "result": "fae_9x63_audit.json",
       "key": "preregistration_sha256",
       "digest": "887c961a9428836fd5d900ee173eeab0dc5612f9d905dac2bcb7ac7be340308e",
@@ -507,15 +516,6 @@
       "digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
       "resolves_to": [
         "poster_resistor_split_envelope_preregistered.json"
-      ],
-      "status": "RESOLVED"
-    },
-    {
-      "result": "prime_basics_source_reinsert_audit.json",
-      "key": "manifest_sha256",
-      "digest": "15479b5b7277a45ca0ec7c02d13428f3b12982827fc76fd3dfe1dba94473dd0a",
-      "resolves_to": [
-        "prime_basics_source_reinsert_preregistered.json"
       ],
       "status": "RESOLVED"
     },
@@ -998,8 +998,8 @@
       "passes": true
     },
     {
-      "module": "solver.prime_basics_source_reinsert_preregister",
-      "manifest": "prime_basics_source_reinsert_preregistered.json",
+      "module": "solver.endgame_23_16_7_salphaseion_preregister",
+      "manifest": "endgame_23_16_7_salphaseion_preregistered.json",
       "passes": true
     }
   ],

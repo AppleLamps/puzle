@@ -1,0 +1,71 @@
+{
+  "acceptance": "Legible plaintext: printable_ratio>=0.85 and entropy<=5.9, or an English run of >=6 letters; padding logged, never accepted.",
+  "construction_ids": [
+    "C01_phrase_xor7_digest",
+    "C02_phrase_hex_braid7",
+    "C03_phrase_hex_zip7",
+    "C04_phrase_hex_concat7",
+    "C05_phrase_byte_braid7",
+    "C06_phrases_first4_concat",
+    "C07_tokens5_sha_first_hint",
+    "C08_tokens7_hashthetext_sha_answer",
+    "C09_terminal_sha_first",
+    "C10_terminal_enter",
+    "C11_terminal_sha_answer",
+    "C12_terminal_sha_first_enter",
+    "C13_terminal_enter_sha_answer",
+    "C14_terminal_sha_first_enter_sha_answer",
+    "C15_decoded_lastwords_thispassword_sha_first_enter_sha_answer"
+  ],
+  "construction_preimages_sha256": {
+    "C01_phrase_xor7_digest": "a0c71ef06761339677e53fa7185dcfd4e040409869aacc35ded5355bcb416a3e",
+    "C02_phrase_hex_braid7": "9bcb399233c1b4d1be3462170f98fc160cbaf20dcda46b30b0e43b8c4a39a437",
+    "C03_phrase_hex_zip7": "9bcb399233c1b4d1be3462170f98fc160cbaf20dcda46b30b0e43b8c4a39a437",
+    "C04_phrase_hex_concat7": "af1dff38041b7e81fe00e65b04e784e68586142770d1e3a54faddf3e2e0a8055",
+    "C05_phrase_byte_braid7": "eef633ea06ffaee72ab52016915968bdb3d8a66dd50bbc9d0b7a99b3a0ffe8d3",
+    "C06_phrases_first4_concat": "93887fa98fbc4cf0f073498a442cf7b995aa6b4021879bdd5676c95ad438a493",
+    "C07_tokens5_sha_first_hint": "34214b95d20fdcdec65812bb1f6e41201143ce4d5c1c2759cb2b5c3cb0bf7926",
+    "C08_tokens7_hashthetext_sha_answer": "38e261b012036398c458d2d148bb5c5d6a4fbbe2a596cb013f823ca4f3380ba2",
+    "C09_terminal_sha_first": "d3dcdb2f2b66c1b95733b6944051eb4cc5d6143b4666fb1580928a262418cac1",
+    "C10_terminal_enter": "e08d706b3e4ce964b632746cf568913cb93f1ed36476fbb0494b80ed17c5975c",
+    "C11_terminal_sha_answer": "e6190c95f277454dd5953a49d0b34dd176685cba336fa4b54277c8e4edc067cb",
+    "C12_terminal_sha_first_enter": "2c1ac900fa6fa2cd615c1d90af8bd1c01f4bd78c51e00024db4ebcf8c70b2f1b",
+    "C13_terminal_enter_sha_answer": "8de3cadfc183d5a23d2be6fe8f0ca663eb32c6bf9c0591c919700247cecd7ae9",
+    "C14_terminal_sha_first_enter_sha_answer": "912612c07531a52ceadc2c08d9f93660684c3360301882bc21097ec74bb8e474",
+    "C15_decoded_lastwords_thispassword_sha_first_enter_sha_answer": "7689d487c466eb4b5cf9827a0384bee7e36c183b26650d7afbc56fe399a12185"
+  },
+  "control_scalar_hex": "00000000000000000000000000000000000000000000000000000000000c0de5",
+  "creator_phrases": [
+    "yellowblueprimes",
+    "matrixsumlist",
+    "lastwordsbeforearchichoice",
+    "yinyang",
+    "wewontgiveawaythepassword",
+    "itsinfrontofyoureyesbutyourenotseeingit",
+    "verylaststepisatruegiveawaypromised"
+  ],
+  "date": "2026-08-07",
+  "envelope": "chain1",
+  "expected_counts": {
+    "aes_trials": 90,
+    "scalar_gates": 30
+  },
+  "hypothesis": "Chain-1 opens under phrase-digest constructions (XOR, hex-braid, terminal SalPhaseIon fields) with legible plaintext.",
+  "id": "v66_chain1_phrase_digest_legibility",
+  "kdf_digests": [
+    "md5",
+    "sha256"
+  ],
+  "password_forms": [
+    "literal",
+    "sha256_hex_lower",
+    "sha256_raw32"
+  ],
+  "schema": "chain1-phrase-digest-legibility-v66",
+  "scope_note": "Closes phrase-digest XOR/braid/concat constructions and authenticated SalPhaseIon terminal assemblies on chain1 only. Does not reopen raw phrase concatenations (v49), raw phrase intertwines (v50), or structural operands (v60).",
+  "status": "SEALED_BEFORE_AES_OR_SCALAR_EVALUATION",
+  "targets": {
+    "better_half_hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+    "half_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+  }
+}

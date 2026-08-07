@@ -717,3 +717,11 @@ Three sealed falsifiers from the approved next-pass list.
 | **NEGATIVE (bounded)** | v65: cross-half assignment (env48-class operands on raw48, raw48-class on env48) plus eight frozen pipeline concat pairs on chain1. **336 AES + 80 scalar gates; 2 padding hits at chance, 0 legible, 0 prize** | `split_envelope_cross_pair_preregistered.json`, `split_envelope_cross_pair_audit.json`, `solver/split_envelope_cross_pair_{preregister,audit}.py` |
 
 **Assessment.** Anchor-bounded Architect spans do not gate to Half under fixed serializations or open envelopes legibly. The 49/98 rot180 × middle49 interleave family misses. Cross-half and paired-operand split-envelope readings also miss. Open-frontier item 1 (operation after 479) and yin-yang step 4 remain unresolved beyond these literal readings.
+
+## 27. Chain-1 phrase-digest constructions (v66, 2026-08-07)
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v66: fifteen frozen password constructions on **chain1** only — seven-phrase XOR digest (parallel to cosmic token-XOR but on tier-1 phrases), hex-braid/zip/concat of phrase SHA-256 hexes, byte-braid of phrase digests, first-four-phrase concat, five-token concat with authenticated `shabefourfirsthintisyourlastcommand` replacing the duplicate `matrixsumlist`, seven-token HASHTHETEXT/`shabefanstoo` variant, and terminal SalPhaseIon field assemblies — each tested as literal / sha256-hex / raw-32 under EVP MD5 and SHA-256, legibility-gated. **90 AES + 30 scalar gates; 0 padding, 0 legible, 0 prize** | `chain1_phrase_digest_legibility_preregistered.json`, `chain1_phrase_digest_legibility_audit.json`, `solver/chain1_phrase_digest_legibility_{preregister,audit}.py`; does not reopen v49 raw phrase combos or v50 hex-format/intertwine families |
+
+**Assessment.** Phrase-digest XOR/braid constructions and authenticated terminal-field assemblies do not open chain1 at all (no PKCS#7 hit), let alone legibly. The only password in this neighbourhood that still unpads is the historical five-token concat (`matrixsumlist` duplicated as token 5); its 79-byte output remains high-entropy and not legible. The correct chain-1 password, if AES at all, is still unknown and must meet the creator's salvation/legibility criterion when found.

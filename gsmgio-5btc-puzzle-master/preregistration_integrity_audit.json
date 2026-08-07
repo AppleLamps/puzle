@@ -2,26 +2,26 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 61,
+    "seals_checked": 62,
     "seal_mismatches": 0,
     "manifests_absent": 2,
-    "result_digests_checked": 54,
+    "result_digests_checked": 55,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
-    "drift_gates_checked": 9,
+    "drift_gates_checked": 10,
     "drift_gates_failing": 1,
     "drift_gates_failing_unrepaired": 0
   },
   "seals": [
     {
-      "seal": "artifacts\\door_probe\\live_probe_preregistered.sha256",
+      "seal": "artifacts/door_probe/live_probe_preregistered.sha256",
       "manifest_present": true,
       "sealed_digest": "b2936e7fff2d27b03ea9eebdbb3458881018e890cf6c2ad779c57e57ecc277ef",
       "actual_digest": "b2936e7fff2d27b03ea9eebdbb3458881018e890cf6c2ad779c57e57ecc277ef",
       "status": "OK"
     },
     {
-      "seal": "artifacts\\s91_direct_readability\\preregistered.sha256",
+      "seal": "artifacts/s91_direct_readability/preregistered.sha256",
       "manifest_present": true,
       "sealed_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
       "actual_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
@@ -32,6 +32,13 @@
       "manifest_present": true,
       "sealed_digest": "3f0964be2327514caccc88c73ee88f60b70c9e07ade983ea754b488581c762af",
       "actual_digest": "3f0964be2327514caccc88c73ee88f60b70c9e07ade983ea754b488581c762af",
+      "status": "OK"
+    },
+    {
+      "seal": "endgame_23_16_7_salphaseion_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "20f2e18a53125c587e20cac28491fde8b372541b5f5500cbe75522c666f05228",
+      "actual_digest": "20f2e18a53125c587e20cac28491fde8b372541b5f5500cbe75522c666f05228",
       "status": "OK"
     },
     {
@@ -455,6 +462,15 @@
       "digest": "3f0964be2327514caccc88c73ee88f60b70c9e07ade983ea754b488581c762af",
       "resolves_to": [
         "chain4_intertwined_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "result": "endgame_23_16_7_salphaseion_audit.json",
+      "key": "manifest_sha256",
+      "digest": "20f2e18a53125c587e20cac28491fde8b372541b5f5500cbe75522c666f05228",
+      "resolves_to": [
+        "endgame_23_16_7_salphaseion_preregistered.json"
       ],
       "status": "RESOLVED"
     },
@@ -979,6 +995,11 @@
     {
       "module": "solver.matrixsumlist_instruction_preregister",
       "manifest": "matrixsumlist_instruction_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.endgame_23_16_7_salphaseion_preregister",
+      "manifest": "endgame_23_16_7_salphaseion_preregistered.json",
       "passes": true
     }
   ],

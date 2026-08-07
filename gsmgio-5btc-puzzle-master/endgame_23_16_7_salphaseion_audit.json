@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "schema": "endgame-23-16-7-salphaseion-v56",
+  "manifest_sha256": "20f2e18a53125c587e20cac28491fde8b372541b5f5500cbe75522c666f05228",
+  "control": {
+    "phase32_positive_control_opens": true,
+    "phase32_plaintext_len": 2422,
+    "planted_target_accepted": true,
+    "production_targets_reject_control": true
+  },
+  "source_sha256": {
+    "S91": "71fe46259e270c113529dfaded4b59c59a9dffd826a7202ab07fc498b6a2c5ca",
+    "S570": "066191b4aafc114fbca7f0d168382f40129c4ff18490375b689741081d5ef3c2",
+    "raw_pre_beaufort": "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b",
+    "literals_concat": "aab16d2535d4595bad9f44704ec4f216ac16dc6e3cc616d636f80746954ce8b1",
+    "tokens7_concat": "3b086d8b24acd3586b9dff0ccb0763ba0965227ef23786d04c4977b99dd3675d"
+  },
+  "preimages": 828,
+  "aes_trials": 13248,
+  "raw_aes_key_trials": 1656,
+  "padding_hits": 43,
+  "padding_hit_rate": 0.002885,
+  "legible_hits": [],
+  "prize_hits": [],
+  "scalar_gates": 8280,
+  "scalar_valid": 8280,
+  "unique_preimage_stream_sha256": "35568e44d01f65de4993af78b5e60929915b78276a5aa7311a226c075703d953",
+  "residual_truncation": {
+    "handoff_suggested": "low 2^20 XOR",
+    "sealed_to": [
+      5,
+      7,
+      16,
+      23,
+      140,
+      479,
+      484,
+      1141
+    ],
+    "reason": "keep residual clue-bound; open 2^20 is unconstrained mutation"
+  },
+  "scope_note": "Closes this sealed SalPhaseIon-source \u00d7 Fresco-23/16/7 \u00d7 prime-select composition against chain1 and cosmic only. Does not reopen Cosmic base-38 / Chain 4, does not claim the Fresco quote selection is creator-authenticated (it is fitted), and does not run an open 2^20 residual.",
+  "narrowest_underdetermined_step_if_null": "Which object the 23/16/7 menu selects *as the cipher list* remains free once SalPhaseIon prime-select + Fresco/pipeline password composition against the two envelopes is null. Next bounded falsifier: freeze one creator-named cipher catalogue (the phase-3.2 VIC alphabet / chess line / Beaufort-only) as the '23 ciphers' side without adding a free menu, and retest only that."
+}

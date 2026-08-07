@@ -857,3 +857,14 @@ Two sealed falsifiers targeting the highest-value open frontiers after v74.
 | **NEGATIVE (bounded)** | v76: **named literal operations** after Architect offset 479 — hash-the-text on nine anchor windows, prime reinsert (yellow9/blue-zero5), rot180 mask suffix select, xor/beaufort/mod26/enter-concat/hashthetext-chain on fixed spans. **19 materials → 456 AES + 38 scalar gates; 0 padding, 0 legible, 0 prize** | `architect_479_continuation_ops_preregistered.json`, `architect_479_continuation_ops_audit.json`, `solver/architect_479_continuation_ops_{preregister,audit}.py`; distinct from v63 windows-as-passwords and v71 index selection |
 
 **Assessment.** Poster second-door operands do not unlock chain1 when composed with 479/484 anchors under four fixed rules. Named Architect continuation operations (hash, reinsert, select, Beaufort, mod26, enter-concat, HASHTHETEXT chain) also miss. Open-frontier item 1 remains unresolved; the operation after ``PRIVATEKEY…`` is not any of these nineteen literal transforms. Second door may require a composition rule outside this frozen poster×anchor menu.
+
+## 35. Post-479 suffix continuation operations (v78, 2026-08-07)
+
+v76 closed named transforms on **anchor windows**.  This manifest tests operations
+the continuation text names on the **140-character post-479 suffix** itself.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v78: seventeen suffix operations — ``HUNDREDFOURTY`` 140-char slice, TAKETHISTOHEART/WISEMAN spans, matrixsumlist row/cumulative index into suffix, raw/transliteration source xor, dual-PRIVATEKEY xor (479 vs 1238), Fresco Beaufort/mod26, dissemination concat, return-to-sourcecodes Beaufort, seven-token xor fold, VIC-digit overlay, yellow9 reinsert, takeheart center-32. **408 AES + 34 scalar gates; 3 padding hits (0.74%, 0 legible), 0 prize** | `architect_post479_suffix_ops_preregistered.json`, `architect_post479_suffix_ops_audit.json`, `solver/architect_post479_suffix_ops_{preregister,audit}.py`; distinct from v76 anchor windows and `architect_479_semantic_pipeline` Fresco/F73D92 route |
+
+**Assessment.** The operation after ``PRIVATEKEY…`` is not any of these seventeen suffix-local transforms. Combined with v76 (nineteen anchor-window ops), v71 (index selection), v63 (windows-as-passwords), bounded search (725), continuation audit (10k), and semantic pipeline (Fresco/F73D92/23-16-7), open-frontier item 1 is narrowed but not closed: the pointer is authentic tier 1, the operation is not any frozen literal reading tested so far.

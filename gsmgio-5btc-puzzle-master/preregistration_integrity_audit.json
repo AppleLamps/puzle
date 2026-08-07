@@ -2,13 +2,13 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 83,
+    "seals_checked": 84,
     "seal_mismatches": 0,
     "manifests_absent": 2,
-    "result_digests_checked": 63,
+    "result_digests_checked": 64,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
-    "drift_gates_checked": 19,
+    "drift_gates_checked": 20,
     "drift_gates_failing": 0,
     "drift_gates_superseded": 1
   },
@@ -25,6 +25,13 @@
       "manifest_present": true,
       "sealed_digest": "fd4d5acb408d0cf9a20b76a4277b8c505211926c01d944e163e6a507026eb5a1",
       "actual_digest": "fd4d5acb408d0cf9a20b76a4277b8c505211926c01d944e163e6a507026eb5a1",
+      "status": "OK"
+    },
+    {
+      "seal": "architect_post479_suffix_ops_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "2de77668b67b7eddfdcd21c7bd95f381d093c173a6c033403de6c1dccb9675c3",
+      "actual_digest": "2de77668b67b7eddfdcd21c7bd95f381d093c173a6c033403de6c1dccb9675c3",
       "status": "OK"
     },
     {
@@ -600,6 +607,15 @@
       "digest": "e6a02d314745459f678004eb625cfa2d2fcd2ef28f807a1a302a207b87b99ca3",
       "resolves_to": [
         "architect_479_continuation_ops_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "result": "architect_post479_suffix_ops_audit.json",
+      "key": "manifest_sha256",
+      "digest": "2de77668b67b7eddfdcd21c7bd95f381d093c173a6c033403de6c1dccb9675c3",
+      "resolves_to": [
+        "architect_post479_suffix_ops_preregistered.json"
       ],
       "status": "RESOLVED"
     },
@@ -1256,6 +1272,11 @@
     {
       "module": "solver.architect_479_continuation_ops_preregister",
       "manifest": "architect_479_continuation_ops_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.architect_post479_suffix_ops_preregister",
+      "manifest": "architect_post479_suffix_ops_preregistered.json",
       "passes": true
     }
   ],

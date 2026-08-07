@@ -8,9 +8,9 @@
     "result_digests_checked": 57,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
-    "drift_gates_checked": 12,
-    "drift_gates_failing": 1,
-    "drift_gates_failing_unrepaired": 0
+    "drift_gates_checked": 11,
+    "drift_gates_failing": 0,
+    "drift_gates_superseded": 1
   },
   "seals": [
     {
@@ -1054,19 +1054,6 @@
   ],
   "drift_gates": [
     {
-      "module": "solver.salphaseion_split_envelope_preregister",
-      "manifest": "salphaseion_split_envelope_preregistered.json",
-      "passes": false,
-      "differing_paths": [
-        "/source/stage_passwords_file_sha256"
-      ],
-      "repair": {
-        "repaired_by": "solver.salphaseion_split_envelope_reseal",
-        "repaired_result": "salphaseion_split_envelope_results_v2.json",
-        "cause": "sealed against an uncommitted copy of seven_stage_passwords_intertwine_audit.json"
-      }
-    },
-    {
       "module": "solver.salphaseion_split_envelope_reseal",
       "manifest": "salphaseion_split_envelope_preregistered_v2.json",
       "passes": true
@@ -1120,6 +1107,17 @@
       "module": "solver.endgame_23_16_7_salphaseion_preregister",
       "manifest": "endgame_23_16_7_salphaseion_preregistered.json",
       "passes": true
+    }
+  ],
+  "superseded_drift_gates": [
+    {
+      "module": "solver.salphaseion_split_envelope_preregister",
+      "superseded_by": "solver.salphaseion_split_envelope_reseal",
+      "v1_manifest": "salphaseion_split_envelope_preregistered.json",
+      "v2_manifest": "salphaseion_split_envelope_preregistered_v2.json",
+      "v2_result": "salphaseion_split_envelope_results_v2.json",
+      "cause": "sealed against an uncommitted copy of seven_stage_passwords_intertwine_audit.json",
+      "replacement_in_drift_gated": true
     }
   ],
   "large_regenerable_manifests": {

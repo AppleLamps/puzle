@@ -20,10 +20,27 @@ def test_every_seal_binds_its_manifest_and_no_gate_is_unrepaired() -> None:
     assert summary["unresolved_digests"] == 0, [
         record for record in result["result_digests"] if record["status"] == "UNRESOLVED"
     ]
-    assert summary["drift_gates_failing_unrepaired"] == 0, [
-        record for record in result["drift_gates"] if not record["passes"] and "repair" not in record
+    assert summary["drift_gates_failing"] == 0, [
+        record for record in result["drift_gates"] if not record["passes"]
     ]
     assert result["status"] == "CLEAN"
+
+
+def test_split_envelope_v1_is_superseded_not_drift_gated() -> None:
+    """The v1 seal stays intact; v2 reseal is the auditable drift-gated path."""
+    result = run()
+    superseded = {entry["module"]: entry for entry in result["superseded_drift_gates"]}
+    assert "solver.salphaseion_split_envelope_preregister" in superseded
+    entry = superseded["solver.salphaseion_split_envelope_preregister"]
+    assert entry["replacement_in_drift_gated"]
+    gated_modules = {record["module"] for record in result["drift_gates"]}
+    assert "solver.salphaseion_split_envelope_preregister" not in gated_modules
+    assert "solver.salphaseion_split_envelope_reseal" in gated_modules
+    reseal = next(
+        record for record in result["drift_gates"]
+        if record["module"] == "solver.salphaseion_split_envelope_reseal"
+    )
+    assert reseal["passes"]
 
 
 def test_absent_manifests_are_only_the_two_gitignored_ones() -> None:

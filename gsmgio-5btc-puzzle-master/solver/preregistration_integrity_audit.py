@@ -49,7 +49,6 @@ LARGE_REGENERABLE = {
 
 # Modules whose evaluator re-derives its manifest before decrypting anything.
 DRIFT_GATED = (
-    "solver.salphaseion_split_envelope_preregister",
     "solver.salphaseion_split_envelope_reseal",
     "solver.sfield_base9_substitution_preregister",
     "solver.sfield_cipher_preregister",
@@ -63,18 +62,28 @@ DRIFT_GATED = (
     "solver.endgame_23_16_7_salphaseion_preregister",
 )
 
-# A drift that has been diagnosed and superseded by a re-sealed copy.  The
-# original stays untouched as the historical record, so its gate keeps failing
-# on purpose; what matters is that the negative is reachable somewhere.
-REPAIRED_DRIFT = {
+# Manifests superseded by a re-sealed copy.  The original seal stays intact as
+# the historical record, so it is not drift-gated; the replacement module in
+# DRIFT_GATED is the auditable path.
+SUPERSEDED_DRIFT_GATES = {
     "solver.salphaseion_split_envelope_preregister": {
-        "repaired_by": "solver.salphaseion_split_envelope_reseal",
-        "repaired_result": "salphaseion_split_envelope_results_v2.json",
+        "superseded_by": "solver.salphaseion_split_envelope_reseal",
+        "v1_manifest": "salphaseion_split_envelope_preregistered.json",
+        "v2_manifest": "salphaseion_split_envelope_preregistered_v2.json",
+        "v2_result": "salphaseion_split_envelope_results_v2.json",
         "cause": "sealed against an uncommitted copy of seven_stage_passwords_intertwine_audit.json",
     },
 }
 
 
+def _check_superseded_gates() -> list[dict[str, object]]:
+    records = []
+    for module_name, detail in SUPERSEDED_DRIFT_GATES.items():
+        record: dict[str, object] = {"module": module_name, **detail}
+        replacement = detail["superseded_by"]
+        record["replacement_in_drift_gated"] = replacement in DRIFT_GATED
+        records.append(record)
+    return records
 def _sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
@@ -174,8 +183,6 @@ def _check_drift_gates() -> list[dict[str, object]]:
         except Exception as error:  # pragma: no cover - reported, never raised
             record["passes"] = False
             record["error"] = f"{type(error).__name__}: {error}"
-        if not record["passes"] and module_name in REPAIRED_DRIFT:
-            record["repair"] = REPAIRED_DRIFT[module_name]
         records.append(record)
     return records
 
@@ -218,18 +225,18 @@ def run(*, regenerate_large: bool = False) -> dict[str, object]:
     seals = _check_seals()
     digests = _check_result_digests(_digest_index())
     drift = _check_drift_gates()
+    superseded = _check_superseded_gates()
 
     seal_mismatches = [record for record in seals if record["status"] == "SEAL_MISMATCH"]
     absent = [record for record in seals if record["status"] == "MANIFEST_ABSENT"]
     unresolved = [record for record in digests if record["status"] == "UNRESOLVED"]
     regenerable = [record for record in digests if record["status"] == "UNRESOLVED_BUT_REGENERABLE"]
     failed_gates = [record for record in drift if not record["passes"]]
-    unrepaired_gates = [record for record in failed_gates if "repair" not in record]
 
     result = {
         "schema": "preregistration-integrity-audit-v1",
         "status": "CLEAN"
-        if not (seal_mismatches or unresolved or unrepaired_gates)
+        if not (seal_mismatches or unresolved or failed_gates)
         else "DEFECTS_PRESENT",
         "summary": {
             "seals_checked": len(seals),
@@ -240,11 +247,12 @@ def run(*, regenerate_large: bool = False) -> dict[str, object]:
             "unresolved_but_regenerable": len(regenerable),
             "drift_gates_checked": len(drift),
             "drift_gates_failing": len(failed_gates),
-            "drift_gates_failing_unrepaired": len(unrepaired_gates),
+            "drift_gates_superseded": len(superseded),
         },
         "seals": seals,
         "result_digests": digests,
         "drift_gates": drift,
+        "superseded_drift_gates": superseded,
         "large_regenerable_manifests": regenerate_large_manifests() if regenerate_large else {
             "checked": False,
             "note": "Pass regenerate_large=True; rebuilding both costs roughly 30 s and 1.3 GB.",

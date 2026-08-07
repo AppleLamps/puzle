@@ -1,0 +1,18 @@
+{
+  "controls": {
+    "baseline_url_matches": true,
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 144,
+    "legible_outputs": 0,
+    "padding_hits": 2,
+    "prize_matches": 0,
+    "scalar_gates": 24
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "second-door-eye-spiral-v62",
+  "scope_note": "Closes only these six eye-index bit edits and two serializations against chain1/env48. Does not reopen Cosmic/Chain4 or widen to free spiral read orders.",
+  "status": "COMPLETE_NO_MATCH"
+}

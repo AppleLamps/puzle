@@ -693,3 +693,15 @@ each half is keyed by its natural page operands under the authenticated sha256-h
 password format. The two fixed seven-operand compositions also miss. Split-envelope
 correct passwords and yin-yang step 4 remain open under rules that forbid phrase
 braids and padding-only acceptance.
+
+## 25. Chain-1 structural operands, NOTES hint, and eye-spiral second door (v60–v62, 2026-08-07)
+
+Three sealed falsifiers extending the approved legibility-gated search.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v60: full v58 structural operand catalogue (24 operands: S91/S570 fields, resistor lists, prime serializations, Architect windows, rot180 streams, `D` blocks) as AES passwords against **chain1** and **chain2** under legibility. **288 AES + 48 scalar gates; 1 padding hit (0.35%, at chance), 0 legible, 0 prize** | `chain1_structural_operand_legibility_preregistered.json`, `chain1_structural_operand_legibility_audit.json`, `solver/chain1_structural_operand_legibility_{preregister,audit}.py`; does not concat phrase text or reopen Cosmic/Chain4 |
+| **NEGATIVE (bounded)** | v61: eleven creator-sourced phrases from the 2026-07-12/07-16 NOTE/NOTES/self-giveaway thread (distinct from v52's 55-string recognition set) against env48/raw48/chain1 under legibility. **264 AES + 22 scalar gates; 0 padding, 0 legible, 0 prize** | `notes_hint_legibility_preregistered.json`, `notes_hint_legibility_audit.json`, `solver/notes_hint_legibility_{preregister,audit}.py` |
+| **NEGATIVE (bounded)** | v62: six deterministic edits to the 196-bit spiral at off-white eye index 163 (flip, swap with rot180 partner 173, force 0/1, XOR) × two serializations, gated against chain1/env48. **144 AES + 24 scalar gates; 0 padding, 0 legible, 0 prize** | `second_door_eye_spiral_preregistered.json`, `second_door_eye_spiral_audit.json`, `solver/second_door_eye_spiral_{preregister,audit}.py`; baseline URL control passes |
+
+**Assessment.** The 96-byte chain-1 envelope still has no legible break under structural-operand passwords. The July-16 NOTES callback does not open env48/raw48/chain1 as raw phrases. Eye-index spiral bit edits do not reach a prize gate or legible AES plaintext.

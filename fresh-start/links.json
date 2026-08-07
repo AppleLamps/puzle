@@ -13,7 +13,7 @@
       "label": "follow_the_white_rabbit.png",
       "original_url": "https://gsmg.io/img/follow_the_white_rabbit.png",
       "wayback_url": "https://web.archive.org/web/20201115074715im_/https://gsmg.io/img/follow_the_white_rabbit.png",
-      "local_archive": null
+      "local_image": "images/poster/follow_the_white_rabbit.png"
     },
     {
       "id": "theseedisplanted",
@@ -54,35 +54,43 @@
   "rebus_tile_images": [
     {
       "original_url": "https://gsmg.io/img/black_banking%20-%20war.png",
-      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/black_banking%20-%20war.png"
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/black_banking%20-%20war.png",
+      "local_image": "images/rebus/black_banking - war.png"
     },
     {
       "original_url": "https://gsmg.io/img/blue_ca.png",
-      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_ca.png"
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_ca.png",
+      "local_image": "images/rebus/blue_ca.png"
     },
     {
       "original_url": "https://gsmg.io/img/blue_dig_i.png",
-      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_dig_i.png"
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_dig_i.png",
+      "local_image": "images/rebus/blue_dig_i.png"
     },
     {
       "original_url": "https://gsmg.io/img/blue_lock_lo.png",
-      "wayback_url": "https://web.archive.org/web/20201115075204im_/https://gsmg.io/img/blue_lock_lo.png"
+      "wayback_url": "https://web.archive.org/web/20201115075204im_/https://gsmg.io/img/blue_lock_lo.png",
+      "local_image": "images/rebus/blue_lock_lo.png"
     },
     {
       "original_url": "https://gsmg.io/img/red_crypto_gic.png",
-      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_crypto_gic.png"
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_crypto_gic.png",
+      "local_image": "images/rebus/red_crypto_gic.png"
     },
     {
       "original_url": "https://gsmg.io/img/red_n_you.png",
-      "wayback_url": "https://web.archive.org/web/20201202082956im_/https://gsmg.io/img/red_n_you.png"
+      "wayback_url": "https://web.archive.org/web/20201202082956im_/https://gsmg.io/img/red_n_you.png",
+      "local_image": "images/rebus/red_n_you.png"
     },
     {
       "original_url": "https://gsmg.io/img/red_open_lock_n_ing.png",
-      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_open_lock_n_ing.png"
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_open_lock_n_ing.png",
+      "local_image": "images/rebus/red_open_lock_n_ing.png"
     },
     {
       "original_url": "https://gsmg.io/img/red_t.png",
-      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_t.png"
+      "wayback_url": "https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_t.png",
+      "local_image": "images/rebus/red_t.png"
     }
   ],
   "cdx_snapshot": "../gsmgio-5btc-puzzle-master/artifacts/wayback_cache/cdx_1e45059a34e3965aecffb2f2dc8035198587d0e74faebda836bea54a8ca7a09c.json",

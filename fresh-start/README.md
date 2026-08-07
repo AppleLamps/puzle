@@ -63,6 +63,7 @@ and classically solvable; verify current address balances on chain yourself.
 | `CREATOR_WEBSITE_LINKS.md` | **Offline gsmg.io URLs + Wayback captures** (review manually) |
 | `links.json` | Same links in machine-readable form |
 | `archives/` | Local HTML copies of creator pages |
+| `images/` | **Poster + rebus PNGs** (from Wayback, verified SHA-256) |
 | `REPRODUCTION.md` | Commands to re-derive authenticated outputs |
 | `artifacts/` | Extracted plaintexts and field data (no audit JSON) |
 

@@ -7,6 +7,9 @@ creator-published pages in a browser and review them manually.
 Local HTML copies of pages saved in this repository appear under
 `archives/` — see `archives/README.md` for the mapping.
 
+**Puzzle PNGs** (poster + eight rebus tiles) are committed under `images/` —
+see `images/README.md` for SHA-256 fingerprints.
+
 ## How to use this file
 
 1. Open the **recommended Wayback capture** for each stage in a browser.
@@ -28,7 +31,7 @@ Review each capture yourself.
 | Role | Original URL (offline) | Recommended Wayback capture |
 | --- | --- | --- |
 | First puzzle page (poster) | `https://gsmg.io/puzzle` | [2020-11-09](https://web.archive.org/web/20201109085204/https://gsmg.io/Puzzle) · [2020-11-12 PNG redirect](https://web.archive.org/web/20201112011308im_/https://gsmg.io/puzzle) |
-| Poster image | `https://gsmg.io/img/follow_the_white_rabbit.png` | [2020-11-15](https://web.archive.org/web/20201115074715im_/https://gsmg.io/img/follow_the_white_rabbit.png) |
+| Poster image | `https://gsmg.io/img/follow_the_white_rabbit.png` | [2020-11-15](https://web.archive.org/web/20201115074715im_/https://gsmg.io/img/follow_the_white_rabbit.png) · local: `images/poster/follow_the_white_rabbit.png` |
 | Puzzle starts here (landing) | `https://gsmg.io/thepuzzlestartshere` | [2026-04-18 capture](https://web.archive.org/web/20260418154559/https://gsmg.io/thepuzzlestartshere) |
 
 Decoded destination from poster (not a separate page slug in early captures):
@@ -41,20 +44,20 @@ Decoded destination from poster (not a separate page slug in early captures):
 | Rebus form page | `https://gsmg.io/theseedisplanted` | [2020-11-12](https://web.archive.org/web/20201112021936/https://gsmg.io/theseedisplanted) · [2022-12-24](https://web.archive.org/web/20221224100253/https://gsmg.io/theseedisplanted) |
 | POST target (404 when wrong password) | `https://gsmg.io/phase1verification` | [2023-09-08](https://web.archive.org/web/20230908000102/https://gsmg.io/phase1verification) — local copy: `archives/phase1verification.html` |
 
-**Rebus tile images** (under `theseedisplanted`, captured 2020-11-15 era):
+**Rebus tile images** — local copies in `images/rebus/`; Wayback originals:
 
-| Tile asset | Wayback (PNG) |
+| Local file | Wayback (PNG) |
 | --- | --- |
-| `img/black_banking - war.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/black_banking%20-%20war.png) |
-| `img/blue_ca.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_ca.png) |
-| `img/blue_dig_i.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_dig_i.png) |
-| `img/blue_lock_lo.png` | [capture](https://web.archive.org/web/20201115075204im_/https://gsmg.io/img/blue_lock_lo.png) |
-| `img/red_crypto_gic.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_crypto_gic.png) |
-| `img/red_n_you.png` | [capture](https://web.archive.org/web/20201202082956im_/https://gsmg.io/img/red_n_you.png) |
-| `img/red_open_lock_n_ing.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_open_lock_n_ing.png) |
-| `img/red_t.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_t.png) |
+| `images/rebus/black_banking - war.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/black_banking%20-%20war.png) |
+| `images/rebus/blue_ca.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_ca.png) |
+| `images/rebus/blue_dig_i.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/blue_dig_i.png) |
+| `images/rebus/blue_lock_lo.png` | [capture](https://web.archive.org/web/20201115075204im_/https://gsmg.io/img/blue_lock_lo.png) |
+| `images/rebus/red_crypto_gic.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_crypto_gic.png) |
+| `images/rebus/red_n_you.png` | [capture](https://web.archive.org/web/20201202082956im_/https://gsmg.io/img/red_n_you.png) |
+| `images/rebus/red_open_lock_n_ing.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_open_lock_n_ing.png) |
+| `images/rebus/red_t.png` | [capture](https://web.archive.org/web/20201115075203im_/https://gsmg.io/img/red_t.png) |
 
-Local copy of rebus page: `archives/theseedisplanted.html`
+Local copy of rebus page: `archives/theseedisplanted.html` (img tags point at `../images/rebus/`)
 
 ### Stage 2 — Merovingian / AES riddles
 

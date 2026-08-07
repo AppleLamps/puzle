@@ -22,8 +22,10 @@ Parent-tree copies (also mirrored under `fresh-start/archives/`):
 | `../sources/GSMG Puzzle4 - phase3 salphaseion.html` | SalPhaseIon slug |
 | `../sources/TheArchitectChoice.html` | `gsmg.io/TheArchitectChoice` |
 
-Poster page (`gsmg.io/puzzle`) and `follow_the_white_rabbit.png` are **not**
-saved locally — fetch from Wayback (links in `CREATOR_WEBSITE_LINKS.md`).
+Poster page (`gsmg.io/puzzle`) HTML is Wayback-only. Poster PNG and rebus tiles
+are committed under `fresh-start/images/` (see `images/README.md`). A copy of
+the poster also lives at `../sources/follow_the_white_rabbit.png` for
+`scripts/solve.py`.
 
 ## Solver package inputs
 

@@ -1,0 +1,139 @@
+{
+  "acceptance": {
+    "aes": "legibility or gated scalar inside plaintext; never padding alone",
+    "aes_positive_control": {
+      "digest": "sha256",
+      "envelope": "artifacts/bin/phase32_envelope.bin",
+      "must_open_prefix": "I've been waiting for you.",
+      "password": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c"
+    },
+    "better_half": {
+      "hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6"
+    },
+    "half": {
+      "exact_public_key": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559",
+      "hash160": "a9553269572a317e39f0f518cb87c1a0ee1dbae4"
+    },
+    "planted_control_scalar": "00000000000000000000000000000000000000000000000000000000000c0de5",
+    "scalar": "solver.targets.gate_scalar_bytes",
+    "vic_positive_control": {
+      "alphabet": "FUBCDORA.LETHINGKYMVPS.JQZXW",
+      "must_contain": "THEPRIVATEKEYSBELONGTOHALFANDBETTERHALF",
+      "row_digits": [
+        "1",
+        "4"
+      ]
+    }
+  },
+  "distinct_from": {
+    "ciao_bella_479_audit.json": "open classical menu (Chaocipher/Bellaso/Porta/Vigenere) over the quote",
+    "endgame_23_16_7_salphaseion_audit.json": "password composition over SalPhaseIon prime-select; no VIC/Beaufort catalogue freeze",
+    "phase32_classical.json": "positive control reproduction only",
+    "unity_of_opposites_audit.json": "VIC over S91/S570 with book-phrase alphabet seed, not Fresco 23/16/7 keys"
+  },
+  "expansion": {
+    "beaufort_keys": [
+      "thematrixhasyou",
+      "fresco_selected7_lower",
+      "fresco_selected16_lower",
+      "fresco_intertwine_7_lower",
+      "fresco_quote_letters_lower",
+      "chess_hint_letters_lower"
+    ],
+    "ciphertexts": [
+      "S91_letters",
+      "S570_letters",
+      "transliteration",
+      "raw_pre_beaufort_mod26"
+    ],
+    "envelopes": [
+      "chain1",
+      "cosmic"
+    ],
+    "expected_aes_trials": 528,
+    "expected_beaufort_outputs": 24,
+    "expected_catalogue_outputs": 44,
+    "expected_scalar_gates": 440,
+    "expected_vic_outputs": 16,
+    "kdf_digests": [
+      "md5",
+      "sha256"
+    ],
+    "password_forms": [
+      "literal",
+      "sha256_hex_ascii",
+      "sha256_raw32"
+    ],
+    "raw_aes_key_branch": {
+      "enabled": true,
+      "expected_trials": 88,
+      "iv_rule": "sha256(salt)[:16]"
+    },
+    "residual_clues": [
+      5,
+      7,
+      16,
+      23,
+      140,
+      479,
+      484,
+      1141
+    ],
+    "vic_alphabets": [
+      "dot",
+      "slash"
+    ],
+    "vic_digit_maps": [
+      "a1_i9",
+      "a0_i8"
+    ],
+    "vic_fields": [
+      "S91",
+      "S570"
+    ],
+    "vic_row_digits": [
+      [
+        "1",
+        "4"
+      ],
+      [
+        "4",
+        "1"
+      ]
+    ]
+  },
+  "frozen_catalogue": {
+    "beaufort_authenticated_key": "thematrixhasyou",
+    "chess_hint": "Raising the stakes without extra chances of winning. A fubcd-king & oracle-queen, thingky mvps, on a sad board but as wide as the first one seen.",
+    "no_free_classical_menu": true,
+    "vic_alphabet_dot": "FUBCDORA.LETHINGKYMVPS.JQZXW",
+    "vic_alphabet_slash": "FUBCDORA.LETHINGKYMVPS/JQZXW"
+  },
+  "frozen_inputs": {
+    "beaufort_key_materials_sha256": {
+      "chess_hint_letters_lower": "7bd4b3bb6780486fef9fbd7d793f9902fbe60d4aa9684cf9fe2f9b1a4ed9dcc9",
+      "fresco_intertwine_7_lower": "8877a56fdf9b480e51e3cdc099bbf06f78ee16168993d367c2d2efd6126bbfe1",
+      "fresco_quote_letters_lower": "0e8a3c0c3a0a8556b4bf23595c65b723c511a66e502221e21b02aaf323e8a9a5",
+      "fresco_selected16_lower": "14e856ae35e1d34e03555841a9280dd53f65e6eb9124df94993a48397e08bac5",
+      "fresco_selected7_lower": "346e04796bbc0c94649a57e36e9695fa7583026b99b6e431da2f83ff268a5b49",
+      "thematrixhasyou": "8493b8fb74d238c07412455bf1b7716e621e34fb1c1f81480bacdc3137e42186"
+    },
+    "carried_phase32_password_utf8": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c",
+    "chain1_salt_hex": "3ab585348552415d",
+    "cosmic_salt_hex": "2d3f6fe06dc950e6",
+    "fresco_quote_sha256": "d611fe168fad739be96029a635d489f39f2e9bfd122712b1349809cef6c7c087",
+    "mask_bits": "10111100111110110110011",
+    "raw_pre_beaufort_sha256": "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b",
+    "transliteration_sha256": "6d66e0e0e2dfdb812d5ecee2be6f54c1f3b8c84b0d74580686cf2053d76a200e"
+  },
+  "hypothesis": "The 23/16/7 menu selects among creator-named phase-3.2 ciphers (Beaufort, VIC checkerboard, chess-hint alphabet), with the Fresco 23/16/7 partition supplying key material \u2014 not an open classical cipher catalogue.",
+  "out_of_scope": [
+    "Chaocipher, Bellaso, Porta, Vigenere, or any unnamed classical cipher",
+    "Cosmic base-38 / Chain 4",
+    "open 2^20 residual XOR",
+    "HTML or Bitcoin Core source readings"
+  ],
+  "schema": "cipher-catalogue-23-16-7-v57",
+  "scope_note": "Closes only Beaufort/VIC/chess-hint catalogue operations keyed by the Fresco 23/16/7 partition (plus THEMATRIXHASYOU) over SalPhaseIon letter/digit fields and the authenticated transliteration/raw record, against chain1/cosmic. Does not open a free cipher menu.",
+  "status": "SEALED_BEFORE_AES_OR_SCALAR_EVALUATION"
+}

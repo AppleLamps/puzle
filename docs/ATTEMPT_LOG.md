@@ -661,3 +661,17 @@ SalPhaseIon split halves env48 and raw48.
 | Status | Attempt | Evidence and exact scope |
 | --- | --- | --- |
 | **NEGATIVE (bounded)** | Four 14-entry poster resistor sum lists (rows/columns, eye-zeroed and eye-nine) encoded as raw bytes, mod-10 digits/bytes, mod-9 digits/bytes, mod-26 A-Z/a-z with 0-based and 1-based conventions, and two-digit decimal; each password tried in the four standard forms (literal, SHA-256 raw digest, SHA-256 lowercase-hex ASCII, SHA-256 hex decoded) and both EVP_BytesToKey digests (md5, sha256). For env48 the salt in its header is used; for raw48 both the EVP-derived IV and the env48-ciphertext-tail continuation IV are tested. 960 AES attempts against the split halves. 1 valid PKCS#7 padding hit at chance (mod10-digits/SHA-256-hex-ascii/sha256 on env48, plaintext length 31, entropy 4.89, printable 0.32, not readable and no format/prize gate). 0 legible outputs, 0 prize matches. | `poster_resistor_split_envelope_preregistered.json` (seal `ff37c813…0280ffd8`), `poster_resistor_split_envelope_results.json`, `solver/poster_resistor_split_envelope_audit.py`; `python -m solver.preregistration_integrity_audit` reports CLEAN with the new seal binding |
+
+## 23. Freeze creator-named 23/16/7 cipher catalogue (v57, 2026-08-07)
+
+Answers the underdetermined step left after password-composition endgames: which
+object the 23/16/7 menu selects as the *cipher catalogue*. Freezes only
+creator-named phase-3.2 ciphers — Beaufort, VIC straddling checkerboard
+(`.` and `/` alphabets), and the chess-hint alphabet sentence — keyed by the
+Fresco 23/16/7 partition plus `THEMATRIXHASYOU`. No free classical-cipher menu.
+Outputs gated as scalars and as AES passwords against chain1/cosmic under
+legibility (never padding alone).
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | 44 catalogue outputs → 528 AES + 88 raw-key + 440 scalar gates; phase-3.2 AES and VIC positive controls pass; planted scalar control accepted / production rejects; **2 padding hits (0.32%, at chance), 0 legible opens, 0 prize matches** | `cipher_catalogue_23_16_7_preregistered.json` (seal `80c47063…16e5409`), `cipher_catalogue_23_16_7_audit.json` (status `COMPLETE_NO_MATCH`, stream `7a5ac23d…80dfb14`), `solver/cipher_catalogue_23_16_7_preregister.py`, `solver/cipher_catalogue_23_16_7_audit.py`; scope note forbids widening into unnamed classical ciphers. Remaining underdetermined step: whether 23/16/7 names a different operand entirely (not which cipher from an open menu) |

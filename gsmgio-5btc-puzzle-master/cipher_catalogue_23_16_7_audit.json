@@ -1,0 +1,25 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "schema": "cipher-catalogue-23-16-7-v57",
+  "manifest_sha256": "80c47063c3c687974d1c5e154af901b132a0d8a44eab76d74d9c816af16e5409",
+  "control": {
+    "phase32_positive_control_opens": true,
+    "vic_positive_control": true,
+    "planted_target_accepted": true,
+    "production_targets_reject_control": true,
+    "beaufort_self_check": true
+  },
+  "catalogue_outputs": 44,
+  "vic_decode_failures": 0,
+  "aes_trials": 528,
+  "raw_aes_key_trials": 88,
+  "padding_hits": 2,
+  "padding_hit_rate": 0.003247,
+  "legible_hits": [],
+  "prize_hits": [],
+  "scalar_gates": 440,
+  "scalar_valid": 440,
+  "unique_preimage_stream_sha256": "7a5ac23ddabaa2604d50defb5954b71941734f3b6105c696b9745c73580dfb14",
+  "scope_note": "Closes only Beaufort/VIC/chess-hint catalogue operations keyed by the Fresco 23/16/7 partition (plus THEMATRIXHASYOU) over SalPhaseIon letter/digit fields and the authenticated transliteration/raw record, against chain1/cosmic. Does not open a free cipher menu.",
+  "narrowest_underdetermined_step_if_null": "With the creator-named Beaufort/VIC/chess catalogue frozen and keyed by Fresco 23/16/7 still null against chain1/cosmic, the remaining free choice is no longer 'which classical cipher' but whether 23/16/7 names a different operand entirely (e.g. the close-friends giveaway text, or an unpublished catalogue). Next bounded step should not widen the cipher menu."
+}

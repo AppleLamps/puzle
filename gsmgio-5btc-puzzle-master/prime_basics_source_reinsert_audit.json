@@ -1,0 +1,38 @@
+{
+  "status": "COMPLETE_NO_MATCH",
+  "schema": "prime-basics-source-reinsert-v55",
+  "manifest_sha256": "15479b5b7277a45ca0ec7c02d13428f3b12982827fc76fd3dfe1dba94473dd0a",
+  "control": {
+    "planted_target_accepted": true,
+    "production_targets_reject_control": true,
+    "control_scalar": "00000000000000000000000000000000000000000000000000000000000c0de5"
+  },
+  "inputs": {
+    "raw": {
+      "length": 1539,
+      "sha256": "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b"
+    },
+    "transliteration": {
+      "length": 1539,
+      "sha256": "6d66e0e0e2dfdb812d5ecee2be6f54c1f3b8c84b0d74580686cf2053d76a200e"
+    },
+    "plaintext": {
+      "length": 1539,
+      "sha256": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241"
+    }
+  },
+  "candidate_records": 6912,
+  "valid_scalar_records": 6912,
+  "unique_valid_scalars": 2562,
+  "candidate_stream_sha256": "dc329ff74695f63f460d63198c5c8874e4b66d9d3aeb9ae51b5fc8624a6c6ef5",
+  "matches": [],
+  "family_counts": {
+    "layers": 3,
+    "disseminations": 4,
+    "payload_lists": 8,
+    "serializations": 3,
+    "insert_modes": 6,
+    "extractors": 4
+  },
+  "scope_note": "Closes only this ordered reading: disseminate carried code over an Architect source layer, then splice/XOR/append the sealed yellowblueprimes list serializations at the named anchors. Does not address Bitcoin Core source, HTML page source, or free cipher selection after reinsertion."
+}

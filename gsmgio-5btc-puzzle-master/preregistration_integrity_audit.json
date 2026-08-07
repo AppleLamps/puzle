@@ -2,26 +2,26 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 61,
+    "seals_checked": 62,
     "seal_mismatches": 0,
     "manifests_absent": 2,
-    "result_digests_checked": 54,
+    "result_digests_checked": 55,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
-    "drift_gates_checked": 9,
+    "drift_gates_checked": 10,
     "drift_gates_failing": 1,
     "drift_gates_failing_unrepaired": 0
   },
   "seals": [
     {
-      "seal": "artifacts\\door_probe\\live_probe_preregistered.sha256",
+      "seal": "artifacts/door_probe/live_probe_preregistered.sha256",
       "manifest_present": true,
       "sealed_digest": "b2936e7fff2d27b03ea9eebdbb3458881018e890cf6c2ad779c57e57ecc277ef",
       "actual_digest": "b2936e7fff2d27b03ea9eebdbb3458881018e890cf6c2ad779c57e57ecc277ef",
       "status": "OK"
     },
     {
-      "seal": "artifacts\\s91_direct_readability\\preregistered.sha256",
+      "seal": "artifacts/s91_direct_readability/preregistered.sha256",
       "manifest_present": true,
       "sealed_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
       "actual_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
@@ -60,6 +60,13 @@
       "manifest_present": true,
       "sealed_digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
       "actual_digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
+      "status": "OK"
+    },
+    {
+      "seal": "prime_basics_source_reinsert_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "15479b5b7277a45ca0ec7c02d13428f3b12982827fc76fd3dfe1dba94473dd0a",
+      "actual_digest": "15479b5b7277a45ca0ec7c02d13428f3b12982827fc76fd3dfe1dba94473dd0a",
       "status": "OK"
     },
     {
@@ -500,6 +507,15 @@
       "digest": "ff37c813115bfcd23f9c8f9b8431e0ea0ca9104e7217c162663fc6480280ffd8",
       "resolves_to": [
         "poster_resistor_split_envelope_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "result": "prime_basics_source_reinsert_audit.json",
+      "key": "manifest_sha256",
+      "digest": "15479b5b7277a45ca0ec7c02d13428f3b12982827fc76fd3dfe1dba94473dd0a",
+      "resolves_to": [
+        "prime_basics_source_reinsert_preregistered.json"
       ],
       "status": "RESOLVED"
     },
@@ -979,6 +995,11 @@
     {
       "module": "solver.matrixsumlist_instruction_preregister",
       "manifest": "matrixsumlist_instruction_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.prime_basics_source_reinsert_preregister",
+      "manifest": "prime_basics_source_reinsert_preregistered.json",
       "passes": true
     }
   ],

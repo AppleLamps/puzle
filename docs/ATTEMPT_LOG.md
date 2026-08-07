@@ -661,3 +661,19 @@ SalPhaseIon split halves env48 and raw48.
 | Status | Attempt | Evidence and exact scope |
 | --- | --- | --- |
 | **NEGATIVE (bounded)** | Four 14-entry poster resistor sum lists (rows/columns, eye-zeroed and eye-nine) encoded as raw bytes, mod-10 digits/bytes, mod-9 digits/bytes, mod-26 A-Z/a-z with 0-based and 1-based conventions, and two-digit decimal; each password tried in the four standard forms (literal, SHA-256 raw digest, SHA-256 lowercase-hex ASCII, SHA-256 hex decoded) and both EVP_BytesToKey digests (md5, sha256). For env48 the salt in its header is used; for raw48 both the EVP-derived IV and the env48-ciphertext-tail continuation IV are tested. 960 AES attempts against the split halves. 1 valid PKCS#7 padding hit at chance (mod10-digits/SHA-256-hex-ascii/sha256 on env48, plaintext length 31, entropy 4.89, printable 0.32, not readable and no format/prize gate). 0 legible outputs, 0 prize matches. | `poster_resistor_split_envelope_preregistered.json` (seal `ff37c813…0280ffd8`), `poster_resistor_split_envelope_results.json`, `solver/poster_resistor_split_envelope_audit.py`; `python -m solver.preregistration_integrity_audit` reports CLEAN with the new seal binding |
+
+## 23. Reinsert yellowblueprimes lists into Architect source codes (v55, 2026-08-07)
+
+Literal ordered reading of the Architect instruction against the prime basics
+already in hand from `yellowblueprimes`: (1) return to the authenticated
+1,539-byte Architect source layers (raw / transliteration / A–Z plaintext);
+(2) temporarily disseminate the carried code (`THEMATRIXHASYOU` ascii or
+digest, or the phase-3.2 OpenSSL passphrase); (3) reinsert the sealed
+yellow/blue prime lists at the named anchors `PRIVATEKEY`@479,
+`SOURCECODES`@1021, `PRIMEBASICS`@1103 (overwrite / XOR / append). Distinct
+from primes-as-indices (`architect_source_prime_reinsertion`), lists-alone
+hashing (`yinyang_prime_dual`), and S91 colour insertion (`prime_reinsertion`).
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | 3 layers × 4 disseminations × 8 dual lists × 3 serializations × 6 insert modes × 4 extractors = **6,912** scalars (2,562 unique valid); planted control accepted and real targets rejected on the same path; **0 prize matches** | `prime_basics_source_reinsert_preregistered.json` (seal `15479b5b…473dd0a`), `prime_basics_source_reinsert_audit.json` (status `COMPLETE_NO_MATCH`, stream `dc329ff7…4a6c6ef5`), `solver/prime_basics_source_reinsert_preregister.py`, `solver/prime_basics_source_reinsert_audit.py`; scope note in the JSON excludes Bitcoin Core / HTML source and post-reinsertion 23/16/7 cipher selection |

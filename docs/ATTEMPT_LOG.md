@@ -868,3 +868,49 @@ the continuation text names on the **140-character post-479 suffix** itself.
 | **NEGATIVE (bounded)** | v78: seventeen suffix operations — ``HUNDREDFOURTY`` 140-char slice, TAKETHISTOHEART/WISEMAN spans, matrixsumlist row/cumulative index into suffix, raw/transliteration source xor, dual-PRIVATEKEY xor (479 vs 1238), Fresco Beaufort/mod26, dissemination concat, return-to-sourcecodes Beaufort, seven-token xor fold, VIC-digit overlay, yellow9 reinsert, takeheart center-32. **408 AES + 34 scalar gates; 3 padding hits (0.74%, 0 legible), 0 prize** | `architect_post479_suffix_ops_preregistered.json`, `architect_post479_suffix_ops_audit.json`, `solver/architect_post479_suffix_ops_{preregister,audit}.py`; distinct from v76 anchor windows and `architect_479_semantic_pipeline` Fresco/F73D92 route |
 
 **Assessment.** The operation after ``PRIVATEKEY…`` is not any of these seventeen suffix-local transforms. Combined with v76 (nineteen anchor-window ops), v71 (index selection), v63 (windows-as-passwords), bounded search (725), continuation audit (10k), and semantic pipeline (Fresco/F73D92/23-16-7), open-frontier item 1 is narrowed but not closed: the pointer is authentic tier 1, the operation is not any frozen literal reading tested so far.
+
+## 36. The three post-3.2 "opens" are chance padding (v79, 2026-08-07)
+
+Every prior section treats chain1, chain2 and cosmic as **opened but
+uninterpreted**, and spends its effort on what the resulting bytes mean. This
+manifest tests the opens themselves instead of adding another password family,
+because all three share a signature that a genuine decryption has no reason to
+have: each strips **exactly one** PKCS#7 byte. One byte is the only padding
+length a wrong key produces with appreciable probability. The one envelope whose
+password is creator-derived and whose plaintext reads as English — phase 3.2 —
+strips **ten**.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NULL SURVIVES — the three recorded opens carry no evidential weight** | v79: 2,000,000 seeded random passwords (32 lowercase hex characters, the authenticated password shape) against chain1 under strict PKCS#7, then the natural serialisation menu of each chance plaintext against chain2. Five analytic predictions sealed before the run, all inside band. **Chance unpad rate 0.3922%** (analytic 0.3906%); **99.58% of chance unpads are exactly 79 bytes**, so the 32+32+15 "triplet grammar" is the length chance produces, not a designed layout; the canonical cascade rule (uncompressed WIF of bytes 0..32) opens chain2 for **0.384%** of chance unpads (analytic 0.391%); **the full 24-attempt menu opens chain2 for 8.59%** of them (analytic 9.375%). Authenticated control: phase 3.2 strips 10 and is legible | `chance_padding_null_calibration_preregistered.json` (seal `cd33dafd…ebfd9fa5`), `chance_padding_null_calibration_audit.json`, `solver/chance_padding_null_calibration_{preregister,audit}.py`, `tests/test_chance_padding_null_calibration.py`; controls: designed-payload round trip, phase 3.2 legibility |
+| **SUPERSEDES** | `SOLUTION.md`'s "two independent routes meeting on the same bytes is not padding luck". The two independent routes agree on the **ciphertext** — both parties extracted the same blob from the same creator source — which says nothing about the unlock. The unlock is a single route, and its false-positive rate is now measured | this section; `../SOLUTION.md` marked superseded in place |
+
+**Assessment.** The chain1 → chain2 → (cosmic) layer should be treated as **not
+opened**. The envelopes are genuine creator-published ciphertexts; what is
+withdrawn is the claim that anyone has decrypted them. Three consequences
+follow, and they redirect rather than close work:
+
+1. **The 79-byte 32+32+15 record is not a creator format.** It was invented to
+   explain a length that chance padding fixes at `len(ciphertext) - 1`. The
+   15-byte "extension" is the residue of that arithmetic, not a field.
+2. **Everything derived from those bytes is noise-mining**, which is the
+   simplest explanation for why it all fails: chain1 as raw key material (v73,
+   318 gates; v74, 4,752 gates), the chain1 WIF, the chain2 record, and the
+   Cosmic 1,327 bytes with the base-38 branch and Chain 4 below it. None of
+   these should be used as an operand again without a real open first.
+3. **Legibility is the wrong gate for chain1 and chain2, and it is the only one
+   available.** A genuine 32+32 key record would be high-entropy by design, so
+   "not legible" cannot reject a candidate password there. The usable oracles
+   are the prize gates and, newly, the padding length: a real password is
+   overwhelmingly likely to strip something other than one byte.
+
+**Also checked, negative.** The eight scalars of the chain1/chain2/cosmic
+triplet fields were converted to P2PKH addresses under both serializations and
+queried against blockstream. Fourteen of sixteen have no history. The two
+exceptions — `1Kv59xvBVGJcB3SeuLWCc1fr75dn5DZD3q` and
+`1KY3yqm9CGBbV4B1etZGKdMxrtz2CjDvJ`, both compressed forms of the `cosmic_h`
+fields — were each funded with 3,000 sats on 2026-04-08 00:29 and swept 22
+minutes later. That is the published-key dust pattern already recorded for the
+base-38 pair in `solver/targets.py` `NON_TARGETS`, on an adjacent date, and it
+is **not** creator confirmation. Recorded here so the next agent does not
+rediscover it and read it as a signal.

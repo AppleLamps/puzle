@@ -43,6 +43,16 @@ high-entropy and consistent with chance padding (v49: 12,132 clean unpaddings,
 zero legible). Cosmic / Chain 4 / base-38 are solver conventions the creator
 never named.
 
+**Stronger as of 2026-08-07 (v79):** the three unlocks are not merely
+*consistent with* chance padding, they are measured as it. All three strip
+exactly one PKCS#7 byte where the authenticated phase 3.2 open strips ten;
+99.58% of chance unpaddings of chain 1 are exactly the 79 bytes that the
+32+32+15 grammar was built to explain; and the chain1 → chain2 WIF cascade
+arises for 8.59% of chance unpaddings under the natural serialisation menu.
+Treat all three envelopes as **unopened creator ciphertexts** and do not use
+their plaintexts, the derived WIF, or anything below Cosmic as an operand.
+`ATTEMPT_LOG.md` §36.
+
 ## Strongest fitted (not authenticated) result
 
 The **479 balance**: 24 poster colours on the first 24 primes give Blue 484 /

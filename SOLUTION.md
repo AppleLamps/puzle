@@ -646,6 +646,15 @@ quoting it. Every step below I reproduced from the ciphertext.
 `sha256` of the three gives `250f3772…d61ce4c`, which decrypts phase 3.2 to 2422
 bytes beginning "I've been waiting for you."
 
+**SUPERSEDED 2026-08-07 by v79** — see [`docs/ATTEMPT_LOG.md`](docs/ATTEMPT_LOG.md)
+§36. The paragraph below is kept because the arithmetic in it is correct and the
+error is instructive: it conflates two independent parties extracting the same
+*ciphertext* with two independent routes confirming an *unlock*. The unlock is a
+single route. Measured against 2,000,000 random passwords, 99.58% of chance
+unpaddings of chain 1 are exactly 79 bytes long, and the WIF cascade into chain 2
+arises for 8.59% of them under the serialisation menu a solver would try. It is
+padding luck, and the 32+32+15 grammar is an artifact of the ciphertext length.
+
 **The chain past that closes on itself**, which is the strongest evidence in the
 whole exercise. The 96-byte blob at the foot of *my* phase 3.2 plaintext is
 byte-identical to the community repository's chain 2 envelope. Chain 1, opened

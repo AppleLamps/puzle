@@ -1,0 +1,169 @@
+{
+  "acceptance": {
+    "better_half": {
+      "hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6"
+    },
+    "explicitly_not_acceptance": [
+      "valid PKCS#7 padding",
+      "readable English fragments",
+      "a sum that works out to 479"
+    ],
+    "half": {
+      "exact_public_key": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+    },
+    "only_gate": "solver.targets.gate_scalar_bytes",
+    "planted_control_scalar": "00000000000000000000000000000000000000000000000000000000000c0de5"
+  },
+  "distinct_from": {
+    "architect_source_prime_reinsertion_audit.json": "uses consecutive primes as indices; applies prime-ops before dissemination; does not splice yellow/blue list values",
+    "prime_reinsertion_audit.json": "inserts poster colour values into S91 at prime positions",
+    "yinyang_prime_dual_audit.json": "hashes the same lists alone; never writes them back into a source layer"
+  },
+  "expansion": {
+    "disseminations": [
+      "identity",
+      "xor-beaufort-key-ascii",
+      "xor-beaufort-key-digest",
+      "xor-phase32-password"
+    ],
+    "expected_candidate_records": 6912,
+    "extractors": [
+      "sha256",
+      "first-32",
+      "last-32",
+      "window-479-32"
+    ],
+    "insert_modes": [
+      "overwrite@479",
+      "overwrite@1021",
+      "overwrite@1103",
+      "xor@479",
+      "xor@1103",
+      "append"
+    ],
+    "layers": [
+      "raw",
+      "transliteration",
+      "plaintext"
+    ],
+    "payload_lists": [
+      "yellow9",
+      "blue15",
+      "blue15_zero5",
+      "blue14_drop5",
+      "yin_yang_pair",
+      "yang_yin_pair",
+      "sums_pair",
+      "all24_zero5"
+    ],
+    "serializations": [
+      "raw_value_bytes",
+      "ascii_decimal_concat",
+      "mod26_A0_ascii"
+    ]
+  },
+  "frozen_inputs": {
+    "blue_sum": 484,
+    "carried_codes": {
+      "beaufort_key_utf8": "THEMATRIXHASYOU",
+      "phase32_password_utf8": "250f37726d6862939f723edc4f993fde9d33c6004aab4f2203d9ee489d61ce4c"
+    },
+    "consecutive_primes_2_89": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19,
+      23,
+      29,
+      31,
+      37,
+      41,
+      43,
+      47,
+      53,
+      59,
+      61,
+      67,
+      71,
+      73,
+      79,
+      83,
+      89
+    ],
+    "imbalance": 5,
+    "named_anchors_0based": {
+      "PRIMEBASICS": 1103,
+      "PRIVATEKEY": 479,
+      "SOURCECODES": 1021
+    },
+    "poster_marker_colors": "BBBBYBBBYYBBBBYBBYYBYYBY",
+    "source_layers": {
+      "length": 1539,
+      "plaintext_sha256": "56c43a300e28b86bb43b8dcbae74c43c76bde90b3e1190620fb656f2c94b2241",
+      "raw_sha256": "bd7a29432546c67c4170e0c523ddbf43ae82d20ee187d1b4dbf7907a0faf4c7b",
+      "transliteration_sha256": "6d66e0e0e2dfdb812d5ecee2be6f54c1f3b8c84b0d74580686cf2053d76a200e"
+    },
+    "yellow_sum": 479
+  },
+  "hypothesis": "After returning to the Architect source-code layers, temporarily disseminate the carried Beaufort/phase-3.2 code, then reinsert the yellowblueprimes dual lists (the prime basics already in hand) at the named PRIVATEKEY / SOURCECODES / PRIMEBASICS anchors.",
+  "instruction_order": [
+    "return to the source codes",
+    "temporary dissemination of the code you hopefully carry",
+    "reinserting the prime basics"
+  ],
+  "out_of_scope": [
+    "Cosmic Duality, Chain 4, base-38",
+    "prime assignments other than consecutive 2..89 on the pinned markers",
+    "zeroing rules other than the balancing blue 5",
+    "23/16/7 cipher-menu selection after reinsertion"
+  ],
+  "payload_lists": {
+    "all24_zero5": {
+      "length": 24,
+      "sha256": "e48718a735d0290e8e575e89f76683d1c469d5db4f6e476cc6091d8540c16473",
+      "sum": 958
+    },
+    "blue14_drop5": {
+      "length": 14,
+      "sha256": "33dcb882721329caa4de712f25efd2af1f1ab0be706ad1a981a0da4222558aa4",
+      "sum": 479
+    },
+    "blue15": {
+      "length": 15,
+      "sha256": "ff482fc049cd1705839c9de0ea848da9b780395419f74e24df3ee8ce30b70def",
+      "sum": 484
+    },
+    "blue15_zero5": {
+      "length": 15,
+      "sha256": "8e2e2a2bd77a600f8d4d71cbb67dbea696184f043f559a56ac23101fe3ecdb03",
+      "sum": 479
+    },
+    "sums_pair": {
+      "length": 2,
+      "sha256": "3604c2847ec39392ae79d280aba48e2d2e0385208c7600b129931bf44c5eff1a",
+      "sum": 958
+    },
+    "yang_yin_pair": {
+      "length": 24,
+      "sha256": "92630c65502aa0c1eab5e05780f70857dbd2332a7e8d5b9e4745cf8190063515",
+      "sum": 958
+    },
+    "yellow9": {
+      "length": 9,
+      "sha256": "99fb968e293c99de4630a4b10423350d80e990fe954284bca1177fbfbc6d4e7d",
+      "sum": 479
+    },
+    "yin_yang_pair": {
+      "length": 24,
+      "sha256": "c53063faf71e276cd7cabfdef61f8d23df78eeefc02eeb6595f4d3f976a89f70",
+      "sum": 958
+    }
+  },
+  "schema": "prime-basics-source-reinsert-v55",
+  "scope_note": "Closes only this ordered reading: disseminate carried code over an Architect source layer, then splice/XOR/append the sealed yellowblueprimes list serializations at the named anchors. Does not address Bitcoin Core source, HTML page source, or free cipher selection after reinsertion.",
+  "status": "SEALED_BEFORE_SCALAR_EVALUATION"
+}

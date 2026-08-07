@@ -675,3 +675,18 @@ legibility (never padding alone).
 | Status | Attempt | Evidence and exact scope |
 | --- | --- | --- |
 | **NEGATIVE (bounded)** | 44 catalogue outputs → 528 AES + 88 raw-key + 440 scalar gates; phase-3.2 AES and VIC positive controls pass; planted scalar control accepted / production rejects; **2 padding hits (0.32%, at chance), 0 legible opens, 0 prize matches** | `cipher_catalogue_23_16_7_preregistered.json` (seal `80c47063…16e5409`), `cipher_catalogue_23_16_7_audit.json` (status `COMPLETE_NO_MATCH`, stream `7a5ac23d…80dfb14`), `solver/cipher_catalogue_23_16_7_preregister.py`, `solver/cipher_catalogue_23_16_7_audit.py`; scope note forbids widening into unnamed classical ciphers. Remaining underdetermined step: whether 23/16/7 names a different operand entirely (not which cipher from an open menu) |
+## 24. Reinsert yellowblueprimes lists into Architect source codes (v55, 2026-08-07)
+
+Literal ordered reading of the Architect instruction against the prime basics
+already in hand from `yellowblueprimes`: (1) return to the authenticated
+1,539-byte Architect source layers (raw / transliteration / A–Z plaintext);
+(2) temporarily disseminate the carried code (`THEMATRIXHASYOU` ascii or
+digest, or the phase-3.2 OpenSSL passphrase); (3) reinsert the sealed
+yellow/blue prime lists at the named anchors `PRIVATEKEY`@479,
+`SOURCECODES`@1021, `PRIMEBASICS`@1103 (overwrite / XOR / append). Distinct
+from primes-as-indices (`architect_source_prime_reinsertion`), lists-alone
+hashing (`yinyang_prime_dual`), and S91 colour insertion (`prime_reinsertion`).
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | 3 layers × 4 disseminations × 8 dual lists × 3 serializations × 6 insert modes × 4 extractors = **6,912** scalars (2,562 unique valid); planted control accepted and real targets rejected on the same path; **0 prize matches** | `prime_basics_source_reinsert_preregistered.json` (seal `15479b5b…473dd0a`), `prime_basics_source_reinsert_audit.json` (status `COMPLETE_NO_MATCH`, stream `dc329ff7…4a6c6ef5`), `solver/prime_basics_source_reinsert_preregister.py`, `solver/prime_basics_source_reinsert_audit.py`; scope note in the JSON excludes Bitcoin Core / HTML source and post-reinsertion 23/16/7 cipher selection |

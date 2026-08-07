@@ -1,7 +1,8 @@
 # Puzzle images
 
 Creator-published PNG assets recovered from the Internet Archive (2020-11
-captures). SHA-256 fingerprints verify byte identity.
+captures). Full-length fingerprints for these files are in `../SHA256SUMS`;
+verify with `sha256sum -c SHA256SUMS` from the folder root.
 
 ## Poster (stage 0)
 
@@ -9,13 +10,21 @@ captures). SHA-256 fingerprints verify byte identity.
 | --- | ---: | --- | --- |
 | `poster/follow_the_white_rabbit.png` | 350×350 | `5e8d84b8…90d204f` | [2020-11-15](https://web.archive.org/web/20201115074715im_/https://gsmg.io/img/follow_the_white_rabbit.png) |
 
-14×14 colour grid with white-rabbit drawing. Decodes to `gsmg.io/theseedisplanted`
-under spiral + majority-cell reading (verify independently — see `REPRODUCTION.md`).
+14×14 colour grid with a white-rabbit drawing. Decodes to
+`gsmg.io/theseedisplanted` under a spiral read with majority-colour cell
+sampling: `python3 tools/poster_spiral.py`.
 
 ## Rebus tiles (stage 1)
 
-Eight tiles from `gsmg.io/theseedisplanted`. Pair into four lines; page order
-may need manual review against `archives/theseedisplanted.html`.
+Eight tiles from `gsmg.io/theseedisplanted`. Each holds up to two elements
+stacked vertically: pictograms (a bank, a closed padlock, an open padlock,
+`+`, `−`) and letter fragments. Blue and black tiles have their colour block
+flush left with white padding right; red tiles mirror that — so each original
+line is a [blue-or-black | red] pair cut through the white gutter.
+
+Pairing them is a **visual** reading, not a computation. No tool here does it;
+open the PNGs, or open `../archives/theseedisplanted.html` in a browser, and do
+it yourself.
 
 | File | Size | SHA-256 |
 | --- | ---: | --- |
@@ -28,17 +37,9 @@ may need manual review against `archives/theseedisplanted.html`.
 | `rebus/red_open_lock_n_ing.png` | 82×70 | `ea1cd545…f3d203` |
 | `rebus/red_t.png` | 79×70 | `86fb2eff…fd04d35` |
 
-Source bodies: `../gsmgio-5btc-puzzle-master/artifacts/wayback_cache/bodies/` (same hashes).
+Wayback capture URLs for each tile are in `../CREATOR_WEBSITE_LINKS.md`.
 
 ## Viewing locally
 
-Open PNGs directly, or open `archives/theseedisplanted.html` in a browser —
-image paths point at `../images/rebus/`.
-
-Poster decode script (parent repo):
-
-```bash
-python3 scripts/solve.py   # expects ../sources/follow_the_white_rabbit.png
-```
-
-A copy also lives at `../sources/follow_the_white_rabbit.png` for that script.
+Open the PNGs directly, or open `../archives/theseedisplanted.html` in a
+browser — its image paths point back at `../images/rebus/`.

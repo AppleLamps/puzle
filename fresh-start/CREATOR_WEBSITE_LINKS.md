@@ -117,11 +117,9 @@ capture yourself.**
 
 ## Full Wayback index
 
-Parent repository CDX snapshot (788 collapsed captures, 414 unique URLs):
-
-`../gsmgio-5btc-puzzle-master/artifacts/wayback_cache/cdx_1e45059a34e3965aecffb2f2dc8035198587d0e74faebda836bea54a8ca7a09c.json`
-
-Live CDX query used to build that snapshot:
+The URLs above were selected from a CDX sweep of the domain (788 collapsed
+captures, 414 unique URLs). Re-run the query to rebuild the full index for
+yourself — it is a live archive, so it may now return more:
 
 ```text
 https://web.archive.org/cdx/search/cdx?url=gsmg.io/*&output=json&filter=statuscode:200&collapse=digest

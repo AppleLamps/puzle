@@ -93,6 +93,6 @@
       "local_image": "images/rebus/red_t.png"
     }
   ],
-  "cdx_snapshot": "../gsmgio-5btc-puzzle-master/artifacts/wayback_cache/cdx_1e45059a34e3965aecffb2f2dc8035198587d0e74faebda836bea54a8ca7a09c.json",
+  "cdx_note": "The URLs in this file were selected from a CDX sweep of gsmg.io (788 collapsed captures, 414 unique URLs). Re-run the query below to rebuild the index.",
   "cdx_live_query": "https://web.archive.org/cdx/search/cdx?url=gsmg.io/*&output=json&filter=statuscode:200&collapse=digest"
 }

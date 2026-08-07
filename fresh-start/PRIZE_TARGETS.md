@@ -31,25 +31,42 @@ A 32-byte secp256k1 scalar `k` (1 ≤ k < n) is a prize match if:
 - **Better Half:** `hash160(public)` equals Better Half's hash160 under **either**
   compressed or uncompressed serialization (correct encoding is unknown).
 
-Reproduce gate logic:
+`tools/prize_gate.py` implements exactly that, and is the only acceptance test
+in this folder. It does not trust the constants in the table above: it decodes
+both hash160s from the addresses themselves and checks that Half's on-chain
+public key hashes to Half's.
 
 ```bash
-cd ../gsmgio-5btc-puzzle-master
-python3 -m solver.targets
+python3 tools/prize_gate.py     # self-check
+```
+
+```python
+import sys
+sys.path.insert(0, "tools")
+from prize_gate import gate_scalar_bytes
+
+gate_scalar_bytes(bytes.fromhex("…"))   # None, "Half", or "Better Half"
 ```
 
 ## Addresses that are not prize targets
 
-Two addresses derived from later solver work on a "Cosmic" blob were published
-publicly and swept to zero from 2026-04-12. Their on-chain activity reflects
-publication, not creator confirmation. Do not treat them as acceptance gates:
+Two key pairs derived from later solver work on the SalPhaseIon "Cosmic" blob
+were published publicly and swept to zero from 2026-04-12. Their on-chain
+activity reflects publication, not creator confirmation. Do not treat them as
+acceptance gates — they are listed as `NON_TARGETS` in `tools/prize_gate.py`
+so a hit against one cannot be mistaken for a solve:
 
 - `1JG648yaB7Wp2dpUfcZoRSD4q35oq47vCu` / `15E3pcDDXSKhvi3CLVhRTHEgd8dbVKvSZg`
 - `145ZQ9siLrsXBKf465wjdyQYAP5dRwhRhQ` / `1FhbJnrdq1FmeiXrpTqnpQ8jvYV7naze96`
 
+Both were historically mislabelled "Half" and "Better_Half". They are solver
+derivations from a decrypt this folder does not treat as authenticated; the
+names above them are the only prize targets.
+
 ## Checkerboard message (authenticated decrypt, not a target)
 
-Phase 3.2 VIC checkerboard decode (149 digits) yields:
+Phase 3.2 VIC checkerboard decode (149 digits, reproduced by
+`tools/phase32_classical.py`) yields:
 
 ```text
 INCASEYOUMANAGETOCRACKTHISTHEPRIVATEKEYSBELONGTOHALFANDBETTERHALFANDTHEYALSONEEDFUNDSTOLIVE

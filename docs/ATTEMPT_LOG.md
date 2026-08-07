@@ -705,3 +705,15 @@ Three sealed falsifiers extending the approved legibility-gated search.
 | **NEGATIVE (bounded)** | v62: six deterministic edits to the 196-bit spiral at off-white eye index 163 (flip, swap with rot180 partner 173, force 0/1, XOR) × two serializations, gated against chain1/env48. **144 AES + 24 scalar gates; 0 padding, 0 legible, 0 prize** | `second_door_eye_spiral_preregistered.json`, `second_door_eye_spiral_audit.json`, `solver/second_door_eye_spiral_{preregister,audit}.py`; baseline URL control passes |
 
 **Assessment.** The 96-byte chain-1 envelope still has no legible break under structural-operand passwords. The July-16 NOTES callback does not open env48/raw48/chain1 as raw phrases. Eye-index spiral bit edits do not reach a prize gate or legible AES plaintext.
+
+## 26. Architect anchor windows, yin-yang 49-interleave, cross-half split pairs (v63–v65, 2026-08-07)
+
+Three sealed falsifiers from the approved next-pass list.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v63: nine Architect windows bounded only by named anchors (`TAKETHE` 472, `PRIVATEKEY` 479, `RETURN` 1010, `SOURCECODES` 1021, `REINSERTING` 1089) — no free numeric offsets. Legibility-gated AES on chain1/env48/raw48 plus scalar gates. **216 AES + 18 scalar gates; 0 padding, 0 legible, 0 prize** | `architect_anchor_windows_preregistered.json`, `architect_anchor_windows_audit.json`, `solver/architect_anchor_windows_{preregister,audit}.py` |
+| **NEGATIVE (bounded)** | v64: four fixed 49-wide interleaves of rot180 mask/yin-first bits with `D[21:70]` middle49 and blue-zero5 primes (`mod26_add_mask49`, `mod26_add_yin_first49`, `ascii_mask_then_middle`, `prime24_interleave_mask`). **48 AES + 8 scalar gates; 0 padding, 0 legible, 0 prize** | `yinyang_interleave_49_preregistered.json`, `yinyang_interleave_49_audit.json`, `solver/yinyang_interleave_49_{preregister,audit}.py` |
+| **NEGATIVE (bounded)** | v65: cross-half assignment (env48-class operands on raw48, raw48-class on env48) plus eight frozen pipeline concat pairs on chain1. **336 AES + 80 scalar gates; 2 padding hits at chance, 0 legible, 0 prize** | `split_envelope_cross_pair_preregistered.json`, `split_envelope_cross_pair_audit.json`, `solver/split_envelope_cross_pair_{preregister,audit}.py` |
+
+**Assessment.** Anchor-bounded Architect spans do not gate to Half under fixed serializations or open envelopes legibly. The 49/98 rot180 × middle49 interleave family misses. Cross-half and paired-operand split-envelope readings also miss. Open-frontier item 1 (operation after 479) and yin-yang step 4 remain unresolved beyond these literal readings.

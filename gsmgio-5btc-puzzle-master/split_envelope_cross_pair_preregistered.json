@@ -1,0 +1,96 @@
+{
+  "concat_orders": [
+    "env_then_raw",
+    "raw_then_env"
+  ],
+  "control_scalar_hex": "00000000000000000000000000000000000000000000000000000000000c0de5",
+  "date": "2026-08-07",
+  "env48_operands": [
+    "E01_s91_letters",
+    "E02_s91_digits_a1_i9",
+    "E03_s570_letters",
+    "E04_lastwords_decoded",
+    "E05_thispassword_decoded",
+    "E06_resistor_row_eye9_raw",
+    "E07_resistor_col_eye9_raw",
+    "E08_resistor_row_eye0_raw",
+    "E09_resistor_col_eye0_raw",
+    "E10_resistor_row_eye9_mod10",
+    "E11_resistor_col_eye9_mod10",
+    "E12_resistor_row_eye0_mod10",
+    "E13_resistor_col_eye0_mod10",
+    "E14_prime_blue_zero5_decimal",
+    "E15_prime_yellow9_decimal",
+    "E16_prime_all24_two_digit"
+  ],
+  "expected_counts": {
+    "cross_aes_trials": 240,
+    "pair_chain1_aes_trials": 96,
+    "scalar_gates": 80
+  },
+  "frozen_pairs": [
+    [
+      "E04_lastwords_decoded",
+      "R01_architect_479_120"
+    ],
+    [
+      "E01_s91_letters",
+      "R07_difference_middle49"
+    ],
+    [
+      "E14_prime_blue_zero5_decimal",
+      "R05_rot180_mask_packed"
+    ],
+    [
+      "E10_resistor_row_eye9_mod10",
+      "R03_vic_digits_149"
+    ],
+    [
+      "E04_lastwords_decoded",
+      "R04_vic_funds_message"
+    ],
+    [
+      "E16_prime_all24_two_digit",
+      "R06_rot180_yin_bits_packed"
+    ],
+    [
+      "E03_s570_letters",
+      "R02_architect_479_60"
+    ],
+    [
+      "E05_thispassword_decoded",
+      "R08_difference_full91"
+    ]
+  ],
+  "id": "v65_split_envelope_cross_pair",
+  "kdf_digests": [
+    "md5",
+    "sha256"
+  ],
+  "password_forms": [
+    "literal",
+    "sha256_hex_lower",
+    "sha256_raw32"
+  ],
+  "raw48_iv_modes": [
+    "evp_iv",
+    "continuation_iv"
+  ],
+  "raw48_operands": [
+    "R01_architect_479_120",
+    "R02_architect_479_60",
+    "R03_vic_digits_149",
+    "R04_vic_funds_message",
+    "R05_rot180_mask_packed",
+    "R06_rot180_yin_bits_packed",
+    "R07_difference_middle49",
+    "R08_difference_full91"
+  ],
+  "schema": "split-envelope-cross-pair-v65",
+  "scope_note": "Closes cross-half operand assignment and eight frozen env/raw concat pairs against split envelopes and chain1. Not phrase text.",
+  "status": "SEALED_BEFORE_AES_OR_SCALAR_EVALUATION",
+  "targets": {
+    "better_half_hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+    "half_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+  }
+}

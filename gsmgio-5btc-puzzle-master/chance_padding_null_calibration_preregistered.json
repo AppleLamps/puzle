@@ -1,0 +1,60 @@
+{
+  "acceptance": "This manifest cannot accept a prize candidate; it is a falsification study.  The null survives only if every prediction lands inside its band.  Any prediction outside its band is recorded as evidence for the recorded opens being genuine.",
+  "cascade_kdfs": [
+    "md5",
+    "sha256"
+  ],
+  "cascade_menu": [
+    "wif_key1_uncompressed",
+    "wif_key1_compressed",
+    "key1_hex",
+    "key1_raw",
+    "key1_sha256_hex",
+    "wif_key2_uncompressed",
+    "wif_key2_compressed",
+    "key2_hex",
+    "key2_raw",
+    "key2_sha256_hex",
+    "extension_raw",
+    "plaintext_raw"
+  ],
+  "cascade_menu_size": 24,
+  "date": "2026-08-07",
+  "hypothesis": "The three recorded post-3.2 envelope opens (chain1 under the five SalPhaseIon tokens, chain2 under the derived WIF, cosmic under the seven-token digest XOR) are chance PKCS#7 hits, and the 32+32+15 triplet grammar is an artifact of ciphertext length.",
+  "id": "v79_chance_padding_null_calibration",
+  "method": "Draw random passwords, strictly unpad chain1, and for each chance unpad apply the cascade menu to chain2.  Measure the unpad rate, the plaintext-length distribution, and both cascade rates.",
+  "password_form": "32-lowercase-hex-characters-from-16-random-bytes",
+  "predictions": {
+    "P1_chain1_unpad_rate": {
+      "analytic": 0.00390625,
+      "high": 0.005,
+      "low": 0.003
+    },
+    "P2_len79_share_of_unpads": {
+      "analytic": null,
+      "high": 1.0,
+      "low": 0.95
+    },
+    "P3_cascade_single_rule_rate": {
+      "analytic": 0.00390625,
+      "high": 0.007,
+      "low": 0.0015
+    },
+    "P4_cascade_menu_rate": {
+      "analytic": 0.09375,
+      "high": 0.14,
+      "low": 0.05
+    }
+  },
+  "recorded_padding_lengths": {
+    "chain1": 1,
+    "chain2": 1,
+    "cosmic": 1,
+    "phase32": 10
+  },
+  "schema": "chance-padding-null-calibration-v79",
+  "scope_note": "Calibrates the evidential value of the three recorded opens.  It does not test any new password, does not gate any scalar, and says nothing about whether the envelopes have a real password -- all three are creator-published ciphertexts either way.",
+  "seed": 20260807,
+  "status": "SEALED_BEFORE_EVALUATION",
+  "trials": 2000000
+}

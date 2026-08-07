@@ -2,10 +2,10 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 84,
+    "seals_checked": 85,
     "seal_mismatches": 0,
     "manifests_absent": 2,
-    "result_digests_checked": 64,
+    "result_digests_checked": 65,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
     "drift_gates_checked": 20,
@@ -88,6 +88,13 @@
       "manifest_present": true,
       "sealed_digest": "3f0964be2327514caccc88c73ee88f60b70c9e07ade983ea754b488581c762af",
       "actual_digest": "3f0964be2327514caccc88c73ee88f60b70c9e07ade983ea754b488581c762af",
+      "status": "OK"
+    },
+    {
+      "seal": "chance_padding_null_calibration_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "cd33dafd48bfa2d0e82ccd7bea5b4f7f31b234b2c9068f0f1aa59f6debfd9fa5",
+      "actual_digest": "cd33dafd48bfa2d0e82ccd7bea5b4f7f31b234b2c9068f0f1aa59f6debfd9fa5",
       "status": "OK"
     },
     {
@@ -652,6 +659,15 @@
       "digest": "3f0964be2327514caccc88c73ee88f60b70c9e07ade983ea754b488581c762af",
       "resolves_to": [
         "chain4_intertwined_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "result": "chance_padding_null_calibration_audit.json",
+      "key": "manifest_sha256",
+      "digest": "cd33dafd48bfa2d0e82ccd7bea5b4f7f31b234b2c9068f0f1aa59f6debfd9fa5",
+      "resolves_to": [
+        "chance_padding_null_calibration_preregistered.json"
       ],
       "status": "RESOLVED"
     },

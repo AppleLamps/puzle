@@ -1,0 +1,81 @@
+{
+  "calibration": {
+    "cascade_menu_hits": 671,
+    "cascade_menu_rate": 0.08590449366278326,
+    "cascade_single_rule_hits": 30,
+    "cascade_single_rule_rate": 0.0038407374215849444,
+    "chain1_unpad_rate": 0.003922,
+    "chain1_unpads": 7844,
+    "expected_length": 79,
+    "len79_share_of_unpads": 0.9957929627740949,
+    "plaintext_length_histogram": {
+      "77": 1,
+      "78": 32,
+      "79": 7811
+    },
+    "seed": 20260807,
+    "trials": 2000000,
+    "unpads_at_expected_length": 7811
+  },
+  "conclusion": "The three recorded post-3.2 opens carry no evidential weight. Each strips exactly one padding byte, which is the signature of a chance hit; the 79-byte 32+32+15 record is the length that 99.6% of chance unpads produce; and the chain1 to chain2 WIF cascade, cited as proof the link is real, arises for 8.6% of chance unpads under the natural serialisation menu. The authenticated phase 3.2 open strips 10 bytes by contrast.",
+  "controls": {
+    "designed_payload": {
+      "padding_length": 6,
+      "payload_length": 42,
+      "round_trips": true
+    },
+    "phase32_legible": true
+  },
+  "manifest_sha256": "cd33dafd48bfa2d0e82ccd7bea5b4f7f31b234b2c9068f0f1aa59f6debfd9fa5",
+  "observed_padding_lengths": {
+    "chain1": 1,
+    "chain2": 1,
+    "cosmic": 1,
+    "phase32": 10
+  },
+  "predictions": {
+    "P1_chain1_unpad_rate": {
+      "analytic": 0.00390625,
+      "band": [
+        0.003,
+        0.005
+      ],
+      "inside_band": true,
+      "measured": 0.003922
+    },
+    "P2_len79_share_of_unpads": {
+      "analytic": null,
+      "band": [
+        0.95,
+        1.0
+      ],
+      "inside_band": true,
+      "measured": 0.9957929627740949
+    },
+    "P3_cascade_single_rule_rate": {
+      "analytic": 0.00390625,
+      "band": [
+        0.0015,
+        0.007
+      ],
+      "inside_band": true,
+      "measured": 0.0038407374215849444
+    },
+    "P4_cascade_menu_rate": {
+      "analytic": 0.09375,
+      "band": [
+        0.05,
+        0.14
+      ],
+      "inside_band": true,
+      "measured": 0.08590449366278326
+    },
+    "P5_phase32_padding_not_one": {
+      "inside_band": true,
+      "measured": 10
+    }
+  },
+  "schema": "chance-padding-null-calibration-v79",
+  "scope_note": "Calibrates the evidential value of the three recorded opens.  It does not test any new password, does not gate any scalar, and says nothing about whether the envelopes have a real password -- all three are creator-published ciphertexts either way.",
+  "status": "NULL_SURVIVES"
+}

@@ -1,0 +1,26 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 36,
+    "legible_outputs": 0,
+    "padding_hits": 0,
+    "prize_matches": 0,
+    "scalar_gates": 4
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "yinyang-seven-operand-composition-v59",
+  "scope_note": "Closes only fold_xor and fold_sha256_chain over the seven listed structural operands. Does not widen encodings or add classical ciphers; does not claim step-to-operand mapping is authenticated.",
+  "status": "COMPLETE_NO_MATCH",
+  "step_operand_digests": {
+    "step1_yellowblueprimes_blue_zero5_decimal": "d13452cb92172298791794c56100be5183093c326e4972cd1ae0350423cbb301",
+    "step2_matrixsumlist_row_mod10": "270bb40bf0ed0662efcabb3b6cde23bb35e774454116c5d8c44e1e741841ad91",
+    "step3_lastwords_decoded": "77094e7a1591fb81379f1582cf88db5aa6ab8e77176a4d8428a1ff5decfd102d",
+    "step4_yinyang_rot180_mask_packed": "ce3d7ccbe5aa4ac67ee5cb1e9fb554454dfd463c93cf33cb19613a92eb788ddb",
+    "step5_wewontgiveaway_architect_479_33": "553002a207e50ed9c25daa96595c3ae702da26afbe28dc83e60f1e9f2a4d830b",
+    "step6_infrontofyoureyes_middle49": "0e9b4e3b4efff2b59cb9f5d609c500eba0d8d663500c525375a7246fbf10df78",
+    "step7_giveaway_yellow9_decimal": "53932e1c3f24a5cc64dc080ab96601a11f0623cf1519968ea31acfae09beae7a"
+  }
+}

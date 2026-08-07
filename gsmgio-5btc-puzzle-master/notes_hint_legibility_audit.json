@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 264,
+    "legible_outputs": 0,
+    "padding_hits": 0,
+    "prize_matches": 0,
+    "scalar_gates": 22
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "notes-hint-legibility-v61",
+  "scope_note": "Closes only this eleven-phrase NOTES/NOTE/self-giveaway set against env48/raw48/chain1. Not open-ended identity research; distinct from v52's 55-string recognition catalogue.",
+  "status": "COMPLETE_NO_MATCH"
+}

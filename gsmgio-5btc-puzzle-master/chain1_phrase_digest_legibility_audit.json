@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "phase32_legible_control": true,
+    "planted_scalar_accepted": true,
+    "production_rejects_control_scalar": true
+  },
+  "counts": {
+    "aes_trials": 90,
+    "legible_outputs": 0,
+    "padding_hits": 0,
+    "prize_matches": 0,
+    "scalar_gates": 30
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "chain1-phrase-digest-legibility-v66",
+  "scope_note": "Closes phrase-digest XOR/braid/concat constructions and authenticated SalPhaseIon terminal assemblies on chain1 only. Does not reopen raw phrase concatenations (v49), raw phrase intertwines (v50), or structural operands (v60).",
+  "status": "COMPLETE_NO_MATCH"
+}

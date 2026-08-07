@@ -662,7 +662,6 @@ SalPhaseIon split halves env48 and raw48.
 | --- | --- | --- |
 | **NEGATIVE (bounded)** | Four 14-entry poster resistor sum lists (rows/columns, eye-zeroed and eye-nine) encoded as raw bytes, mod-10 digits/bytes, mod-9 digits/bytes, mod-26 A-Z/a-z with 0-based and 1-based conventions, and two-digit decimal; each password tried in the four standard forms (literal, SHA-256 raw digest, SHA-256 lowercase-hex ASCII, SHA-256 hex decoded) and both EVP_BytesToKey digests (md5, sha256). For env48 the salt in its header is used; for raw48 both the EVP-derived IV and the env48-ciphertext-tail continuation IV are tested. 960 AES attempts against the split halves. 1 valid PKCS#7 padding hit at chance (mod10-digits/SHA-256-hex-ascii/sha256 on env48, plaintext length 31, entropy 4.89, printable 0.32, not readable and no format/prize gate). 0 legible outputs, 0 prize matches. | `poster_resistor_split_envelope_preregistered.json` (seal `ff37c813…0280ffd8`), `poster_resistor_split_envelope_results.json`, `solver/poster_resistor_split_envelope_audit.py`; `python -m solver.preregistration_integrity_audit` reports CLEAN with the new seal binding |
 
-<<<<<<< HEAD
 ## 23. Freeze creator-named 23/16/7 cipher catalogue (v57, 2026-08-07)
 
 Answers the underdetermined step left after password-composition endgames: which
@@ -707,3 +706,91 @@ clue set {5,7,16,23,140,479,484,1141}.
 | Status | Attempt | Evidence and exact scope |
 | --- | --- | --- |
 | **NEGATIVE (bounded)** | 828 preimages → 13,248 AES trials + 1,656 raw-key trials + 8,280 scalar gates; phase-3.2 positive control opens; planted scalar control accepted / production rejects; **43 padding hits (0.29%, at chance), 0 legible opens, 0 prize matches** | `endgame_23_16_7_salphaseion_preregistered.json` (seal `20f2e18a…6f05228`), `endgame_23_16_7_salphaseion_audit.json` (status `COMPLETE_NO_MATCH`, stream `35568e44…5703d953`), `solver/endgame_23_16_7_salphaseion_preregister.py`, `solver/endgame_23_16_7_salphaseion_audit.py`; scope note excludes Cosmic base-38 / Chain 4 and open 2^20 residual. Narrowest remaining underdetermined step recorded in the JSON: which object the 23/16/7 menu selects *as the cipher catalogue* once password composition against the two envelopes is null |
+
+## 26. Pipeline-operand split envelopes + seven-step yin-yang composition (v58–v59, 2026-08-07)
+
+Two sealed falsifiers from the approved post-analysis priorities: (1) legibility-gated
+split-envelope passwords from **page-order operands**, not phrase concatenation; (2) a
+fixed **composition rule** over seven structural pipeline outputs for unreached yin-yang
+step 4.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v58: pre-enter operands (S91/S570 fields, decoded lastwords/thispassword, four resistor sum lists, three prime serializations) → **env48 only**; post-enter operands (Architect `[479:]` windows, VIC digits/message, rot180 mask/yin streams, `D` difference blocks) → **raw48 only** (both EVP and continuation IV). Three password forms × two KDFs; legibility gate. **192 AES + 48 scalar gates; 1 padding hit (0.52%, at chance), 0 legible, 0 prize** | `pipeline_operand_split_envelope_preregistered.json`, `pipeline_operand_split_envelope_audit.json`, `solver/pipeline_operand_split_envelope_preregister.py`, `solver/pipeline_operand_split_envelope_audit.py`; does not concat seven phrase strings or reopen Cosmic/Chain4 |
+| **NEGATIVE (bounded)** | v59: seven structural outputs (one per creator pipeline step) composed by **fold_xor** (cyclic XOR chain) or **fold_sha256_chain** (`h_i = sha256(h_{i-1} \|\| op_i)`); gated as scalars and as env48/raw48 AES passwords under legibility. **36 AES + 4 scalar gates; 0 padding, 0 legible, 0 prize** | `yinyang_seven_operand_composition_preregistered.json`, `yinyang_seven_operand_composition_audit.json`, `solver/yinyang_seven_operand_composition_preregister.py`, `solver/yinyang_seven_operand_composition_audit.py`; does not widen encodings or add classical ciphers |
+
+**Assessment.** The SalPhaseIon enter-marker split does not yield legible plaintext when
+each half is keyed by its natural page operands under the authenticated sha256-hex
+password format. The two fixed seven-operand compositions also miss. Split-envelope
+correct passwords and yin-yang step 4 remain open under rules that forbid phrase
+braids and padding-only acceptance.
+
+## 27. Chain-1 structural operands, NOTES hint, and eye-spiral second door (v60–v62, 2026-08-07)
+
+Three sealed falsifiers extending the approved legibility-gated search.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v60: full v58 structural operand catalogue (24 operands: S91/S570 fields, resistor lists, prime serializations, Architect windows, rot180 streams, `D` blocks) as AES passwords against **chain1** and **chain2** under legibility. **288 AES + 48 scalar gates; 1 padding hit (0.35%, at chance), 0 legible, 0 prize** | `chain1_structural_operand_legibility_preregistered.json`, `chain1_structural_operand_legibility_audit.json`, `solver/chain1_structural_operand_legibility_{preregister,audit}.py`; does not concat phrase text or reopen Cosmic/Chain4 |
+| **NEGATIVE (bounded)** | v61: eleven creator-sourced phrases from the 2026-07-12/07-16 NOTE/NOTES/self-giveaway thread (distinct from v52's 55-string recognition set) against env48/raw48/chain1 under legibility. **264 AES + 22 scalar gates; 0 padding, 0 legible, 0 prize** | `notes_hint_legibility_preregistered.json`, `notes_hint_legibility_audit.json`, `solver/notes_hint_legibility_{preregister,audit}.py` |
+| **NEGATIVE (bounded)** | v62: six deterministic edits to the 196-bit spiral at off-white eye index 163 (flip, swap with rot180 partner 173, force 0/1, XOR) × two serializations, gated against chain1/env48. **144 AES + 24 scalar gates; 0 padding, 0 legible, 0 prize** | `second_door_eye_spiral_preregistered.json`, `second_door_eye_spiral_audit.json`, `solver/second_door_eye_spiral_{preregister,audit}.py`; baseline URL control passes |
+
+**Assessment.** The 96-byte chain-1 envelope still has no legible break under structural-operand passwords. The July-16 NOTES callback does not open env48/raw48/chain1 as raw phrases. Eye-index spiral bit edits do not reach a prize gate or legible AES plaintext.
+
+## 28. Architect anchor windows, yin-yang 49-interleave, cross-half split pairs (v63–v65, 2026-08-07)
+
+Three sealed falsifiers from the approved next-pass list.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v63: nine Architect windows bounded only by named anchors (`TAKETHE` 472, `PRIVATEKEY` 479, `RETURN` 1010, `SOURCECODES` 1021, `REINSERTING` 1089) — no free numeric offsets. Legibility-gated AES on chain1/env48/raw48 plus scalar gates. **216 AES + 18 scalar gates; 0 padding, 0 legible, 0 prize** | `architect_anchor_windows_preregistered.json`, `architect_anchor_windows_audit.json`, `solver/architect_anchor_windows_{preregister,audit}.py` |
+| **NEGATIVE (bounded)** | v64: four fixed 49-wide interleaves of rot180 mask/yin-first bits with `D[21:70]` middle49 and blue-zero5 primes (`mod26_add_mask49`, `mod26_add_yin_first49`, `ascii_mask_then_middle`, `prime24_interleave_mask`). **48 AES + 8 scalar gates; 0 padding, 0 legible, 0 prize** | `yinyang_interleave_49_preregistered.json`, `yinyang_interleave_49_audit.json`, `solver/yinyang_interleave_49_{preregister,audit}.py` |
+| **NEGATIVE (bounded)** | v65: cross-half assignment (env48-class operands on raw48, raw48-class on env48) plus eight frozen pipeline concat pairs on chain1. **336 AES + 80 scalar gates; 2 padding hits at chance, 0 legible, 0 prize** | `split_envelope_cross_pair_preregistered.json`, `split_envelope_cross_pair_audit.json`, `solver/split_envelope_cross_pair_{preregister,audit}.py` |
+
+**Assessment.** Anchor-bounded Architect spans do not gate to Half under fixed serializations or open envelopes legibly. The 49/98 rot180 × middle49 interleave family misses. Cross-half and paired-operand split-envelope readings also miss. Open-frontier item 1 (operation after 479) and yin-yang step 4 remain unresolved beyond these literal readings.
+
+## 29. Chain-1 phrase-digest constructions (v66, 2026-08-07)
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v66: fifteen frozen password constructions on **chain1** only — seven-phrase XOR digest (parallel to cosmic token-XOR but on tier-1 phrases), hex-braid/zip/concat of phrase SHA-256 hexes, byte-braid of phrase digests, first-four-phrase concat, five-token concat with authenticated `shabefourfirsthintisyourlastcommand` replacing the duplicate `matrixsumlist`, seven-token HASHTHETEXT/`shabefanstoo` variant, and terminal SalPhaseIon field assemblies — each tested as literal / sha256-hex / raw-32 under EVP MD5 and SHA-256, legibility-gated. **90 AES + 30 scalar gates; 0 padding, 0 legible, 0 prize** | `chain1_phrase_digest_legibility_preregistered.json`, `chain1_phrase_digest_legibility_audit.json`, `solver/chain1_phrase_digest_legibility_{preregister,audit}.py`; does not reopen v49 raw phrase combos or v50 hex-format/intertwine families |
+
+**Assessment.** Phrase-digest XOR/braid constructions and authenticated terminal-field assemblies do not open chain1 at all (no PKCS#7 hit), let alone legibly. The only password in this neighbourhood that still unpads is the historical five-token concat (`matrixsumlist` duplicated as token 5); its 79-byte output remains high-entropy and not legible. The correct chain-1 password, if AES at all, is still unknown and must meet the creator's salvation/legibility criterion when found.
+
+## 30. The cipher itself as a free parameter, and non-round-robin weaves (v67–v68, 2026-08-07)
+
+Two assumptions had never been tested, both of them load-bearing for every
+post-3.2 negative in this log.
+
+**The cipher was assumed.** Every prior audit decrypted the `Salted__`
+envelopes with `aes-256-cbc` and varied only the password. But `openssl enc`
+writes the same `Salted__` header for *every* cipher it supports, so the header
+does not identify the algorithm — and the Architect plaintext, which is tier 1,
+says the finisher must "SELECT FROM OVER TWENTYTHREE CIPHERS SIXTEEN
+ENCRYPTIONS". If the five-token password is right but the cipher is wrong, the
+observed symptom would be exactly what v49 measured: chance-rate padding and
+unreadable high-entropy output.
+
+**"Intertwined" was read as round-robin.** v50 falsified braid and zip over
+every ordering, but those are one weave function under permutation.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v67: the PyCryptodome-implementable subset of the `openssl enc` cipher catalogue — 27 specs covering AES-128/192/256 in CBC/ECB/CFB/OFB/CTR, `des-ede3-cbc`/`-ecb`, `des-ede-cbc`, `des-cbc`/`-ecb`, `bf-cbc`/`-ecb`/`-ofb`, `cast5-cbc`/`-ecb`, `rc2-cbc`/`-ecb`, `rc4`, `rc4-40` — against 20 authenticated passwords on chain1/chain2/cosmic under EVP MD5 and SHA-256, with the KDF generalised to each cipher's key and IV length. Stream modes gated on legibility alone (no padding exists); block modes must also unpad. **3,240 trials; 8 padding hits (0.25%, at or below chance), 0 legible, 0 prize** | `openssl_cipher_catalogue_preregistered.json`, `openssl_cipher_catalogue_audit.json`, `solver/openssl_cipher_catalogue_{preregister,audit}.py`; controls: `aes-256-cbc` + canonical password + MD5 reproduces the pinned 79-byte chain-1 plaintext `1449a217…`, phase 3.2 legible control passes, planted scalar accepted and production gate rejects it |
+| **NEGATIVE (bounded)** | v68: fifteen weave functions that are **not** reachable by permuting a round-robin braid — padded column read keeping a fill character, chunk-2/3/4 interleaves, proportional weave, nested pairwise braid, per-part reversal (concat and braid), letterwise mod-26 add and subtract stacks, cycle-XOR, 7-column grid transposition, running Caesar composition, length-sorted concat, head/tail alternation — over the seven 2023-02-23 phrases and the seven SalPhaseIon tokens, each as literal / sha256-hex / raw-32 under both KDFs against chain1 and chain2. **360 AES + 60 scalar gates; 1 padding hit (0.28%, at chance), 0 legible, 0 prize** | `nonroundrobin_weave_preregistered.json`, `nonroundrobin_weave_audit.json`, `solver/nonroundrobin_weave_{preregister,audit}.py` |
+
+**Assessment.** The cipher assumption is now itself a bounded negative: no
+alternative `openssl enc` algorithm or mode makes an authenticated password
+produce legible output on any post-3.2 envelope. This matters beyond its own
+scope, because it removes the most economical explanation for why the chain-1
+plaintext is unreadable — "right password, wrong cipher" is closed for this
+catalogue. What remains open on the cipher axis is only what PyCryptodome
+cannot express: Camellia, SEED, IDEA, GOST, and non-EVP key derivation such as
+PBKDF2. On the password axis, "intertwined" is now closed for both round-robin
+(v50) and these fifteen non-round-robin weaves.
+
+Neither result recovers a key, and neither promotes the community chain from
+tier 2. The joint effect is narrower and more useful: the reason chain1 does
+not read is **not** a mis-identified cipher and **not** a mis-read of
+"intertwined", so the unexplained parameter is the password material itself —
+or chain1 is not the next lock at all.

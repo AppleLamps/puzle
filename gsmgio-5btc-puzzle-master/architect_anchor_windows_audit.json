@@ -1,0 +1,28 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 216,
+    "legible_outputs": 0,
+    "padding_hits": 0,
+    "prize_matches": 0,
+    "scalar_gates": 18
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "architect-anchor-windows-v63",
+  "scope_note": "Closes only anchor-bounded Architect windows with fixed lengths where named. No free numeric offsets, no Cosmic/Chain4/base-38.",
+  "status": "COMPLETE_NO_MATCH",
+  "window_lengths": {
+    "W01_take_through_return": 538,
+    "W02_privatekey_through_return": 531,
+    "W03_privatekey_120": 120,
+    "W04_privatekey_60": 60,
+    "W05_return_through_reinsert": 79,
+    "W06_sourcecodes_through_reinsert": 68,
+    "W07_reinsert_120": 120,
+    "W08_reinsert_60": 60,
+    "W09_take_through_reinsert": 617
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "controls": {
+    "env48_pinned": true,
+    "phase32_legible_control": true,
+    "planted_scalar_accepted": true,
+    "production_rejects_control_scalar": true,
+    "raw48_pinned": true,
+    "vic_self_check": true
+  },
+  "counts": {
+    "aes_trials": 192,
+    "legible_outputs": 0,
+    "padding_hits": 1,
+    "prize_matches": 0,
+    "scalar_gates": 48
+  },
+  "legible_records": [],
+  "operand_digests": {
+    "E01_s91_letters": "8012ee6fe4fe8c6511ac30b4efd9e46935172292b6a6d9aef61d131ee017411a",
+    "E02_s91_digits_a1_i9": "baada508a1913cf2dc19eb508dd43aa768af149ab0854bfda264a720910c6f61",
+    "E03_s570_letters": "585ee5d801486348f3396b3301bc87f14420204ed3242e67bc53d60cfed14664",
+    "E04_lastwords_decoded": "77094e7a1591fb81379f1582cf88db5aa6ab8e77176a4d8428a1ff5decfd102d",
+    "E05_thispassword_decoded": "74c1d7592daf4f89b0a7ba5e368bb59cc9e19c6a4ebb7f33cd8ccf8f3edacac0",
+    "E06_resistor_row_eye9_raw": "fe48e8909692e19066ba5fd6f3f0bb5c30c9f020fc79b39416dcdd3ab5736830",
+    "E07_resistor_col_eye9_raw": "6a530978da6d7028edeba04372fd33ec00f00b0373ceb99ebb9100a3d4cc02f5",
+    "E08_resistor_row_eye0_raw": "12f16c8d16a7d1909e8f84080406711e6793c8ebbbea7062ede25825c72367e6",
+    "E09_resistor_col_eye0_raw": "e7a4d2da37858bc5a8962d33e5bc0eeed56683407aca3d364c3644370ce015f4",
+    "E10_resistor_row_eye9_mod10": "270bb40bf0ed0662efcabb3b6cde23bb35e774454116c5d8c44e1e741841ad91",
+    "E11_resistor_col_eye9_mod10": "7094a3aa91f0331bbe880e9390a7d50510881ee280bb75beb3a1050dae729719",
+    "E12_resistor_row_eye0_mod10": "415d8f85dc7120ead9bca628d1fb38d656c1666ed3f0dd89403ef72d71e2b879",
+    "E13_resistor_col_eye0_mod10": "e464db2ca0cab7a1449aff8c1a183da64e757790e75a13aa9cf5450de550f4a7",
+    "E14_prime_blue_zero5_decimal": "d13452cb92172298791794c56100be5183093c326e4972cd1ae0350423cbb301",
+    "E15_prime_yellow9_decimal": "53932e1c3f24a5cc64dc080ab96601a11f0623cf1519968ea31acfae09beae7a",
+    "E16_prime_all24_two_digit": "69d2cfd0c3b9b01ec5864856075e6e936ba7349f123e7a9ca2e646d28a410096",
+    "R01_architect_479_120": "628e8cbed957f3d36360994fb5771f4c13fdb91ec85a1937b76a794e99b76d83",
+    "R02_architect_479_60": "576f6d863992c56696b5f3782f57bf894052b4bc58f12239bc34157352d970e3",
+    "R03_vic_digits_149": "71e3af174d533ad2c1c79fce64308f5fdf200f3cc50f059b2f1485a2c5f1765d",
+    "R04_vic_funds_message": "878b7afacc9e35412e76b8506cc8297fa5aeba5381e108dc421b71a0ab8993d8",
+    "R05_rot180_mask_packed": "ce3d7ccbe5aa4ac67ee5cb1e9fb554454dfd463c93cf33cb19613a92eb788ddb",
+    "R06_rot180_yin_bits_packed": "37a8ac4fa3ab9624caeef0d6262eacb11d616b0b4a4fc1ff615e006904c5f1c7",
+    "R07_difference_middle49": "0e9b4e3b4efff2b59cb9f5d609c500eba0d8d663500c525375a7246fbf10df78",
+    "R08_difference_full91": "f17857308a886531637b33c9ddb92952206c286519412278ba9f836ffc69336e"
+  },
+  "prize_matches": [],
+  "schema": "pipeline-operand-split-envelope-v58",
+  "scope_note": "Closes only this page-order operand assignment against env48/raw48. Does not concat phrase text, does not reopen Cosmic/Chain4/base-38, and does not claim the enter-marker split is creator-authenticated.",
+  "status": "COMPLETE_NO_MATCH",
+  "stream_sha256": "e2ee987e7bba29a0d1db0891e9c28a59ce7fa4cb93cfd4758df52ee4be26460b"
+}

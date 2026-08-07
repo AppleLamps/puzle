@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 336,
+    "cross_aes_trials": 240,
+    "legible_outputs": 0,
+    "padding_hits": 2,
+    "pair_chain1_aes_trials": 96,
+    "prize_matches": 0,
+    "scalar_gates": 80
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "split-envelope-cross-pair-v65",
+  "scope_note": "Closes cross-half operand assignment and eight frozen env/raw concat pairs against split envelopes and chain1. Not phrase text.",
+  "status": "COMPLETE_NO_MATCH"
+}

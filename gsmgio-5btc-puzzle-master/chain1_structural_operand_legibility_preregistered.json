@@ -1,0 +1,62 @@
+{
+  "acceptance": "Legible plaintext: printable_ratio>=0.85 and entropy<=5.9, or an English run of >=6 letters; padding logged never accepted. Scalars via solver.targets.gate_scalar_bytes on sha256/double_sha256 of each operand preimage.",
+  "control_scalar_hex": "00000000000000000000000000000000000000000000000000000000000c0de5",
+  "date": "2026-08-07",
+  "envelopes": [
+    "chain1",
+    "chain2"
+  ],
+  "expected_counts": {
+    "aes_trials": 288,
+    "scalar_gates": 48
+  },
+  "extends_v58": {
+    "env48_sha256": "f35efe2236bf60310e7b645ad297b70c6fd1670e5717d7601f5319e69d489b1b",
+    "manifest_schema": "pipeline-operand-split-envelope-v58",
+    "raw48_sha256": "bab0c6d922a323c893f071b3b70885d00ae885914dbd70568dd6a032bc05ed70"
+  },
+  "hypothesis": "The 96-byte chain-1 envelope opens with a structural pipeline operand (field, prime list, rot180 stream, Architect window, or difference block) under the authenticated sha256-hex password format \u2014 not a seven-phrase concatenation.",
+  "id": "v60_chain1_structural_operand_legibility",
+  "kdf_digests": [
+    "md5",
+    "sha256"
+  ],
+  "operands": [
+    "E01_s91_letters",
+    "E02_s91_digits_a1_i9",
+    "E03_s570_letters",
+    "E04_lastwords_decoded",
+    "E05_thispassword_decoded",
+    "E06_resistor_row_eye9_raw",
+    "E07_resistor_col_eye9_raw",
+    "E08_resistor_row_eye0_raw",
+    "E09_resistor_col_eye0_raw",
+    "E10_resistor_row_eye9_mod10",
+    "E11_resistor_col_eye9_mod10",
+    "E12_resistor_row_eye0_mod10",
+    "E13_resistor_col_eye0_mod10",
+    "E14_prime_blue_zero5_decimal",
+    "E15_prime_yellow9_decimal",
+    "E16_prime_all24_two_digit",
+    "R01_architect_479_120",
+    "R02_architect_479_60",
+    "R03_vic_digits_149",
+    "R04_vic_funds_message",
+    "R05_rot180_mask_packed",
+    "R06_rot180_yin_bits_packed",
+    "R07_difference_middle49",
+    "R08_difference_full91"
+  ],
+  "password_forms": [
+    "literal",
+    "sha256_hex_lower",
+    "sha256_raw32"
+  ],
+  "schema": "chain1-structural-operand-legibility-v60",
+  "scope_note": "Closes structural-operand AES/scalar search against chain1 and chain2 only. Does not concat phrase text, does not reopen Cosmic/Chain4/base-38, and does not claim any operand is the creator's intended chain-1 password.",
+  "status": "SEALED_BEFORE_AES_OR_SCALAR_EVALUATION",
+  "targets": {
+    "better_half_hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+    "half_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+  }
+}

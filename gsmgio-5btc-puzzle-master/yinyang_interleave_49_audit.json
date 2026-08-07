@@ -1,0 +1,17 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 48,
+    "legible_outputs": 0,
+    "padding_hits": 0,
+    "prize_matches": 0,
+    "scalar_gates": 8
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "yinyang-interleave-49-v64",
+  "scope_note": "Closes only these four 49-wide interleaves of rot180 material with middle49/primes. No free cipher menu.",
+  "status": "COMPLETE_NO_MATCH"
+}

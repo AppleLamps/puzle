@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "phase32_legible_control": true,
+    "planted_scalar_accepted": true,
+    "production_rejects_control_scalar": true
+  },
+  "counts": {
+    "aes_trials": 288,
+    "legible_outputs": 0,
+    "padding_hits": 1,
+    "prize_matches": 0,
+    "scalar_gates": 48
+  },
+  "legible_records": [],
+  "prize_matches": [],
+  "schema": "chain1-structural-operand-legibility-v60",
+  "scope_note": "Closes structural-operand AES/scalar search against chain1 and chain2 only. Does not concat phrase text, does not reopen Cosmic/Chain4/base-38, and does not claim any operand is the creator's intended chain-1 password.",
+  "status": "COMPLETE_NO_MATCH"
+}

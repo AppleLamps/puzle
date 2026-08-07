@@ -2,13 +2,13 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 80,
+    "seals_checked": 81,
     "seal_mismatches": 0,
     "manifests_absent": 2,
-    "result_digests_checked": 60,
+    "result_digests_checked": 61,
     "unresolved_digests": 0,
     "unresolved_but_regenerable": 2,
-    "drift_gates_checked": 16,
+    "drift_gates_checked": 17,
     "drift_gates_failing": 0,
     "drift_gates_superseded": 1
   },
@@ -46,6 +46,13 @@
       "manifest_present": true,
       "sealed_digest": "266a3eb6d06a71509178714a11987a5f821e0087c933175ce7b7eb93ea9d8aec",
       "actual_digest": "266a3eb6d06a71509178714a11987a5f821e0087c933175ce7b7eb93ea9d8aec",
+      "status": "OK"
+    },
+    {
+      "seal": "chain1_raw_key_material_extended_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "8b9b9314663e81f91e1221991df0fa6aa56b0e6f717eae91a386547a3fb046c3",
+      "actual_digest": "8b9b9314663e81f91e1221991df0fa6aa56b0e6f717eae91a386547a3fb046c3",
       "status": "OK"
     },
     {
@@ -588,6 +595,15 @@
       "digest": "4374818fdb904d1548d223d7cd728fb429c25a4315565f33ebad9e0694db1f42",
       "resolves_to": [
         "chain1_raw_key_material_preregistered.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "result": "chain1_raw_key_material_extended_audit.json",
+      "key": "manifest_sha256",
+      "digest": "8b9b9314663e81f91e1221991df0fa6aa56b0e6f717eae91a386547a3fb046c3",
+      "resolves_to": [
+        "chain1_raw_key_material_extended_preregistered.json"
       ],
       "status": "RESOLVED"
     },
@@ -1193,6 +1209,11 @@
     {
       "module": "solver.chain1_raw_key_material_preregister",
       "manifest": "chain1_raw_key_material_preregistered.json",
+      "passes": true
+    },
+    {
+      "module": "solver.chain1_raw_key_material_extended_preregister",
+      "manifest": "chain1_raw_key_material_extended_preregistered.json",
       "passes": true
     }
   ],

@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 408,
+    "legible_outputs": 0,
+    "materials": 17,
+    "padding_hits": 3,
+    "prize_matches": 0,
+    "scalar_gates": 34
+  },
+  "legible_records": [],
+  "manifest_sha256": "2de77668b67b7eddfdcd21c7bd95f381d093c173a6c033403de6c1dccb9675c3",
+  "prize_matches": [],
+  "schema": "architect-post479-suffix-ops-v78",
+  "scope_note": "Post-479 suffix family only. Distinct from v76 anchor-window operations and architect_479_semantic_pipeline Fresco/F73D92 route.",
+  "status": "COMPLETE_NO_MATCH"
+}

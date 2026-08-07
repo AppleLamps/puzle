@@ -62,6 +62,9 @@ DRIFT_GATED = (
     "solver.endgame_23_16_7_salphaseion_preregister",
     "solver.chain1_pbkdf2_legibility_preregister",
     "solver.yinyang_composition_extended_preregister",
+    "solver.yinyang_479_index_selector_preregister",
+    "solver.second_door_chess_poster_preregister",
+    "solver.chain1_raw_key_material_preregister",
 )
 
 # Manifests superseded by a re-sealed copy.  The original seal stays intact as

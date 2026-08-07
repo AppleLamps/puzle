@@ -1,0 +1,20 @@
+{
+  "controls": {
+    "baseline_url": true,
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 360,
+    "legible_outputs": 0,
+    "materials": 15,
+    "padding_hits": 1,
+    "prize_matches": 0,
+    "scalar_gates": 30
+  },
+  "legible_records": [],
+  "manifest_sha256": "cbfba50fd91f35f23014ab5ba127705ee3c5461c180a85524b5630b04556ff5e",
+  "prize_matches": [],
+  "schema": "second-door-chess-poster-v72",
+  "scope_note": "Pre-chain1 chess/poster bundle only. Does not replay second_door_frontier_derivations.json broad families or v62 eye edits beyond the five frozen URL serializations.",
+  "status": "COMPLETE_NO_MATCH"
+}

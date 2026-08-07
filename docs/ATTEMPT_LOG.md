@@ -815,3 +815,23 @@ Both frontiers remain open under rules that forbid padding-only acceptance; the
 narrowest remaining hypotheses are (a) chain1 password material not yet in any
 frozen family, or chain1 is not the next AES lock; (b) the 479→yinyang step is
 not a fixed byte composition over these seven structural operands.
+
+## 32. 479 index selection, chess/poster second door, chain1 raw key material (v71–v73, 2026-08-07)
+
+Three sealed falsifiers from the approved next-pass list, each targeting a
+distinct gap left by v59–v70 and the split-envelope work.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v71: **selection not composition** — four index streams (yellow9, blue-zero5, all24, 479/484 alternate), four index bases (absolute, from-479 0/1-based, cumulative-from-479), four corpora (Architect, S570 faed, S91, difference ``D``), four rules (linear, mask-gated linear, dual-corpus mask with 479/484 anchors). Each selected string gated as scalar and AES password on chain1/env48/raw48. **160 families → 3,840 AES + 320 scalar gates; 3 padding hits (0.08%, below chance), 0 legible, 0 prize** | `yinyang_479_index_selector_preregistered.json`, `yinyang_479_index_selector_audit.json`, `solver/yinyang_479_index_selector_{preregister,audit}.py`; distinct from v59/v70 byte composition, s570_fold matrix indices, v46 prime-as-key-material |
+| **NEGATIVE (bounded)** | v72: chess/poster **pre-chain1** bundle — FEN, ahimsa move ``Rc6+``, chess-hint letters, five eye-index URL edits, bunny impure-7 bits, main/anti diagonal lower bit streams — against chain1/env48/raw48 under legibility. **360 AES + 30 scalar gates; 1 padding hit (0.28%, at chance), 0 legible, 0 prize** | `second_door_chess_poster_preregistered.json`, `second_door_chess_poster_audit.json`, `solver/second_door_chess_poster_{preregister,audit}.py`; does not replay second_door_frontier broad families |
+| **NEGATIVE (bounded)** | v73: **non-AES** chain1 — glued 96-byte envelope, env48, and raw48 halves as raw key material: sliding 32-byte windows, prefix-32, half XOR/add, env-ciphertext⊕raw48, env-salt⊕raw48 prefix; sha256/double-sha256 derivations; base58check/format scan. **318 scalar gates; 0 prize, 0 base58check** | `chain1_raw_key_material_preregistered.json`, `chain1_raw_key_material_audit.json`, `solver/chain1_raw_key_material_{preregister,audit}.py`; no AES password attempts; extends K4 beyond raw48-only |
+
+**Assessment.** The 479→yinyang step is not recovered by index selection from
+479/484/rot180-mask streams into Architect or S570 under the four sealed rules.
+Chess FEN/move and poster second-door materials do not legibly open chain1 or
+the split halves. The 96-byte chain1 blob does not yield a prize scalar under
+direct window/combine parsing. All three frontiers remain open: (a) index rule
+may use a corpus or stepping convention outside this family; (b) second door may
+require an operation not frozen here; (c) chain1 may still be AES-locked with
+unknown password material rather than raw key bytes.

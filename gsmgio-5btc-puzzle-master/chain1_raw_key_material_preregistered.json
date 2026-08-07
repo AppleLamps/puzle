@@ -1,0 +1,42 @@
+{
+  "acceptance": "solver.targets.gate_scalar_bytes only; no AES.",
+  "blob_scopes": [
+    "chain1_glued_96",
+    "env48_half",
+    "raw48_half"
+  ],
+  "combine_rules": [
+    "xor_halves",
+    "add_mod256_halves",
+    "xor_env_ct_raw48",
+    "xor_env_salt_raw48"
+  ],
+  "control_scalar_hex": "00000000000000000000000000000000000000000000000000000000000c0de5",
+  "date": "2026-08-07",
+  "derivations": [
+    "raw32_window",
+    "sha256_window",
+    "double_sha256_window"
+  ],
+  "expected_counts": {
+    "base58check_scopes": [
+      "whole-blob-per-scope",
+      "32-byte-windows"
+    ],
+    "scalar_gates": 318
+  },
+  "hypothesis": "The 96-byte chain1 blob (48-byte Salted__ envelope + 48-byte headerless half) is encoded private-key material rather than an OpenSSL password envelope.",
+  "id": "v73_chain1_raw_key_material",
+  "schema": "chain1-raw-key-material-v73",
+  "scope_note": "Non-AES interpretation of chain1 bytes. Distinct from v67 cipher catalogue and split-envelope K4 (raw48 only). Does not decrypt with community passwords or parse the known 79-byte triplet.",
+  "status": "SEALED_BEFORE_SCALAR_EVALUATION",
+  "targets": {
+    "better_half_hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+    "half_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+  },
+  "window_counts": {
+    "chain1_glued_96": 65,
+    "env48_half": 17,
+    "raw48_half": 17
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "controls": {
+    "phase32_legible_control": true
+  },
+  "counts": {
+    "aes_trials": 3840,
+    "families": 160,
+    "legible_outputs": 0,
+    "padding_hits": 3,
+    "prize_matches": 0,
+    "scalar_gates": 320
+  },
+  "legible_records": [],
+  "manifest_sha256": "640333b9dc5145c2886b0f1e3115dae7e4a617938357dec0bf62497c93a1f983",
+  "prize_matches": [],
+  "schema": "yinyang-479-index-selector-v71",
+  "scope_note": "Selection-only family over four corpora and four index bases. Distinct from v59/v70 byte composition, s570_fold_architect matrix-sum indices, creator_pipeline poster sums, and v46 prime lists as key material. Does not reopen Cosmic/Chain4.",
+  "status": "COMPLETE_NO_MATCH"
+}

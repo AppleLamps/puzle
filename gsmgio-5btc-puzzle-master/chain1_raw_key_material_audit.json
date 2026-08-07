@@ -1,0 +1,28 @@
+{
+  "base58check_hits": [],
+  "counts": {
+    "base58check_hits": 0,
+    "format_hits": 2,
+    "prize_matches": 0,
+    "scalar_gates": 318
+  },
+  "format_hits": [
+    {
+      "formats": [
+        "nested-OpenSSL-envelope"
+      ],
+      "scope": "chain1_glued_96"
+    },
+    {
+      "formats": [
+        "nested-OpenSSL-envelope"
+      ],
+      "scope": "env48_half"
+    }
+  ],
+  "manifest_sha256": "4374818fdb904d1548d223d7cd728fb429c25a4315565f33ebad9e0694db1f42",
+  "prize_matches": [],
+  "schema": "chain1-raw-key-material-v73",
+  "scope_note": "Non-AES interpretation of chain1 bytes. Distinct from v67 cipher catalogue and split-envelope K4 (raw48 only). Does not decrypt with community passwords or parse the known 79-byte triplet.",
+  "status": "COMPLETE_NO_MATCH"
+}

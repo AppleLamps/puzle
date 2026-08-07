@@ -1,0 +1,59 @@
+{
+  "acceptance": "Legible plaintext under the v58/v51 gate; scalars via solver.targets.gate_scalar_bytes.",
+  "aes_targets": [
+    "chain1",
+    "env48",
+    "raw48_evp_iv",
+    "raw48_continuation_iv"
+  ],
+  "chess_fen": "B5KR/1r5B/2R5/2b1p1p1/2P1k1P1/1p2P2p/1P2P2P/3N1N2 b - - 0 1",
+  "chess_materials": [
+    "fen_literal",
+    "fen_lower",
+    "fen_no_spaces",
+    "move_rc6_plus",
+    "move_rc6",
+    "fen_then_move",
+    "chess_hint_letters_lower"
+  ],
+  "chess_move": "Rc6+",
+  "control_scalar_hex": "00000000000000000000000000000000000000000000000000000000000c0de5",
+  "date": "2026-08-07",
+  "expected_counts": {
+    "aes_trials": 360,
+    "materials": 15,
+    "scalar_gates": 30
+  },
+  "hypothesis": "The unfound poster/chess second door yields unlock material (FEN, ahimsa move, bunny nest, eye URL edit) that opens chain1 or the split envelopes before the community chain-1 password family applies.",
+  "id": "v72_second_door_chess_poster",
+  "kdf_digests": [
+    "md5",
+    "sha256"
+  ],
+  "password_forms": [
+    "literal",
+    "sha256_hex_lower",
+    "sha256_raw32"
+  ],
+  "poster_materials": [
+    "eye_flip_bit_163_url",
+    "eye_swap_bits_163_173_url",
+    "eye_force_bit_163_one_url",
+    "eye_force_bit_163_zero_url",
+    "eye_xor_bits_163_173_url",
+    "bunny_impure7_bits_packed",
+    "main_diagonal_lower_bits98",
+    "anti_diagonal_lower_bits98"
+  ],
+  "scalar_derivations": [
+    "sha256",
+    "double_sha256"
+  ],
+  "schema": "second-door-chess-poster-v72",
+  "scope_note": "Pre-chain1 chess/poster bundle only. Does not replay second_door_frontier_derivations.json broad families or v62 eye edits beyond the five frozen URL serializations.",
+  "status": "SEALED_BEFORE_AES_OR_SCALAR_EVALUATION",
+  "targets": {
+    "better_half_hash160": "4bc468447fe1b048ad030a2f9a125478eabc4ed6",
+    "half_uncompressed_pubkey": "04f4d1bbd91e65e2a019566a17574e97dae908b784b388891848007e4f55d5a4649c73d25fc5ed8fd7227cab0be4e576c0c6404db5aa546286563e4be12bf33559"
+  }
+}

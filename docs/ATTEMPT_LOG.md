@@ -675,3 +675,21 @@ legibility (never padding alone).
 | Status | Attempt | Evidence and exact scope |
 | --- | --- | --- |
 | **NEGATIVE (bounded)** | 44 catalogue outputs → 528 AES + 88 raw-key + 440 scalar gates; phase-3.2 AES and VIC positive controls pass; planted scalar control accepted / production rejects; **2 padding hits (0.32%, at chance), 0 legible opens, 0 prize matches** | `cipher_catalogue_23_16_7_preregistered.json` (seal `80c47063…16e5409`), `cipher_catalogue_23_16_7_audit.json` (status `COMPLETE_NO_MATCH`, stream `7a5ac23d…80dfb14`), `solver/cipher_catalogue_23_16_7_preregister.py`, `solver/cipher_catalogue_23_16_7_audit.py`; scope note forbids widening into unnamed classical ciphers. Remaining underdetermined step: whether 23/16/7 names a different operand entirely (not which cipher from an open menu) |
+
+## 24. Pipeline-operand split envelopes + seven-step yin-yang composition (v58–v59, 2026-08-07)
+
+Two sealed falsifiers from the approved post-analysis priorities: (1) legibility-gated
+split-envelope passwords from **page-order operands**, not phrase concatenation; (2) a
+fixed **composition rule** over seven structural pipeline outputs for unreached yin-yang
+step 4.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | v58: pre-enter operands (S91/S570 fields, decoded lastwords/thispassword, four resistor sum lists, three prime serializations) → **env48 only**; post-enter operands (Architect `[479:]` windows, VIC digits/message, rot180 mask/yin streams, `D` difference blocks) → **raw48 only** (both EVP and continuation IV). Three password forms × two KDFs; legibility gate. **192 AES + 48 scalar gates; 1 padding hit (0.52%, at chance), 0 legible, 0 prize** | `pipeline_operand_split_envelope_preregistered.json`, `pipeline_operand_split_envelope_audit.json`, `solver/pipeline_operand_split_envelope_preregister.py`, `solver/pipeline_operand_split_envelope_audit.py`; does not concat seven phrase strings or reopen Cosmic/Chain4 |
+| **NEGATIVE (bounded)** | v59: seven structural outputs (one per creator pipeline step) composed by **fold_xor** (cyclic XOR chain) or **fold_sha256_chain** (`h_i = sha256(h_{i-1} \|\| op_i)`); gated as scalars and as env48/raw48 AES passwords under legibility. **36 AES + 4 scalar gates; 0 padding, 0 legible, 0 prize** | `yinyang_seven_operand_composition_preregistered.json`, `yinyang_seven_operand_composition_audit.json`, `solver/yinyang_seven_operand_composition_preregister.py`, `solver/yinyang_seven_operand_composition_audit.py`; does not widen encodings or add classical ciphers |
+
+**Assessment.** The SalPhaseIon enter-marker split does not yield legible plaintext when
+each half is keyed by its natural page operands under the authenticated sha256-hex
+password format. The two fixed seven-operand compositions also miss. Split-envelope
+correct passwords and yin-yang step 4 remain open under rules that forbid phrase
+braids and padding-only acceptance.

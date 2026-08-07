@@ -2,7 +2,7 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 62,
+    "seals_checked": 64,
     "seal_mismatches": 0,
     "manifests_absent": 2,
     "result_digests_checked": 55,
@@ -60,6 +60,13 @@
       "manifest_present": true,
       "sealed_digest": "11074fc992fc54006c776c9fb8eaa800c59d765eb129d4d18b99529979e24d18",
       "actual_digest": "11074fc992fc54006c776c9fb8eaa800c59d765eb129d4d18b99529979e24d18",
+      "status": "OK"
+    },
+    {
+      "seal": "pipeline_operand_split_envelope_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "bd9bed5a87cd7d59ccd979f6c039b1f4a8e4eeaff0bc499a662042c5e2662ecc",
+      "actual_digest": "bd9bed5a87cd7d59ccd979f6c039b1f4a8e4eeaff0bc499a662042c5e2662ecc",
       "status": "OK"
     },
     {
@@ -436,6 +443,13 @@
       "manifest_present": true,
       "sealed_digest": "c69d8798b5eb86f59bbf535f9b6fcae03e0912d6f19c12ee3706b78080fe49c1",
       "actual_digest": "c69d8798b5eb86f59bbf535f9b6fcae03e0912d6f19c12ee3706b78080fe49c1",
+      "status": "OK"
+    },
+    {
+      "seal": "yinyang_seven_operand_composition_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "1f9bf6a36e221a991341f248324ddb757431917701a465de4dad385c0077cdb6",
+      "actual_digest": "1f9bf6a36e221a991341f248324ddb757431917701a465de4dad385c0077cdb6",
       "status": "OK"
     },
     {

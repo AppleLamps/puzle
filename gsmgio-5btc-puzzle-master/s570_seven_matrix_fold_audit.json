@@ -1,0 +1,91 @@
+{
+  "construction": {
+    "decomposition": "3 + 7*9*9",
+    "faed_length": 570,
+    "fold": "180-degree rotational opposite; 40 pairs + 1 center ('The One')",
+    "prefix": "fae",
+    "readings": {
+      "intertwined": {
+        "block_lengths": [
+          81,
+          81,
+          81,
+          81,
+          81,
+          81,
+          81
+        ]
+      },
+      "sequential": {
+        "block_lengths": [
+          81,
+          81,
+          81,
+          81,
+          81,
+          81,
+          81
+        ]
+      }
+    },
+    "remainder_length": 567,
+    "verified_center_cell": [
+      4,
+      4
+    ],
+    "verified_pair_count": 40
+  },
+  "counts": {
+    "aes_attempts": 2928,
+    "legible_accepts": [],
+    "scalar_attempts": 244,
+    "scalar_hits": [],
+    "strict_padding_hits": 18,
+    "vic_decodes": 62
+  },
+  "schema": "s570-seven-9x9-matrix-fold-audit-v1",
+  "scope_note": "Bounded to the sealed family above. Does not vary the fold axis, the pair ordering, the digit width, the spiral starting corner, non-180 rotations, transpositions, or unauthenticated alphabets. The intertwined reading is the literal 'seven intertwined' weave; sequential is the control.",
+  "sealed_family": {
+    "aes_kdfs": [
+      "md5",
+      "sha256"
+    ],
+    "aes_password_forms": [
+      "raw",
+      "sha256-lowerhex",
+      "sha256-digest"
+    ],
+    "block_readings": [
+      "sequential",
+      "intertwined(round-robin)"
+    ],
+    "fold_modes": [
+      "sum",
+      "diff",
+      "sum-mod9"
+    ],
+    "letter_maps": [
+      "a1_i9",
+      "a0_i8"
+    ],
+    "output_encodings": [
+      "folded-pairs-digits",
+      "grid-row-major-digits",
+      "grid-spiral-digits",
+      "grid-row-major-mod9-ai",
+      "pre-fold-spiral-digits"
+    ],
+    "vic_alphabet": "FUBCDORA.LETHINGKYMVPS.JQZXW",
+    "vic_row_digits": [
+      [
+        "1",
+        "4"
+      ],
+      [
+        "4",
+        "1"
+      ]
+    ]
+  },
+  "status": "COMPLETE_NO_ACCEPT"
+}

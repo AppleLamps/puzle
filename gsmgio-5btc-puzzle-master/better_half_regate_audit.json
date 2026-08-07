@@ -1,0 +1,54 @@
+{
+  "schema": "better-half-regate-audit-v1",
+  "status": "NO_MATCH_IN_REGATED_FAMILY",
+  "summary": {
+    "audits_regated": 4,
+    "half_matches": 0,
+    "better_half_matches": 0
+  },
+  "per_audit": [
+    {
+      "name": "solver.prime_reinsertion_audit",
+      "status": "GATED",
+      "original_status": "NO_MATCH_IN_ENUMERATED_FAMILY",
+      "unique_nonzero_scalars": 160,
+      "original_matches": 0,
+      "half_matches": [],
+      "better_half_matches": []
+    },
+    {
+      "name": "solver.frontier_experiment",
+      "status": "GATED",
+      "original_status": "NO_MATCH_IN_BOUNDED_FAMILY",
+      "unique_nonzero_scalars": 79519,
+      "original_matches": 0,
+      "half_matches": [],
+      "better_half_matches": []
+    },
+    {
+      "name": "solver.trail1_splice_experiment",
+      "status": "GATED",
+      "original_status": "NO_MATCH_IN_BOUNDED_FAMILY",
+      "unique_nonzero_scalars": 1410,
+      "original_matches": 0,
+      "half_matches": [],
+      "better_half_matches": []
+    },
+    {
+      "name": "solver.trail1_permutation_experiment",
+      "status": "GATED",
+      "original_status": "NO_MATCH_IN_BOUNDED_FAMILY",
+      "unique_nonzero_scalars": 10152,
+      "original_matches": 0,
+      "half_matches": [],
+      "better_half_matches": []
+    }
+  ],
+  "half_matches": [],
+  "better_half_matches": [],
+  "controls": {
+    "negative_control_scalar_1_rejected": true,
+    "targets_self_check_passed": true
+  },
+  "scope_note": "Re-runs four Half-only audit modules with their _target_match replaced by solver.targets.gate_scalar, which tests both Half (exact pubkey + hash160) and Better Half (hash160 under both serializations) on every candidate. The candidate families are exactly those of the original audits, regenerated from the same committed code. A NO_MATCH result means none of the candidates matched Better Half's hash160; it does not mean Better Half is not a target \u2014 only that these specific bounded families did not produce a Better Half key."
+}

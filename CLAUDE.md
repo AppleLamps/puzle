@@ -40,7 +40,7 @@ Inside the package:
 | `artifacts/bin/` | Byte-sealed mirrors of the result JSON; do not edit by hand |
 | `artifacts.json` | Manifest, addressed from the **repository root** |
 | `results/README.md` | Catalog of every result JSON |
-| `tests/` | 47 tests; `python -m pytest -q` from the package directory |
+| `tests/` | 60 tests; `python -m pytest -q` from the package directory |
 | `tmp/` | Historical community notes (kenorb, cody); **not canonical** |
 | `RESEARCH_LEDGER.md`, `VERIFICATION_REPORT.md`, `SALPHASEION_PREREGISTRATION.md` | Claim ledger, generated verification, preregistration v1–v39 |
 
@@ -227,7 +227,7 @@ Verify the package still passes before and after a change:
 
 ```bash
 cd gsmgio-5btc-puzzle-master
-python -m pytest -q        # 52 tests, roughly 100 seconds
+python -m pytest -q        # 60 tests, roughly 260 seconds
 python -m solver.targets   # re-derives every target constant
 python -m solver.report    # regenerates VERIFICATION_REPORT.md
 python -m solver.preregistration_integrity_audit   # every seal, digest and drift gate
@@ -236,7 +236,13 @@ python -m solver.preregistration_integrity_audit   # every seal, digest and drif
 The integrity audit is worth running before you trust any recorded negative.
 On 2026-08-06 it found a sealed manifest built from an uncommitted input, a
 result citing a manifest digest that exists nowhere, and two corrupt cache
-bodies the writer could never replace.
+bodies the writer could never replace. A second pass on 2026-08-06 found that
+the v51–v54 audits (commit `2795cba`) had been added without `.sha256` seal
+files, and that `core.autocrlf=true` on Windows had silently converted every
+JSON manifest from LF to CRLF, breaking six seal bindings. Both are repaired:
+`.gitattributes` now enforces `eol=lf` for `*.json` and `*.sha256`, the v51–v54
+seals are written, and the `architect_source_prime_reinsertion_audit.json`
+manifest digest is corrected. The audit is `CLEAN` and the suite is 60 passed.
 
 The standalone stage scripts resolve their inputs through `scripts/_paths.py`
 and run from any directory:

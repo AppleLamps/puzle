@@ -88,6 +88,34 @@ The line "and they also need funds to live" is the caption for that table.
 
 ## Conclusion
 
+**SUPERSEDED 2026-08-06.** The conclusion below was that "there is one prize
+target" and that the Half-only certificate concern was "no longer a gap". That
+resolution rested on an inference from creator idiom usage and chain behaviour,
+not on a creator statement. An independent re-audit on 2026-08-06 found two
+things that reopen the question:
+
+1. **The authenticated VIC plaintext says plural keys.** The tier-1 decode
+   reads `THEPRIVATEKEYSBELONGTOHALFANDBETTERHALF` — "PRIVATE KEYS" (plural),
+   "BELONG TO" (ownership by two named parties). The "two people" reading
+   resolved this as a disclaimer, but the text itself does not say "the private
+   key belongs to me"; it says the keys belong to Half and Better Half. The
+   plural is in the authenticated text; the singular is in the inference.
+2. **Five existing audits are Half-only certificates.** They define their own
+   `_target_match` against `HALF_X`/`HALF_Y` only and never test Better Half's
+   `hash160`: `prime_reinsertion_audit.py`, `page140_key_test.py`,
+   `frontier_experiment.py`, `trail1_splice_experiment.py`,
+   `trail1_permutation_experiment.py`. Their recorded negatives certify only
+   that no candidate matched Half's exact public key — they say nothing about
+   Better Half. The newer audits (v40–v54) all route through
+   `solver.targets.gate_scalar`, which tests both targets, so the gap is
+   confined to the older modules.
+
+The original conclusion is retained below for the citation trail.
+
+---
+
+**Original conclusion (2026-08-05, now superseded):**
+
 **There is one prize target: `1GSMG1JC9wtdSwfwApgj2xcmJPAwx7prBe`.** Its
 uncompressed public key is on chain, so it supports an exact point gate — the
 cheapest and strongest oracle in the puzzle, and the one every audit here
@@ -101,6 +129,9 @@ material claims a derivation path to it, and none is expected.
 - **Chain 4 certificates are not weakened.** The concern that every exhaustive
   audit is a "Half-only certificate" was correct as stated but is no longer a
   gap, because Half is the whole target set.
+  **SUPERSEDED:** see above — five older audits are in fact Half-only
+  certificates, and the "one target" premise they rest on is an inference, not
+  a creator statement.
 - **The Better Half gate stays.** `solver/targets.py` still tests
   `hash160(17ucy…)` under both public-key serializations on every candidate. It
   costs one extra hash per candidate and it is the cheap insurance against this
@@ -120,3 +151,12 @@ statement of the form "Better Half is not a target". Two things would overturn
 it: a creator message asserting a second derivable key, or a derivation that
 lands on `4bc468447fe1b048ad030a2f9a125478eabc4ed6`. The gate in
 `solver/targets.py` is what would catch the second case.
+
+**Update 2026-08-06:** The residual uncertainty is now treated as a live
+hypothesis, not a footnote. The authenticated text says plural keys; five
+audits never tested Better Half; and the creator's 2026-07-12 statement that
+"the '5' btc was never the actual prize" is consistent with the real payload
+being a message rather than (or in addition to) a key. The next action is to
+re-gate the Half-only audit families against Better Half's `hash160` under
+both serializations, using `solver.targets.gate_scalar` so both targets are
+tested on every candidate.

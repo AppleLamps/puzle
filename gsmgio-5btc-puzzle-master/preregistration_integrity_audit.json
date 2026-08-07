@@ -2,7 +2,7 @@
   "schema": "preregistration-integrity-audit-v1",
   "status": "CLEAN",
   "summary": {
-    "seals_checked": 56,
+    "seals_checked": 60,
     "seal_mismatches": 0,
     "manifests_absent": 2,
     "result_digests_checked": 52,
@@ -14,14 +14,14 @@
   },
   "seals": [
     {
-      "seal": "artifacts/door_probe/live_probe_preregistered.sha256",
+      "seal": "artifacts\\door_probe\\live_probe_preregistered.sha256",
       "manifest_present": true,
       "sealed_digest": "b2936e7fff2d27b03ea9eebdbb3458881018e890cf6c2ad779c57e57ecc277ef",
       "actual_digest": "b2936e7fff2d27b03ea9eebdbb3458881018e890cf6c2ad779c57e57ecc277ef",
       "status": "OK"
     },
     {
-      "seal": "artifacts/s91_direct_readability/preregistered.sha256",
+      "seal": "artifacts\\s91_direct_readability\\preregistered.sha256",
       "manifest_present": true,
       "sealed_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
       "actual_digest": "29c7c6d47aad5486f08a6af5f90ec49f6020191f5a60f7e1b0519674c3f585bb",
@@ -380,6 +380,34 @@
       "manifest_present": true,
       "sealed_digest": "83ea43a76231bc6f1d8838c1eaa17614ce41596cd5a93ff99547909f466e2ec1",
       "actual_digest": "83ea43a76231bc6f1d8838c1eaa17614ce41596cd5a93ff99547909f466e2ec1",
+      "status": "OK"
+    },
+    {
+      "seal": "v51_hashthetext_format_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "b3592f78d3f0ff936eb1932ec623b488f5edff7e00bc9f722f43836ef74d7f27",
+      "actual_digest": "b3592f78d3f0ff936eb1932ec623b488f5edff7e00bc9f722f43836ef74d7f27",
+      "status": "OK"
+    },
+    {
+      "seal": "v52_close_friends_personal_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "d0eb88ae303c92013e9b3889b04920806b83e3c96dd64ff65b206b11c74f4d32",
+      "actual_digest": "d0eb88ae303c92013e9b3889b04920806b83e3c96dd64ff65b206b11c74f4d32",
+      "status": "OK"
+    },
+    {
+      "seal": "v53_red_resistor_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "0fdfaa28c2412b5b54f297d1e5dcdcae49756461e23433344b7a97291d2d4a92",
+      "actual_digest": "0fdfaa28c2412b5b54f297d1e5dcdcae49756461e23433344b7a97291d2d4a92",
+      "status": "OK"
+    },
+    {
+      "seal": "v54_fae_sonata_preregistered.sha256",
+      "manifest_present": true,
+      "sealed_digest": "2ed63fad9679e921031211905468925fcd1a2092ad2a1660565b35f81633eaf5",
+      "actual_digest": "2ed63fad9679e921031211905468925fcd1a2092ad2a1660565b35f81633eaf5",
       "status": "OK"
     },
     {

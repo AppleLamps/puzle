@@ -44,6 +44,8 @@ work and is treated here as hypothesis, however often it is repeated.
 | 2021-12-02 | "There is / Another / D O O R" |
 | 2021-12-25 | "The previous 'there is another door hint' is still a thing. We're not sure if anyone has found another door so far … **prime numbers** … that is definitely an aspect which is required to proceed. Furthermore, along the way, **some characters need to be 'zeroed out'**." |
 | 2021-12-31 | "The only date I give away is the **expiry date of Neo's passport**." (`11-09-2001`) |
+| 2022-12-11 | (replying to a solver's posted photograph of the Time-Life *Cosmic Duality* book cover) "**That is very specific**", then "If the puzzle is solved you'll see how **scary specific** that is 😂" — the only time he rated any posted image |
+| 2023-01-08 | "@barrystyle, **provided a very specific hint already.**" — the follow-up that names the same object the already-given hint |
 | 2023-01-09 | "At least **prime number is very important** to get any further." |
 | 2023-02-23 | an encoded image decoding to the pipeline below |
 | 2023-05-02 | "Still remarkable that scene. Especially the **expiration date of his passport**." |
@@ -51,6 +53,7 @@ work and is treated here as hypothesis, however often it is repeated.
 | 2023-08-06 | "Once you hit a **ying yang**, you'll be able to solve it the same day." |
 | 2025-04-28 | "Did anyone found yingyang? I don't think so … when yingyang is reached, **2 hours max**." / "It's the next phase." |
 | 2026-03-03 | "**I only need to look at the address. If any of you reaches the next phase, the price is taken in no-time.**" (answering a claimed prime-index extraction of "ying yang"/"salvation") |
+| 2026-03-03 | (replying to a solver's message ending "Instead we should be **turning inward to find the solution**") "👆🫡" — the only point-up emoji endorsement of a solver message in the export, on the same day as the address statement |
 | 2026-03-03 | "No hints, only free will." / "Jacque was quite an inspiring lad I'd say." / "I'm going to rewatch episode 3.5 with **the better half**." |
 | 2026-05-28 | "Ah, ofcourse. **The puzzle is still valid!**" |
 | 2026-07-12 | "Most of you know the puzzle WAAAY better than me at this point. **I have a hidden laptop which I haven't touched in years. On that thing… is the actual answer.**" |
@@ -178,11 +181,24 @@ unfound** on 2025-04-28. Public work treated door‑1 (`theseedisplanted`) as
 done and moved forward forever.
 
 **Damaging fork #2 — Cosmic Duality ≠ yinyang.** The HTML heading is the only
-creator use of those words. Solvers glued it to his `ying yang` language and
-built the 7‑XOR. Proof that equation is false: if Cosmic decrypt *were*
-yinyang, he would not say in 2025 that nobody has found it. The Dec 2022
-“scary specific” reply was to a **yin‑yang image** a solver googled — that
-endorses yin‑yang as a concept, not “AES‑decrypt the Cosmic textarea.”
+creator use of those words in the puzzle itself. Solvers glued it to his `ying
+yang` language and built the 7‑XOR. Proof that equation is false: if Cosmic
+decrypt *were* yinyang, he would not say in 2025 that nobody has found it.
+
+**Correction (2026-08-06, against the export bytes):** the Dec 2022 “scary
+specific” reply was **not** to a generic yin-yang image. On 2022-12-10 a solver
+posted a photograph of the Time-Life *Cosmic Duality* book cover (message 8310,
+file `image_2022-12-11_07-09-14.png`); Jrk replied “That is very specific”
+(8311) and “If the puzzle is solved you'll see how scary specific that is 😂”
+(8315), and on 2023-01-08 added “@barrystyle, provided a very specific hint
+already.” (8328). Solvers later identified the object as “a very specific book
+cover, not that easy to find” whose contents are “the name of the book, yellow
+and blue suns on the book cover.” So the creator **did** validate the book
+cover as an object — a book literally titled *Cosmic Duality* — while still
+never naming the AES-decrypt-the-textarea operation. The earlier framing
+(“a yin-yang image a solver googled — that endorses yin-yang as a concept”)
+understated what the export shows. The page-label-versus-operation distinction
+stands; the image description does not.
 
 **Damaging fork #3 — Chain‑1 password ≠ his 2023 recipe.** Working password:
 `matrixsumlistenterlastwordsbeforearchichoicethispasswordmatrixsumlist`.
@@ -272,12 +288,18 @@ joined by words the creator never lists.
 
 **3. "Cosmic Duality" is a page label, not a creator instruction.** The
 SalPhaseIon HTML has a second textarea headed `Cosmic Duality`. That is the
-**only** creator-published use of those words. The Telegram corpus never says
-"Cosmic", "Duality", or "decrypt the second blob." The creator *does* say
-`ying yang` / `yingyang` and lists `yinyang` in the 2023 pipeline — solvers
-**equated** that with the Cosmic textarea and built the 7-XOR decrypt. That
-equation is not creator-sourced. Treating Cosmic AES as the mandatory next
-lock is community gravity, not his hint trail.
+**only** creator-published use of those words on a puzzle page. The creator's
+Telegram messages never contain his own words "Cosmic", "Duality", or "decrypt
+the second blob." **But** he did validate the *Cosmic Duality* **book cover** —
+a physical object literally carrying that title — with "That is very specific"
+/ "scary specific" (2022-12-11) and "provided a very specific hint already"
+(2023-01-08). The creator *does* say `ying yang` / `yingyang` and lists
+`yinyang` in the 2023 pipeline — solvers **equated** that with the Cosmic
+textarea and built the 7-XOR decrypt. That equation is not creator-sourced.
+Treating Cosmic AES as the mandatory next lock is community gravity, not his
+hint trail. The correction narrows, rather than widens, the fork: the creator
+endorsed the **book as the already-given hint object**, not the AES operation
+on the second textarea.
 
 **4. The chain 1 password reveals the creator's joke, and it should recur.** The
 raw stream reads as an instruction — *matrixsumlist, **enter**,

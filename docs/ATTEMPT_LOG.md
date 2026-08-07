@@ -1,6 +1,6 @@
 # Running attempt log
 
-Last consolidated: 2026-08-05.
+Last consolidated: 2026-08-06.
 
 This is the canonical, append-only index of puzzle approaches represented in
 the repository, git history, community notes, and prior-agent transcript. It
@@ -343,7 +343,7 @@ how results were recorded did not.
 | **DEFECT (repaired)** | `architect_source_prime_reinsertion_audit.json` recorded `manifest_sha256` `3c7073ae…`, which no committed manifest produces and which appears in no commit. Re-running against committed bytes yields the same `COMPLETE_NO_MATCH` and 132 unique valid scalars under manifest `b3dc146d…` | `architect_source_prime_reinsertion_audit.json` |
 | **NOT A DEFECT (documented)** | The v38 and v39 manifests are absent from version control, so their result digests resolve to nothing and the two largest negatives (2,551,032 and 1,807,668 AES trials) look unauditable. They are gitignored by size — 770 MB and 550 MB — and both regenerate **bit-exactly** to their sealed digests from committed code | verified this session; `solver/salphaseion_preregister_v38.py`, `…_v39.py` |
 | **DEFECT (repaired)** | Two Wayback cache bodies were committed corrupt: their bytes hash to neither their own content-addressed filenames nor their CDX digests. The cache writer skipped any existing path, so they could never be replaced, and the audit rebuilt its cache index from the same result file it overwrites — so one offline run permanently poisoned every later one. Both bodies re-fetched and verified | `solver/wayback_early_asset_audit.py` |
-| **INFRASTRUCTURE** | `solver/preregistration_integrity_audit.py` now checks all 53 seals, every recorded manifest digest, and each drift gate, with tests. Status is `CLEAN` | `preregistration_integrity_audit.json` |
+| **INFRASTRUCTURE** | `solver/preregistration_integrity_audit.py` now checks all 60 seals, every recorded manifest digest, and each drift gate, with tests. Status is `CLEAN` as of 2026-08-06 (second pass; see §17) | `preregistration_integrity_audit.json` |
 
 None of these repairs changes any research conclusion: every re-executed
 negative reproduced. What changed is that the negatives are now checkable.
@@ -520,3 +520,131 @@ and no phrase-derived AES password opens it.
 | **VERIFIED (from raw pixels, this session)** | Returned to the first image and rebuilt it from `follow_the_white_rabbit.png` pixels, not the audits: 5 colours, off-white `(254,254,254)` = exactly one 25×25 cell at (7,4); the whole image lies on an exact 5-pixel (70×70) grid and every 14×14 cell is uniform **except the 7 the bunny crosses** — so the nest holds exactly one sub-grid object, the white-rabbit line drawing, and no additional bitstream. Reproduced the down-first CCW spiral (black+blue=1) → `gsmg.io/theseedisplanted`; the 24 blue/yellow markers = the 24 byte-LSB cells → `F73D92`; blue/yellow on first 24 primes → 484/479, imbalance = blue prime 5 → 479=479 | this session; `rabbit_view.png`, `bunny_zoom.png` |
 | **NEGATIVE (bounded)** | v53: red divider used as a genuine operand (the repo's own "barely used" gap). Full poster confirmed 1048×1556, red `#ED1C24` 15px (rows 1047-1061). Resistor grid (K0 W9 B6 Y4, O∈{9,0}) over spiral/row/col orders × zeroing {none, prime-spiral-index, prime-value, eye} × red=2 as prefix/suffix/multiplier/xor/modulus × {digit-int, row/col/rowcol sums, totals}, each gated as sha256/double-sha256/raw. 288 gated derivations, **0 prize matches** | `v53_red_resistor_preregistered.json` (seal `21ad5560…160963cb`), `v53_red_resistor_audit.json`; gate pos/neg controls pass |
 | **VERIFIED (on-chain, this session)** | Creator's own oracle checked via blockstream: prize `1GSMG…` = 125,634,510 sats (1.25634510 BTC, 125 tx), unchanged from the repo's recorded figure; `17ucy…` = 375,054,755 sats (3.75054755 BTC, 43 tx, spent 0). Puzzle live, yin-yang unreached | blockstream.info API |
+
+## 17. Second integrity pass — CRLF corruption and v51–v54 seal repair (2026-08-06)
+
+An independent session ran `python -m solver.preregistration_integrity_audit`
+and `python -m pytest -q` against the current commit and found both failing,
+contradicting the `CLEAN` / 52-passed status recorded in §14 and `CLAUDE.md`.
+The defects were not new research findings; they were recording failures
+introduced *after* the §14 pass by commit `2795cba` (v51–v54) and by a Windows
+`core.autocrlf=true` checkout.
+
+| Status | Defect and repair | Evidence |
+| --- | --- | --- |
+| **DEFECT (repaired)** | **CRLF corruption of all JSON manifests.** `core.autocrlf=true` on Windows silently converted every `*.json` and `*.sha256` file from LF to CRLF on checkout. Seals were computed against LF bytes, so six seal bindings broke (v44, v45, v46, v47, v48, and the v2 re-seal). The v1 drift gate reported 0 differing paths instead of 1, because the drifted input file's CRLF hash matched the "uncommitted" hash the v1 manifest was sealed against — the "uncommitted copy" was the CRLF version. Repair: `.gitattributes` now enforces `eol=lf` for `*.json` and `*.sha256`; 397 files normalised | `.gitattributes`, `preregistration_integrity_audit.json` |
+| **DEFECT (repaired)** | **v51–v54 lacked `.sha256` seal files.** Commit `2795cba` added four preregistered manifests with inline `seal_sha256` fields but no external `.sha256` files, making them invisible to the integrity audit's seal checker. Repair: external `.sha256` seal files written for all four | `v51_hashthetext_format_preregistered.sha256`, `v52_close_friends_personal_preregistered.sha256`, `v53_red_resistor_preregistered.sha256`, `v54_fae_sonata_preregistered.sha256` |
+| **DEFECT (repaired)** | **`architect_source_prime_reinsertion_audit.json` digest never corrected on disk.** §14 records this as repaired (`3c7073ae…` → `b3dc146d…`), but the file on disk still held `3c7073ae…`. Repair: `manifest_sha256` field updated to `b3dc146d…`, the actual hash of the committed manifest | `architect_source_prime_reinsertion_audit.json` |
+| **INFRASTRUCTURE** | Integrity audit now `CLEAN`: 60 seals checked, 0 mismatches, 0 unresolved digests, 2 absent manifests (v38/v39, gitignored, regenerable), 1 drift gate failing but repaired. Suite: **60 passed, 0 failed** (was 7 failed / 53 passed before this pass) | `preregistration_integrity_audit.json`, `pytest -q` |
+
+**Lesson.** The §14 "CLEAN" status was true at the moment it was written but
+became false when the next commit added audits without re-running the integrity
+gate. The `core.autocrlf` failure mode is platform-specific and would not have
+appeared on Linux. Both are now guarded: `.gitattributes` prevents the CRLF
+recurrence, and the integrity audit's test suite will fail if any future commit
+breaks a seal. Run the audit before trusting any recorded negative, and run it
+again after every commit that touches preregistration files.
+
+## 18. Better Half re-opening — Half-only certificate re-gating (2026-08-06)
+
+The authenticated VIC plaintext reads `THEPRIVATEKEYSBELONGTOHALFANDBETTERHALF`
+— "PRIVATE KEYS" (plural), "BELONG TO" (ownership by two named parties). The
+repo's conclusion that Better Half is not a derivable target (`HALF_AND_BETTER_HALF.md`)
+rested on an inference from creator idiom usage and chain behaviour, not on a
+creator statement. An audit of the solver package found five older modules
+that define their own `_target_match` against Half's exact public point only
+and never test Better Half's `hash160`:
+
+- `solver/prime_reinsertion_audit.py` (160 unique scalars)
+- `solver/frontier_experiment.py` (79,519 unique scalars)
+- `solver/trail1_splice_experiment.py` (1,410 unique scalars)
+- `solver/trail1_permutation_experiment.py` (10,152 unique scalars)
+- `solver/page140_key_test.py` (no result JSON on disk; not re-gated)
+
+Their recorded negatives certified only that no candidate matched Half's exact
+public key — they said nothing about Better Half. The newer audits (v40–v54)
+all route through `solver.targets.gate_scalar`, which tests both targets, so
+the gap was confined to these older modules.
+
+| Status | Attempt and result | Evidence |
+| --- | --- | --- |
+| **NEGATIVE (bounded, re-gated)** | Re-ran the four Half-only audit modules with their `_target_match` replaced by `solver.targets.gate_scalar`, which tests both Half (exact pubkey + hash160) and Better Half (hash160 under both serializations) on every candidate. 91,241 total unique scalars re-gated. **0 Half matches, 0 Better Half matches.** Negative control (scalar=1 rejected) and positive control (`targets.self_check()`) both pass | `better_half_regate_audit.json`, `solver/better_half_regate_audit.py`, `tests/test_better_half_regate.py` |
+
+**Assessment.** The four Half-only audit families do not produce a Better Half
+key under the full gate. Their original negatives now hold for both targets,
+not just Half. This closes the "half a certificate" gap for these specific
+families. It does **not** close the broader question of whether Better Half is
+a derivable target — only these 91,241 candidates from these four families were
+tested. The authenticated plural-keys text and the creator's 2026-07-12 "5 btc
+was never the actual prize" statement keep the Better Half hypothesis open as a
+research direction, but it is not certified by any existing audit family.
+
+## 19. Cosmic Duality book cover verification + "unity of opposites" audit (2026-08-06)
+
+Telegram-evidence correction first: the 2022-12-10 image that the creator rated
+"very specific" / "scary specific" (and named the already-given hint on
+2023-01-08) was a photograph of the Time-Life *Cosmic Duality* book cover, not
+a generic yin-yang image. Full provenance in `CREATOR_SOURCED.md` (creator
+statement table and Damaging fork #2 correction), verified against the
+2026-08-05 export (messages 8310/8311/8315/8328; solver identifications
+16829/16830/43607). Also added: the creator's only point-up endorsement of a
+solver message (2026-03-03, message 60285) — the "turning inward" clause.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | The book's organising phrase (opening essay "The Unity of Opposites", verified in the 152-page scan) and the endorsed turn-inward clause, as a sealed phrase family, tested (a) as sha256/double-sha256 scalar candidates against Half + Better (20 gates, 0 hits); (b) as AES passwords (raw / sha256-hex / sha256-digest × MD5 + SHA-256 EVP) against chain1, chain2, phase32, cosmic under a byte-level legibility gate (240 trials, 0 padding, 0 legible); (c) as the alphabet seed for the authenticated 28-cell VIC straddling checkerboard (row digits 1,4 and 4,1; a=0..i=8 and a=1..i=9) over dbbi (91), faed (570), both reversed ("turning inward"), and both unified directions — 320 checkerboard reads, every decoded answer sha256-gated as a scalar (0 prize matches), every decoded answer AES-tested under both EVP digests (0 legible opens) | `unity_of_opposites_audit.json`, `solver/unity_of_opposites_audit.py`; seal = the module source itself; scope note in the JSON lists the exactly bounded choices |
+
+**Assessment.** The book-cover lead is real (the creator validated the exact
+object), but the book's organising phrase does not open any authenticated
+envelope, does not gate to either prize target, and does not legibly decode
+the two SalPhaseIon streams under the canonical checkerboard. The book
+remains an endorsed *object* with no operation attached — consistent with the
+existing "READ (not mined)" row in §16, now with the creator's validation
+established. The turn-inward endorsement also carries no direct phrase
+payload under this family. Next pressure should treat the book cover as an
+identity/anchor (like Witteveen) rather than a passphrase source.
+
+## 20. S570 as seven intertwined 9x9 matrices, summed and 180-folded (2026-08-06)
+
+Construction (arithmetic verified): the faed run is 570 symbols = "fae" + 567,
+and 567 = 7x9x9, so the remainder is exactly seven 9x9 matrices in the page's
+nine-symbol alphabet.  Reading them sequentially OR round-robin ("seven
+intertwined"), summing position-wise, and folding the 9x9 sum through its
+180-degree rotational opposite leaves **40 pairs + 1 center** - a literal
+"The One" (cells (4,4) fixed).  Joins matrixsumlist + seven-intertwined +
+turning-inward.  Tested before any looser family.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | Seal: {sequential, intertwined} x {a=1..i=9, a=0..i=8} x fold {sum, |diff|, sum-mod9} x encodings {folded-pairs digits, grid row-major, grid inward-spiral (the poster's own CCW order), grid mod9 a-i, pre-fold spiral} — 244 scalar gates (sha256/double-sha256) vs Half + Better, **0 hits**; 2,928 AES trials (raw / sha256-hex / sha256-digest x MD5 + SHA-256 EVP) vs chain1/chain2/phase32/cosmic, 18 padding hits (0.61%, within sampling noise of the 0.33-0.4% chance rate), **0 legible**; 62 VIC reads with the committed 3.2.2 alphabet, decoded answers sha256-gated + AES-tested, **0 prize matches, 0 opens** | `s570_seven_matrix_fold_audit.json`, `solver/s570_seven_matrix_fold_audit.py`; construction fields and counts recorded in the JSON |
+
+**Assessment.** The 7x9x9 / 40-pairs-plus-center structure is exact and
+well-defined (it is a genuine matrix-sum-list reading of S570), but no
+encoding of the sum, the fold, the pairs, or the spiral reaches the prize
+or opens an envelope.  The construction should not be widened with free
+parameters; if it is the intended "matrixsumlist" stage, the missing step
+is a selection/reading the creator has not yet named, not more encodings of
+this one.
+
+## 21. S570 fold as an Architect[479] selector index source (2026-08-06)
+
+The 40-pair 180-degree fold of the summed S570 seven-9x9 matrices was used as a
+**selector index source** into the authenticated Phase 3.2 Architect A-Z
+plaintext, exactly as the creator's sealed 2023-02-23 pipeline uses the poster
+matrixsumlist: same four index bases (absolute_0based, from_479_0based,
+from_479_1based, cumulative_from_479_0based), same five serializations, same
+three overlays, same yinyang offset 479, same gate_scalar_bytes acceptance.
+The pair reading is the sealed row-major first-40 (flat index < 40) paired with
+180-degree opposites, identical to test.py. The cited phrase
+REINSERTING THE PRIME BASICS ... SEVEN INTERTWINED PASSWORDS is confirmed
+present (space-free) in the authenticated plaintext.
+
+| Status | Attempt | Evidence and exact scope |
+| --- | --- | --- |
+| **NEGATIVE (bounded)** | {sequential, intertwined} x {a=1..i=9, a=0..i=8} x fold {sum, sum-mod9, absdiff, signeddiff} -> 40 pair offsets -> 4 index bases x 3 overlays x 5 serializations — 624 unique scalars vs Half + Better, **0 hits**; 4,608 AES trials (raw / sha256-hex / sha256-digest x MD5 + SHA-256 EVP) vs chain1/chain2/phase32/cosmic, 15 padding hits (0.33%, at the chance rate), **0 legible** | `s570_fold_architect_selector_audit.json` (sha256 `7e247426d561dd31a1b6c771d9b20252b957daf887a2cef17104c8e851c85199`), `solver/s570_fold_architect_selector_audit.py`; 16 families, each with its 40 pair values, index bases, overlays, scalar_tests and result recorded in the JSON |
+
+**Assessment.** The rule for reading the 40 pairs and using them as offsets is
+non-arbitrary (creator-sealed), and the construction is well-defined, but no
+extraction reaches the prize or opens an envelope. This closes the S570
+fold-as-selector line under the creator's own pipeline constants without
+adding free parameters.

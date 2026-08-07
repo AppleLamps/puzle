@@ -54,6 +54,21 @@ creator says yin-yang is unreached, so 479 is at best incomplete.
 
 ## Closed this session (2026-08-06)
 
+- **Unity-of-opposites phrase** — the Time-Life *Cosmic Duality* book-cover lead
+  is verified (creator: "very specific" / "scary specific" / "provided a very
+  specific hint already"), but the book's organising phrase and the creator-
+  endorsed turn-inward clause do not open any envelope or gate to either target.
+  `unity_of_opposites_audit.json`, `ATTEMPT_LOG.md` §19.
+- **S570 seven 9×9 matrix fold** — faed = "fae" + 7×9×9; summed (sequential or
+  intertwined) and 180-folded to 40 pairs + 1 center, verified exact, but no
+  encoding of the sum/fold/pairs/spiral reaches the prize or opens an envelope.
+  `s570_seven_matrix_fold_audit.json`, `ATTEMPT_LOG.md` §20.
+- **S570 fold as Architect[479] selector** — the 40 pair values used as offsets
+  into the authenticated Architect plaintext under the creator's sealed
+  2023-02-23 pipeline rule set (4 index bases, 5 serializations, 3 overlays,
+  offset 479): 624 unique scalars, 0 hits; 4,608 AES, 0 legible. Closes the
+  fold-as-selector line without added parameters. `s570_fold_architect_selector_audit.json`,
+  `ATTEMPT_LOG.md` §21.
 - **v51** — split SalPhaseIon envelopes (env48/raw48) under the authenticated
   sha256-hex password format, legibility gate. 1,850 trials, 0 legible, 0 match.
 - **v52** — the "close friends" hint as a preregistered recognition set (Fresco/
@@ -84,10 +99,13 @@ creator says yin-yang is unreached, so 479 is at best incomplete.
 Cosmic / Chain 4 / base-38 as the next lock; new key derivations mined from the
 `YOUWON` alignment (explaining it is open, mining it is closed); `faed[94:201]`
 format sweeps (v40); Better Half as a second target (one oracle, settled);
-Telegram media (all creator items are reaction memes); the F-A-E Sonata (v54);
-hashing any poster property that has no operation attached; and any candidate
-accepted on padding, a readable fragment, a vanity prefix, a community label, or
-on-chain activity at a solver-published address.
+Telegram media as password sources (creator items are reaction memes; the one
+exception — the Time-Life *Cosmic Duality* book cover the creator rated "very
+specific"/"scary specific" and called the already-given hint — is an endorsed
+object with no attached operation, see `ATTEMPT_LOG.md` §19); the F-A-E Sonata
+(v54); hashing any poster property that has no operation attached; and any
+candidate accepted on padding, a readable fragment, a vanity prefix, a
+community label, or on-chain activity at a solver-published address.
 
 ## The only two moves with new information
 

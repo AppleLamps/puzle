@@ -38,6 +38,12 @@ completed; inspect the `accepted` array before claiming plaintext.
 | Prefix/triangle/trail | `chain4_*prefix*.json`, `trail1_*experiment.json`, `xor_triangle_audit.json`, `chain4_completed_triangle.json` |
 | Other Chain 4 probes | `chain4_aes_integer_audit.json`, `chain4_xcoordinate_audit.json`, `chain4_split_audit.json` |
 
+## Cross-repository prize gate
+
+| Family | Files |
+| --- | --- |
+| Rescan of every committed output through `solver/prize_gate.py` (2026-10-21) | `prize_gate_rescan.json`, `../docs/PRIZE_GATE_RESCAN.md` |
+
 ## Creator second-door and Architect 479
 
 | Family | Files |
